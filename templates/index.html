@@ -5,6 +5,20 @@
 <h1 class="page-title">Search results for &ldquo;{{ search }}&rdquo;</h1>
 {% else %}
 
+<!-- Hero / Instructions -->
+<div style="background: linear-gradient(135deg, var(--primary) 0%, #2563eb 100%); color: #fff; border-radius: var(--radius); padding: 1.5rem 2rem; margin-bottom: 1.5rem;">
+    <h1 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 0.5rem;">Croton News</h1>
+    <p style="font-size: 0.95rem; opacity: 0.9; margin-bottom: 1rem; max-width: 700px;">
+        Your hyperlocal news source for Croton-on-Hudson, NY. We aggregate village government minutes,
+        police blotter, fire department, school news, weather, and transit updates &mdash; all in one place.
+    </p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+        <a href="#documents" style="background: rgba(255,255,255,0.2); color: #fff; padding: 0.5rem 1rem; border-radius: var(--radius); font-weight: 600; font-size: 0.85rem;">Search Documents</a>
+        <a href="/documents" style="background: rgba(255,255,255,0.15); color: #fff; padding: 0.5rem 1rem; border-radius: var(--radius); font-weight: 600; font-size: 0.85rem;">Browse All 624 Documents</a>
+        <a href="/feed" style="background: rgba(255,255,255,0.15); color: #fff; padding: 0.5rem 1rem; border-radius: var(--radius); font-weight: 600; font-size: 0.85rem;">RSS Feed</a>
+    </div>
+</div>
+
 <!-- Weather + Water banner -->
 {% set weather_articles = articles | selectattr('category', 'equalto', 'weather') | list %}
 {% if weather_articles %}
@@ -12,11 +26,11 @@
     {% for w in weather_articles[:3] %}
     <div class="weather-card">
         <span class="weather-icon">
-            {% if 'Current Weather' in w.title %}🌡️
-            {% elif 'Forecast' in w.title %}📅
-            {% elif 'Croton River' in w.title %}🌊
-            {% elif '⚠️' in w.title %}⚠️
-            {% else %}🌤️{% endif %}
+            {% if 'Current Weather' in w.title %}&#127777;
+            {% elif 'Forecast' in w.title %}&#128197;
+            {% elif 'Croton River' in w.title %}&#127754;
+            {% elif '&#9888;' in w.title %}&#9888;
+            {% else %}&#127780;{% endif %}
         </span>
         <div class="weather-info">
             <strong>{{ w.title | replace('Current Weather: ', '') | replace('Forecast: ', '') }}</strong>
@@ -28,6 +42,29 @@
     {% endfor %}
 </div>
 {% endif %}
+
+<!-- Document Search Section -->
+<div id="documents" style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; margin-bottom: 1.5rem;">
+    <h2 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;">&#128269; Search Municipal Documents</h2>
+    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.75rem;">
+        Full-text search across 624 municipal meeting minutes from 16 committees &mdash; Board of Trustees,
+        Planning Board, Zoning Board, Police Advisory, Fire Council, and more. Documents from 2020&ndash;2026.
+    </p>
+    <form action="/documents" method="get" style="display: flex; gap: 0.5rem; max-width: 600px;">
+        <input type="text" name="q" placeholder="Search documents (e.g. budget, zoning, police, water...)"
+               style="flex: 1; padding: 0.6rem 0.75rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg); color: var(--text); font-size: 0.9rem;">
+        <button type="submit" style="padding: 0.6rem 1.2rem; background: var(--primary-light); color: #fff; border: none; border-radius: var(--radius); cursor: pointer; font-weight: 600; font-size: 0.9rem;">Search</button>
+    </form>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem;">
+        <a href="/documents?q=police" style="font-size: 0.78rem; padding: 0.25rem 0.6rem; background: var(--bg-hover); border-radius: 12px; color: var(--text-muted);">Police</a>
+        <a href="/documents?q=budget" style="font-size: 0.78rem; padding: 0.25rem 0.6rem; background: var(--bg-hover); border-radius: 12px; color: var(--text-muted);">Budget</a>
+        <a href="/documents?q=zoning+variance" style="font-size: 0.78rem; padding: 0.25rem 0.6rem; background: var(--bg-hover); border-radius: 12px; color: var(--text-muted);">Zoning</a>
+        <a href="/documents?q=planning+board+site+plan" style="font-size: 0.78rem; padding: 0.25rem 0.6rem; background: var(--bg-hover); border-radius: 12px; color: var(--text-muted);">Planning</a>
+        <a href="/documents?q=water+sewer" style="font-size: 0.78rem; padding: 0.25rem 0.6rem; background: var(--bg-hover); border-radius: 12px; color: var(--text-muted);">Water &amp; Sewer</a>
+        <a href="/documents?q=fire" style="font-size: 0.78rem; padding: 0.25rem 0.6rem; background: var(--bg-hover); border-radius: 12px; color: var(--text-muted);">Fire</a>
+        <a href="/documents?q=schools" style="font-size: 0.78rem; padding: 0.25rem 0.6rem; background: var(--bg-hover); border-radius: 12px; color: var(--text-muted);">Schools</a>
+    </div>
+</div>
 
 <h1 class="page-title">Latest News
     <span style="font-size:0.7em; font-weight:400; color:var(--text-muted);">{{ total_count }} articles from {{ cat_counts|length }} categories</span>

@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from flask import (
-    Flask, Response, abort, g, jsonify, render_template, request,
+    Flask, Response, abort, g, jsonify, render_template, request, send_from_directory,
 )
 
 from scrapers import ALL_SCRAPERS
@@ -412,6 +412,23 @@ def sitemap():
 # ---------------------------------------------------------------------------
 # Startup
 # ---------------------------------------------------------------------------
+
+
+
+# --- Calendar ---
+
+@app.route("/calendar")
+def calendar_page():
+    return send_from_directory(app.template_folder, "calendar.html")
+
+@app.route("/api/calendar/events")
+def api_calendar_events():
+    return send_from_directory(app.static_folder, "events.json")
+
+@app.route("/feeds/<path:filename>")
+def feeds(filename):
+    mimetype = "text/calendar" if filename.endswith(".ics") else "application/json"
+    return send_from_directory(os.path.join(app.static_folder, "feeds"), filename, mimetype=mimetype)
 
 if __name__ == "__main__":
     init_db()
