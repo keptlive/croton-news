@@ -254,6 +254,27 @@ def index():
     return render_template("index.html", articles=articles, search=search, **_ctx())
 
 
+@app.route("/documents")
+def documents_page():
+    """Municipal documents search page."""
+    q = request.args.get("q", "").strip()
+    results = []
+    if q and ECODE360_DB.exists():
+        conn = sqlite3.connect(str(ECODE360_DB))
+        c = conn.cursor()
+        c.execute(
+            "SELECT doc_id, committee, date, snippet(chunks, 4, '<b>', '</b>', '…', 40), rank "
+            "FROM chunks WHERE chunks MATCH ? ORDER BY rank LIMIT 30",
+            (q,),
+        )
+        results = [
+            {"doc_id": r[0], "committee": r[1], "date": r[2], "snippet": r[3], "score": round(-r[4], 2)}
+            for r in c.fetchall()
+        ]
+        conn.close()
+    return render_template("documents.html", query=q, results=results, **_ctx())
+
+
 @app.route("/category/<name>")
 def category_page(name):
     if name not in CATEGORIES:
@@ -283,6 +304,63 @@ def api_articles():
     offset = int(request.args.get("offset", 0))
     articles = query_articles(category=category, search=search, limit=limit, offset=offset)
     return jsonify({"articles": articles, "count": len(articles)})
+
+
+# --- Document Search (ecode360 minutes/resolutions) ---
+
+ECODE360_DB = BASE_DIR / "ecode360" / "search.db"
+
+
+@app.route("/api/search/documents")
+def api_search_documents():
+    """Full-text search across municipal meeting minutes and resolutions."""
+    q = request.args.get("q", "").strip()
+    committee = request.args.get("committee")
+    limit = min(int(request.args.get("limit", 20)), 100)
+    if not q:
+        return jsonify({"error": "Missing 'q' parameter"}), 400
+    if not ECODE360_DB.exists():
+        return jsonify({"error": "Search index not built yet"}), 503
+    conn = sqlite3.connect(str(ECODE360_DB))
+    c = conn.cursor()
+    try:
+        if committee:
+            c.execute(
+                "SELECT doc_id, committee, date, snippet(chunks, 4, '<b>', '</b>', '…', 40), rank "
+                "FROM chunks WHERE chunks MATCH ? AND committee = ? ORDER BY rank LIMIT ?",
+                (q, committee, limit),
+            )
+        else:
+            c.execute(
+                "SELECT doc_id, committee, date, snippet(chunks, 4, '<b>', '</b>', '…', 40), rank "
+                "FROM chunks WHERE chunks MATCH ? ORDER BY rank LIMIT ?",
+                (q, limit),
+            )
+        results = [
+            {"doc_id": r[0], "committee": r[1], "date": r[2], "snippet": r[3], "score": round(-r[4], 2)}
+            for r in c.fetchall()
+        ]
+    except Exception as e:
+        conn.close()
+        return jsonify({"error": str(e)}), 400
+    conn.close()
+    return jsonify({"query": q, "results": results, "count": len(results)})
+
+
+@app.route("/api/documents")
+def api_documents():
+    """List all indexed municipal documents."""
+    if not ECODE360_DB.exists():
+        return jsonify({"error": "Search index not built yet"}), 503
+    conn = sqlite3.connect(str(ECODE360_DB))
+    c = conn.cursor()
+    c.execute("SELECT doc_id, committee, date, type, text_size, preview FROM documents ORDER BY committee, date")
+    docs = [
+        {"doc_id": r[0], "committee": r[1], "date": r[2], "type": r[3], "text_size": r[4], "preview": r[5]}
+        for r in c.fetchall()
+    ]
+    conn.close()
+    return jsonify({"documents": docs, "count": len(docs)})
 
 
 @app.route("/api/health")

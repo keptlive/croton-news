@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}Municipal Documents{% endblock %}
+{% block meta_desc %}Search Croton-on-Hudson municipal meeting minutes, resolutions, and official documents.{% endblock %}
+
+{% block content %}
+<h2 class="page-title">Municipal Documents</h2>
+<p style="color: var(--text-muted); margin-bottom: 1.25rem; font-size: 0.95rem;">
+    Search meeting minutes, resolutions, and official documents from the Village of Croton-on-Hudson.
+    48 documents indexed from Board of Trustees, Planning Board, Zoning Board of Appeals, Fire Council, and more.
+</p>
+
+<form action="/documents" method="get" style="margin-bottom: 1.5rem;">
+    <div style="display: flex; gap: 0.5rem; max-width: 600px;">
+        <input type="text" name="q" value="{{ query }}" placeholder="Search documents (e.g. budget, zoning variance, site plan...)"
+               style="flex: 1; padding: 0.75rem 1rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-card); color: var(--text); font-size: 0.95rem;">
+        <button type="submit" style="padding: 0.75rem 1.5rem; background: var(--primary-light); color: #fff; border: none; border-radius: var(--radius); cursor: pointer; font-weight: 600;">Search</button>
+    </div>
+</form>
+
+{% if query %}
+<p style="margin-bottom: 1rem; font-size: 0.9rem; color: var(--text-muted);">
+    {{ results|length }} result{{ 's' if results|length != 1 }} for "<strong>{{ query }}</strong>"
+</p>
+{% endif %}
+
+{% if results %}
+<div style="display: flex; flex-direction: column; gap: 0.75rem;">
+    {% for r in results %}
+    <div class="article-card" style="padding: 1rem 1.25rem;">
+        <div class="card-meta">
+            <span class="category-badge" style="background: #2563eb;">{{ r.committee }}</span>
+            <span>{{ r.date or 'Unknown date' }}</span>
+            <span style="margin-left: auto; opacity: 0.6;">Score: {{ r.score }}</span>
+        </div>
+        <div style="font-size: 0.9rem; line-height: 1.5; color: var(--text);">
+            {{ r.snippet|safe }}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% elif query %}
+<div style="text-align: center; padding: 3rem; color: var(--text-muted);">
+    <p>No documents found for "{{ query }}"</p>
+    <p style="font-size: 0.85rem; margin-top: 0.5rem;">Try different keywords — e.g. budget, zoning, planning, police, water, sewer</p>
+</div>
+{% else %}
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem;">
+    <div class="article-card" style="padding: 1.25rem;">
+        <h3 style="font-size: 1rem; margin-bottom: 0.5rem;">Board of Trustees</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">Village governance, budgets, resolutions, appointments. 21 documents.</p>
+        <a href="/documents?q=board+of+trustees" style="font-size: 0.85rem;">Browse &rarr;</a>
+    </div>
+    <div class="article-card" style="padding: 1.25rem;">
+        <h3 style="font-size: 1rem; margin-bottom: 0.5rem;">Planning Board</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">Site plans, subdivisions, environmental review. 15 documents.</p>
+        <a href="/documents?q=planning+board" style="font-size: 0.85rem;">Browse &rarr;</a>
+    </div>
+    <div class="article-card" style="padding: 1.25rem;">
+        <h3 style="font-size: 1rem; margin-bottom: 0.5rem;">Zoning Board of Appeals</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">Variances, appeals, zoning interpretations. 3 documents.</p>
+        <a href="/documents?q=zoning+board" style="font-size: 0.85rem;">Browse &rarr;</a>
+    </div>
+    <div class="article-card" style="padding: 1.25rem;">
+        <h3 style="font-size: 1rem; margin-bottom: 0.5rem;">Fire Council</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">Fire department operations, equipment, staffing. 3 documents.</p>
+        <a href="/documents?q=fire+council" style="font-size: 0.85rem;">Browse &rarr;</a>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

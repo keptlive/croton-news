@@ -391,6 +391,10 @@
                 <span class="count">{{ cat_counts.get(key, 0) }}</span>
             </a>
             {% endfor %}
+            <a class="cat-link {% if request.path == '/documents' %}active{% endif %}"
+               href="/documents">
+                📋 Documents
+            </a>
         </div>
     </nav>
 
