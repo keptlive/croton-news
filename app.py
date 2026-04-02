@@ -1,5 +1,6 @@
 """Croton News — Hyperlocal news aggregator for Croton-on-Hudson, NY."""
 
+import json
 import logging
 import os
 import sqlite3
@@ -8,8 +9,9 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+import requests as http_requests
 from flask import (
-    Flask, Response, abort, g, jsonify, render_template, request, send_from_directory,
+    Flask, Response, abort, g, jsonify, render_template, request,
 )
 
 from scrapers import ALL_SCRAPERS
@@ -262,16 +264,35 @@ def documents_page():
     if q and ECODE360_DB.exists():
         conn = sqlite3.connect(str(ECODE360_DB))
         c = conn.cursor()
+        # Get matching chunks grouped by document
         c.execute(
-            "SELECT doc_id, committee, date, snippet(chunks, 4, '<b>', '</b>', '…', 40), rank "
-            "FROM chunks WHERE chunks MATCH ? ORDER BY rank LIMIT 30",
+            "SELECT c.doc_id, c.committee, c.date, "
+            "snippet(chunks, 4, '<b>', '</b>', '…', 50), c.rank, "
+            "d.preview, d.text_size "
+            "FROM chunks c LEFT JOIN documents d ON c.doc_id = d.doc_id "
+            "WHERE chunks MATCH ? ORDER BY c.rank LIMIT 60",
             (q,),
         )
-        results = [
-            {"doc_id": r[0], "committee": r[1], "date": r[2], "snippet": r[3], "score": round(-r[4], 2)}
-            for r in c.fetchall()
-        ]
+        rows = c.fetchall()
         conn.close()
+        # Group by doc_id — keep best snippet per doc, collect up to 3 snippets
+        seen = {}
+        for r in rows:
+            doc_id = r[0]
+            if doc_id not in seen:
+                seen[doc_id] = {
+                    "doc_id": doc_id,
+                    "committee": r[1],
+                    "date": r[2],
+                    "snippets": [r[3]],
+                    "score": round(-r[4], 2),
+                    "preview": r[5] or "",
+                    "text_size": r[6] or 0,
+                    "source_url": f"https://ecode360.com/CR0035/document/{doc_id}.pdf",
+                }
+            elif len(seen[doc_id]["snippets"]) < 3:
+                seen[doc_id]["snippets"].append(r[3])
+        results = list(seen.values())
     return render_template("documents.html", query=q, results=results, **_ctx())
 
 
@@ -363,6 +384,90 @@ def api_documents():
     return jsonify({"documents": docs, "count": len(docs)})
 
 
+# --- AI Document Summary (Nemotron via OpenRouter) ---
+
+_OPENROUTER_KEY = None
+def _get_openrouter_key():
+    global _OPENROUTER_KEY
+    if _OPENROUTER_KEY:
+        return _OPENROUTER_KEY
+    cred_path = BASE_DIR.parent / "openrouter_credentials.json"
+    if cred_path.exists():
+        with open(cred_path) as f:
+            _OPENROUTER_KEY = json.load(f).get("openrouter_api_key", "")
+    if not _OPENROUTER_KEY:
+        _OPENROUTER_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+    return _OPENROUTER_KEY
+
+NEMOTRON_MODEL = "nvidia/nemotron-3-super-120b-a12b:free"
+
+# Simple in-memory cache for summaries (doc_id → summary)
+_summary_cache = {}
+
+
+@app.route("/api/documents/<doc_id>/summary")
+def api_document_summary(doc_id):
+    """Generate a readable AI summary for a document using Nemotron."""
+    if doc_id in _summary_cache:
+        return jsonify({"doc_id": doc_id, "summary": _summary_cache[doc_id], "cached": True})
+
+    # Load document text
+    txt_path = BASE_DIR / "ecode360" / "minutes" / f"{doc_id}.txt"
+    if not txt_path.exists():
+        return jsonify({"error": "Document not found"}), 404
+    with open(txt_path) as f:
+        text = f.read()
+
+    # Get metadata
+    meta = {}
+    if ECODE360_DB.exists():
+        conn = sqlite3.connect(str(ECODE360_DB))
+        c = conn.cursor()
+        c.execute("SELECT committee, date FROM documents WHERE doc_id = ?", (doc_id,))
+        row = c.fetchone()
+        conn.close()
+        if row:
+            meta = {"committee": row[0], "date": row[1]}
+
+    # Truncate to ~8000 chars for the API call
+    doc_text = text[:8000]
+
+    key = _get_openrouter_key()
+    if not key:
+        return jsonify({"error": "OpenRouter API key not configured"}), 500
+
+    prompt = f"""Summarize these {meta.get('committee', 'committee')} meeting minutes from {meta.get('date', 'unknown date')} in Croton-on-Hudson, NY.
+
+Write exactly 3-5 bullet points. Each bullet should be one clear sentence. Include specific names, addresses, and vote counts where applicable. Do NOT include any thinking, reasoning, or preamble — just the bullet points.
+
+MINUTES:
+{doc_text}"""
+
+    try:
+        resp = http_requests.post(
+            "https://openrouter.ai/api/v1/chat/completions",
+            headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+            json={
+                "model": NEMOTRON_MODEL,
+                "messages": [
+                    {"role": "system", "content": "You summarize village government meeting minutes into concise bullet points for local residents. Output ONLY bullet points, no preamble or reasoning."},
+                    {"role": "user", "content": prompt},
+                ],
+                "temperature": 0.2,
+                "max_tokens": 600,
+            },
+            timeout=30,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        summary = data["choices"][0]["message"]["content"].strip()
+        _summary_cache[doc_id] = summary
+        return jsonify({"doc_id": doc_id, "summary": summary, "cached": False})
+    except Exception as e:
+        logging.error("Nemotron summary error: %s", e)
+        return jsonify({"error": f"AI summary failed: {str(e)}"}), 500
+
+
 @app.route("/api/health")
 def api_health():
     return jsonify({
@@ -412,23 +517,6 @@ def sitemap():
 # ---------------------------------------------------------------------------
 # Startup
 # ---------------------------------------------------------------------------
-
-
-
-# --- Calendar ---
-
-@app.route("/calendar")
-def calendar_page():
-    return send_from_directory(app.template_folder, "calendar.html")
-
-@app.route("/api/calendar/events")
-def api_calendar_events():
-    return send_from_directory(app.static_folder, "events.json")
-
-@app.route("/feeds/<path:filename>")
-def feeds(filename):
-    mimetype = "text/calendar" if filename.endswith(".ics") else "application/json"
-    return send_from_directory(os.path.join(app.static_folder, "feeds"), filename, mimetype=mimetype)
 
 if __name__ == "__main__":
     init_db()
