@@ -1,4 +1,9 @@
-"""Scraper for Croton-on-Hudson Police Department blotter."""
+"""Scraper for Croton-on-Hudson Police Department blotter.
+
+The police department news page at /node/229/news is behind Cloudflare
+Turnstile. This scraper tries the direct site first, then falls back to
+Google News RSS for Croton-on-Hudson police news.
+"""
 
 import logging
 import re
@@ -6,6 +11,8 @@ from bs4 import BeautifulSoup
 from .base import BaseScraper
 
 logger = logging.getLogger(__name__)
+
+SITE_BASE = "https://www.crotononhudson-ny.gov"
 
 # Common incident type keywords
 INCIDENT_TYPES = [
@@ -30,23 +37,45 @@ STREET_PATTERN = re.compile(
 class PoliceBlotterScraper(BaseScraper):
     name = "police"
     category = "police"
-    source_url = "https://www.crotononhudson-ny.gov/node/229/news"
+    source_url = f"{SITE_BASE}/node/229/news"
+
+    # Google News RSS for Croton-on-Hudson police news
+    GOOGLE_NEWS_RSS = (
+        "https://news.google.com/rss/search?"
+        "q=%22croton+on+hudson%22+police+OR+arrest+OR+crime+OR+blotter"
+        "&hl=en-US&gl=US&ceid=US:en"
+    )
 
     def _scrape(self) -> list[dict]:
+        # Try direct site first
         html = self.fetch()
-        if not html:
-            return []
+        if html:
+            articles = self._parse_site(html)
+            if articles:
+                return articles
 
+        # Fallback: Google News RSS for police-related news
+        logger.info("[police] Direct site unavailable, using Google News RSS fallback")
+        return self._scrape_google_news()
+
+    def _parse_site(self, html: str) -> list[dict]:
+        """Parse the CivicPlus police news page."""
         soup = BeautifulSoup(html, "lxml")
         articles = []
 
-        # Look for news items
+        # Look for news items — multiple CivicPlus patterns
         rows = soup.select(
             ".view-content .views-row, .view-content .node, "
-            ".views-table tbody tr, .field-content"
+            ".views-table tbody tr, .field-content, "
+            ".news-flash-item, .nf-item, "
+            "article.node, main .content li, "
+            "main article, #block-system-main .content li"
         )
         if not rows:
-            rows = soup.select("main .field-item, .region-content .field-item")
+            rows = soup.select(
+                "main .field-item, .region-content .field-item, "
+                "main a[href*='/news/']"
+            )
 
         # If still no rows, try parsing the page as unstructured narrative
         if not rows:
@@ -66,7 +95,20 @@ class PoliceBlotterScraper(BaseScraper):
         return articles
 
     def _parse_row(self, row) -> dict:
-        title_el = row.select_one("h2 a, h3 a, .views-field-title a, a")
+        # If the row IS a link
+        if row.name == "a":
+            title = row.get_text(strip=True)
+            href = row.get("href", "")
+            if href and not href.startswith("http"):
+                href = f"{SITE_BASE}{href}"
+            if title and len(title) >= 5:
+                return {"title": title, "url": href, "summary": "", "published_at": None}
+            return {}
+
+        title_el = row.select_one(
+            "h2 a, h3 a, h4 a, .views-field-title a, "
+            ".nf-title a, td a, a"
+        )
         if not title_el:
             # Maybe the row itself contains narrative text
             text = row.get_text(strip=True)
@@ -80,17 +122,20 @@ class PoliceBlotterScraper(BaseScraper):
 
         href = title_el.get("href", "")
         if href and not href.startswith("http"):
-            href = f"https://www.crotononhudson-ny.gov{href}"
+            href = f"{SITE_BASE}{href}"
 
         date_el = row.select_one(
-            ".views-field-created, .date-display-single, time"
+            ".views-field-created, .date-display-single, time, "
+            ".nf-date, .news-date, span.itemdate, [class*='date']"
         )
         published = None
         if date_el:
             date_text = date_el.get("datetime") or date_el.get_text(strip=True)
             published = self._parse_date(date_text)
 
-        summary_el = row.select_one(".views-field-body, .field-summary")
+        summary_el = row.select_one(
+            ".views-field-body, .field-summary, .nf-body, p"
+        )
         summary = summary_el.get_text(strip=True) if summary_el else ""
 
         return {
@@ -103,7 +148,6 @@ class PoliceBlotterScraper(BaseScraper):
     def _parse_narrative(self, text: str) -> list[dict]:
         """Extract incident reports from unstructured narrative text."""
         articles = []
-        # Split on common delimiters: dates, bullet points, paragraph breaks
         paragraphs = re.split(r"\n{2,}|\r\n{2,}", text)
 
         for para in paragraphs:
@@ -122,7 +166,6 @@ class PoliceBlotterScraper(BaseScraper):
         if len(text) < 30:
             return {}
 
-        # Detect incident type
         incident_type = "Police Report"
         text_lower = text.lower()
         for itype in INCIDENT_TYPES:
@@ -130,11 +173,9 @@ class PoliceBlotterScraper(BaseScraper):
                 incident_type = itype.title()
                 break
 
-        # Extract street names
         streets = STREET_PATTERN.findall(text)
         location = streets[0].strip() if streets else ""
 
-        # Extract date if present
         date_match = re.search(
             r"(\d{1,2}/\d{1,2}/\d{2,4}|\w+ \d{1,2},? \d{4})", text
         )
@@ -142,7 +183,6 @@ class PoliceBlotterScraper(BaseScraper):
         if date_match:
             published = self._parse_date(date_match.group(1))
 
-        # Build title
         title = f"{incident_type}"
         if location:
             title += f" — {location}"
@@ -153,3 +193,47 @@ class PoliceBlotterScraper(BaseScraper):
             "url": self.source_url,
             "published_at": published,
         }
+
+    def _scrape_google_news(self) -> list[dict]:
+        """Fallback: scrape Google News RSS for Croton police news."""
+        xml = self.fetch(self.GOOGLE_NEWS_RSS)
+        if not xml:
+            return []
+
+        soup = BeautifulSoup(xml, "lxml-xml")
+        articles = []
+
+        for item in soup.select("item")[:15]:
+            title_el = item.select_one("title")
+            link_el = item.select_one("link")
+            pubdate_el = item.select_one("pubDate")
+            desc_el = item.select_one("description")
+
+            if not title_el:
+                continue
+
+            title = title_el.get_text(strip=True)
+            # Must mention Croton
+            if not re.search(r"croton", title, re.IGNORECASE):
+                desc_text = desc_el.get_text(strip=True) if desc_el else ""
+                if not re.search(r"croton", desc_text, re.IGNORECASE):
+                    continue
+
+            url = link_el.get_text(strip=True) if link_el else ""
+            published = None
+            if pubdate_el:
+                published = self._parse_date(pubdate_el.get_text(strip=True))
+
+            summary = ""
+            if desc_el:
+                desc_soup = BeautifulSoup(desc_el.get_text(), "html.parser")
+                summary = desc_soup.get_text(strip=True)[:500]
+
+            articles.append({
+                "title": title,
+                "url": url,
+                "summary": summary,
+                "published_at": published,
+            })
+
+        return articles

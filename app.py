@@ -22,13 +22,35 @@ BASE_DIR = Path(__file__).parent
 DB_PATH = BASE_DIR / "data" / "croton.db"
 DB_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-SCRAPE_INTERVAL = 1800  # 30 minutes
+# Tiered scrape intervals (seconds)
+SCRAPE_TIERS = {
+    "fast": 300,     # 5 min — weather, transit
+    "medium": 3600,  # 1 hr — news, police, fire, events
+    "slow": 21600,   # 6 hr — schools, regional, library
+}
+SCRAPER_TIER = {
+    "weather": "fast",
+    "transit": "fast",
+    "water": "fast",
+    "emergency": "fast",
+    "village": "medium",
+    "police": "medium",
+    "fire": "medium",
+    "boards": "slow",
+    "schools": "slow",
+    "cortlandt": "slow",
+    "library": "slow",
+}
+TICK_INTERVAL = 60  # check every 60s
 CATEGORIES = {
     "municipal": {"label": "Village News", "icon": "🏛️", "color": "#2563eb"},
     "police": {"label": "Police Blotter", "icon": "🚔", "color": "#dc2626"},
     "fire": {"label": "Fire Department", "icon": "🚒", "color": "#ea580c"},
     "schools": {"label": "Schools", "icon": "🎓", "color": "#16a34a"},
     "regional": {"label": "Regional", "icon": "🗺️", "color": "#7c3aed"},
+    "weather": {"label": "Weather", "icon": "🌤️", "color": "#0891b2"},
+    "transit": {"label": "Transit", "icon": "🚂", "color": "#ca8a04"},
+    "events": {"label": "Events", "icon": "📅", "color": "#9333ea"},
 }
 
 logging.basicConfig(
@@ -157,33 +179,43 @@ def category_counts() -> dict:
 # ---------------------------------------------------------------------------
 
 scraper_instances = [cls() for cls in ALL_SCRAPERS]
-_last_scrape: float = 0
+_last_scrape: dict[str, float] = {}  # scraper_name -> last run timestamp
 
 
-def run_scrapers():
-    global _last_scrape
-    logger.info("Starting scrape cycle...")
+def run_scrapers(force_all: bool = False):
+    """Run scrapers that are due based on their tier interval."""
+    now = time.time()
     total = 0
     for scraper in scraper_instances:
+        tier = SCRAPER_TIER.get(scraper.name, "medium")
+        interval = SCRAPE_TIERS[tier]
+        last = _last_scrape.get(scraper.name, 0)
+        if not force_all and (now - last) < interval:
+            continue
         try:
             articles = scraper.scrape()
             if articles:
                 upsert_articles(articles)
                 total += len(articles)
+            _last_scrape[scraper.name] = now
         except Exception as e:
             logger.error(f"Scraper {scraper.name} failed: {e}")
-    _last_scrape = time.time()
-    logger.info(f"Scrape complete — {total} articles processed")
+    if total:
+        logger.info(f"Scrape tick — {total} articles processed")
 
 
 def scrape_loop():
-    """Background thread that scrapes periodically."""
+    """Background thread that scrapes on tiered intervals."""
+    # First run: scrape everything
+    logger.info("Initial scrape — all sources...")
+    run_scrapers(force_all=True)
+    logger.info("Initial scrape complete")
     while True:
         try:
             run_scrapers()
         except Exception as e:
             logger.error(f"Scrape loop error: {e}")
-        time.sleep(SCRAPE_INTERVAL)
+        time.sleep(TICK_INTERVAL)
 
 
 # ---------------------------------------------------------------------------
@@ -257,7 +289,10 @@ def api_health():
         "status": "ok",
         "total_articles": count_articles(),
         "categories": category_counts(),
-        "last_scrape": datetime.fromtimestamp(_last_scrape, tz=timezone.utc).isoformat() if _last_scrape else None,
+        "last_scrape": {
+            name: datetime.fromtimestamp(ts, tz=timezone.utc).isoformat()
+            for name, ts in _last_scrape.items()
+        } if _last_scrape else None,
     })
 
 

@@ -2,11 +2,17 @@
 
 import hashlib
 import logging
+import subprocess
 import time
 from datetime import datetime, timezone
 from typing import Optional
 
 import requests
+
+try:
+    import cloudscraper
+except ImportError:
+    cloudscraper = None
 
 logger = logging.getLogger(__name__)
 
@@ -20,29 +26,79 @@ class BaseScraper:
     cache_ttl: int = 1800  # 30 minutes
 
     USER_AGENT = (
-        "CrotonNewsBot/1.0 (+https://croton.news; "
-        "local-news-aggregator; contact@croton.news)"
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
     )
 
     def __init__(self):
         self._cache: dict = {}
         self._cache_time: float = 0
-        self.session = requests.Session()
+        # Try cloudscraper first (handles some Cloudflare challenges)
+        if cloudscraper:
+            self.session = cloudscraper.create_scraper()
+        else:
+            self.session = requests.Session()
         self.session.headers.update({
             "User-Agent": self.USER_AGENT,
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "en-US,en;q=0.5",
         })
 
+    @staticmethod
+    def _is_cloudflare_challenge(html: str) -> bool:
+        """Detect if the response is a Cloudflare challenge page."""
+        if not html:
+            return False
+        return (
+            "Just a moment..." in html[:500]
+            and "challenge-platform" in html
+        ) or (
+            "Enable JavaScript and cookies" in html
+            and "_cf_chl" in html
+        )
+
     def fetch(self, url: Optional[str] = None, timeout: int = 15) -> Optional[str]:
-        """Fetch a URL with error handling and timeouts."""
+        """Fetch a URL with error handling, Cloudflare bypass, and timeouts."""
         url = url or self.source_url
         try:
             resp = self.session.get(url, timeout=timeout)
             resp.raise_for_status()
-            return resp.text
+            html = resp.text
+            if self._is_cloudflare_challenge(html):
+                logger.warning(f"[{self.name}] Cloudflare challenge at {url}, trying browser fallback")
+                html = self._fetch_via_browser(url)
+            return html
         except requests.RequestException as e:
             logger.error(f"[{self.name}] Failed to fetch {url}: {e}")
+            # On 403, try browser fallback
+            if hasattr(e, "response") and e.response is not None and e.response.status_code == 403:
+                logger.info(f"[{self.name}] Trying browser fallback for {url}")
+                return self._fetch_via_browser(url)
+            return None
+
+    def _fetch_via_browser(self, url: str) -> Optional[str]:
+        """Attempt to fetch via agent-browser CLI (handles JS challenges)."""
+        try:
+            # Open URL
+            subprocess.run(
+                ["agent-browser", "open", url],
+                capture_output=True, text=True, timeout=15,
+            )
+            # Wait for page to potentially load past challenge
+            time.sleep(8)
+            # Try to get HTML
+            result = subprocess.run(
+                ["agent-browser", "get", "html", "body"],
+                capture_output=True, text=True, timeout=10,
+            )
+            if result.returncode == 0 and result.stdout:
+                html = result.stdout
+                if not self._is_cloudflare_challenge(html):
+                    return html
+            logger.warning(f"[{self.name}] Browser fallback also blocked by Cloudflare")
+            return None
+        except (subprocess.TimeoutExpired, FileNotFoundError, Exception) as e:
+            logger.debug(f"[{self.name}] Browser fallback failed: {e}")
             return None
 
     def scrape(self) -> list[dict]:
