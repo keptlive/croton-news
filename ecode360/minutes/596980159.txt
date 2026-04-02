@@ -1,0 +1,290 @@
+MINUTES – Croton Sustainability Comm. (SC) – 10:30 AM Sunday, Mar. 28, 2021 – via Zoom.us
+Members Attending:
+Lindsay Audin
+Len Simon
+Jon Katz
+
+Absent:
+Brian Pugh
+
+Joel Gingold
+Niall Kelleher
+Bernie Yozwiak
+Dan Columbini
+
+[Bracketed] text means subsequent actions or clarifications. Underlining indicates a commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: none
+Updates/holdovers/follow-ups/statuses:
+- Stretch Code Blues
+Lindsay sent informational materials to Dan O’Connor 3/2/21. Dan and Janine discussed it and
+(according to Janine) both were OK with adopting it, but not until the Eng. Dept. had cleared its
+desks of various pressing issues (e.g., Katz property, Croton Pt. Ave. roadwork).
+Lindsay and Brian had earlier discussed ways to adopt Stretch now, but move its effective date
+to 2022 when the Engineering Dept. had time to address it. While meeting NYSERDA’s desired
+12/31/21 effective date could get us an extra $5,000 grant, forgoing it appeared to allow us to
+move the effective date back, e.g., by ~6 months.
+When confirmation on that option was requested, NYSERDA said it actually meant “you must
+get it done and made effective by 12/31/21 or else you won’t get the 1,200 points or the $5,000
+grant.” When that unwritten rule was questioned, the director of the program conceded that we
+“may” have won the issue “on a technicality”. On 3/17/21, he was asked for a definitive written
+answer, but no response has yet been received. Shortly thereafter, our local CEC coordinator
+quit. The real problem is that NYSERDA took too long to roll out this program (some of which
+involves its internal priorities), and is now rushing municipalities to make up for it.
+Bottom line: at this point, we have no assurance that the work involved in passing Stretch this
+year (and making it effective in 2022) will yield points needed to secure a $70,000 grant. As a
+result, we will wait until the Engineering Dept. is able to move on it.
+- NYSERDA CEC grants
+NYSERDA confirmed we have 4,100 points (soon to be 4,300 when paperwork already in the
+pipeline is processed). That makes us eligible for both a $10,000 and a $20,000 grant. The four
+$70,000 grants, however, may be gone by the time we get to the 5,000 point threshold. Several
+other communities in our region are also approaching that threshold and may get there before
+us. [On 4/1/21, Hastings announced it was the first to hit 5,000]. We are presently awaiting
+verification emails from NYSERDA on the two smaller grants. Once they arrive, we have 3
+months to submit formal grant applications. If approved, we get 6 months to start work, and 3
+years to finish the project(s) they support.
+
+1
+
+Another way to reach 5,000 was found that would require the Village to buy another EV quite
+soon. While it’s in the 2021-22 budget, that purchase cannot be done before June 1, 2021 (start
+of the fiscal year). By then, all four $70,000 grants may be gone.
+.he best we can do at this point is to take a long shot approach: secure 400 easy points (to get
+us to 4,700), with June’s EV purchase (netting the final 300 points) bringing us to 5,000 points.
+Getting those other 400 points may be done by taking two actions:
+1. Get at least 10 more Croton people to sign up for community solar. Ecogy provided a list of
+29 that last year received (but never signed) their contracts, due mostly to requirements to
+provide access to a participant’s back account, and to pay a separate electric bill to Ecogy. Both
+issues were to have been eliminated on 1/1/21 by consolidated billing. However, COVID
+pushed that date back several times. It is now expected to take effect 7/1/21. To overcome that
+delay, Ecogy agreed to modify its contract to allow signing now, with service to start only after
+consolidated billing is in effect. Five committee members not already having solar panels
+agreed to sign up when appropriate. Bernie felt he might get several more via his contacts with
+HoWs (except Temple Israel which already has solar panels).
+2. Get at least 10 Croton people having electric accounts to sign up for a residential demand
+response program called Grid Rewards (www.getgridrewards.com). A quick poll found that all
+committee members (or their wives) have the smartphones needed to do so. All agreed to
+participate. Bernie also agreed to help recruit others, once NYSERDA gives the go-ahead
+(hopefully before our next meeting). [An issue regarding bank account information was
+subsequently found. It is being resolved by SW.]
+To ensure we get the 200 points for each task, those actions must occur after first submitting
+“scoping documents” to NYSERDA. SW helped Lindsay to do so. [Both had been submitted,
+and were accepted 4/1/21].
+Bottom line: If we get the two small grants, one or both could (as discussed below) pay for other
+ASHPs, heating controls, and other equipment at the Washington firehouse. If we got a $70,000
+grant, it could be used to add a solar rooftop, potentially making the firehouse a near net-zero
+energy building. A grant may also be split among several projects, if bundled with one that cuts
+energy use. To that end, all of these options were acceptable to NYSERDA:
+- tree planting program: CAC chair Janet Monahan agreed to develop a draft program.
+- another community garden: Niall provided details and a budget.
+- use of some money for an extra (e.g., $250) incentive for LMI installations of HPWHs. For
+details, see Bernie’s attached report.
+- EV/EVSE
+The two Village cars Lindsay had previously suggested for replacement were not appropriate.
+One had already been retired and won’t be replaced, while the other is rarely driven. However,
+the second parking enforcement car is already slated for replacement (see above for timeline).
+Like its PHEV companion, it will be a plug-in hybrid Ford Fusion.
+
+2
+
+On EV school buses, the Bus Electrification Task Force’s (BETF) report was presented to the
+Board of Education on 2/25. It recommended that an RFI be issued for a contractor to review
+the issues and develop a roadmap to bus electrification.
+While a proposal for an EV school bus leasing deal from Highland Electric Transportation was
+expected soon, the Board of Ed (on 3/23) decided it would rather continue to own its buses. On
+this May’s school budget ballot, two alternate propositions will appear. One would budget for
+direct purchase of 1 full-size (66 passenger) bus and 2 mini-bus (20 or 30 passenger) EVs, plus
+charging infrastructure. Doing so would add about half a million dollars to the school’s budget
+request. The other proposition would make that purchase contingent upon first securing grants
+for equipment and installation in time for operations by Sept. 1. Failing to meet that deadline
+would cause gas/diesel buses to instead be bought.
+- Washington Engine firehouse
+Much of the meeting focused on Jon’s detailed report (text attached) on his 3/22/21 site visit.
+While we initially considered installation of several ASHPs, he found the site already had five of
+them installed in 2016: four replaced old window A/Cs, while another was added to cool and
+heat the lobby and nearby spaces previously lacking A/C. Reviews of oil and electric usage
+data after that year, however, showed essentially no reduction in oil consumption and no rise in
+kWh, both of which should have occurred if the heat pumps were supplying heat. During his site
+visit, Jon found that the heat pumps lacked controls to integrate then with the oil-fired hydronic
+system. We discussed ways to fix the problem.
+The oil tank is below ground behind the retaining wall. If original to the building, it would be 43
+years old and thus a leak risk. The building has natural gas service for its kitchen and backup
+generator, so the tank could be eliminated if the boiler was converted to gas, or replaced with a
+gas-fired unit. Lindsay queried Village staff on the age of the tank and if insulation was added
+when the new roof was installed. Jon showed us many useful photos of the site’s equipment
+and its roof. Further details may be found in his report at the end of these minutes.
+Unrelated to the above, Brian had previously queried Ecogy on possible use of the firehouse’s
+~4,000 SF rooftop for a small solar system. See below under “solar projects”.
+- Solar Projects
+The train station canopy job awaits SolSystems’ scheduling of bore hole drilling to test
+conditions below the blacktop. On 3/22/21, they indicated that a schedule was forthcoming.
+On the Croton Landing canopy job, Joel raised S.2995 during a 3/16/21 Mothers Out Front
+zoom on local energy issues. He also did so in various emails to groups lobbying on legislation.
+He concluded that, despite Sandy Galef’s agreement to submit a companion Assembly bill, we
+will likely need to wait until after the State budget and other legislative issues get resolved.
+On the National Golf Course 1.8 MWp ground-mounted system, there’s nothing new to report.
+As per Brian’s request to review several small solar options on Village properties, we found that
+some proposed parking areas did not belong to the Village, or were otherwise inappropriate
+(e.g., shaded by nearby privately-owned trees). Ecogy is reviewing these three sites:
+3
+
+- rooftop of the Washington Engine firehouse (~26 kWp). Jon’s rooftop pics showed it was
+new (as of 2019). Ecogy’s design could produce about the same kWh as the firehouse now
+consumes. Capacity would be too small for community solar, so a PPA or lease would be
+required. Ecogy would also like to install several Tesla batteries. As an alternative (or part of
+that deal), the Village could use a grant to buy down the cost of the system (~$45K) and own it.
+- canopies at the north and south parking areas at the Muni Building (total of ~125 kWp).
+Janine nixed a long canopy at the front parking area due to visual and glare impacts at homes
+across the street. The south canopy would be longspan to eliminate the need for snow plowing.
+- a long span canopy over the front parking area at the DPW building (~50 kWp). It would
+add capacity to the existing DPW rooftop system and use the same transformer and electric
+hook-up. Doing so would avoid delay and cost of another CESIR application. It would slightly
+expand the existing community solar contract, adding some rent and 7 or 8 Croton subscribers.
+- HPWH
+The project is beginning to take shape.
+- While we would handle the initial survey, education, and metered verifications, SW agreed
+to partner with us to handle customer relations and project management, at no cost to us (they
+already have a grant to help on CEC projects). When we have a list of candidate sites, SW
+would follow through with intros to contractors, help with the utility rebate, federal tax credit, etc.
+and report to us on a monthly basis.
+- As an independent agency, SW could distribute the $250 additional incentive for the LMIs
+who purchase and install a HPWH, if that option gets permitted by Village counsel. [During a
+4/9/21, conference call, Village attorney Linda Whitehead insisted that – regardless of how the
+money is gotten or given to others for distribution – the Village could get into trouble if it allowed
+such funds to be allocated to LMI residents.]
+- Committee members were asked to take the draft online surveys and provide feedback.
+Several problems were found that Lindsay will fix before our next meeting.
+- Dan and Bernie secured pricing for buying and installing water and electric sub-meters.
+The meters will allow us to confirm and quantify potential savings before rolling out our program
+to residents. Metering actual DHW use took on greater importance when we found that prior
+claims of HPWH $ savings may have been based on high assumed usage. Dan provided a
+guideline document showing 15.8 gpd/psn (i.e., ~47 gpd for a 3-person household). Lindsay
+found a UK study that showed 23-35 gpd. With such consumption, it’s tough to make a case for
+replacing oil-fired DHW with HPWH: payback periods exceeded the life of the equipment. Onsite metering will help to verify if local DHW usage is similar or lower.
+- To ensure LMI candidates get an early shot, Bernie agreed to work with local agencies
+(e.g., food bank, Croton Cares, HoWs, school district) to find those that own their homes (a
+necessary prerequisite). To aid that process, a Spanish version of our HPWH flyer would be
+produced. See details under “Recruitment/Outreach”.
+- Based on a rough budget, the HPWH project may use most (or all) of the $10,000 and
+$20,000 CEC grants. NYSERDA OKed combining them for a single project.
+4
+
+- Funding Development
+Following up on Len’s research on the Doris Duke Foundation and the Westchester Community
+Trust, letters-of-inquiry to each were drafted and will be submitted before our next meeting.
+Each must first be approved by Janine King. Both describe the HPWH program. If we get
+private money for that project, we would use NYSERDA CEC grant money for other projects.
+- Communications
+Our committee’s work was recently featured in a Feb. Gazette article (on the train station job)
+and two articles (Feb. and Mar.) in the River Journal, both on our solar activities. On 4/1,
+Lindsay will give a 2-minute overview of our work during a SW zoom on GHG actions at
+Westchester municipalities. On 4/7, he will be on a zoom panel sponsored by the League of
+Women Voters and others promoting municipal participation in the CEC and CSC programs.
+- Recruitment/Outreach
+Regarding reaching LMI and Spanish-speaking residents, Bernie looked into several ways to do
+so. His efforts are summarized in a report at the end of these minutes.
+Our high school interns have been doing fine with their tasks. Joel reported on work that
+included: review of regional GHG inventory, verification of many hyperlinks in a presentation,
+viewing of long video on forest carbon, spreadsheet development, creation of chat room to
+communicate with other CEC/CSC groups. Commendation forms and community service
+acknowledgements have been provided.
+- New business / other events:
+Dates for our next two meetings were set at April 25, 2021 and May 23 (to avoid Memorial Day
+weekend). If all committee members have been vaccinated by our April meeting, we will
+consider whether to hold the May meeting in-person at 221 Cleveland Drive (with masks on and
+windows open).
+------------Bernie’s outreach efforts to LMI and Spanish-speaking residents re: HPWH program – 3/20/21
+Spanish-speaking residents:
+With Lupe Frattini (who is a mainstay of HNM’s Hispanic Ministry), I reviewed the program and
+our desire to promote it with LMI folks who might be able to take advantage of funding from a
+NYSERDA / Village grant (as well as the Con Ed incentive and Federal tax credit). She noted
+that our program’s limitation to homeowners would diminish the eligible population in that
+cohort.
+Nonetheless, she happily agreed to help us out to spread the word (and possibly engage a
+couple other folks in the HNM community to assist). She agreed to work with us on the
+translation of the HPWH brochure. Lupe asked that we not give her the lump of the brochure in
+one fell swoop, but instead a paragraph or two at a time.
+5
+
+She asked about the estimated costs, paybacks, and incentives. I said that once those numbers
+are developed, perhaps the 3 of us could have a Zoom to discuss.
+Three venues to reach LMI residents:
+Croton and Cortlandt Food Bank (a/k/a Pantry) – I spoke with my neighbor Janet Kraybill (longtime volunteer at the Pantry and past Board member) regarding outreach. She noted that only
+about 1/3 of the Pantry’s clients are Croton residents. Others are from Peekskill, Cortlandt, and
+Ossining. Most are renters rather than home owners, so it’s unclear how effective distributing
+our program information may be, but it couldn’t hurt. Once we formalize our program, we would
+need to run our concepts by Melanie Dodson, who direct the Pantry. I have met her once and
+have her contact information.
+Croton Caring Committee – It’s headed by Holly Anzani and delivers food to needy residents. I
+spoke with her and outlined our program. Her committee anticipates a June food run during
+which they would be happy to distribute our literature. After her Committee’s budget is finalized
+in April, she will run our request by it for approval. She does not anticipate any opposition.
+School District Lunch program – Holly states that her Committee had persuaded the school
+district to notify families that qualify for its free lunch program if they would be interested in the
+Caring Committee’s food deliveries. She suggested that we may be able to do the same with
+flyers about our program. She felt that Denise Harrington-Cohen (denise.cohen@chufsd.org),
+assistant to the Superintendent, would be the appropriate contact. Lindsay knows Denise, and
+will follow-up on that option.
+----------Jon’s report on the Washington firehouse (corner of North Riverside and High St.) – 3/22/21
+[some details later added by Lindsay from other sources]
+Jon was escorted by Joe Streany, who manages the 1978 4,000 square foot building. The main
+point of the visit was to assess the HVAC systems to see if additional air-source heat pumps
+(ASHP) might make sense. While two (2) systems, with 5 ASHPs zones were installed in 2016,
+Jon found that they were not integrated with the existing oil-fired hydronic baseboard and
+radiator heating system. A prior review of energy bills from 2010 to 2019 found that the 2016
+installation had no effect on annual oil or kWh consumption.
+The hydronic heating system is zoned by space thermostats controlling two circulator zone
+pumps. An outside air thermostat is believed to control the 3 rd zone pump, which in turn serves
+unit heaters in garage and lobby. The oil-fired boiler is a Weil-McLean Gold unit installed in the
+early ‘00s. The original (1978) unit was gas-fired. With the exception of the two bathrooms
+(which have no exterior walls and no heat), all spaces are served by the hydronic system.
+An outdoor thermostat controls the starter of one of the zone pumps labelled "Unit Heaters". I
+believe when OA temp is below the thermostat setting, the zone pump circulates hot water to all
+the unit heaters (3 in the garage, and 1 in the lobby ceiling). Each unit heater (UH) has its own
+room thermostat mounted on the wall. When it calls for heat, it starts the fan blowing air across
+the UH’s hot water coil. Each UH also has an aquastat attached to its supply piping to prevent
+the fan from running if the zone pump is off.
+6
+
+The largest space (“meeting/recreation room”) covers about 30% of the floor area (there is no
+basement) and is often overheated, despite the presence of a programmable thermostat.
+Relocation should be considered as an option to alleviate that condition. It is unclear if its night
+setback capability is used. Other thermostats appear to be original (1978) to the building and
+have no setback capability.
+The garage (a/k/a “apparatus room”) is heated by three ceiling-mounted hydronic unit heaters
+served by the boiler. To avoid buildup of vehicle emissions, a large exhaust fan cycles
+automatically on for a few minutes, whenever the garage doors open, whether or not a vehicle
+is running. A carbon monoxide sensor should be considered. [fix cycling comment: open or
+closed?]
+Domestic hot water (DHW) is supplied by an indirect-fired 40-gallon heater off the boiler. The only
+DHW requirements are the bathrooms and a small kitchen. The fire trucks are not washed with
+hot water, and there are no showers.
+A gas service feeds only the kitchen range and the emergency generator. The flat membrane roof
+was replaced in 2019. We could not confirm if additional insulation was installed. (Lindsay
+following up with Village for confirmation) It looks good for installation of horizontal solar panels:
+relatively few obstructions, no visible conduits.
+The existing ASHPs are controlled by a single handheld remote control, and are used mainly for
+cooling. It is unclear if they are “cold climate” units. Based on a review of 5-minute electric
+interval data, the main impact of the ASHPs was to increase peak demand charges when they
+ran in heating mode a few minutes each month. A central control system is needed to
+coordinate the heat pumps with the hydronic system is needed.
+It may be feasible (and acceptable to Streany) to replace the ceiling-mounted garage heaters with
+ASHPs. The garage appears to have the largest heating demand of all the spaces as it is the
+largest space, older garage doors, and likely high infiltration, necessitating heat pumps much
+larger than those serving the other spaces. Jonathan estimates a nominal 7½ ton system would
+likely be sufficient. Electric service would need to be checked to verify it can handle another
+ASHP system of this size.
+If conversion to ASHP as the main heating source (with the hydronic as backup and/or use on
+very cold days) is desired, the building could become fully electric if instantaneous DHW
+heaters were installed in the bathrooms and kitchen (or a tank type HPHW replaced the existing
+tank). [In a subsequent email to Lindsay, Streany stated that “it takes forever for water to get
+hot in the bathrooms”.]
+If a ~26 kWp solar rooftop system was installed, it could provide ~32,000 kWh/yr, which slightly
+exceeds the most recent annual kWh consumption. If ASHPs were to become the prime
+heating source, ~45,000 kWh/yr would be consumed, so the building would not quite be net
+zero, but it would be fully electric. Its carbon footprint would be lower than now, and getting
+lower as the grid eventually got cleaner.
+
+7
+
+

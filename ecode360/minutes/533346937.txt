@@ -1,0 +1,167 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday Mar. 1, 2020 - 221 Cleveland Drive
+Members Attending:
+Lindsay Audin
+David Goldman
+
+Joel Gingold
+Brian Pugh
+Niall Kelleher
+
+Absent:
+Len Simon
+Jon Katz
+John Habib
+
+Non-members wishing to attend are asked to RSVP to energywiz@aol.com to verify meeting date,
+time, and location, which may be adjusted to meet committee member requests. [Bracketed] text
+relates to actions subsequent to this meeting.
+-------------------------------------------------------------------------Scheduled guest(s): none
+Personnel changes: Due to a legal issue raised by the Village attorney concerning the number of
+Village trustees that can serve on a committee, Sherry Horowitz will not be re-joining our committee.
+Quick updates/holdovers/follow-ups/status:
+- Food scrap recycling issues: Nothing new on our program, which has been postponed until spring
+of 2021. SMM still indicates its composting system will be operational this spring.
+In January, Westchester County announced its County-wide food waste study. It plans a 6-week
+pilot project (to start this March) that would involve a receiving facility in Yonkers to take scraps
+from one community (not named) and truck it to the Ulster composting site. Starting in September,
+that program may be opened to all municipalities, with two options on collecting and transporting
+the scraps. The better for us (in 2021) would be our present plan for drop-off collection at Municipal
+Place, with pickup (at no cost to Croton) by a County-chosen (and paid) hauler. The destination is
+still assumed to be Ulster County, but that may be related to when this study was done, and SMM’s
+still unclear opening date.
+During 2020, Westchester will also set up a scrap drop-off site at its existing Household Material
+Recycling Facility (H-MRF) near the County Medical Center in Valhalla. It will take scraps from a
+nearby small municipality and be focused on composting education. Its compost will be free to
+County residents with any excess to be used by the County Parks Dept.
+- EV/EVSE items: As of the end of 2019, our zip code (10520) had 109 EVs (either PHEV or BEV),
+which is a 70% increase over 2018. The fire inspector’s new Nissan Leaf is now in service. At
+tomorrow’s VB meeting, the Board will vote on a fund transfer to equip two new electric (but not
+plug-in) hybrid police vehicles with light bars, car cage, laptops and printers in each vehicle. At the
+1/28/20 meeting of the school district’s Environmental Sustainability Committee (ESC), it
+announced that it will be replacing its mail delivery van with a Nissan hybrid van (not a plug-in) by
+the summer. Via our proposal and Brian’s request, Janine King OKed free charging power to
+Village employee-owned EVs working at the Muni. Bldg., using its two public charging ports. At the
+Croton100 event, George Latimer (County Executive) announced that the County will be installing
+EV chargers at several County-owned train station parking lots.
+- DPW solar rooftop: On 1/29/20, Ecogy’s CESIR interconnection application was approved by Con
+Ed with a few small changes (a 500 kVA transformer was required instead of the 300 kVA specified
+1
+
+by Ecogy). Ecogy stated it will absorb the extra cost with no changes to our bonuses or rent. Ecogy
+expects to begin roof repair as weather allows, with work possibly starting by Earth Day (April 22).
+During March or April, Ecogy plans to update the VB on scheduling that work.
+- Other solar issues: See “new business” for Ecogy’s proposal for solar canopies at 2 Village parks.
+On 1/30/20, White Plains (WP) announced its own municipal community solar projects on WPowned properties totaling about 6 MW. Six rooftop and ground-based systems are involved (none
+of which are canopies). A different solar vendor was involved, chosen from ~100 bidders. On
+3/15/20, Lindsay will attend a conference in Rockland County on solar canopies and batteries.
+- Croton Library lighting/solar options: While the Library’s director continues his review of
+alternative financing for a rooftop solar system, Lindsay will press for an LED upgrade of the
+Library’s interior lighting. That effort has been delayed pending announcement of new Con Ed
+incentives to be announced in mid-April, which may help finance that work.
+- Climate Smart Community (CSC): DEC delayed its announcement of certifications from last
+Friday to this Wednesday (3/6). Last Friday, we learned that 34 (out of 42) of our task submissions
+were already approved. They totaled 197 points, far more than the 120 needed for Bronze level
+certification. However, 8 others (worth ~120 points) were marked “needing revision”. One of those
+8 is a “priority” action needed to grant any level of certification. [On 3/3/20, DEC told us:
+“Your local government did not meet the requirements to be designated a certified Climate Smart
+Community this round. Please know this is very common – it often takes two (or sometimes three)
+attempts before municipalities achieve CSC certification; achieving certification is a high bar. In
+your case, the village needs one more approved priority action before it can be certified…We look
+forward to reviewing your revised application in April.”]
+Many of the cited deficiencies involved public posting and opportunities for public comment on
+documents (e.g., GHG inventories). The community gardens, however, were rejected because they
+were not accompanied by a VB “policy resolution” on such gardens. If the VB can pass a resolution
+addressing those issues at its 3/23 meeting, we will submit such revisions for approval in the next
+round. Its deadline is 4/3, with revised certifications to be announced 5/22. Lindsay will develop the
+requested revisions, draft the VB resolution, and get the revised submissions to DEC by 4/3.
+Recruitment/Outreach:
+Schools: Lindsay attended its 1/28/20 ESC meeting. Updates were provided on:
+- energy performance contract - ECG was chosen as the energy consultant to handle the RFP,
+which should be issued by this July. The winner will then perform an energy audit, develop options,
+etc. That process will take 9-18 months (after July), to be completed by (roughly) the end of 2021.
+- benchmarking – data being collected for that audit will be used for it. ECG will be asked to format
+and enter it into Portfolio Manager (PM) so the 4 school buildings each get a PM score. Andrea
+Furey asked that the school buildings’ carbon footprints be developed by an earlier date.
+- EV buses – Rochelle O’Mara (school transportation coordinator) reviewed their issues (which we
+previously discussed), and announced pending acquisition of a Nissan hybrid van as the district’s
+new mail truck. In early February, she received a proposal for an EV bus costing the same as a
+2
+
+diesel bus, with the proviso that the seller would supply the charging power at an unstated electric
+rate. We offered to review the proposal for her. She has not yet responded on the matter.
+Interns: Last month, Joel and Lindsay reviewed Alexis Stabulas’ GIS analysis of Village tree cover.
+Alexis responded to our queries, but recently took a job in NYC and has limited time to do more.
+Despite initial misgivings on some details, we concluded her bottom line total of avoided GHG may
+be reasonably accurate. However, Brian stated that the GIS files provided to her by Cortlandt were
+out-of-date. [Lindsay sent them to Brian, who agreed to have Village staff correct them so we may
+adjust Alexis’ work.] On 2/6/20, Guy Pardee of CAC (a professional arborist) agreed to help us
+refine the default numbers used in the software via on-site tree surveying.
+Joel reported on the University Climate Change Coalition (UC3), a new (2018) organization with 2
+of its members in our area (SUNY Purchase and Westchester Community College), regarding
+possible sources of interns or other possible liaisons. He awaits responses from both colleges.
+Much of UC3 action in NY appears to be centered at Stony Brook University in Suffolk County on
+Long Island. Joel agreed to review proceedings from UC3’s Atlanta conference.
+Others: Joel reported on the 2/29/20 Croton100 kick-off event at the high school. He was quite
+impressed with the professional way it was managed. Speakers included County Exec. Latimer,
+Sandy Galef, homeowners discussing their own GHG reduction efforts, and others. The graphics
+were good, talk was optimistic, and EVs were shown outside in the parking lot. It was announced
+that Croton100 has secured 501(c)(3) status, allowing it to seek tax-deductible donations. Its goal
+is to make all of the Croton community GHG-free in 20 years. While some committee members
+expressed skepticism, all agreed that any step forward at this point is commendable.
+On 3/8/20, HNM Church will host a 1-hour event on residential heat pumps. Committee member
+Jon Katz will speak on ASHP and Dandelion with review GSHP. As per HNM’s request, a flyer on
+the event was sent to Committee members.
+Communications: A flyer was received about Sustainable Putnam, which had its first organizing
+meeting (held in Mahopac) on 2/8/20. 49 people attended.
+New/ongoing business:
+Stretch Code analysis: Via email, Jon provided an outline of his research on this State Energy Code
+option. Among the Stretch Code upgrades is designing for later installation of solar and EV options.
+For new Croton homes, Brian agreed to look into what kind of financial incentive (e.g. temporary
+property tax reduction/abatement) could be offered by the Village to help buy down the ~6-year
+incremental payback. Doing so could help reduce our community-wide carbon footprint.
+Local sustainability efforts by Scouts: At Lindsay’s request, Dave communicated with local Girl and
+Boy Scout troops on sustainability activities and merit badges. We were very impressed at the level
+and depth of their efforts. See Earth Day discussion for a follow-up action involving scouts.
+Solar canopies at Village Parks: On 2/28/20, Ecogy proposed them over portions of the parking
+areas at Croton Landing and Senasqua Parks. Vassallo Park had previously been found to be
+inappropriate for them. At Croton Landing, Ecogy proposed a 181 kWp system consisting of two
+parallel canopies. At Senasqua, it proposed one 106 kWp canopy. It offered a 20-year lease
+agreement that would pay the Village $3,471 a year for the two sites together. The extra cost of
+3
+
+canopies, setting foundations in beach sand, and other issues result in the relatively low revenue
+(compared to the DPW rooftop revenue). The proposal was nevertheless well received. It would
+include EV chargers at each site, plus various other perks (a kiosk showing solar output). [Via
+subsequent email, we asked Ecogy to draft and send a formal lease agreement to the Village.]
+New incentive programs/grants: Specifics on them for both Con Ed and NYPA customers should be
+available by mid-April. Via email, Len looked into the new Bezos Earth Fund for grants (scheduled to
+be distributed this summer) to see if we (and/or Croton100) may be eligible. His memo says that
+Bezos stated he will give “$10 billion to start” to “scientists, activists, NGOs – any effort that offers a
+real possibility to help and protect the natural world.” Len said it’s too soon to tell and that he will
+check back in a month. Dave mentioned that George Soros was giving (or had given) a lot of money
+to solar ventures. Lindsay asked that Dave look into it.
+Fundraising idea: Lindsay reviewed his draft proposal, previously circulated to committee members
+via email. It could support Croton100’s activities, taking advantage of its independent financial and
+legal position. It would involve Croton’s businesses, not residents or the Village. John Habib (via
+email) provided details from the Croton Business Council that were helpful on developing this idea.
+That group found (via a walk-through) that the Village had at least 180 businesses with street-facing
+identifiable business signs. Joel had previously reviewed its possible application at the Half Moon
+Bay condos, but found it would not be viable. Various issues were reviewed which could be
+stumbling blocks. Joel had briefly raised the concept with David Hemmerling, Croton100’s treasurer.,
+Joel will set up a meeting with him, Joel, and Lindsay to assess that group’s possible interest.
+Earth Day: It’s the 50th anniversary of Earth Day. We will propose to the Boy and Girl Scouts that
+they take a table to show off their sustainability programs, projects, and merit badge options. Niall
+mentioned a Boy Scout community garden project he felt would look good at an Earth Day table or in
+a poster presentation. Lindsay, Dave, and Niall will coordinate that option with the Scouts and CAC.
+Need for another member: Due to our State’s changing energy landscape, there is a need for a new
+member with time and knowledge to chase down various issues. Several possible candidates were
+discussed. Joel agreed to discuss the matter with three of them, and Lindsay will take the other.
+No other new business was raised.
+
+Our next meeting was set for Sunday, March 29, 2020 at 10:30 AM. Carmen Santos (SW
+outreach coordinator) and Dan Welsh (SW director) will attend to update us on SW’s 2020 programs,
+and to see what we’re up to.
+
+4
+
+

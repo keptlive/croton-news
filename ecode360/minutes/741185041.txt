@@ -1,0 +1,148 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, July 23, 2023 – via zoom
+Members Attending:
+Lindsay Audin (chair and CSC Coordinator)
+Dan Columbini PE
+
+Absent:
+
+David Goldman
+Ashley Clemente
+Niall Kelleher (Community Gardens)
+Brian Pugh (Mayor of Croton)
+Jon Katz PE
+Joel Gingold (CCoHOPE Indivisible)
+Bernie Yozwiak (Care for Creation Ministry)
+Len Simon (Village trustee)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): State Sen. Pete Harckham and Assbly. Dana Levenberg
+Announcements: none
+- Sen. Harckham congratulated the committee on making Croton the point leader in the
+CEC program. He indicated that each member would receive a Certificate of
+Achievement from his office. No representative from Levenberg’s office appeared.
+- Food scrap recycling program
+On 7/13, two eblasts (to the Village’s and the Mothers Out Front lists) elicited 40+
+requests to join the program, potentially doubling its participation to ~80. Starting on
+7/15, Keiko Niccolini ran several training sessions for ~20 new participants. Anyone
+interested in joining should review the program and registration process posted at
+https://www.crotononhudson-ny.gov/sustainabilitycommittee/news/croton%E2%80%99s-food-scrap-recycling-program
+- NYSERDA CEC-sponsored projects
+By completing the firehouse HP controls (and adding 4 EV chargers at the DPW
+building), Croton (on 7/4) became the leader in NY’s Clean Energy Community (CEC)
+program. With 8,000 points, Croton is now first among the 503 CECs. Bedford is 2nd
+(7,500 pts.) and Hastings is 3rd (7,100 pts.). While not immediately yielding new
+grants, this helps position Croton for when they become available.
+On 7/5, At Brian’s request, a draft press release was sent to Bryan Healy. It’s now
+posted at https://www.crotononhudson-ny.gov/home/news/news-croton-hudsonbecomes-state%E2%80%99s-leading-clean-energy-community The front page of the
+Village’s summer newsletter had an article on Croton getting 1st place in CEC.
+On 7/16, an article in the online version or the River Journal appeared at
+https://riverjournalonline.com/around-town/for-the-local-good/croton-on-hudsonbecomes-states-leading-clean-energy-community/76767/
+1
+
+Joel and Bernie will forward other articles they saw in (respectively) the Croton
+Gazette and the Yorktown Examiner.
+On 7/17, News12 (cable TV) interviewed Lindsay and Brian at the firehouse. View it at
+https://hudsonvalley.news12.com/croton-on-hudson-leads-the-way-in-ny-as-a-cleanenergy-community
+On 7/18, Ecogy Energy sent Lindsay a congratulatory note and a bouquet of flowers.
+Firehouse HPWH: Jon and Dan reviewed the $7,200 plumber’s proposal for an 80-gal
+unit and whittled it down to $7,000. On 7/18, Dan Tucker (Village Treasurer) issued a
+PO that was forwarded to the plumber. The project’s cost is covered by our existing
+grants. We look forward to completing the installation by Labor Day.
+New CEC Community Campaigns (community solar, EVs, HPs): Lindsay verified with
+NYSERDA that we don’t need its approval or new docs to get started. Our first
+campaign will likely be recruiting subscribers to output from the train station canopy
+system. As earlier discussed, enrolling 150 Crotonites would win us a $30K grant and
+800 CEC points. On 7/8, Cheryl Wong (a new recruit) agreed to assist with that effort.
+Anyone in the 10520 zip code is eligible except: those having solar panels on their
+homes, or already enrolled in a community solar (e.g., DPW) project. Consideration is
+being given to recruiting at the ~300 Half Moon Bay condos.
+On 7/18, Joel met with Patty Buchanan of C100 on its possible assistance with
+recruiting. He got a generally positive response. Further discussions are in the works.
+On 7/6, SolSystems agreed to get us a date for when its subscriber enrollment web
+page will be posted, Issues on securing subscriber info are being ironed out. A PSC
+ruling that could have complicated such marketing now appears to allow it, as long as
+no “commodity services” (e.g., actual power sales) are involved:
+“CDG [community distributed generation] sponsors would not fit within the definition of “energy
+consultant” as CDG sponsors provide bill credits [not actual power] to customers and do not
+provide commodity service.”
+
+Thanks to Leo Wiegman at Sustainable Westchester for ferreting out that exception.
+On 7/19, NYSEIA came to the same conclusion, citing the same language.
+Other campaigns will promote HPWHs (25 of them gets us $30K and 1,300 points)
+and identify purchases of new EVs (65 of them gets us $22.5K and 800 points).
+- Solar Projects/Issues
+At our train station, late June saw delivery of POWIN power storage modules (lithiumiron-phosphate [LFP], not lithium-ion). They look like long white ventilated shipping
+containers. Other work is proceeding rather slowly. On 7/20, Sol said a revised
+construction timetable is forthcoming.
+Development of a solar canopy project over the Ossining train station parking lot
+appears stalled. An Ossining Village official expressed concerns over several issues.
+2
+
+- EV/EVSE
+The DEC contractual paperwork for our $150K train station EV charger grant has still
+not arrived. The grant was awarded to us in late April.
+Len updated on the status of funding for 3 new municipal EVs to replace existing gaspowered vehicles and another EV charger for them. Purchasing may take ~9 months.
+Len will review with DPW on status for buying an F-150 Lightning EV pickup truck.
+When we get their VIN numbers, we can apply for a $5K rebate for each from DEC.
+A NYSERDA program (Charge Ready 2.0) for EV chargers (focused on multi-family
+and commercial properties) has re-opened. Talks have started with Regan
+Development at its Maple St. Apts. site regarding L2 chargers in its parking lot.
+- Funding Sources/Issues
+Len reported on a recent $400M addition to the State’s Environmental Protection
+Fund. While many worthwhile projects will be funded, there was no new funding for
+our types of projects. He reviewed the two parts to the federal Greenhouse Gas
+Reduction Fund: an Accelerator loan fund focused on low-income/disadvantage
+communities, and the National Climate Investment Fund (NCIF), most of which would
+be available for other communities. Neither will be ready-for-prime-time until ~2025.
+Brian detailed the CREST program: Community Resiliency, Economic Sustainability,
+and Technology. $2.1M in grants (between $50K and $100K) will be distributed in
+State Sen. Harckham’s district to municipalities “pursuing municipal electrification and
+renewable energy projects”. Harckham stated that Croton will get a $100K grant. Brian
+had asked about a solar canopy over the DPW’s parking lot. At ~80 kW, it could
+produce 2X the annual kWh used by the DPW building. The rest (~40,000 kWh) might
+be remotely net metered to other Village accounts. Lindsay will ask Jon to update us
+on the rules and lingo for that process.
+Installation would cost $250K - $300K. On 7/17, the NY-SUN incentive for the Con Ed
+area for non-residential systems up to 200 kW was announced at $1.00/W, with a
+$.20/W adder if it’s a parking canopy. For a DPW canopy, that would yield ~$96K. Add
+the $100K CREST grant, and then a 30% ITC refund, we would have ~$271K,
+potentially covering the entire cost without needing Village funds.
+CREST grant applications will be handled by DASNY (Dormitory Authority of the State
+of NY). FAQs say that app reviews take 6-12 months, during which no $ can be spent.
+Brian noted that NYC DEP (which has authority because DPW sits atop a City water
+resource and our aquifer) may quibble over drilling for a canopy’s pier supports.
+Lindsay is pursuing details on that issue.
+- Residential Heat Pumps
+On 7/3, Bernie and Lindsay zoomed on the draft HP advisory report initiated by
+Ashley. Bernie is concentrating on sorting out the various financial incentives into an
+3
+
+easily understood format. Rules for one of them (HEERHA) won’t be announced until
+near the end of this year. Members discussed the intricacies when integrating HPs
+with existing heating systems, and the implications for related incentives. Dan agreed
+to send us pics of the HPWH he recently installed in his basement.
+- Other Reports
+Niall is quantifying $ savings from composting based on reducing our trash weight at
+the Charles Pt. incinerator. Data provided by DPW to him showed 3,444 tons of our
+waste was incinerated in 2022. Lindsay will help Niall get our present $/ton disposal
+charge to work up a proposal for how home composting could reduce the overall cost.
+- Recruitment/Outreach/Communications/PR
+Contact was re-established with the Purchase College Sustainability Coalition. It
+involved the College, a variety of green-oriented businesses, as well as local NGOs
+and governments. In Dec. 2021, Joel recalled attending a zoom hosted by Angie Kim,
+sustainability coordinator for SUNY Purchase College and founder of the Coalition.
+Kim quit a month later. The Coalition then went dormant until June 2022 when she
+was replaced by Grace Afflerbach. On 6/30, Grace told Lindsay that the Coalition was
+alive but not active. Its next meeting will be after Labor Day, at which time we’ll reassess our involvement. Joel agreed to attend the meeting.
+- New Business / Other Issues
+Bernie noted that EV chargers should be in commercial areas in town, e.g., near or in
+the Vassallo Park parking area. While a DC fast charger (i.e., L3) would be
+appropriate, issues were raised re: electric load and cost. Lindsay mentioned that the
+Con Ed PowerReady program could pay to expand distribution capacity, but L3
+charger cost is still an uphill climb.
+
+Our committee will take its usual summer sabbatical during August. Date for our next
+meeting was set for Sunday, Sept. 24, at 10:30 AM via zoom.
+
+4
+
+

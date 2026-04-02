@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//croton.news//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Croton — Town of Cortlandt
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Events from Town of Cortlandt
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+BEGIN:VEVENT
+UID:0d217d7a5e62@croton.news
+DTSTART;TZID=America/New_York:20260406T170000
+SUMMARY:Town Board Work Session
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:abc1222c3ffe@croton.news
+DTSTART;TZID=America/New_York:20260407T170000
+SUMMARY:Planning Board Meeting & Work Session
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:68b27635d9f0@croton.news
+DTSTART;TZID=America/New_York:20260413T170000
+SUMMARY:Town Board Work Session
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:953c590e1aa4@croton.news
+DTSTART;TZID=America/New_York:20260414T190000
+SUMMARY:Town Board Meeting
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:89f28f8e3567@croton.news
+DTSTART;TZID=America/New_York:20260414T193000
+SUMMARY:Continental Village Park District Joint
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e75e24611e32@croton.news
+DTSTART;TZID=America/New_York:20260416T173000
+SUMMARY:Zoning Board Meeting & Work Session
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:13112b39d4be@croton.news
+DTSTART;TZID=America/New_York:20260419T100000
+SUMMARY:Earth Day Hike
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:eba75e103cef@croton.news
+DTSTART;TZID=America/New_York:20260420T170000
+SUMMARY:Town Board Work Session
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7dc760864ab2@croton.news
+DTSTART;VALUE=DATE:20260425
+SUMMARY:National Prescription Drug Take Back Day
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6796a71dbe9f@croton.news
+DTSTART;TZID=America/New_York:20260429T010000
+SUMMARY:Cortlandt Regional Veterans Committee Meeting
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,208 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Dec. 19, 2021 – via zoom
+Members Attending:
+Lindsay Audin
+Len Simon
+Bernie Yozwiak
+Joel Gingold
+Niall Kelleher
+Dan Columbini
+Brian Pugh
+
+Absent:
+Jon Katz (traveling)
+
+[Bracketed] text mean subsequent actions or clarifications. Underlining indicates a
+commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: None
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC grants
+On 11/29, NYSERDA accepted our two grant applications (for $70K and $20K) to
+bankroll the solar rooftop job. Bryan Healy and Lindsay attended the 12/6 kickoff
+meeting with NYSERDA’s project manager (Gwenyth Widrick) and Eleanor Peck, our
+CEC coordinator with the HVRC. We now move to the contract phase (between Croton
+and NYSERDA). Based on comments, such should occur by mid-January 2022.
+As detailed in our last meeting, the kickoff meeting for the ASHP controls job occurred
+11/2. It too is now in the contracting phase with NYSERDA.
+Work (e.g., Scoping Documents to NYSERDA) has started on two new Community
+Campaigns in the CEC program: “Clean Heating and Cooling [CH&C] and Energy
+Efficiency”, and “Electric Vehicles [EV]”. Together, they could get us two more $5,000
+grants and 700 more CEC points. Depending on how new federal energy-related funds
+are distributed, such points may better position Croton for future grants from the State.
+For a recently-funded federal program, see “New Business”.
+Next step is securing Village Board approval for the campaigns. [On 12/20, the Village
+Board passed a resolution allowing Mayor Pugh to sign the Letter of Commitment
+required by NYSERDA to show municipal support for both Campaigns. Both Scoping
+Docs were submitted, along with the resolution and Letter, on 12/24/21.]
+Key to each campaign is securing information on EV and HP (any type) purchases. To
+get the $5K grants, we need to submit a “Customer List” for each showing purchaser
+name and address, supplier/dealer name and town, and purchase date. To encourage
+receipt of that data, Lindsay proposed $100 bonuses to the first 5 customers for EVs
+and same for the first 5 HPs that provide the data. To avoid prior issues with
+NYSERDA funds passing through Village hands, a third party would assist with getting
+1
+
+the information and would handle the bonuses, which would come from private
+sources. The Village (and our Committee) would play no part in the funding. The third
+party would supply the data to us for the Customer List. Since our last meeting, Lindsay
+has been negotiating with C100 to be the third party. Leo Wiegman (who is on C100’s
+board), emailed on 12/18 that C100 may be able to do so. As a backup, Bernie agreed
+to ask C4C/HNM to see if it might do the same. Brian directed Lindsay to run this by the
+Village’s attorney. Various venues will be used to promote the program and bonuses.
+Unlike the speed of our first two Community Campaigns (each done in a month) these
+campaigns may run through 2022 to find and log the needed purchases. However, we
+have until 12/31/2025 to do so, unless program funds run out first. The federal
+infrastructure bill that passed last month contains billions for EV chargers and other
+energy-related programs that may encourage EV adoption. If a version of Pres. Biden’s
+BBB bill gets passed, additional funds may become available.
+After the holidays, Jon, Len, and Bernie agreed to work together on getting the Stretch
+Code adopted. Before our next meeting, Lindsay will send them NYSERDA docs
+needed for that process. [Done on 12/20/21]. Passage of the Code will get us another
+$5,000 grant and 1,200 CEC points, but the Stretch Code must be made effective by
+June 30, 2022. We discussed the need to inform local architects and contractors.
+- Other Solar Projects
+On the SolSystems’ train station canopies, a 12/7/21 revised calculation (taking into
+account various increases and decreases of costs and incentives) shows projected
+annual leasing rent at $450,768. The drop from the $590,000 in Sol’s original proposal
+stems from a 15% kWp reduction (due to Fire Dept. and other requirements) and the
+net difference in various incentives. Sol is prepping revised costs for a water
+management system design that may further reduce annual rent. Deadlines on some
+incentives were discussed. [Sol later provided an accounting to show it had gotten
+extensions or filed paperwork that essentially “beat the clock” so that the construction
+deadline is now in late 2023.] The most recent Sol meeting covered other issues, e,g.,
+permit fees, bonds, siting EV chargers. For the latter, see below under “EV/EVSE”.
+On the Croton Landing Park canopy, efforts continue to overcome the present “park
+alienation” law issue. Several developers (including NYPA) provided input on how it is
+blocking solar growth. Joel and Lindsay continue to work with Sandy Galef’s office on
+possible strategies and amendments to pass A.6838.
+- EV/EVSE
+To get us started on our “Community Campaign for EVs”, Niall compiled a contact list of
+61 Westchester car dealerships that sell new EVs. NYSERDA requires that we have
+“partnerships” with them in order to demonstrate that our promotional efforts are related
+to them. Niall’s list will be part of the Scoping Document required by NYSERDA prior to
+starting a campaign. It will become an online article listing them for Crotonites. It will ask
+2
+
+buyers to state when they bought an EV from one of those dealers. If they do so after
+NYSERDA accepts our Scoping Document, it’s assumed that we helped make that
+happen. We expect approval of the Scoping Doc by late-January.
+As part of that EV promo campaign, Dan compiled information on residential Level 2 EV
+chargers. While not essential to getting a grant, the data may encourage potential EV
+buyers toward their purchases. It too will be posted at our web page. His notes are
+appended at the end of these minutes.
+On 11/30, Dan O’Connor Frank Balbi, and Lindsay scoped out the location of 12 dualport EV chargers at the train station. The lowest cost way to mount them would be on
+the canopy columns, but Sol later said doing so would create legal complications. With
+Village staff, a pedestal-mounted layout near columns will be developed. As per Dan
+O’Connor’s plan, they will be dispersed among three sections of the lot, including a pair
+in the handicapped section. At the 12/2 semi-monthly planning call with SolSystems, we
+reviewed covering 90% of the cost for the EV infrastructure (not the chargers) through
+Con Ed’s PowerReady program, worth (roughly) $100K. The new $5K grants could pay
+for up to 3 chargers at the train station, which should be sufficient for several years.
+An option to install an EV charger at the DPW parking lot is being reviewed with Bryan
+Healy and Frank Balbi. To avoid parking capacity issues (there are only 35 spaces), it
+would be installed but not enabled until two employees wish to park EVs in that lot. One
+$5K grant could cover the cost of the charger (incentives for chargers ran out in July).
+Con Ed’s PowerReady program could be tapped to cover 50% of the infrastructure cost.
+In early December, the school district won a $120,000 grant for one EV school bus. On
+12/14, Transportation Director Joe Bernardi stated:
+Yes, the district received notification from the Governor's office that we have been awarded $120,000
+in NYSERDA grant funding for a 66-passenger electric bus. Also, in our proposition that was passed
+last May, there is funding for an EV charger. We are beginning to look at our options and welcome any
+suggestions or connections you may have. We have met with a few companies, but most of the
+funding requires public usage which we are not considering at this time.
+
+The bus is expected to be in service by September. Further details may be provided at
+the school district’s Environmental Sustainability Committee January meeting.
+- Food Scrap Recycling Program
+Work on a proposal from Ossining’s food scrap program manager (Marcus DaSilva)
+continues. We are waiting for a response from NY DEC regarding how we may be
+allowed to change our $11K grant to match present realities. As a site, the parking lot at
+Silver Lake Park looks good and has a water connection needed for cleaning scrap bins.
+Brian raised several possible issues and asked if the northern end of Lot H of the train
+station parking lot (on the east side of Veterans Plaza) might be better. He also
+suggested Lot A (the raised part of the parking lot), which had previously been
+discussed and dropped because that property may be sold. Both sites lack water
+connections, but Lindsay will look into it.
+- Reports
+
+3
+
+Bernie took a series of NYSERDA-sponsored webinars on Battery Energy Storage
+Systems (BESS). He described the main technologies involved (lithium-ion and lithiumiron-phosphate), how the batteries are constructed for residential, commercial, and
+utility-grade systems, and showed us some of the slides containing photos and data. He
+covered a wide range of BESS issues, including fire safety/control, taxes, and other
+issues affecting installed cost. He is now our designated BESS Maven/Expert.
+- Communications/Public Relations
+Adlin Hadad edited a draft press release about NYSERDA’s confirmation of grants for
+the two Washington firehouse projects. We requested Village staff acceptance of
+content and an OK to post it to 6 media outlets. We are awaiting that OK. As per grant
+rules, a NYSERDA quote and its content approval are then needed prior to publication.
+- Recruitment/Outreach
+Joel reported on the 12/9 creation of a new group (Purchase Sustainability Coalition)
+based at SUNY Purchase. The Coalition will provide a venue to review and promote best
+practices. It will replace the existing Green Business Partnership, whose activities are
+being transferred to the Westchester Business Council at the end of 2021. Joel agreed to
+participate and will attend its first formal meeting after the holidays. When Joel asked
+attendees about internships, personnel from both Purchase and WCC indicated they had
+such programs, and could offer them to help us.
+One of our existing interns found contact information for a Crotonite concerned enough
+about climate change to attend a webinar about it. After reviewing our recent minutes
+and activities, Katrina Krasnansky is considering how she may handle tasks for us.
+- New business / other issues
+Len told us about the Energy Efficiency and Conservation Block Grant which is part of
+the federal infrastructure bill signed into law last month. It offers $500 million toward
+those ends. While 28% of the money goes to the states for their programs, 60% of that
+28% is slated for small (i.e., < 35,000 pop.) communities, such as Croton. He will keep us
+informed on how we may access those funds when available (probably in Q3 of 2022).
+Bernie reported that C4C will on 1/9/22 have a program on the solar parking canopy
+system at IBM Watson Research Center in Yorktown Heights. C4C had a 1212/21
+program that touched on the proposed solar installation at the Hudson National Golf
+Course. Our Assby. rep, Sandy Galef was on the call.
+[The Community Solar 2.0 discounted power that was to start in early fall was delayed by
+Con Ed’s failure to implement consolidated billing for community solar projects. On
+12/22, Ecogy provided this update:
+We still have not been approved by ConEd for their net crediting [i.e., consolidated billing] having
+applied nearly 2 months ago [when it supposedly became available]. I've asked PowerMarket
+
+4
+
+[manager of Ecogy’s billing] to send an email out to all subscribers. We have been told we should be
+approved in the next week or two for credits to start flowing in late Jan/February.]
+
+Date for our next meeting was set for Sunday, January 23 at 10:30 AM via zoom.
+
+Appendix on EV Chargers
+(research submitted by Dan Colombini PE, committee member)
+EV Chargers
+Many electric vehicle buyers (especially plug-in hybrid models PHEV) can start with the
+included cord that will plug into a normal 120 Volt electrical outlet. This may be
+adequate for those driving 40-50 miles or less per day.
+Level 1 and Level 2 Charger options are available, with some samples shown here.
+Level 1 Chargers: 120V, typically 4 miles per hour charging
+Electrical Installation Cost = $0 (assuming outlet available in garage)
+Level 2 Chargers: 240V, typically 32 miles per hour charging
+Electrical Installation Cost = $500-$2,500 (not including Level 2 Charger, see samples
+below)
+Level 3 Chargers: Require high voltage, not for residential use.
+Level 2 Charger Samples:
+(manufacturer/price, power/current)
+Tesla - $550
+Up to 11.5 kW – 48 Amps
+Up to 44 Miles Range/hour charge
+
+5
+
+Clipper Creek
+HCS-50 - $635
+9.6 kW – 40 Amps
+HCS-60 – $899
+11.5 kW – 48 Amps
+
+Clipper Creek
+AmazingE Fast - $469
+7.7 kW – 32 Amps
+6
+
+7
+
+

@@ -1,0 +1,190 @@
+MINUTES – Croton Sustainability Comm. (SC) – 10:30 AM Sunday, Sept. 26, 2021 – via zoom
+Members Attending:
+Lindsay Audin
+
+Joel Gingold
+
+Dan Columbini
+Jon Katz
+
+Niall Kelleher
+
+Absent:
+Bernie Yozwiak (on vacation)
+Len Simon (family issue)
+Brian Pugh (mayoral commitment)
+
+[Bracketed] text mean subsequent actions or clarifications. Underlining indicates a commitment.
+-------------------------------------------------------------------------Guest(s): Ms. Adlin Hadad, public relations consultant
+Announcements: Thank you to Dan Colombini for providing zoom service for our meeting.
+Introductions: Joel introduced Ms. Hadad and her interest in assisting our committee. She has
+done similar PR work both professionally and for other organizations, including C100. Her
+professional work includes video and marketing services for ESPN, Bloomberg, and others.
+She agreed to provide up to several hours a month of her time for our committee. We discussed
+the use of social media and public relations as a way to secure community and Village support
+for our work. Presence on Facebook and other online venues also helps secure points needed
+to maintain our silver Climate Smart Community (CSC) status and assist with securing grants.
+To that end, Lindsay will send her a link to the CSC’s “social media” and related task pages and
+tips on getting started on the tasks. [done 9/27/21]
+She agreed to produce by Oct. 20 a draft PR outline/plan for our review based on our financial
+and time limitations. She will review our existing web page (https://www.crotononhudsonny.gov/sustainability-committee) at the Village’s web site and coverage on its Facebook page
+(https://www.facebook.com/CrotonGov/ ). She will provide feedback on how to improve/fix it to
+be more engaging and informative to the general population.
+Lindsay suggested a way to get us more “face time” with other communities might be a zoom to
+include nearby communities also heavily involved in the CEC and CSC programs. Presenters
+would include the 6 Mid-Hudson municipalities that have secured at least 5,000 points in the
+CEC program: Hastings, Bedford, Dobbs Ferry, Town of Mamaroneck, City of Kingston, and
+Croton. The goal would be to trade experiences and plans for spending their respective CEC
+grants. Other communities would be invited to attend, ask questions, but not present. Lindsay
+will flesh out the idea for Adlin’s review before our Oct. 24 meeting.
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC grants
+All four of the Mid-Hudson region’s $70K grants have now been allocated. The winners were:
+Hastings, Croton, Bedford, and Dobbs Ferry. They were the first to reach the necessary 5,000point threshold. In late July, the Town of Mamaroneck reached 5,100 CEC points, and (in early
+Sept.) the City of Kingston got to 5,200 points. Both were too late to score a $70K grant. No
+other municipality in the other regions of the State has yet done so.
+1
+
+On Aug. 16, the VB passed a resolution allowing the mayor to sign the NYSERDA-required
+Letter of Commitment that must be submitted with our grant applications. The Village’s attorney
+provided desired changes to two sections of the NYSERDA contract.
+Last-minute grant issues got us a two-month extension of our deadlines, to Oct. 20 and 26. Our
+$5K grant application for a metered heat pump water heater (HPWH) was nevertheless
+submitted Aug. 28. Those funds were received by the Village on Sept. 23. While other
+applications are now ready for submission, they are being held pending release of a new
+program Guidance Document that may contain beneficial rule changes.
+- Washington Engine firehouse projects
+The following will be submitted for grant funding:
+- a 37.3 kWp solar rooftop at the Washington Engine firehouse (to include a 166-foot OSHArequired safety railing) was summarized by Lindsay. Its total cost (net of incentives) of ~$85K
+will be fully covered by our $70K and $20K grants. The remaining ~$5K may be needed to
+handle unforeseen costs, e.g., higher panel costs. To move ahead, he will meet with Village
+staff to assemble a RFP. We presently have one proposal and scope of work (SOW) from
+Croton Energy Group (CEG). Other projects each cost less than the $20K threshold above
+which a formal bid process is required.
+- a control system to integrate five existing ASHPs with the firehouse’s oil-fired hydronic system
+to cut fuel oil use was summarized by Jon. It will cost ~$13.4K, fully covered by our $10K and
+one of our $5K grants. He produced a SOW and got a proposal from a local contractor (Carey &
+Walsh). We thanked Jon for the great work he did for us, and for putting up with Lindsay’s
+pushiness. Once our grant app is approved (probably late Oct.), we’ll meet with Village staff to
+review and schedule the project.
+- Other grant-supported projects
+A HPWH will replace an electric resistance DHW unit in the Municipal Building. The job will
+include water and electric metering to quantify savings. Cost will be covered by our remaining
+$5K grant. Another HPWH that was proposed for the DPW building could not proceed due to a
+recent issue with the building’s well water supply system. After Dan has a chance to view the
+site in the Muni Bldg, he and Lindsay will assemble a SOW. Local HVAC/plumbing firms
+experienced with HPWHs will be asked to price the job.
+In case another grant comes our way, Bruni & Campisi is prepping a proposal to convert the
+Washington firehouse’s boiler from oil to gas. The building already has gas service, and its
+existing boiler should be able to accept a gas burner. While a new more efficient burner may
+save some energy, such fuel switching is acceptable under NYSERDA’s CEC grant program
+because natural gas (for the same Btus) emits about 30% less carbon.
+- Other Solar Projects
+On the SolSystems’ train station canopies, the VB in August authorized proceeding to final
+system design. Due to various technical changes, it will provide 4.009 MWp (down from ~4.7
+MWp). Power storage output will be 3.75 MW (up from 2.7) with a capacity of 15 MWh (up from
+2
+
+13.5). At its 9/14 meeting, the Planning Board (PB) reviewed some issues (e.g. power storage,
+EV charger conduits) but not drainage, i.e., rain and sudden snow melt, coming off the panels.
+Drainage is becoming a sticking point with Sol. The PB will discuss it at its 9/28 meeting.
+On the DPW canopy to cover its front parking lot (~197 kWp), we continue to await a report
+from Con Ed on the feeder voltage spike issue that suspended development of that project.
+However, both it and a possible canopy at the Muni Bldg are now in limbo due to reductions in
+the NYS Community Credit. Unless raised to its prior levels, neither project is financially viable.
+On the Croton Landing Park canopy (~350 kWp), we continue to pursue co-sponsors for
+A.6838, the bill that would exempt them in parking lots in parks. Joel reported that there are
+now 44 co-sponsors. In early July, Yorktown got (after a year of effort) a special exemption
+State law passed. Legal work was done by its town attorney. Other costs (surveyor, filings, etc.)
+were covered by HESP Solar (winner of the competitive bid). Multiple calls and emails to HESP
+were not returned. Lindsay found that it’s a very small outfit that develops and sells projects to
+investors. The deal is built around $500K of financing to pave the parking lot and other areas.
+Joel reported on issues surrounding such an exemption, and how amending A.6838 might
+finally resolve the matter. As part of the effort to get it passed, Lindsay (on July 23) reviewed the
+issue on a WBAI radio show and podcast, and will do so again at the Oct. 19 zoom of the
+Village of Mamaroneck’s sustainability committee.
+Other local solar projects (in which we are not involved) either in development or just finished,
+are in Ossining (Maryknoll), two in Yorktown (Granite Knolls Park, and at a nursing home),
+White Plains (a hospital), and Cortlandt Manor (a farm). Dan O’Connor and Lindsay attended
+the Sept. 14 ribbon-cutting at the 874 kWp Maryknoll site, consisting of 12 canopies over its two
+parking lots. The nursing home site will have 700 kWp split between a rooftop and parking
+canopies, plus a 660-kWh battery. Westchester Community College just (7/21/21) issued a RFI
+for 9 campus sites that includes rooftops and parking canopies.
+[After the meeting, Ecogy informed us that consolidated billing (which makes community solar
+much easier) is almost at hand: “It should take 1-2 months to go into effect from approval, so
+the DPW subscribers will {then} move off of the two-bill system.” Unfortunately, Ecogy’s Shrub
+Oak system – from which our Community Solar 2.0 subscribers were to get power - was “killed”
+due to permitting issues that the commercial property host was unable to overcome. Ecogy
+won’t have another project to serve those subscribers (which includes most committee
+members) until Q1 2022: “Unfortunately all of our projects in ConEd have been delayed due to
+permitting, supply chain and labor shortages”.]
+- EV/EVSE
+For Drive Electric Week, we co-sponsored a Sept. 25 EV show with Croton100/CURE100 at the
+parking lot at Senasqua Park. Niall showed off his new 2021 Nissan Leaf. We provided updated
+“Kiss Your Gas Goodbye” flyers, and assisted with Village-sponsored promotional efforts. Niall
+reported that there was a decent turnout, and he handed out 10 of our flyers. Most of the EVs
+were Teslas, but a Volvo Polestar SUV was also shown.
+Regarding a rumor heard at the event about the school district having received an EV school
+bus, Joseph Bernardi (Transportation Supervisor for the district) stated the following on 9/27/21:
+3
+
+Good afternoon Lindsay, Please be aware that the Electric vehicles have not been purchased yet
+as we are still waiting on the NYSERDA grants to be secured.
+We have been working diligently with our Bus Provider to keep abreast of the status of the grants.
+Once we receive any notification regarding the grants either way, we will advise the community.
+
+As of Sept. 15, NYSERDA incentives for EV chargers have run out. Funding for related electric
+service upgrades (i.e., “EV infrastructure”) continues to be available at 90% for public charge
+sites and 50% for non-public sites (e.g., for municipal/school/employee vehicles).
+- Reports
+
+Niall summarized a webinar he attended on replacing diesel fuel with methanol, a potentially
+renewable fuel if made from plants such as corn or switchgrass. The Village’s diesel-fueled
+trucks account for 30+% of our municipal carbon footprint. Reasonably-priced EV versions of
+the Village’s trucks may be a decade away, so we are keeping an eye on other ways to cut
+truck carbon.
+Fuel replacement (instead of electrification) may make more sense for large (e.g., garbage)
+trucks unless the cost of very large EV batteries drops significantly and a network of Level 3 DC
+chargers is developed to charge them.
+Niall reported that methanol supply and distribution is developing in Europe and Israel, but not
+yet in the U.S. To demo the opportunity, engines of several large diesel vehicles (including
+tractor-trailers) are being modified to accept methanol. It may be 2-3 years (or more) before
+routine engine modification and supply/distribution services are available in those countries.
+- Communications
+In May, Yorktown passed a law to regulate battery installations using NYSERDA’s Model Law,
+as detailed in its “NY Battery Energy Storage System Guidebook for Local Governments”.
+Bernie recently took a webinar series on power storage that provided hard copies of that
+Guidebook, one of which was sent to Village Engineer Dan O’Connor. Bernie will report on
+those webinars at our October meeting.
+[At the 9/28/21 meeting of the school district’s Environmental Sustainability Committee, we
+learned that the district’s composting program was suspended in Jan. 2020 due to COVID. It
+may not be re-started until spring 2022. The district’s Energy Performance Contract (EPC) is,
+however, a “go”, with State Education Dept. funding secured last week. Installation work will be
+done in phases based on weather (e.g., heating controls after this winter, solar panels during
+the summer). LED lighting will be done room-by-room during off-hours to avoid disruptions.
+Bottom line: watch for progress starting spring-summer 2022.]
+- Recruitment/Outreach
+Dan Oppenheim, formerly with C100, has agreed to assist us with a community GHG inventory.
+He agreed to assess the task and get started when he returns from Europe in late October
+- New business / other issues
+4
+
+At a recent climate-related event, Bernie met Gunnel Rydstrom, a member of Green Ossining
+(GO), a non-governmental group similar to our committee. She asked Bernie about Croton’s
+EVs and chargers. Lindsay emailed information about it to her. While reviewing other GO
+activities, he learned that it had a DEC grant for food scrap recycling nearly identical to our own
+~$11K DEC grant (dormant due to COVID and other reasons).
+Committee members discussed engaging Green Ossining to manage our food scrap recycling
+program as a contractor under our DEC grant. If we are to move ahead on that program for next
+spring, we need everything (site, participants, buckets, flyers) in place before the end of next
+March. Handing over most of the work (and the grant $) to GO might be a way to manage those
+tasks. Otherwise, we may need to return the grant, which runs out in October 2022.
+After a brief discussion, all attending members authorized Lindsay to approach Rydstrom and
+GO to see if they may be interested in such an arrangement. [Lindsay later learned that the
+Town government was actually running the program. He has approached Victoria Cafarelli,
+program coordinator for the Town, to assess the option.]
+Date for our next zoom meeting was set for Sunday, October 24 at 10:30 AM.
+
+5
+
+

@@ -1,0 +1,208 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Feb. 25, 2024 – via zoom
+Members Attending:
+Lindsay Audin (chair, CSC Coordinator)
+Ashley Clemente
+
+Absent:
+
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (gardens)
+Brian Pugh (Croton Mayor)
+Len Simon (Village trustee)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): none
+Announcements: Alexandra Barkan resigned from the committee effective 2/4/2024.
+The Hudson Valley Regional Council (HVRC,
+a NYSERDA contractor) delivered our Impact
+Award for the train station project during a
+2/7/24 photo op. Left to right see Vill. Mgr.
+Bryan Healy, Trustee Ian Murtaugh, Carla
+Castillo (HVRC director), Mayor Brian Pugh,
+Lindsay Audin, and Elizabeth Sun of HVRC.
+- NYSERDA CEC-supported projects
+(community solar, EVs, HPs)
+status as of 2/25/2024 for
+Community Campaigns
+CEC Actions since 6/1/23
+Comm. solar enrollments
+EV/PHEVs bought
+HPs installed
+bold = achieved
+
+Level 2
+volume
+
+Level 2
+grant
+
+Level 3
+volume
+
+Level 3
+grant
+
+50
+15
+10
+
+$10,000
+$7,500
+$10,000
+
+100
+50
+15
+
+$20,000
+$15,000
+$20,000
+
+- Community solar enrollments were completed in late December. We await notification
+on that $20K grant (we got the 800 points).
+- On 2/4/24 our Level 3 submission on new private EVs, was completed after finding
+more DMV EV data. We await notification on the $15K grant (we’ll get 800 points).
+- On 2/16/24, our Level 3 submission on 25 new private HPs, was completed based on
+info from Regan Development’s Maple St. apts., all of which have HPs (applications for
+housing were opened that day). We await notification on the $10K and $20K grants
+(and 1,300 points). Together, those actions will yield a total of $82,500 in grants.
+All Community Campaigns are now completed.
+1
+
+Croton is again the CEC leader in the State with (2/26/24) 12,200 points (800 more
+points are pending). Bedford is 2nd with 10,500 points. Hastings is 3rd with 10,400 points.
+Before NYSERDA will give us any more points, they insisted Croton produce a “fresh”
+Letter of Commitment, signed by the mayor. [The VB did so on 2/28.]
+- Solar Projects/Issues
+Train station canopies: completion is still scheduled for Oct. 2024.
+DPW solar parking canopies: The concept involved a ~50 kW unit to be financed and
+owned by the Village and a ~150 kW unit to be financed and owned by a developer,
+e.g., Ecogy. The ~50 kW system would provide all power (via net metering) needed by
+the DPW building. The ~150 kW system would be community solar providing solar
+billing credits to 9 municipal accounts. [Bryan Healy was also interested in enrolling
+other Village accounts to other community solar facilities.] Together, the canopies
+could save the Village $5K to $9K/yr on its electric bills while cutting ~94 MTCO2e/yr,
+about 23 of which would be counted against our muni carbon footprint.
+However, on 2/20, Ecogy passed on the option, saying it was too small to work
+financially. Rising interest rates and construction costs, lower incentives, and falling
+value of transferable tax credits (due to a growing glut of them) are to blame. Only
+canopies at least 400-500 kW now make economic sense to developers.
+We discussed several DPW options, including the Village bankrolling the ~150 kW
+canopy and remotely net metering its output to Village accounts, and fully electrifying
+DPW using large HPs to eliminate use of oil. Jon and Lindsay had looked at a HP for
+the garage part of DPW several years ago, but found it too costly. Lindsay will review
+with Jon and Dan the above options for discussion at our March meeting.
+Harmon firehouse rooftop option: the proposed ~50 kW rooftop and A/C-to-HP
+conversion is being developed for integration with the planned 2,500 SF addition to
+the building. See further discussion under “heat pumps”.
+Brian and Len told us of plans for the Gouveia Park house which (in 2025) will become
+home to the Recreation Dept. A solar array on its rooftop and/or a ground-mounted
+system were discussed, with the latter pondered as a source of remote net-metered
+power to other park-related accounts. [Lindsay subsequently found that a ~72 kW
+array could supply all Village park electric accounts, though converting the Gouveia
+Park house to full use and heat pumps might bump that to ~80 kW. The Gouveia
+House has a ~2,000 SF flat roof able to produce ~20 kWp, perhaps enough to run the
+building, but only after cutting down many trees presently shading the roof.]
+Brian described a recent Lewisboro legal opinion that the State alienation law may
+allow such use of park land if the power went only to other municipal parks. [Brian
+agreed to send it to Lindsay for review.]
+- EV/EVSE
+2
+
+We thank Frank Balbi (DPW Superintendent) for the muni vehicle odometer readings
+needed for the “Municipal Clean Fleets Inventory” that will give us 200 CEC points.
+Croton’s EMS may be replacing its 2010 “Fly Car” in the next fiscal year. On 2/14,
+Lindsay asked Bryan Healy to consider a plug-in hybrid SUV (e.g., a Toyota RAV 4),
+and an L2 charger as part of the EMS addition planned for the Harmon firehouse.
+On 2/12, SW invited Croton to participate in a County-sponsored EV charger grant
+program involving Flo (a Canadian charger firm) that could cover most of the cost of
+municipal chargers. Lindsay thanked SW for the offer but provided reasons why that
+option was not acceptably structured for us.
+[On 2/27, DEC said that our $150K DEC grant for the train station EV chargers now
+has a contract number. Alas, we won’t soon receive a contract because the State’s
+grant management software was in January replaced with a new system (called
+Statewide Financial System Grant Management, or SFS GM). That system is not yet
+running properly. DEC said: “Unfortunately, we do not have a timeline for resolution of
+the issues with SFS GM… Please be kind to my staff people, they are doing the best
+they can considering they have been on the job for 6 months or less.”]
+Regarding the 30% ITC tax credit for EV chargers, our research found that incentive is
+limited to federal census tracts considered non-urban and/or low-income. [Brian
+subsequently confirmed that finding.] That excludes the Croton train station (where we
+plan to install 24 EV charge ports), along with many Metro-North train station parking
+lots in our County. The credit would have provided us with ~$45K to help cover extra
+costs due to inflation, etc. after we developed our cost estimate in July 2022.
+This rule also applies to anyone wishing to install a charger at their home if it’s within
+such a tract, e,g., all of Croton. [Details and a map were sent to committee members.].
+- Funding Sources/Issues
+For the Washington firehouse garage HPs, Jon is getting proposals and expects a
+total cost (HP + electrical work) to be about $65K. If so, we could pay for the work
+using most of the $82.5K in grants from recent Community Campaigns.
+On 2/22, NYSERDA formally notified us that, as a result of our accumulation of 9,000
+CEC points, we’re eligible for two large grants: $175,000 and $250,000. We have until
+May 22 to submit applications in which we must identify and describe the projects for
+which we wish to use the money, such as:
+- ~50 kW DPW canopy (~$200K), 4 A/Cs to HPs, integrate with baseboards (~$65K)
+- ~50 kW Harmon solar roof (~$190K) and 6 A/Cs to HPs; fix roof with Village capital.
+For the Washington firehouse, we discussed dealing with its 45-yr old underground oil
+tank by converting its boiler to natural gas or replacing it with a small electric
+resistance boiler. Some boiler capacity is still needed for hydronic baseboards
+because existing HPs are unable to meet the load on very cold days. Brian said that
+the fungible CREST grant money could be used for an electric boiler but not for
+anything that continued use of fossil fuels. NYSERDA grants can’t be used for either
+3
+
+option. An electric boiler would cost more to run than a gas-fired unit, but the
+difference may be small once the garage HPs are installed. Lindsay will discuss this
+with Dan and Jon.
+On 2/6, Dan Tucker (Village Treasurer) attended an IRS “Office Hours” session on
+DirectPay. The event covered only pre-registration for DirectPay. Once the process
+has been more fully fleshed out, answers to questions on DirectPay for the gasketing
+and guttering of the train station canopies will need to be addressed. [Dan is now
+working on a DirectPay tax credit for the Washington firehouse solar array.]
+- Heat Pumps
+To assess replacing the 25-year old A/Cs at DPW with ASHPs, a Village energy audit
+was (due to weather) re-scheduled for 2/26, funded from a $5K CEC grant. [Due to
+illness, the auditor asked to re-schedule for March 14 or 15.]
+For the Harmon firehouse, Jon secured excellent existing condition drawings that will
+help with the HP and solar designs. To review and sort out how to integrate our
+desires into the planning and design for Harmon’s addition, Len will convene a
+meeting of the architects, DPW, fire dept. personnel and others, possibly during the
+week of March 4.
+Jon and Dan had earlier supported these sustainability specs for the Harmon addition:
+- apply Stretch Code
+- ~10 more solar kW
+- HPs to provide all heating (no hydronic connection)
+- 19.2 kW L2 EV charger for faster charging; extra breaker for another
+- Energy Recovery Ventilation (ERV) or CO2 Demand-Controlled Ventilation (DCV)
+- LED lighting with occupancy sensors.
+- Other Reports
+Dave told us he found that a small “jetty” he saw in the Croton River by the south end
+of the train station parking lot was due to a low tide, not illegal dumping.
+On 2/7, Keiko Niccolini was hired part-time to help Lindsay with our Silver CSC recertification. Doing so will get us another 1,400 CEC points. Completion is slated for
+April-May 2024. She presently manages the food scrap recycling program.
+- Recruitment/Outreach/Communications/PR
+Our $20K grant for the F-150 EV truck was noted in the Feb. 2024 Village newsletter.
+Correction from last month’s minutes: the truck is for the Police Dept., not DPW.
+
+4
+
+A supportive article on our work appeared in the 2/4/24 issue of the Croton Chronicle
+at https://open.substack.com/pub/thecrotonchronicle/p/sunday-at-the-sustainabilitycommittee?utm_campaign=post&utm_medium=web
+- New Business / Other Issues
+Len and Brian discussed Croton’s new status as a Pro Housing Community. On
+2/7/2024, the Village of Croton-on-Hudson was officially designated by Governor
+Kathy Hochul as one of the first 20 Pro-Housing Communities in New York
+State. Croton received the designation after documenting that our housing stock has
+increased by 1% in the previous year or 3% over the previous 3 years. Deputy Mayor
+Len Simon joined fellow officials in Albany for a roundtable discussion on the program
+and the future of housing in New York State. This designation gives the Village priority
+consideration for up to $650 million in state discretionary funding, including these
+programs: the Downtown Revitalization Initiative, NY Forward, Regional Council
+Capital Fund, NY Main Street, Market NY Capital Grants, Mid-Hudson Momentum
+Fund, and Public Transportation Modernization Enhancement Program.
+Date for our next meeting was set for Sunday, Mar. 24 at 10:30 AM via zoom.
+
+5
+
+

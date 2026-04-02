@@ -1,0 +1,104 @@
+MINUTES – Croton Sustainability Comm. (SC) – 10:30 AM Sunday, July 25, 2021 – via Zoom.us
+Members Attending:
+Lindsay Audin
+
+Absent:
+(all others were excused due to
+limited nature of this meeting)
+
+Jon Katz
+
+[Bracketed] text mean subsequent actions or clarifications. Underlining indicates a commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: None
+Updates/holdovers/follow-ups/statuses:
+- Projects under NYSERDA CEC grants
+The sole topic of the meeting was to update us on quotes/proposals we had on the Washington
+firehouse PV and ASHP systems, and budgeting/paperwork thereof.
+On the rooftop PV, Croton Energy Group (CEG) provided (July 12) a draft proposal that came in
+at $75,786. [Lindsay subsequently verified with NYSERDA that the NY-SUN incentive of
+$11,193 will be given to the contractor who will, in turn, deduct it, leaving a balance of $64,593.]
+[Brian subsequently asked: “are we working with CEG as the prime contractor?” to which
+Lindsay responded via email: “No. But they did provide a very competitive quote, and have
+been helpful. They quickly walked the site, developed a good layout, and were happy to assist
+on nailing down the railing issue. I expect to speak with them this week to firm up their proposal.
+NYSERDA requires that a proposal (not necessarily that of the contractor we will use)
+accompany our grant application. That does not tie us to that proposer in any way. Instead, it
+demonstrates to NYSERDA that we've got a clear idea of costs, and that a professional has
+reviewed the job and found it viable.
+Once our application is accepted (which should happen fairly quickly, but who knows with
+NYSERDA), we have three months to get final bids and choose a contractor so that we are then
+‘ready to commence’ the job.”]
+CEG’s quote, does not, however, include an allowance for the railing that must be added to the
+parapet where it is only 12” high. Failing to do would shrink the system from 37kWp to 21.9
+kWp. Jon had previously secured quotes (materials only) for 3 styles of railings that would meet
+code. The cheapest was ~$12K with others ~$25K or higher.
+[During a subsequent conference call (July 26) with Dan O’Connor and Frank Balbi, Lindsay
+reviewed with them our plans for energy/carbon improvements, with a focus on how to deal with
+the railing issue. Dan verified that we must install a railing, under both NYS Building Code and
+OSHA regs. Frank felt it best if a professional railing contractor did the job, rather than DPW
+staff. Frank agreed to have one of his guys look under the parapet’s metal flashing to see if it’s
+OK to drill into it without creating water leakage issues. If so, the cheapest railing option may be
+feasible, which may cost a total of $15K-$20K. If not, we may need to allocate ~$30K to
+installing a non-invasive ballasted railing system.]
+1
+
+We had previously agreed to dedicate one of our $5K grants to installing HPWH at the Muni
+and DPW buildings, bringing our base total spend to at least $85K, leaving (at best) $25K for
+the ASHPs. The proposal Jon got from Taconic HVAC (a competitive firm) for the new garage
+ASHPs was over $43K, not including some outdoor power wiring. Jon and Lindsay agreed that
+wiring and materials could boost the new ASHP close to $50K.
+They agreed, however, that a control system to integrate just the 5 existing ASHPs with the
+existing hydronic system’s zone pumps should be feasible within our remaining grant funds.
+To that end, Jon agreed to develop a scope of work (SOW) and system description that could
+be used to secure a proposal for such a system. We need proposals (for both the PV and that
+control system, but not the HPWH) to submit with our grant applications. Jon agreed to get that
+proposal to Lindsay no later than Aug. 10. Our grant submissions must be received by
+NYSERDA by COB Aug. 26.
+[At this time, our budget looks like this:
+Solar: $65K
+Solar railing: $15K - $30K
+ASHP control system: $10K (very rough guess, pending a quote)
+HPWH: ~$5K
+…which totals $95K to $110K.]
+- NYSERDA grant issues
+As previously indicated in an email to committee members, we finally got written confirmation of
+our $70K grant on July 20. Deadline for that grant application is Oct. 20. However, because we
+will be using all of that grant, plus part (maybe all) of our $20K grant for the solar, we will need
+to submit CEG’s PV proposal with the $20K application by the Aug. 26 deadline. This is one of
+many issues with how this grant program was designed.
+While prepping our initial grant applications, Lindsay found mistakes (e.g., a formula error) and
+omissions in the application spreadsheet. Even its auto-generated draft contract was flawed: it
+contained typos, extraneous text and symbols, and was missing 12 lines of text from one
+provision. As such, it could not be submitted to the Village attorney for approval.
+An actual signed contract is not required for several months, but content approval is required
+when the application is submitted. Otherwise, a grant may be significantly delayed (or denied)
+due to contract negotiations. After much wrangling, a lot of wasted time, and several threats,
+NYSERDA finally (July 20) provided a clean spreadsheet and draft contract for review.
+It appears we were the first program participant to get to the point involving contract review, and
+thus the first to uncover yet more bloopers in this grant program. Note that the flawed grant
+application form was first provided to participants last February.
+Jon and Lindsay concluded their discussions and signed off Zoom at 10:59 AM. No other
+committee business transpired.
+
+2
+
+As previously set at our July 11 meeting, our next formal meeting will be Sunday, Sept. 26,
+10:30 AM. Emailed updates will be provided in the interim.
+- [Subsequent communication
+While unrelated to the above, SolSystems answered (July 26) a question regarding a slight
+reduction in the kWp output (from 4,700 kW to ~4,000) of the proposed train station canopy job,
+as follows:
+“Generally speaking, the reasons for the removal of portions of the panels are the following:
+1. Setbacks from utility poles {in this case, along Veterans Plaza} – ConEd determined the
+required setback to be 7.5’.
+a. This includes the one that delivers power to the pay stations / cell tower.
+2. The above, combined with the setback from the train station, requires subarrays to be
+removed.
+a. If even a few rows of a carport area need to be removed, that subarray in its entirety
+must be removed due to how carports are designed structurally and electrically. This is why it
+seems large blocks of areas seem to be removed {in the proposed final system layout}”.
+
+3
+
+

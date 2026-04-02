@@ -1,0 +1,225 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, June 23, 2024 – via zoom
+Members Attending:
+Lindsay Audin (chair, CSC Coordinator)
+
+Absent:
+Ashley Clemente
+Dan Columbini PE
+
+David Goldman
+Jon Katz PE
+Niall Kelleher (community gardens)
+Brian Pugh (Croton Mayor)
+Len Simon (Village trustee)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): none
+Announcements: this is our last meeting before our summer recess. Next meeting will
+be Sunday, Sept. 22 at the usual time and place.
+As of 6/22/24, Croton still holds 1st place in NYSERDA’s CEC program with 14,500
+points. Kingston has 11,600, Hastings 11,100, Bedford 10,500, and Dobbs Ferry
+10,000. The other ~900 participants each has fewer than 10,000 points.
+Bernie Yozwiak had agreed to help us on electrical matters, but now says he cannot,
+due to other commitments.
+To re-certify Croton as a Silver Climate Smart Community (CSC), the following
+docs were posted at our web page (www.sustain-croton.org) in June 2024:
+- 2024 Community Climate Action Plan (CAP)
+- 2024 Government Operations Climate Action Plan (CAP)
+- 2024 Community Greenhouse Gas (GHG) Inventory
+- Status Report On Solar Canopies At The Croton-Harmon Train Station
+All are now publicly accessible. The public is hereby notified via these publiclyposted meeting minutes.
+- Solar Projects/Issues
+Train station canopies: Work at both ends
+continues. See the most recent drone pic at
+right. Arevon Energy, overall asset manager
+for the project, OKed use of one of its drone
+pics for the June Village newsletter, and to
+promote a tour of the site in September, run
+by HVRC (NYSERDA’s CEC contractor). CEC
+activists, interested munis, and media will
+attend. Mayor Pugh will guide the tour.
+Lindsay will answer tech questions.
+1
+
+The mystery around the vertical 4” tube photographed by Dave in early May was
+solved. It’s a marker for an underground drain line near a canopy pedestal.
+Downspouts will feed into such connections.
+Washington firehouse net metering: Moving slowly forward. Our application is
+under review by Con Ed. The Village’s April NYPA bill, however, instead shows VDER
+credits. Our NYPA rep is working to fix it.
+DPW solar parking canopy: A draft project description and Scope of Work (SOW) is
+being developed for Bryan Healy and Frank Balbi to review. A grant to fully pay for it is
+now secured. A kick-off meeting with NYSERDA on 5/28/24 developed the NYSERDA
+contract. If/when the project is OKed by Village staff, a schedule for developing and
+issuing a RFP will be drafted.
+Village electric accounts in community solar: As of the April NYPA bill (received
+6/10/24), no Village accounts were showing community solar credits. Once NYPA
+finally gets that done, we can file for 300 CEC points.
+- Heat Pumps
+Harmon firehouse addition: On 5/10/24, Lindsay sent Village staff the spec
+developed by Jon and Dan for a hybrid rooftop ASHP. It will furnish most heat, with a
+gas-fired heating coil for very cold days. A portion of our $175K CEC grant will cover
+the extra cost over that of the standard gas-fired A/C that was in the original design.
+Washington firehouse garage HPs: Jon and Dan expanded their work on specifying
+an electric boiler.to supplement the firehouse’s existing and planned HPs. That option
+would fully electrify the building, allowing for removal of its oil-fired boiler and 45-year
+old underground oil tank. Funding is available for the project, which would be pursued
+in conjunction with installation of the garage HPs. Then enrolling the building in CCA
+would make it a net Zero Emission Building (ZEB).
+To that end, Dave suggested heatinghelp.com, a site that reviews a variety of heating
+issues. [At that site, Lindsay found a 2/24 announcement of a packaged system that
+replaces fossil-fueled hydronic boilers with a combination air-to-water heat pump and
+electric boiler. He forwarded it to Jon and Dan for their review.] Certifying a ZEB in the
+CEC program would earn us 500 points. Only 3 muni ZEBs are certified in the State.
+DPW HPs: The ASHRAE energy audit of the building arrived 5/17/24. It estimated the
+cost to replace several existing 26-year old A/C units with ASHPs at $52,500, lower
+than expected. Doing so would cut about 9 MT/yr of carbon emissions.
+The audit found that there are rarely more than 4 people in the building at one time
+(DPW has 28 employees). Some employees work remotely, while others are in the
+field most of their workday. The low occupancy reduces the viability of some options,
+e.g., a HPWH. On 5/30/24, a detailed review of the audit was sent to the contractor.
+One intriguing option – replace the garage’s oil-fired heating system with radiant
+heating – would however boost peak electric load by 150+ kW, necessitating major
+2
+
+expansion of the electric service while also creating a huge peak demand charge.
+Adjustments and corrections to the audit are expected in July.
+Residential HPs: On 5/30/24, NY opened its IRA-funded rebate/voucher program for
+its Home Electrification and Appliance Rebates (HEAR) Program. Unfortunately, only
+low-income households (~$50K/yr) eligible for NY’s EmPower+ program can access it.
+Rollout of the next phase (open to middle-income families) is expected later this year.
+Len agreed to review how many Croton households have incomes of $50K/yr or less
+to see if enough exist to justify starting a HPWH program for them.
+- EV/EVSE
+We continue to await instructions and a contract for our $150K DEC grant to install 12
+EV charge ports at the train station. Next steps include developing an RFP to get bids
+that will update our now 2-year old cost estimate. In light of the delays since we
+applied for the grant in 2022, we will ask to raise the amount due to inflation, etc.
+See below for funding from 6 small NYSERDA grants (totaling $82.5K) that together
+will cover the other 6 dual-port chargers (12 ports) not covered by the DEC grant.
+- Financial and Budgeting Issues
+Grant funding is in hand to cover the cost of the projects listed above. On 5/28/24, we
+secured NYSERDA’s approval of our last 3 grants (totaling $45K) from Community
+Campaigns completed in late winter. Those funds will (along with 3 other alreadyapproved grants for $37.5K) be allocated toward 12 more public EV charge ports at
+the train station. Doing so will complete funding for the 24 charge ports in that project.
+Len reported on a $750K “Community Project Funding” (CPF) grant obtained in 2023
+by Hastings. It will support a $2.1M proposed project for geothermal and other energy
+upgrades of its Town Hall and Public Library. His full report is at the end of these
+minutes. The funding comes from appropriation bills via the local Congressional rep.
+In 2022, Croton got a CPF grant to upgrade the Half Moon Bay Bridge, but (since Rep.
+Mike Lawler was seated) has received no other CPF grants. Len felt that, if Mondaire
+Jones is restored to his prior seat, we may get a shot at future CPF grants.
+Len also discussed NY Forward, another potential funding source for a major project.
+He reviewed how Croton has previously sought such funding, and the idea of seeking
+it for a GSHP system to replace the Muni Bldg’s patchwork of HVAC systems, as
+Hastings is doing for two of its buildings. See his notes at the end of these minutes.
+He said that Croton was also eligible to seek a handful of other types of State grants
+since it had qualified as a “Pro-Housing Community” (PHC). Len agreed to provide a
+list of those other grants to see if any might make sense for a GSHP project.
+- Other Reports
+
+3
+
+On 5/30/24, DEC completed review of our 4/2/24 submission for re-certification as a
+Silver Climate Smart Community (CSC). Instead, DEC awarded us Bronze status until
+we submit (by July 5) a variety of changed docs and updates. While securing Bronze
+gave us 800 CEC points, getting to Silver will get us another 600 CEC points.
+Over the summer, Ashley agreed to review renewable diesel [RD] (different from
+biodiesel) as a possible replacement for #2 fuel oil. RD is made from discarded
+cooking oil and is claimed to have <~10% of the CO2 emissions of fuel oil.
+- Recruitment/Outreach/Communications/PR
+A captioned drone pic of progress at the train station canopy project appeared in the
+June Village newsletter.
+Food scrap manager Keiko Niccolini ran a free
+compost giveaway party at the scrap shed on
+June 8. Here’s one of Dave’s pics:
+Janet Monahan of the CAC will hold another
+Repair Café in the Muni Bldg Community Room
+Saturday, July 13, 11 AM to 3 PM. See CAC’s
+flyer at the end of these minutes.
+- New Business / Other Issues
+As per Dave’s idea for finding a new member with professional electrical experience,
+on 5/22/24 we joined the Volunteer New York (VNY) program used by the County to
+find and place volunteers. VNY helps over 1,100 County groups, Most are focused on
+issues of homelessness, drug/alcohol recovery, food distribution, etc. rather than
+sustainability. It may be a long shot, but the word is now out there.
+On 5/26/24, Lindsay contacted Bob Pelligrino, chair of the Tappan Zee chapter of the
+Institute for Electrical & Electronic Engineers (IEEE), to see if any nearby retired (or
+young) members might be willing to assist us. He agreed to ask. To clarify the level of
+assistance we need, data on the train station EV charger project was sent to him.
+Brian had previously said that a member need not be a Croton resident. Len said that
+Ashley had an electrical engineering background, so Lindsay agreed to ask him.
+If none of the above pan out by the end of July, several local electrical contractors will
+be approached to the same end.. But a potential conflict-of-interest may exist if that
+contractor then wanted to bid on a project it had helped develop. Brian agreed to
+query the Village attorney on the matter.
+Date for our next meeting (after our summer recess) was set for Sunday, Sept. 22 at
+
+10:30 AM via Zoom.
+
+4
+
+Len’s report on Hastings $750,000 federal energy grant
+The funding for Hastings was under the “Community Project Funding” (CPF) process in which
+members of Congress can designate specific projects for local governments or non-profits in
+their districts from appropriations or authorization bills. [Such grants need no match funds.]j
+Here’s Congressman Bowman’s press release from January 2023 listing all the projects he
+obtained for his district in the appropriations bill enacted a few days earlier:
+https://bowman.house.gov/media/press-releases/news-rep-bowman-delivers-over-20-million-in-fundingfor-westchester-and-the-bronx
+
+and here’s the specific description of the Hastings project: “$750,000 to the Village of
+Hastings-on-Hudson to install geothermal heat pumps, solar panels, and improve energy
+efficiency at its public library and village hall”.
+Typically, the appropriators will set aside a large chunk of funding in various programmatic
+areas (energy conservation, renewable energy, public safety technology, economic
+development, water and sewer as examples) for local projects. Member-sponsored CPF
+projects are then drawn from that general set aside, rather than from specific grant programs.
+For the last four years, House members have been allowed 15 projects per cycle. Once the
+funding bill is passed by Congress, the municipality or non-profit then submits the requisite
+paperwork to the agency that will administer the project on behalf of the federal government.
+CPF is a great opportunity and is how we obtained funding for the rehabilitation of the Half
+Moon Bay Bridge. In 2022 then Congressman Mondaire Jones used the CPF process to
+earmark $1.5 million for us for that project.
+Since Congressman Mike Lawler succeeded Rep. Jones, we have sought CPF from him on
+three occasions for a variety of projects including flood resilience, water and sewer and public
+safety. Each time he has declined to sponsor the Croton projects. Should he remain in
+Congress we will continue to seek his support. Should former Rep. Jones return, we might likely
+have better luck, since he’s supported Croton projects in prior years.
+Len’s notes on the NY Forward grant program
+Quick Summary:
+
+1. A few years back, NY State came out with the “Downtown Revitalization Initiative” (DRI)
+to help communities enhance their business growth and infrastructure – each winner of
+the DRI grant round received $10.0 million, including Ossining and Peekskill;
+
+2. Small places found it difficult to compete with the bigger towns for DRI funding, so the
+state created New York Forward designed to meet the needs of those smaller
+municipalities;
+
+3. Late last year the Governor also created the “Pro-Housing Communities” (PHC) program
+to reward those municipalities who have done good work on expanding housing supply,
+and chose Croton to be in the first batch of PHC’s announced February 7th;
+
+4. Originally, the PHC designation meant you got “extra credit” for a whole bunch of other
+state grant programs. But that has now been improved so that for certain state
+programs only PHC’s can apply – including New York Forward;
+
+5. The next NY Forward grant round has not yet been announced, but we expect it to be
+sometime soon. The Mid-Hudson Economic Development Council, an arm of the
+
+5
+
+governor’s office, will have the responsibility for making the grant decisions in our region.
+Bryan Healy and I have been in discussions with them and they seem to be eager to
+receive our NY Forward application.
+
+6. Now is a great time to be thinking of ideas on what types of projects to include in our
+application. Some of the ideas we’ve thought about are streetscape improvements,
+transportation safety, business marketing assessment, art and history related and
+assorted others.
+
+7. Your Municipal Building idea is definitely an intriguing one. We should talk soon about
+that and maybe some others that would be attractive as part of our application package.
+
+6
+
+

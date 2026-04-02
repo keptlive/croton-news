@@ -1,0 +1,210 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Nov. 1, 2020 – via Zoom.us
+Members Attending:
+Lindsay Audin
+Len Simon
+Brian Pugh
+Jon Katz
+
+Absent:
+Joel Gingold
+Niall Kelleher
+John Habib
+
+[Bracketed] text relates to actions subsequent to this meeting.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: On Oct. 23, State Sen. Peter Harckham’s office issued a proclamation (mounted in
+a plaque) recognizing our attainment of silver status as a Climate Smart Community (CSC). It was
+delivered that day in a brief ceremony at the front of the Muni Bldg. We thank Mayor Pugh for
+making that event happen.
+Quick updates/holdovers/follow-ups/status:
+- Solar projects:
+- Croton Landing canopy job: Regarding the legal impasse on “alienation of park land” that is
+presently blocking further development, Lindsay spoke with County officials (including County
+Exec. Latimer) on options for overcoming it at the County level. On Oct. 13, Latimer met with Peter
+McCortt (the County Sustainability Director) and a County attorney on the matter. On Oct. 20,
+McCartt stated that they felt the best approach was at the State level via support of Sen.
+Harckham’s bill (S.8635 https://www.nysenate.gov/legislation/bills/2019/s8635 ). The bill would
+cover all park land in the State. It would allow installation of solar canopy systems (up to 2 MW)
+over their parking lots. It passed the Senate but lacks a companion bill in the Assembly. Due to the
+legislative calendar, action is unlikely before February. Mayor Pugh, Joel, and Lindsay asked our
+Assembly rep (Sandy Galef) for her assistance. NYSERDA had previously said it would help but
+then bowed out, saying it was now a legislative issue outside its purview.
+- Train station parking lot canopy job: On October 5, we received 7 proposals. Most required
+changes due to inclusion of canopies in embargoed sections of the parking lot, missing
+documentation, etc. One proposal offered so little leasing rent that its math was questionable. Once
+corrected, most were in the 2,500 to 3,500 kW range, with another proposing 4,753 kW. Annual
+lease payments also varied widely. The proposals are being reviewed by Village personnel.
+Ecogy (vendor for the DPW job) chose not to bid due to a variety of risk factors, among them being
+geotechnical conditions below the parking lot. It also cited a possible competing demand on the
+local Con Ed feeder by a proposed 5 MW battery project to be sited in Ossining and Competition
+for that capacity from the County’s planned ~3 MW parking lot canopy system at Croton Point Park.
+- EV/EVSE: The school district is creating a bus electrification task force to meet Nov. 19 (discussed
+below under “Outreach”). To support EV infrastructure (other than chargers), NYSERDA is initiating
+the Make Ready grant program to be run by the utilities. Details are in process, but it may cover up
+to 100% of the cost. Additional funds from the VW and Mercedes diesel settlements will go to
+1
+
+increasing vouchers for large EV trucks (NOT toward EV school buses). Pricing for EV garbage
+trucks has recently come down. Lindsay is analyzing at what level such financial support might be
+worth considering for one of our trucks, plus an appropriate charger. At this point in time, our
+desires and needs are about 2-3 years ahead of the technology and EV truck capabilities.
+- Invitation to C100 on the food scrap recycling and Heat Pump Water Heater (HPWH) programs:
+Joel reported that C100 said it did not have resources to help either, but Donna O’Malley (formerly
+with C100) agreed to assist with recruiting participants. To that end, she, Joel, and Lindsay are
+developing a draft survey and intro letter to assess community interest. It will be distributed in early
+2021. The County has offered its own scrap pickup and transportation program, so we may need to
+re-design our program to take advantage of it.
+A discussion ensued regarding C100 and its plans to expand into CURE100 (an organization
+bringing together and/or initiating like-minded groups in nearby towns and villages). While Joel had
+lost hope for C100 due to its checkered development record, John Habib was more optimistic.
+Based on his ongoing efforts to provide legal assistance to C100, he believed the group was still in
+its nascent stages, such that we should give it more time to blossom. Questions were raised
+regarding how expanding a group that has yet to show much value could produce results not
+available through Sustainable Westchester. No responses were received that clarified the issue.
+- HPWH project: based on discussions at our last meeting, and follow-up suggestions from Jon Katz
+and SW’s Lauren Brois, that effort is being refined, with a goal of sending out its survey in early
+2021. SW is developing resources and is committed to assisting us. After our last meeting, Brois
+provided a lot of useful data. As discussed under “New Business”, a new NYSERDA CEC grant
+program will open soon that may also provide support for that project.
+Reports:
+- Len’s reviewed which enviro group(s) to approach for a grant (see report at the end of these
+minutes). He summarized his work by saying we should develop a dialogue with one of the 3
+groups (he suggested NRDC). Fortunately, Len knows someone at that group via a past working
+relationship. He will initiate a discussion on grant options (e.g., study to overcome limited feeder
+capacity impacting EV and solar) that could also help other municipalities facing such issues.
+- Niall reviewed bokashi pickling vs. standard composting (see report at the end of these minutes).
+He summarized his experience, which included purchasing and using a bokashi kit. He felt that the
+extra work and cost involved, while perhaps acceptable for some committed gardeners, did not
+merit its use in place of standard composting. We therefore do not see value to promoting the
+technique, or incorporating it into our own food scrap program.
+Communications:
+- NYPA’s renewable power offer: Via a Nov. 6 conference call with NYPA personnel, Mayor Pugh
+and Lindsay expect to finally receive some numbers. [NYPA asked for more time to do so,]
+- In response to our April 24 FOIL request, the school district (on Oct. 27) sent invoices for all of its
+fuels (for both buildings and vehicles) and electricity use in 2018. [Some data was missing and
+subsequently provided. Due to the complexity and difficulty sorting through it, Lindsay
+spreadsheeted the data and calculated the GHG, instead of trying to train an inexperienced person
+to do so. Total GHG for the district (including electricity and fuels for buildings and vehicles) came
+2
+
+out to 2,131 metric tons (MT) for the year, which is 50% higher than our municipal carbon footprint.
+Based on other data previously secured, the school district appears to be the 2nd highest GHG
+emitter in the Village, behind only the Metro-North train yard.]
+- Zooms: helpful, informative, but none led to specific actions at this time. One had useful information
+on how to electrify the school district’s buses and charging infrastructure. Some of its graphics will
+be used in a draft slide show to be previewed to school personnel on Nov. 9. It will show how to
+combine community solar with other existing programs to electrify the school bus depot and fleet.
+Recruitment/Outreach:
+- The school’s Environmental Sustainability Committee zoomed on 10/20. Last spring, the district
+issued a RFP for an energy performance contract (EPC). It received proposals from Honeywell and
+ESG (Energy Services Group). Over the summer, preliminary energy audits of school facilities
+were completed by a consultant (ECG). They were discussed at a 10/22 Board of Ed meeting.
+Foremost among ECG’s recommendations: a full-scale conversion to LED lighting, and installation
+of solar panels on the schools’ rooftops. Other measures included: boiler and HVAC controls, pipe
+and envelope insulation, and localized controls on kitchen hoods, corridor steam traps, and plug
+loads. To expand on that work, the Board approved Honeywell to perform a more detailed
+Comprehensive Energy Audit (CEA), pursuant to a formal proposal for an EPC to be completed
+over the next year. If accepted, installation work would start 8/21 with completion by 8/22.
+The newly formed bus electrification task force (co-chaired by Supts. Griffith and O’Donnell) will
+Zoom Nov. 19. Lindsay was accepted as a member.
+New business / other events:
+- A new NYSERDA Clean Energy Community (CEC) grant program will start by the end of the year.
+Having previously received a grant in 2018, we were thereafter barred from getting another. We are
+now informed that we are “fully eligible” for a grant under the new program. Depending on its rules,
+we may be able to secure assistance for the HPWH program or another venture.
+
+Dates for our next two Zoom meetings: Dec. 6 & Jan. 24, both Sundays, 10:30 AM
+
+3
+
+Len’s report on seeking private grants from major environmental organizations
+TO:
+
+Lindsay Audin
+
+FROM:
+
+Len Simon
+
+SUBJECT: Grant Funding from Major Environmental Organizations
+DATE:
+October 22, 2020
+_____________________________________________________________________________________
+Following up from our September meeting, I looked at the grant making of the Natural Resources
+Defense Council, the Sierra Club and the Environmental Defense Fund to learn about the type, size and
+process of the grants they make. Here's what we know so far:
+(1) Each of the three organizations internalize their grantmaking decisions based on their own priorities
+and strategies, rather than do public solicitations. So to be a potential grantee, we need to establish
+communication with them and see if they are interested in collaboration. Their grantmaking is extensive
+based on the available information, but also seems to be heavily focused on "environmental education and
+advocacy", the core mission of these groups. That could impact our potential partnerships with them. I
+have reached out to each of the organizations, familiarizing them with Croton and the Sustainability
+Committee and asking how we could engage with them as grantees. I've heard back from one group twice
+and will explore possibilities with them. I'm hope to hear from the other two soon.
+(2) The Natural Resources Defense Council, according to their 2018 IRS Form 990, made 137 grants to
+domestic organizations including governments. The typical grant was under $25,000, with some notable
+exceptions like $237,000 to the City of Baltimore. About 10% of their funding went to municipalities, the
+rest mostly to local advocacy organizations. I know their Managing Director for Healthy People &
+Thriving Communities, from her days in the Obama Sustainable Communities program. I've heard
+back twice from her staff and plan for an exploratory discussion soon.
+(3) The Sierra Club makes grants through its Foundation. Its 2019 Annual Report shows $79.6
+million in grants, mostly to Sierra Club programs. For the remainder, they "provide flexible
+funding... with a broad spectrum of allied organizations around shared values and goals ". Their
+IRS Form 990 shows no direct funding to municipalities, but grants like $50,000 to a state agency
+on EV buses and the VW settlement do appear. Overall, t hey gave $12.2 million in 2019 to "Clean
+Energy Solutions" focusing on power and transportation. I've written to discuss grant possibilities.
+(4) The Environmental Defense Fund grant making is done throughout their individual core
+programs, the largest of which is "Climate and Energy". EDF’s aim is to "stabilize the climate by
+dramatically reducing greenhouse gas emissions" so it matches up well with our objectives. According to
+their IRS Form 990, EDF gave out 125 grants in 2019 for political activity, climate and energy,
+ecosystems, health and other areas. Many recipients were public agencies like universities, regional
+councils and state offices, but no direct to municipalities. I've written to discuss grant possibilities.
+(5) I hope this is helpful and look forward to discussing this with you and Sustainability Committee
+colleagues on November 1, including any follow-up conversations with the three organizatio ns.
+4
+
+Niall’s report on bokashi pickling as an alternative to standard composting
+Here is my experience with Bokashi composting this month. I bought a starter kit from Amazon (approx. $50),
+comprising a plastic bucket with a tap at the bottom and a bag of Bokashi probiotic to be mixed with the food scraps.
+First, let me give you a little Bokashi Composting history (from www.thespruce.com).
+Bokashi is a Japanese word meaning "fermented organic matter." Developed in the early 1980s by Dr. Teuro Higa, a
+professor at the University of Ryukyus, Okinawa, Japan, the method involves layering kitchen scraps (vegetables and
+fruits, as well as meat and dairy scraps) with a Bokashi inoculant in a special bucket. Usually, the inoculant consists of
+either wheat germ, wheat bran, or sawdust combined with molasses and effective microorganisms (EM). The
+bran/molasses serves as the food for the microorganisms, which are the same natural microorganisms found in soil.
+The Bokashi bucket has an air-tight lid and a spigot at the bottom to drain off the liquid that is produced. The liquid must
+be drained off to prevent the bucket from developing a somewhat foul odor, but the liquid serves as a very nutritious
+"bokashi tea" that can be used to fertilize houseplants.
+When layered and left to sit out of direct sunlight, the mixture quickly begins to ferment, and within 10 days the
+fermented mixture can be dug directly into the garden or added to a traditional compost bin or pile to finish its
+decomposition. In essence, the bokashi process is a fermentation process rather than a traditional composting method.
+Unlike traditional composting, which is an aerobic process that requires oxygen, Bokashi is an anaerobic process that
+requires that you isolate the materials from oxygen as much as possible. The bucket should be opened only to add
+scraps, not to check on the materials. Some people recommend pressing the food waste into the composter to squeeze
+out the air, then leaving a plate (or another flat object) resting on top of the material to shield it from exposure to
+oxygen.
+
+The process is easy enough. After every meal, put the food scraps into the bin and spread a layer of the bokashi
+probiotic bran on top, then quickly seal the bin. Unlike composting which requires oxygen, this process is anaerobic and
+oxygen actually hinders the process.
+
+5
+
+The bucket holds about 2 weeks’ worth of scraps. The liquid tea at the bottom of the bucket can be drained off using
+the tap and used to feed indoor and outdoor plants.
+The major pros to this process:
+1. Can keep up to 2 weeks’ worth of food scraps in the house before taking them out.
+2. This process can deal with meat and dairy products and pet waste unlike regular composting.
+The major issues with the process:
+1. It is recommended that the food scraps be chopped up before being put in the bin in order to quicken the
+fermenting process.
+2. The Bokashi Probiotic Bran costs about $10 to $15 a month, depending on how much is used.
+3. At the end of the fermenting process, every 2 weeks, the contents of the bucket have to be buried in trenches in
+soil, to complete the composting process or added to a regular compost bin.
+This type of composting method is labor intensive and costly ($150 annually). It is worth the cost and effort if one is a
+gardener and is motivated to reduce their personal landfill footprint. Otherwise I cannot see a lot of people looking to
+adopt this method of dealing with food scraps. It is easier to throw them in the garbage.
+
+6
+
+

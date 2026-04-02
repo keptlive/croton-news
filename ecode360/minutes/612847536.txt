@@ -1,0 +1,157 @@
+MINUTES – Croton Sustainability Comm. (SC) – 10:30 AM Sunday, July 11, 2021 – via Zoom.us
+Members Attending:
+Lindsay Audin
+Brian Pugh
+Bernie Yozwiak
+Jon Katz
+
+Absent:
+Joel Gingold
+Len Simon
+Dan Columbini
+
+Niall Kelleher
+(excused, wife’s birthday)
+
+[Bracketed] text mean subsequent actions or clarifications. Underlining indicates a commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: The Village will no longer provide its zoom account for committee meetings.
+Thank you to Dan Colombini for allowing us to use his zoom account for this meeting.
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC grants
+All four of the $70K grants (each requiring at least 5,000 CEC points to win) for the Mid-Hudson
+region have now been claimed. Hastings got to 5,500 points in mid-May. We got to 5,000 two
+weeks later. Bedford reached 5,000 during the week of June 21, and Dobbs Ferry did so on
+June 25. Had we not moved quickly on Grid Rewards, Community Solar 2.0, and the expedited
+purchase of a 3rd municipal EV, we would likely have missed a $70,000 grant.
+The next closest Mid-Hudson competitor was the City of Beacon with 4,900. Ossining Town (on
+June 25) had 4,000 points. Several others in Westchester were in the 3,000-4,000 range. The
+other 23 Westchester municipalities in this program do not appear to be seeking CEC grants.
+For perspective: there are 1,607 municipal governments (village, town, city, county) in NY
+State, of which 626 (39%) participate in CEC, 354 (22%) have done something (not necessarily
+of consequence), and 54 (3.4%) are in the Mid-Hudson region. In the State, only those in our
+County have reached the 5,000 point level. A handful of municipalities in the rest of the State
+have secured 2,000 or more points.
+Our final total for 5 grants will be $110K ($70K + $20K + $10K + $5K +$5K). Pursuing our
+residential HPWH program could get us a third $5K grant (see below). We were formally
+notified on May 25 that we’re eligible for $40K of those grants.
+Applications to NYSERDA describing how we will use the $40K are due Aug. 26. Lindsay
+expects to submit them by the end of July. The application for the $70K grant will then be due
+within 3 months of its formal notification, which has not yet occurred.
+- Washington Engine firehouse projects
+Since our 6/10/21 meeting, Jon and Lindsay have been developing designs and budgets for:
+- a 34.8 kWp solar rooftop at the Washington Engine firehouse (to include a 166-foot 36” high
+railing atop the building’s low parapet)
+
+1
+
+- a ~50,000 Btuh air-source heat pump (ASHP) installation in the firehouse’s garage.
+Regarding that PV system, various issues with ownership, bidding, and the investment tax
+credit (ITC) made financial configuration very difficult. Many options were examined, with the
+end result being that we may need to spend most of our grants on it. Croton Energy Group
+(CEG) agreed to quote on what we can get for $70K-$90K, and will tour the site 7/15/21.
+Impacting cost and capacity is a code requirement for a safety railing atop the existing parapet.
+Panels cannot be located within 10’ of the parapet without a railing, but can be sited within 6’
+with a railing. The difference is almost 13 extra kWp of output (34.8 with, and 21.9 without).
+Quotes obtained by Jon on just the materials for a pipe-style railing started at ~$12K. Ecogy
+models $90/LF for railings, which yields ~$15K we don’t have in the budget.
+Jon is nailing down realistic costs for the ASHP system for the firehouse garage. An initial
+estimate was $70K, which he felt was unreasonable. He committed to getting us a realistic
+quote by July 23. If the cost is too high, we may need to forgo installation of new ASHPs until
+another grant (maybe private) is secured. If ~$10K is available, it might instead cover the cost
+of a system to integrate the existing ASHPs with the existing hydronic system.
+The committee supported moving ahead with PV, even if that meant forgoing ASHPs for now.
+Unrelated to the grants, Ecogy may bankroll and install a power storage system (on the
+firehouse’s north exterior wall) under a deal for demand control services. It would cut peak
+demand charges from PV variations and ASHP cycling, and yield small savings.
+- HPWH
+If a $5K grant remains available after bankrolling the firehouse work, heat pump water heaters
+(HPWH) would replace electric resistance units at the DPW and Municipal Buildings.
+Regarding a possible HPWH at the firehouse, Dan reviewed the Village Engineer’s finding on
+an issue impacting its sizing and practicality. Firehouse personnel wanted to convert the
+women’s room into a decontamination shower and the men’s room into a unisex rest room.
+Doing so would, however, violate the building code as applied to the firehouse. Depending on
+the quote we get for the PV, we may not have grant money for that HPWH, in any case.
+A third $5K grant (in addition to the $110K already secured) may, however, become available
+for our residential HPWH program, but only after at least 10 installations have been completed.
+We’ll look at that option after the dust settles on the present grant work.
+- Solar Projects
+See above for the Washington Engine firehouse solar rooftop project.
+On the train station canopy, SolSystems’ geotech report arrived on June 21. No toxic or
+hazardous waste was found below the blacktop, but the landfill that was found appears to be
+corrosive to steel. Sol says they routinely find corrosive soil, and the extra cost to deal with it
+would be small. Issues arose with re-locating the battery to the north end of the parking lot (from
+the south end), but Croton’s fire department felt that would be OK. Brian is getting an opinion on
+it from the County’s emergency management agency.
+
+2
+
+On the DPW canopy for its front parking area (~197 kWp), we continue to await a report from
+Con Ed on the feeder voltage spike issue that suspended development of that project.
+On the Croton Landing Park canopy (~350 kWp), Joel, Len, and Lindsay have been reviewing
+options for overcoming the park alienation issue. Len’s report on securing a Croton-only
+exemption is under “Reports” below. By the June 10th end of the State’s legislative session, a
+total of 21 Assembly reps had sponsored/co-sponsored the law (A.6838) we sought for a
+blanket exemption for canopies over any park parking lots. However, the Assembly’s
+Environmental Conservation Committee never reviewed it. [On 7/14/21, Joel found the bill now
+has 39 co-sponsors and will confer with Assby. Sandy Galef’s staff on next steps.]
+Regarding seeking a special exemption for Croton, Brian and others agreed that we should
+instead push ahead on A.6838. A special exemption would involve a surveyor and an outside
+attorney. Based on its experience, Ecogy estimated the costs for a surveyor to specify the
+ground disturbed during installation of the canopies and an easement for underground wiring to
+serve them would $5K to $10K. A like amount of legal fees would be involved. Such upfront
+costs (totaling ~$20K) would need to be reimbursed to Ecogy if the exemption was not granted.
+- Reports
+Len summarized his review of the actions required to secure a Croton-only exemption from the
+park alienation law. He reviewed the 69-page park alienation exemption handbook, noting that
+some minor alterations to parks (e.g., adding batting cages) may be considered “incidental” and
+not require legislated exemptions. In discussions with officials in the State’s Parks Dept. (which
+can advise, but has no authority on the matter), it became obvious that we were on our own.
+Trying to declare a solar canopy as “incidental” could get us in legal trouble. [Interest was
+expressed re: the Handbook, and Lindsay sent it to all members 7/14/21]. Len will look into a
+claim (made by a State Parks Dept. person) that an exemption for a solar canopy had already
+been secured by Yorktown. If it exists, he will get us details. Lindsay believes that claim may,
+however, be based on a misleading May press release from Sen. Harckham’s office.
+Brian felt that the issue should be brought to the attention of the Westchester Municipal Officials
+Association (WMOA) and the NY Committee of Mayors (NYCOM). Len suggested a letter on
+the matter be sent to the Assembly speaker, signed by many mayors. Lindsay will follow up with
+Brian on how best to do so. Joel will mention our bill during a 7/14/21 meeting of CoHOPE.
+On 7/3/21, Lindsay spoke with Wyldon Fishman, director of the NY Solar Energy Society
+(NYSES) regarding the park alienation law. She concurred that changing it would be an uphill
+battle. She has been trying – for 6 years – to get a law exempting solar installations from
+homeowner association (HoA) regulations. [Joel found that her bill had recently passed both
+houses, and was now awaiting Gov. Cuomo’s signature. Joel is looking into any lessons that
+may be gleaned from that experience, such as whether/how our bill could be channeled through
+a different Assembly committee, as suggested by Brian.]
+Dan reported on a GSHP site feasibility tool (called “Westchester GeoPossibilities”) developed
+by his firm. It is being featured in a July 22 webinar sponsored by SW, NYSERDA, and others.
+
+3
+
+- Communications
+Many emails and a zoom with Eleanor Peck, our present CEC coordinator, have been more
+helpful with NYSERDA than her two predecessors, but she is still quite limited by its byzantine
+rules and incompetence. Omissions needing correction were found in the NYSERDA contract
+we must sign to get the grants, and the application spreadsheet has at least one formula error.
+We await revised/corrected program documentation but no date has been given for its delivery.
+- Recruitment/Outreach
+Pursuant to supporting a blanket park solar canopy exemption, our interns are checking if
+parking lots at any State parks had shade structures (essentially canopies without solar).
+A question arose on our possible need for a PR associate (not a full-time committee member).
+Brian and others felt we were doing enough, but more exposure couldn’t hurt if doing so did not
+burden members. He suggested finding someone with social media experience to work on the
+Village’s Facebook page, which he indicated was presently text-heavy. A person with graphics
+experience (e.g., with a program called CANVA) could create a page for our activities using pics
+we already have. He suggested conferring with Thomas Morzello, Bryan Healy’s new assistant.
+Lindsay agreed to do so and to query our interns (who often use Facebook) on that option.
+- New business / other issues
+None were raised.
+Date for our next zoom was set for Sunday, July 25 at 10:30 AM. It will be a working meeting
+focused on quotes for the PV and ASHP systems to settle how we will spend our grant money.
+Our next formal meeting will be Sunday, Sept 26 at 10:30 AM. If by then all are OK with it being
+in-person, it will be held in the conference room at Lindsay’s home at 221 Cleveland Drive.
+Otherwise, it will be another zoom sponsored by Dan. Everyone have a nice summer!
+
+4
+
+

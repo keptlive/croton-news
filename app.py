@@ -296,6 +296,41 @@ def documents_page():
     return render_template("documents.html", query=q, results=results, **_ctx())
 
 
+@app.route("/documents/<doc_id>")
+def document_detail_page(doc_id):
+    """Individual document page: AI summary + full text + PDF link."""
+    if not ECODE360_DB.exists():
+        abort(404)
+    conn = sqlite3.connect(str(ECODE360_DB))
+    c = conn.cursor()
+    # Get document metadata
+    c.execute("SELECT doc_id, committee, date, type, text_size, preview FROM documents WHERE doc_id = ?", (doc_id,))
+    row = c.fetchone()
+    if not row:
+        conn.close()
+        abort(404)
+    doc = {"doc_id": row[0], "committee": row[1], "date": row[2], "type": row[3], "text_size": row[4], "preview": row[5]}
+    # Get pre-generated summary if available
+    summary_data = {}
+    try:
+        c.execute("SELECT summary, topics, key_people, key_locations FROM summaries WHERE doc_id = ?", (doc_id,))
+        srow = c.fetchone()
+        if srow:
+            summary_data = {"summary": srow[0], "topics": srow[1] or "", "key_people": srow[2] or "", "key_locations": srow[3] or ""}
+    except sqlite3.OperationalError:
+        pass
+    conn.close()
+    # Load full text
+    txt_path = BASE_DIR / "ecode360" / "minutes" / f"{doc_id}.txt"
+    full_text = ""
+    if txt_path.exists():
+        with open(txt_path) as f:
+            full_text = f.read()
+    source_url = f"https://ecode360.com/CR0035/document/{doc_id}.pdf"
+    return render_template("document_detail.html", doc=doc, summary_data=summary_data,
+                           full_text=full_text, source_url=source_url, **_ctx())
+
+
 @app.route("/category/<name>")
 def category_page(name):
     if name not in CATEGORIES:
@@ -384,7 +419,7 @@ def api_documents():
     return jsonify({"documents": docs, "count": len(docs)})
 
 
-# --- AI Document Summary (Nemotron via OpenRouter) ---
+# --- AI Document Summary (Gemini Flash via OpenRouter) ---
 
 _OPENROUTER_KEY = None
 def _get_openrouter_key():
@@ -399,7 +434,7 @@ def _get_openrouter_key():
         _OPENROUTER_KEY = os.environ.get("OPENROUTER_API_KEY", "")
     return _OPENROUTER_KEY
 
-NEMOTRON_MODEL = "nvidia/nemotron-3-super-120b-a12b:free"
+SUMMARY_MODEL = "nvidia/llama-3.1-nemotron-ultra-253b-v1"  # highest quality Nemotron
 
 # Simple in-memory cache for summaries (doc_id → summary)
 _summary_cache = {}
@@ -407,9 +442,28 @@ _summary_cache = {}
 
 @app.route("/api/documents/<doc_id>/summary")
 def api_document_summary(doc_id):
-    """Generate a readable AI summary for a document using Nemotron."""
+    """Generate a readable AI summary for a document."""
+    # Check in-memory cache first
     if doc_id in _summary_cache:
         return jsonify({"doc_id": doc_id, "summary": _summary_cache[doc_id], "cached": True})
+
+    # Check persistent summaries table
+    if ECODE360_DB.exists():
+        try:
+            conn = sqlite3.connect(str(ECODE360_DB))
+            c = conn.cursor()
+            c.execute("SELECT summary, topics, key_people, key_locations FROM summaries WHERE doc_id = ?", (doc_id,))
+            row = c.fetchone()
+            conn.close()
+            if row:
+                result = {
+                    "doc_id": doc_id, "summary": row[0], "cached": True,
+                    "topics": row[1] or "", "key_people": row[2] or "", "key_locations": row[3] or "",
+                }
+                _summary_cache[doc_id] = row[0]
+                return jsonify(result)
+        except sqlite3.OperationalError:
+            pass  # summaries table doesn't exist yet
 
     # Load document text
     txt_path = BASE_DIR / "ecode360" / "minutes" / f"{doc_id}.txt"
@@ -429,18 +483,28 @@ def api_document_summary(doc_id):
         if row:
             meta = {"committee": row[0], "date": row[1]}
 
-    # Truncate to ~8000 chars for the API call
-    doc_text = text[:8000]
+    # Use more text for better context — 262K context window allows it
+    doc_text = text[:16000]
 
     key = _get_openrouter_key()
     if not key:
         return jsonify({"error": "OpenRouter API key not configured"}), 500
 
-    prompt = f"""Summarize these {meta.get('committee', 'committee')} meeting minutes from {meta.get('date', 'unknown date')} in Croton-on-Hudson, NY.
+    committee = meta.get('committee', 'committee')
+    date = meta.get('date', 'unknown date')
 
-Write exactly 3-5 bullet points. Each bullet should be one clear sentence. Include specific names, addresses, and vote counts where applicable. Do NOT include any thinking, reasoning, or preamble — just the bullet points.
+    prompt = f"""Summarize these {committee} meeting minutes from {date} in Croton-on-Hudson, NY for a local news website.
 
-MINUTES:
+FORMAT RULES:
+• Start IMMEDIATELY with the first bullet point — no title, heading, date, attendance list, or introduction
+• Use "•" for main topics and "  ◦" (indented) for key details under that topic
+• Each main bullet = one major topic or decision, written as a complete sentence with full context
+• Sub-bullets for: vote tallies, dollar amounts, specific addresses, names of speakers, deadlines
+• Cover every significant topic — no arbitrary limit — but be CONCISE (1-2 sentences per bullet, not paragraphs)
+• For public hearings: summarize the issue, key arguments for/against, and outcome in 2-3 bullets total — do NOT transcribe testimony verbatim
+• End after the last bullet — no summary paragraph, no closing remarks
+
+MEETING MINUTES:
 {doc_text}"""
 
     try:
@@ -448,23 +512,43 @@ MINUTES:
             "https://openrouter.ai/api/v1/chat/completions",
             headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
             json={
-                "model": NEMOTRON_MODEL,
+                "model": SUMMARY_MODEL,
                 "messages": [
-                    {"role": "system", "content": "You summarize village government meeting minutes into concise bullet points for local residents. Output ONLY bullet points, no preamble or reasoning."},
+                    {"role": "system", "content": "You produce concise bulleted summaries of village government meeting minutes. Start immediately with the first • bullet. No titles, headings, attendance lists, introductions, or closing paragraphs. Each bullet is 1-2 sentences max."},
                     {"role": "user", "content": prompt},
                 ],
                 "temperature": 0.2,
-                "max_tokens": 600,
+                "max_tokens": 1500,
             },
-            timeout=30,
+            timeout=45,
         )
         resp.raise_for_status()
         data = resp.json()
         summary = data["choices"][0]["message"]["content"].strip()
+
+        # Strip preamble (headers, attendance) and closing paragraphs
+        lines = summary.split('\n')
+        # Find first bullet line
+        bullet_start = 0
+        for i, line in enumerate(lines):
+            stripped = line.strip()
+            if stripped.startswith(('•', '-', '*', '◦', '–', '1.', '2.')):
+                bullet_start = i
+                break
+        # Find last bullet line (trim closing paragraphs)
+        bullet_end = len(lines)
+        for i in range(len(lines) - 1, bullet_start - 1, -1):
+            stripped = lines[i].strip()
+            if stripped and (stripped.startswith(('•', '-', '*', '◦', '–')) or stripped.startswith((' ', '\t'))):
+                bullet_end = i + 1
+                break
+        if bullet_start > 0 or bullet_end < len(lines):
+            summary = '\n'.join(lines[bullet_start:bullet_end]).strip()
+
         _summary_cache[doc_id] = summary
         return jsonify({"doc_id": doc_id, "summary": summary, "cached": False})
     except Exception as e:
-        logging.error("Nemotron summary error: %s", e)
+        logging.error("Summary generation error: %s", e)
         return jsonify({"error": f"AI summary failed: {str(e)}"}), 500
 
 

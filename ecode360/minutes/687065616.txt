@@ -1,0 +1,184 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Oct. 2, 2022 – via zoom
+Members Attending:
+Lindsay Audin
+Dan Columbini
+Niall Kelleher
+Len Simon
+Joel Gingold
+Jon Katz
+
+Absent:
+Bernie Yozwiak
+Brian Pugh
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): Ashley Clemente, Village resident interested in joining the committee,
+David Goldman, former committee member, and Jenna Cain, co-hub coordinator for
+the Sunrise Movement in Westchester [Jenna did not attend].
+Announcements: We thank Dan Colombini for setting up this zoom on his account.
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC grants and projects
+Washington firehouse solar rooftop: the Village signed CEG’s contract on 7/26. All
+paperwork with the Village to start the job was provided on 8/18. On 9/2, NYSERDA
+accepted our invoice to secure the 25% initial payment ($22,500) for this project. On
+9/13, CEG’s plans were OKed by Con Ed. Next step is for the Village to OK the plans
+and issue a building permit. Construction planning will start shortly thereafter.
+HP controls proposal: On 8/22, the Village sent a P.O. to Carey & Walsh (C&W). On
+9/13, Jon and Bryan Healy separately pushed C&W for a project schedule. On 9/29,
+C&W apologized for delays and said it would expedite docs needed to move ahead.
+- EV/EVSE
+The Inflation Reduction Act (IRA) created new options on federal tax credits for EVs. A
+list of eligible cars is at https://afdc.energy.gov/laws/inflation-reduction-act. Used EVs
+now qualify for a tax credit up to $4,000. See also EV items under “Funding Sources”.
+Regarding the train station EV chargers, we reviewed a diagram of the proposed
+charger sites and trenching layout that complies with all rules (e.g., ADA) while
+minimizing total cost and avoiding existing underground utilities (see map, last page).
+[On 10/6, Dan O’Connor reviewed and approved the layout with two changes: move
+the panelboard to the other side of the light post, and extent the long trench to the end
+of the block of parking spaces used for EVs. Both changes are reflected in the map.]
+Rules for our DEC grant app for the chargers and infrastructure allowed counting the
+appraised value of 24 EV parking spaces toward the required 20% match. A 9/2
+appraisal valued them at $108K, more than enough to cover that match (worth
+~$32K). Those rules also allowed us to include 2 years of free charging (worth ~$25K)
+in our grant request. Total actual cost will be ~$152K. The grant would cover ~$147K,
+exclusive of conduits and trenching (covered by SolSystems).
+1
+
+Members discussed various equity issues regarding access to the chargers while
+charging is free, and in general. No decisions or policies were settled. Such issues are
+moot until we learn if we won the DEC grant. Our grant app was submitted 9/7
+(deadline was 9/30). Winners will be notified in 2-3 months.
+In early Sept., Village staff asked us to apply for EV grants from DEC for a Ford F-150
+Lightning pickup truck and a police sedan (maybe a Tesla). Despite initially being told
+by DEC that grant apps could proceed before vehicles were delivered (due to a long
+EV production backlog), we were later told that was not true. As a result, those grant
+apps will be postponed until the next DEC EV grant cycle starts in June 2023.
+On 9/21, the school district announced that its EV bus charger was being installed at
+its Transportation Yard on Rt. 129 (next door to Croton’s DPW building).
+On 9/25, Croton100 showed several EVs as part of the annual Rotary Club car show.
+- Funding Sources/Issues
+Several sections of the federal Inflation Reduction Act (IRA), could help our work.
+One section provides:
+
+
+$27 billion to EPA for a Greenhouse Gas Reduction Fund to support projects that
+reduce greenhouse gas (GHG) emissions, with local governments directly
+eligible for $7 billion of total funding to support low-income and disadvantaged
+communities in deploying zero-emission technologies, and non-profit institutions
+eligible for the entire allotment to provide capital funding for local GHG reduction
+projects, to remain available until September 30, 2024 (Sec. 60103).
+
+Len is reviewing this and other options. He will report on them at our Nov. meeting.
+Jenna Cain (Sunrise Movement) is prepping an overview of how IRA helps munis.
+On 8/12, SW notified us that the NY PSC had authorized new NYSERDA funding for
+heat pumps (HP) in ConEdLand. On 9/26, SW emailed that Con Ed HP rebates would
+start again in Jan. 2023. Once a PSC proceeding settles later this year, NYSERDA’s
+Clean Heat & Cooling program (including all types of HPs) will feature those rebates.
+On 10/12, Dan will attend a Galef-sponsored zoom on HPs that may address new
+incentives. He will report at our 11/6 meeting. Federal residential HP incentives will
+include a rebate ($2K-$5K) and a 30% tax credit, both also starting in Jan. 2023.
+On 7/25, the PSC announced expanded PowerReady EV infrastructure incentives in
+the Con Ed area. Earlier funding was fully allocated, forcing later applicants (e.g., us)
+onto a long wait list. On 8/25, Con Ed told us we could change the status of our
+application (submitted last June) from “suspended” to “On Hold”.
+Len reported that NY State’s EV infrastructure funding plan was accepted by the US
+Dept. of Transportation. NY will get $175M to spend over 5 years to install EVSE. Its
+“NEVI Formula Program” has a section for funding local govt. EV infrastructure projects.
+- Other Solar Projects/Issues
+2
+
+For those already enrolled in the DPW community solar program, consolidated billing
+(now called “net crediting”) will soon take effect. The 10% savings will appear on Con
+Ed bills as an unexplained monthly “Adjustment”. However, the ~20 Croton residents
+(including 6 committee members) that signed up for Community Solar 2.0 last year will
+need to wait for slots to open up on other Ecogy solar projects to get the discount.
+Train station canopies: SolSystems’ contractor, Core Development Group, diagramed
+its water management trenches but they are too far away from the optimal EV
+charging site to be useful. The 90% drawings for the project were recently completed.
+Croton Landing Park canopies: Because the site will fall within a newly designated
+DAC, the IRA may boost its Investment Tax Credit (ITC) from 22% to 40% (maybe
+50%). Ecogy recently provided a 170-kW design for canopies over the unpaved
+parking area near the boat launch. See rendering at the end of these minutes.
+Jon pointed out a potential conflict regarding the support column (“pier”) seen at the
+far left of the lower canopy (nearer to the river). It could be a problem for vehicles
+approaching or turning around near the boat launch. [On 10/8, Ecogy revised its
+design to accommodate that concern. See that layout at the end of these minutes.]
+On 8/17, Dan O’Connor clarified the two CSX railroad existing easements that impact
+the project. The first involves an operating septic system, ruling out canopies next to
+the paved parking area. The second is a right-of-way for a CSX data line. It runs along
+the roadway edge of the unpaved area by the boat launch. He suggested re-locating
+the piers for that canopy ~5’ further west (toward the river) to avoid it, but that could
+consume several parking spaces. He also noted that the data line that would have
+used that path was years ago instead located across the street. Lindsay will ask the
+Village to ask CSX if it might now relinquish/sell its unused right-of-way.
+In early August, Sandy Galef’s office got us answers to questions posed to State
+legislative staff earlier this year. They will simplify getting an alienation exemption. The
+State’s Parks Dept. and NYPA are now helping us simplify the exemption process.
+- Food Scrap Recycling Program
+New volunteers are assisting with the program. With the help of CAC, C100, MoF,
+etc., recruiting for the 6-month pilot program started [10/7] with a goal of enrolling 40
+families by the end of October. On 10/3, the Village OKed the County pick-up contract
+to the SMM site in Cortlandt Manor. On 9/24, 50 copies of our program flyer were
+given to MoF for its [10/8] Oktoberfest table. Thank you to Joel for his editing help.
+DPW is now ordering materials and the service shed. If all goes well, they should be
+received and installed by mid-November. They will be distributed by committee
+members on Sunday 12/4 at a noon kickoff meeting in the Community Room. All
+committee members were asked to attend and assist that effort. Scrap drop-offs
+would run from Saturday, Jan. 7 through June 25, 2023 at the end of Pkg. Lot A near
+the train station. The first County scrap pickup will be Monday, Jan. 9.
+3
+
+As the committee’s photographer, Dave Goldman agreed to take pics of the Dec. 4
+meeting and the first drop-off event on Jan. 7. Those pics are needed to meet DEC
+grant rules and will help us with our future PR efforts.
+Anyone interested in the program should be pointed to our web posting at:
+www.crotononhudson-ny.gov/sustainability-committee/news/croton%E2%80%99sfood-scrap-recycling-program-starts-january-2023
+- Other Reports
+Joel summarized an 8/31 zoom with SW wherein it updated CCA issues. Once again,
+Constellation Energy will be the supplier, starting Nov. 1. While pricing is considerably
+higher than last year, it will likely be lower than Con Ed pricing expected this winter.
+Joel also reviewed the State’s Environmental Bond Act (Prop. 1 on the back of the
+Nov. ballot). Through his connection with Indivisible, he asked the VB to issue a
+supporting resolution for the Act. Len indicated it was very likely to be supported.
+Niall updated us on the new community garden to be installed at Gouveia Park. It
+involves various improvements, including a new section of road to access the site. He
+agreed to provide data on total cost and approximate square footage in case we need
+to cite it in our alienation exemption application for Croton Landing Park.
+- Recruitment/Outreach/Communications/PR
+A July committee recruiting discussion mentioned a “Newcomers Club” that welcomes
+new residents as a possible source. A web search found no such club in Croton.
+Len engaged and introduced a neighbor (Ashley Clemente) regarding joining our
+committee. Ashley moved to Croton 5 years ago. He is a 44-year-old electronics
+engineer involved with IT. He looks forward to assisting our efforts.
+In August, Lindsay was interviewed by a member of the Sunrise Movement (a national
+youth group pushing climate action) for an article on our CEC/CSC activities. Sunrise
+promotes those programs and seeks to “establish a youth position on each municipal
+Conservation Advisory Board and/or Environmental Committee to ensure proper youth
+input and accountability on climate actions”. There are no Sunrise members in Croton.
+On 8/25, Lindsay met with Jenna Cain, a high school senior and co-hub coordinator
+for Sunrise Westchester. She said Sunrise was willing to help with specific tasks. She
+(and other members) will summarize the IRA on its funding options for municipalities
+based on a list of questions Lindsay provided to her.
+On 9/12, Lindsay zoomed with ~10 Sunrise members to summarize our activities via a
+PPt. show. He reviewed how they could help cut their towns’ carbon emissions.
+- New Business / Other Issues
+
+4
+
+Len reported on a 9/26 County Climate Week event he attended wherein participation
+in the State’s CSC program was discussed. He noted that there are now 100 CSCcertified communities, 19 of which are in Westchester (Croton is Silver-certified).
+We discussed participation in the Village’s 125 th anniversary celebration. Joel is on
+that committee and will coordinate our committee’s participation, e.g., via Earth Day.
+Members were reminded that they must take the annual State-required training in sex
+harassment and workplace violence during October, either live on 10/14 or online.
+Date for our next zoom meeting was set for Sunday, November 6, at 10:30 AM.
+
+5
+
+6
+
+Below see Ecopy’s revised layout responding to concerns regarding conflicts with the boat launch area.
+
+7
+
+

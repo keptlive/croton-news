@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//croton.news//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Croton — Government & Meetings
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Government & Meetings in Croton-on-Hudson area
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+BEGIN:VEVENT
+UID:0c4a0ca24286@croton.news
+DTSTART;VALUE=DATE:20260403
+SUMMARY:Good Friday
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4cc84099b4bc@croton.news
+DTSTART;TZID=America/New_York:20260404T090000
+SUMMARY:Food Pantry
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ac778fbae57b@croton.news
+DTSTART;VALUE=DATE:20260404
+SUMMARY:Trails Cleanup
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:73cbb33b7e1c@croton.news
+DTSTART;TZID=America/New_York:20260406T160000
+SUMMARY:Waterfront Advisory Committee (WAC) Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6dc0f8eeebd8@croton.news
+DTSTART;TZID=America/New_York:20260406T190000
+SUMMARY:Library Renovation: Design Presentation
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:fa906efdce43@croton.news
+DTSTART;TZID=America/New_York:20260407T190000
+SUMMARY:Arts & Humanities Advisory Council Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ebed15e9468e@croton.news
+DTSTART;TZID=America/New_York:20260408T190000
+SUMMARY:Board of Trustees Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a370fcf1708b@croton.news
+DTSTART;TZID=America/New_York:20260409T180000
+SUMMARY:HEART Committee Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1a23742e304d@croton.news
+DTSTART;TZID=America/New_York:20260409T190000
+SUMMARY:Board of Trustees Budget Work Session: PD\, FD\, EMS
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1a24c4b81e03@croton.news
+DTSTART;TZID=America/New_York:20260410T144500
+SUMMARY:IDEA Committee Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ce821c9a5587@croton.news
+DTSTART;TZID=America/New_York:20260411T090000
+SUMMARY:Croton Little League Opening Day Parade
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:674865efeff6@croton.news
+DTSTART;TZID=America/New_York:20260413T190000
+SUMMARY:Recreation Advisory Committee Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:17a5ccfe487b@croton.news
+DTSTART;TZID=America/New_York:20260414T190000
+SUMMARY:Advisory Board of the Visual Environment
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3f706b7399d5@croton.news
+DTSTART;TZID=America/New_York:20260414T200000
+SUMMARY:Planning Board Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4a66559b26a0@croton.news
+DTSTART;TZID=America/New_York:20260415T190000
+SUMMARY:Board of Trustees Budget Work Session: Rec\, Admin\, Fees
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ad34cd89413b@croton.news
+DTSTART;TZID=America/New_York:20260416T190000
+SUMMARY:Board of Trustees Budget Work Session: Capital and Recap
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:dc22175b6045@croton.news
+DTSTART;TZID=America/New_York:20260416T193000
+SUMMARY:Bicycle Pedestrian Committee Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9b68e6b23a27@croton.news
+DTSTART;TZID=America/New_York:20260418T090000
+SUMMARY:Food Pantry
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b7ba4e9bb025@croton.news
+DTSTART;TZID=America/New_York:20260421T190000
+SUMMARY:Zoning Board of Appeals Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9e0005b9026e@croton.news
+DTSTART;TZID=America/New_York:20260421T194500
+SUMMARY:Conservation Advisory Council Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+END:VCALENDAR

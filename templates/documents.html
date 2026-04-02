@@ -40,9 +40,9 @@
         </div>
 
         <!-- Document title / preview -->
-        <div style="font-size: 0.95rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--text);">
-            {{ r.committee }} Minutes - {{ r.date }}
-        </div>
+        <a href="/documents/{{ r.doc_id }}" style="font-size: 0.95rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--text); text-decoration: none; display: block;">
+            {{ r.committee }} Minutes — {{ r.date }}
+        </a>
 
         <!-- Matching excerpts -->
         {% for snippet in r.snippets %}

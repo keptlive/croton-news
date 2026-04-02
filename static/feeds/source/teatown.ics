@@ -1,0 +1,199 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//croton.news//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Croton — Teatown Lake Reservation
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Events from Teatown Lake Reservation
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+BEGIN:VEVENT
+UID:6dd107444195@croton.news
+DTSTART;TZID=America/New_York:20260408T100000
+SUMMARY:Women Take to the Trails
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/women-take-to-the-trails-sept-oct-2025/2026-04-29/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nLace up your hiking boots and bond with fellow female hikers as we cruise the trails. Each hike’s location will be dependent on weather and trail conditions. Please dress appropriately for prolonged o
+END:VEVENT
+BEGIN:VEVENT
+UID:2036dec1955b@croton.news
+DTSTART;TZID=America/New_York:20260411T100000
+SUMMARY:Playing with Puddles (for families)
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/playing-with-puddles/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nTake a deep dive into the product of April Showers as we experiment with precipitation-themed hands-on activities. Puddle jumping is the perfect spring pastime, but take your splashing to the next lev
+END:VEVENT
+BEGIN:VEVENT
+UID:88d3988d90ff@croton.news
+DTSTART;TZID=America/New_York:20260412T110000
+SUMMARY:Hop into Spring (for families\, 4+)
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/hop-into-spring/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nThe Easter Bunny has come and gone, but let’s learn about lagomorphs and how they differ from rodents with Environmental Educator Elissa Schilmeister. Meet members of this fascinating order of animals
+END:VEVENT
+BEGIN:VEVENT
+UID:31bf0496c4cb@croton.news
+DTSTART;TZID=America/New_York:20260415T100000
+SUMMARY:Women Take to the Trails
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/women-take-to-the-trails-sept-oct-2025/2026-04-29/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nLace up your hiking boots and bond with fellow female hikers as we cruise the trails. Each hike’s location will be dependent on weather and trail conditions. Please dress appropriately for prolonged o
+END:VEVENT
+BEGIN:VEVENT
+UID:6b8f67506f07@croton.news
+DTSTART;TZID=America/New_York:20260418T100000
+SUMMARY:Feather Friendly: Become “Raptor Responsible” (for everyone)
+LOCATION:Cliffdale Farm\, 85 Teatown Rd\, Croton-on-Hudson\, NY\, 10520\, United States
+URL:https://www.teatown.org/events/raptor-responsible/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nWhat does it mean to be “Raptor Responsible”? Meet Teatown’s favorite feathered Animal Ambassadors. Join Environmental Educator Caroline Erb to learn about the biggest threats to our native raptors an
+END:VEVENT
+BEGIN:VEVENT
+UID:64662785fa7a@croton.news
+DTSTART;TZID=America/New_York:20260419T100000
+SUMMARY:Hidden Valley Hike (For everyone 8+)
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/hidden-valley-hike/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nSpend Environmental Educator week with us out on the trails, as Environmental Elissa Schilmeister lead us on the Hidden Valley Loop trail for a moderate hike. Please dress appropriately for prolonged 
+END:VEVENT
+BEGIN:VEVENT
+UID:bbe44e000172@croton.news
+DTSTART;TZID=America/New_York:20260422T100000
+SUMMARY:Women Take to the Trails
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/women-take-to-the-trails-sept-oct-2025/2026-04-29/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nLace up your hiking boots and bond with fellow female hikers as we cruise the trails. Each hike’s location will be dependent on weather and trail conditions. Please dress appropriately for prolonged o
+END:VEVENT
+BEGIN:VEVENT
+UID:e623a4dacfb8@croton.news
+DTSTART;TZID=America/New_York:20260425T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:e633bb13d17c@croton.news
+DTSTART;TZID=America/New_York:20260429T100000
+SUMMARY:Women Take to the Trails
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/women-take-to-the-trails-sept-oct-2025/2026-04-29/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nLace up your hiking boots and bond with fellow female hikers as we cruise the trails. Each hike’s location will be dependent on weather and trail conditions. Please dress appropriately for prolonged o
+END:VEVENT
+BEGIN:VEVENT
+UID:1f3d8f8f5a0c@croton.news
+DTSTART;TZID=America/New_York:20260502T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:ffd5a92cc1b0@croton.news
+DTSTART;TZID=America/New_York:20260502T100000
+SUMMARY:NYFA Field Trip to Teatown: Spring Wildflowers
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/nyfa-teatown-trip/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nJoin NYFA as we explore the Hidden Valley trail at Teatown, a 1,000 acre nature preserve and environmental education center located in Westchester County.  Program description:  These woodlands featur
+END:VEVENT
+BEGIN:VEVENT
+UID:37a2b260117c@croton.news
+DTSTART;TZID=America/New_York:20260503T110000
+SUMMARY:Spring Ephemeral Hike (for families)
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/spring-ephemeral-hike-2/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nAs spring warms up, wonderful wildflowers are starting to emerge. This family-friendly hike will explore the short-lived species of the forest floor.    Wear appropriate hiking footwear, clothing for 
+END:VEVENT
+BEGIN:VEVENT
+UID:9d4a545a6a2a@croton.news
+DTSTART;TZID=America/New_York:20260509T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:1326b71ae2c6@croton.news
+DTSTART;TZID=America/New_York:20260516T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:c69b3a23b16d@croton.news
+DTSTART;TZID=America/New_York:20260523T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:95ee47eb4644@croton.news
+DTSTART;TZID=America/New_York:20260530T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:9dfdea91c9e8@croton.news
+DTSTART;TZID=America/New_York:20260606T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:91790219d989@croton.news
+DTSTART;TZID=America/New_York:20260613T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:c9b056750238@croton.news
+DTSTART;TZID=America/New_York:20260620T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:25fee5b05643@croton.news
+DTSTART;TZID=America/New_York:20260627T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:0a23f7397581@croton.news
+DTSTART;TZID=America/New_York:20260711T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,136 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//croton.news//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Croton — Paramount Hudson Valley
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Events from Paramount Hudson Valley
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+BEGIN:VEVENT
+UID:7c8d21bb4fb2@croton.news
+DTSTART;TZID=America/New_York:20260409T200000
+SUMMARY:The Outlaws
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nWith Opening Guest-The Cosmic American Derelicts On April 9, Southern Rock legends The Outlaws return for a very special live performance celebrating [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:d6f597b4c66b@croton.news
+DTSTART;TZID=America/New_York:20260410T200000
+SUMMARY:An Evening with David Sedaris
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nThere will be a book signing in the lobby before and following the event. With an Opening reading by Cindy House. "Sedaris.]
+END:VEVENT
+BEGIN:VEVENT
+UID:b33124b7d996@croton.news
+DTSTART;TZID=America/New_York:20260411T190000
+SUMMARY:Reverend Horton Heat with Special Guests Black Joe Lewis and Piñata Protest
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nSpecial Guests Black Joe Lewis and Piffata Protest Get ready for a high-octane night of psychobilly fire as Reverend Horton Heat brings his [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:bb1a5cf8200a@croton.news
+DTSTART;TZID=America/New_York:20260412T140000
+SUMMARY:That Motown Band
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nPresented by EastEnd Bands Are you a fan of classic hits like "Heat Wave" "Ain't Too Proud to Beg" "Baby Love" "What's [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:6d31edaaa2b9@croton.news
+DTSTART;TZID=America/New_York:20260418T200000
+SUMMARY:An Evening with Audra McDonald
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nThe photographing or sound recording of this concert or possession of any device for such photographing or sound recording is prohibited. Prepare for [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:3678d1b5f74f@croton.news
+DTSTART;TZID=America/New_York:20260419T150000
+SUMMARY:The Amazing Bubble Factory
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nThe Amazing Bubble Factory brings the breathtaking art of bubbles to life right before your eyes in a high-energy, family-friendly spectacular. Led by [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:cd86d2385201@croton.news
+DTSTART;TZID=America/New_York:20260424T200000
+SUMMARY:Best of The Eagles
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nBest of the Eagles, hailed as the ultimate tribute to the iconic rock band, flawlessly captures the essence of the Eagles' timeless music. [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:acbb4cee5366@croton.news
+DTSTART;TZID=America/New_York:20260425T200000
+SUMMARY:The Doo Wop Project Presents... Echoes of the Street
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nA Brand New Show from America's Premiere Doo Wop Group! The dynamic Broadway stars of The Doo Wop Project are on a mission [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:0683910090d2@croton.news
+DTSTART;TZID=America/New_York:20260426T170000
+SUMMARY:An Evening with Temple Grandin
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nTemple Grandin is one of the world's most respected voices on autism and neurodiversity. Diagnosed with autism as a child, she has dedicated [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:ae58a233b730@croton.news
+DTSTART;TZID=America/New_York:20260430T200000
+SUMMARY:Adam Ray: WHO IS ME Tour
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nVIP Tickets Include a Post-Show Meet and Greet! 18+/Mature Audience Adam Ray is a multifaceted comedian, actor, and director from Seattle,[.]
+END:VEVENT
+BEGIN:VEVENT
+UID:b8e170dedeb3@croton.news
+DTSTART;TZID=America/New_York:20260501T190000
+SUMMARY:BILLY GARDELL: THE LESS IS MORE TOUR
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nBilly Gardell currently stars in the CBS series Bob Hearts Abishola, from award-winning creator, executive producer and writer Chuck Lorre. Bob Hearts Abishola [...]
+END:VEVENT
+BEGIN:VEVENT
+UID:6efced682805@croton.news
+DTSTART;TZID=America/New_York:20260502T200000
+SUMMARY:Genessa and The Selena Experience
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nIn honor of the legacy of the late Tejano superstar Selena Quintanilla, Genessa & The Selena Experience brings a powerful, high-energy tribute to [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:0ab78a71ce0a@croton.news
+DTSTART;TZID=America/New_York:20260503T110000
+SUMMARY:Laurie Berkner: The Greatest Hits Solo Tour!- Sensory Friendly Performance
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nShe's Back - with a Sensory Friendly performance on Sunday, May 3 at 11AME PEOPLE MAGAZINE calls Laurie Berkner "the queen of kids[.]
+END:VEVENT
+BEGIN:VEVENT
+UID:16ed1e35c26f@croton.news
+DTSTART;TZID=America/New_York:20260503T150000
+SUMMARY:Laurie Berkner: The Greatest Hits Solo Tour!
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nShe's Back - performing live on Sunday, May 3, 2026 at 3PM! PEOPLE MAGAZINE calls Laurie Berkner "the queen of kids' music," USA [..]
+END:VEVENT
+END:VCALENDAR

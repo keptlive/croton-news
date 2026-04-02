@@ -1,0 +1,297 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, July 24, 2022 – via zoom
+Members Attending:
+Lindsay Audin
+Len Simon
+Joel Gingold
+Niall Kelleher
+
+Absent:
+Brian Pugh (out of town)
+Bernie Yozwiak (on vacation)
+Dan Columbini (out of town)
+Jon Katz (on vacation)
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Guest(s): former committee member David Goldman (our “official” photographer)
+Announcements: We again thank the Village for sponsoring our zooms.
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC grants and projects
+On 7/5, NYSERDA accepted our Stretch Code submissions, and approved on 7/11. An
+application to secure the $5K grant was submitted on 7/20.
+In the entire State, Croton is now second only to Hastings on CEC points (we have
+6,900, they have 7,100). Once the firehouse HP controls are installed, we can apply for
+another 500 points, making us first in the State in the CEC program.
+Washington firehouse solar rooftop: CEG’s contract was accepted for signature by the
+Village Manager on 7/22. Once countersigned by the Village, Lindsay will assemble a
+site meeting to with Fire Dept. and DPW officials to schedule work start-up.
+HP controls proposal: Carey& Walsh (C&W) is working on contractual changes
+requested by Village staff. Once OKed, Jon and Lindsay will set up a site meeting with
+Village staff and Fire Dept. officials to review the project.
+- EV/EVSE
+Niall summarized a recent study on EV charger reliability. There have been issues with
+early failures and expeditious repairs by suppliers. We experienced both issues with the
+dual-port charger at the train station installed ~3 years ago. His full report is appended.
+The study applied only to L3 (i.e., 480 V DC Fast Chargers) in operation in California, but
+some of it was relevant to our work. Niall found that a variety of unrelated issues could
+impact service reliability, including the charge company’s communications network (all
+use internal cell phones), the cell phone provider, power loss, etc. While 3 of the major
+charger firms claimed 93-98% uptime, the study found it was closer to 73%. This is
+important because the DEC grant requires maintaining at least 80% uptime, and our deal
+with ChargePoint has that proviso written into it.
+Bernie did a great job developing a detailed budget for the EV charger infrastructure
+needed at the train station. We reviewed a diagram of a proposed charger and trenching
+1
+
+layout that would comply with all rules (including ADA) while minimizing total cost. A
+rendering will be an additional email attachment to these minutes.
+A quote from ChargePoint for the 6 dual port chargers and extra mounting kits for “future
+proofing” was received 7/18. The DEC grant requires extended warranties, software, and
+other adders. They pushed total charger cost to ~$77K. Total EV facility cost will be about
+$200K of which the grant would cover ~$160K. All conduits and trenching (a big piece of
+the work) are covered by SolSystems, and are not in that total cost
+Rules for the DEC EV grant allow us to count the value of 24 EV parking spaces at the
+train station against the required 20% match. Bryan Healy is getting a proposal for an
+appraisal of that value. It could cover a large portion of the match.
+Lindsay will attend a 7/27 ChargePoint zoom on aspects of the DEC grant app process.
+- Funding Sources/Issues
+NYSERDA agreed to allow all of our $20K in CEC grants to cover costs for EV chargers
+and any parts of their supporting infrastructure as long as none of it is counted as part of
+DEC’s required 20% Village match. Len agreed that the Village Board would likely be OK
+with instead allocating the $20K to an upcoming municipal EV purchase, thus freeing up
+$20K of actual Village funds that could be applied to our 20% match.
+An issue also arose with the timing of the installation of the chargers. While there are
+three possible sources of infrastructure funding (PowerReady, DEC, and federal BIL),
+none are likely to arrive until much of the canopy work is nearly finished.
+Bottom line: while the empty conduits should be done by mid-2023, no chargers (or other
+infrastructure) are likely to be installed and available until late 2023 or early 2024.
+[On 7/25, the PSC announced that expanded PowerReady incentives will be provided in
+the Con Ed area. Recall that earlier incentives were fully allocated, forcing later applicants
+(e.g., us) into a long wait list. Until such time as details on the new incentives are
+available for review, we will continue to pursue the DEC grant discussed above.]
+Because the Washington firehouse will be within the Climate Justice Working Group’s
+(CJWG) new map of Disadvantaged Communities (DACs), and our grant for that project
+is over $20K, it looked like we might be eligible for a $10K bonus grant. However, the new
+DAC map does not take effect until later this year. On 7/11, NYSERDA told us that,
+because our existing grant was already under contract, we are not be eligible for the $10K
+even if we delayed construction. But for any future NYSERDA-sponsored projects over
+$20K, we could apply for the $10K, once the new map takes effect.
+- Other Solar Projects/Issues
+Consolidated billing (needed to expand community solar) at last started in May. Now
+called (by Con Ed) “net crediting”, the 10% savings will show up on Con Ed bills as a
+monthly “Adjustment” with no explanation. Ecogy is now in process of migrating all its
+customers to net crediting so they would no longer get its extra electric bill. Regarding our
+2
+
+2021 Community Solar 2.0 effort, fewer than 20 Croton participants completed their
+enrollment forms. Each will now be given a slot in Ecogy’s next solar project.
+Train station canopies: SolSystems’ contractor, Core Development Group, provided a
+diagram of trenches for water management. Unfortunately, they are too far away from the
+optimal site to be useful.
+Croton Landing Park canopies: We continue to pursue an alienation exemption with
+NYPA’s help (next zoom is 7/27). State legislative staff have still not answered questions
+posed to them on 4/25. Bryan Healy again asked for responses. Continued failure may
+necessitate asking Sen. Harckham to help resolve the issue.
+In June, the Town Board of Cortlandt agreed to install 2 canopies that would not produce
+direct municipal revenue. It felt that “fighting climate change should not be limited by the
+amount of revenue it would produce”. On 7/20, Mayor Pugh supported that concept,
+pending resolution of the alienation exemption issue. If the Village bought community
+solar power from the site, ~$2K/yr in electric bill savings (not revenue) may be possible.
+Joel pointed out that residents buying community solar power would also get a discount
+on their electric bills, so a case may also be made based on that extra benefit.
+- Food Scrap Recycling Program
+On 7/11, the VB reviewed the status of our DEC grant for a pilot 6-month food scrap
+recycling program. Originally scheduled for early 2020 and postponed due to COVID, in
+March we got a 2-year extension ending 9/30/2024. The VB recently OKed use of the
+back end of parking lot A at the train station (across from the station entrance) for a 6month period starting in Jan. 2023.
+Trustees were also updated on developments, e.g., the County will pick up scraps and
+take them to SMM’s Peekskill facility for ~$400 (instead of the private carter that wanted
+~$4,000) for the 6-month term. Recruiting, etc. would need to start in mid-October.
+This month, several people agreed to take on some program tasks:
+- Patty Buchanan of C100 agreed to help with promotion and recruitment.
+- Janet Monahan of the CAC said:
+“It is good to see that this program is up and running. I will definitely volunteer to help. Also, I am
+forwarding this email to the CAC members and am sure most will be willing to help also. You have
+the full support of the CAC. We do have various email lists that we can spread the word out to village
+residents.”
+
+- Donna O’Malley agreed to help recruit/promote to Mothers Out Front (MOF).
+- A new Croton resident (Keiko Niccolini) agreed to perform organizing tasks.
+Niall said that his community garden group has a small (~50) email list that could also be
+used to inform and recruit participants. Others who previously expressed interest are no
+longer able or have not responded.
+3
+
+- Other Reports
+Joel attended a 7/20 zoom panel by Peekskill’s CAC. It included 2 speakers from the
+Sunrise Movement, an organization of young (e.g., high school / early college) people.
+One was from Mamaroneck High School and the other from White Plains High School.
+The main feature was a 2020 documentary (“Youth V Gov”) on the 7-year lawsuit by 20
+young people pushing Washington to stop allowing use of fossil fuels. (the lawsuit did not
+get to first base but got a lot of good PR).
+As a potential source of useful interns or committee members, Joel concluded it was likely
+to be yet another dead end. [Because one of the panelists was listed as the Co-Founder
+and Co-Director of Sunrise Westchester, Lindsay asked Joel to get her contact info to
+allow us to assess if there’s any value in working with its membership.]
+- Recruitment/Outreach/Communications/PR
+Len agreed to approach a neighboring engineer on his potential interest in joining our
+committee. Various other ideas were reviewed, including use of the Village email list,
+working with local real estate firms to inform newcomers regarding our committee, and if
+there’s some form of “Newcomers Club” that still welcomes new residents. [A web search
+did not find any for Croton.] After Labor Day, Lindsay will send a LTE to the Gazette on
+the matter to seek applicants and submit an article on the matter to the Village newsletter.
+- New Business / Other Issues
+Niall announced that the Village OKed installation of a 3 rd community garden. To be
+installed at Gouveia Park near the open area adjacent to its parking lot, water would be
+available at a nearby stream. Work is expected to be finished later this year.
+Joel mentioned the upcoming 125th anniversary of Croton’s establishment and asked
+if/how our committee may wish to be involved. An Aug. 11 organizing meeting will include
+how Village committees could participate. Chaired by Carolyn Whiting, a friend of Joel’s,
+both Len and Ann Gallelli are on the organizing committee.
+We discussed Westchester Power’s new CCA prices for 11/1/22 through 10/31/24 which
+were secured via blind/sealed bid on 7/20/22:
+100% Renewable Supply: 15.128 cents/kWh
+Standard supply:
+13.364 cents/kWh
+More than double that of the last contract, they may yield savings relative to Con Ed’s
+variable pricing over the same period, but some resident blowback should be expected.
+We will take our usual summer sabbatical. Date for our next zoom meeting was set for
+Sunday, September 25 at 10:30 AM.
+
+4
+
+= pairs of dual-port chargers, back-to-back on concrete pads, Yellow outline is around the 24 spaces. White lines are trenches.
+
+Niall’s Report on Charger Reliability
+Hi Lindsay
+The study you sent to me only looked at Level 3 chargers in 9 counties in the Greater Bay Area in California. As
+such, the answer to your first question is No, it is not relevant to L2 units in Croton. However, it did bring up some
+interesting information regarding charging infrastructure in general.
+- it appears to be focused on DCFC chargers. Is any of it instead relevant to L2 units in Croton, or which we plan to
+install at the train station?
+This paper focused solely on DCFC chargers. However, there are factors that apply to both L2 an L3 chargers.
+The use of uptime as the reliability metric is controversial since there is no standard definition nor is there a standard
+calculation methodology. Given the complexity of the EVSE ecosystem and technology stack, from hardware to
+software, ensuring a high uptime and assigning “uptime ownership” of each EVSE may be difficult and may
+require standardization across different jurisdictions.
+The EVSE ecosystem is composed of different stakeholders. For example, when an EVSE is installed, it is
+connected to the local utility electrical infrastructure that delivers power to EVSE. The EVSE is installed by a
+certified installer, operated by the charge point operator (CPO) and located at a site where it may be owned and
+managed by a site host or the EVSP. The EVSE is connected to an internet service provider (ISP) network and a
+payment system. Finally, the EVSEs may be serviced by an EV servicing company. Depending on the
+jurisdiction, the overall responsibility for keeping the EVSE functioning, can be either with the local electric utility,
+the installer, the site host, the CPO, or the servicing company. These stakeholders may be independent or may be
+integrated, i.e., installer can also be the CPO, etc.
+These stakeholders will likely have different levels of visibility over the status of the system. For example, the site
+host might have information about the electrical infrastructure and outages and physical damage to kiosks but not
+information about the functional status of each kiosk, whereas the CPO may have continuous EVSE status
+information. This partial visibility of the EVSE operation poses a challenge in maintaining a high uptime from the
+EV driver perspective. Moreover, since these stations are in public locations, events such as road Electronic copy
+available at: https://ssrn.com/abstract=4077554 Reliability of EV Direct Current Fast Chargers may be affected
+due to blockage due to construction, theft, or vandalism, which are beyond the immediate control of the CPO.
+1.
+
+Are chargers available 24 hours a day, 7 days a week? (Some chargers are in paid parking lots or are only
+available to employees).
+
+2.
+
+The EVSE might not be available because other vehicles are parked next to the charger making it
+unavailable.
+
+- how long were the units in service before they failed?
+No data on this question. Potentially numerous sources of failure
+a) Loss of power to the device.
+b) Loss of internet service.
+c) Physical damage to EVSE, cable breaks, the box is physically damaged.
+d) The Charge Point Operator system might go down.
+- what service agreements (if any) or warranties were involved?
+No data on warranties.
+- was there any indication how long units were out of service before being repaired?
+This was not covered in the study.
+
+- did the study ID the charger brand name(s) of the failed units? If so, what were they?
+The study concentrated on Level 3 chargers only. The 3 major providers, ChargePoint, Electrify America and
+EVgo claim 95% to 98% uptime. This limited California study found uptime closer to 73%. [We will be using
+ChargePoint units.]
+
+5
+
+- please separate the % failures not related to charger operation from any other cited issues, e.g., the length of the
+charge cord to clarify charger operational issues.
+[That data was not differentiated in the study.] Some of this may be important in light of an issue we are having
+with repairs to the one charger presently at the train station. It is presently unclear why it is taking so long despite
+prior identification of the failure mode, parts needed to fix it, and a PO being issued months ago for the work.
+Additional background data on EV chargers
+The generic term used to describe the piece of equipment used to charge an electric vehicle is ‘electric vehicle
+supply equipment’ (EVSE). EVSE can be further categorized into three levels that relate to their output power
+capabilities.
+Level 1 and level 2 EVSE both supply alternating current (AC) to an electric vehicle’s on-board charger and level 3
+systems supply direct current (DC) to the EV. The use of the term ‘charger’ for levels 1 and 2 is misleading, as
+they are not technically chargers. They supply AC electricity to the EV where the on-board charger converts the
+AC to DC, which charges the batteries. EVSE also provides important safety features for both users and
+charging equipment.
+The EV’s battery management system (BMS) is another vital component in an EV charging system. It is responsible
+for thermal management, cell balancing, over charge and over discharge monitoring of the battery pack. An EV
+battery pack is not made of a single battery; instead, many individual cells are combined to form a bank. A single
+cell may only have a small safe working voltage range and it is important to ensure it stays within this range. This
+is particularly important with variants of lithium-ion batteries commonly used in EVs. Over charge and over
+discharge can result in disastrous consequences including reduced battery life or total battery failure causing fires.
+It is the job of the BMS to monitor the battery cells to ensure they all stay within normal operating voltages and
+temperatures. The BMS also balances individual cells by redistributing charge from cells of higher electric
+potential (voltage) to lower potential cells. BMS’s use numerous techniques to manage the battery pack. The
+BMS is also responsible for the voltage and current requests from the charger. This includes both the on-board
+charger for levels 1 and 2 or the off-board charger for level 3 EVSE. Multiple charging profiles (constant current,
+constant voltage etc.) are available to charge a battery.
+Level 1 and 2 Charging
+Level 1 and 2 chargers provide AC electricity to the EV’s on board charger. There is communication between the
+EVSE and the EV to ensure the on-board charger does not draw more current than the EVSE can supply, and to
+safely protect the user and equipment. The current limit is dependent on the EVSE level and more importantly, its
+electrical supply. Level 1 chargers are typically inline chargers which are stored with the EV. Their compatibility
+with standard household electrical sockets limits the power they can deliver which consequently increases
+charging times. This portability, combined with their compatibility, allows their use as emergency chargers in
+situations where the EV battery has gone flat. In the US, level 1 supplies correspond to a single phase supply of
+12A at 110V. This allows a maximum power transfer to the EV of 1.4 kW. These chargers are slow and it can
+typically take 4-18 hours to fully charge an EV. In countries such as the UK and New Zealand, where the grid
+voltage is 230V single phase, this allows a higher charging power for the same current, which reduces charging
+times. Assuming people’s use of their EVs does not drain the battery too much on a daily basis, a level 1 EVSE
+can provide adequate charging overnight. Level 2 EVSE aims to improve the power output by using a dedicated
+‘box’ permanently mounted on a wall or other appropriate structure. The permanently mounted box allows for a
+dedicated electrical supply of sufficient capacity, enabling a significantly higher power output compared to level 1.
+In the US, the electrical supply to the EVSE is often spilt phase. This increases the voltage supplied to the EV to
+240V, which significantly increases the power without drawing more current. Level 2 EVSE can provide between
+4 and 20 kW depending on the local supply. This can reduce charging times of an EV to 1-12 hours. Both homes
+and dedicated charging facilities (private or public) are common locations for level 2 EVSE.
+Example of level 2 EVSE
+
+6
+
+Level 1 and level 2 EVSE with either the J1772 or type 2 connector contain signaling electronics to improve user
+safety and protect the infrastructure. One of the key safety features with the signaling electronics is the prevention
+of voltage being present at the connector terminals while it is not correctly mated to the EV. This helps protect the
+user, by ensuring if they were to touch the connector pins, they would not receive an electric shock. While the
+connector is connected, the vehicle is also immobilized to prevent driving while charging. The EVSE also
+monitors the potential ground to ensure there is no earth leakage, further reducing electric shock risk.
+Communications between the EVSE and EV are not bidirectional and are completed using a modulated 1 kHz
+square wave. The EVSE generates the square wave, and its duty cycle indicates to the EV the maximum
+
+7
+
+available current. The square wave nominally oscillates between -12V and +12V, however, this voltage can also
+be altered to indicate various states. These states are: not connected; EV connected; EV charge; EV charge
+ventilation required; and error.
+
+DC Rapid Charging
+Level 3 is the highest power level for EV charging systems. DC charging, fast charging or rapid charging are other
+common names used to refer to level 3 EVSE. Due to their large power requirements and significant capital cost,
+level 3 systems are found only at dedicated charging facilities. The two major competing standards for level 3
+charging are the SAE combined charging system (CCS) and the Japanese CHAdeMO standard. The third
+standard is Tesla Motors’ own Supercharger, which is only compatible with their vehicles. The Tesla
+Supercharger is currently the world’s fastest EV charger with 120kW installations found around the world.
+Charging of Tesla vehicles using CHAdeMO infrastructure is also possible with the addition of an adapter
+produced by Tesla Motors. Unlike levels 1 and 2 EVSE, DC electricity is supplied to the EV, bypassing the onboard charger. The charger is located off board and is the charging station. In the simplest terms, a level 3 EVSE
+is a controllable DC power supply. As with levels 1 and 2 systems, the BMS monitors the battery to ensure it
+stays within the safe operating parameter.
+
+8
+
+

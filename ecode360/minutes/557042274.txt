@@ -1,0 +1,472 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, July 26, 2020 – via Zoom.us
+Members Attending:
+Lindsay Audin
+Joel Gingold
+Len Simon
+Brian Pugh
+
+Absent:
+David Goldman (on leave)
+Jon Katz (on vacation)
+Niall Kelleher (unavailable)
+John Habib (sudden family issue)
+
+Non-members wishing to attend are asked to RSVP to energywiz@aol.com to verify meeting date,
+time, and location, which may be adjusted to meet committee member requests. [Bracketed] text
+relates to actions subsequent to this meeting.
+-------------------------------------------------------------------------Scheduled guests: none
+Quick updates/holdovers/follow-ups/status:
+- Food scrap recycling: Nothing new to report on our pilot program. It still needs a project manager.
+- EV/EVSE: On July 6, Rochelle O’Mara (school district transportation manager) responded to our
+offer to help develop a list of ways that the bus depot needs to be upgraded to manage EV school
+buses:
+“We are continuing our research into the electric buses. Myself and our mechanics went to White
+Plains to see their buses and talk to the mechanics on 6/16. We are meeting with the Blue Bird
+[preferred bus manufacturer] team next week at their location on Long Island to check out the
+electric buses Bay Shore/Suffolk Transportation is using. So we are on our way. Thank you for
+your expertise and support. The consensus in White Plains is the same as what we feel. Diesel
+and gas are still the way to go but the electric buses do hold promise for the future [emphasis
+added]. I will keep you posted. Thanks for thinking of us.”
+
+On July 16, the PSC issued an order that pushes utilities to provide more support for charger
+installations. Additionally, the New York State Dept. of Environmental Conservation (DEC) is
+allocating $48.8 million from the Volkswagen diesel emissions scandal settlement to transit bus and
+school bus operators and EV charging station owners. It’s presently unclear if that includes only
+vehicles, or if site and electric service alterations to allow chargers would also be supported.
+- Solar projects: We now have three in process:
+- Work on the DPW rooftop job is essentially complete. Testing is underway. As of last Friday, its
+capacity is about 70% subscribed. Power deliveries should start in Oct. – Nov. Several groups
+(C100, C4C, Indivisible, Village eblast) assisted with marketing via mass emails. Ecogy offered
+interested out-of-towners (mostly from Ossining) the option to instead sign up for Ecogy’s Arcadia
+Farm site (https://ecogyenergy.com/arcadiacommunitysolar) in Yorktown. It’s a tad smaller than
+DPW (~250 kW) and should be completed during September.
+- On the Croton Landing canopy job, issues are still being ironed out with paperwork needed to
+submit to Con Ed for assessing interconnection issues and cost. A design change is being made to
+accommodate boats on trailers. With regard to relocating 4 trees, CAC members Janet Monaghan
+and Guy Pardee OKed the relocations on July 6. Guy got a price to relocate and maintain the trees
+1
+
+for 3 years, which was sent to Ecogy to work into its rent offering. If no other issues arise, earliest
+we might see power from it might be next spring.
+- On June 29, the RFI for the train station parking lot solar canopy job was distributed to 168
+NYSERDA-listed solar contractors, eliciting 24 responses. In the draft RFP, parking lot sections
+that would receive canopies were adjusted slightly at the request of the Fire Dept. The RFP was
+emailed July 24 for arrival Monday, July 27. Deadline for proposals is Sept. 11. A pre-bid meeting
+in the basement community room in the municipal building (with social distancing) is scheduled for
+noon August 6.
+The committee discussed promoting the train station project’s power output and ~10% discount to
+local small businesses to assist their recovery from COVID. Doing so would keep the power in
+Croton (thus cutting our community’s carbon footprint) and help those businesses. It would also
+expedite the vendor’s task in fully subscribing the project. To instead do so only for residences
+could require over 500 to subscribe. Subsequent to the meeting, John Habib was again asked to
+provide his list from the Croton Business Council (CBC).
+- NYPA’s 100% renewable power offering: The following was received July 7 from Jessica Waldorf,
+director for that program.
+“NYPA’s Blended Power Products are live and available for customers to reach out to us for a rate proposal
+on the various products available. Those include both fixed and variable rate and corresponding levels of
+green power supply (standard, majority (51%) green, and 100% green) [emphasis added]. The final
+marketing materials should be released by our Marketing department within the next couple of weeks and
+include a fact sheet and FAQ document.”
+
+Bottom line: sit tight, documents and forms are on their way.
+Recruitment/Outreach:
+- Nothing additional to report with regard to the school district, library, or other groups.
+Communications:
+Re: FOIL request on power consumption at the Metro-North train yard. NYPA claims it has no
+documents and - if it did - was not required to give us any, according to a court decision from years
+ago. A similar request was made on July 15 to the MTA’s Sustainability Director (Kerry-Jane King),
+but no response has been received yet. The point of this effort is to more accurately determine our
+community GHG inventory, instead of relying on the generic economically-based emission factors
+used in the 2012 inventory for Hudson Valley towns developed by a consultant for NYSERDA.
+Climate Smart Community (CSC): On July 13, Lindsay spoke with Hastings village trustee Mary
+Lambert who sits on its Climate Smart Community committee. We discussed how it handled the
+work load to attain bronze CSC certification in April, a variety of tech issues, and its plans to secure
+silver certification. Bottom line: they got a lot of the work done by a now-departed college intern.
+On July 24, Lindsay spoke at the Bike-Ped Committee’s Zoom meeting to ask that group to seek a
+VB resolution on a Complete Streets policy. Much of that committee’s work already fits such a
+policy; no new projects or expenses would be needed. Such a resolution would help secure 4 more
+2
+
+CSC points, while guiding future transportation policy toward safer and more accessible
+transportation in the village. Its chair (Matt Schuerman) agreed to follow up on that option.
+Ongoing/new business:
+- Joel reported on a webinar covering assistance from universities to state/provincial and local
+governments on climate change issues. Those efforts are focused on nearby large cities and the
+states/provinces in which they are located. Resilience, sea level rise, and building improvements
+are among major issues. Joel concluded that none of that work is presently relevant to our
+efforts, as little has been done with small municipalities. His summary is attached at the end of
+these minutes. He also briefly discussed activities he observed in other local climate-related
+groups.
+- Len reported on his compilation of 5 local foundations that financially supported Bedford 2020 in the
+$1,000s to $10,000s last year. Depending on how COVID impacts State grants to be announced in
+the fall, we may need to start focusing on such funding sources to support our future work. He
+pointed out how most (if not all) of those supporters reside in or near Bedford, and tend to give
+grants to educational institutions instead of directly to municipalities.
+He felt that 3 of the 5 (Kohlberg, Durst, Endeavor) were possibilities. All (except Durst) appear to
+be closely held family foundations with little available public data. Nevertheless, he was able to
+piece together enough info from a variety of sources to assess which might be worth further
+exploration. His report is attached at the end of these minutes. The committee developed an idea
+for seeking a grant that might go to Pace University to develop internships to help local
+communities (e.g., Croton) with their climate actions. Lindsay will flesh that out for future
+discussion. Len will also follow-up with his investigation of funding sources of 5 national climate
+action organizations for a report at or Sept. 27 meeting.
+- HeatSmart results: On July 9, Lauren Brois (formerly with EnergizeNY, now with SW) shared
+results from the two local 8-month campaigns that ran in 2019: Hastings-Dobbs Ferry and BedfordLewisboro-Pound Ridge. While better in the latter (where NYSEG power is cheaper and there is
+little or no gas service), those numbers were still disappointing. Out of 300 enrollees, a total of 16
+GSHP and 3 ASHP installations occurred. Hastings and Dobbs Ferry (which are more like Croton)
+are in Con Ed where power is more expensive and gas service is common. Enrollment in those two
+towns was comparable (254) but only 4 GSHP and 2 ASHP installations occurred. By comparison,
+our oil-to-gas conversion program had about 180 enrollees, and saw over 30 homes converted.
+[Subsequently, Lauren told Lindsay that HeatSmart had done poorly throughout the State.]
+Bottom line: A great deal of work and time was expended on the HeatSmart programs, with little to
+show for it. To produce more conversions, heat pump economics need to significantly improve.
+To that end, Con Ed recently (in June) almost doubled* the GSHP incentive to $2,850 per 10,000
+Btuh (i.e., $3,420 a ton). That – plus the 26% federal tax credit (to the end of 2021) – could bring
+the net installed cost closer to that of an oil-to-gas conversion. Annual $ savings (Con Ed electric
+vs. 2019 oil) would still be less. Installations remain limited, however, to homes having existing
+ducted heating and cooling distribution and (in Croton) away from our aquifer.
+* https://www.coned.com/en/our-energy-future/natural-gas-efficiency-and-alternatives/electricheating-and-cooling-equipment/save-thousands-on-a-geothermal-system
+3
+
+A more realistic opportunity may instead stem from Con Ed’s recent hike in its incentive for DHW
+heat pumps, which is now up to $1,000. Together with the (up to) $300 federal tax credit, that could
+cover almost all of the equipment cost. We briefly discussed a “DHW conversion” program like our
+oil-to-gas effort, e.g., convert XX units at one time to get an installation cost break from a local
+contractor. Lindsay subsequently invited SW to discuss with us a DHW heat pump program (no
+GSHP or ASHP) at our Sept. 27 meeting.
+- Community Gardens update: while unable to attend, Niall provided the following report.
+“Both gardens achieved full capacity last week. The gardeners are looking forward to breaking new
+ground in Gouveia Park and would like to know when the village will be available to allow this to
+happen. There is already a pond and stream on the property so we do not anticipate water being
+an issue. Our only need would be a fence to keep deer at bay. The current gardener fees have
+almost paid for the Municipal Garden fence (approximately 2 years left to finish). We could use the
+same strategy to fund the new fence in Gouveia Park.”
+- Stretch Code update: Prior to the meeting, Brian Pugh got a response regarding possible tax
+assessments on energy-related home improvements. Bottom line: additions of them to an existing
+or new home would not trigger extra assessments. That analysis included extra insulation, better
+windows, any form of solar, heat pump, EV charger, or improvements to make a home ready for
+them. There would thus be no financial incentive that could be offered to encourage their
+installation under a stretch code.
+Date for our next meeting: Sept. 27, to allow for our usual summer recess. Lauren Brois of SW
+has been invited to speak on a possible mini-HeatSmart program for Croton that would involve
+replacing only existing electric resistance DHW heaters with heat pump hot water heaters.
+
+4
+
+SUMMARY OF SECOND NATURE WEBINAR ON
+ENGAGING IN CROSS-SECTOR CLIMATE ACTION WITH LOCAL
+AND STATE/PROVINCIAL GOVERNMENT OFFICIALS
+Joel E. Gingold
+On July 15, 2020 I attended the subject webinar. The panelists included:
+Alex Maxwell – Second Nature – Moderator
+Dennis Carlberg – Boston University (BU)
+John Madden – University of British Columbia – Vancouver, Canada (UBC)
+Marjorie Kaplan – Rutgers University – New Brunswick (RU)
+Peter Stiling – University of South Florida – Tampa (USF)
+Summary and Conclusions
+Each of the panelists reviewed the projects in which their respective universities are participating with
+various state and municipal organizations and coalitions. The bottom line for the Sustainability
+Committee is that these efforts are focused on much larger groups in their local area or state/province
+and there is little being done with small municipalities such as Croton, except as they may be part of
+a larger coalition. An earlier exploration of possible services offered by SUNY, New York’s member
+of the university coalition centered at Stony Brook, did not yield anything of value to the committee.
+In response to a specific question regarding interactions with small municipalities, the responses were
+rather vague and unspecific. The only possible benefit to the committee might be from some of the
+on-line tools developed by UBC, although these appear to be largely educational.
+Boston University
+BU, in combination with several other local universities (Harvard, MIT, Northeastern, Tufts, et al – quite
+a powerful group) is partnering with the City of Boston and representatives of the private sector,
+particularly real estate interests, in the Green Ribbon Commission to implement Boston’s Climate
+Action Plan. Efforts focus on bringing GHG emissions to net zero by 2050, resilience to sea level rise
+and other climate change hazards, improving building energy efficiency (40% of GHG emissions)
+including an Energy Star rating for buildings, social equity, etc.
+The Commission has held meetings and seminars, etc. on various relevant topics, created a Climate
+Action Exchange to disseminate information, as well as working directly on climate remediation
+projects. The Commission receives funding from a variety of private foundations in the Boston area.
+University of British Columbia
+UBC’s campus contains 500+ buildings and, including students, faculty, support staff, and others living
+there is, in effect a city of about 80,000. The campus is considered a living laboratory for climate
+related projects. UBS has executed a MOU with Metro Vancouver, which includes the city and
+surrounding municipalities. One major effort is the government-funded Coastal Adaption Project
+addressing climate impacts on the seacoast and rivers in the Vancouver area. There is also an
+emphasis on improving building energy efficiency and creating affordable housing.
+5
+
+UBC has established the Sustainability Scholars Program under which graduate students in various
+disciplines work on specific climate related projects with municipalities, etc. in the area. Funding for
+various initiatives is provided by the federal, provincial, and city governments.
+Rutgers University
+RU is an active member of the New Jersey Climate Change Alliance, which also includes members
+from the private sector, NGOs, and various governmental agencies. The group fosters analysis and
+research and provides outreach through conferences, workshops, and reports on various climate
+related issues. A major focus is on the impact of sea level rise and increased storm intensity on the
+New Jersey coast. Another guiding document is the State Coastal Management Plan.
+When working in specific areas, the Alliance members establish a Practitioners Panel of local
+representatives from the “real world” to provide local guidance and commentary on its work. The
+focus is heavily on statewide projects and municipalities are generally only involved as members of
+a larger group in the area under study.
+University of South Florida
+The State of Florida is way behind other states in addressing climate issues. At one point recently the
+term, “climate change” was banned from all official documents, web sites and the like. Local utilities
+have resisted the installation of solar energy facilities (although the Solar Energy Industries Assoc.
+lists Florida as the No 4 state in solar capacity). Thus, the focus of the USF work is in resilience. Low
+lying areas of the state (which is most of it) are experiencing intrusion of saltwater into drinking water
+supplies, frequent flooding, spread of disease, disruption of transportation, and problems with
+evacuation in the face of hurricanes.
+
+6
+
+Review of Foundation Funding Sources for Sustainability Committee Projects: PART II
+Funding
+Source
+
+Climate Change/
+Energy Efficiency Awards/ Focus
+
+Municipal
+Eligibility/
+Size Factors
+
+The Kohlberg
+Foundation
+
+The Foundation works within
+three major categories: health
+and medical research,
+education and the
+environment. The Foundation
+is headquartered in Mt. Kisco.
+
+Grants are
+only given
+to
+organizati
+ons with
+501(c)(3)
+status.
+
+Matchin
+g
+Share
+
+Grant
+Amounts
+
+Grant
+Durati
+on
+
+Grant
+Calendar
+
+In latest annual report
+available (2018) The
+Foundation includes
+these grants:
+
+The Foundation does
+not accept
+unsolicited proposals
+but will respond to a
+letter of inquiry. We
+could inquire
+regarding public
+sector grant
+eligibility.
+
+$2,000 to Bedford 2020 for
+local environmental
+projects and education;
+$20,000 in General
+Operating Support to
+Teatown Lake
+Reservation
+
+Notes
+
+---
+
+---
+
+--Unlike many other
+foundations, they
+fund general
+operating support.
+
+$10,000 to the
+Environmental Defense
+fund for their Climate
+Corps program for MBA
+candidates
+$1,000 to Westchester Land
+Trust for operating
+support
+
+The Durst
+Organization
+
+"The Durst Organization has been
+a recognized leader and
+innovator in the field of
+sustainable building.
+As leaders in environmentally
+responsible development, the
+Durst family has a natural
+affinity for community groups
+working to make the City's
+
+
+
+In sustainability they are
+currently contributing to :
+New York League of
+Conservation Voters,
+National Audubon Society,
+Trust for Public Land and the
+The Lower East Side Ecology
+Center
+
+7
+
+"Whatever the nature
+of your inquiry, we
+welcome the
+opportunity to
+respond".
+Contributions come
+from the company,
+not the Family
+Foundation which
+
+neighborhoods greener and
+more livable.
+Funding
+Source
+
+Climate Change/
+Energy Efficiency Awards/ Focus
+
+The Christian
+A. Johnson
+Endeavor
+Foundation
+
+Giving concentrated on private
+institutions of higher learning
+at the baccalaureate level in
+the U.S. and Europe and
+performing arts organizations
+in NYC - occasional support for
+perceived needs in other areas
+of education and the arts
+(likely source for Bedford
+funding)
+
+---
+
+Small foundation ($2.3 million in
+assets in 2018) - no indication of
+climate change, energy
+conservation or sustainability
+activity. Grants are focused in the
+performing arts area.
+
+---
+
+Howard and
+Sarah D.
+Solomon
+Foundation
+
+Ralph and
+Ricky Lauren
+Family
+Foundation
+
+No evidence of activity in climate
+change, energy conservation or
+sustainability. Recent contributions to
+organizations like: Park Avenue
+Synagogue, Statue of Liberty Ellis
+Island Foundation, Dalton School,
+Clinton Foundation and NY Stem
+Cell Foundation.
+
+Municipal
+Eligibility/
+Size Factors
+
+Matchin
+g
+Share
+
+Grant
+Amounts
+
+Grant
+Durati
+on
+
+Grant
+Calendar
+
+Example of recent giving:
+The Environmental
+Changemaker Fellowship
+Program, Bennington
+College $290,000
+The Yale Program on
+Climate Change
+Communication
+Grant to the Bedford 2020
+Coalition was for $16,000
+in 2017.
+
+does not appear to
+be involved in
+sustainability grants.
+Notes
+
+We can contact to
+discuss Committee
+work and determine
+if a partnership with
+college is flexible.
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+The Solomon’s reside in
+Bedford Hills.
+
+---
+
+In addition to Bedford 2020
+grant, Foundation has
+made numerous grants to
+other Bedford-basedorganizations
+Mr. Lauren resides in
+Bedford.
+
+8
+
+

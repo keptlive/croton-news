@@ -1,0 +1,212 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:00 AM Sunday, Jan. 18, 2026 – via zoom
+Members Attending:
+Edwin Adkins
+Lindsay Audin (chair, CSC Coord.)
+Ashley Clemente
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+
+Absent:
+
+Niall Kelleher (community gardens)
+Brian Pugh (Croton Mayor)
+Carly Shanks
+Len Simon (Village Trustee)
+Cheryl Wong (food scrap program)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Attending guest(s): none.
+Announcements: none
+- EV/EVSE/RD
+EV charger project at the train station: The contractor (PISO) has applied for the
+system’s new electric service. A pole-mounted transformer (100-300 kVA) will be needed
+to handle the 18 charge ports, with sufficient capacity for future faster chargers (i.e.,
+having greater kW load). Weather permitting, excavation is slated to start in early March.
+Renewable Diesel (RD): Len reported that the 3-month pilot test was successfully
+completed this month. RD will now fuel our 18 diesel vehicles, cutting the Village’s
+municipal carbon footprint by ~12.5%. He said DPW Supt. Frank Balbi was “upbeat” on
+the results and that attendees at a recent meeting of municipal officials in the County
+were eager to learn more about Croton’s RD experience. A Village press release on the
+change will be issued later this month.
+- Solar Projects/Issues
+Train station canopies: Third-party commissioning is now slated to start 2/16/26 with
+power startup by early or mid-March. On New Year’s Day evening, the lights below all the
+canopies failed due to a breaker trip, the cause of which is unknown. By the next
+afternoon, the breaker was reset and all lights appear to be working properly. Sale of the
+project (both PV and BESS) to Altus Power is in progress. It will have no effect on the rent
+or leasing contract presently in place.
+DPW solar canopy: Two new bids were received by the 12/8/25 deadline. Rivertowns’ bid
+was preferable, but more paperwork from it is needed before the project is awarded.
+- Heat Pumps / Electrification
+
+1
+
+On 12/16/25, NY State announced a new energy plan postponing (beyond 2040) the
+2019 CLCPA goals of ending fossil-fueled power by 2040 and cutting GHG emissions by
+40% by 2030 (relative to 1990). The new plan https://energyplan.ny.gov/Plans/2025Energy-Plan called for more renewables, 1 GW of new nuclear capacity, and “additional
+zero-emission sources”. On 1/13/26, Gov. Hochul upped the new nuclear capacity goal to
+5 GW (all upstate, but no timeline). NY presently has 3.3 GW of nuclear capacity.
+- Other Programs
+Food Scrap Recycling: the two extra toters and other materials Frank Balbi ordered last
+month to expand the program are expected next week. Cheryl drafted announcements to
+be issued shortly thereafter regarding the expansion. They will be emailed to all
+participants and will appear in the Village’s two newsletters and Facebook page.
+- Funding and Budgeting Issues
+BESS 2.0: At our 12/7/25 meeting, we reviewed the half-sized Luminace proposal at the
+Municipal Place facility. Unfortunately, Luminace’s development director indicated that his
+firm is now instead focusing on acquiring existing BESS projects rather than developing
+them on its own. Issuing a RFP to other BESS developers, based on the present design,
+is now under discussion. (Thank you again to Carly for her help creating a bidder list).
+To maximize BESS size, the salt shed may be relocated so its space could temporarily
+hold seasonal yard waste now stored at the Muni Place facility. Doing so would open
+more area at Muni Place for the originally proposed 5 MW BESS. The salt shed site can’t
+be used for a BESS because it’s not near a power line with hosting capacity. Len agreed
+to accelerate that discussion with Village officials before our next meeting.
+Expeditious pursuit of another BESS lease in Croton is imperative: last March, the
+commercial BESS incentive dropped from $175 per stored kWh to $125. A lower
+incentive results in lower lease rent. Funding for the incentive is rather limited and on a
+first-come, first-served basis.
+Lindsay attended two BESS events held last week by New Yorkers for Clean Power to
+promote community support for batteries. The main presenter was Jeff Seidman, Vassar
+College Assoc. Prof. of Env. Studies. The main takeaway was the minimal experience
+and knowledge many communities have of their BESS options. Over 1 GW of BESS (42
+– 420 MW each) has already been proposed in the downstate region.
+A recent NY PSC proceeding on energy-related program funding indicated that the Clean
+Energy Community (CEC) program that gave us >$700K in NYSERDA grants will be
+restored this year (it was suspended in Nov. 2024). It would instead be funded via the
+RGGI* during a 4-year transition as CEC merges with DEC’s Climate Smart Community
+(CSC) program. We await details on how and when CEC will be revived.
+*RGGI = the Regional Greenhouse Gas Initiative, essentially a carbon tax paid via utility bills in 11 northeast and midAtlantic states that include New York. It uses market-based auctions for emission “allowances” that fund energy
+projects focused on cutting power plant GHG and developing climate and health initiatives. Find details at
+https://www.rggi.org/sites/default/files/Uploads/Fact%20Sheets/RGGI_Intro_Factsheet.pdf
+
+2
+
+- Recruitment/Outreach/Communications/PR
+On 12/6/25, as per the annual requirement for all Village committees, Lindsay sent to
+Bryan Healy a 1-page summary report on our committee’s activities in calendar 2025,
+attached at the end of these minutes.
+CAC’s next Repair Café is set for this Saturday, Feb. 28, 11 AM at the Croton Library.
+Dave agreed to take a few pictures for future use to support our CSC status.
+- New Business / Other Issues
+On 12/15/25, Sustainable Westchester (SW) announced it will (in 2026) announce an
+“Opt-In Clean Energy” program to replace the now defunct opt-out Community Choice
+Aggregation (CCA). The new effort will act as a voluntary group purchase of renewable
+power from an ESCo, without need for PSC approval or oversight. We await details.
+Len summarized the success of the first phase of the e-bike sharing program, scheduled
+to re-start this April with two more bike hubs (Senasqua Park and near the Riverside Ave.
+pedestrian overpass). Find his informative memo at the end of these minutes.
+Jon updated us on a NY DEC regulatory change (effective 1/1/26) to the acceptable types
+of refrigerant for new HVAC systems (including HPWH). But new residential and small
+commercial systems (up to 50 lbs of refrigerant) were given a variance until 1/1/27 due to
+delays in rollout of new equipment having acceptable refrigerants (e.g., R32, R454B). For
+HPWH, the variance only applies to 4 manufacturers. He noted that use of CO2 in HPWH
+is under development but is not presently an option. To allow existing A/C systems to
+continue operation, 75% of their replaced refrigerants must be from re-claimed sources.
+Our next zoom meeting was set for Sunday, Feb. 22, 2026 at 10:00 AM.
+
+3
+
+Phase 1 of Project MOVER in Croton-on- Hudson: July 9th – December 19th, 2025
+Total Trips
+Croton hubs were involved in 1,374 trips: 1,281 were entirely within the Village and 93 trips
+were between other municipalities (85 with the Village of Ossining, 2 with Tarrytown, and 2 with
+Town of Ossining).
+
+Rides by Croton Hub
+Metro North
+
+505
+
+Upper Village
+
+213
+
+Croton Free Library
+
+167
+
+South Riverside
+
+218
+
+Maple Commons
+
+151
+
+Dobbs Park
+
+86
+
+TOTAL
+
+1340
+
+Top Hubs in the Project MOVER Region
+Beekman Sleepy Hollow
+
+671
+
+Tarrytown Pierson Park
+
+669
+
+Tarrytown Metro North
+
+586
+
+Sykes Park Sleepy Hollow
+
+531
+
+Croton Metro North
+
+505
+
+The program will re-start in early April. It will be expanded to include two new bike hubs:
+Senasqua Park and near the Riverside Ave. Rt. 9 overpass. Other sites are also being
+considered. Sleepy Hollow is experimenting with winter operation.
+E- bike vouchers ($1,000 each toward purchase of an e-bike) are now available to families
+earning <$140K/yr.
+Consideration is being given to post-NYSERDA operations and funding when the present grant
+runs out in April 2027.
+
+4
+
+Accomplishments & activities of the Sustainability Committee during 2025
+- promoted use of Renewable Diesel in all municipal diesel trucks
+- developed and sought a contract for a ~60 kW DPW solar canopy
+- secured contractor for installation of EV chargers at the train station
+- enlisted and welcomed new committee members
+- extended terms for NY DEC and NYSERDA grant contracts
+- hosted Committee table and exhibit at Earth Day
+- initiated a textile recycling booth at Earth Day
+- continued oversight and operation of the food scrap program and community gardens
+- supported and monitored another residential Solarize campaign
+- researched options for new revenue: community solar for street lighting accounts, demand
+response payments for new EV charger installation, leasing rent for new battery installation,
+federal DirectPay incentive for solar installations
+- held walking tour of train station canopies for Yonkers Groundwork Hudson Valley group
+- held 9 zoom meetings of the Committee that addressed those and other issues
+- secured/pursued various media coverage of our activities (e.g., Journal News 1/12/25 feature)
+Recommendations to the Village Board (via communications with the Village Manager)
+- fund and expand the food scrap program to include a new scrap shed and equipment
+- sign EV charger installation contract
+- pursue installation of ~60 kW DPW solar canopy funded by NYSERDA grant
+Areas of collaboration with other committees
+- Earth Day participation via the CAC
+- promoted and photographed CAC’s Repair Café
+Goals and priorities for the upcoming year
+- purchase and install 18 more EV charge ports at the train station parking lot
+- award contract for and install a ~60 kW solar canopy at the DPW parking lot
+- expand use of Renewable Diesel to all Village diesel trucks
+- expand food scrap recycling program participation
+- develop Battery Energy Storage System (BESS) at or near the Municipal Place facility
+- near year’s end, replace six old Harmon firehouse rooftop A/C units with heat pumps
+Budget requests
+- $6K appropriation for food scrap program expansion
+- grant-funded Municipal Solar contract for assistance with DPW solar canopy development
+
+5
+
+

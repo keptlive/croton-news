@@ -1,0 +1,161 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Feb 26, 2023 – via zoom
+Members Attending:
+Lindsay Audin
+Ashley Clemente
+Brian Pugh
+Joel Gingold
+Len Simon
+David Goldman
+Bernie Yozwiak
+
+Absent:
+Niall Kelleher (in Ireland until March)
+Dan Columbini
+Jon Katz
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): Keiko Niccolini, registrar for pilot food scrap recycling program
+Announcements: none
+The agenda order for this meeting was adjusted to allow our guest to speak first.
+- Food Scrap Recycling Program
+We’ve had 7 drop-off days, all successful
+(17 more to go). Issues with County truck
+pickups have been resolved. The program
+is now essentially running on “auto-pilot”.
+The February Village newsletter had an
+article and photo about it. The last 3 dropoffs averaged about 350 pounds per week.
+See Dan’s tracking chart at right.
+Keiko summarized the results of a short poll of participants taken last week. Of the 38
+program participants, 22 responded. All were “very positive” about the program. A few
+suggestions were made e.g., expanding operating hours. The compostable bags are
+being consumed faster than projected. Keiko agreed to find a local vendor to supply
+them to participants. Lindsay will ask DPW to order 3 more cases. A Saturday 10:30
+AM photo op of people dropping off their scraps is being organized [tentatively March
+25]. Dave agreed to take pics.
+Extending the program after June was discussed by moving the shed to the south end
+of the train station parking lot. Lindsay estimated that an ongoing program involving up
+to 100 residents would cost between $7K and $10K, mostly to cover site manager
+wages and County carting charges. Len noted that any proposed budgeting needs to
+be in Bryan Healy’s hands by April. Lindsay agreed to formalize those costs for Bryan.
+They can’t be recouped from lower trash carting charges which are based on
+assumed volumes per truckload, even if a truck is not full.
+Brian Pugh asked about GHG reduction from composting. Relative to incineration,
+Lindsay indicated that there was little or none. EPA counts the carbon from food
+scraps as “biogenic”, i.e., it’s recycled back into new food, as long it’s not landfilled
+
+1
+
+(Croton hasn’t landfilled for 37 years). Keiko responded that the main benefits instead
+focus on soil regeneration. Anecdotal comments from program participants also noted
+how the process has educated them and their children on recycling.
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC-sponsored projects
+Washington firehouse solar rooftop: CEG drone photos were sent (2/3) to committee
+members. Punch list issues are now being addressed. On 2/14, Con Ed approved
+interconnection with its grid. On 3/11 (a Saturday) at 10 AM, a ribbon-cutting for the
+project will be held. Committee members are invited. Dave agreed to take pics. Len
+agreed to bring cookies. The firehouse is at 81 North Riverside Ave., at the corner with
+High Street. Park on the street, NOT in the firehouse’s driveway.
+Once paperwork issues are done, we will (with NYSERDA approval) transfer the $20K
+left over from the project toward purchase of another municipal EV, perhaps the Ford
+F-150 Lightning electric truck desired by the DPW (MSRP = ~$55K).
+Firehouse heat pump controls: While all parts are now in hand, on 2/15 Carey &
+Walsh emailed: “I went over this again with my service department this morning. They
+are having trouble getting the install into the schedule because they are down 2 men
+unexpectedly and for personal reasons. This deficiency in manpower is temporary and
+they are actively trying to make room in the schedule for this but emergency service
+calls keep popping up. I apologize for this delay and will get back to you as soon as
+possible with a concrete [installation] date”. Once the job is done, Bernie offered to
+assist Jon with commissioning the controls.
+- Other Solar Projects/Issues
+Train station canopies: Drilling for footings continues at the south end of the parking
+lot. To maximize rent to be collected from SolSystems, the Village is negotiating taking
+over the cost and installation (by DPW) of the underground part of the storm water
+management system (SWMS) for handling runoff from the canopies.
+New solar options: On 1/30, the Village manager and attorney reviewed the
+“Community Solar 3.0” deal offered by Ecogy, to be powered by its Kitchawan Farms
+facility in Ossining, scheduled for startup this fall. The attorney OKed a process that
+would not involve a customer acquisition fee-for-service arrangement. Instead, Ecogy
+will offer a voluntary donation after our recruitment efforts are finished (probably in late
+summer). Lindsay will draft program details for committee review.
+Comm. Solar 2.0 (CS2) status: Ecogy said (2/21) that its customer acquisition
+contractor (PowerMarkets) had messed up connecting Croton’s 29 CS2 participants
+with Ecogy’s Yorktown project, and has been fired. Its new contractor will connect us
+
+2
+
+with its Kitchawan Farms project in late fall. Joel asked about switching his CS
+subscription to the train station project. Lindsay said that would be fine.
+IBM solar canopies: Bernie reported on the 5.4 MW system at IBM’s Watson
+Research Center in Yorktown. He showed us pictures provided by IBM’s engineer
+Arnie Vimba. In a 2/9 email, Vimba said that “We are about 50% thru steel and canopy
+erection. Once canopy is fully installed, we will make one more pass thru the parking
+lot to install the solar panels. The construction phase is a bit slow since this parking lot
+is used by site employees every day and we can only access 25% of the area at a
+time…The completion date is still fluid but it will occur in 1Q 2024.”
+- EV/EVSE
+We continue to wait for word from DEC on our ~$150K grant application to cover train
+station chargers, installation, electrical infrastructure, and 2 years of free charging. On
+2/7, DEC said: “We just finished scoring all the applications on Friday {2/3}. There is
+still a bit of work to do in order to get to the award announcement. Hopefully we can
+get it out in early spring.” {emphasis added} Our application was submitted 9/7/2022.
+A recent problem with one of the dual-port chargers at the Muni Bldg was remotely
+fixed by ChargePoint, thus avoiding another expensive repair. Getting this done,
+however, took several months of badgering its support staff.
+Bernie asked about getting EV chargers installed in the parking lot at Vassallo Park,
+next to the Holy Name of Mary Church. Lindsay said that would have to wait until we
+get the train station EV chargers done, hopefully before the end of this year.
+Bernie reviewed the status of Con Ed’s SmartCharge reward program for off-peak EV
+charging. It’s being replaced by a smartphone app program run by ev.energy.com that
+offers similar financial benefits. SmartCharge will shut down and send out its last
+reward checks by 3/31, after which the ev.energy program will take over.
+- Funding Sources/Issues
+Len said we need to wait for details (i.e., rules and forms) under the BIL and IRA
+programs regarding how municipalities may access their funding. He verified that
+Croton was eligible for “Community Benefits” and other programs. Hopefully, they will
+be available by late summer.
+He specifically noted that the USDOT Community Charging and Fuel Grants Program
+has posted its program overview and description of eligible applicants and projects.
+They say the Notice of Funding Opportunity (NOFO) is “coming soon”. Similarly, the
+EPA Greenhouse Gas Reduction Fund, for which Croton is also eligible, announced
+that its NOFO will be released “early this summer”. Len will keep an eye out for both
+NOFO’s.
+
+3
+
+Some programs offer more to “low income” households. Len said that was a
+household’s “adjusted gross income” (AGI, on the 1040 tax form) that meets a federal
+formula. For all Croton residents, that comes out to an AGI below $90,080 per year.
+Bernie reported on a SW webinar on programs offered by NYSERDA, Con Ed, and
+the IRA. As of 1/17/23, Con Ed again offers $1,000 for installing a HPWH. That’s on
+top of the federal $1,750 and on top of the 30% tax credit on the total cost (plus extra
+if new electric work is needed). Bottom line: a HPWH could replace an existing electric
+DHW heater at zero net cost. Making that case will help greatly toward finally getting
+our residential HPWH program off-the-ground.
+Bernie provided much more data on incentives via webinar slides to be sent to
+committee members, some based on the Rewire America calculator. Ashley chatted it
+to committee members as https://www.rewiringamerica.org/app/ira-calculator.
+Members discussed various items that need development or clarification. Ashley and
+Dave both raised the issue of maximizing HP incentives by removing existing heating
+systems, e.g., does that include the distribution hydronic piping or just the boiler?
+- Other Reports
+[Not discussed] On 2/13, Croton declared itself a Green Purchasing Community, as
+per rules for that State program. By following State specs for how it buys products and
+by filing a resolution thereof, Croton will secure 4 more CSC credits.
+- Recruitment/Outreach/Communications/PR
+Mark Karell, an energy consultant based in Mamaroneck, will be posting a one-page
+summary of our firehouse project in his monthly ccesworld.com newsletter to clients,
+activists, etc. Mark was a guest at our April 2017 meeting. Lindsay wrote the blurb.
+On 2/8, Lindsay was interviewed by the River Journal for a March article on solar
+installations in Westchester County. It may feature our DPW and firehouse systems.
+- New Business / Other Issues
+The status of the Grid Rewards program (for residential demand response) was
+discussed. Checks to several members ranged from $20 to $127 for last summer’s
+effort, with some confusion as to why they were less than the 2021 summer. Some
+disappointment was expressed regarding the lack of clarity on the payments, the
+response notification process, and the program in general.
+Date for our next meeting was set for Sunday, March. 26, at 10:30 AM via zoom
+
+4
+
+

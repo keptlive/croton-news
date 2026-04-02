@@ -1,0 +1,226 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//croton.news//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Croton — Town of Ossining
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Events from Town of Ossining
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+BEGIN:VEVENT
+UID:4b60ab2738cb@croton.news
+DTSTART;VALUE=DATE:20260401
+SUMMARY:Civil Cases and Summary Proceedings - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5f246ab50819@croton.news
+DTSTART;VALUE=DATE:20260401
+SUMMARY:Vehicle and Traffic Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:293f2cd68464@croton.news
+DTSTART;VALUE=DATE:20260407
+SUMMARY:Criminal Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:384656a426c2@croton.news
+DTSTART;VALUE=DATE:20260407
+SUMMARY:Town Board Work Session
+LOCATION:Town of Ossining\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4018834abb81@croton.news
+DTSTART;VALUE=DATE:20260408
+SUMMARY:Vehicle and Traffic Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f69e1642ff35@croton.news
+DTSTART;VALUE=DATE:20260408
+SUMMARY:Civil Cases and Summary Proceedings - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ebdc713df207@croton.news
+DTSTART;VALUE=DATE:20260413
+SUMMARY:Recreation Advisory Board Meeting
+LOCATION:Town of Ossining\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6fe7898fa040@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:Criminal Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:93264d3dd6c7@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:Town Board Meeting
+LOCATION:Town of Ossining\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:521cf38a3d40@croton.news
+DTSTART;VALUE=DATE:20260415
+SUMMARY:Planning Board Meeting
+LOCATION:Town of Ossining\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1f7efa70d933@croton.news
+DTSTART;VALUE=DATE:20260416
+SUMMARY:Civil Cases and Summary Proceedings - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f43bdec0de71@croton.news
+DTSTART;VALUE=DATE:20260416
+SUMMARY:Vehicle and Traffic Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:306086ed22e4@croton.news
+DTSTART;VALUE=DATE:20260419
+SUMMARY:Municipal Code Violations - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4302dca28d11@croton.news
+DTSTART;VALUE=DATE:20260420
+SUMMARY:Criminal Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:669f13e8f425@croton.news
+DTSTART;VALUE=DATE:20260420
+SUMMARY:Town Board Work Session
+LOCATION:Town of Ossining\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:dc6739baa976@croton.news
+DTSTART;VALUE=DATE:20260422
+SUMMARY:Vehicle and Traffic Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e7ae620fbb3a@croton.news
+DTSTART;VALUE=DATE:20260422
+SUMMARY:Civil Cases and Summary Proceedings - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7fa155ef4e7c@croton.news
+DTSTART;VALUE=DATE:20260427
+SUMMARY:Criminal Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:317972d21a3f@croton.news
+DTSTART;VALUE=DATE:20260427
+SUMMARY:Town Board Meeting
+LOCATION:Town of Ossining\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d45959f10038@croton.news
+DTSTART;VALUE=DATE:20260429
+SUMMARY:Civil Cases and Summary Proceedings - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a1b54bcf4a74@croton.news
+DTSTART;VALUE=DATE:20260429
+SUMMARY:Vehicle and Traffic Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2b058e7e4dbb@croton.news
+DTSTART;VALUE=DATE:20260503
+SUMMARY:Municipal Code Violations - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:129661d09049@croton.news
+DTSTART;VALUE=DATE:20260506
+SUMMARY:Vehicle and Traffic Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d82363a16cef@croton.news
+DTSTART;VALUE=DATE:20260506
+SUMMARY:Civil Cases and Summary Proceedings - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+END:VCALENDAR

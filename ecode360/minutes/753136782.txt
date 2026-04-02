@@ -1,0 +1,134 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:00 AM Sunday, Feb. 23, 2025 – via zoom
+Members Attending:
+Lindsay Audin (chair, CSC Coordinator)
+Ashley Clemente
+
+Absent:
+
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (community gardens)
+Brian Pugh (Croton Mayor)
+Len Simon (Village trustee)
+Cheryl Wong
+Carly Shanks (new member)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Attending guest(s): none
+Announcements: On 2/5/25, Mayor Pugh appointed Carly Shanks to our committee.
+Welcome Carly!
+- EV/EVSE
+On 1/29/25, Lindsay zoomed with NRG Energy officials on demand response (DR)
+options and revenues for the train station EV chargers. For an industrial client,
+Lindsay uses NRG’s DR services. NRG plans to gather muni accounts by utility
+territory to maximize municipal DR revenues. The Village’s existing accounts are
+enrolled with GridRewards. Its offering is limited to one DR program (there are others)
+and shares only 65% of the DR incentive. NRG is more aggressive and open to
+negotiating a higher % share.
+A draft RFP for installation of the train station chargers was sent to Village staff
+2/21/25 for review and editing. Dave asked about future options for upgrading to faster
+chargers. Lindsay said the underground power conduits (i.e., PVC pipes) were
+deliberately oversized to accommodate wiring for the highest power L2 chargers (i.e.,
+19.2 kW vs. our 7.2 kW). [Subsequent dialogue with ChargePoint, however, indicated
+that such an upgrade would also require replacing the pedestals and concretemounted bolts, involving some messy jack hammering and concrete repair. Not a deal
+killer, but extra cost and labor.]
+Len updated us on the e-bike program. Two non-Village sites have been nailed down:
+the Library and Maple Commons. The goal is to have a bike procurement contract
+with Ossining (holder of the e-bike State grant) sometime in March or April, with
+startup in June-July. Ossining’s pilot program ran successfully between Aug. and Dec.
+before shutting down for the winter.
+- Solar Projects/Issues
+
+1
+
+Train station canopies: Correction from prior meeting minutes: the batteries have
+not yet been charged. As of 2/7/25, there are plans to do so via a temporary diesel
+generator. The Permission to Operate (PTO) from Con Ed was slated for 2/26/25 but
+(as of a 3/6/25 zoom with Sol) startup now looks like April, due mainly to slow
+interconnection work by Con Ed.
+DPW solar parking canopy: A draft RFP was sent to Village staff for review 2/21/25.
+SW Municipal Solar program: Designed to help munis with managing their solar
+projects, on 2/14/25 SW’s Leo Wiegman sent a draft MOU to assist with the DPW
+canopy project to Mayor Pugh and Lindsay for their review. Cost for this service (likely
+under $10K) would be covered from our existing NYSERDA grant for that project. The
+MOU is being converted to a project management service contract.
+SW new Solarize program: Carly reported on SW’s fledgling Solarize program. She
+discussed issues with how SW is qualifying the 2-3 vendors it will suggest, and the
+pricing formula that will be used. She is following up with SW’s Leo Wiegman on those
+items.
+- Heat Pumps
+Washington firehouse garage HPs: A draft RFP for installation of the heat pumps
+and electric boiler was sent to Village staff 2/21/25 for review and editing. Jon
+reviewed several issues related to the project. Because of the 1/1/25 change in
+allowable refrigerants, new products using them may not be available for several
+months. This issue will be added to the draft RFP re: proposed vendor pricing. Due to
+problems getting a local electrical contractor to review the firehouse’s existing electric
+service, Jon will ask an electrical engineer at OLA (his employer) to do so.
+DPW HPs: The option to replace #2 fuel oil with Renewable Diesel (RD) put the this
+project on hold, pending Village consideration of switching to RD. Doing so could cut
+GHG more affordably than replacing DPW A/Cs with heat pumps. See below for more
+on the RD option.
+Residential HPs: NY State has yet to roll out its Home Electrification and Appliance
+Rebates (HEAR) program for middle income homeowners. However, at least some of
+its funding is via the federal IRA. Efforts are being made to claw it back. Until that
+issue is resolved (hopefully by end of May), we can’t move further ahead on our longdelayed program to replace residential electric DHW heaters with HPWH. [SW was
+asked for guidance on this 3/5/25. We await a response.]
+- Funding and Budgeting Issues
+Len and Lindsay have been monitoring possible $ losses $ if IRA funding gets cut. At
+this time, only tax credits (not our grants) are at issue. While cutting the credits would
+require congressional action, such efforts are underway. We were expecting ~$100K
+in credits from two in-process solar projects. That money would minimize costs (not
+otherwise covered by grants) for Harmon firehouse heat pumps. This issue should be
+resolved by end of May with the passing of the annual federal budget.
+2
+
+[On 3/7/25, Village Treasurer Dan Tucker reported that IRS in January denied our
+request for a ~$20K DirectPay reimbursement for the Washington firehouse solar
+rooftop, saying the filing was submitted too late. Dan referenced IRS paperwork
+allowing his filing, but has yet to hear back from IRS on the matter. Unrelated, Len is
+working with Bedford and other munis to lobby Mike Lawler (our Cong. Rep.) to
+ensure DirectPay $ is actually provided on our other projects.]
+- Other Reports
+On 2/18/25, Lindsay delivered a 2024 annual report to the VB, as required to maintain
+our Climate Smart Community (CSC) status. He reviewed various projects, the grants
+secured last year to pay for them, and the status of the train station canopies. A PDF
+copy of his slides was sent to committee members.
+On 2/10/25, we got pricing for Renewable diesel (RD)
+on the State fuel contract. The present cost above ultralow sulfur diesel (ULSD) is $.1776/gal, yielding an extra
+annual cost of ~$7K. Doing so would cut soot, NOx, and
+other emissions as well as GHG. A 2024 study on RD
+by the American Transportation Research Institute
+(ATRI) was sent (2/15/25) to all members. During his
+annual report, Lindsay informed Board members on RD.
+Len pointed out how such purchasing would be in line with the Village’s status as a
+Green Purchasing Community, a State program that encourages sustainabilityconscious shopping by municipalities. Both Westchester County Airport and the
+Village of Tuckahoe now use RD in their diesel trucks.
+The Village agreed to help Lindsay with project management on our solar and HP
+projects. He had been getting help on the EV charger installation from Keiko, but her
+daughter is ill in the hospital and she is unable to assist for the foreseeable future.
+- Recruitment/Outreach/Communications/PR
+The Feb. Village newsletter had a blip and link to the 1/12/25 Journal News article on
+solar projects in the lower Hudson Valley, focusing on our train station canopies.
+The Cons. Advisory Council (CAC) will hold Croton's next Repair Cafe on March 29th
+from 11:00 AM to 3:00 PM in the Community Room of the Municipal Building.
+- New Business / Other Issues
+Textile recycling event at Earth Day: Cheryl reviewed planning for her Earth Day
+textile recycling booth. As suggested, she will add “not tax deductible” to her flyer. To
+help recruit assistants, she will send the flyer to Jon who will send it to the high school
+guidance counselor that oversees the required community volunteer program for
+seniors. She has also approached the Knights of Columbus for its participation. The
+flyer (or our web page) will contain data on the lbs/yr/consumer of textiles that are
+annually discarded. Helpsy will drop off bins at the booth and pick them up the same
+3
+
+day. It will send a check (at $.10/lb) for the picked up items to the Village via Bryan
+Healy’s office. Lindsay sent Cheryl the Sust. Comm. logo for the flyer. Healy will OK or
+edit the flyer. Cheryl will develop and secure a banner for the booth. Lindsay will
+secure reimbursement as per the Village process for committee expenses.
+
+Date for our next meeting was set for Sunday, March 23, 2025 at 10:00 AM via
+Zoom.
+
+4
+
+

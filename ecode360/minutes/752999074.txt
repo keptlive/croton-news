@@ -1,0 +1,188 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Dec. 3, 2023 – via zoom
+Members Attending:
+Lindsay Audin (chair and CSC Coordinator)
+Alexandra Barkan
+Ashley Clemente
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (Comm. Gardens)
+Brian Pugh (Mayor of Croton)
+Len Simon (Village trustee)
+
+Absent:
+
+Bernie Yozwiak
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): none
+Announcements: the Hudson Valley Regional Council (HVRC), which locally oversees
+NYSERDA’s Clean Energy Community (CEC) program, will award Croton its Impact
+Award on 12/6 in Newburgh. It “honors a municipality for a project that has been
+especially significant and has had far-reaching impact, in this case the Village’s
+parking lot solar project and firehouse retrofit project.” Jon said he would try to attend
+and receive the award for us.
+Despite recent competition from Bedford, Croton remains the leading Clean Energy
+Community in the State, now with 8,600 CEC points.
+Members are reminded that they must complete their annual mandatory trainings on
+workplace violence and discrimination.
+- NYSERDA CEC-supported projects (community solar, EVs, HPs)
+- On community solar, NYSERDA on 11/7 awarded us 300 CEC points and a
+$10K grant for our submission for the first 50 train station system subscribers. Recall
+that CSP (Sol’s customer acquisition contractor) had enrolled 112 accounts at the
+Skyview Rehab Center, giving us ~75% of the 150 we need to secure two grants
+($10K and $20K).
+In October, SolSystems had said CSP was preparing to enroll another ~100 from
+Croton. However, CSP instead enrolled the rest of the system’s output to accounts on
+its own waiting list without including any other Croton accounts. It also enrolled a
+“university in NY” (unclear if State or City) as its anchor subscriber, i.e., a demandbilled entity taking 40% of the output. Our lease with SolSystems did not require that it
+reserve any kW for Croton, a lesson-learned for future community solar deals.
+With CSP’s 112, we now need only 38 more to secure the $20K grant. Enrollment can
+be to any solar project in NY State. Ecogy is now accepting enrollments to its Arcadia
+Horse Farm solar array in Yorktown. We will soon start eblasting about that option.
+1
+
+- Regarding identifying 25 new HP installations needed to secure 2 other grants
+totaling $30K and 1,300 CEC points, the ASHPs and HPWHs being installed at the
+Maple St. Apts. (completion by Feb. 2024), will suffice. A GSHP was installed in
+October at Matt Rubenstein’s house on Truesdale Ave. Niall reported his neighbor on
+Cleveland Drive is also completing a GSHP. Both will be included in the submission.
+- Finding 65 new EVs (not used or leased, including PHEVs) purchased by
+Crotonites since 6/1/23 will yield an additional $22.5K (in 2 grants: $7.5K and $15K)
+and 800 CEC points. Using a NYSERDA web tool, Ashley pursued EV registration
+data, but its postings weren’t current. Another State database on car registrations later
+provided info on 39 EVs (24 more than we needed for a Level 2 submission). On
+11/14, CEC allowed use of that info. On 11/15, we submitted for the first 15 (of the 39)
+EVs. On 11/22, NYSERDA OKed it, awarding us a $7.5K grant and 300 points.
+To get the $15K Level 3 grant and the other 500 points, we’ll need to find another 26
+(=50-[39-15]), probably by Feb. from the same data source.
+- Solar Projects/Issues
+Train station canopies: completion is slated for
+late spring 2024. On 10/26, Sol said that MetroNorth told it to get a permit for cranes to lift the
+4 POWIN batteries onto their concrete pads.
+But on 11/3, Dave found them already on the
+pads, with no cranes in sight. His pic at right is
+one of the batteries prior to its pad placement.
+The long-awaited installation of vertical support
+columns (called “piers”) is approaching. See
+Dave’s photo at right of the wooden concrete
+forms being installed at column sites.
+DPW solar canopy option: On 11/13, NYPA
+delivered the 2022 hourly electric interval data
+needed to review peak demand issues. From
+the data, it’s clear that a ~50 kW canopy would
+(as occurred at the Washington firehouse)
+overwhelm DPW’s ~20 kW summer peak and
+most other daytime demands. However, heat
+pumps running on winter nights (see “Heat
+Pumps”, below) could maintain the 10 kW NYPA tariff minimum to avoid rate shifting,
+so net metering remains an option. Power from a much larger system would need to
+be priced via Value Stacking to avoid tariff issues, but funding it would be a challenge.
+On 11/30, CEG (which built the DPW solar rooftop) provided a ballpark cost for a ~50
+kW canopy: $180,000 +/- $15,000 (i.e., ~$3.60/W). Raising it from incentives, grants,
+and tax tricks is feasible. The next step is to verify there are no better ways to spend
+our grant $, e.g., replacing more municipal building A/Cs and/or heaters with HPs.
+2
+
+- EV/EVSE
+Regarding purchasing a Ford F-150 EV Lightning pickup truck for DPW, Bryan Healy
+said (11/2) it was “still in the works”. We have a $20K CEC grant allocated toward it.
+On 11/17, Lindsay spoke with school personnel regarding experience with the EV bus.
+Overall, they see EV school bus technology as a work-in-progress, but no deal killers
+have arisen. Find details in the memo at the end of these minutes.
+On 11/2, DPW found that the head (main part) of one of the Muni Bldg chargers had
+failed, requiring a $2,500 replacement. Bryan Healy asked to pay for it out of one of
+our $5K CEC grants. Since it was EV-related, Lindsay OKed the charge (not covered
+under our Chargepoint maintenance agreement). Since our 3 dual-port chargers were
+installed in May 2019, the cost to maintain them has been greater than the dollar
+savings from using electricity instead of gasoline.
+Regarding the delay in getting a signed contract for our $150K DEC train station EV
+charger grant, Bryan Healy asked our State reps (Sen. Harckham and Assbly.
+Levenberg) to look into the situation. DEC had bungled the accounting with the State
+Comptroller, and then stated they had no idea when it might get fixed.
+Such delays affect installation of the infrastructure for 12 EV charger ports at the
+station. On 11/9, Victoria Cafarelli in Assby. Levenberg’s office said: it seems like
+OSC [State Comptroller] is waiting for some paperwork from DEC… I will follow up
+with DEC next week [i.e., 11/13-11/17]. We await results. Brian said Sen. Harckham’s
+office is still pushing for answers.
+- Funding Sources/Issues
+We await IRS/State rules on the HEERHA incentives for heat pumps. Lindsay will
+attend a 12/6 NYSERDA webinar outlining how the State will handle them.
+- Heat Pumps
+With regard to promoting replacement of residential electric water heaters with
+HPWHs, the prior promo draft was revised as per member comments. Initiating a
+water heater program awaits publication of State rules for the HEERHA incentive.
+To assess replacing the 25-year old A/Cs
+at DPW with ASHPs, a Village energy
+audit is being done by EMRA/L&S
+Energy, to be funded from a CEC grant.
+Delivery is expected in January.
+At the Harmon firehouse, a similar HP
+opportunity is being reviewed. Its 6
+rooftop A/C units (each 4 tons) are
+original to the building (erected 2000)
+making them 23 years old (i.e., at the
+end of their useful lives). See the rooftop photo at right (A/Cs are the white boxes).
+3
+
+Depending on design, replacing them with ASHPs could provide some building
+heating while freeing up rooftop space for a ~50 kW solar array, cutting fuel use,
+GHG, and electric bills. To assess viability, Jon agreed to visit the site with Bill Vlad,
+engineer for the Harmon firehouse, and report at our Jan. 28 meeting.
+Len told us about a planned addition to the firehouse to accommodate the Village’s
+EMS (i.e., ambulance service), which is temporarily housed at the firehouse. It would
+be a two-story facility on the north end of the building (the shadowed area in the pic).
+Architectural drawings are in development for delivery in Q3 or Q4 2024. Len will keep
+us posted so that HPs and maybe rooftop solar could be integrated into that work.
+We discussed ways to ensure that HPs always get installed in Village facilities instead
+of standard A/Cs. A VB resolution is one way, but Len and Brian both felt the first
+approach should be to the Village Manager (Bryan Healy) for a less formal policy.
+Both Jon and Dan said the incremental cost would be minimal (10-20%), even with
+controls to integrate with existing heating systems. Len agreed to raise it with Bryan
+at his earliest opportunity.
+- Other Reports
+While reviewing the Village’s electric bills, we found that the 14 field lights (each 2 kW)
+at Firefighters Ballfield on Alexander Lane used only 966 kWh/yr but create a peak
+demand >30 kW. They cost >$7K/yr in demand charges yielding an average cost of
+$8.31/kWh. Replacing them with LED lamps could save ~$4K per year. But Dan said
+that cost may already be paid by the high school because it uses the field for its
+softball games. The Little League may also use it occasionally. If one (or both)
+reimburse the Village, we wouldn’t save any $. Cutting the already low kWh/yr use
+wouldn’t avoid much carbon but would cost ~$100K/MTCOe/yr, far more than other
+options. DPW must also be called to turn the lamps on and off, adding to the cost to
+use the field. [Lindsay asked Bryan Healy who pays for the power and that service.]
+- Recruitment/Outreach/Communications/PR
+The “Committee News” section of the Village’s November newsletter included a note
+that our food scrap recycling program is now open to all residents. It also featured a
+photo taken by Dave (see above, page 2) of one of the POWIN batteries. HVRC will
+also show the pic during its 12/6 award to Croton.
+- New Business / Other Issues
+No new business was raised.
+Date for our next meeting was set for Sunday, Jan. 28, 2024 at 10:30 AM via zoom.
+
+4
+
+Update on Croton’s EV school buses based on 11/17 chat with transportation personnel
+The first full-size (i.e., 66-passenger) bus has now been in service for over a year,
+while the second started in early October. Purchase of a 7-passenger Volvo SUV
+PHEV for non-routine student transport is in-process.
+Experience with the first bus stretched across hot and cold weather, with heating
+issues arising during the latter. Both drivers and students complained that the electric
+heater was insufficient during cold early morning hours. Use of the electric heater
+quickly drained the battery, consuming 35% of its capacity during the morning run,
+requiring mid-day recharging (other charging was after business hours). Installing a
+larger battery is possible, but its extra weight would challenge the ability of the existing
+pneumatic lift needed to service a bus. Addition of diesel heaters is being considered.
+Several other issues were mentioned:
+- Leaking power steering fluid occurred several times during the year-long
+operation of the first bus.
+- The NYSERDA bus grant required at least 8,000 miles/yr of use. That created
+an issue with DOT inspections that took the unit out-of-service for days at a time.
+- The school district wants to purchase an EV bus each year, but charging
+capacity at the bus depot is quite limited (there is only one dual-port L2 unit). More
+EVs will require more chargers but the building’s existing electric service is only 200
+amps, too small to serve multiple chargers. Capacity of the existing Con Ed feeder is
+also limited. Discussions with Con Ed regarding reinforcing or replacing it are ongoing.
+
+5
+
+

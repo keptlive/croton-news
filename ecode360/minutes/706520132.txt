@@ -1,0 +1,185 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Jan. 22, 2023 – via zoom
+Members Attending:
+Lindsay Audin
+Brian Pugh
+Dan Columbini
+Joel Gingold
+Jon Katz
+Bernie Yozwiak
+Ashley Clemente David Goldman
+
+Absent:
+Len Simon
+Niall Kelleher (in Ireland until March)
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): none
+Announcements:
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC-sponsored projects
+Washington firehouse solar rooftop: on 11/21, NYSERDA formally approved Croton’s
+NY-SUN incentive for $43,296 for application #0000500682 for this project. We had
+applied for the incentive in mid-2022, but its formal OK was delayed. When combined
+with our CEC grant, the bottom line cost should be low enough to also cover part of
+the cost of another municipal EV. Due to minor design changes, peak capacity was
+reset to 36.08 kW. Installation was completed 1/21/23. Punch list and Con Ed
+issues continue into February, after which electric bill reduction should begin.
+Firehouse HP controls: Carey & Walsh (C&W) said (1/9) that interface devices needed
+for the project are still on back order.
+On 11/30, Dan O’Connor and Ron Wegman (both from the Village Engineer’s office)
+took live training on energy codes. Doing so is a CEC task that netted us another 200
+points. On 12/14, NYSERDA moved us up from 3rd place to 2nd place in the State’s
+CEC Scorecard, tied with Hastings, at 7,100 points. Bedford is in 1st place with 7,300
+points. Once the firehouse HP controls job is done, we’ll get 700 more points, moving
+us to 1st place in the State (unless our competitors grab more points in the interim).
+- Other Solar Projects/Issues
+Train station canopies: Groundbreaking started 11/14 with drilling for canopy footings
+at the far south end of the parking lot, working their way north. Regarding payment of
+a customer acquisition fee to Croton for electric accounts we would secure for
+SolSystems (municipal and residential), Sol declined on 11/22. Such an arrangement
+could have given Croton a one-time fee of $40K-$60K.
+
+1
+
+School solar rooftops: All should now be online, totaling 381.5 kW. Paul Gibbons,
+school facility manager, stated (11/17) “PVC is online. HS is complete and CET is
+almost complete. We are working on scheduling ConEd switchover for HS and CET.”
+Hudson National solar project: In early January, the Village got letters from the
+developer and the Golf Club withdrawing their applications, thus ending the project.
+New solar options: Credits under our “Community Solar 2.0” effort (started in mid2021) should soon appear on participants’ Con Ed bills as “adjustments”. Ecogy is
+now offering us a “Comm. Solar 3.0” deal to be powered by its Kitchawan Farms
+facility in Ossining, scheduled for startup in fall 2023. Subscribers (including those in
+CCA) would get a 5% discount off Con Ed bills (~$100 a year). To secure them, Ecogy
+offered us one-time acquisition fees of $.02/W (~$120/customer) for low-income
+people and $.01W (~$60) for others. Low-income means earning <$108K per year.
+The fees would go to the Village, earmarked for new GHG reduction projects. Getting
+~100 (a reasonable goal) subscribers could net (one time) $8K- $10K. Brian agreed to
+raise the option with the Village Attorney to assess its legal viability.
+Park alienation exemption: In a political upset, NY Assbly. Rep Steven Englebright (D)
+of Long Island lost his seat to Dan Flood (R). Englebright held that position for 32
+years and chaired the Assembly’s Environmental Conservation Committee (ECC).
+Despite multiple requests, he blocked discussion of a bill (passed by 62-1 in the State
+Senate) that could exempt solar canopies over parking lots at parks from the outdated
+and laborious alienation exemption process. The new chair is Deborah Glick (D,
+Manhattan). We may revisit the issue with State Sen. Harckham, our new State
+Assby. rep, Dana Levenberg of Ossining (newly appointed to the ECC), and NYPA.
+Brian stated that Harckham has re-introduced his bill, and that support for it has been
+expressed by the NY State Conference of Mayors and NY Association of Counties.
+- EV/EVSE
+We continue to wait for word from DEC on our ~$150K grant application to cover train
+station chargers, installation, electrical infrastructure, and 2 years of free charging.
+In mid-November, the charger/trenching layout (diagram reviewed during October’s
+meeting) at the train station was reviewed by SolSystems. While some minor issues
+(crossing over a planned drain line, proximity to a few footings) the general layout was
+deemed acceptable. Adjustments will be made to avoid conflicts.
+In mid-December, 4 single port L2 EV chargers were installed at the DPW on Rt. 129.
+The parking lot is reserved for DPW employees, and is not accessible to the public.
+On 12/8, Con Edison announced that (starting 1/1/23) the SmartCharge Rewards
+program was ending for residential and small commercial customers on a Time-of-Use
+(TOU) electric rate. On 12/27, it announced the program was replaced with ev.energy,
+which works as a cellphone app. Final payments under SmartCharge will be made by
+2
+
+late February. Bernie detailed issues he had with the new program, which uses an
+EV’s internal software to report charging data. For his 2020 Toyota Prius, he had to
+subscribe (~$7/month) to an additional Toyota service to upgrade his car’s software.
+- Funding Sources/Issues
+Regarding potential Inflation Reduction Act (IRA) funding for projects in Croton, Len
+provided a “Guide for Local Government Leaders” from the Climate Mayors
+organization. From it, Lindsay concluded that we need to wait for details (which vary
+widely across the programs) before determining how to proceed. Find Len’s report at
+the end of these minutes. These other conclusions were reached:
+- Because we don’t qualify as a federal (versus State) disadvantaged community
+(DAC), some IRA benefits are not available to us.
+- Among them, the major direct (i.e., no State involvement) federal funding options
+pertain mostly to energy efficiency work in homes, or to heavy municipal vehicles
+(e.g., garbage trucks). For the latter, appropriate models either do not yet exist, or
+their prices are still too high, even with IRA and State funding support.
+- For IRA programs that instead give money to states, we must wait until IRA rules for
+State programs (i.e., NYSERDA, DEC) are established to access them.
+- The timetables for the above vary widely, with some starting in March/April 2023 or
+later, while others have not been developed.
+Regarding recent direct funding from the Bipartisan Infrastructure Law (BIL), Len
+reviewed its $550M in energy efficiency community block grants (EECBG). He found
+that communities of our size would be competing for the $2,010,912 in EECBG allocated
+to NY State small munis. Since it will likely be divided among many of them, Lindsay felt
+it may not be worth seeking. We may, however, be able to access BIL funding through
+other State programs being developed.
+A possible path forward in 2023 could focus on promoting residential heat pumps for
+which both IRA and NYSERDA financial assistance will soon be available. If HPWH
+grant funding looks good, we could finally move on that earlier stalled program.
+Regarding changes to NYSERDA and Con Ed incentives, we await reports from each.
+- Food Scrap Recycling Program
+Due to supply problems with the scrap caddies, the Dec. 4 distribution event was
+delayed to Jan. 7. For that event, the Town of Ossining had loaned us 40 caddies. The
+missing units then arrived Jan. 4, so Ossining’s units were returned with a “thank you”.
+Thank you to Bernie, Dave, Joel, and Jon for their help. Of 40 households that had
+signed up, 37 (including 1 from our waitlist) picked up their bins and bags by Jan. 17.
+We have spare supplies for another 9 (4 bins arrived broken) and ~35 on the waitlist.
+
+3
+
+The first drop-off date was Jan. 14. It went very well, yielding ~150 lbs. of scraps. Due
+to issues with the County’s carter, the first scrap pick-up by the County will be Jan. 23.
+Our February meeting will review scrap volumes and any new issues.
+- Other Reports
+On 11/15, Dave reviewed slides from a webinar on eliminating solid waste incineration
+via a proposed County-wide Zero Waste program, sponsored by the Westchester
+Alliance for Sustainable Solutions (WASS). It was founded in May 2022, sparked by
+the impending re-licensing of the Charles Point incinerator. While much of the webinar
+may be useful elsewhere, little was relevant to our work. Some content was out-ofdate or otherwise did not address ways to cut GHG emissions. Lindsay suggested
+that, if changes to Charles Pt. are to be pursued, a carbon capture system may be
+feasible technically and (with new IRA incentives) financially.
+On 12/1, actual construction (as versus just land clearing, etc.) commenced on the
+Champlain Express (CHPE) power line. Starting in 2026, it will bring 1,250 MW of
+Canadian hydropower from Quebec to the New York City metro area.
+On 12/3, Niall reported that “the Village is holding off on building the 3rd Community
+Garden. They want a plan for the entire park before approving this part of it.”
+- Recruitment/Outreach/Communications/PR
+Members of Westchester’s Sunrise Movement (youth climate action group) had
+promised us a review of IRA grant options for municipalities by mid-November, but it
+never materialized. The last communication from the group was in mid-October.
+Bernie mentioned his mentoring of a high school student developing a design for an
+EV charging station at the Yorktown Triangle Shopping Center.
+On 12/29, Adlin Hadad reviewed a PR option with Westchester Magazine (“choose
+your favorite Sustainability Committee”) but concluded it was not worth pursuing. Joel
+voted for our committee.
+On 1/12, Charlotte Green, co-president of Croton High School’s 13-member Green
+Team, asked about participating in a composting program. She was directed to the
+school system’s Environmental Sustainability Comm. which oversees the school
+composting effort, and to CAC and C100 for other environmental activities. She will
+contact us if the group develops an interest in cutting GHG emissions.
+- New Business / Other Issues
+Bernie asked about enforcement of the 3-minute vehicle idling law, esp. with concern
+over school buses and commercial vehicles (e.g., delivery trucks). Brian reminded us
+that it only applies when the temperature is above 32 F, and does not apply to first
+
+4
+
+responders’ vehicles. Problematic sites include warming up cars in driveways, waiting
+at the train station, and sitting at Croton Landing Park. After some discussion, Brian
+indicated that the County’s “bounty” law (which rewards reporting of offenders) may be
+the best way to enforce compliance. No other action was proposed.
+The annual “thank you” reception for all committee members will be held Jan. 24 on
+the 2nd floor of the Harmon firehouse (Wayne St. at the west end of Benedict Blvd.).
+Date for our next meeting was set for Sunday, Feb. 26, at 10:30 AM via zoom.
+
+5
+
+Len’s (12/1/22) report on funding from the Bipartisan Infrastructure Law (BIL) via its
+Energy Efficiency Community Block Program (EECBG)
+So now that the funds have officially been allocated (it only took a year!), we know that:
+1. the total funding that goes to the states is $123.2 million.
+2. The New York share of that total will be $3,351,520.
+3. Of that amount 60% will have to be passed through to NY communities less than 35,000
+in population.
+4. That 60% will equal $2,010,912.
+Since that amount is a relatively small sum for all of the NY communities under 35,000 in
+population to be competing for, it will be interesting to learn how NY will propose to distribute
+those funds so that individual grants a small community can obtain will be large enough to be
+meaningful.
+It is likely that NYSERDA will be the recipient of the EECBG funds for the state.
+
+6
+
+

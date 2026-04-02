@@ -1,0 +1,222 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:00 AM Sunday, June 8, 2025 – via zoom
+Members Attending:
+Lindsay Audin (chair, CSC Coord.)
+Ashley Clemente
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (comm. gardens)
+Brian Pugh (Croton Mayor)
+Carly Shanks
+Len Simon (Village trustee)
+Cheryl Wong
+
+Absent:
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Attending guest(s): Edwin Adkins, Senior Research Associate, Columbia University
+Announcements:
+Thank you to all who staffed the 5/3/25 Earth
+Day table. Thank you to Dave for the Earth Day
+pics. Despite the sudden evacuation due to an
+impending storm, attendance was very good.
+Cheryl’s successful textile collection booth took
+in 1,283 pounds of donated fabrics. Two other
+groups (Buy Nothing and the Girl Scouts) were
+also collecting textiles at the event. For next
+year’s Earth Day, Cheryl will work with them.
+On 5/29/25, at the annual meeting of the NY
+Conf. of Mayors (NYCOM) in Lake George,
+Bryan Healy and Paula DiSanto (Village
+Clerk/Deputy Manager) accepted a Local
+Government Achievement Award for the solar
+canopy project.
+- EV/EVSE/RD
+Len said that the e-bike project would officially
+be launched in Croton on 7/11/25. The bikes
+were bought before the Trump tariffs went into
+effect. On 6/12/25, a public hearing will be held
+on adopting legislation for the program (see
+page 2 for Len’s Summerfest pic of the e-bike
+display). To inform the community, a video is in
+process for posting at the Village website.
+The 5/9/25 mandatory site meeting for electrical contractors on the train station EV
+charger project drew 3 of them. To ensure that many MWBE and veteran-owned
+1
+
+contractors would get to bid (as per NY DEC
+rules), the RFP was distributed to 43 firms, 26 of
+which were MWBE. Two proposals were received
+and are being reviewed.
+On 5/21/25, Lindsay again asked Bryan Healy and
+Frank Balbi what technical data or references they
+would need (other than provided to them on
+3/21/25) to consider renewable diesel (RD) as an
+alternative to standard diesel for the Village’s
+diesel trucks. Bryan indicated that staff are still
+reviewing the data.
+- Solar Projects/Issues
+On 5/13/25, Con Ed announced that the incentive for PV projects <1 MW had dropped
+from $.80/W to $.60/W. The extra canopy incentive is still $.20/W. For our two pending
+solar projects (DPW canopy and Harmon rooftop), that boils down to a loss of about
+$16K. That won’t stop the projects, but it tightens their budgets.
+Train station canopies: Paperwork for the purchase of the project by Madison
+Energy is almost done. Commissioning of the inverters for the BESS is scheduled for
+this month. Fixing various small roof leaks is in progress. Once those tasks are done,
+the system’s solar power can begin flowing into the Con Ed grid. We also reviewed
+several financial issues related to the project and leasing agreement.
+To address a rumor that night light levels below the canopies were somehow lower
+than prior to their installation, measurements (with a light meter) were taken last week
+at 9 PM under the canopies and under the pole lights in the lot across the street
+(which was how the main lot was previously lit). Below the canopies, levels ranged
+from 6 to 10 foot-candles (f-c) while those under the pole lights ranged from 1 to 3 f-c.
+Our project essentially tripled the old light levels.
+A paper authored by Lindsay on the project appeared in the spring 2025 issue of the
+Intl. Journal on Energy Mgt. (IJEM), published by the Assoc. of Energy Engineers, It is
+publicly available at https://www.aeecenter.org/wp-content/uploads/2025/05/IJEMVol7-Iss2-Solar-Canopies-Can-Turn-Parking-Lots-Into-Power-Plants.pdf
+DPW solar parking canopy: On 3/11/25, NYSERDA OKed using grant funding for
+SW’s “Municipal Solar” project mgt. (PM) program to expedite the installation. The
+draft agreement was approved by the VB on 5/13/25. On 5/15/25, Bryan, Frank Balbi
+of DPW, and Lindsay zoomed on how to address the site’s tight parking situation
+during construction, and settle administrative/permit issues prior to issuing the RFP.
+By 6/1/25, those issues had been resolved. The (hopefully) final draft RFP was sent to
+SW for review on 6/3/25.
+
+2
+
+SW residential Solarize program: Carly reviewed her recent positive experience
+with that program (see her 5/16/25 memo at the end these minutes). She secured
+proposals for a 10 kW system for her home from contractors vetted by SW.
+Based on her report, plus the possible loss of the IRA 30% tax credit (see below), and
+the potential impact of tariffs, the VB will review endorsing the program at its 6/18/25
+work session during which Leo Wiegman of SW will present on the program.
+Jon said that homeowners considering solar for their homes should be apprised as to
+how the $ value of solar output could be credited on their electric bills. The two options
+are net energy metering (NEM) and Value of Distributed Energy Resources (VDER).
+The first would yield the most savings, but must be specified when the solar vendor
+applies to Con Edison for the change of electric service resulting from on-site power
+production. If VDER is chosen, the NEM option becomes unavailable.
+On 5/30/25, NYSERDA announced that the MW Block (i.e. the wattage that would
+receive an incentive) for residential solar in Con Ed territory had closed. It had been
+$.15/W, such that a typical ~7 kW residential system will now cost ~$1,000 (~5%)
+more to install. The “Affordable Solar Residential Incentive” remains $.80/W for low-tomoderate income homeowners, but most Croton homeowners would not qualify.
+As presently written, the House “big, beautiful tax bill” would eliminate (at the end of
+2025) the 30% IRA 25D residential investment tax credit, 9 years before its present
+sunset date of 12/31/2034. To avoid losing it, homeowners would need to get solar
+work done (not just in contract) in the next 6 months to secure the credit on their 2025
+income tax filing. For details, see https://electrek.co/2025/05/13/house-draft-budgetkills-the-30-residential-solar-tax-credit/
+See below for more details on the House tax bill and its implications.
+- Heat Pumps
+Washington firehouse garage HPs: To verify that the building has sufficient
+electrical service capacity to accommodate the proposed equipment, Lindsay secured
+from the Village Engineer a copy of its original (1978) electrical installation plan. Dan
+is now reviewing if it’s sufficient to provide the added load of a 15 kW electric boiler
+and the ~7 kW of additional HPs. [Via consultation with an electrical engineer at his
+firm, Dan subsequently found the service could handle 225 amps when providing 3phase 208-volt power. That translates to a peak load of about 70 kW, sufficient to
+handle the both the present load and that of the proposed new equipment.] Jon
+adjusted the refrigerant spec language in the draft RFP to ensure use of the lowest
+readily available GWP refrigerant.
+Harmon firehouse rooftop HPs: The next step is completion of the draft RFP (which
+awaits Village staff approval), and scheduling the work after completion of the EMS
+addition to the building later this summer. Jon pointed out that there is no refrigerant
+3
+
+issue with the proposed new packaged rooftop units (RTU) because such units have
+required use of the new refrigerants long enough to assure their availability.
+- Funding and Budgeting Issues
+Len reported that the recently passed Village budget has an additional $6,000 for
+“food scrap shed and supplies” that includes a new and larger scrap shed. Cheryl
+agreed to assist Keiko with the program and will send Lindsay a proposal for
+expanding its scope.
+On 5/2/25, Bryan Healy emailed that “The check for the Washington Engine [March
+2023 firehouse solar rooftop DirectPay] rebate arrived today! A total of $20,482.42,
+which included $758.02 in interest and the $19,724.40 requested.”
+The application for the rebate had been submitted to the IRS in late 2024, but in
+January 2025 IRS said the submission was “too late”. It then ghosted our Treasurer
+after he cited IRS rules showing it was not too late. This payment may be a sign that
+~$100K in other DirectPay rebates we hope to seek may yet occur, unless cut in the
+developing federal tax bill.
+On 5/1/25, in response to a question Len posed to reps to the Westchester Municipal
+Officials Assoc. (WMOA) as to which had filed for DirectPay rebates, only 3 of the 15
+present said they had done so. Croton may then have been the first municipality in the
+County to receive such a rebate. Len pointed out that, if the Trump tax bill becomes
+law, Croton may end up being the only Westchester municipality getting such funding.
+Dan reported on his meeting with 4 NY Congressional Reps. (including Mike Lawler)
+and their staffs in DC in late May via ACEC New York (American Council of
+Engineering Companies. Among other topics related to supporting clean energy, the
+DirectPay tax credits were discussed. Emphasis was made on our State’s CLCPA
+goal for electrification to cut GHG emissions, and the $ needed to do so.
+Regarding the federal “big, beautiful tax bill”, some aspects of it would impact our two
+upcoming solar projects. The version that passed the full House on 5/22/25 was worse
+than that previously passed by the House Ways and Means Committee. To lock in the
+30% DirectPay credits, the present House bill would require construction work to start
+within 60 days of passage of the final law, i.e., by late September. That’s unlikely for
+one of our solar projects, and not possible for the other. The total “hit” (i.e., incentive
+loss) for them would approach $100K. Lobbyists for a variety of groups (e.g., US
+Mayors, solar and wind associations) are pushing for changes. Mike Lawler (our
+House Rep.) voted for the full House bill.
+The Senate’s version may moderate the final result before Congress’ 7/24/25 summer
+recess. On 6/4/25, the Senate Environment and Public Works Committee pushed for
+elimination of nearly all unobligated IRA grant funding, but was silent on the IRA’s tax
+credits. Len said that some Republicans in the Senate have spoken out to support the
+credits. They are pushing for a bill to be done by both houses by July 4. Until we see
+the final bill, we’re in $ limbo on our two solar projects. To hold onto our NYSERDA
+4
+
+grant, we may need another extension (we already got one for 7 months). It’s unclear
+if that’s possible.
+On 5/15/25, the NY PSC announced a five-year plan to spend $5 billion on energy
+efficiency and weatherization programs that would include “$3.29 billion for non-low-to
+-moderate-income customers”. Funding would start 1/1/2026 but details (e.g., what
+energy measures would get funding) have not yet been announced.
+- Recruitment/Outreach/Communications/PR
+In September, all Village committees are scheduled to present 5-minute PowerPoint
+shows to the Village Board on their activities. Lindsay will give a 6-slide presentation
+on the committee, its projects, awards, and upcoming efforts. [After our meeting, a
+draft copy of the show was sent to all committee members for their input.]
+- New Business / Other Issues
+On 6/1/25 John Ealer, chair of Croton’s Cons, Advisory Council (CAC), emailed that it
+will this year perform a local Natural Resources Inventory supported by a NY DEC
+grant. He agreed to conform it to specs in the Climate Smart Community (CSC)
+program so that we can claim 8 CSC points to help maintain our Silver certification.
+As per our usual summer recess, the date for our next meeting was set for Sunday,
+Sept. 7, 2025 at 10:00 AM via Zoom (to avoid the Sept. 1 Labor Day weekend).
+Carly’s Updates on SW’s residential Solarize program
+Bottom line: Her experience with SW has been very good. She would recommend the
+Village promote the program to Croton homeowners.
+Two issues with the program (i.e., promotion of the Carbon Tracker app and concerns
+with including lithium-ion batteries in vendor proposals) were allayed. In her dealings
+with SW personnel, there was no mention of the app, and no suggestion by SW
+regarding batteries. Some vendors mentioned (but did not promote) that option during
+initial discussions, primarily just to inform regarding available additional incentives.
+SW connected her with 4 vetted solar vendors - SunBlue, Infinity Solar, Solar Farm, and
+Green Hybrid Energy Solutions (GHES) - with the first 3 providing responses. All of the
+quotes were provided over zoom. They were prepared after providing them with her
+ConEd bill and using satellite imagines of the house to discuss panel placement. Infinity
+is the largest of the 4.
+With regard to tariff impacts, vendors indicated that existing stocks of panels should
+obviate tariff upcharges if customers moved quickly (e.g., in the next month or two) to
+contract so present pricing could be locked in. Carly also stated:
+
+5
+
+1. All 4 vendors take credit cards. Solar Farm is the only one of the three that does not
+charge the credit card fee. Infinity Energy and SunBlue both accept credit cards but
+charge the fee.
+2. None of them expect upfront full payments. They all use a payment schedule for cash
+payments. For financing it would just be your monthly payment.
+Payment schedules for cash purchases.
+- Infinity Energy - "Our payment schedule is 10% down, 85% due at time of installation
+(30-45 days) and then 5% due when system is turned on”
+- Solar Farm - "The way a cash purchase works is we ask for a $1,000 deposit and then
+the remaining amount due in a series of 30%, 60%, and 10% payment installments.”
+- SunBlue - 10% upon signing the contract, 45% at installation, 45% after ConEd
+approval.
+In a Zoom call with Enrique and Leo from Sustainable Westchester, they reviewed the 3
+proposals with her. They were all pretty comparable in terms of price and equipment. It
+mostly came down to which company she wanted to work with. She decided to sign with
+SunBlue.
+
+6
+
+

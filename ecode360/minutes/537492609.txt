@@ -1,0 +1,133 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday Mar. 29, 2020 – via Zoom.us
+Members Attending:
+Lindsay Audin
+David Goldman
+Len Simon
+John Habib
+
+Joel Gingold
+Brian Pugh
+Niall Kelleher
+Jon Katz
+
+Absent:
+
+Non-members wishing to attend are asked to RSVP to energywiz@aol.com to verify meeting date,
+time, and location, which may be adjusted to meet committee member requests. [Bracketed] text
+relates to actions subsequent to this meeting.
+-------------------------------------------------------------------------Scheduled guests: Carmen Santos and Dan Welsh of Sustainable Westchester (SW) and other SW
+staff members. They presented SW’s new and ongoing programs.
+SW’s two Carmens, Dan, and Michel updated us on existing programs (e.g., CCA and community
+solar [CS]) and several new efforts. SW’s EV efforts are now being handled by Seth Leitman (who
+replaced Ron Kamen). We know Seth from his work with Sustainable Hudson Valley.
+Carmen described SW’s Clean Heating & Cooling and HeatSmart programs that promote heat
+pumps. They are presently focusing on commercial and multi-family buildings rather than single
+family homes. To that end, they recently met with Croton100 folks.
+Dan described their community solar (CS) work, wherein ~500 people (total in Con Ed + NYSEG)
+are signed up. One of the CS sites (at Mt. Kisco’s landfill) will produce ~600 kW. Its output will first
+go to Mt. Kisco residents. As of Jan. 1, 2021, CS bill credits will be handled through consolidated
+billing, thus eliminating the existing byzantine “give you 100% and take away 90% of it” process.
+Michel described a power storage project planned for its headquarters, which moved two months
+ago to the Mt. Kisco police station building. Supported by Canadian power storage firm Ecamion, it
+would include a rooftop CS system, flow and lithium-ion batteries, and a 50 kW DC fast EV
+charger. He also described a plan for “direct CCA” that would wheel ~1,000 MW of green power
+from western NY via the proposed Empire State Connector transmission line. A solicitation seeking
+large end user customers in NYC is underway, supported by the Related Companies, a large real
+estate management firm. Rather than bundling CCA power with RECs, this process would provide
+actual renewable power to CCA participants.
+Dan (and others) described two other programs not related to energy. The first is a phone app for
+recycling that directs callers to local municipal programs (in 7 languages), but is not otherwise
+involved in recycling. 12-13 municipalities had signed up as a way to help steer their residents to
+their local programs. Handled by a private firm, the app does not charge residents, but does charge
+participating municipals $3,000 to $5,000 a year. Dan also briefly discussed several promotional
+efforts involving composting and renewable landscaping, focused on muni DPW participation. He
+mentioned a 2018 workshop held by SW that included “electric landscaping” (i.e., use of electric
+lawn mowers, leaf blowers, etc.). Len asked for details, and was directed to the American Green
+Zone Alliance (www.agza.net), which supports that effort.
+1
+
+Dan mentioned that SW was considering holding a workshop on the updated NYS Stretch Code
+sometime later this year. See Jon Katz’s commentary below for more on the Stretch Code.
+Quick updates/holdovers/follow-ups/status:
+- Food scrap recycling: Nothing new to report. Our DEC-granted project is on hold until 2021.
+Sustainable Materials Management Inc. (commercial composter in Cortlandt) has not posted any
+updates since last August, so it’s unclear when it would be open to receive Croton’s food scraps.
+- EV/EVSE: At the Croton school board’s March meeting, MothersOutFront was pushing purchase of
+2 EV buses but asking for help in figuring out how to fund them.
+Len reviewed CMAQ (Congestion Mitigation for Air Quality), a federal program to reduce noncarbon emissions. It was started in 1991 under the Federal Highway Trust Fund via the Federal
+Highway Administration. It will cover 80% of the cost of a vehicle (e.g., EV school bus) with the
+non-federal share being 20%. He found no limitations on the composition of that share such as a
+prohibition on the use of VW settlement funds. He is determining if such funding could be used in
+conjunction with vouchers available through an existing NYSERDA program. It works with the State
+DOT to administer part of New York State’s allocation of funds via its CMAQ Improvement
+program. Since the CMAQ money goes to the states and is then distributed to groups of counties,
+we may need to work with the County Executive. Len agreed to dig deeper to clarify those issues.
+- Solar projects: Work on our DPW community solar rooftop project awaits good weather. An
+updated proposal from Ecogy for solar parking canopies at Croton Landing and Senasqua Park
+was reviewed. Larger systems were proposed totaling over 700 kWp DC (~600 kW AC). About a
+dozen trees would need to be re-located and one or two cut down to install the systems. Lindsay
+was to meet with CAC tree people at the sites, but that was postponed due to the COVID outbreak.
+Jon asked if a separate bid would be needed. Brian did not think so, but we are still too near the
+start of this process to deal with that issue. We are still at the general design stage.
+Recruitment/Outreach:
+- School district: The 3/17/20 meeting of its Environmental Sustainability Committee was cancelled
+due to COVID. It may not meet again before the end of the school year.
+- Intern: Alexis Stabulas’ Village forest carbon sequestration map data was corrected by Dan
+O’Connor, our Village Engineer. Over the years, nearly all properties she had assessed as carbon
+sinks had been sold. O’Connor provided a new list of 84 properties that will now need to be
+reviewed for their forest covering. Many are small plots, including several single-family homes. We
+will wait on this until we can have a face-to-face meeting to sort it out.
+- New committee members: Joel and Lindsay queried several people as possible new members. The
+three contacted by Joel were already committed to other actions, or had moved out of Croton. In
+the case of Cara Politi (who had previously asked to join), she could not commit to regular meeting
+attendance but did agree to instead become a committee “ally” that would take on specific tasks.
+We continue to look for new members willing to work on projects and tasks.
+- Others’ efforts: Joel reported on his research into the University Climate Change Coalition (UC3).
+It’s primarily active at SUNY at Stony Brook (on Long Island) and does not offer anything of value
+to our work. He also reported on Sustainable Putnam, a nascent group forming in that county,
+following C100 as a model. Jon Katz reported on his 3/8/20 heat pump talk at the Holy Name of
+Mary church. Jon has 2 years of direct experience with ASHP in his home (which is otherwise
+heated by gas). He has solar panels that provide free power to his ASHP. He noted that, without
+that free power, the heat from the ASHP would be more expensive than that from his boiler.
+2
+
+Communications: none
+New/ongoing business:
+- Climate Smart Community (CSC) certification: On 3/16/20, the Village Board passed a catch-all
+resolution that will hopefully satisfy all qualms expressed by DEC reviewers in our first submission.
+A corrected version was submitted on 3/28/20 (deadline was 4/3/20), including a new task
+submission that (if accepted) could bring our point total to 301 (which could qualify us for silver
+certification instead of bronze). Responses from DEC are tentatively scheduled for May 22, though
+it is unclear how COVID issues may affect that date.
+- 2020 Stretch Code: Jon Katz reported on his analysis of that more stringent energy code (recently
+adopted by New York City) which would affect new construction and major renovations (e.g., home
+additions or gut rehabs). An improvement over the existing State’s Energy Conservation
+Construction Code (NYECCC), it calls for: better envelope and window insulation factors, HVAC
+ductwork within conditioned spaces (to cut distribution losses), various DHW measures (e.g.,
+shorter pipe runs), energy recovery, and higher efficiency built-in lighting. Together, such changes
+would improve energy efficiency by ~20% compared to the NYECCC. It also calls for making
+buildings over 1400 SF both solar and EV ready/capable through (e.g.) dedicated 40 amp breakers
+and other measures. NYSERDA estimates that the increased cost of such measures would
+average about $2,000, with a ~6-year payback (i.e., would cut energy costs by ~$340 a year).
+Carmen suggested checking with Pelham regarding its adoption of the Stretch Code. She agreed
+to provide contact info to that end.
+We discussed the Village Board’s ability to make such a code upgrade optional with a tax incentive
+to encourage its use, rather than making it mandatory. Suffolk County already does so for buildings
+following LEED standards. Brian agreed to ask the Village’s attorney to clarify the matter.
+- Croton100 (C100) fundraising idea: Joel had an extensive email dialogue with C100 personnel
+regarding the viability of a commercial-level opt-in aggregation group that would provide it with an
+ongoing source of revenue while encouraging use of renewable power in non-residential facilities.
+Much of the dialogue involved correcting misconceptions and misinformation on commercial energy
+aggregations. The ball was left in C100’s court to respond.
+- Croton Library lighting/solar options: We continue to await announcement of Con Ed’s new
+incentives, originally scheduled for mid-April, before re-engaging with Library personnel.
+- prepping for next Earth Day: Due to COVID issues, that event is unlikely to occur. As a result, we
+do not plan to participate or improve on our existing displays for such events. Our previous idea for
+getting the local Scouts to participate by showing their sustainability projects was dropped.
+We thank SW for utilizing its Zoom account to allow us to hold this online meeting.
+
+Our next meeting is now scheduled for April 26, 2020 (hopefully, in person).
+
+3
+
+

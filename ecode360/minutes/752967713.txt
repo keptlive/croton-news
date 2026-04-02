@@ -1,0 +1,162 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Sept. 24, 2023 – via zoom
+Members Attending:
+Lindsay Audin (chair and CSC Coordinator)
+
+Absent:
+Dan Columbini PE
+
+David Goldman
+Ashley Clemente
+Niall Kelleher (Community Gardens)
+Brian Pugh (Mayor of Croton)
+Jon Katz PE
+Joel Gingold (CCoHOPE Indivisible)
+Bernie Yozwiak (Care for Creation Ministry)
+Len Simon (Village trustee)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): none
+Announcements: Joel Gingold has retired from the Committee, effective 9/24/23.
+- Food Scrap Recycling Program
+Registered participants now total 104, close to the ~100 max estimated when we
+started it in January. Four of our 5 toters (i.e., 64 gallon containers) are now needed to
+handle the scraps (totaling close to ~½ ton/wk). Expansion of the program should
+await relocating the shed in the spring when Lot A gets sold. A larger shed and more
+toters may be needed. Anyone interested in joining should email Keiko Niccolini
+keikoniccolini@gmail.com
+- NYSERDA CEC-sponsored projects
+Firehouse HPWH: Installation was completed 8/1/23. The $7,000 cost was covered by
+existing grants. Joel suggested an open house to show off the unit and promote
+HPWHs. Lindsay said we should do so after Feb. 2024 as discussed below.
+Firehouse solar: on 8/24, the Village received the remaining NYSERDA payment for
+the job. [On 9/28, a NYSERDA contractor inspected the installation and found no
+problems or issues.] The next step is to seek a ~$20K ITC Elective Pay credit via a
+2024 Village tax filing. Issues with NYPA’s tariff at the site are discussed below.
+New Community Campaigns (community solar, EVs, HPs): On 8/8, Joel and Lindsay
+met with C100 personnel to review how they may help with the solar recruiting. Our
+designated contacts for this work are Emily Paisley-Choy and Matt Solis. Help from
+Mothers Out Front and other local groups will also be sought.
+We pressed Sol’s contractor (Community Solar Platform a/k/a CSP) on scheduling
+such promotion. On 9/20, Sol reported: “CSP is working on a unique portal and link
+that will streamline the customer sign up process as well as simple method to provide
+
+1
+
+the Village information required for NY grant requirements.” We need to enroll 150
+subscribers to the train station canopies by mid-2024 to secure $30K in CEC grants.
+Other campaigns must identify installations of at least 25 HPs and purchases of at
+least 65 new EVs, not used or leased. All must be in Croton and occur after 6/1/23.
+See below for how we can identify the EVs and HPs.
+- Solar Projects/Issues
+Odd twist on $ savings from the firehouse solar rooftop: based on 6 months of NYPA
+bills and interval data, the system has consistently cut peak demand to <10 kW,
+shifting the firehouse to a consumption-only (no demand charge) electric rate. That’s
+saving us more dollars, but getting us less municipal carbon credit. The extra kWh
+enters the grid and displaces “dirty” power, but we’re giving it to Con Ed for free.
+Jon reported that the present consumption-only rate does not allow net metering if a
+PV system’s output is >10 kW (firehouse array is 36 kWp dc). If later this year night
+operation of the heat pumps and low winter solar output push the peak over 10 kW,
+the prior rate may be restored, allowing net metering. We will wait until then to see if
+that occurs. We may then apply for Phase One Net Energy Metering (NEM) to credit
+all solar output and carbon credit to the firehouse’s electric account.
+Work continues on the train station canopies.
+On 8/10, Sol’s new construction timetable
+showed completion by Feb. with commercial
+operation in mid-April. Blacktop trenching is
+visible at the south end. At the north end,
+concrete pads for the POWIN batteries are
+almost finished (see Dave’s 9/15 pic at right).
+In late August, a labor union issue arose that
+blocked concrete deliveries. Sol says they
+now have 2 union workers on the job.
+Possible solar canopy at the DPW parking lot: first studied in 2021 (and found not
+financially viable as a community solar site), later analysis found that a ~80 kWp or
+~200 kWp Village-owned array might be financially viable. However, on 9/26, the
+Village Manager informed Lindsay that the $100K CREST grant offered by State Sen.
+Harckham’s office for “energy transition” actions had already been applied toward
+purchase of two EV police cars. Likewise, the NY-SUN incentive recently (7/6/23)
+dropped from $1.20/W to $1.00/W. The loss/reduction of those financial sources
+makes a Village-owned canopy not feasible without Village capital funding.
+Prior to that news, canopy output could have been applied to street lighting accounts
+(called “satellite” accounts) via “remote net metering” (RNM). The Village would then
+have done better financially than by leasing the space to a community solar developer,
+- EV/EVSE
+2
+
+On 8/29, DEC said the contractual paperwork for our $150K train station EV charger
+grant has been delayed (it was to arrive by the end of July) because “we [DEC] have
+not yet received approval of the procurement from the comptroller’s office”.
+As discussed above, identifying 65 new EV purchases could get us $22.5K in CEC
+grants. However, starting that effort before the community solar and HP efforts are
+underway would require recruiting a volunteer program manager to run it. Len
+suggested Ben Faber who asked to join our committee. [On 9/27, Lindsay contacted
+Ben and provided appropriate documents to get him up-to-speed on the task.]
+A new NYSERDA program (Charge Ready 2.0) for EV chargers covers some costs for
+L2 chargers at commercial and multi-family buildings, e.g., the Maple St. Apts. But
+that site’s plans show 4 EV parking spaces with chargers. The developer said tenants
+will get free charging from a rooftop solar array, so no NYSERDA $ was needed. [On
+9/29, a similar discussion occurred with the new owner of the Bari Manor apartments.]
+- Funding Sources/Issues
+As mentioned above, the $100 CREST grant from Sen. Harckham’s office has already
+been allocated by the Village toward purchasing two EV police cars. While shifting
+from gasoline to EV charging does cut out carbon footprint, it does so at a higher cost.
+Either solar array would have eliminated a MT of carbon per year at a one-time cost of
+~$9K. At 20,000 miles per year for a police EV, doing so costs over $12K.
+The IRA’s proposed “Qualified Low Income Economic Benefit Project” option would
+boost the ITC from 30% to 50% for solar and wind projects (<~1.5 MW) where at least
+half the financial benefit (i.e., customer electric billing credits) went to households
+earning <200% of the “poverty line”. A 50% ITC would encourage community solar
+(but not municipal) projects previously deemed financially unviable.
+Len found that federal poverty level to be $26,500 for a family of four (so 200% =
+$53,000). Such subscribers would get a 20% (instead of 10%) discount. Len found
+that ~12% (~350) of Croton households may be eligible. Example: a ~200 kW
+community solar array would serve ~33 households of which ~17 would need to fit the
+200% threshold, i.e., ~5% of those eligible. The rule may be finalized by early 2024.
+- Heat Pumps
+Re: identifying the 25 HPs. Regan Development said that each of its Maple St. Apts.
+will have an ASHP for heating/cooling, and a separate HPWH for its DHW. Together,
+the two buildings will have 33 units totaling 66 HPs, more than needed for us to secure
+$30K in new CEC grants and 1,300 CEC points. Both buildings should be done in
+Feb. 2024. Once those grants have been secured, we can start our HPWH campaign.
+Bernie continues to develop his draft doc on residential HP incentives to members for
+their review. Ashley agreed to assist with assembling a flow chart to clarify options and
+incentives. On 9/20, Dan provided pics of the HPs (both HVAC and HPWH) installed
+in his new home.
+3
+
+The A/C units at DPW are reaching the end of their useful lives, having been installed
+with the building in 1998. One of the 5 units recently failed and was replaced with a
+similar A/C unit. One of the other 4 also failed, but was recently “revived”. An
+opportunity exists to replace those 4 with HPs and integrate them with the oil-fired
+hydronic system, as done at the Washington firehouse. Rough cost is $100K before a
+30% ITC. Heating cost and carbon emissions would be reduced. However, several
+committee members indicated that the units will need to be replaced anyway, so using
+grant money to avoid an inevitable capital cost was not acceptable.
+To establish ASHP viability at DPW, an energy audit of the existing units is needed.
+We have grant funds to pay for it. Brian Healy said a formal competitive bid was not
+needed. On 8/31, he authorized seeking bids from 3 experienced CEMs. On 9/4, an
+informal RFP was sent to several local CEMs. Proposals are due 9/29. An ASHRAE
+audit also secures 10 points toward our Climate Smart Community (CSC) status.
+- Other Reports
+Based on data in a study summarized by Dave of forests in County municipalities, we
+found that Croton’s trees sequester about 1,040 MT/yr of carbon. That’s slightly less
+than the carbon emissions from municipal operations, and only ~1.3% of the
+community’s carbon footprint. While no data was provided on municipally-owned
+trees, an earlier DPW tree survey led to the same conclusion for our municipal carbon
+footprint. Bottom line: our trees do cut our carbon emissions, but not significantly.
+- Recruitment/Outreach/Communications/PR
+Our press release (plus two pics) on getting the top CEC spot in the State appeared in
+the Sept. print issue of the River Journal.
+On 9/10, Lindsay zoomed with Rye’s Sustainability Committee on its energy options.
+On 9/19, Lindsay delivered a 20-minute zoom (“Croton Is NY’s Leading Clean Energy
+Community”) to members of CURE100.
+- New Business / Other Issues
+Brian and Len reviewed nearby EV promotional events taking place this coming week
+e.g., Clean Ride and Drive is September 30th https://patch.com/newyork/bedford/calendar/event/20230930/56342f0d-89d3-4598-99ac03c751758ec4/clean-ride-and-drive. They suggested coordinating an event in Croton in
+next year. Len is now an avid e-bike owner. He sees them as an excellent way for lowincome residents to travel locally, savings $ on fuel and cutting emissions.
+Brian reported that Sustainable Westchester will host a home energy efficiency promo
+event in the Community Room focused on seniors but open to anyone. Details are still
+being worked out.
+Date for our next meeting was set for Sunday, Oct. 22, at 10:30 AM via zoom.
+4
+
+

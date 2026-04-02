@@ -1,0 +1,715 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, June 28, 2020 – via Zoom.us
+Members Attending:
+Lindsay Audin
+Niall Kelleher
+Len Simon
+
+Joel Gingold
+Brian Pugh
+Jon Katz
+
+Absent:
+David Goldman (on leave)
+John Habib (excused)
+
+Non-members wishing to attend are asked to RSVP to energywiz@aol.com to verify meeting date,
+time, and location, which may be adjusted to meet committee member requests. [Bracketed] text
+relates to actions subsequent to this meeting.
+-------------------------------------------------------------------------Scheduled guests: none
+Quick updates/holdovers/follow-ups/status:
+- Food scrap recycling: After discussions with C100, Joel concluded that it is not yet able and/or
+willing to handle administration of our pilot food scrap recycling grant project. He also found that
+Hilltop Hanover Farm (HHF) in Yorktown (which had been suggested as an alternative) could act
+as a recipient for Croton food scraps but they would then be taken to the Ulster composting facility.
+We had already ruled that out due to GHG from the diesel trucking involved. Sustainable Materials
+Management (SMM) in Cortlandt announced on June 8 that its construction on its commercial
+composting facility was almost done. They expected to be open and operating “in a month or so”.
+During this discussion, Lindsay asked if any members were aware of an indoor composting
+process that essentially “pickles” food scraps into compost, ostensibly emitting little or no methane.
+It was mentioned during a call with Rhinebeck’s sustainability committee. It involves bokashi, a
+brownish powder additive that accelerates that process. Niall agreed to investigate it as an option
+for residents that wish to compost their food scraps. Jon will also examine the process. A good
+starting point is https://bokashiliving.com/.
+EV/EVSE: Regarding EV school buses, the school district’s transportation budget (which included a
+hybrid van but not an EV school bus) was passed June 16, despite C100’s opposition. As
+improvements are made in the fiscal and technical viability of EV school buses, we will review
+options to replace another of the district’s 2006 Type C buses. In the meantime, Lindsay will urge
+the district to develop a list of ways that the bus depot needs to be upgraded to install appropriate
+charging and parking for EV school buses.
+- Solar projects: We now have three solar jobs in process:
+- Work on the DPW rooftop job started in early June and should be done by mid-July. Con Ed is
+scheduled to deliver its transformer on July 13.
+- To help expedite the Croton Landing canopy job, Ecogy chose to focus on it and put off further
+development of the Senasqua Park job. To move it forward, Ecogy provided a draft Letter of
+Intent/Memo of Understanding (LoI/MoU). It would show the Village’s intent to proceed once the
+CESIR application is approved. The LoI/MoU was forwarded to Janine for review on June 23.
+
+1
+
+- At the June 8 VB work session, the train station parking lot solar canopy RFP was discussed.
+After various concerns were addressed, the VB authorized Janine to review the draft we had
+provided on May 15. We also drafted a Request for Information (RFI) to whittle down the ~200
+NYSERDA-approved vendors to just those meeting our criteria to receive the RFP. Janine provided
+edits on June 29. The RFI was sent to the vendors on June 29, with responses required by July 14.
+Work continues on the draft RFP.
+By coincidence, a June 11 Zoom by Rockland Goes Green (comparable to our committee) focused
+on potential parking lot solar canopies in the Hudson Valley. It listed all Metro-North parking lots,
+with the Croton station lot being the largest, with the greatest potential solar output.
+- Climate Smart Community (CSC): To advance our status from Bronze to Silver, more changes
+were made to our last 4 submissions. On June 15, the VB amended its 3/16/20 GHG commitment
+resolution to fix a detail required by DEC. Revised submissions were submitted to DEC June 27 to
+meet its July 3 deadline. We should next hear back on this on Aug. 21.
+- NYPA’s 100% renewable power offering: Lindsay again queried the local NYPA rep on June 14 and
+23, but no response was received, despite promises to provide details by now. He will press again
+for information before our next meeting. Such an offering, if taken, could significantly cut the carbon
+footprints of the schools and municipal government.
+Recruitment/Outreach:
+- School district: Its budget passed and the school year concluded, there is nothing new to report.
+We await a response to our April 24 FOIL request for the district’s GHG-related inventory data.
+- Library: While its budget was accepted on June 16, it remains unclear when it may re-open. On
+June 22, Lindsay again asked its director about upgrading its lighting to LED. Doing so would be
+easier while the building remains closed. The annual GHG reduction would roughly equal that of an
+EV school bus, but at ~5% of the cost. Con Ed recently raised its rebates by 33-67% for projects
+that apply by 9/30/20 and do the work by 11/15/20. Doing so could yield a payback period <1 year.
+However, the director said the library is focusing all its attention on re-opening. In the meantime, it
+is replacing its fluorescent lamps with LEDs one-at-a-time as the former burnout.
+Communications:
+A response to our 2nd FOIL request to the MTA was received. To help us complete a Scope 1&2
+GHG inventory for the Harmon Yard train facility, we had asked for its 2019 NYPA electric bills.
+MTA stated that it does not get separate electric bills for the Harmon Yard. A FOIL request was
+submitted to NYPA on June 22 to determine the Yard’s annual power consumption. The data, if
+available, may be provided by July 28.
+To raise our Climate Smart Community points, Lindsay will ask the Bike-Ped Committee during its
+July 24 Zoom to consider seeking a Complete Streets policy resolution from the VB. Much of that
+committee’s work already fits such a policy, so no new projects or expenses would be needed.
+Ongoing/new business:
+2
+
+- Jon reviewed his Stretch Code FAQ, a draft of which was sent to committee members on June 27.
+While the State’s energy construction code (NYECCC) was updated last May, opportunities remain
+for even more energy-efficient new homes/additions/rehabs. Among them are: windows that lose
+less heat, improvements to insulation specifications, and additional wiring and conduits needed to
+prep a home for future solar and EV charger installations. The Village has the power to mandate
+such code changes locally, but it was felt such a change should be accompanied by a financial
+incentive. Brian indicated that the best way would be to bar increases to property tax assessments
+on the value of such improvements, thus providing an additional form of payback for installing
+them. The committee discussed various issues with the costs, paybacks, etc. of a locally stricter
+building code. Several edits and changes were suggested. With help from committee members,
+Jon plans to convert his report (appended below) into a proposal to the VB later in the summer.
+- Len reported on the possibility of securing private grant funds from 7 large foundations. Janine had
+indicated we could do so as long as the VB previously OKed a project that could get such funds.
+He noted that attention of some of those foundations is now on COVID-related issues, or overseas
+needs, or specific locations, and several of them actually have very limited or non-existent current
+focus on climate change or energy technology. Bottom line: at this time, Croton is either too small,
+or otherwise not appropriate, to receive funding from most of those sources. Joel suggested that
+several communities band together to get around the size issue, and maybe work with C100 to act
+as the 501(c)(3) agent where needed. Len will monitor the Bezos Fund as it rolls out its first climate
+change grants. It may be the best bet of the 7 for future funding. His report is appended to these
+minutes. Len agreed to next compile a list of the main funders of 5 major climate change-oriented
+organizations: NRDC, EDF, Sierra Club, Climate Reality Project, and 350.org.
+- Joel briefly reported on a proposed wind turbine manufacturing plant (not a wind farm) called Port
+Cortlandt (https://portcortlandt.com/). The town of Cortlandt clarified that the application to lease
+20+ of its acres (along the Hudson River in Verplanck) was a private project by AKRF, Inc. which is
+seeking financial support from NYSERDA. No approvals have been given, nor has Cortlandt’s
+board voted on it. At this point, the project is essentially conceptual.
+Date for our next meeting: July 26, 2020 (our last meeting until Sept. 27 to allow summer recess).
+
+Jon’s Stretch Code FAQ report
+NYS 2020 Stretch Code, Summary and Review Notes, Croton on Hudson, Sustainability
+Committee
+
+
+
+Note that NYS ECCC 2020 (Base energy code) went into effect May 12, 2020, already more
+stringent than previous code.
+This summary focuses on the Residential Provisions of the NYS 2020 Stretch Code.
+
+This summary is being provided to answer some additional questions that may arise, that are not
+answered by the NYSERDA FAQ document available here:
+
+
+https://www.nyserda.ny.gov/All-Programs/Programs/Energy-Code-Training/NYStretch-EnergyCode-2020
+3
+
+Q: What is a stretch energy code? (From the NYSERDA FAQ)
+A: A stretch energy code is simply an energy code that is more stringent than New York State’s base
+energy code that can be adopted by local jurisdictions.
+Common Additional Questions:
+Q: What’s going to trigger the requirements of NYS Stretch, with respect to existing residences?
+(Note, this answer is provided by Jonathan Katz, PE, and while it’s an engineering professional’s
+opinion, it’s not the interpretation of the local Code Enforcement /AHJ [Authority Having
+Jurisdiction] / Building Dept.
+A: Any new construction or new addition is subject to the adopted energy code. If NYS Stretch were
+adopted in full or in part, then most additions and Alterations to existing buildings (including
+residences) are subject to Chapter 5 of the NYS ECCC. NY Stretch does not modify what triggers
+compliance with the Energy Code.
+ Energy Code applies to Additions, The new portion only, generally without affecting existing
+parts of a building.
+ Energy Code applies to altered parts of building/systems only.
+ Example Alteration: Conditioning an unconditioned basement space. The altered space
+should be in full compliance with the code, (except if performance modeling methods are
+used).
+ There are many exceptions where alterations don’t have to comply with provisions for new
+buildings:
+
+Figure 1 Excerpt NYS ECCC
+
+There are many parts of the NY Stretch code that apply to new buildings only (Domestic hot water
+efficiency measures, solar ready, EV ready, for example).
+Q: Does NY Stretch require increasing wall thicknesses for wood framed construction?
+
+4
+
+A: Both R-20 and R-21 batt is 5.5” thick; so no, there is no increase in thickness to a 2x6 wall. In
+addition to R-21, NY Stretch requires header insulation of R-10, which is intended to reduce
+“Thermal Bridging” which is a significant source of energy waste is buildings. Example image
+below for residential wall construction.
+
+Figure 2 Example Wall detail, with header insulation
+
+Q: Does the Village have the ability to adopt only portions of this NY Stretch code
+?
+A: Yes, Sustainability Committee believes that would be allowed, as long as any deletions to the NY
+Stretch provisions done inadvertently make the adopted energy code less stringent than the 2020
+NYS ECCC. (This is unlikely).
+Q: Could we have a Village /local law that would be an incentive program rather than a mandatory
+Local Law.
+A: Yes, From recent Sust. Committee meeting minutes: As per discussions regarding legality of
+offering a property tax incentive to those using the Stretch Code, Brian P. verified with the Village’s
+attorney that Croton could indeed develop a program offering an incentive."
+Q: Does NY Stretch Code make rooftop solar panels mandatory in any situation?
+A: No, however the NY Stretch code requires that new residential construction, with at least 600 ft 2
+of roof-area, be made “Solar Ready” (with some exceptions).
+Q: Does NY Stretch Code require EV charging stations be installed in any situation?
+A: No, however the NY Stretch code requires that new residential construction, with on-site parking
+be made “EV Charging Ready” by providing 240V/40A outlets (or wire/conduit), at the parking area
+for each dwelling unit, or 5% of the parking spaces.
+5
+
+Q: What will it Cost to comply with NYS Stretch Code? (based on our locality)
+A: Cost Impact to Residences, from NYSERDA study, for residences in climate zone 4A-balance
+(That’s downstate NY, including Westchester County):
+~$2,500 to $3,000. (See breakdown in next section).
+Sustainability committee reviewed the NYSERDA report and found these estimates are likely on the
+low side depending on the size and scope of the renovation, new addition, new house.
+
+Figure 3: Excerpt NYSERDA Cost Analysis study
+
+Q: Specifically what does the Residential Provisions of NYS Stretch Code Improve over the 2020
+NYS energy code?
+A: This is a brief Summary List of improvements for Climate Zone 4A; Refer to the NYSERDA report
+for a complete list of Stretch Code Improvements.
+*Total Costs per NYSERDA includes a -$330 credit for reduced equipment size.
+Based on a 2,400 SF detached house per NYSERDA study.
+
+6
+
+Component
+
+2020 NYS Stretch Code
+
+2020 NYS ECCC
+(Base Code)
+
+NYSERDA Study
+Cost Add:*
+
+Wall Insulation when insulating
+only the wall cavity
+Wall Insulation when using cavity
+and continuous
+Windows U-value
+Floor Insulation
+Basement Wall/Crawl space wall
+Insulation
+Slab Insulation depth
+Insulation Inspection
+
+R-21 with R-10 added to wall
+headers
+R-20 cavity + R-5 continuous
+
+R-20 only
+
+$380
+
+R-13 cavity + R-5
+continuous
+U-0.32
+R-19
+R-10 cont. or R-13 cavity
+
+-
+
+$560
+No cost included
+
+HVAC Ducts location
+HVAC Duct Sizes
+DHW Efficiency Options
+
+Locate in conditioned space
+Sized Per ACCA
+New Buildings must choose
+from:
+limited volume, limited pipe
+length, DHW Circ system, or
+Drain HRUs.
+ERV Not required in zone 4A
+Balanced ventilation system
+required. 45 W/cfm max
+fan power/
+Testing Required
+
+2 ft
+Not Required, local
+inspector
+No Requirement
+No requirement
+ECMs are optional.
+
+No requirement.
+
+$300
+
+No Requirement.
+
+No cost included
+$21
+
+Ventilation and Energy Recovery
+Ventilators (ERV)
+
+Ventilation verification
+Lighting Efficacy
+Lamps (i.e. bulbs)
+Luminaires (i.e. fixtures
+w/lamps)
+Solar Readiness
+EV Charging Readiness
+
+U-0.27
+R-30
+R-15 cont. or R-19 cavity
+4 ft
+Required, 2% compressed max
+
+65 lm/W
+45 lm/W
+
+60 lm/W at most
+
+Yes, for new buildings
+Yes, for new buildings
+
+None
+None
+
+7
+
+$391
+$480
+$345
+
+$505
+$400
+
+No cost included
+No cost included
+
+Len’s Report on Seven Private Funding Sources
+
+Review of Foundation Funding Sources for Sustainability Committee Projects
+Funding
+Source
+
+Climate Change/
+Energy Efficiency Awards/
+Focus
+
+Bloomberg
+Philanthropies
+
+(1) American Cities Climate
+Challenge, formed with an
+investment of $70 million to
+support cities in the fight
+against climate change,
+focuses on high-impact
+urban climate solutions that
+are already proven to
+succeed – specifically, from
+the buildings and
+transportation sectors. 25
+U.S. cities, all large, are
+currently participating.
+--------------------------(2) The Mayors Challenge
+helps cities develop ideas
+that solve the most urgent
+problems facing cities today,
+including climate change. 35
+Champion Cities were
+selected from a pool of more
+than 320 applications. The
+Mayors Challenge has been
+offered periodically since
+2013 and was last available
+in 2018.
+
+Municipal
+Eligibility/
+Size Factors
+
+---
+
+Matchin
+g
+Share
+
+Grant
+Amounts
+
+Winning cities receive: (1)
+help in creating high
+impact policies; (2) data,
+design, and innovation
+resources; (3) leadership
+development supports; (4)
+implementation coaching to
+drive results; (5) citizen
+engagement supports to
+maximize community buyin; (6) polling and
+communications support;
+(7) robust peer-to-peer
+learning and networking to
+ensure the 25 Leadership
+Cities learn from and push
+one another; and (8) Rapid
+response grants to
+accelerate impact
+
+--Each Champion City
+received $100,000 and
+coaching to creatively test
+its new idea with
+residents. Nine Winning
+Cities then received $1
+million each to bring their
+ideas to life.
+
+8
+
+---
+
+Grant
+Durati
+on
+
+---
+
+Grant
+Calendar
+
+----
+
+Notes
+
+I have reached out to
+Bloomberg
+Philanthropies to
+receive ongoing
+information on the
+American Cities
+Climate Challenge, the
+Mayors Challenge or
+other grant
+opportunities in
+which climate change
+can be a focus.
+
+Funding
+Source
+
+Climate Change/
+Energy Efficiency Awards/
+Focus
+
+Municipal
+Eligibility/
+Size Factors
+
+The Bill and
+Melinda
+Gates
+Foundation
+
+In February, the Foundation
+declared that fighting climate
+change will be a prominent
+issue in their philanthropy
+going forward. They will
+focus on meeting the Paris
+Accord Goals by 2050
+through Mitigation and
+Adaptation.
+
+The
+foundation
+awards the
+majority of
+its grants to
+U.S.
+501(c)(3)
+organizations
+and other
+tax-exempt
+organizations
+.
+
+On February 17th, 2020, Jeff
+Bezos announced that he was
+donating $10 billion to a new
+organization called Jeff Bezos
+Earth Fund to fight climate
+change. JBEF will "begin
+issuing grants this summer".
+
+JBEF will
+fund
+scientists,
+activists,
+NGOs. No
+mention of
+municipal
+eligibility
+yet.
+
+Jeff Bezos
+Earth Fund
+
+⁣⁣
+
+Paul G. Allen
+Family
+Foundation
+
+PGA has a Climate and Energy
+Program which has recently
+sponsored grants in
+Transportation and Mobility
+(the Smart Cities Initiative) and
+Energy Policy and Technology
+
+---
+
+Matchin
+g
+Share
+
+Grant
+Amounts
+
+---
+
+---
+
+---
+
+---
+
+---
+
+--9
+
+Grant
+Durati
+on
+
+---
+
+---
+
+---
+
+Grant
+Calendar
+
+----
+
+----
+
+----
+
+Notes
+
+Since the February
+announcement, news
+from the Foundation
+has dealt mostly with
+COVID-19, with no
+mention of new
+climate change grants.
+I have reached out to
+the Foundation to
+express interest and
+inquire when climate
+change initiatives may
+be forthcoming.
+
+No new information
+on the Jeff Bezos
+Earth Fund available
+since its initial
+announcement on
+February 17, 2020. We
+will monitor its
+progress and report
+back.
+
+"Because our funding
+vision and priorities
+are carefully curated,
+at this time we do not
+accept unsolicited
+proposals". I have
+contacted PGA to
+
+Funding
+Source
+
+Climate Change/
+Energy Efficiency Awards/
+Focus
+
+Open Society
+Foundation
+(George Soros)
+
+The Foundations does not
+appear to be currently working
+in the climate change or
+energy innovation fields.
+
+Chan
+Zuckerberg
+Initiative
+
+Clinton
+Climate
+Initiative
+
+CZI makes grants to
+organizations working in support
+of missions in Science,
+Education, and Justice &
+Opportunity – as well as giving
+grants directed to their local
+community - the Bay Area in
+California. They do not work in
+climate change or energy
+technology.
+In April 2011, the Cities
+Program of the Clinton
+Climate Initiative (CCI), a
+program of the William J.
+
+Municipal
+Eligibility/
+Size Factors
+
+Grant
+Amounts
+
+Matchin
+g
+Share
+
+Grant
+Durati
+on
+
+Grant
+Calendar
+
+---
+
+---
+
+---
+
+---
+
+----
+
+---
+
+---
+
+---
+
+---
+
+----
+
+The C40
+Focus is
+mega-cities.
+
+inquire about future
+solicitations for which
+the Sustainability
+Committee could
+apply.
+Notes
+
+Grants "Themes" are:
+Democratic Practice,
+Higher Education,
+Early Childhood
+Education Human
+Rights Movements
+and Institutions,
+Economic Equity and
+Justice, Information
+and Digital Rights,
+Equality and Antidiscrimination,
+Journalism, Health and
+Rights, Justice Reform
+and the Rule of Law.
+
+----
+
+Prior to merger with
+C40, the CCI’s Cities’
+Programs included
+building retrofits,
+
+10
+
+Clinton Foundation and the
+C40 Cities Climate Leadership
+Group (C40) merged, with C40
+essentially absorbing CCI.
+
+---
+
+---
+
+---
+
+11
+
+---
+
+----
+
+outdoor lighting,
+waste management,
+low carbon
+transportation, new
+urban developments,
+and greenhouse gas
+measurement and
+reporting.
+
+

@@ -1,0 +1,230 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, June 26, 2022 – via zoom
+Members Attending:
+Lindsay Audin
+Len Simon
+Joel Gingold
+Bernie Yozwiak
+Niall Kelleher
+Dan Columbini
+Brian Pugh
+Jon Katz
+
+Absent:
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: We again thank the Village for sponsoring our zooms.
+Updates/holdovers/follow-ups/statuses:
+- Stretch Code Adopted!
+Thank you to all who assisted. The 6/6 hearing on Stretch went off OK, and the VB
+adopted Stretch on 6/21, effective 6/22 (8 days before CEC’s 6/30 deadline). All
+paperwork to both the Dept. of State and NYSERDA was submitted 6/23. Len thanked
+Village engineers Dan O’Connor and Robert Wegman and others for their assistance
+and support throughout this process.
+- NYSERDA CEC grants and projects
+Campaigns: On 5/23, NYSERDA awarded us the $5K grant for our EV campaign. On
+6/22, it awarded us the $5K for our HP campaign. Paperwork to get checks for both has
+been submitted. We have now won $120K in the CEC Leadership Grant program. The
+last $5K grant and 1,200 CEC points will come after NYSERDA OKs our Stretch Code
+paperwork, probably by late July.
+Washington firehouse solar rooftop: On 6/6, the VB approved Croton Energy Group’s
+[CEG] proposal. On 6/24, CEG submitted its draft construction contract for Village staff
+review. It looks to finish the job (if started soon) by October. Once the Village signs the
+contract, we can apply for 25% of the grant ($22,500) and start the work. The revised
+NY-SUN incentive manual came out 6/7. For that project, it will produce a surplus of
+~$33K that (with NYSERDA permission) will be used to buy down the cost of the next
+municipal EV.
+HP controls proposal: Jon secured a refreshed proposal from Carey & Walsh. At
+$13,585, it’s still under $20K, so no RFP or bidding is required. On 6/15, a package of
+documents related to the project was sent to Village staff for comments and approval.
+Once we have their input, Jon and Lindsay will set up a site meeting with Village staff
+and Fire Dept. officials to review the project.
+- EV/EVSE
+
+1
+
+Via email, former committee member David Goldman reviewed the potential of the Ford
+F150 Lightning EV to handle some DPW tasks. While he found that its horsepower was
+similar or greater than that of DPW’s pickup trucks, it was not designed for “commercial”
+work such as snow plowing. Its transmission could not handle it and the present version
+does not allow attachment of a plow. As such, we will not ask DPW to consider it until
+later versions overcome those limitations. Other details developed by Dave’s research are
+at the end of these minutes. Dan found the F150 Lighting’s base cost is ~$42K.
+A 6/23 development regarding funding for EV charger infrastructure at the train station is
+discussed under “Funding Sources” below.
+- Funding Sources/Issues
+Regarding the cessation of Con Ed rebates for residential ASHPs and HPWHs, Jon
+verified that the statements sent to us by SW on the matter were legitimate. Dan checked
+the status of rebates for commercial ASHPs and HPWHs, and found they too have
+already been fully committed. Rebates remain available for GSHPs for both residential
+and commercial projects.
+On the PowerReady incentive for EVSE infrastructure, a 6/16 zoom with Con Ed verified
+that sufficient funds have already been allocated (not spent) such that new applications
+will be wait-listed until an existing application is dropped due to no activity for 6 months. A
+PowerReady application will be submitted by Lindsay, just in case a spot opens up.
+Fortunately, on 6/23 DEC issued a Request for Applications (RFA) for its new EV charger
+and infrastructure grant program. It would cover up to 80% of the cost, with the Village
+needing to provide a 20% match. We cannot use any of our $5K NYSERDA grants for a
+match. We asked DEC if the match could instead be provided via our leasing deal with
+SolSystems wherein we are indirectly paying for the wiring conduits. [On 6/27, they
+emailed a long answer that boiled down to “no”.] Bernie recently completed a Scope of
+Work (SOW) and spec to help determine the grant we would need and is now developing
+a cost estimating spreadsheet to do so.
+Deadline for applications is 9/22, but we need to apply ASAP lest those funds be quickly
+consumed by others’ projects. Several paper-based tasks will be distributed among
+committee members to expedite grant app completion. Assignments to come by July 15.
+Another new DEC grant will pay down the cost of new EVs and PHEVs based on miles
+per charge and vehicle weight, ranging from $2,500 to $7,500 per car. The Village may
+pursue such grants for its pending EV purchases.
+Because the Washington firehouse is within the Climate Justice Working Group’s (CJWG)
+new map of Disadvantaged Communities (DACs), and our grant for that project is over
+$20K, we may be eligible for a $10K bonus grant. The map (see last page) is not yet
+official, so we asked NYSERDA if starting the job before then could cause us to miss that
+bonus. We await its answer. $10K could pay for a few more train station EV chargers.
+
+2
+
+Solar projects within Croton’s expected DAC could also apply for an extra $.10/W NYSUN incentive. But that could entail a delay that might jeopardize locking in the $1.20/W
+incentive we want. The firehouse job didn’t need the extra $.10/W and was not pursued.
+Croton Landing Park is also within Croton’s DAC and could seek the $.10/W, but it’s too
+little to yield a significant increase in projected leasing revenue.
+- Other Solar Projects
+Train station canopies: At 5/25 and 6/16 meetings, SolSystems and Core Development
+(its contractor) stated that the final 50% drawings showing proposed trenching should
+arrive by the end of June. The completed ground-penetrating radar (GPR) survey found
+no problems. Bedrock was located 90-100 feet below the surface. The canopy piers will
+need to be drilled to that depth. The full report will be available by the end of June. POs
+have been issues for the transformers and other items involving long lead times, but
+supply chain issues have already arisen. Sol’s revised construction schedule would start
+work this October, with completion by 8/23.
+Croton Landing Park canopies: Regarding park alienation exemption issues, we have not
+yet received answers to questions posed to State Assembly staff by Bryan Healy on 4/25.
+In the interim, Dan O’Connor provided several maps showing legacy easements over one
+of the 2 areas where canopies were planned. Dating from 1962, they involve the railroad
+which until then owned the site. They essentially eliminate the northern section (next to
+blacktop) where 2/3 of the canopies were to be installed.
+However, the southern section (by the graveled area) is clear of such encumbrances. But
+only a ~140 kWp system would fit into it. Ecogy is reviewing it if wishes to pursue such a
+small system. The new NY-SUN incentives are insufficient to produce even $1K/yr of
+leasing rent, which is unacceptable to the Village. Even taking 40% of its power for Village
+accounts (allowed under community solar rules) would get us only an additional ~$1K/yr.
+To build it without a community solar contractor would require getting a ~$500K grant Just
+in case those issues are eventually resolved in favor of proceeding, Lindsay will pursue
+an alienation exemption.
+“Solar Credit Offering”: Sustainable Westchester (SW) is developing an essentially optout community solar program for low-income customers getting government aid on their
+utility bills (called Assistance Program Participants [APPs]). If we agree to pursue it, we
+could get 500 points under the CEC’s “Opt-Out CDG” [Community Distributed Generation]
+action. More points help us secure future grants.
+On 5/24, Lindsay attended a SW zoom on the program. He learned that Westchester
+County has 30,408 APPs, of which Croton has ~52. The PSC is developing an order
+allowing the offering under several conditions. After serving the APPs, it may be extended
+to other low-income customers. At SW’s request (and with Mayor Pugh’s OK on 6/3),
+Lindsay provided supportive comments to the PSC on the program. SW did not identify
+the ~180 MW of solar needed to supply ~30,000 APPs.
+3
+
+Getting the 500 CEC points would require all of a municipality’s eligible APPs to be opted
+into it. But several of Croton’s APPs may already be enrolled in our Ecogy / DPW
+community solar program. NYSERDA personnel felt that they would not be considered
+“eligible” for Opt-Out CDG, so we would not need to involve them to win the CEC points.
+There is some confusion regarding how much of the power from the train station canopies
+has been committed to Croton’s municipal accounts and thus how much would be
+available for APPs. While taking up to 40% was discussed during lease negotiations,
+there was no mention of it in the signed version, so we asked Bryan Healy to clarify the
+issue. If all our APPs ended up taking opt-in community solar from the SolSystems’
+canopies, none would be eligible for Opt-Out CDG.
+The offering – and our CS 2.0 program, the power for which is to come from an Ecogy
+Shrub Oak project – requires consolidated billing which (due to Con Ed’s software
+problems) is still not in effect. Joel inquired on its status. He was told that anyone who
+signed up for it could drop out any time with no penalty and go with another community
+solar provider. A complaint against Con Ed to the PSC on consolidated billing was
+initiated in April. Brian requested the case number. [It is Matter No. 22-00801. Find it at
+https://documents.dps.ny.gov/public/MatterManagement/CaseMaster.aspx?Mattercaseno
+=22-00801 ]
+Regarding further details on the Solar Credit Offering, we were told to wait for the PSC
+order on the program, expected before the end of the summer. At best, Opt-Out CDG
+would not take effect until early 2023.
+- Other Reports
+Lindsay thanked Joel for his efforts on items that, in their ends, had no effect or our work.
+Grand St. firehouse electric billing: Regarding its 2008 solar installation (~6 kWp installed
+by NYPA), an anomaly on NYPA billing for the site prompted Lindsay and Jon to review
+how it accounted for the solar output. Apparently, NYPA never told Con Edison of the
+installation so no solar crediting process (e.g., net metering) was ever set up for it. They
+concluded that the existing metering created a de facto net metering situation. There was
+thus no point to seeking a refund of changing the existing (albeit crude) billing process. To
+avoid future confusion, NYPA agreed to drop a fictitious solar meter from its invoices.
+- Recruitment/Outreach/Communications/PR
+Bernie recruited an intern (Yorktown High School junior Abhishek Nair) who will assist him
+over the summer with cost estimating the train station EV infrastructure. On 6/15, Bernie
+and Lindsay zoomed with him and Paul Rubeo, his teacher/mentor.
+- New Business / Other Issues
+In light of soaring power pricing and the temporary suspension of CCA, Jon suggested we
+consider another Solarize campaign. A 6/13 email from Claire Kokoska, Manager of SW’s
+4
+
+Solar Programs, stated: “After 2018 with the launch of Community Solar and with the
+expiration of tax credits that made residential solar more attractive to homeowners, we
+pivoted from Solarize Westchester to Community Solar. Though we retired the Solarize
+Westchester program for several years, we have been exploring a reboot of the program,
+although it would operate slightly differently. We will notify you of any developments as
+the potential program takes shape in the coming months.”
+Leo Wiegman, SW’s Director of Solar Programs, on 6/14 added: “The first Solarize 1.0
+was funded by NYSERDA. The second Solarize 2.0 was funded by success fees paid by
+the developers, but required [monitoring] every potential prospect every step of the way
+each week. They were successful, as you point out, but incredibly labor intensive.
+We are contemplating a new funding approach to run a lighter touch, less labor intensive
+Solarize 3.0, based on the 2022 solar world”.
+A survey to determine community interest was discussed. Of Croton’s ~3,000 owneroccupied single-family homes (which account for nearly all residential solar installations),
+over 200 already have solar. Based on past Solarize programs, only ~10% of all homes
+(i.e., in this case ~300) that consider solar ever install them due to issues such as solar
+exposure, roof condition, financing, etc. That leaves maybe ~100. Financial incentives
+have dropped since the last program, reducing that number and making it difficult to ID
+those owners. We agreed to wait for SW’s new program before pursuing our own actions.
+Lindsay raised the possibility of using output from SolSystems’ 15 MWh battery during a
+long power outage (e.g., August 2020) to feed the cell tower, parking lot lighting, and
+other loads in the west parking lot. Such a hookup is called a “Solar Powered Community
+Resilience Hub”. Bernie looked into how it could be done. Most of the cost would be
+eligible for a new NY DEC grant. When asked about this option, Bryan Healy responded
+(6/21): “Thank you for looking into this. However, the west side of the lot is susceptible to
+flooding (albeit less susceptible than the east side). So I think it is best to not move
+forward with this.” We agreed to not pursue this option.
+Joel mentioned that comments on the Climate Action Council’s (CAC) ~400-page report
+to the State on how to pursue CLCPA’s goals are due by Friday, July 1.
+Date for our next was set for Sunday, July 24 at 10:30 AM via zoom. Bernie and Jon will
+be on vacation. We discussed taking a hiatus in August, but will assess that in July.
+
+5
+
+Appendix on pickup truck horsepowers vs. F150 Lightning, as per David Goldman
+The Ford F150 Lightning EV has 441 HP at 4,000 RPM. Is that enough to plow snow?
+- HP turns out to not be the issue. Transmission won’t allow commercial apps. No
+way to even attach a plow.
+- standard F150 475 HP, 6.7-liter, 8 Cylinder Engine (Diesel Fuel)
+- F250 XL 430 HP, 7.3-liter, 8 Cylinder Engine (Gasoline Fuel) There are different
+models. The SuperDuty Limited has an engine option for the 6.7L Power Stroke V8
+Turbo Diesel with HP of 475
+- F350 430 HP, 7.3-liter, 8 Cylinder Engine (Gasoline Fuel); super-duty uses diesel,
+475 HP
+-F450 XL 475 HP, 6.7-liter, 8 Cylinder Engine (Diesel Fuel)
+- F550 XL 385 HP This was harder to find and appears to have many mix-match
+combinations.
+Fuel
+26.5 gallons (F-350 SRW w/68D Payload Downgrade Pkg.)
+Capacity
+40 gallons (F-350 SRW/F-350 DRW/F-450/F-550/F-600; NA with
+68D Payload Downgrade Pkg. on F-350 SRW)
+66.5 gallons (DRW - dual diesel tanks)
+385 HP@ 5,750 rpm | 430 TQ @ 3,800 rpm
+F550XL Horsepower | Torque
+(6.2L V8)
+330 HP @ 2,600 rpm | 825 TQ @ 2,000 rpm
+(6.7L Power Stroke® Turbo Diesel)
+335 HP @ 3,750rpm (7.3L V8)
+
+6
+
+Croton DAC zone as projected by the Climate Justice Working Group (CJWG)
+
+7
+
+

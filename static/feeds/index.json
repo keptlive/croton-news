@@ -1,0 +1,255 @@
+{
+  "generated_at": "2026-04-02T09:13:27.590355",
+  "total_events": 466,
+  "feeds": [
+    {
+      "id": "all",
+      "name": "All Events",
+      "description": "Everything happening in and around Croton-on-Hudson",
+      "path": "/feeds/all.ics",
+      "count": 466,
+      "type": "master"
+    },
+    {
+      "id": "cat-events",
+      "name": "Community Events",
+      "description": "Community Events in and around Croton-on-Hudson",
+      "path": "/feeds/category/events.ics",
+      "count": 383,
+      "type": "category",
+      "category": "events"
+    },
+    {
+      "id": "cat-government",
+      "name": "Government & Meetings",
+      "description": "Government & Meetings in and around Croton-on-Hudson",
+      "path": "/feeds/category/government.ics",
+      "count": 20,
+      "type": "category",
+      "category": "government"
+    },
+    {
+      "id": "cat-schools",
+      "name": "Schools & Education",
+      "description": "Schools & Education in and around Croton-on-Hudson",
+      "path": "/feeds/category/schools.ics",
+      "count": 63,
+      "type": "category",
+      "category": "schools"
+    },
+    {
+      "id": "src-cortlandt",
+      "name": "Town of Cortlandt",
+      "description": "Events from Town of Cortlandt",
+      "path": "/feeds/source/cortlandt.ics",
+      "count": 10,
+      "type": "source",
+      "source_key": "cortlandt"
+    },
+    {
+      "id": "src-cortlandt_rec",
+      "name": "Town of Cortlandt Recreation",
+      "description": "Events from Town of Cortlandt Recreation",
+      "path": "/feeds/source/cortlandt_rec.ics",
+      "count": 3,
+      "type": "source",
+      "source_key": "cortlandt_rec"
+    },
+    {
+      "id": "src-croton_point_park",
+      "name": "Croton Point Park",
+      "description": "Events from Croton Point Park",
+      "path": "/feeds/source/croton_point_park.ics",
+      "count": 30,
+      "type": "source",
+      "source_key": "croton_point_park"
+    },
+    {
+      "id": "src-field_library",
+      "name": "Field Library (Peekskill)",
+      "description": "Events from Field Library (Peekskill)",
+      "path": "/feeds/source/field_library.ics",
+      "count": 30,
+      "type": "source",
+      "source_key": "field_library"
+    },
+    {
+      "id": "src-historic_hv",
+      "name": "Historic Hudson Valley",
+      "description": "Events from Historic Hudson Valley",
+      "path": "/feeds/source/historic_hv.ics",
+      "count": 6,
+      "type": "source",
+      "source_key": "historic_hv"
+    },
+    {
+      "id": "src-library",
+      "name": "Croton Free Library",
+      "description": "Events from Croton Free Library",
+      "path": "/feeds/source/library.ics",
+      "count": 220,
+      "type": "source",
+      "source_key": "library"
+    },
+    {
+      "id": "src-ossining_library",
+      "name": "Ossining Public Library",
+      "description": "Events from Ossining Public Library",
+      "path": "/feeds/source/ossining_library.ics",
+      "count": 25,
+      "type": "source",
+      "source_key": "ossining_library"
+    },
+    {
+      "id": "src-ossining_town",
+      "name": "Town of Ossining",
+      "description": "Events from Town of Ossining",
+      "path": "/feeds/source/ossining_town.ics",
+      "count": 24,
+      "type": "source",
+      "source_key": "ossining_town"
+    },
+    {
+      "id": "src-paramount",
+      "name": "Paramount Hudson Valley",
+      "description": "Events from Paramount Hudson Valley",
+      "path": "/feeds/source/paramount.ics",
+      "count": 14,
+      "type": "source",
+      "source_key": "paramount"
+    },
+    {
+      "id": "src-schools",
+      "name": "Croton-Harmon Schools",
+      "description": "Events from Croton-Harmon Schools",
+      "path": "/feeds/source/schools.ics",
+      "count": 63,
+      "type": "source",
+      "source_key": "schools"
+    },
+    {
+      "id": "src-teatown",
+      "name": "Teatown Lake Reservation",
+      "description": "Events from Teatown Lake Reservation",
+      "path": "/feeds/source/teatown.ics",
+      "count": 21,
+      "type": "source",
+      "source_key": "teatown"
+    },
+    {
+      "id": "src-village",
+      "name": "Village of Croton-on-Hudson",
+      "description": "Events from Village of Croton-on-Hudson",
+      "path": "/feeds/source/village.ics",
+      "count": 20,
+      "type": "source",
+      "source_key": "village"
+    }
+  ],
+  "categories": [
+    {
+      "id": "events",
+      "label": "Community Events",
+      "count": 383
+    },
+    {
+      "id": "schools",
+      "label": "Schools & Education",
+      "count": 63
+    },
+    {
+      "id": "government",
+      "label": "Government & Meetings",
+      "count": 20
+    },
+    {
+      "id": "safety",
+      "label": "Public Safety",
+      "count": 0
+    },
+    {
+      "id": "business",
+      "label": "Business & Chamber",
+      "count": 0
+    }
+  ],
+  "sources": [
+    {
+      "id": "cortlandt",
+      "name": "Town of Cortlandt",
+      "count": 10,
+      "category": "events"
+    },
+    {
+      "id": "cortlandt_rec",
+      "name": "Town of Cortlandt Recreation",
+      "count": 3,
+      "category": "events"
+    },
+    {
+      "id": "croton_point_park",
+      "name": "Croton Point Park",
+      "count": 30,
+      "category": "events"
+    },
+    {
+      "id": "field_library",
+      "name": "Field Library (Peekskill)",
+      "count": 30,
+      "category": "events"
+    },
+    {
+      "id": "historic_hv",
+      "name": "Historic Hudson Valley",
+      "count": 6,
+      "category": "events"
+    },
+    {
+      "id": "library",
+      "name": "Croton Free Library",
+      "count": 220,
+      "category": "events"
+    },
+    {
+      "id": "ossining_library",
+      "name": "Ossining Public Library",
+      "count": 25,
+      "category": "events"
+    },
+    {
+      "id": "ossining_town",
+      "name": "Town of Ossining",
+      "count": 24,
+      "category": "events"
+    },
+    {
+      "id": "paramount",
+      "name": "Paramount Hudson Valley",
+      "count": 14,
+      "category": "events"
+    },
+    {
+      "id": "schools",
+      "name": "Croton-Harmon Schools",
+      "count": 63,
+      "category": "schools"
+    },
+    {
+      "id": "teatown",
+      "name": "Teatown Lake Reservation",
+      "count": 21,
+      "category": "events"
+    },
+    {
+      "id": "village",
+      "name": "Village of Croton-on-Hudson",
+      "count": 20,
+      "category": "government"
+    }
+  ],
+  "subscribe_instructions": {
+    "google_calendar": "Click + next to 'Other calendars' \u2192 'From URL' \u2192 paste the feed URL",
+    "apple_calendar": "File \u2192 New Calendar Subscription \u2192 paste the feed URL",
+    "outlook": "Add calendar \u2192 From internet \u2192 paste the feed URL"
+  }
+}

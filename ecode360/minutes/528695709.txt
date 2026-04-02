@@ -1,0 +1,217 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday Jan. 26, 2020 - 221 Cleveland Drive
+Members Attending:
+Lindsay Audin
+David Goldman
+Len Simon
+
+Joel Gingold
+Absent:
+Brian Pugh (Board of Trustees Liaison)
+Jon Katz
+Niall Kelleher
+John Habib (Board of Trustees Liaison/new member)
+
+Non-members wishing to attend are asked to RSVP to energywiz@aol.com to verify meeting date,
+time, and location, which may be adjusted to meet committee member requests. [Bracketed] text
+relates to actions subsequent to this meeting.
+-------------------------------------------------------------------------Scheduled guest(s): none
+Personnel changes: Janine King retires 7/6/20, John Habib replaced Sherry Horowitz as liaison.
+Lindsay asked Brian to ensure that Janine’s successor is not a climate change denier, or otherwise
+dismissive of the issue.
+Quick updates/holdovers/follow-ups/status:
+- Food scrap recycling issues: The Village decided to postpone development of the facility until
+2021. We have until September 2022 to spend DEC’s grant money (~$14,000). The goal had been
+to get the scrap recycling process working by the 50th anniversary of Earth Day (i.e., late April), but
+CCI’s failure to follow through on its commitment to manage the project forced the postponement.
+Two alternatives were researched. First, Jon and Lindsay examined using an anaerobic digester to
+process residential food scraps into methane for use at the Metro-North yard to heat water used in
+train washing. Under the best conditions, Jon found that the payback period would exceed 20
+years. Only with a very large grant (e.g., $200K+) could this concept be worth pursuing.
+Second, Niall set up a Green Cone composter, a device for processing food scraps. A recent law in
+Vermont mandated it as an option for managing residential scraps. Niall found that the system uses
+solar heat from the cone, and adjacent well-drained soil and its microbes, to dry out (but not aerate)
+and digest the scraps rather than actually composting them. As a result, there is no control over the
+methane that would be emitted as part of that process, making it unacceptable as an alternative.
+- EV/EVSE issues: The remaining MPGs for the Village’s vehicle fleet inventory were received or
+found via web sites (we thank Dave for his continued work to that end). A review of the
+remaining lives of Village trucks (based on odometer readings) indicates that most won’t need to be
+replaced for at least several years. By then, affordable EV/PHEV versions of some trucks may be
+available. A funding mechanism (see “new business”) will then be needed, in addition to whatever
+grants are available, to finance such replacements, as well as chargers to power them.
+The Fire Inspector’s car died and was replaced by a fully electric Nissan Leaf, approved by the
+Village Board at its 12/16/19 meeting. We now have two municipal EVs. Janine got a $7K discount
+at New Rochelle Nissan and Lindsay applied for another $5,000 reimbursement from a State grant.
+
+1
+
+The $7,500 EV tax credit was not renewed in the 2020 federal budget. Existing funds for auto
+makers that have not yet hit their 200,000 sales threshold will be allowed to run out. Con Ed raised
+the limit on its SmartCharge Rewards from $500 a year to $1,000 a year for off-peak EV charging.
+With regard to EV school buses, Len reviewed options for federal funding assistance. He found
+that money from EPA’s DERA (Diesel Emissions Reduction Act) is not helpful at this time because:
+- we can't get federal money if we take any from the State under the VW Diesel Settlement
+- the maximum we could get per bus is only $20K (which is only a small fraction of State grants)
+- buses must be 2006 or earlier (only one Croton school bus is that old)
+- it's a lottery under which we are competing with all other applicants in NY State
+- the earliest we could even apply is next fall.
+- DPW solar rooftop: Ecogy’s CESIR interconnection application should be accepted (or denied) by
+by Con Ed by Jan. 30. If OKed, roof repair and PV installation could commence as weather allows.
+The Village had received a $2,500 signing bonus, and will get another $1,000 if the CESIR is
+approved. Once NYSERDA gives its OK (pro-forma if a CESIR is approved), the Village gets
+another $1,000. When power starts to flow (hopefully before fall), ~$2,000/ month rent will start.
+- Croton Library solar/LED options: At the Library’s Dec. 2019 board meeting, Ecogy’s revised
+(rooftop only) proposal was declined. Ecogy had offered ~$3,400 in annual value to the Library. An
+additional $2,500 signing bonus would have covered ~50% of the cost of an LED upgrade (after
+Con Ed rebate) of Library lighting, which would - by itself - shave ~$3,000 a year off its electric bill.
+Reasons for declining included: a non-profit should not “profit” off its assets, disruption of possible
+renovations (adding a partial 2nd floor), and the library would rather self-fund the project in 3-5
+years and take the power itself. Doing so would cost over $160K, likely requiring mortgaging the
+building, which the Board had said was DOA as an option. Due to the Library’s Con Ed electric
+rate, taking the power would cut $ savings by ~50%. Lindsay will push ahead on the LED upgrade.
+- Other solar issues: NY PSC granted a 1-year reprieve (until 1/1/2021) on net metering for
+residential and on-site commercial systems up to 750 kW, though it may also add a ~$1/month/
+installed kW fee for the latter. Community solar doesn’t use net metering, so this issue has no
+effect on the DPW project. At the federal level, solar’s 30% tax credit was not renewed in the 2020
+budget. It will instead drop to 26% in 2020 and 22% in 2021. Starting in 2022, only commercial
+distributed solar projects will get a 10% tax credit. The wind production tax credit got a 1-year
+extension, to the end of 2020.
+On 12/30/19, The Solar Foundation (a DOE contractor) designated Croton a Bronze SolSmart
+Community. SolSmart promotes local governments that have performed various solar-related tasks
+(e.g., passing the Unified Solar Permit). It has no relation to the Climate Smart Community effort.
+SolSmart designation (which cost the Village nothing to achieve) gives Croton some good PR, but
+nothing of actual value, e.g., access to grants. Croton will, however, get a free plaque.
+- Climate Smart Community (CSC): All available documentation was submitted 1/7/20. All who
+helped gather and configure data needed for our submissions are thanked for their untiring
+efforts. Actions totaling 328 points were submitted, potentially securing silver certification (i.e., the
+highest level). Silver previously required only 200 points, but the threshold was recently raised to
+2
+
+300. If DEC does not accept all our submissions, we will instead get bronze level certification
+(which requires only 120 points). We should be notified by February 28.
+Among the useful things we learned during the CSC submission process:
+- our updated municipal GHG inventory (based on 2018 data) showed that (relative to the 2010
+inventory), our municipal footprint has dropped by 15%. This is measured - not projected - data.
+- DPW needs a work order tracking system (WOTS). Due to difficulty retrieving work orders and
+their invoices, we had to forego some actions (and points) because of insufficient documentation.
+Brian agreed to seek funding of such software during upcoming VB budgeting discussions.
+- many of the Village’s pickup trucks have rather poor MPGs, which significantly contribute to
+overall municipal GHG emissions.
+- Water pumping kWh consumption and cost: Frank Balbi is still trying to get us interval data from
+Con Ed. Janine has yet to provide answers to questions related to how the pumps are dispatched,
+and how their VFDs are controlled. We hope to get that documentation when the engineering dept.
+has time to respond in February. Brian agreed to pursue that before our next meeting. Research on
+pressures of nearby municipal water systems found that some (e.g., NYC) are 50-60 psi. Ours was
+measured at 80-90 psi, which may help account for its ~30% higher kWh/CCF.
+Recruitment/Outreach:
+Schools: Lindsay will attend the 1/28/20 school district’s ESC (Environmental Sustainability
+Committee) meeting. At its 11/15/19 meeting, the district’s Steering Committee (above the ESC but
+below the School Board) approved benchmarking. We asked that the 1/28 agenda include a status
+report on the schools’ new energy performance contract and the benchmarking data being
+collected pursuant to it.
+In an email to our Committee, school board member Andrea Furey stated: “...To bring you up to
+date, the Board had a discussion at our January 16th meeting that is in line with your thinking -that while we recognize the benefits of an energy audit we also recognize that it can be limited in its
+scope. We do acknowledge that we are the largest carbon producer due to our identity as the
+largest campus in town, and the fact that our work necessitates a large transportation fleet, which
+arguably can help to lessen car traffic and emissions. We are developing an annual goal to
+investigate the matter and to develop an appropriate strategy to cut emissions.”
+In late November, Rochelle O’Mara (school transportation director) agreed to provide diesel and
+gasoline usage data. We again asked for it via email on 12/29/19 but have not yet received a
+response. Having it will help develop the school district’s full GHG inventory. Pursuant to a solar
+evaluation of the garage’s rooftop, she also agreed to provide structural drawings for it.
+As per our Committee’s suggestion last spring, the school district has set “sustainability” as the
+theme of its “Experience Science 2020” event (May 7). With that suggestion, we had assembled
+and given to the ESC a list of ~30 possible projects that students could pursue to that end.
+Intern: Alexis Stabulas has finished her GIS analysis of Village tree cover using software from the
+Natl. Forest Svc. If it’s correct, Village-owned forests may be a significant carbon sink. Jon and
+3
+
+Lindsay will check her work, Alexis will soon be moving to NYC to take a job with its DEP. We will
+then need someone in the spring to complete her work.
+We discussed how to account for trees along Village streets that are Village property (as versus on
+State routes, e.g., Rt. 129, which are State property). We concluded that they could indeed further
+lower our footprint, but such analysis was beyond Alexis’ scope of work. John asked about Village
+codes on protecting and replanting of trees. Brian said such discussions should be routed to the
+CAC since that is in its purview, rather than our committee.
+Other: Croton100 continues to develop its programming toward a 20-year zero GHG goal for all of
+Croton, based on a 5%/yr reduction process. Joel reported on its 1/12/20 meeting at HNM church.
+He and John Habib reviewed other aspects of its efforts, including its Feb. 29 kickoff event at the
+high school to encourage participation. Joel reviewed its one-on-one playbook process, which
+seeks to inform residents and elicit GHG reductions from them. One of the main goals is to get
+carbon footprinting started, toward which Croton100 is developing a phone app to make it easier.
+Communications: letter from DEC re: CSC issues, email from Andrea Furey on school GHG issues
+New/ongoing business:
+- Con Ed rate increases: Under the accepted 3-year hike, a residential electric customer using 600
+kWh/month will see an average total monthly bill increase of $5.46 or 4.2% this year, $6.37 or 4.7%
+starting January 2021, and $5.65 or 4% starting January 2022. A residential gas heating customer
+using an average of 100 therms/month will see an average monthly bill increase of $11.37 in the
+first year, or 7.5%, a $14.44 increase in the second year, or 8.8%, and a $12.86 increase in the
+third year, or 7.2%. In general, the hikes are about 25-30% of what Con Ed had requested.
+- New incentive programs: The Cuomo administration announced $6.8B in spending through 2025
+on energy efficiency and renewables programs. That includes $1.5B for NYPA incentives and loans
+focused on municipal customers (e.g., Croton). Con Ed will get $2B for programs for its customers.
+Once we see the actual programs (e.g., $/ton for GSHP), we can review their local applicability.
+Management of many incentive programs administered by NYSERDA is being transferred to DEC
+- Solar options at Village properties: Mayor Pugh asked for reviews of solar carport options at
+Croton Landing, Senasqua Park, and Vassallo Park (a/k/a Merwin Oak). Each could provide
+approximately 200 kWac. The first two appeared feasible to Ecogy, but Croton Landing (due to its
+shape) was better. Vassallo is too shaded to work without cutting down trees on others’ property.
+Ecogy was concerned about the Landing being in a 100-year flood zone. Based on a review of
+DEC and Village regs, that does not appear to be a major issue. Equipment from both Ecogy and
+ChargePoint (if EV chargers were installed) are floodproofed.
+Jon asked if Ecogy was considering batteries for power storage. Lindsay agreed to ask. The issue
+of floodproofing of large batteries would need to be addressed. Ecogy will send us a proposal for
+solar carports at the Landing. In Feb, it will report to the VB on status of the DPW solar project.
+We again reviewed solar carports at the train station parking lots. Prior approaches from two solar
+firms had been rejected (too little $ value to the Village), but subsequent changes to VDER (and
+completion of demolition of the old DPW building) should raise that option again. Brian indicated
+that a new solar RFP would be needed. There are many new vendors that may then wish to bid.
+4
+
+- Use of Croton Point landfill gas as truck or school bus fuel: Such gas is considered a renewable
+resource. In December, Joel and Lindsay looked into options for using it as compressed natural
+gas (R-CNG), as others have done with their landfills. Due to the age of the Croton Point landfill (it
+was closed 34 years ago) Joel found that federal regulations on such emissions don’t cover it. Gas
+output from closed landfills drops off after ~20 years, with most of it gone by 40 years. Others
+looking into this option at Croton Point had earlier concluded it was not a viable resource.
+Funds from the VW Diesel Settlement are available for new trucks using CNG (with no distinction
+as to source). None of that money is available for conversion of existing trucks to use CNG, or for
+infrastructure needed to compress gas. The only other available option is biodiesel, but it must be
+stored below ground or indoors, neither of which is viable for our trucks or Croton’s school buses.
+Bottom line: we will need to wait for economically acceptable EV/PHEV versions of our trucks (and
+school buses) before pressing to reduce their GHG emissions. Replacements of gasoline-powered
+cars with EVs should, however, continue to be pursued as the former age out of service.
+- Funding mechanism for energy efficiency and GHG projects: On 1/6/20, the Village Board passed
+our resolution to set aside 50% of revenue (not savings) produced by energy projects (e.g., DPW
+solar) in a Village “climate change mitigation” account. Those funds would be allocated based on:
+- highest available projected GHG reduction value, in metric tons (MT) per invested dollar
+- simple paybacks of 10 years or less (net of grants, etc.) toward cutting Village energy costs.
+If revenue-producing energy systems are installed elsewhere on Village property (e.g., parking
+lots), a similar portion of their revenue would be added to the climate change account.
+Other new business:
+Jon outlined research he is initiating on the State’s Stretch Code, an existing voluntary and more
+aggressive energy code than the NYS Energy Conservation Construction Code (NYS ECCC) that
+governs new and modified buildings. Jon will examine how it encourages such facilities to be “solar
+ready” to cut the installation cost of solar, and how it may do so for other desirable energy options
+(e.g., GSHP). He indicated that upgrades pursuant to it can save 5-10% of a home’s energy
+consumption while having a 5-8 year incremental payback. He also agreed to look for a list of
+municipalities that have implemented it. Jon will report to us on this at our Feb. meeting. Brian
+agreed to look into what types of financial incentives (e.g. temporary property tax abatement or
+reduction) could be offered by the Village to help buy down the payback period. Doing so could
+help reduce our community-wide carbon footprint.
+Lindsay outlined an idea for fundraising to support Croton100’s activities. He agreed to flesh it out
+and provide it for online discussion prior to our next meeting. It would take advantage of the
+organization’s independent financial and legal position, and would involve Croton’s businesses.
+John and Brian provided useful information (e.g., that Croton has 197 businesses) on how this idea
+may be pursued. We will develop it further before discussing it with Croton100 or making it public.
+John Habib detailed the relaunch of “The Croton Business Council”, which is an unincorporated
+division of the Peekskill-based Hudson Valley Gateway Chamber of Commerce, and mentioned its
+outreach work with sustainability-focused non-profit organizations such as Croton100, as part of
+the Council’s overall emphasis on carrying out Corporate Social Responsibility initiatives in the
+community.
+5
+
+Our next meeting was set for Sunday, Feb. 23, 2020 at 10:30 AM.
+
+6
+
+

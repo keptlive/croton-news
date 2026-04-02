@@ -1,0 +1,162 @@
+MINUTES – Croton Sustainability Comm. (SC) – 10:30 AM Sunday, Apr. 25, 2021 – via Zoom.us
+Members Attending:
+Lindsay Audin
+Len Simon
+Brian Pugh
+
+Absent:
+Jon Katz
+
+Joel Gingold
+Niall Kelleher
+Bernie Yozwiak
+Dan Columbini
+
+[Bracketed] text meand subsequent actions or clarifications. Underlining indicates a commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: none
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC grants
+On Thursday (4/22), we got 200 points by showing we had done over 2 years of benchmarking,
+bringing us to 4,300 points. To seek 200 more points, committee members personally signed-up
+for the Grid Rewards demand response program, and through a variety of their contacts,
+eblasts, Facebook, Gazette LTE, etc., informed many Croton residents of the option. Last
+Friday (4/23), SW told us we exceeded the minimum of 10 sign-ups. We will get confirmation
+this Monday, getting us to 4,500 points. [By 4/29/21, we had over 30 sign-ups.]
+Next step: push Community Solar (CS) 2.0. We need at least 10 sign-ups to get 200 more
+points. People having solar panels cannot enroll. Committee members without panels were
+asked to sign up for CS 2.0 ASAP at https://ecogyenergy.com/croton-cs
+Via negotiation with Ecogy, its CS 2.0 contract no longer requires access to bank (i.e., ACH)
+information, or a second electric bill. The ~10% CS discount would start once consolidated
+billing takes effect this summer. Ecogy’s next CS system (at the Shrub Oak Mall in Yorktown)
+will come online at about the same time.
+From last year’s DPW project, we have a list of 29 people who previously wanted to sign up but,
+for various reasons, did not. All will be contacted in the coming week to now do so. Joel and
+Lindsay produced the Village web page blurb for this step, which should be posted by the end
+of the coming week. Lindsay will send a LTE to the Gazette announcing the opportunity.
+The final step to get to (exactly) 5,000 points will happen after June 1 (start of new fiscal year),
+when the Village buys its 3rd EV (another parking enforcement plug-in hybrid). Brian agreed to
+ensure that Janine King expedites that purchase as soon as possible thereafter. While the
+Village will also be purchasing a hybrid police car, points are only given for plug-in EVs.
+- EV/EVSE
+See above for the purchase of the Village’s next EV.
+Regarding EV school buses, they are featured in four propositions on the May 18 school budget
+ballot. To secure absentee ballots, Joel reported that there will not be a general mailing of
+absentee ballots. You have to apply for one. Get an application for one at:
+1
+
+https://www.chufsd.org/site/handlers/filedownload.ashx?moduleinstanceid=5181&dataid=4720&
+FileName=absentee-ballot-application-and-instructions-english.pdf
+Requests for absentee ballots must be submitted at least seven days before the vote/election
+(i.e., by May 11, 2021) if the ballot will be mailed to the voter, and by the day before the
+vote/election (i.e., May 17, 2021) if the ballot will be personally picked up by the voter.
+Absentee ballots must be received by the district clerk by 5:00 p.m. on the day of the election in
+order to be counted. Last year there was a drop box at the school headquarters, but there was
+no mention of one in the info provided. According to the application for absentee ballots, you
+must have an excuse, like being out of town or having some medical problem, to receive one.
+Avoiding COVID is listed as an OK excuse.
+Joel summarized the bus propositions: prop 1 authorizes the school to buy two mini-buses and
+a charger. They may be either fossil fueled or (if other props pass) EVs. If prop 2 passes, a fullsize (66 passengers) EV may be purchased. If Prop. 3 and/or also 4 pass, one or two EV minibuses 20-30 passengers) may be bought. But if Prop. 1 fails, no buses of any kind get bought. If
+prop 1passes and 2, 3, and 4 fail, only two fossil-fueled mini- buses get bought.
+The ballot also asks for a vote on the school’s pending Energy Performance Contract (EPC)
+with Honeywell. An EPC is a self-funding venture to upgrade lighting and HVAC, and install
+some solar panels on each of the three schools’ rooftops.
+- Washington Engine firehouse
+From Village staff and Ecogy, we learned:
+- When its roof was replaced in 2019, polyisocyanurate foam board insulation (R=~8.5) was
+added. It is unclear if doing so brought the level up to R30, which is the present code. If it did
+not, there may be an issue regarding code compliance, and who signed off on it.
+- Its underground oil tank was installed when heating was converted to oil in the 1980s.
+According to a Village staff person, it has not been routinely tested for leaks. While there’s no
+evidence of leakage, tanks approaching 40 years are considered a leak risk.
+- Ecogy proposed a 22 kWp combination solar rooftop and battery system. The Village
+would have to kick in ~$40K as part of a deal that would pay us only ~$1.3K per year. Ecogy’s
+pricing included Tesla Powerwalls for demand management. Unfortunately, its analysis used
+the presently spikey load profile due to poor dispatching of the heat pumps. Once fixed, the
+project would become financially unviable. Instead buying the project would cost us ~$65K. In
+that scenario, the firehouse would use all of its ~27,000 kWh/yr, presently worth ~$4.6K/yr.
+Bottom line: we will await status on our NYSERDA grants (i.e., by late June or July) before
+pursuing further action on the firehouse’s roof code compliance, heat pumps, or solar options.
+- HPWH
+Regarding a $ incentive for LMI participation, Village staff pushed back, saying that running
+NYSERDA grant funds through SW to do so was not acceptable (despite NYSERDA being OK
+2
+
+with it). As a result, some project details may need to be revised, e.g., no extra $ incentive for
+anybody, based on either income or early involvement.
+The submission of a Letter-of-Intent (i.e., initial step before sending a grant proposal) for a
+HPWH project to the Westchester Community Trust (WCT) was held up due to inclusion of a $
+incentive to LMIs. Based on Brian’s assessment of the situation, that option will be “tabled”.
+However, he liked Joel’s idea that something about environmental justice in the State’s CLCPA
+law may be worth pursuing. Brian agreed to look into that option with State officials.
+Because of the time sensitivity with gathering points essential for NYSERDA grants,
+development of the HPWH project will resume in late May or early June.
+- Solar Projects
+See above for the Washington Engine firehouse solar rooftop status.
+We await Ecogy’s proposals on canopies over the north and south parking areas at the
+Muni Building (total of ~125 kWp) and the front parking area at the DPW building (~197 kWp).
+On the Croton Landing canopy job, Joel reported that on 4/12/21 Assblys. Sandy Galef and
+Carrie Woerner (Saratoga Springs) submitted an Assembly version (A.6838) of S.2995, Sen.
+Harckham’s bill to exempt parking lots at parks from an existing ban on such uses of park land.
+Both bills are now before their respective legislative committees. Joel submitted comments on
+behalf of our committee. All of the following were asked to support passage of the bills:
+- League of Women Voters
+- League of Conservation Voters
+- New Yorkers for Clean Power
+- Sierra Club Atlantic Chapter
+- Sustainable Westchester
+- Rockland Goes Green
+- CURE 100 (a/k/a Croton100)
+- Mothers Out Front
+- Climate Reality Project (local chapter)
+- Riverkeeper
+- Care For Creation (C4C) Ministry
+Using research performed by our interns, ~45 CSC/CEC coordinators across the State were
+also asked to push their legislators to support passage.
+- Reports
+Niall reviewed using biodiesel ((i.e., #2 oil mixed with deglycerized soybean oil) in the Village’s
+many trucks and the two Village buildings that use fuel oil for heat (DPW and Washington
+firehouse). Together, the buildings burn ~9,000 gallons per year. Our diesel trucks consume
+~29,000 gal/yr. Using B10 in all of them would slightly (~7%) reduce the GHG from burning
+standard diesel, and cut our municipal GHG footprint by almost 2% (more than occurred from
+our LED lighting upgrade). Using B10 cuts GHG at a cost of ~$100/MT. This would be an
+interim step until EV trucks become available and an alternative heating system for DPW
+3
+
+became feasible. Due to DPW’s location above our aquifer, a GSHP is not. Niall spoke with Con
+Ed on its truck fuels. It uses B20 or B5, depending on the season. His report is attached.
+- Communications
+Three unrelated requests (two surveys, one interview) were received from grad students (at
+Colgate University, Hartwick College, and Hamilton College) regarding our experience securing
+silver CSC status. Lindsay described our experiences to them.
+At our request to push Grid Rewards, Patty Buchanan added a blog post at CURE 100 web
+page supporting it. As mentioned on page 1, we also contacted and/or eblasted a variety of
+individuals and local organizations asking them to enroll in that program.
+- Recruitment/Outreach
+Pursuant to creating an online chat room, our four interns did a great job assembling an email
+address list for many CSC coordinators from certified municipalities.
+- New business / other issues
+Niall asked about the process to request Board support for a 3 rd community garden. Brian said
+an email submitted as correspondence to the Board would be sufficient to get in on the agenda.
+Date for our next meeting was set for May 23 to avoid the Memorial Day weekend.
+---------Niall’s interim report on biodiesel options for Village trucks
+I spoke with the automotive engineer in Con Ed and he was very helpful. They converted all their
+vehicles 18 years ago. They use B20 for 9 to 10 months of the year and go down to B5 in the
+winter months. They use soy-based biodiesel, not fat-based. Con Ed gets its fuel from Sprague in
+Long Island, but they used to use Schildwachter in the Bronx. Schildwachter can deliver fuel for
+us but I am waiting on a call from their specialist for more information.
+He asked what model vehicles we used and how old they were. If they are 2010 and newer and
+have Ford or Cummins engines, we should have no issues.
+If the trucks have steel fuel tanks that are painted on the inside, they will have to be switched out
+with aluminum tanks. Biodiesel acts like a detergent and strips the paint from the inside of fuel
+tanks, which gums up the engines! Similarly, the biodiesel storage tanks cannot be painted on the
+inside or we will get similar issues.
+He suggested we get an engineering firm like High Point Engineering in Long Island to evaluate
+the storage tanks and the vehicles to ensure everything will run smoothly. Lindsay will ask Frank
+Balbi about the Village’s truck and storage tanks and their interior paint.
+In a brief chat with Robison, it quoted a fixed one-year price of $2.36/gal for delivered B10.
+Lindsay will determine the differential with the Village’s present pricing.
+
+4
+
+

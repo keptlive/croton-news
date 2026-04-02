@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//croton.news//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Croton — Public Safety
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Public Safety in Croton-on-Hudson area
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+BEGIN:VEVENT
+UID:44d35e0dd517@croton.news
+DTSTART;VALUE=DATE:20230327
+SUMMARY:1st Due Minor Residential & Mutual Aid Chimney Fires
+LOCATION:Croton Fire Department
+URL:https://www.crotonfd.org/apps/public/news/newsView.cfm?News_ID=405
+CATEGORIES:safety
+DESCRIPTION:Source: Croton Fire Department\nAt 11:20 AM on Friday, March 24th, the Croton-on-Hudson Fire Department was summoned to a residence on Pond Meadow Road for a reported Chimney Fire. Due to this incident being in our Non-Hydrant area,
+END:VEVENT
+BEGIN:VEVENT
+UID:e7bae7a3fe8a@croton.news
+DTSTART;VALUE=DATE:20230727
+SUMMARY:CFD Encounters Fireworks\, Heat and Humidity at First Due House Fire
+LOCATION:Croton Fire Department
+URL:https://www.crotonfd.org/apps/public/news/newsView.cfm?News_ID=407
+CATEGORIES:safety
+DESCRIPTION:Source: Croton Fire Department\nAt 3:30 PM on a hot and humid July afternoon, our dispatchers at 60 Control received a frantic call from a woman on Croton Lake Road in southern Cortlandt reporting her house was on fire. The CFD, alo
+END:VEVENT
+BEGIN:VEVENT
+UID:945661ba2fc7@croton.news
+DTSTART;VALUE=DATE:20230727
+SUMMARY:Early Morning Fire in First Due Residence
+LOCATION:Croton Fire Department
+URL:https://www.crotonfd.org/apps/public/news/newsView.cfm?News_ID=406
+CATEGORIES:safety
+DESCRIPTION:Source: Croton Fire Department\nShortly before 7AM on a muggy Friday morning, the Croton-on-Hudson Fire Department, along with a FASTeam from the Yorktown Heights FD, was dispatched to a home in the village's Mount Airy section for 
+END:VEVENT
+BEGIN:VEVENT
+UID:a4306b44c9b0@croton.news
+DTSTART;VALUE=DATE:20230918
+SUMMARY:Over 100 Members & Guests Attend Annual Inspection
+LOCATION:Croton Fire Department
+URL:https://www.crotonfd.org/apps/public/news/newsView.cfm?News_ID=408
+CATEGORIES:safety
+DESCRIPTION:Source: Croton Fire Department\nThis past Saturday the weather was beautiful, the apparatus were shining bright and about 120 members, families, friends and guests ascended upon our Harmon Firehouse for the annual Croton-on-Hudson F
+END:VEVENT
+BEGIN:VEVENT
+UID:6fbe76d5fd05@croton.news
+DTSTART;VALUE=DATE:20240508
+SUMMARY:Serious Pedestrian Struck Accident\, Fatal House Fire Keep CFD Busy
+LOCATION:Croton Fire Department
+URL:https://www.crotonfd.org/apps/public/news/newsView.cfm?News_ID=409
+CATEGORIES:safety
+DESCRIPTION:Source: Croton Fire Department\nAround 9:30 AM on Tuesday, the Croton-on-Hudson Fire Department, Croton EMS, Croton Police and Ossining Paramedics were dispatched to a Vehicle Service Station on South Riverside Avenue for a Pedestri
+END:VEVENT
+BEGIN:VEVENT
+UID:8e302b80e876@croton.news
+DTSTART;VALUE=DATE:20240511
+SUMMARY:Bravest Handle Route 9 Car Fire
+LOCATION:Croton Fire Department
+URL:https://www.crotonfd.org/apps/public/news/newsView.cfm?News_ID=410
+CATEGORIES:safety
+DESCRIPTION:Source: Croton Fire Department\nAround 1:40 PM on Saturday, Croton’s Bravest were summoned for the car on fire “somewhere on Route 9 southbound.” Units located the vehicle south of the pedestrian bridge with the confirmed engine com
+END:VEVENT
+BEGIN:VEVENT
+UID:860abc1455ce@croton.news
+DTSTART;VALUE=DATE:20250331
+SUMMARY:Members Complete Intense Vehicle Extrication Training
+LOCATION:Croton Fire Department
+URL:https://www.crotonfd.org/apps/public/news/newsView.cfm?News_ID=411
+CATEGORIES:safety
+DESCRIPTION:Source: Croton Fire Department\nThis past weekend, members of the Croton-on-Hudson Fire Department participated in two days of advanced vehicle extrication and stabilization training hosted by Bedford Hills FD. The very hands-on tra
+END:VEVENT
+BEGIN:VEVENT
+UID:b495ac9afa66@croton.news
+DTSTART;VALUE=DATE:20260225
+SUMMARY:Members Complete Ice Rescue Training
+LOCATION:Croton Fire Department
+URL:https://www.crotonfd.org/apps/public/news/newsView.cfm?News_ID=413
+CATEGORIES:safety
+DESCRIPTION:Source: Croton Fire Department\nWith several weeks of at or below freezing temperatures, our members took advantage of this and conducted a two-part Ice Rescue Training program last week. On Monday, February 16th, 40 of our members 
+END:VEVENT
+BEGIN:VEVENT
+UID:0f7dee9357f2@croton.news
+DTSTART;VALUE=DATE:20260324
+SUMMARY:CFD Participates in Weekend of Vehicle Extrication Training
+LOCATION:Croton Fire Department
+URL:https://www.crotonfd.org/apps/public/news/newsView.cfm?News_ID=414
+CATEGORIES:safety
+DESCRIPTION:Source: Croton Fire Department\nThis past weekend, a half dozen of Croton's Bravest were amongst over 50 area firefighters that participated in an Advanced Vehicle Extrication Class given by Signal 73 Fire Training, LLC. in Chappaqu
+END:VEVENT
+BEGIN:VEVENT
+UID:72b46b9fe160@croton.news
+DTSTART;VALUE=DATE:20260324
+SUMMARY:Mutual Aid Car Into a Structure with Fire: Ossining
+LOCATION:Croton Fire Department
+URL:https://www.crotonfd.org/apps/public/news/newsView.cfm?News_ID=412
+CATEGORIES:safety
+DESCRIPTION:Source: Croton Fire Department\nAround 4:30pm Saturday, the Ossining Fire Department was called to the area of South Highland Avenue and Lincoln Place where a car crashed into a multi-family dwelling and burst into flames. OFD units
+END:VEVENT
+END:VCALENDAR

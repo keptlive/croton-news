@@ -1,0 +1,97 @@
+MINUTES – Croton Sustainability Comm. (SC) – 7:00 PM Sunday, June 10, 2021 – via Zoom.us
+Members Attending:
+Lindsay Audin
+Niall Kelleher
+Bernie Yozwiak
+
+Absent:
+Jon Katz
+Len Simon
+
+Joel Gingold
+Brian Pugh
+Dan Columbini
+
+[Bracketed] text meand subsequent actions or clarifications. Underlining indicates a commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: This meeting was focused on how to spend the $110K in NYSERDA grants.
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC grants
+We reached the 5,000 point level in the last week of May. We have not yet received formal
+notification, but the program’s online Scorecard verifies our score. Our new CEC coordinator
+(Eleanor Peck) assured Lindsay that Croton has won a $70K grant. Due to the way NYSERDA
+makes such announcements (i.e., in large batches, not individually) we may not get a written
+award notification until July. We had received such notifications on the other $40K ($20K +
+$10K + $5K + $5K) of grants on May 26. By 8/26/21, we must submit applications describing
+the projects for which we want to use those funds.
+- Washington Engine firehouse projects
+Consensus was attained on using most (possibly all) of the grant funds on two projects:
+- Rooftop solar - NYSERDA requires that it be municipally-owned, so leasing, PPA, and
+community solar are out. Ecogy is helping with design, etc. but will not sell a system to us. Due
+to the dollar cost, Janine indicated the job will need to be subject to public bid. Separate from
+any grants, Ecogy wants to install a power storage system consisting of 3 Tesla PowerWalls
+and a demand control system to clip peaks from variations in rooftop solar output and cycling of
+the ASHPs. That system would cost us nothing and be owned by Ecogy, which would pay us
+~$1K/yr to be its “guinea pig” as it tweaks its A.I. software via operation at the firehouse.
+By adding a fence along ~300 feet of the firehouse’s parapet, the original 21.9 kWp design may
+be boosted to 34.8 kWp by allowing more panels to be installed. Such a system could produce
+nearly all the kWh needed once ASHPs are installed. Doing so, however, pushes the cost for
+PV to $70K, or a bit higher. Brian indicated that the Village may be willing to cover the cost of
+the fence. If not, we may need to use some (or all) of one of the $5K grants to do so.
+- ASHPs – They would replace most oil heat with electricity from the solar rooftop. The building
+already has 5 ASHPs (for the large meeting room, office, nearby rooms) but they are only used
+for cooling at this time. We would install 3 (or more) to heat the garage, plus (maybe) strip
+electric heaters for the rest rooms, bar, and coat storage. A control system to maximize use of
+the ASHPs (and minimize oil heat) would be included. Total cost is looking like ~$30K, with a
+1
+
+possible need for one of the $5K grants. To get to $30K will require that both our $10K and
+$20K grants be used.
+- HPWH
+Use of grant money as an added incentive for anyone (whether LMIs or early adopters) is offthe-table due to legal issues.
+Assuming they are not consumed by the Washington firehouse projects, one of the $5K grants
+could be used to install HPWHs at the Muni Bldg and DPW (both are now electric resistance).
+Various DHW options for the firehouse were discussed, but may not fit into the budget. We
+should know better once we have the solar and ASHP budgets worked out.
+- Solar Projects
+See above for the Washington Engine firehouse solar rooftop status.
+On the train station canopy, we await SolSystems’ geotech report, due the week of 6/14/21.
+On the DPW canopy for its front parking area (~197 kWp), we await a report from Con Ed on
+the feeder voltage spike issue.
+On the Croton Landing Park canopy (~350 kWp), the Assembly’s Environmental Conservation
+Committee (ECC) never reviewed the Galef-Woerner bill to allow solar canopies over parking
+lots at parks. By the first week of June, there were 12 co-sponsors, one of which (Patricia Fahy
+of Albany) is on the ECC. Thank you to Joel for tracking/pushing the legislation. We will shortly
+do a post-mortem. For now, Len is reviewing the 69-page handbook on securing an exemption.
+Our interns are examining parking lots at State parks to see if any have shade structures that
+are functionally the same as canopies re: impact on a park’s space. If so, we may be able to
+seek a finding that a solar canopy is an “amenity” instead of a “change”.
+- Reports
+NYSERDA has yet to respond to our multiple queries on use grant funds for RECs, B10, or
+offsets. We agreed to put off further discussion of those options pending a response.
+- Communications
+Nothing to report.
+- Recruitment/Outreach
+Nothing to report.
+- New business / other issues
+As we approach the end of the “low hanging fruit” options for cutting municipal GHG, we
+discussed what other projects may be worth pursuing. There was general consensus on adding
+more EVs. Brian indicated that would be done in any case, perhaps one a year as gasoline
+vehicles are retired. Support was expressed for more EV chargers, with a discussion of locating
+in parks, DPW parking lot, and other municipal sites. A push to get rooftop solar installed at a
+2
+
+few large private sites (e.g., former car dealership near Mex-To-Go) was mentioned. Support for
+tree planting and another community garden was expressed. Niall indicated that there was
+presently insufficient interest in a 3 rd garden, but that may change as COVID concerns recede.
+Regarding alternative truck fuels, Niall will be attending a webinar on methanol as an option.
+Bernie showed us a spreadsheet he developed on calculating GHG and $ savings of specific
+projects.
+Date for our next meeting was not set, pending clarifications on costs for aspects of the
+Washington firehouse projects. Lindsay and Jon are working on designs and estimates.
+One more meeting will likely be needed before we break for summer.
+---------
+
+3
+
+

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Community Calendar — Croton-on-Hudson</title>
+<meta name="description" content="Events from 12+ local sources in Croton-on-Hudson, Ossining, Peekskill, and the Hudson Valley">
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.17/index.global.min.js"></script>
+<style>
+:root {
+  --navy: #1a3a5c;
+  --navy-light: #2a5a8c;
+  --sky: #eef4fb;
+  --cat-events: #2563eb;
+  --cat-schools: #16a34a;
+  --cat-government: #ea580c;
+  --cat-safety: #dc2626;
+  --cat-business: #7c3aed;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background: #f5f6f8; color: #1a1a1a; }
+
+.header {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+  color: white; padding: 24px 32px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+}
+.header-logo { font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }
+.header-logo span { opacity: 0.6; font-weight: 400; }
+.header-sub { font-size: 13px; opacity: 0.7; }
+.header-right { margin-left: auto; display: flex; gap: 8px; align-items: center; }
+.header-right a {
+  font-size: 12px; padding: 6px 14px; border-radius: 6px;
+  background: rgba(255,255,255,0.15); color: white; text-decoration: none; transition: background 0.15s;
+}
+.header-right a:hover { background: rgba(255,255,255,0.25); }
+
+.toolbar {
+  background: white; border-bottom: 1px solid #e2e5ea; padding: 12px 24px;
+  display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+}
+.toolbar label { font-size: 12px; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
+.toolbar select, .toolbar input {
+  font-size: 13px; padding: 7px 12px; border: 1px solid #d1d5db; border-radius: 8px;
+  background: white; color: #333; outline: none; transition: border-color 0.15s;
+}
+.toolbar select:focus, .toolbar input:focus { border-color: var(--navy); }
+.toolbar input[type="text"] { width: 200px; }
+
+.legend {
+  display: flex; gap: 14px; flex-wrap: wrap; padding: 0 24px; margin: 12px 0 4px;
+}
+.legend-item { display: flex; align-items: center; gap: 5px; font-size: 12px; color: #555; cursor: pointer; }
+.legend-dot { width: 11px; height: 11px; border-radius: 3px; }
+.legend-item.dimmed { opacity: 0.3; }
+
+.subscribe-strip {
+  background: var(--sky); padding: 8px 24px; font-size: 12px; color: #555;
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap; border-bottom: 1px solid #d0dde8;
+}
+.subscribe-strip strong { color: var(--navy); }
+.ics-btn {
+  font-size: 11px; padding: 3px 10px; border-radius: 4px;
+  background: var(--navy); color: white; text-decoration: none; transition: opacity 0.15s;
+}
+.ics-btn:hover { opacity: 0.85; }
+
+.calendar-wrap {
+  max-width: 1100px; margin: 16px auto; padding: 0 16px;
+}
+
+/* FullCalendar overrides */
+.fc { background: white; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); overflow: hidden; }
+.fc .fc-toolbar { padding: 12px 16px; }
+.fc .fc-toolbar-title { font-size: 20px; font-weight: 600; color: var(--navy); }
+.fc .fc-button-primary {
+  background: var(--navy) !important; border-color: var(--navy) !important;
+  font-size: 13px; border-radius: 6px !important; padding: 6px 14px;
+}
+.fc .fc-button-primary:hover { background: var(--navy-light) !important; }
+.fc .fc-button-primary.fc-button-active { background: var(--navy-light) !important; box-shadow: inset 0 2px 4px rgba(0,0,0,0.2); }
+.fc .fc-daygrid-day-number { font-size: 13px; color: #555; padding: 4px 8px; }
+.fc .fc-daygrid-day.fc-day-today { background: var(--sky) !important; }
+.fc .fc-col-header-cell { background: #f8f9fb; font-size: 12px; font-weight: 600; color: #666; text-transform: uppercase; }
+.fc .fc-daygrid-day-frame { min-height: 85px; }
+.fc .fc-event {
+  border: none !important; border-radius: 4px !important; padding: 2px 5px;
+  font-size: 11px; cursor: pointer; transition: opacity 0.15s;
+  min-height: 22px; line-height: 1.4;
+}
+@media (max-width: 768px) {
+  .fc .fc-event { min-height: 28px; padding: 4px 6px; font-size: 12px; }
+}
+.fc .fc-event:hover { opacity: 0.85; }
+.fc .fc-daygrid-event-dot { display: none; }
+.fc .fc-list-event-title a { color: var(--navy); }
+.fc .fc-list-event-time { font-size: 12px; }
+.fc .fc-popover { border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+
+/* Category colors */
+.fc-event.cat-events { background-color: var(--cat-events) !important; }
+.fc-event.cat-schools { background-color: var(--cat-schools) !important; }
+.fc-event.cat-government { background-color: var(--cat-government) !important; }
+.fc-event.cat-safety { background-color: var(--cat-safety) !important; }
+.fc-event.cat-business { background-color: var(--cat-business) !important; }
+
+/* List view colors */
+.fc-list-event.cat-events td:first-child { border-left: 3px solid var(--cat-events); }
+.fc-list-event.cat-schools td:first-child { border-left: 3px solid var(--cat-schools); }
+.fc-list-event.cat-government td:first-child { border-left: 3px solid var(--cat-government); }
+.fc-list-event.cat-business td:first-child { border-left: 3px solid var(--cat-business); }
+
+.fc .fc-list-event:hover td { background: var(--sky) !important; }
+
+.stats { font-size: 12px; color: #999; text-align: center; padding: 8px; }
+
+/* Event tooltip */
+.fc-event-tooltip {
+  position: absolute; z-index: 9999; background: white; color: #333;
+  border-radius: 8px; padding: 12px 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  max-width: 300px; font-size: 13px; pointer-events: none;
+}
+.fc-event-tooltip .tt-title { font-weight: 600; margin-bottom: 4px; color: var(--navy); }
+.fc-event-tooltip .tt-time { font-size: 12px; color: #666; }
+.fc-event-tooltip .tt-loc { font-size: 12px; color: #888; margin-top: 2px; }
+.fc-event-tooltip .tt-source { font-size: 11px; color: #aaa; margin-top: 4px; border-top: 1px solid #eee; padding-top: 4px; }
+.fc-event-tooltip .tt-audience { font-size: 11px; background: #f0f0f0; padding: 1px 6px; border-radius: 3px; display: inline-block; margin-top: 3px; }
+
+@media (max-width: 768px) {
+  .header { padding: 16px; }
+  .header-logo { font-size: 20px; }
+  .header-right { margin-left: 0; width: 100%; }
+  .toolbar { padding: 10px 12px; }
+  .toolbar input[type="text"] { width: 100%; }
+  .calendar-wrap { padding: 0 8px; }
+  .fc .fc-toolbar { flex-direction: column; gap: 8px; }
+  .fc .fc-toolbar-title { font-size: 17px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <div class="header-logo">croton.news <span>/ calendar</span></div>
+    <div class="header-sub">Community events from 12+ local sources</div>
+  </div>
+  <div class="header-right">
+    <a href="/">News</a>
+    <a href="/documents">Documents</a>
+    <a href="/calendar">Calendar</a>
+  </div>
+</div>
+
+<div class="toolbar">
+  <label>Category</label>
+  <select id="catFilter">
+    <option value="all">All Categories</option>
+    <option value="events">Community Events</option>
+    <option value="schools">Schools</option>
+    <option value="government">Government</option>
+    <option value="business">Business</option>
+  </select>
+  <label>Source</label>
+  <select id="srcFilter"><option value="all">All Sources</option></select>
+  <label>Search</label>
+  <input type="text" id="search" placeholder="Filter events...">
+</div>
+
+<div class="legend" id="legend">
+  <div class="legend-item" data-cat="events" onclick="toggleCat(this)"><div class="legend-dot" style="background:var(--cat-events)"></div>Community Events</div>
+  <div class="legend-item" data-cat="schools" onclick="toggleCat(this)"><div class="legend-dot" style="background:var(--cat-schools)"></div>Schools</div>
+  <div class="legend-item" data-cat="government" onclick="toggleCat(this)"><div class="legend-dot" style="background:var(--cat-government)"></div>Government</div>
+  <div class="legend-item" data-cat="business" onclick="toggleCat(this)"><div class="legend-dot" style="background:var(--cat-business)"></div>Business</div>
+</div>
+
+<div class="subscribe-strip">
+  <strong>Subscribe:</strong>
+  <a class="ics-btn" href="/feeds/all.ics">All Events</a>
+  <a class="ics-btn" href="/feeds/category/events.ics">Community</a>
+  <a class="ics-btn" href="/feeds/category/schools.ics">Schools</a>
+  <a class="ics-btn" href="/feeds/category/government.ics">Government</a>
+  <span style="margin-left:auto;color:#999">Add to Google Calendar, Apple Calendar, or Outlook</span>
+</div>
+
+<div class="calendar-wrap">
+  <div id="calendar"></div>
+  <div class="stats" id="stats"></div>
+</div>
+
+<script>
+let allEvents = [];
+let calendar;
+let hiddenCats = new Set();
+let tooltip = null;
+
+const catColors = {
+  events: 'var(--cat-events)',
+  schools: 'var(--cat-schools)',
+  government: 'var(--cat-government)',
+  safety: 'var(--cat-safety)',
+  business: 'var(--cat-business)',
+};
+
+async function loadEvents() {
+  try {
+    const resp = await fetch('/api/calendar/events');
+    allEvents = await resp.json();
+  } catch {
+    try {
+      const resp = await fetch('events.json');
+      allEvents = await resp.json();
+    } catch { return; }
+  }
+
+  // Populate source filter
+  const sources = [...new Set(allEvents.map(e => e.source).filter(Boolean))].sort();
+  const sel = document.getElementById('srcFilter');
+  sources.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s; opt.textContent = s;
+    sel.appendChild(opt);
+  });
+
+  initCalendar();
+  updateStats();
+}
+
+function getFilteredEvents() {
+  const cat = document.getElementById('catFilter').value;
+  const src = document.getElementById('srcFilter').value;
+  const q = document.getElementById('search').value.toLowerCase();
+
+  return allEvents.filter(e => {
+    if (cat !== 'all' && e.category !== cat) return false;
+    if (src !== 'all' && e.source !== src) return false;
+    if (hiddenCats.has(e.category)) return false;
+    if (q && !e.title.toLowerCase().includes(q)
+        && !(e.source || '').toLowerCase().includes(q)
+        && !(e.location || '').toLowerCase().includes(q)) return false;
+    return true;
+  });
+}
+
+function toFCEvents(events) {
+  return events.map(e => {
+    const hasTime = e.time && /\d/.test(e.time);
+    let start = e.date;
+    if (hasTime && e.date) {
+      // Parse time like "10:00am" or "7:00 PM"
+      const tm = e.time.match(/(\d{1,2}):(\d{2})\s*([ap]m?)/i);
+      if (tm) {
+        let h = parseInt(tm[1]);
+        const m = tm[2];
+        const ampm = tm[3].toLowerCase();
+        if (ampm.startsWith('p') && h < 12) h += 12;
+        if (ampm.startsWith('a') && h === 12) h = 0;
+        start = `${e.date}T${String(h).padStart(2,'0')}:${m}:00`;
+      }
+    }
+
+    const hasLink = e.url && (e.url.includes('/event') || e.url.includes('/calendar/'));
+
+    return {
+      title: e.title,
+      start: start,
+      url: hasLink ? e.url : null,
+      classNames: ['cat-' + (e.category || 'events')],
+      extendedProps: {
+        source: e.source || '',
+        location: e.location || '',
+        time: e.time || '',
+        end_time: e.end_time || '',
+        audience: e.audience || '',
+        category: e.category || 'events',
+      }
+    };
+  });
+}
+
+function initCalendar() {
+  const calendarEl = document.getElementById('calendar');
+  calendar = new FullCalendar.Calendar(calendarEl, {
+    initialView: window.innerWidth < 768 ? 'listMonth' : 'dayGridMonth',
+    initialDate: '2026-04-01',
+    headerToolbar: {
+      left: 'prev,next today',
+      center: 'title',
+      right: 'dayGridMonth,timeGridWeek,listMonth'
+    },
+    buttonText: {
+      today: 'Today',
+      month: 'Month',
+      week: 'Week',
+      list: 'List'
+    },
+    height: 'auto',
+    dayMaxEvents: 4,
+    moreLinkText: function(n) { return '+' + n + ' more'; },
+    events: toFCEvents(getFilteredEvents()),
+    eventDidMount: function(info) {
+      // Tooltip on desktop
+      if (window.innerWidth >= 768) {
+        info.el.addEventListener('mouseenter', function(e) { showTooltip(e, info.event); });
+        info.el.addEventListener('mouseleave', hideTooltip);
+      }
+      // Make clickable events visually distinct
+      if (info.event.url) {
+        info.el.style.cursor = 'pointer';
+        // In list view, show a link indicator
+        const titleEl = info.el.querySelector('.fc-list-event-title a');
+        if (titleEl) {
+          titleEl.style.textDecoration = 'underline';
+          titleEl.style.textDecorationStyle = 'dotted';
+          titleEl.href = url;
+        }
+      }
+    },
+    eventClick: function(info) {
+      if (info.event.url) {
+        info.jsEvent.preventDefault();
+        // Same tab on mobile, new tab on desktop
+        if (window.innerWidth < 768) {
+          window.location.href = info.event.url;
+        } else {
+          window.open(info.event.url, '_blank');
+        }
+      }
+    },
+  });
+  calendar.render();
+}
+
+function refreshCalendar() {
+  if (!calendar) return;
+  calendar.removeAllEvents();
+  const events = toFCEvents(getFilteredEvents());
+  events.forEach(e => calendar.addEvent(e));
+  updateStats();
+}
+
+function updateStats() {
+  const filtered = getFilteredEvents();
+  document.getElementById('stats').textContent =
+    `${filtered.length} events from ${new Set(filtered.map(e => e.source)).size} sources`;
+}
+
+function toggleCat(el) {
+  const cat = el.dataset.cat;
+  if (hiddenCats.has(cat)) {
+    hiddenCats.delete(cat);
+    el.classList.remove('dimmed');
+  } else {
+    hiddenCats.add(cat);
+    el.classList.add('dimmed');
+  }
+  refreshCalendar();
+}
+
+function showTooltip(mouseEvent, event) {
+  hideTooltip();
+  const props = event.extendedProps;
+  const time = props.time ? (props.end_time ? `${props.time} – ${props.end_time}` : props.time) : '';
+
+  tooltip = document.createElement('div');
+  tooltip.className = 'fc-event-tooltip';
+  tooltip.innerHTML = `
+    <div class="tt-title">${esc(event.title)}</div>
+    ${time ? `<div class="tt-time">${esc(time)}</div>` : ''}
+    ${props.location ? `<div class="tt-loc">${esc(props.location)}</div>` : ''}
+    ${props.audience ? `<span class="tt-audience">${esc(props.audience)}</span>` : ''}
+    <div class="tt-source">${esc(props.source)}</div>
+  `;
+  document.body.appendChild(tooltip);
+
+  const rect = mouseEvent.target.getBoundingClientRect();
+  tooltip.style.left = Math.min(rect.left, window.innerWidth - 320) + 'px';
+  tooltip.style.top = (rect.bottom + 8 + window.scrollY) + 'px';
+}
+
+function hideTooltip() {
+  if (tooltip) { tooltip.remove(); tooltip = null; }
+}
+
+function esc(s) { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+
+document.getElementById('catFilter').addEventListener('change', refreshCalendar);
+document.getElementById('srcFilter').addEventListener('change', refreshCalendar);
+document.getElementById('search').addEventListener('input', refreshCalendar);
+
+loadEvents();
+</script>
+</body>
+</html>

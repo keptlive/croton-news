@@ -1,0 +1,653 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Sept. 27, 2020 – via Zoom.us
+Members Attending:
+Lindsay Audin
+Len Simon
+Brian Pugh
+Jon Katz
+
+Absent:
+David Goldman (resigned 9/16/20)
+John Habib
+
+Joel Gingold
+Niall Kelleher
+
+[Bracketed] text relates to actions subsequent to this meeting.
+-------------------------------------------------------------------------Guest: Lauren Brois of SW discussed a possible mini-HeatSmart program for Croton to replace
+existing electric resistance DHW heaters with heat pump water heaters (HPWH).
+Before starting the meeting, Lindsay announced that on Aug. 21 (on our 3rd try) we secured Silver
+certification (the highest level) as a DEC Climate Smart Community (CSC). We were awarded 317
+points (300 were needed to attain silver) for successfully performing 43 actions. While a formal
+presentation of a plaque was to occur, DEC informed us (Sept. 25) that, due to budget constraints,
+no CSC plaques will be made. Croton - and, simultaneously, Hastings - are the only villages or
+towns to attain silver. Other recipients are 3 counties and 2 cities (Kingston and Beacon). While not
+assuring future DEC grants, attaining silver has well-positioned Croton to that end.
+Regular business was then moved to later in the meeting to allow time for Lauren’s presentation.
+- Lauren had previously provided data on the HeatSmart program promoting GSHP, ASHP, and heat
+loss reductions in Westchester homes in NYSEG and Con Ed territories. Results, however, were
+disappointing. Until we can see the impact of Con Ed’s recent increase in GSHP incentives (from
+$1,875 per ton to $3,420 per ton), a more viable effort may be to take advantage of its increased
+incentive for residential HPWH (now $1,000 per unit). Together with the $300 federal tax credit, the
+full equipment cost of a unit could be covered. Depending on site specifics, installation could be
+another ~$1,400. According to a DOE online calculator, Con Ed’s electric rates may cost a typical
+homeowner with an electric hot water heater ~$900 a year. Replacement with a HPWH could save
+$300-$600 a year, yielding a 3-4 year payback after incentives.
+According to DOE and NYSERDA data, 31%-45% of all residential water heaters in our area are
+likely electric, yielding over 1,000 in Croton. A realistic goal might involve replacing ~10% (i.e.,
+~100) of them. Each would cut GHG by ~.8 tons/yr, so 100 of them could eliminate ~80 tons/yr.
+Lauren said that SW would help Croton develop the program, using its resources and contacts for
+marketing materials and arrangements with approved vendors. [A list of follow-up questions was
+sent to her 10/3/20.] She also discussed pros and cons of several financing options, including
+Green Jobs / Green NY and the private GreenSky LLC option used by many contractors. After
+discussing details and issues, the committee approved the project. Various edits to the draft
+proposal were suggested and are reflected in the addendum to these minutes. Jon Katz (who has
+professional experience with HPWH) agreed to suggest other changes that could make it better.
+[John Habib agreed to test the survey as a “guinea pig”, as though he knew nothing about the
+program.] As seen below under “Communications”, the committee also agreed to invite C100’s
+participation in this project.
+1
+
+Quick updates/holdovers/follow-ups/status:
+- Food scrap recycling grant: It still needs a project manager. Sherry Horowitz approached two C100
+people on the matter, without a result. See also Joel’s draft invitation to C100 to participate in that
+project, under “Communications”. We have until Oct. 2022 to spend the money. If we are unable to
+find a volunteer project manager, we may seek an extension for a year, or just return the grant.
+The commercial composting facility (Sustainable Materials Management, Inc.) in Cortlandt is now
+operational and is going through initial testing. Its manager stated that it will be ready to start
+receiving food scraps this month, and looks forward to serving Croton in the spring.
+- EV/EVSE: NY State may get ~$50 million from the diesel emissions scandal settlement involving
+Mercedes-Benz’s phony emission software (same as VW). It is unclear how the prior $48 million of
+VW money will be converted to bigger – or secondary – vouchers. Answers are being sought.
+- CCA: on Aug. 17, after SW’s Dan Welsh presentation on renewing Croton’s MoU, the VB voted to
+do so. [In late September, Constellation Energy won the bid with an 18-month rate of 7.405 cents
+for green supply (residential). Croton residents will get notification letters in early November, and
+may opt out between then and Dec. 9.]
+- Our three community solar projects.
+- Installation work on the DPW rooftop job was completed in mid-July. Enrollment work started in
+late June, with 100% subscribed by the first week of August. Thanks to all who helped, including
+eblasts by the Village, C4C, Indivisible, C100, and others. A total of 53 residents (all in the 10520
+area) signed up for the system’s 301-kW dc output. 17% self-identified as low-to-moderate income
+(LMI), 60% did not, and the remaining 23% did not answer that question. For those that did not
+subscribe soon enough (mostly from Ossining), Ecogy offered the option to sign up for its Arcadia
+Farm rooftop site in Yorktown (https://ecogyenergy.com/arcadiacommunitysolar). It’s a tad smaller
+than DPW (~268.6-kW dc) and should be completed in early October.
+- On the Croton Landing canopy job, the VB reviewed (Aug. 24) computer renderings of the project
+and were OK on the aesthetics. A legal impasse has, however, stalled the project. The Village’s
+attorney stated that Croton cannot provide the financial assurances desired by Ecogy because the
+property is County land "in trust" to the Village. Lindsay is looking into legal options to resolve the
+issue at the County and State level. The goal would be to get a dispensation or memo under which
+solar canopies would be acceptable if limited to parking areas during the term of a lease. Brian said
+that a bill proposed by our State Senator Harckham might help fix that problem, called “alienation
+of public park land”. [Lindsay later spoke with Harckham’s office on 9/28/20. His bill has passed the
+State Senate but not yet the Assembly. It is unclear if it applies only to State parks. His staff agreed
+to send us information clarifying its coverage.]
+- On June 29, the RFI for the train station parking lot solar canopy job was distributed to 168
+NYSERDA-listed solar contractors, eliciting 24 responses. They were emailed the RFP on July 27.
+Due to the power outage, the pre-bid was postponed to Aug. 27. Thirteen of the 24 vendors
+appeared and visited the site. Due to that delay and issues related to environmental remediation,
+vendors asked for an extension on the proposal deadline, so it was moved to Oct. 5.
+2
+
+- Mayor Pugh asked Ecogy to consider a batch of small solar projects at 2 firehouses, the Muni
+Bldg, and the EMS House. Graphic mockups were produced, but maximum rent for the whole
+batch would be only ~$10K. While canopies over some of the parking area at the Muni Bldg were
+suggested, Ecogy feels that facility’s rooftop is not fit for solar panels because:
+“The roof was pitched pretty severely and looks to be a shingle roof so we would have to penetrate the
+roof which we don't want to do. Beautiful building and very nice roof but for solar we would have to
+guarantee 1000 penetrations for 25-years which is a risky investment for us. [9/28/20]”
+
+Lindsay suggested ground-mounted systems at the water pump stations be considered since they
+account for ~40% of municipal kWh. Ecogy agreed to look into that option. Questions on issues
+related to that site were emailed to Frank Balbi, Dan O’Connor, and Janine King.
+- Joel reported on the option to secure a paid intern via a NYSERDA grant. Because our Village govt.
+gets its power from NYPA (not Con Ed), it doesn’t pay the System Benefit Charge (SBC) on its
+electric bills. NYSERDA’s internship program gets its funding from the electric SBC, making our
+municipal govt. ineligible for it. Croton does pay SBC via its natural gas bills but NYSERDA would
+not count it for this purpose. Joel also reviewed other intern options, but none panned out.
+Communications:
+- Croton100 ran two small “pop-up” EV car shows for Drive Electric Week, 9/26 in Vassallo Park
+and 9/27 at Senasqua Park. Joel and Lindsay had provided suggestions, EV contacts, and copies
+of our updated EV flyer, which were distributed at the events.
+- NYPA’s renewable power offer: After 5 months, we finally got a 1-page flyer on the program. [A
+quote was later developed, which will be sent to Mayor Pugh.] Due to a recent (April) tariff change,
+NYPA customers may now access community solar systems. If the train station solar canopy
+system proves feasible, our municipal accounts could then get most of their power from it, securing
+a small discount on municipal electric bills in addition to lease rent. Lindsay will pursue the details.
+Ongoing/new business:
+- Len reported on his investigation of major funding sources of 5 national climate action groups. See
+his report at the end of these minutes. Bottom line: the Big 3 (NRDC, EDF, Sierra) have large
+budgets ($10s million/yr). The other 2 (Al Gore’s Climate Reality Project and Bill McKibben’s
+350.org) are much smaller ($ millions/yr). Much of their work involves legislation and lawsuits, but
+some grants have been given for mission-oriented localized efforts (e.g., to cities). Len felt that a
+grant for our type of work might be possible from one of those groups rather than from their
+funders. Len agreed to pursue examples of past grants, and their proposal submission schedules.
+- Prior to our meeting, Joel provided committee members with a draft letter to Croton 100, formally
+inviting it to participate in the food scrap recycling program and the HPWH program. The committee
+discussed it at some length and cleared Joel to send it [done 9/28/20]. A response was requested
+by Oct. 31. See the addendum for its text.
+- Due to personal and business demands, committee member David Goldman resigned from our
+committee on Sept. 16. During his 18-month tenure, our committee greatly benefitted from his
+tireless efforts and input. We wish him well on all his endeavors.
+3
+
+- Jon Katz described his recent experience with an AeroBin composter which contains a porous core
+tube for creating air flow to food and yard scraps put into the device. He had great success!
+Date for our next meeting: Sunday, November 1, 10:30 AM (the usual time) again via Zoom
+------------Proposal for replacing electric DHW heaters with heat pump water heaters (HPWH) – 9/27/20
+Why do this now:
+- cuts community GHG with no municipal government cost or involvement
+- provides homeowners with a cost-effective way to do so while saving money
+- no need for well drilling or other invasive/costly measures associated with GSHP/ASHP
+- utility rebate and federal tax credit are probably as high as they’re ever going to be
+Why don’t do this now:
+- doesn’t cut municipal GHG, which is officially our committee’s main directive
+- no one wants to spend ~$2,700 up-front right now, even if there’s a short payback period
+- a lot of busy work and education just in Step One (i.e., finding enough appropriate sites)
+- COVID limitations make everything more difficult. Postpone it for a year (maybe longer).
+--------Goal: persuade ~10% (or more) of Croton homeowners having electric resistance domestic hot water
+(DHW) heaters to replace them with heat pump water heaters (HPWH).
+Method: via a well-promoted online survey, determine the % of homes having electric DHW heaters.
+Develop an emailing list of those homeowners that express interest in learning more. Pre-qualify
+those via a follow-up questionnaire to eliminate problematic installation sites. Bring the remainder into
+contact with pre-chosen experienced contractors. Assist and track installations.
+Basis: According to the DOE Residential Energy Consumption Survey (RECS) data, about 1/3 of all
+residential DHW heaters in the Northeast / New England / Mid-Atlantic states are electric resistance
+units. NYSERDA data for the Hudson Valley and Long Island shows 45% may have them. Only ~2%
+(or less) of homes presently have HPWHs. Assuming ~3,000 owner-occupied households in Croton
+(there are 3,752 Con Ed power customers in Croton), ~30% would yield ~1,000 (or more) electric
+resistance units. A 10% target for success would replace ~100 units.
+In June, Con Edison raised its HPWH incentive to $1,000 per unit. Together with the $300 federal tax
+credit, those incentives could cover the full equipment cost of a typical 50-gallon hybrid HPWH.
+Based on a $2,675 fixed price obtained from a plumber experienced with such units (ref. Lauren Brois
+of SW), the cost (net of incentives) would then be ~$1,400. A NYSERDA Smart Energy Loan could
+cover the other 50% of the total cost (i.e., ~$1,300) at a 3% interest rate.
+An online DOE calculator for the operating cost of residential DHW heaters found that a typical
+household paying Con Edison rates may spend $900+ a year to run an electric resistance unit.
+(https://www.energy.gov/eere/femp/energy-cost-calculator-electric-and-gas-water-heaters-0)
+Assuming a Uniform Energy Factor (UEF) of at least 2.5 for readily available HPWHs, operating cost
+4
+
+would drop to about $360, saving over $500 a year. Several major manufacturers claim UEFs of 3.45,
+with one claiming 4.0.
+Dividing the $1,400 net cost by $500/yr savings yields less than a 3-year payback (i.e., ROI >33%). A
+residential installation could be charged on a credit card, obviating the need for credit checks, 2 nd
+mortgages, etc. that presently limit marketing of other forms of heat pumps.
+
+Steps to convert that information into a program
+a) Start with a consultation with a local plumber experienced with HPWH to nail down what needs to
+be known to develop a typical price and spec for installing a standard 50-gallon unit, and what
+conditions may disqualify a possible installation site. Pricing would be for a hybrid unit (i.e., having a
+built-in resistance coil to ensure a good recovery rate) and include an extended service plan to deal
+with follow-up installation/setup issues. Other issues would be reviewed that impact operational
+acceptability (e.g., operation/location of the condensate pump and piping).
+b) To help homeowners understand and identify their existing systems, and how a HPWH may save
+versus a resistance unit, create a short PPt. online tutorial on how homes heat their DHW. NYSERDA
+data shows many don’t know how it is made, or erroneously think they already have a HPWH. The
+tutorial would be available online for those taking the survey in step c). The tutorial would delineate
+the technical and financial aspects of DHW heating and HPWHs. This will need to be very simple:
+some homeowners don’t understand how their DHW is heated. Show how ~$500 a year could be
+saved while cutting a household carbon footprint by almost a ton/yr ($500 saving = ~2500 kWh @ .7
+lb/kWh = 1,750 lbs per year, = ~.8 MT or ~.9 standard tons per year).
+c) Develop an online survey of homeowners to quantify the electric resistance units in Croton and find
+those already having HPWHs. Distribute it via eblasts from Village, C100, Indivisible, C4C, CAC, etc.,
+plus Patch (and other online local chat sites), and the Gazette. Interview responding HPWH owners
+on the acceptability and experience with their units. See below for proposed survey questions.
+d) To focus on realistic opportunities for installations, develop and use a follow-up qualification
+questionnaire that would eliminate respondents (based on potential HPWH tech issues) whose
+installations may be problematic (e.g., cold location, low ceiling height, tight spacing, low DHW use).
+See below for the proposed questionnaire.
+e) Work out deals with local plumbers experienced with HPWH to get base pricing for an average
+easy installation if performing 50+ of them under this program.
+f) Use the list of respondents that passed the pre-qualification review to form clusters to get group
+pricing as we did for the oil-to-gas conversion and oil tank removal efforts. Those homeowners would
+then be given contact info for the interested plumbers, and/or the plumbers would be given
+homeowner contact information, so they could make their pitches and sign up customers.
+
+Draft email to residents
+Dear Croton homeowner;
+Croton’s Sustainability Committee is developing a program to help homeowners cut their electric bills
+and carbon footprints. A home with an electric hot water heater could save $300 to $600 a year in
+5
+
+electricity by replacing it with a heat pump water heater (HPWH). A HPWH could pay for itself in
+about 3 years, while providing continuous savings every year thereafter. It uses ~1/3 as much
+electricity while providing the same capacity and water temperature. Rebates and tax credits can pay
+~50% of the total cost. Low interest loans are available to finance the other half.
+To help us determine if enough electric hot water heaters exist in Croton to make such a program
+worth pursuing, please take our short survey. All responses are confidential. No salesperson will call.
+1) Do you own the home where you live? yes / no
+2) Does the home have a hot water tank (see picture)? yes / no
+3) When was it installed? came with house / before 2010 / since 2010
+4) Choose the fuel that heats the water: electricity / natural gas / oil / propane / solar
+5) If electric, do you know if it is already a heat pump water heater? yes / no
+Note: water heaters that use oil, natural gas, or propane are not heat pump water heaters. To
+learn about them, watch the 5-minute video at https://www.efficiencymaine.com/athome/water-heating-solutions/heat-pump-water-heaters/
+6) If you own your home, have an electric water heater, and would like to be contacted if this
+program proceeds, please provide your name and email address ____________________
+Thank you for taking our survey!
+
+Pre-qualification follow-up questionnaire for those expressing interest
+1) Please go to https://www.energy.gov/eere/femp/energy-cost-calculator-electric-and-gas-waterheaters-0 and use its online calculator to estimate your annual cost of DHW. Assume an
+incremental cost of electricity of $.20/kWh. Enter that cost here: $_______ Note: If less than
+$360, a HPWH may not be cost-effective: the payback period could be over 6 years.
+2) Choose your tank’s approximate capacity (in gallons): less than 40 / 40 / 50 / over 50
+3) If capacity is not known, how tall is the tank (in inches)?
+4) And what is its diameter or width (in inches)?
+5) Choose where it is located: basement / garage / kitchen / closet / elsewhere
+6) Is that space heated or is otherwise kept warm by a nearby boiler or furnace? yes / no
+7) Ceiling height of that space (in feet and inches from the floor)
+8) Width of that space (to the nearest foot)
+9) Length of that space (to the nearest foot)
+10) Does the DHW system have an expansion tank? yes / no
+11) Do you use a dehumidifier in or adjacent to that space? yes / no
+12) If so, where does its condensate go: drains to a sink or floor drain / bucket must be emptied /
+other
+13) How far (to the nearest foot) is the hot water tank to the closest sink, floor drain, or washing
+machine?
+6
+
+14) At the sink furthest from your DHW tank, does it take 20 seconds (or longer) for the water to
+get warm? yes / no
+15) Is the DHW tank located next to a space where a heat pump’s sound (similar to that of a
+window A/C unit as heard on its exterior side), could be an issue, e.g., a bedroom or office?
+yes / no
+
+Joel’s invitation to C100 to participate in two of our projects
+TO: LEO WIEGMAN, CHANDU VISWESWARIAH, PATTY BUCHANAN
+Hi all,
+I hope that everyone is well.
+Last Monday’s meeting ended with a discussion of potential activities for Croton100 this fall and
+beyond. To that end, and with the demonstrated success of this past weekend’s EV shows, there
+are two Sustainability Committee projects that we believe are ideal for Croton100’s participation. We
+could certainly use your help. Your wide reach in the community and your contacts with so many
+individuals and families in the village can be essential to the success of those projects. They are:
+
+
+the 6-month Pilot Food Scrap Recycling Program
+
+
+
+a program to promote replacement of residential electric hot water heaters with heat pump water
+heaters (HPWH).
+
+The Sustainability Committee invites and encourages Croton100’s participation in both projects.
+Food Scrap Recycling
+Last September, the village was awarded a small grant from the NYDEC for a six-month pilot food
+scrap recycling program, currently scheduled to begin in April 2021. Forty to fifty families will be
+selected to collect their food scraps in containers provided by the village. Each Saturday morning,
+they will bring them to a specified location, most likely the old skate park, to be logged in and weighed
+by a village employee.
+The collected scraps will be periodically transported to the new Sustainable Materials Management
+(SMM) commercial recycling facility at Roa Hook in Cortlandt. That facility is now open to receive
+food scraps for conversion through mechanized composting. All of the costs associated with these
+operations are covered by the grant or the Village. If this program is successful, it can be expanded
+to cover the entire community.
+Croton100’s role would include these tasks:
+
+
+Becoming educated on the details of the program
+7
+
+
+
+In cooperation with the village, publicize the program and answer questions about it from
+members of the community
+
+
+
+Recruit 40-50 families to participate in the program
+
+
+
+After the Village purchases the requisite containers (with grant funds), distribute them to the
+participants
+
+
+
+Observe all weekly drop-offs and collect weekly data (participant name, weight of dropped off
+scraps) from the village employee at the site
+
+
+
+Compile the data in an approved format (e.g., Excel) and report it monthly to the Sustainability
+Committee
+
+
+
+Contact participants who are not regularly participating to encourage them to become more
+active.
+
+
+
+At the conclusion of the program, prepare a draft final report for the village and the state DEC
+detailing the results of the program, discussing any issues that arose, how the program may be
+improved, etc.
+
+Because of the time it will take to organize the program, we will need a definitive response that
+Croton100 is interested in assuming these responsibilities and the designation of the individual who
+will lead the effort no later than October 31, 2020.
+Croton100 will be able to take full credit for its involvement and for the benefits that accrue to the
+community. Because the success of the program will be contingent on your efforts, all tasks would
+need to be fully executed. Failure to do so would make it difficult for a larger food scrap program to
+be accepted by the village.
+Heat Pump Water Heaters (HPWH)
+This is a new program that is just getting off the ground. Sustainable Westchester has agreed to assist
+us with marketing materials and vendor development efforts.
+Unlike recent HeatSmart campaigns that focused on promoting ground source and air source heat
+pumps (GSHP and ASHP) for home heating and cooling, the HPWH program will be limited to
+replacing electric resistance hot water heaters with units that use heat pumps to heat domestic hot
+water (DHW). Some basic information on HPWH is contained in the following from Efficiency Maine,
+their counterpart to NYSERDA: https://www.efficiencymaine.com/at-home/water-heatingsolutions/heat-pump-water-heaters/
+The economic case for HPWH is much more compelling and easily accepted than GSHP and ASHP
+due to the lower cost, easier installation, and simpler financial incentives. According to a DOE survey,
+approximately 1/3 of all residences in the Northeast use electric resistance water heaters, regardless
+of the fuel used in the boiler or furnace. With about 3,000 owner-occupied homes in Croton, that
+potential market could be as large as 1,000 (perhaps more if we consider the entire 10520 zip code).
+8
+
+A 10% penetration rate would then yield ~100 customers. Each replacement would (on average)
+eliminate about 0.8 metric tons of GHG a year. Every four replacements would have about the same
+impact as replacing a gasoline-driven car with an EV.
+Based on prior work in upstate NY, installation of a typical heat pump unit would cost about $2,700.
+With ConEd’s current rebate of $1,000 and the federal income tax credit of $300, the cost to the
+homeowner drops to about $1,400. Again based on DOE data, Con Ed (and CCA) customers with
+electric resistance DHW heaters may spend an estimated $900 per year as opposed to ~$360 for a
+HPWH, saving over $500/year. The resulting payback period of about three years (i.e., ROI of about
+33%) should be attractive to many homeowners. The ongoing savings after payback will, over a 15year lifetime, add up to about $6,000 per household. A typical HPWH may cut electric usage by 60%
+or more, depending on usage. Even as New York converts to all renewable power, demand will be
+lowered, requiring fewer wind turbines, solar panels, batteries, and the like to meet the load.
+As currently conceived, the program would consist of:
+
+
+Identifying local residences that use electric resistance water heaters. A survey is currently in
+preparation to elicit this information. Some education may be needed: preliminary discussions
+with several homeowners found that they did not know what kind of water heater they are using.
+
+
+
+Confirming the economic data noted above, and negotiating a preferential price for the
+installation of multiple HPHW with a local contractor.
+
+
+
+For those homeowners requesting further information on the program, a follow-up questionnaire
+will be used to pre-qualify potential sites based on technical issues.
+
+
+
+From the survey and questionnaire data, identifying likely prospects and contacting them with
+the specific details of the offer. At that stage, the homeowner will be put in contact with the
+contractor to secure a proposal for the homeowner’s installation.
+
+Again, we envision a significant role for Croton100 in the development and execution of the program.
+For example, it might include:
+
+
+Educating yourselves on all aspects of heat pump powered water heaters.
+
+
+
+Assisting in the development of the details of the program.
+
+
+
+Publicizing the program and answering questions from members of the community.
+
+
+
+Extracting the necessary information from the survey and questionnaire to identify likely
+prospects.
+
+
+
+Contacting them with the details of the program and putting them in touch with the selected
+HVAC contractor
+
+
+
+Tracking actual installations: size and cost of units, issues cited by homeowners.
+9
+
+
+
+At the conclusion of the program, preparing a draft report on all aspects of the program, lessons
+learned, etc.
+
+Again, Croton100 can take full credit for its participation and the GHG emissions reductions achieved.
+Installations of HPWH can be cited as a step among those noted in your Carbon Tracker program.
+While a final commitment is not needed at this stage of the program’s development, we would like to
+have a firm expression of interest and the identification of the responsible individual at Croton100 by
+October 31, 2020 so that she/he may be brought into the planning and development in its early
+stages.
+If you have any questions, please feel free to contact me. I also plan to join the meeting on October
+19 if you wish to discuss the projects at that time. We look forward to working with you on these
+exciting initiatives.
+Keep well. Stay sane.
+Best regards,
+Joel
+-----Len’s synopsis of his research on funding sources for 5 major climate action organizations
+See his chart on the following page for details on each of those organizations’ funding sources.
+Following up on Sunday’s meeting of the Sustainability Committee, I have summarized findings from
+the funding review of five environmental groups, described how their grant-making could benefit the
+Committee and outlined next steps I will pursue in this area.
+Review of Large Funders of Big Five Environmental Groups. The Natural Resources Defense
+Council, Sierra Club, Environmental Defense Fund, Climate Reality Project and 350.org are all
+foundation grant recipients. Individual grants do not have to be divulged, but publicly available reports
+provide useful information on major funders as well as the “corporate partnerships” supporting their
+work. But in addition to receiving funding from outside sources, NRDC and Sierra actually give
+grants.
+Their Grantmaking Could Benefit the Sustainability Committee. The grant-making of the
+environmental organizations is localized, mission oriented and may involve infrastructure in certain
+circumstances. It is localized with funds directed to groups at the community or regional level. It
+is mission oriented because funds are granted to take on a specific environmental project or
+objective, not for general operational support. And infrastructure funding may be involved, but we’ll
+need direct discussions with those groups to determine details.
+Next Steps to Pursue with Environmental Groups. As discussed Sunday, I will reach out to
+NRDC and the Sierra Club to learn more about their grant-making activities focusing on priorities,
+eligible activities, range of funding and timing. In so doing, I will review the work of the Sustainability
+Committee with them and assess the potential for them to fund a Committee project. I’ll plan on
+reporting back what I find shortly before the November 1 Committee meeting and then discuss it
+further in the meeting itself.
+
+10
+
+Large Funders of the Five Major Climate Change Focused Organizations
+Organization
+Natural
+Resources
+Defense
+Council
+(NRDC)
+
+Large Funders
+
+Amount
+
+Time Period/Notes
+
+McArthur Foundation
+
+$17.0 million
+
+1986 - 2018
+
+Energy Foundation
+
+$6.7 million
+
+2015 -2017
+
+Pisces Foundation
+
+$4.8 million
+
+2013 - 2019
+
+The William & Flora Hewlett
+Foundation
+
+$4.7 million
+
+Since 2008
+
+$4.7 million
+
+Since 2008
+
+The Schwab Charitable Fund
+$2.2 million
+Open Society Institute and Foundation
+
+$1.7 million
+Sea Change Foundation
+$1.7 million
+The Rockefeller Foundation
+$1.1 million
+
+Vanguard Charitable Endowment
+Program
+Sierra Club
+
+Bloomberg Family Foundation
+
+$105 million
+
+Through 2015
+
+MacArthur Foundation
+
+$34 million
+
+2013 - 2018
+
+Sea Change Foundation
+
+$14. 5
+million
+
+Through 2013
+
+Energy Foundation
+
+Through 2012
+$6.4 million
+Through 2012
+
+William and Flora Hewlett Foundation
+$3.4 million
+
+Organization
+Environmental
+Defense Fund
+(EDF)
+
+Large Funders
+
+Amount
+
+Time Period/Notes
+
+MacArthur Foundation
+
+$48.8 million
+
+1986 - 2019
+
+Heising - Simons Foundation
+
+$2.4 million
+
+2018
+
+David and Lucille Packard Foundation
+
+$750,000
+
+2015
+
+Kresge Foundation
+
+$600,000
+
+2010
+
+Alfred P. Sloan Foundation
+
+$600,000
+
+2015
+
+Houston Endowment
+
+$585,000
+
+2018
+
+11
+
+Climate
+Reality
+Project
+(Al Gore)
+Previously
+known as
+Alliance for
+Climate
+Protection
+
+350.org
+
+McArthur Foundation
+
+$500,000
+
+2011
+
+Other known donors:
+
+Funded in part by $2.7 million in
+
+Benificus Foundation
+Tides Foundation
+Barbara Streisand Foundation
+Horn Foundation
+The Open Society Institute
+The Skoll Foundation
+The Marisla Foundation
+The Sumner Redstone Charitable
+Foundation
+
+proceeds from Gore's documentary
+Amounts Not
+Available for
+these
+Foundations
+
+and book, "An Inconvenient Truth"
+his salary from work for a venture
+capital firm and prize money
+from his 2007 Nobel Peace Prize.
+Also, profits from Live Earth concerts
+in 2007.
+
+Foundation for the Carolinas
+
+$6.0 million
+
+(Bill McKibben) Open Society
+Tom Steyer
+Rockefeller Brothers Fund and Family
+Fund
+Tides Foundation
+The Schumann Center for Media and
+Democracy
+
+12
+
+Amounts Not
+Available for
+these donors
+
+2016 - 2017
+
+

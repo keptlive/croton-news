@@ -1,0 +1,217 @@
+MINUTES – Croton Sustainability Comm. (SC) – 10:30 AM Sunday, May 23, 2021 – via Zoom.us
+Members Attending:
+Lindsay Audin
+Niall Kelleher
+Bernie Yozwiak
+Jon Katz
+
+Absent:
+Brian Pugh
+Len Simon
+Dan Columbini
+
+Joel Gingold
+
+[Bracketed] text meand subsequent actions or clarifications. Underlining indicates a commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: On August 9, Bryan Healy, assistant to Janine King (who is retiring), will
+become Croton’s new Village Manager.
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC grants
+By the April 30 Grid Rewards deadline, we had over 30 enrollments (we needed at least 10).
+On 5/7/21, NYSERDA awarded us 200 points for that Community Campaign. Thanks to all who
+helped make that possible, including those who assisted and/or provided docs and eblasts,
+Facebook, Gazette LTE, Patch.com, etc. to bolster that submission.
+The next 200 points came from Community Solar (CS) 2.0 and were awarded by NYSERDA
+on 5/19/21 (we submitted on 5/11/21). We needed 10 sign-ups and submitted 17. By 5/19/21,
+there were 28 enrolled and another 52 in various stages of enrollment. The Yorktown system
+(which includes a rooftop and a parking canopy) can serve only ~38 people. Any “overflow” will
+likely be allocated to the Ecogy system being built at the Maryknoll Seminary in Ossining (it also
+includes both a rooftop and a canopy).
+Thanks to committee members and their associates for their help. Bernie did an eblast to C4C
+associates, and notices in HNM’s church bulletin. Joel did an eblast to CcoHOPE / Indivisible,
+Brian did a Village eblast, and our own committee’s list was also used. Lindsay’s LTE to the
+Gazette appeared in its May 6-12 issue. His wife (Sunny) did a post at Croton Patch
+(neighborhood social media). Patty Buchanan did a blogpost at C100’s site.
+At 4,700 points, we were tied for 3rd place with Kingston. Village of Hastings (5,500 points) and
+City of Beacon (4,900 points) are ahead of us. Bedford was right behind us (4,600 points). The
+$70K grants will go only to the first four municipalities that reach 5,000 points. At 4,700 points,
+however, we should get $40K in grants ($10K + $20K + $5K +$5K).
+The final step to get us to (exactly) 5,000 points was taken 5/21/21 when the Village bought a
+3rd EV (another parking enforcement Ford Fusion PHEV). Brian and Janine King expedited that
+purchase by securing it from a Connecticut dealership. Documentation was submitted to
+NYSERDA at 12:16 PM on 5/21/21. [Note: on 5/26/21, NYSERDA notified us that we are
+eligible for the four grants totaling $40K. By 8/26/21, we must submit applications
+describing projects for which we want to use those funds. On 5/27/21, NYSERDA
+updated its Scorecard to show that Croton had won 5,000 CEC points, which was our
+goal. We have not yet been notified that we are eligible for a $70K grant, or the deadline
+1
+
+for submitting an application describing a project for which we would use the funds.]
+See the appendix at the end for a repeat of our Feb. 2021 discussion about prioritizing (by
+$/MT) our project options.
+- EV/EVSE
+See above for the purchase of the Village’s 3rd EV.
+All the school budget propositions calling for EV school buses passed by wide margins.
+According to the school district’s timeline, all necessary incentives and equipment need to be
+secured and installed by Sept. 1 to ensure they are positioned for the next school term. That is
+a very tight timeline, especially if the existing Con Ed feeder needs upgrading to accommodate
+the increased load. Regarding an issue with that feeder, see the DPW feeder issue under “Solar
+Projects”. Existing bus depot electric service is sufficient to feed one dual-port charger for two
+mini-buses, but may not be enough to also feed a large (e.g., 19.2 kW) Level 2 charger for a
+full-sized bus. Con Ed timelines for feeder upgrades range from 6 to over 20 months.
+- Washington Engine firehouse
+Ecogy revised its solar design but it was too small for community solar. If we get a grant, other
+options (e.g., leasing of a solar system under a PPA) may be feasible.
+Bottom line: we will await details on our NYSERDA grants before pursuing further action on the
+firehouse’s roof code compliance, heat pumps, or solar options.
+- HPWH
+Re: offering an extra incentive to low-income households (LMI), Brian had reviewed how
+NYSERDA allowed other communities to use grant money to benefit individuals. He found
+several examples, including some more aggressive than ours. However, the Village attorney
+was not persuaded. The submission of a Letter-of-Intent (i.e., initial step before a grant
+proposal) to the Westchester Community Trust (WCT) was thus abandoned for this grant cycle
+(which closed in early May).
+Because of the time sensitivity with gathering CEC points for NYSERDA grants, development of
+the HPWH project will resume once our grant options become clear.
+- Solar Projects
+See above for the Washington Engine firehouse solar rooftop status.
+On the train station canopy, SolSystems reported (5/12/21) that: “The drilling for the Phase II
+ESA and Geotech is actually taking place right now and should be wrapped up by COB today.”
+The geotech report should be done by 6/12/21. It will tell us if the ground is OK to install vertical
+support beams. Keep your fingers crossed. They also said that “the wetland delineation and
+survey have all wrapped up or are close to being 100% complete.” We don’t expect any issues
+to arise, but that verification is also critical as to site viability.
+On the Muni Building’s north and south canopies (total of ~125 kWp), Ecogy determined that,
+without a grant to cover part of the cost, the revenue would be too small for community solar.
+2
+
+On the DPW canopy for its front parking area (~197 kWp), on 5/1/21 a Con Ed feeder voltage
+spike occurred at the site, forcing temporary shutdown of the rooftop system. If fixing it could be
+costly, Con Ed could require Ecogy to pay for the fix it before allowing the canopy. That could
+kill the canopy project. Ecogy is awaiting Con Ed’s technical findings on the problem.
+That feeder also serves the school bus depot. The DPW canopy may only become feasible if
+the school installs EV chargers because doing so would trigger the funding to fix it via Con Ed’s
+PowerReady (a/k/a “Make Ready”) program. It supports EV charger installations, but not solar.
+On the Croton Landing Park canopy (~350 kWp), we await the State Legislature’s vote on the
+bills that would allow that job to re-start. [The Senate version passed on 5/25/21, 62-1.] The
+Assembly version is stuck in committee. Sandy Galef (our Assembly rep) has been trying to
+push it through, but (based on Assembly staff comments) she suggested we pursue a special
+exemption. [After several days playing “20 Questions” with staff, Lindsay concluded that was
+not going to be fruitful. Efforts are now being made to get County Executive Latimer involved.]
+- Reports
+Battery Energy Storage Systems (BESS):
+Bernie is attending a 5-part series of webinars on BESS, and reported on items in the first 2. He
+reviewed differences between the two main types of lithium-ion batteries: LFP (lithium iron
+phosphate) and NMC (nickel manganese cobalt), and among residential, commercial, and
+utility-scale BESS. He displayed a map showing major installations (of which there are many)
+working or in process across the U.S. He focused on issues related to fire safety and facts-vsfiction thereof. Many improvements in fire codes and technology have occurred since the April
+2019 fire and explosion at an Arizona utility battery. After some discussion regarding how this
+may impact the proposed 2.7 MW (13.5 MWh) battery proposed for our train station, Lindsay
+agreed to query Len (a member of Croton’s fire brigade) as to the training our firefighters have
+received (or should get) regarding BESS.
+Bio-based fuels for trucks and heating fuel:
+Niall and Lindsay reviewed the types of heating and diesel fuels used by Con Ed and the
+Village. The Village uses B5 versions (i.e., containing 5% bio-based fuel) for both from Sprague
+Energy. Niall reported that Con Ed’s trucks use B20 from spring to fall, and B10 during the
+winter, due to issues with B20 at low temperatures. He pointed out that steel fuel tanks
+(regardless of end use) that were painted on the inside would need to be replaced with
+aluminum tanks. Otherwise, B10 or B20 might cause the paint to peel off, clogging fuel filters.
+For the Village, requests for quotes for B10 heating fuel found that Sprague provided only B5.
+Robison sells B10 for about $.25/gal more, i.e., ~$2,300 a year. For truck diesel, Sprague’s
+upcharge for B10 is about $.16/gal (B20 was ~$.76/gal more). Switching to B10 diesel could
+then cost ~$5,000 a year. Both actions together would cost ~$7,300/yr and cut our carbon
+footprint by ~19 MT/yr (about 1.3%) at a price of ~$380/MT. Carbon offsets cost <$10/MT. We
+await NYSERDA’s answer on using grant money to pay for extra fuel costs or carbon offsets.
+A similar review of the school district’s heating and diesel bills found no use of bio-based fuels.
+3
+
+- Communications
+See “Recruitment/Outreach”.
+- Recruitment/Outreach
+Samantha Harvey, a recent (3/20) Croton resident, expressed interest in joining our committee.
+After some discussions, it was determined that her interests were better aligned with those of
+the CAC. She was given Janet Monahan’s (CAC chair) contact information.
+The school budget proposition for the Honeywell energy performance contract (EPC) was
+passed. It calls for upgrading school lighting to LED, installing rooftop solar panels, and a
+variety of other energy efficiency measures (EEMs). We had proposed the EPC in 2019.
+Work with our interns was suspended until June 26, after finals and graduation. No new tasks
+have been developed at this time. One of their last tasks involved checking for environmental
+groups within the high school. They found that a Green Team once existed, but went dormant
+when its teacher sponsor no longer had time for it. A similar fate was met by an environmental
+committee within the student government.
+Bernie stated that Eric Lewandowski, a psychologist working with climate change-stressed kids,
+did a presentation on the issue for his Care for Creation (C4C) Ministry. Eric wants to develop a
+youth group as an adjunct to C100, outside the school system. It would help kids cope with that
+stress through activities dealing with the issue. Bernie agreed to act as a conduit for any youth
+looking to do so.
+Discussions with the Cornell Coop Extension regarding its Youth for Climate Action (YCA) effort
+in Rockland County found that it was essentially an offshoot of a local chapter of the 4-H club.
+No comparable group or effort exists in Westchester County. YCA activities are focused on
+preserving natural resources, and are unrelated to cutting GHG.
+- New business / other issues
+Date for our next meeting was set for Thursday, June 24, 7:00 PM. We are trying out
+an evening weekday zoom to see if it helps attendance. We will then adjourn for our usual
+summer recess until Sunday, Sept. 26 (or whatever weekday date is preferred). Work will
+continue outside of our formal meetings. If we learn that we will get a $70K grant before or
+between those dates, a special meeting/party will be held to dicker over how we’ll spend the $.
+--------Appendix: review of prior discussion on how to spend grant money. Note some pricing has been
+updated since this appeared in February’s minutes (e.g., quotes on bio-based fuels).
+Regarding how best to spend the grants (if we get them), see below in approximate order of
+cost-effectiveness for cutting GHG. All are evaluated based on a ~15-year lifetime. NYSERDA
+CEC funding is unlikely for the first three [but we continue to await answers on those options].
+We agreed that they could be considered without using grant money.
+
+4
+
+1. Buy carbon offsets to zero out the municipal carbon footprint at a price of ~$5/MT. Our
+present footprint is ~1,400 MT/yr, so annual cost would be ~$7K/yr. The 15-year cost would be
+$105K.
+2. Buy down 100% renewable NYPA power by its extra ~5 mills/kWh (1 mill =$.001) for RECs.
+At .7 lb/kWh, we get a price of ~$16/MT. Annual cost would be ~$8K/yr yielding a 15-year cost
+of $120K. [Note: REC prices have been rising since February 2021].
+3. Buy down B10 for diesel trucks and fuel oil at the DPW based on its extra $.10/gal. At 22.2
+lb/gal diesel and a ~10% carbon cut, GHG is saved at ~$100/MT. Annual cost would be
+~$3.5K/yr leading to a 15-year cost of $52.5K. [Recent quotes are about double that amount,
+and the GHG savings should be relative to existing B5, not standard diesel].
+4. Convert the Washington Engine firehouse from oil heat to air-source heat pumps (ASHP).
+Based on Jon’s draft design, the capital cost is ~$30K. Replacing its ~2,500 gal/yr of fuel oil
+with ~27,000 kWh/yr to run heat pumps, would cut ~16.6 MT GHG at ~$125/MT. If 15-year
+operating savings of ~$2K/yr are included, that cost drops to about zero.
+5. replace resistance DHW heaters at the DPW and Muni Bldg with HPWH at net .5 MT/yr per
+site, and per site cost of ~$2,000, yielding GHG savings at ~$270/MT. Because of NYPA
+demand charges, operating cost savings may be small. Installation and GHG pricing to replace
+the Washington firehouse’s oil-fired DHW system would be higher because it instead uses oil
+and also incurs demand charges. The other two firehouses use natural gas. While their DHW
+replacements would net ~.14 MT/yr per site, operating costs would increase.
+6. To replace residential resistance units with HPWH at Con Ed rates, a ~2/3 reduction in kWh,
+and a net cost (after rebate and tax credit) of $700, GHG cost is under ~$100/MT. If operating
+savings are included, that would be less than zero. Without rebate and tax credits, it is about
+zero.
+7. New EV sedans at ~$30,000 (after $5K/car State subsidy), at net 3 MT/yr per car, GHG
+savings would cost ~$700/MT. If operating savings are ~$.03/mile, 15-year savings would bring
+that cost down to ~$650/MT. Two cars are old enough to merit replacement: Rec. Dept. 2001
+Taurus 19 MPG (veh. #94-10) and the Eng. Dept. 2002 Crown Victoria 18 MPG (#102-02). Both
+are parked at the Muni Bldg, and would use its two (presently public) charge ports. [A 3rd EV
+was purchased in late May 2021 at a cost of ~$33K to replace a parking enforcement car.]
+By comparison, rooftop PV (@ $2/W, .7 lb/kWh) cuts GHG at a cost of ~$300/MT. For
+canopies, that cost may be 50+% higher. However, community solar leasing rent avoids a need
+for grants. Brian asked that Lindsay refresh Ecogy’s earlier offer for rooftop PV at several muni
+sites. [Due to reductions in VDER credits since February, community solar projects smaller than
+~200 kWp are not financially viable, but may be pursued as solar leases with a grant.]
+Pending acceptability from the Village manager and Board, the committee approved the above.
+Niall asked if grant funds could be used to start another community garden. Bernie asked about
+a tree planting program. Lindsay agreed to query NYSERDA on those options [In March,
+NYSERDA OKed spending grant money on both.] It may be possible to use funds from the $5K
+5
+
+grants (if we get them) to do so. Bernie liked the purchase of carbon offsets and RECs, even if
+that could not be done using grant money. Joel was not enthusiastic on that option.
+[After the meeting, Lindsay and Jon discussed a fallback position if new EVs were not desired:
+install two large ASHPs in the DPW garage areas to cut fuel oil used to heat them. They
+concluded doing so would not be a good idea, and could trigger changes required by the
+building code.]
+
+6
+
+

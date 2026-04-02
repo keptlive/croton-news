@@ -1,0 +1,4204 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//croton.news//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Croton-on-Hudson — All Events
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Everything happening in and around Croton-on-Hudson, NY
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+BEGIN:VEVENT
+UID:57e4af8c3d3f@croton.news
+DTSTART;TZID=America/New_York:20260401T110000
+SUMMARY:Playtime and Coffee
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/playtime-and-coffee-4/2026-04-01/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Playtime and Coffee:   We invite caregivers to join us for coffee and conversation, while your little ones have fun at playtime!  For children of all ages and caregivers.         Juego libre y café: 
+END:VEVENT
+BEGIN:VEVENT
+UID:4b60ab2738cb@croton.news
+DTSTART;VALUE=DATE:20260401
+SUMMARY:Civil Cases and Summary Proceedings - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5f246ab50819@croton.news
+DTSTART;VALUE=DATE:20260401
+SUMMARY:Vehicle and Traffic Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7e3fb377c1d7@croton.news
+DTSTART;TZID=America/New_York:20260401T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4fdab789d544@croton.news
+DTSTART;VALUE=DATE:20260401
+SUMMARY:Passover Begins April 1 Ends April 9
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d137663540c0@croton.news
+DTSTART;VALUE=DATE:20260401
+SUMMARY:Spring Recess - SCHOOLS CLOSED
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c8cf9988837b@croton.news
+DTSTART;TZID=America/New_York:20260402T150000
+SUMMARY:LEGO Marble Maze
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/lego-marble-maze/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n LEGO Marble Maze:  Drop in to play with LEGOs and create a maze! Will you be able to get your marble through the maze successfully?  For ages 5-11.   LEGO Laberinto de canicas:  ¡Ven a jugar con LEGO
+END:VEVENT
+BEGIN:VEVENT
+UID:161528e03355@croton.news
+DTSTART;TZID=America/New_York:20260402T180000
+SUMMARY:FIBER ARTS GROUP
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/fiber-arts-group/2026-04-09/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\nField Library Fiber Artists:  Bring your current project to the library and join our crafting circle. Interested in learning to knit or need help? Talk to Benny!
+END:VEVENT
+BEGIN:VEVENT
+UID:16b7ac143866@croton.news
+DTSTART;TZID=America/New_York:20260402T100000
+SUMMARY:Farm-to-Fable
+LOCATION:Hilltop Hanover Farm\, 1271 Hanover Street\, Yorktown Heights\, NY\, 10598\, United States
+URL:https://parksevents.westchestercountyny.gov/event/farm-to-fable-7/2026-04-12/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nLittle ones, ages 3-6, will explore the whimsy of the world around them through combining storytelling with hands-on activities on the farm straight from the tale! Registration for this class is requi
+END:VEVENT
+BEGIN:VEVENT
+UID:21e0a448c50c@croton.news
+DTSTART;TZID=America/New_York:20260402T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:07fe14d84b81@croton.news
+DTSTART;TZID=America/New_York:20260402T190000
+SUMMARY:Under 300 Book Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/under-300-book-club-9873
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6c42ab1fe380@croton.news
+DTSTART;TZID=America/New_York:20260402T190000
+SUMMARY:Cortlandt Democratic Committee
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/cortlandt-democratic-committee-10187
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1b316f75e875@croton.news
+DTSTART;VALUE=DATE:20260402
+SUMMARY:Spring Recess - SCHOOLS CLOSED
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8ac39d6dc7b7@croton.news
+DTSTART;TZID=America/New_York:20260402T100000
+SUMMARY:Tax-Aide Assistance (NO MORE APPOINTMENTS)
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/tax-aide-23954
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0f3383baeb1c@croton.news
+DTSTART;TZID=America/New_York:20260402T160000
+SUMMARY:Magic the Gathering Card Game
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/magic-gathering-card-game-23699
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f21fa461fa25@croton.news
+DTSTART;TZID=America/New_York:20260402T190000
+SUMMARY:Teen Book Club
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/teen-book-club-24475
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:186e5af10ffe@croton.news
+DTSTART;TZID=America/New_York:20260403T130000
+SUMMARY:Author Book Talk - The 50 Broken Arrows
+LOCATION:Library Program Room
+URL:https://thefieldlibrary.org/calendar/author-book-talk-the-50-broken-arrows/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n AUTHOR BOOK TALK – “THE 50 BROKEN ARROWS” Join us at The Field Library for a book discussion with local author Doreen Asia Headen, as she discusses her book. The 50 Broken Arrows is a powerful and tr
+END:VEVENT
+BEGIN:VEVENT
+UID:53d9c28cb539@croton.news
+DTSTART;TZID=America/New_York:20260403T143000
+SUMMARY:Open Play and Care Kits
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/open-play-and-care-kits-6/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Open Play and Care Kits:  Kids and caregivers are invited to join us for open play! On different days, we’ll have puzzles, trains, LEGOs, and more! We’ll also have Care Kits (snacks!) for families in
+END:VEVENT
+BEGIN:VEVENT
+UID:bac2bf8e4ccc@croton.news
+DTSTART;TZID=America/New_York:20260403T080000
+SUMMARY:Mall Walk
+LOCATION:The Westchester\, 125 Westchester Avenue\, White Plains\, NY\, 10601\, United States
+URL:https://parksevents.westchestercountyny.gov/event/mall-walk/2026-04-03/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nThe Mall Walking Club meets every Tuesdays and Fridays, from 8 a.m. to 10 a.m. at The Westchester in White Plains. It’s a great way to exercise no matter what the weather is outside. Go at your own pa
+END:VEVENT
+BEGIN:VEVENT
+UID:0c4a0ca24286@croton.news
+DTSTART;VALUE=DATE:20260403
+SUMMARY:Good Friday
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c24b2c2389c1@croton.news
+DTSTART;TZID=America/New_York:20260403T103000
+SUMMARY:Writers Circle
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/writers-circle-10219
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7873f142acd1@croton.news
+DTSTART;TZID=America/New_York:20260403T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/shut-write-meetup-10274
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:fd252b829bee@croton.news
+DTSTART;TZID=America/New_York:20260403T130000
+SUMMARY:Canasta: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/canasta-open-play-9785
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ff85481315b1@croton.news
+DTSTART;VALUE=DATE:20260403
+SUMMARY:Spring Recess - SCHOOLS CLOSED
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:22d0f89f246d@croton.news
+DTSTART;TZID=America/New_York:20260403T100000
+SUMMARY:Healthcare Navigator (by appointment)
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/healthcare-navigator-17774
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:93495c5db568@croton.news
+DTSTART;TZID=America/New_York:20260403T130000
+SUMMARY:Mahjong Game Day
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/mahjong-game-day-23488
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:679e33e6a567@croton.news
+DTSTART;TZID=America/New_York:20260403T140000
+SUMMARY:Little Gardeners
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/little-gardeners-25994
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:31a6d9ffd2f1@croton.news
+DTSTART;TZID=America/New_York:20260403T153000
+SUMMARY:DIY Beaded Earrings for a Cause
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/diy-beaded-earrings-cause-25321
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6483aec5c2bc@croton.news
+DTSTART;TZID=America/New_York:20260403T160000
+SUMMARY:Little Critics Book Club
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/little-critics-book-club-25671
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f3b271a14226@croton.news
+DTSTART;TZID=America/New_York:20260403T160000
+SUMMARY:Friday Afternoon Gaming
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/friday-afternoon-gaming-23085
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f8dfb1dd9e42@croton.news
+DTSTART;TZID=America/New_York:20260404T083000
+SUMMARY:Morning Farm Chores: For Kids
+LOCATION:Alfred B. DelBello Muscoot Farm\, 51 NY-100\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/morning-farm-chores-for-kids-7/2026-04-04/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nAges 6 through 14 can become a farmer for a day and join our staff as they feed, clean and care for our animals! $25 for a child with an adult. If you have two children, please purchase two tickets (o
+END:VEVENT
+BEGIN:VEVENT
+UID:bd01f68e359e@croton.news
+DTSTART;TZID=America/New_York:20260404T100000
+SUMMARY:Lasdon History and Highlights
+LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/lasdon-history-and-highlights/2026-04-04/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nUrban Naturalist Bruce Rosenberg will lead a walking tour that will focus on the history and highlights of the Lasdon Public Gardens. Stops will include examining the William and Mildred Lasdon Memori
+END:VEVENT
+BEGIN:VEVENT
+UID:e74181292b20@croton.news
+DTSTART;TZID=America/New_York:20260404T100000
+SUMMARY:Birding for Beginners
+LOCATION:Marshlands Conservancy\, 220 Boston Post Road\, Rye\, NY\, 10580\, United States
+URL:https://parksevents.westchestercountyny.gov/event/birding-for-beginners-16/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nFor anyone interested in birdwatching, this is a great way to learn some basics. Bring binoculars. Led by Chris Mignone.
+END:VEVENT
+BEGIN:VEVENT
+UID:6e4b31b32ea4@croton.news
+DTSTART;TZID=America/New_York:20260404T100000
+SUMMARY:Tea with the Animals
+LOCATION:Hilltop Hanover Farm\, 1271 Hanover Street\, Yorktown Heights\, NY\, 10598\, United States
+URL:https://parksevents.westchestercountyny.gov/event/tea-with-the-animals-6/2026-04-04/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nJoin us for a mid-morning cuppa while you meet and learn about the animals on the farm! Participants will harvest and make some scrumptious treats for both us humans and the animals to enjoy together 
+END:VEVENT
+BEGIN:VEVENT
+UID:5f828c220344@croton.news
+DTSTART;TZID=America/New_York:20260404T100000
+SUMMARY:Guided Tour of the Tarrytown Lighthouse in Sleepy Hollow
+LOCATION:Tarrytown Lighthouse in Sleepy Hollow\, Palmer Avenue\, Sleepy Hollow\, NY\, 10591\, United States
+URL:https://parksevents.westchestercountyny.gov/event/guided-tour-of-the-tarrytown-lighthouse-in-sleepy-hollow/2026-04-04/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nGo on a guided tour of the Tarrytown Lighthouse in Sleepy Hollow! Enjoy a 45-minute interpreter-led tour of the Tarrytown Lighthouse in Sleepy Hollow to learn about its history, significance, and what
+END:VEVENT
+BEGIN:VEVENT
+UID:e8572c2e55ac@croton.news
+DTSTART;TZID=America/New_York:20260404T113000
+SUMMARY:Old Time Music Jam
+LOCATION:Hilltop Hanover Farm\, 1271 Hanover Street\, Yorktown Heights\, NY\, 10598\, United States
+URL:https://parksevents.westchestercountyny.gov/event/old-time-music-jam-5/2026-04-04/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nThe Old Time Music Jam is a monthly gathering of local, acoustic musicians who play traditional Appalachian fiddle music. Come to play or just to listen and enjoy the community music can create! Music
+END:VEVENT
+BEGIN:VEVENT
+UID:6ef2987ff017@croton.news
+DTSTART;TZID=America/New_York:20260404T130000
+SUMMARY:Making Cordage from Plants
+LOCATION:Cranberry Lake Preserve\, 1609 Old Orchard Street\, North White Plains\, NY\, 10604\, United States
+URL:https://parksevents.westchestercountyny.gov/event/making-cordage-from-plants-2/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nGain a new appreciation for the plants all around us. Working with the dogbane plant, we will learn to hand-process its fibers into strong cordage. Ages 12 and up.
+END:VEVENT
+BEGIN:VEVENT
+UID:f9c17873beab@croton.news
+DTSTART;TZID=America/New_York:20260404T130000
+SUMMARY:Nature Reset Walk
+LOCATION:Trailside Nature Museum at Ward Pound Ridge Reservation\, Reservation Road\, Pound Ridge\, NY\, 10576\, United States
+URL:https://parksevents.westchestercountyny.gov/event/nature-reset-walk/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nCome unwind in the woods for some stress relief, wellness and the beauty that Ward Pound Ridge has to offer.
+END:VEVENT
+BEGIN:VEVENT
+UID:3664f302f579@croton.news
+DTSTART;TZID=America/New_York:20260404T130000
+SUMMARY:Volunteer Work Project- Wood Chipping a Hiking Trail
+LOCATION:Edith G. Read Wildlife Sanctuary\, 1 Playland Parkway\, Rye\, NY\, 10580\, United States
+URL:https://parksevents.westchestercountyny.gov/event/volunteer-work-project-wood-chipping-a-hiking-trail/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nCome help beautify an important hiking trail. Please bring work gloves. Hand tools will be provided. Great for service credit hours.
+END:VEVENT
+BEGIN:VEVENT
+UID:4cc84099b4bc@croton.news
+DTSTART;TZID=America/New_York:20260404T090000
+SUMMARY:Food Pantry
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ac778fbae57b@croton.news
+DTSTART;VALUE=DATE:20260404
+SUMMARY:Trails Cleanup
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3c949ca070a9@croton.news
+DTSTART;TZID=America/New_York:20260404T093000
+SUMMARY:Beginner Yoga
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/beginner-yoga-23543
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e52ab5bbce21@croton.news
+DTSTART;TZID=America/New_York:20260404T100000
+SUMMARY:English Class for Kids
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/english-class-kids-23966
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b0545e778cd0@croton.news
+DTSTART;TZID=America/New_York:20260404T100000
+SUMMARY:Knitting Group
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/knitting-group-23875
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:aedd9b270146@croton.news
+DTSTART;TZID=America/New_York:20260404T110000
+SUMMARY:Children's Author- Chris Raschka
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/childrens-author-chris-raschka-24366
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ba4e738a32d3@croton.news
+DTSTART;TZID=America/New_York:20260404T130000
+SUMMARY:Dungeons and Dragons
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/dungeons-and-dragons-24424
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:67043bce55e7@croton.news
+DTSTART;TZID=America/New_York:20260405T093000
+SUMMARY:Project FeederWatch
+LOCATION:Croton Point Park\, 1 Croton Point Avenue\, Croton-On-Hudson\, NY\, 10520\, United States
+URL:https://parksevents.westchestercountyny.gov/event/project-feederwatch/2026-04-05/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nJoin Saw Mill River Audubon for a wonderful day of viewing our local birds at the Nature Center feeders. Beginners to experts all welcome. Free to the Public.
+END:VEVENT
+BEGIN:VEVENT
+UID:456ee9bd753b@croton.news
+DTSTART;TZID=America/New_York:20260405T130000
+SUMMARY:Garden Highlight Tour
+LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/garden-highlight-tour/2026-04-05/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nThe sights and scents of the season flourish across the garden collections of Lasdon Public Gardens. Spend some time with Lasdon’s head gardener on a walking tour featuring highlights of the gardens a
+END:VEVENT
+BEGIN:VEVENT
+UID:e74267d85d11@croton.news
+DTSTART;VALUE=DATE:20260405
+SUMMARY:Closed for Easter
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/closed-easter-10075
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3a1ccbf2f303@croton.news
+DTSTART;VALUE=DATE:20260405
+SUMMARY:Easter Sunday
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:611758d24238@croton.news
+DTSTART;VALUE=DATE:20260405
+SUMMARY:CLOSED For Easter Sunday
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/closed-easter-sunday-26092
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2ee4c5a93b3f@croton.news
+DTSTART;VALUE=DATE:20260405
+SUMMARY:Closing
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/events/upcoming
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0f4296e15b07@croton.news
+DTSTART;TZID=America/New_York:20260406T150000
+SUMMARY:Teen Creativity Time
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/teen-creativity-time/2026-04-15/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teen Creativity Time – Drop In:  Stop by our Teen Program Room to hang out with friends and create things!    4/6: Friendship Bracelets (Pulseras de la amistad) 4/8: Coloring / Drawing (Colorear / Di
+END:VEVENT
+BEGIN:VEVENT
+UID:8e910e163b99@croton.news
+DTSTART;TZID=America/New_York:20260406T153000
+SUMMARY:Open Play and Care Kits
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/open-play-and-care-kits-6/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Open Play and Care Kits:  Kids and caregivers are invited to join us for open play! On different days, we’ll have puzzles, trains, LEGOs, and more! We’ll also have Care Kits (snacks!) for families in
+END:VEVENT
+BEGIN:VEVENT
+UID:3ef0984c70e2@croton.news
+DTSTART;TZID=America/New_York:20260406T160000
+SUMMARY:Teacher in the Library
+LOCATION:Children’s Study Room\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/teacher-in-the-library-23/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teacher in the Library:  Mystified by math? Puzzled by a project? Bilingual homework help is now available in the Children’s Room!  For pre-K to 5th grade students.      Maestra en la Biblioteca:  ¿P
+END:VEVENT
+BEGIN:VEVENT
+UID:39bf8d5961a2@croton.news
+DTSTART;TZID=America/New_York:20260406T080000
+SUMMARY:First Monday Bird Walk
+LOCATION:Alfred B. DelBello Muscoot Farm\, 51 NY-100\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/first-monday-bird-walk-7/2026-04-06/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nCome to the farm for an early morning bird walk with Anne Swaim of Saw Mill River Audubon. Wear sturdy shoes and bring binoculars. The walk leaves from the parking lot. While this guided walk is free,
+END:VEVENT
+BEGIN:VEVENT
+UID:73cbb33b7e1c@croton.news
+DTSTART;TZID=America/New_York:20260406T160000
+SUMMARY:Waterfront Advisory Committee (WAC) Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6dc0f8eeebd8@croton.news
+DTSTART;TZID=America/New_York:20260406T190000
+SUMMARY:Library Renovation: Design Presentation
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0d217d7a5e62@croton.news
+DTSTART;TZID=America/New_York:20260406T170000
+SUMMARY:Town Board Work Session
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:cde52135a243@croton.news
+DTSTART;TZID=America/New_York:20260406T190000
+SUMMARY:Mother-Daughter Book Club 1
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mother-daughter-book-club-1-8669
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b39eacfba4b2@croton.news
+DTSTART;TZID=America/New_York:20260406T190000
+SUMMARY:Design & Renovation Preview
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/library-renovation-design-presentation-10917
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2ea3533450ac@croton.news
+DTSTART;VALUE=DATE:20260406
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a125bd06b112@croton.news
+DTSTART;TZID=America/New_York:20260406T100000
+SUMMARY:Mother Goose Time
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/mother-goose-time-24621
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4b25054a8c50@croton.news
+DTSTART;TZID=America/New_York:20260406T100000
+SUMMARY:Healthcare Navigator (by appointment)
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/healthcare-navigator-17774
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b954fd2b41bf@croton.news
+DTSTART;TZID=America/New_York:20260406T120000
+SUMMARY:OPL Board of Trustees - Buildings and Grounds Committee Meeting
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/building-grounds-committee-opl-bot-regular-monthly-mtg-21883
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8f27186ff694@croton.news
+DTSTART;TZID=America/New_York:20260406T160000
+SUMMARY:Homework Help
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/homework-help-20363
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:284e7231b6ee@croton.news
+DTSTART;TZID=America/New_York:20260406T161500
+SUMMARY:Build\, Play\, Code
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/build-play-code-24627
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:cfaf8df37512@croton.news
+DTSTART;TZID=America/New_York:20260406T161500
+SUMMARY:Cancelled
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/events/upcoming
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0ea1fcff135c@croton.news
+DTSTART;TZID=America/New_York:20260406T183000
+SUMMARY:Meditation Group
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/meditation-group-22662
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:34c4ffcf72f2@croton.news
+DTSTART;TZID=America/New_York:20260406T190000
+SUMMARY:Destination College Workshop Series Workshop 6: Show Me the Money (Scholarships & Financial Aid)
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/destination-college-workshop-series-workshop-6-show-me-money-scholarships-financial-aid-23299
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a7f1660a3897@croton.news
+DTSTART;TZID=America/New_York:20260407T113000
+SUMMARY:Story Garden with Alexia
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/story-garden-with-alexia-10/2026-04-07/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Story Garden with Miss Alexia:  Enjoy stories, songs, and Miss Alexia’s magic ukulele!  This program is designed for babies and children up to 4 years old.       Jardín de Cuentos con Alexia:  ¡Disfr
+END:VEVENT
+BEGIN:VEVENT
+UID:26ec4c92c3e6@croton.news
+DTSTART;TZID=America/New_York:20260407T150000
+SUMMARY:Teacher in the Library
+LOCATION:Children’s Study Room\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/teacher-in-the-library-23/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teacher in the Library:  Mystified by math? Puzzled by a project? Bilingual homework help is now available in the Children’s Room!  For pre-K to 5th grade students.      Maestra en la Biblioteca:  ¿P
+END:VEVENT
+BEGIN:VEVENT
+UID:a52a542f43b0@croton.news
+DTSTART;TZID=America/New_York:20260407T100000
+SUMMARY:Garden Squad
+LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/garden-squad/2026-04-07/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nSpend a few hours in our garden!  Work next to Lasdon’s gardeners on tasks that include watering, weeding, planting, pruning, deadheading, transplanting, tropical plant maintenance in a 60 year old gr
+END:VEVENT
+BEGIN:VEVENT
+UID:fa906efdce43@croton.news
+DTSTART;TZID=America/New_York:20260407T190000
+SUMMARY:Arts & Humanities Advisory Council Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:abc1222c3ffe@croton.news
+DTSTART;TZID=America/New_York:20260407T170000
+SUMMARY:Planning Board Meeting & Work Session
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:293f2cd68464@croton.news
+DTSTART;VALUE=DATE:20260407
+SUMMARY:Criminal Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:384656a426c2@croton.news
+DTSTART;VALUE=DATE:20260407
+SUMMARY:Town Board Work Session
+LOCATION:Town of Ossining\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:79c41c14d20f@croton.news
+DTSTART;TZID=America/New_York:20260407T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/babytime-lauren-8913
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:131b8e25e55d@croton.news
+DTSTART;TZID=America/New_York:20260407T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/living-grief-ongoing-support-group-10441
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:519b6b637deb@croton.news
+DTSTART;TZID=America/New_York:20260407T144500
+SUMMARY:LEGO Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/lego-club-10360
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9e4a35ba2a9e@croton.news
+DTSTART;TZID=America/New_York:20260407T190000
+SUMMARY:English Conversation Hour
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/english-conversation-hour-9857
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b743ace5d232@croton.news
+DTSTART;TZID=America/New_York:20260407T190000
+SUMMARY:Croton AHAC Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-ahac-meeting-9213
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:03656f6a5cfe@croton.news
+DTSTART;TZID=America/New_York:20260407T190000
+SUMMARY:Croton Lions Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-lions-club-8729
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0616a8dc32e2@croton.news
+DTSTART;VALUE=DATE:20260407
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e690fcc637b4@croton.news
+DTSTART;TZID=America/New_York:20260407T140000
+SUMMARY:Spanish ~ English Conversation Group
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/spanish-english-conversation-group-25511
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2d265506f693@croton.news
+DTSTART;TZID=America/New_York:20260408T110000
+SUMMARY:Playtime!
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/playtime-2/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Playtime!:  Enjoy playtime in the Children’s Room! Everyone will be able to play with a variety of toys and have fun! Playtime is also a great time to socialize and to get to know other caregivers in
+END:VEVENT
+BEGIN:VEVENT
+UID:64ff0ddda58a@croton.news
+DTSTART;TZID=America/New_York:20260408T150000
+SUMMARY:Teen Creativity Time
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/teen-creativity-time/2026-04-15/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teen Creativity Time – Drop In:  Stop by our Teen Program Room to hang out with friends and create things!    4/6: Friendship Bracelets (Pulseras de la amistad) 4/8: Coloring / Drawing (Colorear / Di
+END:VEVENT
+BEGIN:VEVENT
+UID:4b910907933b@croton.news
+DTSTART;TZID=America/New_York:20260408T153000
+SUMMARY:Tales for Tails: Read to a Therapy Dog
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/tales-for-tails-read-to-a-therapy-dog-9/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Tales for Tails – Read to a Therapy Dog:  Reading with a therapy animal can help reluctant readers, new language learners, and anxious readers gain confidence and develop a love of reading!  Children
+END:VEVENT
+BEGIN:VEVENT
+UID:6451b0a7fa3e@croton.news
+DTSTART;TZID=America/New_York:20260408T173000
+SUMMARY:Monthly Meditation: Nature-Based Mindfulness for Tranquility and Renewal
+LOCATION:Hilltop Hanover Farm\, 1271 Hanover Street\, Yorktown Heights\, NY\, 10598\, United States
+URL:https://parksevents.westchestercountyny.gov/event/monthly-meditation-nature-based-mindfulness-for-tranquility-and-renewal/2026-04-08/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nEach month, enjoy the peace of early evening amongst the fields and woodlands of Hilltop Hanover Farm & Environmental Center. In the company of fellow nature lovers, explore nature-based mindfulness p
+END:VEVENT
+BEGIN:VEVENT
+UID:6dd107444195@croton.news
+DTSTART;TZID=America/New_York:20260408T100000
+SUMMARY:Women Take to the Trails
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/women-take-to-the-trails-sept-oct-2025/2026-04-29/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nLace up your hiking boots and bond with fellow female hikers as we cruise the trails. Each hike’s location will be dependent on weather and trail conditions. Please dress appropriately for prolonged o
+END:VEVENT
+BEGIN:VEVENT
+UID:ebed15e9468e@croton.news
+DTSTART;TZID=America/New_York:20260408T190000
+SUMMARY:Board of Trustees Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4018834abb81@croton.news
+DTSTART;VALUE=DATE:20260408
+SUMMARY:Vehicle and Traffic Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f69e1642ff35@croton.news
+DTSTART;VALUE=DATE:20260408
+SUMMARY:Civil Cases and Summary Proceedings - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f327e51cee50@croton.news
+DTSTART;TZID=America/New_York:20260408T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e17ad732d25f@croton.news
+DTSTART;TZID=America/New_York:20260408T101500
+SUMMARY:Preschool Storytime with Chris
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/preschool-storytime-chris-9454
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5b63b486ae72@croton.news
+DTSTART;TZID=America/New_York:20260408T110000
+SUMMARY:FIESTA! with Flor
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/fiesta-flor-8955
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b3a0b4f2268e@croton.news
+DTSTART;TZID=America/New_York:20260408T153000
+SUMMARY:Homework Help
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/homework-help-10533
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:db983125b516@croton.news
+DTSTART;VALUE=DATE:20260408
+SUMMARY:NYS English Language Arts Assessment Computer Based Grades 3 & 4
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f8d0b3883c40@croton.news
+DTSTART;VALUE=DATE:20260408
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0c99a06ab98f@croton.news
+DTSTART;VALUE=DATE:20260408
+SUMMARY:BOE Communications Committee Meeting CHANGED: This event has been changed.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ef6e280969a0@croton.news
+DTSTART;TZID=America/New_York:20260409T153000
+SUMMARY:Book Spine Poetry
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/book-spine-poetry/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Book Spine Poetry:  Search the stacks for the perfect words to create your very own poem – entirely out of books!  For ages 5-11.      Poesía del Lomo del Libro:  ¡Busque en la biblioteca las palabra
+END:VEVENT
+BEGIN:VEVENT
+UID:645f049abb59@croton.news
+DTSTART;TZID=America/New_York:20260409T160000
+SUMMARY:Teacher in the Library
+LOCATION:Children’s Study Room\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/teacher-in-the-library-23/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teacher in the Library:  Mystified by math? Puzzled by a project? Bilingual homework help is now available in the Children’s Room!  For pre-K to 5th grade students.      Maestra en la Biblioteca:  ¿P
+END:VEVENT
+BEGIN:VEVENT
+UID:9424bac6e8ea@croton.news
+DTSTART;TZID=America/New_York:20260409T180000
+SUMMARY:FIBER ARTS GROUP
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/fiber-arts-group/2026-04-09/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\nField Library Fiber Artists:  Bring your current project to the library and join our crafting circle. Interested in learning to knit or need help? Talk to Benny!
+END:VEVENT
+BEGIN:VEVENT
+UID:ea18387061cf@croton.news
+DTSTART;TZID=America/New_York:20260409T193000
+SUMMARY:CONVERSATIONS IN ENGLISH
+LOCATION:Library Gallery\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/49110/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n CONVERSATIONS IN ENGLISH:  Ideal for people of any level who are learning English and want to practice their language skills through simple conversation topics:   Ideal para personas de cualquier niv
+END:VEVENT
+BEGIN:VEVENT
+UID:df037e9172e0@croton.news
+DTSTART;TZID=America/New_York:20260409T100000
+SUMMARY:Soft Landings: Playtime for Littles at Lasdon
+LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/soft-landings-playtime-for-littles-at-lasdon/2026-04-09/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nLet’s gather together to enjoy early growth in the gardens, record our stories in a journal, and learn about tools. We will experiment with seeds and roots, build with sticks, stems, rocks and blocks,
+END:VEVENT
+BEGIN:VEVENT
+UID:183f8f0c040b@croton.news
+DTSTART;TZID=America/New_York:20260409T100000
+SUMMARY:Thursday Starts with Tea: Playtime for Littles at Lasdon
+LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/thursday-starts-with-tea-playtime-for-littles-at-lasdon-2/2026-04-09/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nIf you like to play outdoors in winter, let’s gather together to build with sticks and stems. We will learn about habitat, winter shelters and everything the season offers. For ages 18 to 42 months, w
+END:VEVENT
+BEGIN:VEVENT
+UID:a370fcf1708b@croton.news
+DTSTART;TZID=America/New_York:20260409T180000
+SUMMARY:HEART Committee Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1a23742e304d@croton.news
+DTSTART;TZID=America/New_York:20260409T190000
+SUMMARY:Board of Trustees Budget Work Session: PD\, FD\, EMS
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7c8d21bb4fb2@croton.news
+DTSTART;TZID=America/New_York:20260409T200000
+SUMMARY:The Outlaws
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nWith Opening Guest-The Cosmic American Derelicts On April 9, Southern Rock legends The Outlaws return for a very special live performance celebrating [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:66d95ae2d0ab@croton.news
+DTSTART;TZID=America/New_York:20260409T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2e025d5e4fd8@croton.news
+DTSTART;TZID=America/New_York:20260409T103000
+SUMMARY:Music and Movement w/ Lori Cohen
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/music-and-movement-w-lori-cohen-9038
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3df344203b2e@croton.news
+DTSTART;TZID=America/New_York:20260409T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/parents-infants-support-group-10979
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7ac76cd1398d@croton.news
+DTSTART;TZID=America/New_York:20260409T123000
+SUMMARY:Mah Jongg: Card Review & Supervised Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-card-review-supervised-play-10943
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:bc778c06c864@croton.news
+DTSTART;TZID=America/New_York:20260409T190000
+SUMMARY:Girl Scouts Leaders' Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/girl-scouts-leaders-meeting-8855
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6715c9f6872e@croton.news
+DTSTART;TZID=America/New_York:20260409T190000
+SUMMARY:Croton Friends of History
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-friends-history-8116
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2448aa626b51@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:CET Building Planning Council Meeting
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6945fd8b5af4@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:NYS English Language Arts Assessment Computer Based Grades 3 & 4
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8cf8416e0c11@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:Passover Ends
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c101a327226b@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c376e9e4f1fd@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:PVC Building Planning Council\, 3:15 p.m.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8bccfc03287b@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:BOE Audit Committee Meeting
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c96496ed1ff4@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:BOE Regular Meeting\, 7:30 pm
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:cb8c1c80d1e3@croton.news
+DTSTART;TZID=America/New_York:20260410T103000
+SUMMARY:Story & Craft
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/story-craft-5/2026-04-10/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Story & Craft:  Join us for storytime followed by a special craft!  For ages 2-5.  Space and materials are limited, so please arrive on time.      Cuentos y Arte:  ¡Únete a nosotros para cuentos y un
+END:VEVENT
+BEGIN:VEVENT
+UID:318a09d490d4@croton.news
+DTSTART;TZID=America/New_York:20260410T153000
+SUMMARY:Fun with Blocks!
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/fun-with-blocks-5/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Fun with Blocks!:  Drop in to build with blocks, Lincoln logs, and other construction toys!  For ages 2-11.      ¡Diversión con bloques!:  ¡Entra a construir con bloques, troncos Lincoln y otros jugu
+END:VEVENT
+BEGIN:VEVENT
+UID:d42b46e15e21@croton.news
+DTSTART;TZID=America/New_York:20260410T130000
+SUMMARY:Spring Plein Air Painting
+LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/spring-plein-air-painting/2026-04-10/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nJoin us for an enriching outdoor painting workshop where every student creates their own unique masterpiece. Set against the inspiring backdrop of Lasdon Public Gardens, this En Plein Air experience—n
+END:VEVENT
+BEGIN:VEVENT
+UID:d78a0cb01e04@croton.news
+DTSTART;TZID=America/New_York:20260410T180000
+SUMMARY:The 1970s Oklahoma Project and Creation of the Delaware Resource Library
+LOCATION:Croton Point Park\, 1 Croton Point Avenue\, Croton-On-Hudson\, NY\, 10520\, United States
+URL:https://parksevents.westchestercountyny.gov/event/the-1970s-oklahoma-project-and-creation-of-the-delaware-resource-library/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nIn the 1970s, Westchester Parks staff sought to preserve the stories of Lenape language speakers living in Oklahoma. Join us as we listen to recordings of these storytellers and learn about the creati
+END:VEVENT
+BEGIN:VEVENT
+UID:1a24c4b81e03@croton.news
+DTSTART;TZID=America/New_York:20260410T144500
+SUMMARY:IDEA Committee Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d6f597b4c66b@croton.news
+DTSTART;TZID=America/New_York:20260410T200000
+SUMMARY:An Evening with David Sedaris
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nThere will be a book signing in the lobby before and following the event. With an Opening reading by Cindy House. "Sedaris.]
+END:VEVENT
+BEGIN:VEVENT
+UID:d7cce0693bb9@croton.news
+DTSTART;TZID=America/New_York:20260410T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/musical-round-rose-10990
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c5a2cbe24aa1@croton.news
+DTSTART;TZID=America/New_York:20260410T103000
+SUMMARY:Writers Circle
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/writers-circle-10219
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:cd7dc6d7ecd8@croton.news
+DTSTART;TZID=America/New_York:20260410T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/new-parents-together-9096
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d837736c4ef6@croton.news
+DTSTART;TZID=America/New_York:20260410T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/shut-write-meetup-10274
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d58c55aea20b@croton.news
+DTSTART;TZID=America/New_York:20260410T130000
+SUMMARY:Canasta: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/canasta-open-play-9785
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c9e444cd1179@croton.news
+DTSTART;VALUE=DATE:20260410
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3080373ae689@croton.news
+DTSTART;VALUE=DATE:20260410
+SUMMARY:CHHS Junior Prom
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:671a9c535c29@croton.news
+DTSTART;TZID=America/New_York:20260411T120000
+SUMMARY:Fiesta with Flor
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/fiesta-with-flor-9/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Fiesta with Flor – Bilingual Music, Movement, and Puppetry:   Join Flor Bromley for a fun free bilingual (English/Spanish) music program designed for the whole family! Flor teaches Spanish through mu
+END:VEVENT
+BEGIN:VEVENT
+UID:04884815be25@croton.news
+DTSTART;TZID=America/New_York:20260411T130000
+SUMMARY:Documentary Premiere - "A Winter Dream"
+LOCATION:Library Gallery\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/documentary-premiere-a-winter-dream/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Documentary Premiere – ” A Winter Dream” Watch this stunning documentary about the 2005 Special Olympics US Hockey team at the soft premiere at the Field Library! 
+END:VEVENT
+BEGIN:VEVENT
+UID:f405adbdea82@croton.news
+DTSTART;TZID=America/New_York:20260411T080000
+SUMMARY:Guided Bird Walk with Saw Mill River Audubon
+LOCATION:Croton Point Park\, 1 Croton Point Avenue\, Croton-On-Hudson\, NY\, 10520\, United States
+URL:https://parksevents.westchestercountyny.gov/event/guided-bird-walk-with-saw-mill-river-audubon/2026-04-11/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nJoin the Saw Mill River Audubon for a free guided bird walk at Croton Point Park. Multiple dates available. Registration required.  register now
+END:VEVENT
+BEGIN:VEVENT
+UID:dcee17100881@croton.news
+DTSTART;TZID=America/New_York:20260411T100000
+SUMMARY:Potato Planting - Community Farm Work Day
+LOCATION:Hilltop Hanover Farm\, 1271 Hanover Street\, Yorktown Heights\, NY\, 10598\, United States
+URL:https://parksevents.westchestercountyny.gov/event/potato-planting-community-farm-work-day-2/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nJoin us for our April Community Farm Work Day at Hilltop Hanover Farm! This month, volunteers will work alongside our farmers to plant our potato crop—a classic spring task that helps set the stage fo
+END:VEVENT
+BEGIN:VEVENT
+UID:8c208fc1e7ce@croton.news
+DTSTART;TZID=America/New_York:20260411T130000
+SUMMARY:Clothing Repair Workshop
+LOCATION:Hilltop Hanover Farm\, 1271 Hanover Street\, Yorktown Heights\, NY\, 10598\, United States
+URL:https://parksevents.westchestercountyny.gov/event/clothing-repair-workshop/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nJoin us this Earth Month to help reduce textile waste by learning how to mend your own clothing and linens! We will be focusing on reattaching zippers, buttons, patching up holes, and more. Come with 
+END:VEVENT
+BEGIN:VEVENT
+UID:4b24e8e59d8d@croton.news
+DTSTART;TZID=America/New_York:20260411T130000
+SUMMARY:"Insect Investigators"
+LOCATION:Trailside Nature Museum at Ward Pound Ridge Reservation\, Reservation Road\, Pound Ridge\, NY\, 10576\, United States
+URL:https://parksevents.westchestercountyny.gov/event/insect-investigators/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nToday you will be an entomologist!  Using sweep nets, hand lenses and bug viewers you will learn how to identify different insects, learn their body parts and some interesting facts about each of them
+END:VEVENT
+BEGIN:VEVENT
+UID:cf11c1049e48@croton.news
+DTSTART;TZID=America/New_York:20260411T130000
+SUMMARY:Signs of Spring
+LOCATION:Marshlands Conservancy\, 220 Boston Post Road\, Rye\, NY\, 10580\, United States
+URL:https://parksevents.westchestercountyny.gov/event/signs-of-spring-3/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nWhat’s going on out there? Join us for a guided walk to observe the signs and patterns of nature in spring!
+END:VEVENT
+BEGIN:VEVENT
+UID:be947cb8c6e6@croton.news
+DTSTART;TZID=America/New_York:20260411T130000
+SUMMARY:Flint Knapping Tools and Techniques
+LOCATION:Edith G. Read Wildlife Sanctuary\, 1 Playland Parkway\, Rye\, NY\, 10580\, United States
+URL:https://parksevents.westchestercountyny.gov/event/flint-knapping-tools-and-techniques/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nCome and learn trick of a historic trade, where we will create an arrowhead piece from a certain type of stone. Children 12 and under must be accompanied by an adult. All protective gear will be provi
+END:VEVENT
+BEGIN:VEVENT
+UID:1dc6b45416cc@croton.news
+DTSTART;TZID=America/New_York:20260411T130000
+SUMMARY:Cookie Decorating Workshop
+LOCATION:Alfred B. DelBello Muscoot Farm\, 51 NY-100\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/cookie-decorating-workshop/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nJoin Caitlin of CM Cookies for a fun workshop to learn all of the tips and tricks of cookie decorating. Appropriate for ages 10+. Limited participation of 25.  Preregistration is required. We will mee
+END:VEVENT
+BEGIN:VEVENT
+UID:2036dec1955b@croton.news
+DTSTART;TZID=America/New_York:20260411T100000
+SUMMARY:Playing with Puddles (for families)
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/playing-with-puddles/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nTake a deep dive into the product of April Showers as we experiment with precipitation-themed hands-on activities. Puddle jumping is the perfect spring pastime, but take your splashing to the next lev
+END:VEVENT
+BEGIN:VEVENT
+UID:ce821c9a5587@croton.news
+DTSTART;TZID=America/New_York:20260411T090000
+SUMMARY:Croton Little League Opening Day Parade
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b33124b7d996@croton.news
+DTSTART;TZID=America/New_York:20260411T190000
+SUMMARY:Reverend Horton Heat with Special Guests Black Joe Lewis and Piñata Protest
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nSpecial Guests Black Joe Lewis and Piffata Protest Get ready for a high-octane night of psychobilly fire as Reverend Horton Heat brings his [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:b43a22046e8c@croton.news
+DTSTART;TZID=America/New_York:20260411T103000
+SUMMARY:Storytime Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/storytime-yoga-9138
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0bcb6d867612@croton.news
+DTSTART;TZID=America/New_York:20260411T140000
+SUMMARY:Croton Reads 2026: Help Wanted by Adelle Waldman
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-reads-2026-help-wanted-adelle-waldman-10714
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b8e607ef63cd@croton.news
+DTSTART;TZID=America/New_York:20260412T100000
+SUMMARY:Farm-to-Fable
+LOCATION:Hilltop Hanover Farm\, 1271 Hanover Street\, Yorktown Heights\, NY\, 10598\, United States
+URL:https://parksevents.westchestercountyny.gov/event/farm-to-fable-7/2026-04-12/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nLittle ones, ages 3-6, will explore the whimsy of the world around them through combining storytelling with hands-on activities on the farm straight from the tale! Registration for this class is requi
+END:VEVENT
+BEGIN:VEVENT
+UID:66110514532a@croton.news
+DTSTART;TZID=America/New_York:20260412T100000
+SUMMARY:Project Feeder Watch!
+LOCATION:Lenoir Preserve\, 19 Dudley Street\, Yonkers\, NY\, 10701\, United States
+URL:https://parksevents.westchestercountyny.gov/event/project-feeder-watch-2/2026-04-12/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nJoin Hudson River Audubon to observe and learn about our local birds! Beginners to experts- all welcome!
+END:VEVENT
+BEGIN:VEVENT
+UID:6257ca20204a@croton.news
+DTSTART;TZID=America/New_York:20260412T110000
+SUMMARY:Animal Interactions
+LOCATION:Alfred B. DelBello Muscoot Farm\, 51 NY-100\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/animal-interactions-7/2026-04-12/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nEnter one of Muscoot Farm’s enclosures where you will see, touch, and learn more about an animal of the farmer’s choice! Available only to those ages 8+ with pre-registration required online; tickets 
+END:VEVENT
+BEGIN:VEVENT
+UID:88d3988d90ff@croton.news
+DTSTART;TZID=America/New_York:20260412T110000
+SUMMARY:Hop into Spring (for families\, 4+)
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/hop-into-spring/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nThe Easter Bunny has come and gone, but let’s learn about lagomorphs and how they differ from rodents with Environmental Educator Elissa Schilmeister. Meet members of this fascinating order of animals
+END:VEVENT
+BEGIN:VEVENT
+UID:bb1a5cf8200a@croton.news
+DTSTART;TZID=America/New_York:20260412T140000
+SUMMARY:That Motown Band
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nPresented by EastEnd Bands Are you a fan of classic hits like "Heat Wave" "Ain't Too Proud to Beg" "Baby Love" "What's [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:115dda856f00@croton.news
+DTSTART;TZID=America/New_York:20260412T133000
+SUMMARY:NYSAA Presentation: The Adventures of an Archaeology Writer
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/nysaa-presentation-european-archaeology-10856
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:621ce592bad6@croton.news
+DTSTART;TZID=America/New_York:20260412T150000
+SUMMARY:Girl Scouts Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/girl-scouts-meeting-8522
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e882cbc02075@croton.news
+DTSTART;TZID=America/New_York:20260413T150000
+SUMMARY:Teen Creativity Time
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/teen-creativity-time/2026-04-15/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teen Creativity Time – Drop In:  Stop by our Teen Program Room to hang out with friends and create things!    4/6: Friendship Bracelets (Pulseras de la amistad) 4/8: Coloring / Drawing (Colorear / Di
+END:VEVENT
+BEGIN:VEVENT
+UID:bb46d27cce81@croton.news
+DTSTART;TZID=America/New_York:20260413T160000
+SUMMARY:Teacher in the Library
+LOCATION:Children’s Study Room\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/teacher-in-the-library-23/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teacher in the Library:  Mystified by math? Puzzled by a project? Bilingual homework help is now available in the Children’s Room!  For pre-K to 5th grade students.      Maestra en la Biblioteca:  ¿P
+END:VEVENT
+BEGIN:VEVENT
+UID:674865efeff6@croton.news
+DTSTART;TZID=America/New_York:20260413T190000
+SUMMARY:Recreation Advisory Committee Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:68b27635d9f0@croton.news
+DTSTART;TZID=America/New_York:20260413T170000
+SUMMARY:Town Board Work Session
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ebdc713df207@croton.news
+DTSTART;VALUE=DATE:20260413
+SUMMARY:Recreation Advisory Board Meeting
+LOCATION:Town of Ossining\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6f1fb5eaae41@croton.news
+DTSTART;TZID=America/New_York:20260413T183000
+SUMMARY:National MS Society Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/national-ms-society-meeting-9329
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:71fa14d89dbc@croton.news
+DTSTART;TZID=America/New_York:20260413T193000
+SUMMARY:Library Board Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/library-board-meeting-8492
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0be9f2e6be4a@croton.news
+DTSTART;VALUE=DATE:20260413
+SUMMARY:F Day
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2079b87adf70@croton.news
+DTSTART;VALUE=DATE:20260413
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8f9e6c7bc4e7@croton.news
+DTSTART;TZID=America/New_York:20260414T110000
+SUMMARY:How to Survive Rising Food Prices
+LOCATION:Virtual
+URL:https://thefieldlibrary.org/calendar/how-to-survive-rising-food-prices/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n HOW TO SURVIVE RISING FOOD PRICES In addition, ideas for saving money with meal planning will be presented as well as tips to save money at home and in the kitchen. Participants will be provided with
+END:VEVENT
+BEGIN:VEVENT
+UID:1230d90f291f@croton.news
+DTSTART;TZID=America/New_York:20260414T150000
+SUMMARY:Teacher in the Library
+LOCATION:Children’s Study Room\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/teacher-in-the-library-23/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teacher in the Library:  Mystified by math? Puzzled by a project? Bilingual homework help is now available in the Children’s Room!  For pre-K to 5th grade students.      Maestra en la Biblioteca:  ¿P
+END:VEVENT
+BEGIN:VEVENT
+UID:88db3342a2eb@croton.news
+DTSTART;TZID=America/New_York:20260414T151500
+SUMMARY:Teen Craft - DIY Dust Covers and Phone Charms
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/teen-craft-diy-dust-covers-and-phone-charms/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n DIY Dust Covers and Phone Charms:  Learn how to create your very own dust covers and phone charms!  For ages 12-17.  *Bilingual program.       Protectores contra polvo y charms para móvil:  ¡Aprende 
+END:VEVENT
+BEGIN:VEVENT
+UID:35b32d52ec5e@croton.news
+DTSTART;TZID=America/New_York:20260414T153000
+SUMMARY:Open Play and Care Kits
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/open-play-and-care-kits-6/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Open Play and Care Kits:  Kids and caregivers are invited to join us for open play! On different days, we’ll have puzzles, trains, LEGOs, and more! We’ll also have Care Kits (snacks!) for families in
+END:VEVENT
+BEGIN:VEVENT
+UID:17a5ccfe487b@croton.news
+DTSTART;TZID=America/New_York:20260414T190000
+SUMMARY:Advisory Board of the Visual Environment
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3f706b7399d5@croton.news
+DTSTART;TZID=America/New_York:20260414T200000
+SUMMARY:Planning Board Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:953c590e1aa4@croton.news
+DTSTART;TZID=America/New_York:20260414T190000
+SUMMARY:Town Board Meeting
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:89f28f8e3567@croton.news
+DTSTART;TZID=America/New_York:20260414T193000
+SUMMARY:Continental Village Park District Joint
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6fe7898fa040@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:Criminal Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:93264d3dd6c7@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:Town Board Meeting
+LOCATION:Town of Ossining\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e9101a794b8e@croton.news
+DTSTART;TZID=America/New_York:20260414T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/babytime-lauren-8913
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f82791728b44@croton.news
+DTSTART;TZID=America/New_York:20260414T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/living-grief-ongoing-support-group-10441
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:749ff2342bb9@croton.news
+DTSTART;TZID=America/New_York:20260414T144500
+SUMMARY:LEGO Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/lego-club-10360
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:58ef119078bd@croton.news
+DTSTART;TZID=America/New_York:20260414T190000
+SUMMARY:English Conversation Hour
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/english-conversation-hour-9857
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:62b03bb7f7d1@croton.news
+DTSTART;TZID=America/New_York:20260414T190000
+SUMMARY:Hudson River Toastmasters
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/hudson-river-toastmasters-8107
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:032bda519226@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:Booster Club Meeting\, 7:30 p.m.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:16b001dc4930@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:F Day
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9a68a8ce6517@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:NYS English Language Arts Assessment Computer Based Grades 5-8
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e4b8eae6c7cd@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:Tiger Tuesday
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:18240f5f3d44@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:02700ae75705@croton.news
+DTSTART;TZID=America/New_York:20260415T113000
+SUMMARY:Musical Tots with Lori Cohen
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/musical-tots-with-lori-cohen-9/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Musical Tots with Lori Cohen:  Stop by the Children’s Room for a fun, interactive program with Lori Cohen! Get ready to sing, dance, play, and maybe even pop some bubbles!  For ages 1-5.      Tots Mu
+END:VEVENT
+BEGIN:VEVENT
+UID:29350672f104@croton.news
+DTSTART;TZID=America/New_York:20260415T150000
+SUMMARY:Teen Creativity Time
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/teen-creativity-time/2026-04-15/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teen Creativity Time – Drop In:  Stop by our Teen Program Room to hang out with friends and create things!    4/6: Friendship Bracelets (Pulseras de la amistad) 4/8: Coloring / Drawing (Colorear / Di
+END:VEVENT
+BEGIN:VEVENT
+UID:a5080a3dd1ad@croton.news
+DTSTART;TZID=America/New_York:20260415T153000
+SUMMARY:Imagination Station
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/imagination-station-7/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Imagination Station:  Drop in and make some art in the Children’s Room! We’ll have plenty of craft materials on hand, so let your creativity run wild!  For children of all ages.      Estación de la I
+END:VEVENT
+BEGIN:VEVENT
+UID:31bf0496c4cb@croton.news
+DTSTART;TZID=America/New_York:20260415T100000
+SUMMARY:Women Take to the Trails
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/women-take-to-the-trails-sept-oct-2025/2026-04-29/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nLace up your hiking boots and bond with fellow female hikers as we cruise the trails. Each hike’s location will be dependent on weather and trail conditions. Please dress appropriately for prolonged o
+END:VEVENT
+BEGIN:VEVENT
+UID:4a66559b26a0@croton.news
+DTSTART;TZID=America/New_York:20260415T190000
+SUMMARY:Board of Trustees Budget Work Session: Rec\, Admin\, Fees
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:521cf38a3d40@croton.news
+DTSTART;VALUE=DATE:20260415
+SUMMARY:Planning Board Meeting
+LOCATION:Town of Ossining\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3962aa64394c@croton.news
+DTSTART;TZID=America/New_York:20260415T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:de1739cf76d8@croton.news
+DTSTART;TZID=America/New_York:20260415T101500
+SUMMARY:Preschool Storytime with Chris
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/preschool-storytime-chris-9454
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c65f79c8c942@croton.news
+DTSTART;TZID=America/New_York:20260415T110000
+SUMMARY:FIESTA! with Flor
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/fiesta-flor-8955
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:61f566b61287@croton.news
+DTSTART;TZID=America/New_York:20260415T153000
+SUMMARY:Homework Help
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/homework-help-10533
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:45ad697049eb@croton.news
+DTSTART;VALUE=DATE:20260415
+SUMMARY:NYS English Language Arts Assessment Computer Based Grades 5-8
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1174dbe69c1d@croton.news
+DTSTART;VALUE=DATE:20260415
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ad34cd89413b@croton.news
+DTSTART;TZID=America/New_York:20260416T190000
+SUMMARY:Board of Trustees Budget Work Session: Capital and Recap
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:dc22175b6045@croton.news
+DTSTART;TZID=America/New_York:20260416T193000
+SUMMARY:Bicycle Pedestrian Committee Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e75e24611e32@croton.news
+DTSTART;TZID=America/New_York:20260416T173000
+SUMMARY:Zoning Board Meeting & Work Session
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1f7efa70d933@croton.news
+DTSTART;VALUE=DATE:20260416
+SUMMARY:Civil Cases and Summary Proceedings - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f43bdec0de71@croton.news
+DTSTART;VALUE=DATE:20260416
+SUMMARY:Vehicle and Traffic Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:695a3469ee7a@croton.news
+DTSTART;TZID=America/New_York:20260416T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:09108ac7be70@croton.news
+DTSTART;TZID=America/New_York:20260416T103000
+SUMMARY:Music and Movement w/ Lori Cohen
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/music-and-movement-w-lori-cohen-9038
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d8398b44bfe9@croton.news
+DTSTART;TZID=America/New_York:20260416T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/parents-infants-support-group-10979
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5e7a28ad8482@croton.news
+DTSTART;TZID=America/New_York:20260416T123000
+SUMMARY:Mah Jongg Lessons
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-lessons-10929
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a58050c2deb5@croton.news
+DTSTART;VALUE=DATE:20260416
+SUMMARY:CET Parent/Teacher Day Conferences\, Early Dismissal 10:45 AM
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0e9bf058a7a6@croton.news
+DTSTART;VALUE=DATE:20260416
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a00ec60dfbf3@croton.news
+DTSTART;TZID=America/New_York:20260417T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/musical-round-rose-10990
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:fe97650239fa@croton.news
+DTSTART;TZID=America/New_York:20260417T103000
+SUMMARY:Writers Circle
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/writers-circle-10219
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d2e1682dddf0@croton.news
+DTSTART;TZID=America/New_York:20260417T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/new-parents-together-9096
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ac6dbf2b38e7@croton.news
+DTSTART;TZID=America/New_York:20260417T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/shut-write-meetup-10274
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2a79994eae93@croton.news
+DTSTART;TZID=America/New_York:20260417T130000
+SUMMARY:Canasta: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/canasta-open-play-9785
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d94002936971@croton.news
+DTSTART;VALUE=DATE:20260417
+SUMMARY:C Day (Zero Period)
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8868ed8d8178@croton.news
+DTSTART;VALUE=DATE:20260417
+SUMMARY:CHHS Spring Musical
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d2cbbda3a175@croton.news
+DTSTART;VALUE=DATE:20260417
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1a10b9f7089a@croton.news
+DTSTART;VALUE=DATE:20260417
+SUMMARY:BOE Policy Committee Meeting   CHANGED: This event has been changed.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6b8f67506f07@croton.news
+DTSTART;TZID=America/New_York:20260418T100000
+SUMMARY:Feather Friendly: Become “Raptor Responsible” (for everyone)
+LOCATION:Cliffdale Farm\, 85 Teatown Rd\, Croton-on-Hudson\, NY\, 10520\, United States
+URL:https://www.teatown.org/events/raptor-responsible/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nWhat does it mean to be “Raptor Responsible”? Meet Teatown’s favorite feathered Animal Ambassadors. Join Environmental Educator Caroline Erb to learn about the biggest threats to our native raptors an
+END:VEVENT
+BEGIN:VEVENT
+UID:9b68e6b23a27@croton.news
+DTSTART;TZID=America/New_York:20260418T090000
+SUMMARY:Food Pantry
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6d31edaaa2b9@croton.news
+DTSTART;TZID=America/New_York:20260418T200000
+SUMMARY:An Evening with Audra McDonald
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nThe photographing or sound recording of this concert or possession of any device for such photographing or sound recording is prohibited. Prepare for [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:42de32be0868@croton.news
+DTSTART;TZID=America/New_York:20260418T103000
+SUMMARY:Storytime Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/storytime-yoga-9138
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:92acb0b2cb81@croton.news
+DTSTART;TZID=America/New_York:20260418T120000
+SUMMARY:Girl Scouts Pinewood Derby
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/girl-scouts-pinewood-derby-9491
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:60f9e0973155@croton.news
+DTSTART;VALUE=DATE:20260418
+SUMMARY:CHHS Spring Musical
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:64662785fa7a@croton.news
+DTSTART;TZID=America/New_York:20260419T100000
+SUMMARY:Hidden Valley Hike (For everyone 8+)
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/hidden-valley-hike/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nSpend Environmental Educator week with us out on the trails, as Environmental Elissa Schilmeister lead us on the Hidden Valley Loop trail for a moderate hike. Please dress appropriately for prolonged 
+END:VEVENT
+BEGIN:VEVENT
+UID:13112b39d4be@croton.news
+DTSTART;TZID=America/New_York:20260419T100000
+SUMMARY:Earth Day Hike
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:58c98530c583@croton.news
+DTSTART;TZID=America/New_York:20260419T100000
+SUMMARY:Town of Cortlandt Earth Day Hike
+LOCATION:Town of Cortlandt\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt Recreation\n
+END:VEVENT
+BEGIN:VEVENT
+UID:306086ed22e4@croton.news
+DTSTART;VALUE=DATE:20260419
+SUMMARY:Municipal Code Violations - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3678d1b5f74f@croton.news
+DTSTART;TZID=America/New_York:20260419T150000
+SUMMARY:The Amazing Bubble Factory
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nThe Amazing Bubble Factory brings the breathtaking art of bubbles to life right before your eyes in a high-energy, family-friendly spectacular. Led by [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:86a2aa8e673a@croton.news
+DTSTART;VALUE=DATE:20260419
+SUMMARY:CHHS Spring Musical
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:eba75e103cef@croton.news
+DTSTART;TZID=America/New_York:20260420T170000
+SUMMARY:Town Board Work Session
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4302dca28d11@croton.news
+DTSTART;VALUE=DATE:20260420
+SUMMARY:Criminal Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:669f13e8f425@croton.news
+DTSTART;VALUE=DATE:20260420
+SUMMARY:Town Board Work Session
+LOCATION:Town of Ossining\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:14685a0d2a05@croton.news
+DTSTART;TZID=America/New_York:20260420T190000
+SUMMARY:Director's Cut
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/directors-cut-10029
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c1253c2180bc@croton.news
+DTSTART;TZID=America/New_York:20260420T193000
+SUMMARY:Write Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/write-club-10825
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:41a824f77066@croton.news
+DTSTART;VALUE=DATE:20260420
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b7ba4e9bb025@croton.news
+DTSTART;TZID=America/New_York:20260421T190000
+SUMMARY:Zoning Board of Appeals Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9e0005b9026e@croton.news
+DTSTART;TZID=America/New_York:20260421T194500
+SUMMARY:Conservation Advisory Council Meeting
+LOCATION:Kellerhouse Municipal Building\, 1 Van Wyck St
+URL:
+CATEGORIES:government
+DESCRIPTION:Source: Village of Croton-on-Hudson\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9a3eaf8d9374@croton.news
+DTSTART;TZID=America/New_York:20260421T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/babytime-lauren-8913
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1ae95a6f54ce@croton.news
+DTSTART;TZID=America/New_York:20260421T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/living-grief-ongoing-support-group-10441
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6a28fc5aef97@croton.news
+DTSTART;TZID=America/New_York:20260421T144500
+SUMMARY:LEGO Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/lego-club-10360
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:592f806b95ca@croton.news
+DTSTART;TZID=America/New_York:20260421T190000
+SUMMARY:English Conversation Hour
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/english-conversation-hour-9857
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3d9fcb91d3ce@croton.news
+DTSTART;VALUE=DATE:20260421
+SUMMARY:F Day
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3d75c8472657@croton.news
+DTSTART;VALUE=DATE:20260421
+SUMMARY:NYS Mathematics Assessment Grades 5-7
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9a6c35630868@croton.news
+DTSTART;VALUE=DATE:20260421
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9143f60bc902@croton.news
+DTSTART;VALUE=DATE:20260421
+SUMMARY:Hidden Transitions - 6th Grade Parents\, 7:00 p.m.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:daa1cca406eb@croton.news
+DTSTART;VALUE=DATE:20260421
+SUMMARY:BOE Work Session & Special Meeting:  BOCES Budget Vote\, 7:30 pm
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:bbe44e000172@croton.news
+DTSTART;TZID=America/New_York:20260422T100000
+SUMMARY:Women Take to the Trails
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/women-take-to-the-trails-sept-oct-2025/2026-04-29/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nLace up your hiking boots and bond with fellow female hikers as we cruise the trails. Each hike’s location will be dependent on weather and trail conditions. Please dress appropriately for prolonged o
+END:VEVENT
+BEGIN:VEVENT
+UID:dc6739baa976@croton.news
+DTSTART;VALUE=DATE:20260422
+SUMMARY:Vehicle and Traffic Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e7ae620fbb3a@croton.news
+DTSTART;VALUE=DATE:20260422
+SUMMARY:Civil Cases and Summary Proceedings - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8dfd86f35b73@croton.news
+DTSTART;TZID=America/New_York:20260422T100000
+SUMMARY:Croton Library Book Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-library-book-club-10229
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:73f8b17870e5@croton.news
+DTSTART;TZID=America/New_York:20260422T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4d9a52ca6763@croton.news
+DTSTART;TZID=America/New_York:20260422T101500
+SUMMARY:Preschool Storytime with Chris
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/preschool-storytime-chris-9454
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8499f030af22@croton.news
+DTSTART;TZID=America/New_York:20260422T110000
+SUMMARY:FIESTA! with Flor
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/fiesta-flor-8955
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ea67ababd2e8@croton.news
+DTSTART;TZID=America/New_York:20260422T153000
+SUMMARY:Homework Help
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/homework-help-10533
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:341177766cdd@croton.news
+DTSTART;VALUE=DATE:20260422
+SUMMARY:F Day
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6f938bc68222@croton.news
+DTSTART;VALUE=DATE:20260422
+SUMMARY:NYS Mathematics Assessment Grades 5-7
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0d083e51c578@croton.news
+DTSTART;VALUE=DATE:20260422
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f9e38314e790@croton.news
+DTSTART;TZID=America/New_York:20260423T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e0f4d89e4728@croton.news
+DTSTART;TZID=America/New_York:20260423T103000
+SUMMARY:Music and Movement w/ Lori Cohen
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/music-and-movement-w-lori-cohen-9038
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:522bb19a3b61@croton.news
+DTSTART;TZID=America/New_York:20260423T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/parents-infants-support-group-10979
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7d38ed6516ea@croton.news
+DTSTART;TZID=America/New_York:20260423T123000
+SUMMARY:Mah Jongg Lessons
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-lessons-10929
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5b472a5cc8b7@croton.news
+DTSTART;TZID=America/New_York:20260423T190000
+SUMMARY:NAMI Westchester Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/nami-westchester-support-group-9285
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b765df6dded9@croton.news
+DTSTART;TZID=America/New_York:20260423T190000
+SUMMARY:Croton Democratic Committee
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-democratic-committee-10457
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3f472cb6c9b0@croton.news
+DTSTART;VALUE=DATE:20260423
+SUMMARY:A * Day (Advisory)
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f074595dd494@croton.news
+DTSTART;VALUE=DATE:20260423
+SUMMARY:CET Parent/Teacher Day Conferences\, Early Dismissal 10:45 a.m.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:dbe425ba4446@croton.news
+DTSTART;VALUE=DATE:20260423
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:961d2c018cd6@croton.news
+DTSTART;VALUE=DATE:20260423
+SUMMARY:CET Parent/Teacher Evening Conferences\, 4:00 - 7:00 p.m.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:cd86d2385201@croton.news
+DTSTART;TZID=America/New_York:20260424T200000
+SUMMARY:Best of The Eagles
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nBest of the Eagles, hailed as the ultimate tribute to the iconic rock band, flawlessly captures the essence of the Eagles' timeless music. [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:7c4c6e695371@croton.news
+DTSTART;TZID=America/New_York:20260424T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/musical-round-rose-10990
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c40348c41a81@croton.news
+DTSTART;TZID=America/New_York:20260424T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/new-parents-together-9096
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:bf23b0824a8b@croton.news
+DTSTART;TZID=America/New_York:20260424T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/shut-write-meetup-10274
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ffbb178a26f5@croton.news
+DTSTART;TZID=America/New_York:20260424T130000
+SUMMARY:Canasta: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/canasta-open-play-9785
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:30f56dc7ff38@croton.news
+DTSTART;VALUE=DATE:20260424
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f4198ad05c7e@croton.news
+DTSTART;VALUE=DATE:20260424
+SUMMARY:SAT - Grade 11 (in-school)
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e623a4dacfb8@croton.news
+DTSTART;TZID=America/New_York:20260425T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:7dc760864ab2@croton.news
+DTSTART;VALUE=DATE:20260425
+SUMMARY:National Prescription Drug Take Back Day
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:acbb4cee5366@croton.news
+DTSTART;TZID=America/New_York:20260425T200000
+SUMMARY:The Doo Wop Project Presents... Echoes of the Street
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nA Brand New Show from America's Premiere Doo Wop Group! The dynamic Broadway stars of The Doo Wop Project are on a mission [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:52c4e24fb77a@croton.news
+DTSTART;TZID=America/New_York:20260425T100000
+SUMMARY:Blood Drive
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/blood-drive-9906
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f53110ca4907@croton.news
+DTSTART;TZID=America/New_York:20260425T103000
+SUMMARY:Storytime Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/storytime-yoga-9138
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0683910090d2@croton.news
+DTSTART;TZID=America/New_York:20260426T170000
+SUMMARY:An Evening with Temple Grandin
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nTemple Grandin is one of the world's most respected voices on autism and neurodiversity. Diagnosed with autism as a child, she has dedicated [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:1c41ce52e6ca@croton.news
+DTSTART;TZID=America/New_York:20260426T140000
+SUMMARY:Spring Concert: Jean Garner
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/concert-jean-garner-10933
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7fa155ef4e7c@croton.news
+DTSTART;VALUE=DATE:20260427
+SUMMARY:Criminal Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:317972d21a3f@croton.news
+DTSTART;VALUE=DATE:20260427
+SUMMARY:Town Board Meeting
+LOCATION:Town of Ossining\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5986ab13b894@croton.news
+DTSTART;TZID=America/New_York:20260427T153000
+SUMMARY:Reading Through Pictures Book Club (K-1st grade)
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/reading-through-pictures-book-club-k-1st-grade-10870
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:397253ec8800@croton.news
+DTSTART;TZID=America/New_York:20260427T190000
+SUMMARY:Short Story Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/short-story-group-10060
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f5fffa83f8e2@croton.news
+DTSTART;TZID=America/New_York:20260427T193000
+SUMMARY:Mother-Daughter Book Club II
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mother-daughter-book-club-ii-8681
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:61840ee42469@croton.news
+DTSTART;VALUE=DATE:20260427
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ba031dea9f54@croton.news
+DTSTART;TZID=America/New_York:20260428T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/babytime-lauren-8913
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:eff5e0c43504@croton.news
+DTSTART;TZID=America/New_York:20260428T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/living-grief-ongoing-support-group-10441
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ed6d02338c76@croton.news
+DTSTART;TZID=America/New_York:20260428T144500
+SUMMARY:LEGO Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/lego-club-10360
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f8d0b46f0e33@croton.news
+DTSTART;TZID=America/New_York:20260428T183000
+SUMMARY:Meeting: Communities for Healing & Justice
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/meeting-communities-healing-justice-10865
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9648ee5db4e1@croton.news
+DTSTART;TZID=America/New_York:20260428T190000
+SUMMARY:English Conversation Hour
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/english-conversation-hour-9857
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1ec7825ffc5e@croton.news
+DTSTART;VALUE=DATE:20260428
+SUMMARY:Tiger Tuesday
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:fe6f38c99591@croton.news
+DTSTART;VALUE=DATE:20260428
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:752b4d8c3a78@croton.news
+DTSTART;VALUE=DATE:20260428
+SUMMARY:PTSA Meeting @6:30pm
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e633bb13d17c@croton.news
+DTSTART;TZID=America/New_York:20260429T100000
+SUMMARY:Women Take to the Trails
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/women-take-to-the-trails-sept-oct-2025/2026-04-29/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nLace up your hiking boots and bond with fellow female hikers as we cruise the trails. Each hike’s location will be dependent on weather and trail conditions. Please dress appropriately for prolonged o
+END:VEVENT
+BEGIN:VEVENT
+UID:6796a71dbe9f@croton.news
+DTSTART;TZID=America/New_York:20260429T010000
+SUMMARY:Cortlandt Regional Veterans Committee Meeting
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d45959f10038@croton.news
+DTSTART;VALUE=DATE:20260429
+SUMMARY:Civil Cases and Summary Proceedings - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a1b54bcf4a74@croton.news
+DTSTART;VALUE=DATE:20260429
+SUMMARY:Vehicle and Traffic Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e99fad612c76@croton.news
+DTSTART;TZID=America/New_York:20260429T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5aa5894a07fa@croton.news
+DTSTART;TZID=America/New_York:20260429T101500
+SUMMARY:Preschool Storytime with Chris
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/preschool-storytime-chris-9454
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:bfb224e8beea@croton.news
+DTSTART;TZID=America/New_York:20260429T110000
+SUMMARY:FIESTA! with Flor
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/fiesta-flor-8955
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:cb2222f5517e@croton.news
+DTSTART;TZID=America/New_York:20260429T153000
+SUMMARY:Homework Help
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/homework-help-10533
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1bdc65125c01@croton.news
+DTSTART;VALUE=DATE:20260429
+SUMMARY:CHHS Spring Concert
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b1aca2916302@croton.news
+DTSTART;VALUE=DATE:20260429
+SUMMARY:F Day
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:834041a4cda2@croton.news
+DTSTART;VALUE=DATE:20260429
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ae58a233b730@croton.news
+DTSTART;TZID=America/New_York:20260430T200000
+SUMMARY:Adam Ray: WHO IS ME Tour
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nVIP Tickets Include a Post-Show Meet and Greet! 18+/Mature Audience Adam Ray is a multifaceted comedian, actor, and director from Seattle,[.]
+END:VEVENT
+BEGIN:VEVENT
+UID:fb48859ec9d1@croton.news
+DTSTART;TZID=America/New_York:20260430T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d80401165ba7@croton.news
+DTSTART;TZID=America/New_York:20260430T103000
+SUMMARY:Music and Movement w/ Lori Cohen
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/music-and-movement-w-lori-cohen-9038
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4f3e18b14c1d@croton.news
+DTSTART;TZID=America/New_York:20260430T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/parents-infants-support-group-10979
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c04f60d90257@croton.news
+DTSTART;TZID=America/New_York:20260430T123000
+SUMMARY:Mah Jongg Lessons
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-lessons-10929
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4dd1a1ef8bd6@croton.news
+DTSTART;TZID=America/New_York:20260430T190000
+SUMMARY:Annual Meeting & Budget Overview
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/library-annual-meeting-10794
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4b94d5fb3813@croton.news
+DTSTART;VALUE=DATE:20260430
+SUMMARY:F Day (Zero Period)
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2ddfbedbd7a7@croton.news
+DTSTART;VALUE=DATE:20260430
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b8e170dedeb3@croton.news
+DTSTART;TZID=America/New_York:20260501T190000
+SUMMARY:BILLY GARDELL: THE LESS IS MORE TOUR
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nBilly Gardell currently stars in the CBS series Bob Hearts Abishola, from award-winning creator, executive producer and writer Chuck Lorre. Bob Hearts Abishola [...]
+END:VEVENT
+BEGIN:VEVENT
+UID:81b319f88501@croton.news
+DTSTART;TZID=America/New_York:20260501T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/musical-round-rose-10990
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f0d43c9cc0f5@croton.news
+DTSTART;TZID=America/New_York:20260501T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/new-parents-together-9096
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5ac589965a1d@croton.news
+DTSTART;TZID=America/New_York:20260501T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/shut-write-meetup-10274
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4d562e7757b2@croton.news
+DTSTART;TZID=America/New_York:20260501T130000
+SUMMARY:Canasta: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/canasta-open-play-9785
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1468f8b92aae@croton.news
+DTSTART;VALUE=DATE:20260501
+SUMMARY:Checkpoint 5 Published
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2da8205eb2d9@croton.news
+DTSTART;VALUE=DATE:20260501
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d13ee53916cc@croton.news
+DTSTART;VALUE=DATE:20260501
+SUMMARY:The Pinkster Festival
+LOCATION:Historic Hudson Valley\, Sleepy Hollow/Croton
+URL:https://hudsonvalley.org/events/rip-van-winkles-journey/
+CATEGORIES:events
+DESCRIPTION:Source: Historic Hudson Valley\nCelebration of African American history with art, live music, dance, storytelling
+END:VEVENT
+BEGIN:VEVENT
+UID:94557cc34d6d@croton.news
+DTSTART;VALUE=DATE:20260501
+SUMMARY:An Audience with Poe
+LOCATION:Historic Hudson Valley\, Sleepy Hollow/Croton
+URL:https://hudsonvalley.org/events/an-audience-with-poe/
+CATEGORIES:events
+DESCRIPTION:Source: Historic Hudson Valley\nPoe's darkest tales with storytelling, cocktails, and confections. May-June.
+END:VEVENT
+BEGIN:VEVENT
+UID:1f3d8f8f5a0c@croton.news
+DTSTART;TZID=America/New_York:20260502T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:ffd5a92cc1b0@croton.news
+DTSTART;TZID=America/New_York:20260502T100000
+SUMMARY:NYFA Field Trip to Teatown: Spring Wildflowers
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/nyfa-teatown-trip/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nJoin NYFA as we explore the Hidden Valley trail at Teatown, a 1,000 acre nature preserve and environmental education center located in Westchester County.  Program description:  These woodlands featur
+END:VEVENT
+BEGIN:VEVENT
+UID:6efced682805@croton.news
+DTSTART;TZID=America/New_York:20260502T200000
+SUMMARY:Genessa and The Selena Experience
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nIn honor of the legacy of the late Tejano superstar Selena Quintanilla, Genessa & The Selena Experience brings a powerful, high-energy tribute to [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:a0b6eef5693a@croton.news
+DTSTART;TZID=America/New_York:20260502T100000
+SUMMARY:Spring Book and Bake Sale
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/spring-book-and-bake-sale-10915
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ce7caeb81eea@croton.news
+DTSTART;TZID=America/New_York:20260502T103000
+SUMMARY:Storytime Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/storytime-yoga-9138
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:58905e7c1689@croton.news
+DTSTART;VALUE=DATE:20260502
+SUMMARY:SAT (Administered at CHHS)
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:37a2b260117c@croton.news
+DTSTART;TZID=America/New_York:20260503T110000
+SUMMARY:Spring Ephemeral Hike (for families)
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/spring-ephemeral-hike-2/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nAs spring warms up, wonderful wildflowers are starting to emerge. This family-friendly hike will explore the short-lived species of the forest floor.    Wear appropriate hiking footwear, clothing for 
+END:VEVENT
+BEGIN:VEVENT
+UID:2b058e7e4dbb@croton.news
+DTSTART;VALUE=DATE:20260503
+SUMMARY:Municipal Code Violations - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0ab78a71ce0a@croton.news
+DTSTART;TZID=America/New_York:20260503T110000
+SUMMARY:Laurie Berkner: The Greatest Hits Solo Tour!- Sensory Friendly Performance
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nShe's Back - with a Sensory Friendly performance on Sunday, May 3 at 11AME PEOPLE MAGAZINE calls Laurie Berkner "the queen of kids[.]
+END:VEVENT
+BEGIN:VEVENT
+UID:16ed1e35c26f@croton.news
+DTSTART;TZID=America/New_York:20260503T150000
+SUMMARY:Laurie Berkner: The Greatest Hits Solo Tour!
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nShe's Back - performing live on Sunday, May 3, 2026 at 3PM! PEOPLE MAGAZINE calls Laurie Berkner "the queen of kids' music," USA [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:c7cda088336d@croton.news
+DTSTART;TZID=America/New_York:20260503T100000
+SUMMARY:Spring Book and Bake Sale
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/spring-book-and-bake-sale-10915
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9245655d29d5@croton.news
+DTSTART;TZID=America/New_York:20260503T150000
+SUMMARY:Girl Scouts Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/girl-scouts-meeting-8522
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:71f35233b24f@croton.news
+DTSTART;TZID=America/New_York:20260504T190000
+SUMMARY:Mother-Daughter Book Club 1
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mother-daughter-book-club-1-8669
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1718d11ed86c@croton.news
+DTSTART;TZID=America/New_York:20260504T190000
+SUMMARY:Short Story Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/short-story-group-10060
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c43d9d1f0e41@croton.news
+DTSTART;TZID=America/New_York:20260505T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/babytime-lauren-8913
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:97f759f69634@croton.news
+DTSTART;TZID=America/New_York:20260505T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/living-grief-ongoing-support-group-10441
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:229c2eb50976@croton.news
+DTSTART;TZID=America/New_York:20260505T144500
+SUMMARY:LEGO Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/lego-club-10360
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b43d1be03fb4@croton.news
+DTSTART;TZID=America/New_York:20260505T190000
+SUMMARY:English Conversation Hour
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/english-conversation-hour-9857
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:61d769919d54@croton.news
+DTSTART;TZID=America/New_York:20260505T190000
+SUMMARY:Croton AHAC Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-ahac-meeting-9213
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:64548c67923d@croton.news
+DTSTART;TZID=America/New_York:20260505T190000
+SUMMARY:Croton Lions Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-lions-club-8729
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:129661d09049@croton.news
+DTSTART;VALUE=DATE:20260506
+SUMMARY:Vehicle and Traffic Calendar - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d82363a16cef@croton.news
+DTSTART;VALUE=DATE:20260506
+SUMMARY:Civil Cases and Summary Proceedings - Justice Court
+LOCATION:Justice Court
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Ossining\n
+END:VEVENT
+BEGIN:VEVENT
+UID:da4311438623@croton.news
+DTSTART;TZID=America/New_York:20260506T100000
+SUMMARY:Croton Library Book Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-library-book-club-10229
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0125268afe6b@croton.news
+DTSTART;TZID=America/New_York:20260506T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1f1436937913@croton.news
+DTSTART;TZID=America/New_York:20260506T101500
+SUMMARY:Preschool Storytime with Chris
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/preschool-storytime-chris-9454
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5cae78607132@croton.news
+DTSTART;TZID=America/New_York:20260506T110000
+SUMMARY:FIESTA! with Flor
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/fiesta-flor-8955
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:58ac96f81154@croton.news
+DTSTART;TZID=America/New_York:20260506T153000
+SUMMARY:Homework Help
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/homework-help-10533
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d5f47615580a@croton.news
+DTSTART;TZID=America/New_York:20260507T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2005da4a066f@croton.news
+DTSTART;TZID=America/New_York:20260507T103000
+SUMMARY:Music and Movement w/ Lori Cohen
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/music-and-movement-w-lori-cohen-9038
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b8bf7ac89ef2@croton.news
+DTSTART;TZID=America/New_York:20260507T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/parents-infants-support-group-10979
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:27ba2f9d9165@croton.news
+DTSTART;TZID=America/New_York:20260507T123000
+SUMMARY:Mah Jongg Lessons
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-lessons-10929
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1b044ca63b97@croton.news
+DTSTART;TZID=America/New_York:20260507T190000
+SUMMARY:Under 300 Book Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/under-300-book-club-9873
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ca150268880b@croton.news
+DTSTART;TZID=America/New_York:20260507T190000
+SUMMARY:Cortlandt Democratic Committee
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/cortlandt-democratic-committee-10187
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7187069a5bf0@croton.news
+DTSTART;TZID=America/New_York:20260508T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/musical-round-rose-10990
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:de2b39d6c422@croton.news
+DTSTART;TZID=America/New_York:20260508T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/new-parents-together-9096
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:365c682c11dd@croton.news
+DTSTART;TZID=America/New_York:20260508T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/shut-write-meetup-10274
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0667a514214d@croton.news
+DTSTART;TZID=America/New_York:20260508T130000
+SUMMARY:Canasta: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/canasta-open-play-9785
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9d4a545a6a2a@croton.news
+DTSTART;TZID=America/New_York:20260509T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:b2d37adb0d00@croton.news
+DTSTART;TZID=America/New_York:20260509T100000
+SUMMARY:Town Wide Yard Sale
+LOCATION:Town of Cortlandt\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt Recreation\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a36c47b34bb5@croton.news
+DTSTART;TZID=America/New_York:20260509T103000
+SUMMARY:Storytime Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/storytime-yoga-9138
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9ceca64b5646@croton.news
+DTSTART;TZID=America/New_York:20260509T190000
+SUMMARY:Concert: Carlos Pavan
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/concert-carlos-pavan-10927
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:91f25f5c3e8e@croton.news
+DTSTART;TZID=America/New_York:20260511T130000
+SUMMARY:Mobile Office Hours with Dana Levenberg
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mobile-office-hours-dana-levenberg-10145
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:221781322ecd@croton.news
+DTSTART;TZID=America/New_York:20260511T183000
+SUMMARY:National MS Society Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/national-ms-society-meeting-9329
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2801a2d79b2e@croton.news
+DTSTART;TZID=America/New_York:20260511T190000
+SUMMARY:Short Story Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/short-story-group-10060
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f288271b0276@croton.news
+DTSTART;TZID=America/New_York:20260511T193000
+SUMMARY:Write Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/write-club-10825
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:38930c4b394b@croton.news
+DTSTART;TZID=America/New_York:20260511T193000
+SUMMARY:Library Board Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/library-board-meeting-8492
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:42956f958da8@croton.news
+DTSTART;TZID=America/New_York:20260512T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/babytime-lauren-8913
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a4e66b5db8aa@croton.news
+DTSTART;TZID=America/New_York:20260512T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/living-grief-ongoing-support-group-10441
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:96ec431c3aab@croton.news
+DTSTART;TZID=America/New_York:20260512T144500
+SUMMARY:LEGO Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/lego-club-10360
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ce6d86a96478@croton.news
+DTSTART;TZID=America/New_York:20260512T190000
+SUMMARY:English Conversation Hour
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/english-conversation-hour-9857
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:df8da8619160@croton.news
+DTSTART;TZID=America/New_York:20260512T190000
+SUMMARY:Hudson River Toastmasters
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/hudson-river-toastmasters-8107
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:749b14df3022@croton.news
+DTSTART;TZID=America/New_York:20260513T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7432da871c41@croton.news
+DTSTART;TZID=America/New_York:20260513T101500
+SUMMARY:Preschool Storytime with Chris
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/preschool-storytime-chris-9454
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:88d365482b16@croton.news
+DTSTART;TZID=America/New_York:20260513T110000
+SUMMARY:FIESTA! with Flor
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/fiesta-flor-8955
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1991ffc88425@croton.news
+DTSTART;TZID=America/New_York:20260513T153000
+SUMMARY:Homework Help
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/homework-help-10533
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:fc34782f1d4a@croton.news
+DTSTART;TZID=America/New_York:20260514T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f739f12bb534@croton.news
+DTSTART;TZID=America/New_York:20260514T103000
+SUMMARY:Music and Movement w/ Lori Cohen
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/music-and-movement-w-lori-cohen-9038
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:47a80287cd88@croton.news
+DTSTART;TZID=America/New_York:20260514T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/parents-infants-support-group-10979
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e06bf1c8f5fb@croton.news
+DTSTART;TZID=America/New_York:20260514T190000
+SUMMARY:Girl Scouts Leaders' Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/girl-scouts-leaders-meeting-8855
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3c53980ce53e@croton.news
+DTSTART;TZID=America/New_York:20260514T190000
+SUMMARY:Croton Friends of History
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-friends-history-8116
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:19d392304f4d@croton.news
+DTSTART;VALUE=DATE:20260515
+SUMMARY:Trivia Night
+LOCATION:Town of Cortlandt\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt Recreation\nTease Your Brain & Win A Prize!
+END:VEVENT
+BEGIN:VEVENT
+UID:82d497c72860@croton.news
+DTSTART;TZID=America/New_York:20260515T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/musical-round-rose-10990
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:70342b2cbf2f@croton.news
+DTSTART;TZID=America/New_York:20260515T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/new-parents-together-9096
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d5d13f720670@croton.news
+DTSTART;TZID=America/New_York:20260515T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/shut-write-meetup-10274
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:255a2224b602@croton.news
+DTSTART;TZID=America/New_York:20260515T130000
+SUMMARY:Canasta: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/canasta-open-play-9785
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1326b71ae2c6@croton.news
+DTSTART;TZID=America/New_York:20260516T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:1978319bfde2@croton.news
+DTSTART;TZID=America/New_York:20260516T103000
+SUMMARY:Storytime Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/storytime-yoga-9138
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:aa59b2e88101@croton.news
+DTSTART;TZID=America/New_York:20260516T180000
+SUMMARY:Concert: Nenad Bach
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/concert-nenad-bach-10928
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:bf893252d18c@croton.news
+DTSTART;TZID=America/New_York:20260517T131500
+SUMMARY:Demystifying Medicare and Healthcare Coverage for Seniors
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/demystifying-medicare-and-healthcare-coverage-seniors-10214
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2e0521405cf6@croton.news
+DTSTART;TZID=America/New_York:20260518T153000
+SUMMARY:Reading Through Pictures Book Club (K-1st grade)
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/reading-through-pictures-book-club-k-1st-grade-10870
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b87409896b7a@croton.news
+DTSTART;TZID=America/New_York:20260518T190000
+SUMMARY:Short Story Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/short-story-group-10060
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:409cb5a2258a@croton.news
+DTSTART;TZID=America/New_York:20260518T190000
+SUMMARY:Director's Cut
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/directors-cut-10029
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0e41e7d2d425@croton.news
+DTSTART;TZID=America/New_York:20260518T193000
+SUMMARY:Mother-Daughter Book Club II
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mother-daughter-book-club-ii-8681
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9a38220b02e3@croton.news
+DTSTART;TZID=America/New_York:20260519T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/babytime-lauren-8913
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:98d7f179a8e4@croton.news
+DTSTART;TZID=America/New_York:20260519T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/living-grief-ongoing-support-group-10441
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8d9de2e66e82@croton.news
+DTSTART;TZID=America/New_York:20260519T144500
+SUMMARY:LEGO Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/lego-club-10360
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:071f0d772a74@croton.news
+DTSTART;TZID=America/New_York:20260519T190000
+SUMMARY:English Conversation Hour
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/english-conversation-hour-9857
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:bd02a0d0a23c@croton.news
+DTSTART;TZID=America/New_York:20260520T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3ba6a38e6686@croton.news
+DTSTART;TZID=America/New_York:20260520T101500
+SUMMARY:Preschool Storytime with Chris
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/preschool-storytime-chris-9454
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7d0fea477b41@croton.news
+DTSTART;TZID=America/New_York:20260520T110000
+SUMMARY:FIESTA! with Flor
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/fiesta-flor-8955
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ef67eeb54eb1@croton.news
+DTSTART;TZID=America/New_York:20260520T153000
+SUMMARY:Homework Help
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/homework-help-10533
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b90fe8cf9332@croton.news
+DTSTART;TZID=America/New_York:20260521T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8b81421093d8@croton.news
+DTSTART;TZID=America/New_York:20260521T103000
+SUMMARY:Music and Movement w/ Lori Cohen
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/music-and-movement-w-lori-cohen-9038
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ca64c682d1c5@croton.news
+DTSTART;TZID=America/New_York:20260521T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/parents-infants-support-group-10979
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:398e3a6d546e@croton.news
+DTSTART;TZID=America/New_York:20260522T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/musical-round-rose-10990
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:751961c0b2ad@croton.news
+DTSTART;TZID=America/New_York:20260522T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/new-parents-together-9096
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:afb36ed102f8@croton.news
+DTSTART;TZID=America/New_York:20260522T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/shut-write-meetup-10274
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:13a36d90b860@croton.news
+DTSTART;TZID=America/New_York:20260522T130000
+SUMMARY:Canasta: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/canasta-open-play-9785
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c69b3a23b16d@croton.news
+DTSTART;TZID=America/New_York:20260523T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:ddae1d50fa63@croton.news
+DTSTART;TZID=America/New_York:20260523T103000
+SUMMARY:Storytime Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/storytime-yoga-9138
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:42e2528d90c3@croton.news
+DTSTART;VALUE=DATE:20260525
+SUMMARY:Closed for Memorial Day
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/closed-memorial-day-10077
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5c690c48751f@croton.news
+DTSTART;TZID=America/New_York:20260526T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/babytime-lauren-8913
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0b8c256281d6@croton.news
+DTSTART;TZID=America/New_York:20260526T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/living-grief-ongoing-support-group-10441
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:007ddb18c52c@croton.news
+DTSTART;TZID=America/New_York:20260526T144500
+SUMMARY:LEGO Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/lego-club-10360
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6225e3b2e3f7@croton.news
+DTSTART;TZID=America/New_York:20260526T190000
+SUMMARY:English Conversation Hour
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/english-conversation-hour-9857
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:70db964a9db8@croton.news
+DTSTART;TZID=America/New_York:20260527T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:cce835769eda@croton.news
+DTSTART;TZID=America/New_York:20260527T101500
+SUMMARY:Preschool Storytime with Chris
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/preschool-storytime-chris-9454
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9f72e56a6c9e@croton.news
+DTSTART;TZID=America/New_York:20260527T110000
+SUMMARY:FIESTA! with Flor
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/fiesta-flor-8955
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:de0166ad7d39@croton.news
+DTSTART;TZID=America/New_York:20260527T153000
+SUMMARY:Homework Help
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/homework-help-10533
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:05eb46f1a0a6@croton.news
+DTSTART;TZID=America/New_York:20260528T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e2a48cd41fa3@croton.news
+DTSTART;TZID=America/New_York:20260528T103000
+SUMMARY:Music and Movement w/ Lori Cohen
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/music-and-movement-w-lori-cohen-9038
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b2459c52e41b@croton.news
+DTSTART;TZID=America/New_York:20260528T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/parents-infants-support-group-10979
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f0955933c23f@croton.news
+DTSTART;TZID=America/New_York:20260528T190000
+SUMMARY:NAMI Westchester Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/nami-westchester-support-group-9285
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9fb64e9d881b@croton.news
+DTSTART;TZID=America/New_York:20260528T190000
+SUMMARY:Croton Democratic Committee
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-democratic-committee-10457
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a86f4311dcd7@croton.news
+DTSTART;TZID=America/New_York:20260529T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/musical-round-rose-10990
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5d7abb8aeac7@croton.news
+DTSTART;TZID=America/New_York:20260529T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/new-parents-together-9096
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:31bfed885041@croton.news
+DTSTART;TZID=America/New_York:20260529T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/shut-write-meetup-10274
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:28d6121c3923@croton.news
+DTSTART;TZID=America/New_York:20260529T130000
+SUMMARY:Canasta: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/canasta-open-play-9785
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:95ee47eb4644@croton.news
+DTSTART;TZID=America/New_York:20260530T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:7a556ebd689a@croton.news
+DTSTART;TZID=America/New_York:20260530T100000
+SUMMARY:Blood Drive
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/blood-drive-9906
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9a24929e5507@croton.news
+DTSTART;TZID=America/New_York:20260530T103000
+SUMMARY:Storytime Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/storytime-yoga-9138
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b90b326bd4de@croton.news
+DTSTART;TZID=America/New_York:20260531T140000
+SUMMARY:Riverview Jazz Concert
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/riverview-jazz-concert-10894
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9eb342a04fb0@croton.news
+DTSTART;TZID=America/New_York:20260601T190000
+SUMMARY:Mother-Daughter Book Club 1
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mother-daughter-book-club-1-8669
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2368b3e51275@croton.news
+DTSTART;TZID=America/New_York:20260601T190000
+SUMMARY:Short Story Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/short-story-group-10060
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9706fa2fa3d0@croton.news
+DTSTART;TZID=America/New_York:20260602T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/babytime-lauren-8913
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:fbac3b5437ec@croton.news
+DTSTART;TZID=America/New_York:20260602T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/living-grief-ongoing-support-group-10441
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f7f87111b268@croton.news
+DTSTART;TZID=America/New_York:20260602T144500
+SUMMARY:LEGO Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/lego-club-10360
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:358b53a75959@croton.news
+DTSTART;TZID=America/New_York:20260602T190000
+SUMMARY:English Conversation Hour
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/english-conversation-hour-9857
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a45888cbb60e@croton.news
+DTSTART;TZID=America/New_York:20260602T190000
+SUMMARY:Croton AHAC Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-ahac-meeting-9213
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a668ec420efc@croton.news
+DTSTART;TZID=America/New_York:20260602T190000
+SUMMARY:Croton Lions Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-lions-club-8729
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:fe75b5877739@croton.news
+DTSTART;TZID=America/New_York:20260603T100000
+SUMMARY:Croton Library Book Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/croton-library-book-club-10229
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:bad4ed032716@croton.news
+DTSTART;TZID=America/New_York:20260603T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2a99816a00f0@croton.news
+DTSTART;TZID=America/New_York:20260603T101500
+SUMMARY:Preschool Storytime with Chris
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/preschool-storytime-chris-9454
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3e3bd783d990@croton.news
+DTSTART;TZID=America/New_York:20260603T110000
+SUMMARY:FIESTA! with Flor
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/fiesta-flor-8955
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b19ed66bca8f@croton.news
+DTSTART;TZID=America/New_York:20260603T153000
+SUMMARY:Homework Help
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/homework-help-10533
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:24b4b71cb87d@croton.news
+DTSTART;TZID=America/New_York:20260604T100000
+SUMMARY:Mah Jongg: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/mah-jongg-open-play-9932
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5c442df37ca8@croton.news
+DTSTART;TZID=America/New_York:20260604T103000
+SUMMARY:Music and Movement w/ Lori Cohen
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/music-and-movement-w-lori-cohen-9038
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:84f9c5255aaa@croton.news
+DTSTART;TZID=America/New_York:20260604T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/parents-infants-support-group-10979
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4b9155aa4234@croton.news
+DTSTART;TZID=America/New_York:20260604T190000
+SUMMARY:Cortlandt Democratic Committee
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/cortlandt-democratic-committee-10187
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b2e05bd1c67f@croton.news
+DTSTART;TZID=America/New_York:20260605T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/musical-round-rose-10990
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c347b7a66afa@croton.news
+DTSTART;TZID=America/New_York:20260605T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/new-parents-together-9096
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:67ac79ed0ca5@croton.news
+DTSTART;TZID=America/New_York:20260605T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/shut-write-meetup-10274
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:77b75d268c99@croton.news
+DTSTART;TZID=America/New_York:20260605T130000
+SUMMARY:Canasta: Open Play
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/canasta-open-play-9785
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9dfdea91c9e8@croton.news
+DTSTART;TZID=America/New_York:20260606T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:acba5ba101a0@croton.news
+DTSTART;TZID=America/New_York:20260606T103000
+SUMMARY:Storytime Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://www.crotonfreelibrary.org/event/storytime-yoga-9138
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:91790219d989@croton.news
+DTSTART;TZID=America/New_York:20260613T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:c9b056750238@croton.news
+DTSTART;TZID=America/New_York:20260620T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:25fee5b05643@croton.news
+DTSTART;TZID=America/New_York:20260627T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:0a23f7397581@croton.news
+DTSTART;TZID=America/New_York:20260711T100000
+SUMMARY:Wildflower Island Guided Tours
+LOCATION:Teatown\, 1600 Spring Valley Rd\, Ossining\, NY\, 10562
+URL:https://www.teatown.org/events/wildflower-island-guided-tours-3/2026-07-11/
+CATEGORIES:events
+DESCRIPTION:Source: Teatown Lake Reservation\nVisit the Jewel of Teatown: Wildflower Island is a jewel afloat in Teatown Lake. More than 200 native wildflowers, trees, and shrubs come into bloom throughout the season. Join experienced guides for 
+END:VEVENT
+BEGIN:VEVENT
+UID:494dc6c049c1@croton.news
+DTSTART;VALUE=DATE:20261001
+SUMMARY:The Headless Horseman Files
+LOCATION:Historic Hudson Valley\, Sleepy Hollow/Croton
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Historic Hudson Valley\nSleepy Hollow whodunit — what really happened to Ichabod Crane?
+END:VEVENT
+BEGIN:VEVENT
+UID:030506989460@croton.news
+DTSTART;VALUE=DATE:20261001
+SUMMARY:Twilight Village at Sleepy Hollow
+LOCATION:Historic Hudson Valley\, Sleepy Hollow/Croton
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Historic Hudson Valley\nStorytellers, fire performers, brass band, pop-up evening market
+END:VEVENT
+BEGIN:VEVENT
+UID:d7875f83b26b@croton.news
+DTSTART;VALUE=DATE:20261001
+SUMMARY:The Spirits of Sleepy Hollow Country
+LOCATION:Historic Hudson Valley\, Sleepy Hollow/Croton
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Historic Hudson Valley\nMaster illusionists journey into the realm of the unknown
+END:VEVENT
+BEGIN:VEVENT
+UID:c124ab401aaa@croton.news
+DTSTART;VALUE=DATE:20261002
+SUMMARY:The Great Jack O'Lantern Blaze
+LOCATION:Historic Hudson Valley\, Sleepy Hollow/Croton
+URL:https://hudsonvalley.org/events/blaze/
+CATEGORIES:events
+DESCRIPTION:Source: Historic Hudson Valley\nThousands of jack o'lanterns illuminate the night at Van Cortlandt Manor
+END:VEVENT
+END:VCALENDAR

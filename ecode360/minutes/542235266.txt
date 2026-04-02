@@ -1,0 +1,269 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Apr. 26, 2020 – via Zoom.us
+Members Attending:
+Lindsay Audin
+David Goldman
+Len Simon
+John Habib
+
+Joel Gingold
+Brian Pugh
+Niall Kelleher
+Jon Katz
+
+Absent:
+
+Non-members wishing to attend are asked to RSVP to energywiz@aol.com to verify meeting date,
+time, and location, which may be adjusted to meet committee member requests. [Bracketed] text
+relates to actions subsequent to this meeting.
+-------------------------------------------------------------------------Scheduled guests: none
+Quick updates/holdovers/follow-ups/status:
+- Due to the pandemic, Croton’s Earth Day event was cancelled for this year.
+- food scrap recycling: Joel pitched to C100 the option for its people to take over the paperwork
+aspect of the pilot project for which we got a grant last year. C100’s leaders were receptive and
+wanted details. Joel also sent them a link to an upcoming webinar on food scrap drop-off programs.
+- EV/EVSE: COVID has pushed back NYSERDA/DEC program timelines. None of our activities are
+affected, unless the Village seeks a grant for another EV. Regarding EV vouchers presently
+available for trucks and buses, comments at a recent NYSERDA EV webinar indicate there are no
+plans to raise their value, which is too low to bother pursuing them.
+Len reviewed his continued work on the federal CMAQ program, which could provide additional
+funding for EV school buses, and his discussions with Seth Leitman, SW’s new transportation
+manager. CMAQ $ goes to Metropolitan Planning Organizations (MPO’s). Westchester County
+represents us on this region’s MPO. To secure $ for an EV school bus, Croton would need to “get
+in line” with others competing for such funds, and MTC would need to make funding of EV school
+buses a priority. Seth Leitman of SW stated he planned to raise that option to the County
+Executive’s staff, but COVID has delayed that effort. SW is also working on CMAQ to move it up its
+own chain of command, with the possibility of SW having its own EV bus program with CMAQ
+funds. Len felt that this process was not likely to yield any funding for Croton this year. Len will
+follow up on this during the next week.
+One way to get an EV for the schools might be what Virginia Beach’s (Va.) high school did: use
+one for its drivers’ education program. Their EV and its charger were secured under an energy
+performance contract for school facilities (Croton’s schools are involved in such a contract). To
+assess switching our high school’s driver ed car to an EV, Lindsay queried PAS Auto School
+(contractor running Croton’s program) on the car it now uses, annual mileage, possible $ saving on
+fees, etc. We await its response.
+- Solar projects: COVID presently blocks starting work on the DPW roof. Regarding the proposed
+solar canopies at 2 Village parks, tree removal and relocation issues are also on hold. Ecogy
+suggested we start the 3-6 month clock on CESIR interconnection studies, but doing so requires
+signing Con Ed docs stating that we will use Ecogy if the project moves ahead. Janine, however,
+1
+
+said a new RFP was needed. Brian agreed to add the issue to the next VB work session. He also
+asked the Cortlandt town engineer to expedite the building permit application for the DPW rooftop
+solar job, which was submitted 2 months ago. [On May 4, the VB voted to sign the CESIR
+paperwork.]
+Recruitment/Outreach:
+- School district: the May 19 meeting (last for this school year) of its Environmental Sustainability
+Committee was cancelled due to COVID. To move benchmarking of the district’s buildings along,
+and to better quantify the district’s total GHG inventory, Lindsay and Joel assembled and submitted
+a Freedom of Information Law (FOIL) request to the district.
+- Jon Katz’s presentation on air-source heat pumps (at Holy Name Church in early March) was
+posted at our web page. Notice of the posting (and a link to it) will be in the Village’s June
+newsletter.
+- Intern: Until we can get clarity on exact locations of the revised list of 84 Village-owned land
+parcels, work on correcting GHG sequestration due to trees on those properties is on hold.
+- John Habib reported (see page 4) on a new State grant program managed by the NYS Pollution
+Prevention Institute (PPI). It offers small ($10K-$20K) grants for education and other nonequipment measures to cut pollution (including GHG emissions). As such, it may be more
+appropriate to C100-style efforts than our actions. All agreed that John should forward a copy of his
+report to the appropriate C100 people. Quick action is needed: deadline for submissions is 5/29/20.
+Communications: none
+New/ongoing business:
+- 2020 Stretch Code: Jon Katz reviewed related docs. After our last meeting, SW’s Carmen Santos
+provided contact info regarding Pelham’s consideration of the Stretch Code at its Feb. 11 Board
+meeting. Pelham’s Village Administrator (Cara Farrell) provided a link to that meeting’s discussion
+on it, and Yenna Chen as a contact person. Jon reviewed that discussion, and is prepping a
+memo/FAQ that responds to it for review by committee members by the end of next week. Among
+the issues he will address are: realistic extra costs for upgrades listed in the proposed code, what
+kinds of physical changes may be involved (e.g., higher R-values, sealing at wall headers), and if
+use of the code was an “all or nothing” issue. He also emailed Yenna Chen of Pelham’s own
+sustainability committee regarding her efforts on the code. Regarding legality of offering a property
+tax incentive to those using the Stretch Code, Brian verified with the Village’s attorney that Croton
+could indeed offer a program that did so, if approved by the Village Board.
+- Others’ efforts: Joel reported on C100 activities and interactions with it. Regarding our fundraising
+idea for C100, it accepted our proposal to develop a private green power procurement aggregation
+group for local businesses too big for CCA. Doing so could provide C100 with an ongoing revenue
+stream (something we cannot do as a Village committee) while helping promote renewable power
+to local commercial and institutional entities. Calling it “Promoting Green Power”, C100 will work
+with us via surveys and (when feasible) contacts with Croton’s commercial power users to assess
+the concept’s viability. Other towns may be added later. As with CCA, RECs would be bundled with
+the power. The PPI grant discussed above might be appropriate to fund the effort
+2
+
+To assess the differences between the online calculator that may be used by C100’s proposed
+carbon footprinting app and the EPA’s standard online calculator, Dave reported on how they
+differed when he ran both with his household’s data. The EPA calculator came up with about 9 MT,
+while the other calculated it at 31 MT (240+% higher). Lindsay’s examination of individual emission
+factors (e.g., for electricity, fuel oil) in the non-EPA calculator found they were 35%-140% higher
+than EPA’s values. The factor for electricity, for example, is not based on our local eGRID value.
+Instead, it uses an unweighted average of 3 sub-regions in the State, making it irrelevant to our
+area / zip code. After some discussion, we concluded that the best approach was for Lindsay to
+discuss it with Leo Wiegman (who is active in C100). Leo wrote Croton’s 2009 municipal GHG
+inventory, and has an understanding of emission factors.
+- NYPA 100% renewable power offering: While still being developed, NYPA plans in coming months
+to provide green power to its customers. We could seek it for our municipal facilities and schools,
+cutting their footprints by ~30%-40%. Extra cost for our municipal power would be between $2K$10K/yr (depending on REC pricing), which could be paid out of rent money from the DPW solar
+plant. REC pricing recently fell to less than 1 mill ($.001) per kWh, making fixed price green power
+essentially the same cost as standard “brown” power. To see the impact if the Harmon train yard
+(also a NYPA customer) switched to it, Lindsay submitted a FOIL request to the MTA on that
+facility. To avoid overlap or confusion, Joel will ask C100 to exclude NYPA customers from its
+Promoting Green Power program.
+- Climate Smart Community (CSC) certification: Responses from DEC on our revised submissions
+are tentatively scheduled for May 22, though it is unclear how COVID may affect that date. As per
+DEC’s requirement for public input on our posted GHG inventory and Climate Action Plan update,
+the Village’s April newsletter announced a public comment period (Apr. 6-26). Only one comment
+was received, asking how to access docs on our web page and the date of our next meeting.
+- Other business: Working at home has made committee members more aware of the noise from
+gasoline-powered landscaping equipment (e.g., leaf blowers). Several members discussed their
+success using quiet rechargeable lawn mowers and blowers. They suggested Croton pass an
+ordinance banning gas-powered units. Jon Katz and John Habib agreed to pursue that option.
+[Lindsay subsequently suggested they check out the American Green Zone Alliance,
+www.agza.net, which assists such efforts. He also suggested checking with CAC to ensure no
+overlaps or conflicts, and the Town of Mamaroneck, which passed a leaf blower law in 2017.]
+- Niall asked Brian about setting up a community garden at Gouveia Park. Brian agreed to raise the
+matter at a forthcoming VB board meeting.
+- We still need new members/allies willing to work. While the possibility of poaching C100 people
+was raised, no specific names were discussed. Other people have already been asked, with all
+saying they were already too committed elsewhere, or else no longer live in Croton.
+Date for our next meeting: May 31, 2020 (hopefully, in person at 221 Cleveland Dr.)
+
+3
+
+SUSTAINABILITY COMMITTEE
+of the Village of Croton-on-Hudson
+To:
+From:
+Subject:
+Date:
+
+Lindsay Audin, Committee Chair
+John L. Habib, Village Board Liaison to the Committee
+Research Project – Questions Concerning the “Community Grant Program” (“CGP”) of
+the New York State Pollution Prevention Institute (“NYSP2I”)
+April 22, 2020
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Research Question 1 – Can a CGP grant be issued for air pollution reductions from vehicles (e.g., by using
+EV school buses)?
+Answer – Education programs concerning the wisdom/benefits of EV school buses could conceivably
+receive funding. Applying grant money to the purchase of an EV school bus would be prohibited. CGP
+funds may not be used for purchases of “equipment”, which is defined as any item having a useful life
+of 1 year or more and costing more than $1,000 per unit. Grant sizes are also limited to a maximum of
+$20,000; and
+Research Question 2 - Is the educational component of the criteria to be met for CGP funding limited in any
+way, (e.g., is it mandatory to focus on greenhouse gas reduction?)
+Answer – Projects do not have to be focused directly on greenhouse gas emissions reduction. The
+educational component of the CGP is broader. To clarify the scope of educational topics suitable for
+grant funding, NYSP2I’s website materials make reference to the US EPA’s definition of “Pollution
+Prevention” (https://www.epa.gov/p2/learn-about-pollution-prevention).
+Education program proposals focused on educating the public about water cleanliness or composting, for
+example, could be awarded a grant.
+Here is a link to documents describing CGP awards that have been made in the past:
+https://www.rit.edu/affiliate/nysp2i/resources?field_industrys_tid%5B0%5D=197&combine=&sort=field_publication_date_value
+%20DESC
+
+Research Question 3 – What is the confirmed deadline, and what are forms that must be followed for
+complete an CGP grant application?
+Answer – May 29, 2020 at 5:00 p.m. is the filing deadline. This is the link for the downloadable
+Application forms: www.rit.edu/affiliate/nysp2i/community-grants-program.
+Application rules specify both a required and optional component for document submissions. Required
+documents are downloadable (described below), and include an Application Form and a budget
+template. A detailed project description is required, and limited to 12 pages. Optional documents are
+resumes and letters of support. Applicants must submit a W-9 form, but applicant entities are not
+required to have an IRS “tax-exempt approval as a 501(c)(3) charitable/public service organization.
+NYSP2I – Details
+The NYSP2I was launched in 2008 on the campus of Rochester Institute of Technology (RIT) through funding
+by Empire State Development (ESD). The NYSP2I was established to “give businesses, nonproﬁts,
+municipalities, and communities across the Empire State the resources and expertise they need to realize
+the beneﬁts of sustainability”. As a pilot program with a budget of $500,000, the NYSP2I’s first initiative was
+to provide technical support to manufacturers across New York State. Today its budget exceeds $4 million
+and it works across many sectors and within many communities throughout the state without being limited
+only to manufacturing companies. NYSP2I is sponsored by New York State’s Department of Environmental
+
+4
+
+Conservation (DEC) and led by the Golisano Institute of Sustainability (GIS) at RIT. It is now a collaboration
+of five research universities and manufacturing extension partnerships across the Empire State. (Source:
+https://www.rit.edu/affiliate/nysp2i/about/overview).
+NYSP2I - Community Grants Program:
+The Community Grants Program (CGP) supports initiatives that promote public awareness, understanding,
+and implementation of pollution prevention practices at the local level. Typical grant awards range from
+$10,000 to $20,000 per project, and the maximum grant award is $20,000 per project.
+Submitted proposals must meet the following criteria and guidelines to be considered:
+ Increase awareness, understanding and/or lead to implementation of pollution prevention practices and/or
+behaviors at the community or municipal level
+ Demonstrate a clear and actionable project plan (see ‘Application Format’ for project plan requirements in
+Section VII)
+ Be able to measure program outcomes
+ Result in one or more concrete deliverable(s) (past examples include training or public education
+workshops; demonstration projects; implementation of a new policy, technology, or practice; and creation
+and dissemination of brochures, videos or a website)
+ Be completed in accordance with the budget guidelines provided in Section IV ‘Budget Guidelines, Size of
+Awards, and Distribution of Funds’
+ Be completed within the 2020-2021 project timeline, which is October 1, 2020 through September 30,
+2021.
+Projects Given Preference Are Those That:
+ utilize partnerships and collaborations with other organizations
+ demonstrate a broad community impact
+ address populations and communities affected by, experiencing or susceptible to environmental harms and
+risk
+ can easily be replicated and used by other organizations
+ demonstrate an ability to source funding from additional sources
+ are located in Environmental Justice (EJ) communities
+Who Can Apply for the Grant? Community organizations, local government agencies, municipal
+departments, and other public sector and nonprofit entities based in NYS can apply for CGP funds. The
+definition of “Community Organization” is as follows:
+Any non-profit group based in New York State that conducts the majority of its work within the state.
+This includes, but is not limited to:
+ lawfully incorporated/registered organizations focused on environmental, public health, or
+occupational health protection;
+ academic institutions;
+ neighborhood associations, health centers; and environmental justice organizations;
+ community development corporations;
+ public benefit corporations;
+ local unions and labor organizations; and “other nonprofits”.
+Definition of “Local government agencies”:
+“Offices or departments of a city, town, county, or primary and secondary schools in New York State”.
+This includes, but is not limited to:
+ Local environmental agencies,
+ Boards of health,
+ Departments of public works,
+
+5
+
+
+
+
+
+
+local emergency response offices,
+town commissions,
+planning and zoning boards,
+libraries, and schools.
+
+The Application must include the following documents, and some of these are downloaded here:
+1) RFA Appendix A: Community Grants Program Proposal Cover Page
+2) Proposal (12 pages maximum):
+3) Resumes (optional)
+4) Letter(s) of Commitment (if applicable)
+5) Letter(s) of Support (optional)
+6) RFA Appendix B: Community Grants Program Budget Form - This should only include items to be
+funded through the NYSP2I Community Grant Program funding. Total project expenses and “in-kind”
+support are not to be included.
+7) W-9 Form
+8) New Supplier Setup form
+9) Contact Form
+Community Grant Program Website:
+https://www.rit.edu/affiliate/nysp2i/funding?utm_source=NYSP2I&utm_campaign=7a1e271a36EMAIL_CAMPAIGN_2019_04_03_07_44_COPY_01&utm_medium=email&utm_term=0_65b3261bb7-7a1e271a36248575697&mc_cid=7a1e271a36&mc_eid=5b2cd34ff6#community-grants
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This research was supplemented by a detailed, very helpful teleconference with the Program Coordinator,
+who generously offered to have additional teleconferences for any required follow-up:
+Ms. Gillian Griffin
+Pollution Prevention Engineer & CGP Coordinator
+NYS Pollution Prevention Institute
+Golisano Institute for Sustainability - Rochester Institute of Technology
+Louise Slaughter Hall, Suite 2000, Rochester, NY 14623 * Phone: (585) 475-5677 * Email:
+gaggis@rit.edu
+
+6
+
+

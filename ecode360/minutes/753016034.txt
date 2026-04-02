@@ -1,0 +1,250 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Jan. 28, 2024 – via zoom
+Members Attending:
+Lindsay Audin (chair, Clim. Smart Comm. [CSC] Coord.)
+
+Absent:
+Alexandra Barkan
+
+Ashley Clemente
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (gardens)
+Brian Pugh (Croton Mayor)
+Len Simon (Village trustee)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): Michael Balter, editor of the Croton Chronicle
+Announcements:
+- due to increased professional workload, Bernie Yozwiak resigned 1/15/2024
+- guidelines for membership on Village committees (see last page)
+- NYSERDA CEC-supported projects (community solar, EVs, HPs)
+status as of 1/28/2024 for
+CEC Comm. Campaigns
+CEC Actions since 6/1/23
+Comm. solar enrollments
+EV/PHEVs bought
+HPs installed
+bold = achieved
+
+Level 2
+volume
+
+Level 2
+grant
+
+Level 3
+volume
+
+Level 3
+grant
+
+50
+15
+10
+
+$10,000
+$7,500
+$10,000
+
+100
+50
+15
+
+$20,000
+$15,000
+$20,000
+
+On 12/13/23, NYSERDA confirmed the two Level 2 grants totaling $17,500. Once all the
+above are completed, we’ll get $82,500 in grants and 2,900 CEC points.
+- On community solar, by 1/22/24 we had 169 enrollments (160 were needed) to
+get the $20K Level 3 grant and another 500 CEC points. On 12/13, the eblast
+at https://www.crotononhudson-ny.gov/sustainability-committee/news/new-community-solarprogram-cut-your-electric-bill-and-win-village-20k plus C100’s promotion at its 12/10 library
+event put us over the top. Paperwork was submitted to NYSERDA on 1/23/24.
+- On the 25 new private HP installations, paperwork for a Level 2 grant for
+$10,000 (and 600 points) was submitted 1/22/24, using info on local GSHP and ASHP
+installations since 6/1/23. For the Level 3 HP grant, we await Regan Development’s
+February opening date for its Maple St. apts. They will contain a total of 66 HPs.
+
+1
+
+- On new private EVs (not used or leased, but including PHEVs) we need 6 more
+purchases to get the $15K Level 3 grant. Ashley noted that DMV hasn’t updated its
+registration web page for over a month. We’re hoping it does so ASAP.
+On 12/8, C100 offered to provide data on purchased EVs and HPs from interviews
+with Croton residents it’s pursuing for its decarbonization quilt. Dandelion was (12/7)
+asked to provide info on Croton installations of its GSHPs since 6/1/23, but declined.
+- Solar Projects/Issues
+Train station canopies: completion is now scheduled for Oct. 2024.
+DPW solar parking canopy option: On 11/30, CEG (which built the DPW solar rooftop)
+provided a ballpark cost for a ~50 kW canopy: $180,000 +/- $15,000 (i.e., ~$3.60/W).
+As discussed below, new funding may now make it possible. We discussed a plan to
+split a ~200 kW canopy so that Ecogy would get ~150 kW to add to its present 301 kW
+rooftop system, and a ~50 kW canopy would be owned by the Village. The latter
+would provide all power (via net metering) used by the DPW building. The concept
+was well received, and will now be discussed with Ecogy and the Village.
+Harmon rooftop option: On 12/15, Leo Wiegman
+of SW provided layouts (see one at right)
+ranging from 47.2 to 51.2 kW with a ballpark
+price of ~$188K based on $3.75/W, excluding
+roof work, railing, or HVAC changes, and before
+incentives (NY-SUN $1/W, 30% ITC). Design
+may change based on planned expansion of the
+building. On 1/22, we learned that the roof and
+A/Cs are all original, i.e., 23+ years old. See
+more below under “heat pumps”.
+- EV/EVSE
+On 1/24, the Police Dept. took possession of a
+new 2023 Ford F-150 EV Lightning pickup truck.
+Our $20K CEC grants helped pay ~1/3 of its
+cost. In late December, the Engineering Dept.
+got a 2023 Nissan Leaf SV. Last March, the
+police got a Mustang Mach-E. Together, the 3
+EVs will help us score another 800 CEC points.
+Re: the 10-month delay in getting our $150K
+train station EV charger grant, DEC stated
+(1/19/24) that “OSC [Office of State Comptroller]
+has approved the corrected procurement record. DEC staff are currently preparing the
+necessary contracts and expects to submit them to OSC for approval in early 2024.” It
+remains unclear how long that will take, and for OSC to then finally approve them.
+2
+
+Len is checking on the 30% ITC rebate for municipal EV chargers. He felt that the
+~$150K to be spent for the train station units should be eligible, but agreed to verify.
+Confusion was created by an online map (from a federal source) that appeared to
+exclude some small areas based on income (the train station is inside one of those
+areas). A 30% ITC rebate would be worth ~$45K. That might cover expected extra
+costs due to inflation, etc. since we developed our charger cost estimate in July 2022.
+- Funding Sources/Issues
+Len and Lindsay attended a 12/6 NYSERDA zoom on how it will handle IRA $ going to
+the State for distribution. It discussed only residential incentives and did not say how it
+will do so for non-residential muni sites. For residentials, it will take until “Q2 to Q4
+2024”, i.e., another 6-12 months, to roll out the federal incentive programs, e.g., the
+(up to) $1,750 for HPWHs.
+On 12/13, NYSERDA announced an expanded CEC program. Some changes will
+greatly increase our grant funding and/or give us more CEC points:
+ new or higher value High Impact Actions (HIA); we’ve already done a few
+ one free ASHRAE Level II or III energy audit (value: ~$10K-$15K+)
+ points for work already done in the CSC program
+ two new grants totaling $425,000 for CEC points we’ve already gathered.
+To get the $425K, we must (within 3 months of NYSERDA formally notifying us of our
+eligibility, probably in late February) identify and start work (e.g., designing) on
+projects to use the money. Near term projects include solar and/or ASHPs at:
+- Washington firehouse garage HPs (Jon said ~$50K + ~$15K for electrical work)*
+- ~50 kW DPW canopy (~$200K) + ~$50K (Village cap. $?) to switch 4 A/Cs to HPs
+- ~50 kW Harmon roof (~$190K + fix roof) & switch 6 A/Cs to HPs (Village cap. $?)
+*maybe also convert oil boiler to gas and get rid of the 45-yr old underground oil tank
+(maybe fund it from the $100K CREST money, which is not tied to NYSERDA rules)
+Some of the new HIAs get us points instead of grants. Some are tasks updating prior
+work, e.g., municipal fleet inventory (200 points). To that end, thank you to Dave for
+his help on that task. We also got 600 points for installing a “renewable generation
+source”, i.e., the 36 kW firehouse array, raising our present CEC total to 9,500.
+Len and Lindsay attended two money zooms: on 1/4, a CEC 3.0 update detailed how
+to get the $425K discussed above; and 1/17, the Treasury Dept. briefing on accessing
+Elective/DirectPay tax rebates. From the latter, we could get ~$21K for the firehouse
+array, ~$40K+ for each of the Harmon and DPW solar installations, and maybe
+~$300K back on the cost of the gasketing and guttering for the station canopies.
+- Heat Pumps
+Jon reviewed the option to install 6 ASHPs in the Washington firehouse garage to
+eliminate fuel oil used to heat the space. He got a ~$50K proposal (not including
+3
+
+electrical work) from a contractor, and is seeking 2 more to meet the Village’s rule for
+3 bids. This project was not previously pursued due solely to a lack of funding.
+To assess replacing the 25-year old A/Cs at DPW with ASHPs, a Village energy audit
+is being done by EMRA/L&S Energy, funded from a $5K CEC grant. Delivery is
+expected by our next meeting.
+For the Harmon firehouse, we reviewed a similar HP option. Its 6 rooftop A/C units
+(each 4 tons) are 23+ years old, i.e., at the end of their useful lives. Replacing them
+with perimeter-mounted ASHPs could free up rooftop space for a ~50 kW solar array
+(discussed above). Together, the two systems could displace much of the gas-fired
+heating, while cutting both GHG and electric bills. To nail down viability, Jon agreed to
+visit the site and report before our February meeting.
+The planned two-story addition at the north end of the firehouse (the shadowed area
+in the pic on page 2) for the Village’s EMS (i.e., ambulance service) would add ~2,500
+SF of space and cost ~$2M. Drawings and specs are in process for delivery in Q3 or
+Q4 2024. Len will help us integrate HPs and solar into them. The added rooftop space
+(~1,000 SF) could allow us to add another ~10 kW of solar panels.
+Jon reviewed the LEED [Leadership in Energy and Environmental Design] standard
+and how it could be applied to the addition. LEED certification (a costly process) would
+not be pursued: the goal would be to apply as much of the standard as affordable.
+- Other Reports
+Len discussed Village electric landscaping equipment. CEC now gives points for
+buying and using it (but not if contractor-owned) after 12/13/23. To get 200 CEC
+points, units would need the ability together to cut 5 tons of CO2e/yr (~500 gal. of
+gasoline), e.g., five 4-cycle leaf blowers, or one riding lawn mower. He said that the
+Village now has one electric leaf blower and one electric leaf trimmer. He will let us
+know what other electric landscaping devices DPW may buy in the near future.
+Keiko Niccolini is being considered for a part-time position to assist Lindsay with our
+Silver CSC re-certification. Doing so will get us another 1,400 CEC points. Completion
+is slated for April 2024.
+The 5-year moratorium on new gas hookups south of Croton ended in mid-November
+after a capacity addition to the Tennessee Gas Pipeline feeding New York City and
+Westchester County. Notifications to contractors and the public started in December.
+The solar canopy at Yorktown’s Granite Knolls park, originally scheduled to start
+construction in 2021, has apparently been permanently blocked by a lawsuit pursued
+by an attorney on Yorktown’s Planning Board who is a past town supervisor.
+Field lights at Firefighters Ballfield on Alexander Lane: they are controlled by a time
+clock (like those used for pool pumps) that turns them on for 3 hours at a time. The
+school notifies DPW of its softball schedule and DPW either sets the clock to run the
+4
+
+lights, or bypasses it as needed. Due to the lights’ very low annual kWh/yr usage,
+switching their metal halide lamps to LED would have >7 years payback. The avoided
+carbon would cost ~$100K/MTCO2e/yr, far too high to be covered by grants.
+- Recruitment/Outreach/Communications/PR
+Dave photographed CAC’s 12/9 “Repair Café” in the
+Community Room. The pics will get us points to
+maintain our Silver status in the CSC program.
+Len spoke at a 12/12 press conference at Ossining’s
+Brookside School in support of a law proposed by
+Assby. Levenberg exempting solar carports over
+parking lots at parks from burdensome State rules.
+Sign a petition supporting her bill (A.7269) at
+https://nyassembly.gov/mem/DanaLevenberg/story/108411 The school has a long span, single-tilt, bi-facial carport array
+(~200-240 kW), with a snow guard, but no drainage (see pic below).
+Our new $425K CEC grants were noted in
+the Village’s Jan. 2024 newsletter.
+C100 is creating a climate action progress
+quilt (reminiscent of the AIDS quilt). See
+the appendix for its flyer and description.
+Committee members are being
+interviewed by Patty Buchanan regarding
+their household actions, e.g., EV, solar.
+A letter-to-the-editor on our recent efforts and grants appeared in the 1/18 issue of
+The Gazette, directing residents to our web pages on EVs, HPs, and community solar.
+On 1/19/24, the Croton Chronicle had an article on our delayed EV charger grant:
+https://thecrotonchronicle.substack.com/p/bureaucratic-squabbles-among-ny-officials
+
+- New Business / Other Issues
+Dave showed us pics of debris forming a small island in the Croton River by the east
+side of the south end of the train station parking lot. Lindsay stated that all debris and
+soil from excavating for the canopies was accounted for by a contractor serving
+SolSystems and the Village, so none seen in the pics could be involved. [Dave
+subsequently learned from Clearwater that the mound is a transient phenomenon when
+the River’s water level is low, and not an indication of dumping].
+Dan had an inquiry from a local student on what kids could do to help the environment.
+[Lindsay gave Dan Keiko’s info; she is working on a school composting program.]
+Date for our next meeting was set for Sunday, Feb. 25 at 10:30 AM via zoom.
+5
+
+Croton100 Climate Action Quilt
+Croton100 is highlighting local climate progress with a Croton100 Climate Action Quilt (“CCAQ”)
+(pronounced “c-sack”). This unique work of art threads together depictions of decarbonizing actions by
+Croton households, businesses and public organizations in zip code 10520.
+The Quilt will translate adoption of climate crisis solutions into a tangible visualization of our communitywide action. It will grow over time and serve as a vivid depiction of momentum in our progress towards
+achieving net zero carbon emissions.
+CCAQ has three patch sizes, corresponding to:
+- Small Hitter actions (edible gardens, composting, electric stoves, raising chickens, building backup
+battery, hot water heaters, pescatarian diet, plug-in hybrid vehicle. Small hitter actions do not include
+building energy efficiency measures like energy efficient windows and insulation, air clothes drying.
+- Big Hitter actions (heat pumps, EVs, clean electricity and significant contributions to the green economy),
+- Impact Multiplier actions like many projects the Village has completed, and public facilities like heat
+pumps and solar panels on Houses of Worship, etc.
+Volunteers are needed for many aspects of this project. For more information and to volunteer, contact:
+Communications@croton100.org.
+
+6
+
+7
+
+

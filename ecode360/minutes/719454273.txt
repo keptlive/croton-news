@@ -1,0 +1,188 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Mar. 26, 2023 – via zoom
+Attending Members (and affiliations):
+Lindsay Audin (CSC Coordinator)
+Ashley Clemente
+Niall Kelleher (Community Gardens)
+Brian Pugh (Mayor of Croton)
+Joel Gingold (CCoHOPE Indivisible)
+Len Simon (Village trustee)
+David Goldman
+
+Absent:
+Jon Katz PE [at engineering expo]
+Bernie Yozwiak (Care for Creation Ministry)
+Dan Columbini PE
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): none
+Announcements: none
+- Earth Day table staffing: April 29 (a Saturday) is Croton’s Earth Day at Senasqua
+Park, running from 10 AM to 4 PM. As last year, CAC will give us the covered picnic
+table just inside the entrance. Members were polled to see which could take 2-hour
+stints. Ashley and Joel agreed to take the 10-noon slot, Len and Lindsay will take
+noon-2, Bernie will take 2-4 with a 2nd person TBD.
+Updates/holdovers/follow-ups/statuses:
+- Food Scrap Recycling Program
+With 11 drop-off days now completed, we’re about halfway through the 6-month pilot
+program (13 drop-off days to go). On average, ~1 ton of scraps is dropped off every 6
+weeks. See Dan’s tracking chart below.
+The Feb. 2023 Village newsletter article on the program may be viewed at
+https://www.crotononhudsonny.gov/sites/g/files/vyhlif441/f/uploads/full_february_2023_newsletter.pdf
+The 3/25 photo op was successful.
+Over 20 people showed up, despite
+intermittent rain. Each got 2 rolls of
+compostable bags as a “thank you”.
+Because bags are being consumed
+faster than expected, DPW secured
+(3/14) 4 more cases (100 rolls, 2000
+bags). We will distribute some to
+needy scrappers on Earth Day.
+
+1
+
+To continue the program after June 24, Lindsay assembled (at Len’s direction) an
+annual budget that came to about $8K. On 3/16, Bryan Healy OKed it for inclusion in
+the Village’s upcoming budget discussions. It would cover up to 100 households, with
+each buying its own bags, scrap caddies, storage bins, etc.
+Niall asked about reviving a past program to encourage backyard composting by
+providing composters. He would seek involvement among the 40 households that did
+not get into our pilot program. Lindsay agreed to give access to the 40 [and
+subsequently drafted for Niall’s review a program doc and process to do so].
+- NYSERDA CEC-sponsored projects
+Washington firehouse solar rooftop: it was featured in the Village’s March newsletter
+https://www.crotononhudson-ny.gov/newsletters/pages/march-2023-newsletter. That
+issue also updated readers on construction of the train station canopies. Due to bad
+weather, the 3/11 ribbon cutting was moved to 10 AM, Saturday, 4/22 (national Earth
+Day). On 2/14, Croton got Con Ed’s Permission-To-Operate (PTO) letter, at which
+time the firehouse electric account began receiving solar kWh credits. On 3/24, all
+invoices and other grant-related paperwork was submitted to NYSERDA. Of the
+$70,000 grant for the work, the project used $65,748, leaving a credit of $4,252.
+Lindsay asked NYSERDA how we may apply it to another project, e.g., a heat pump
+water heater (HPWH) in the Municipal Building.
+Firehouse heat pump work: Staged thermostatic controls will integrate the existing
+heat pumps to cut oil use by the building’s hydronic system. Lindsay summarized
+Jon’s report (appended to these minutes) on an equipment issue and Jon’s workaround to help Carey & Walsh proceed with the installation. Once the controls are
+commissioned, Lindsay will file for another 700 points under NYSERDA’s Clean
+Energy Community (CEC) program, making Croton the leading CEC in the State.
+- Other Solar Projects/Issues
+Train station canopies: Drilling for footings continues at the south end of the parking
+lot. The main issue now is the projected cost (~$2M) of the storm water management
+system (SWMS). DPW is considering handling most of it with its own resources. About
+$887K of that cost is for gaskets and gutters that attach to the solar panels and carport
+structure and would need to be installed by SolSystems. Brian indicated that the
+Village would handle the remaining ~$1.1M upfront cost because that would yield
+greater net leasing revenue than if covered by SolSystems.
+- EV/EVSE
+We continue to wait on our ~$150K DEC grant application (submitted 9/7/22) for train
+station EV chargers, installation, electrical infrastructure, and 2 years of free charging.
+
+2
+
+The NYSERDA firehouse deal was revised to release extra funds (~$20K) to instead
+go toward an F-150 Lightning EV truck. However, Frank Balbi said (3/21): “I can’t get a
+quote for the EV F-150 through our fleet supplier. The ordering window is closed, and
+are not taking additional orders until the new vehicles are available”. NYSERDA was
+asked for an alternative way to provide an acceptable quote, e.g., through an online
+car broker such as TrueCar. If not, another sedan EV may instead be considered.
+- Funding Sources/Issues
+Last week, Len and Lindsay attended webinars on BIL funding of EV chargers and
+their infrastructure. Len summarized its long-awaited Notice Of Funding Opportunity
+(NOFO). He reviewed issues that may impact getting a grant for more chargers at the
+train station. If available, we would seek ~$100K to buy/install another 6 dual-port
+chargers (their infrastructure would be covered by the DEC grant). However, the
+minimum BIL community grant is $500K and is an 80/20 split, meaning Croton would
+have to kick in $100K of Village funds. We discussed ways to increase an app to
+$500K by adding other charger sites (e.g., our parks), but doing so would require timeconsuming design/development work. The deadline for submissions is 5/31. If before
+then DEC denies our grant app, we could expand the present design to include extra
+chargers to reach a ~$250K grant app. Len will chat with his DOT contacts to see if
+such a smaller grant was viable.
+Under the IRA, Investment Tax Credits (ITC) previously available only to profitmaking entities will became available to non-profits (including local governments) for
+investments in renewable energy projects (e.g., solar) brought online after 12/31/22.
+While the firehouse solar project was started before that date, it did not receive its
+PTO until 2/14/23, making it eligible for the ITC. However, IRS has not yet issued the
+necessary how-to guidance to file for it, and may not do so until later this year.
+On 3/5, Lauren Brois of Sust. West. provided links to NYSERDA and Con Ed docs on
+HP incentives that discussed issues on removing existing heating systems. Ashley’s
+review found that only fossil-fueled heating sources (e.g., boilers, furnaces) – not
+distribution systems (e.g., baseboards, ducts) – must be removed or permanently
+disabled to secure the residential $8,000 maximum incentive. But Con Ed’s rules
+involve detailed checklists for each situation, e.g., gas vs. oil, full vs. partial system,
+etc. He agreed to develop an example based on his home to help us determine the
+difficulty and costs posed by those rules. On 3/21, Brois verified that municipalities
+receiving NYPA power could not get Con Ed HP incentives for their facilities.
+Joel pointed out how prior HP promotional programs had flopped, and asked why we
+should be pursuing another one now. We had previously concluded that the best HP
+option to push locally was the swap-out of electric DHW heaters for HPWHs. Lindsay
+responded that we need to assess the Con Ed HP incentive program to provide
+guidance (even if it’s negative) to Croton households that may wish to pursue it.
+- Other Reports
+
+3
+
+Citing the Bike-Pedestrian Committee’s 2021 Master Plan, Dave found ways for
+Croton to claim extra credits in the Climate Smart Community (CSC) program. He
+found information in the Plan that complies with new CSC actions related to biking and
+walking. That could help us retain our Silver CSC status. An extensive discussion
+followed regarding e-bikes and Croton becoming a “satellite” community to Ossining in
+its e-bike sharing program (slated to start 10/23) funded by a $7M NYSERDA grant.
+- Recruitment/Outreach/Communications/PR
+The March issue of the River Journal had an article on solar installations in the County
+that included a paragraph on our train station canopy system. To view it, enter “solar”
+in the Search field at https://riverjournalonline.com/.
+Mark Karell, a Mamaroneck energy consultant, posted a one-page blurb about our
+firehouse project in his monthly ccesworld.com newsletter. Find it at
+https://files.constantcontact.com/ebcbdf4f501/32f549de-df33-4b22-b704fe8cd870e998.pdf.
+- New Business / Other Issues
+No new business or issues were raised.
+Date for our next meeting was set for Sunday, April 23, at 10:30 AM via zoom
+
+Jon’s 3/16/23 report on the firehouse heat pump controls issue
+Providing you an update on Washington Firehouse controls project:
+I called Greg Carey/C&W this morning, to find out what is current hold up on the work starting…
+Apparently, his staffing issue is resolved, supply chain issue with Mitsubishi also resolved, and are now
+ready to start the work - with the exception they were having a problem finding a thermostat that
+would do all the features we specified.
+
+
+
+
+
+The problem reported to me was that there is no off-the-shelf thermostat that has both
+3-heat /3 cool stages – AND gives 3-speed manual control ;
+After a little more research, I determined that Greg Carey seems correct, and the only
+way to get all those features would be to go with a fully customizable thermostat
+device, which is more of digital ‘controller’ and requires special software to program the
+additional output for the manual fan controls - which is way overkill for this project
+and will just make the user interface something no one in the firehouse is likely
+accustomed to using, reducing our chances for successful control outcome.
+I also do not want to recommend a specific product that the contractor is unfamiliar
+with. We want them to use a product they are totally comfortable with and know how
+to setup without many phone calls to tech support, etc. (I’ve seen this go the wrong
+
+4
+
+way). The thermostat selection was left up to the contractor intentionally for this
+reason.
+
+
+Therefore, I told Greg Carey to go ahead submit to us for review a proposed thermostat
+(Honeywell FocusPro series was discussed) -- that has all the required features, except
+for manual 3-fan speed control. The heat pumps fans will still adjust their speed
+automatically (based on their internal temperature sensor), we just won’t have manual
+override of L/M/H speed control. I think this is totally acceptable.
+
+
+
+As a reminder, the feature we absolutely require is the 3-stages of heat
+output. 1st stage - Heat Pump, 2nd stage heat pump, 3rd stage - hydronic heat from the
+boiler zone.
+
+
+
+I left it with Greg Carey to submit the Thermostat for review, I will review and approve
+ASAP – and then he will order them hopefully have them by next week , and then C&W
+to coordinate with the Village on a start and finish date.
+
+5
+
+

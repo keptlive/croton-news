@@ -1,0 +1,63 @@
+Croton-on-Hudson
+Bicycle and Pedestrian Committee
+Meeting Minutes
+January 18, 2023
+Members and Guests Present: Matthew Arnold (Chair), Riley Mohler, Matthew Schuerman,
+Dan Villa, Amos Bloomberg, Erik Ferguson, Robert Olsen, Steven Krisky,
+Ex officio: Mayor Brian Pugh, Len Simon
+1. Approved Minutes from November meeting
+2. DPW Updates
+a. Gotwald Circle - Crosswalk placement/layout and parking changes under review
+by DPW (w/ Traffic Engineer); expect to have plans for review by next meeting,
+with aim implement changes/paint crosswalks in the Spring
+b. Upper Village intersection at dummy light - new planters installed
+c. Crosswalk, bike lane/sharrows repainting/refresh will occur in early Spring
+d. S. Riverside Sidewalk - to be on Straddles side of SRA to CPA intersection.
+Some committee members raised concerns about the sidewalk requiring people
+to cross S Riverside in the middle of the block when parking on West side.
+
+3. NYS Complete Streets legislation
+a. Len and Mayor slated to meet with Dana Levenberg, our new state rep. In the
+coming weeks to discuss. Proposed plan is for State to cover 87.5% of
+improvement costs.
+
+4. Discussion on priority areas
+a. Issue raised (by RO) re: two parking spaces in front of former Maracas
+restaurant, blocking corner visibility at Oneida and S. Riverside. Rob to issue
+letter to board (Len and Mayor Pugh) to consider removing parking.
+b. Sidewalk on S. Riverside: ~$30K in escrow for sidewalk extension adjacent to
+Mobil station to entrance of Croton Commons. Project is pending State DOT
+engineering inputs. Mayor to follow-up w/ Bryan Healy on status and next steps.
+i.
+Additionally raised concerns/ideas for extending sidewalks in area of
+Municipal place and adding bike lane
+c. Katz Property: Development plan does not include installation of new sidewalk
+along Municipal Plan. Plan does include new sidewalk on Maple to Wells Ave.
+i.
+Mayor has shared plan/schematics for the new sidewalk/extension
+
+d. Village has been able to secure $1.5M in funding for Half Moon Bay bridge (over
+train tracks) – thanks to the help of Mondaire Jones.
+e. Missing sidewalks:
+i.
+Sidewalk from Maple to grand just ends
+ii.
+Missing sidewalk on Cleveland near Gerstein
+f. Look into updating the GitHub database of issues/problem areas with
+designation/tagging for missing sidewalks
+g. 25MPH change – Village has hired traffic engineer/consultant for traffic study.
+Results to be shared with DOT to determine approval for speed limit change.
+h. Police collecting data on speeds - Len to share data link. May not be useful if
+same systems Amos analyzed previously
+i. e-Bike Ride Share – Ossining received $7M grant for the program; Croton to be a
+satellite.
+j. Safe Bike Routes: discussion on developing a guide for cyclists on preferred
+routes to common destinations. Subset of members to develop maps using
+generic map technology like GPSX or geojson, whichever is easiest to import into
+riding apps like strava
+i.
+QR codes (and corresponding signage) can be created
+k. July 4th Bike Parade – Len and Steve are in the process of planning. Len asks
+whether BPC can provide letter of support (yes).
+
+

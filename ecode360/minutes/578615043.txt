@@ -1,0 +1,336 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Dec. 6, 2020 – via Zoom.us
+Members Attending:
+Lindsay Audin
+Len Simon
+Brian Pugh
+Jon Katz
+
+Joel Gingold
+Niall Kelleher
+Bernie Yozwiak (new member)
+
+Absent:
+Dan Columbini (new member)
+John Habib
+
+[Bracketed] text indicates actions subsequent to this meeting. Underlining indicates a commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements:
+On Dec. 7, Mayor Pugh will announce the addition of two new members to our committee.
+- Dan Columbini, PE, is also a member of the school’s Environmental Sustainability Committee
+(ESC). Dan is a mechanical engineer at Goldman Copeland Associates, a New York City
+engineering consulting firm. He heads its department on plumbing and fire safety. He is building a
+passive solar house for his family in Teatown, to be equipped with air source heat pumps, solar
+panels, and a HPWH, to be completed in 2022.
+- Bernie Yozwiak is known to many of us for his work with the Care for Creation (C4C) Ministry at
+Croton’s Holy Name Church. He is a senior electrical engineer with WSP, a general engineering
+services firm. He was previously a VP with Cosentini Associates, an engineering firm based in New
+York City. Via the C4C, Bernie and his associates have provided educational events related to
+climate change, heat pumps, EVs, and other issues relevant to our work.
+We welcome both to our committee, and look forward to their contributions.
+Quick updates/holdovers/follow-ups/status:
+- Solar projects:
+- DPW rooftop: the system is now outputting power. Rent to the Village should start next month.
+- Croton Landing canopy: In November’s election, State Senator Peter Harckham was re-elected.
+Harckham originated a bill which, if passed, would help overcome the Croton Landing siting issue.
+Senators May, Gaughran, and Metzger are co-sponsors, all of whom were re-elected. To move that
+bill forward (it already passed the State Senate), we are seeking a companion bill and sponsors in
+the Assembly, via Sandy Galef. Brian indicated he would follow up to urge her participation.
+[Lindsay asked Sustainable Westchester how it could help.]
+- Train station parking lot canopy: On Nov. 11, all 7 bidders provided revised proposals that
+complied with our requested changes, e.g., all now use 22% for their Investment Tax Credit (ITC).
+Doing so reduced their lease payment offerings, providing more realistic numbers for our review.
+Janine is reviewing SolSystems draft lease as the front runner. [As of 12/11, that effort has been
+expedited with a zoom scheduled for 12/15 to work out lease agreement issues.]
+1
+
+Two financial issues may impact the value of the train station project and possibly other smaller
+efforts. Next month, ITC drops from 26% to 22%, reducing annual lease rent by $50K-$100K,
+depending on installed kW. We look forward to the Biden administration extending the ITC for five
+years, as proposed by renewables advocates. On Nov. 24, Con Ed announced that it had reached
+its required MW level for community solar (CS) in Westchester County. No more CS projects will
+get the CS $.10/kWh VDER community credit unless PSC expands the program. Ecogy has
+stopped pitching CS here.
+Brian suggested that Houses of Worship (HoW) be convened to discuss how their properties (esp.
+parking areas) could be considered for solar installations (e.g., canopies). Bernie has a contact list
+for 7 of them that we may use, previously developed through a Croton100 effort to promote heat
+pumps to HoWs. The Interfaith Council that previously acted as a clearinghouse for such activities
+is dormant, so the Village could instead host the meeting, preferably when face-to-face events are
+again available in the late spring or early summer of 2021.
+- A non-municipal 226-kW CS project opened Nov. 13 atop a self-storage facility in Tarrytown,
+installed by Sunrise Solar Solutions. Ecogy’s Arcadia Farm CS system in Yorktown is nearing
+completion, with power to start flowing in the next month or two.
+- EV/EVSE:
+- The newly formed school bus electrification task force (BETF) zoomed on Nov. 19. It laid out the
+decision process and created subgroups to focus on aspects of the issue. Based on 2018 energy
+data, the bus fleet accounts for 17.4% (372 tons/yr) of the school district’s GHG emissions (almost
+as much as one of the school buildings). Many thoughts and ideas were offered. Rochelle O’Mara
+announced that the district bought its first plug-in hybrid (a Prius Prime) for internal mail delivery
+after a tree fell on the previously used vehicle. BETF next meets on Dec. 21, during which Lindsay
+will offer a proposal that involves a solar canopy project at the bus depot. It could help bankroll both
+the necessary EV infrastructure and electric buses.
+- At a Nov. 19 Con Ed zoom on its Make Ready EV power infrastructure program, it discussed the
+Make Ready program as it would cover non-public EV sites serving light-duty vehicles. During a
+private zoom on Dec. 3, Con Ed rep Alison Kling reviewed a parallel tariff-based incentive for
+heavy-duty vehicles that could offer more $ toward interconnection and distribution costs. [She later
+emailed that the program could cover 87.5% of those costs at the bus depot.]
+- Frank Balbi agreed to provide data that will help us determine at what truck voucher funding level
+(and in what year) it may be feasible to replace a diesel garbage truck with a fully electric unit. The
+increased level of truck (but not school bus) vouchers will help clarify that option. We discussed the
+possibility of replacing an existing Village pickup truck with an electric Ford F150s when they
+appear in 2021/2022. However, Croton has only F250 to F550 pickup trucks. Ford has not
+announced any plans to produce electric versions of those heftier trucks. Lindsay will ask Frank if a
+F150 could do the job of one of them. Brian pointed out, however, that the Village’s financial
+condition presently bars such an expenditure, even if a F150 could do so.
+- Food scrap recycling: We may have a project coordinator. Croton resident Rob Abbot (retired
+management consultant recently moved to Croton) is interested in helping. After a Nov. 30 chat
+with Lindsay, Rob will get back to us regarding what tasks he may be willing to handle. Joel and
+Lindsay continue working with Donna O’Malley on the survey, flyer, and web posting. On Nov. 23,
+2
+
+we confirmed that the County’s food scrap pickup program would be much cheaper than using our
+own carter. As part of our program’s re-design, Brian suggested siting the scrap drop-off site at the
+train station, instead of Municipal Place. Lindsay will follow up with Janine King on that option. The
+program will be adjusted to take advantage of those opportunities.
+- HPWH project:
+- We await details on NYSERDA’s new CEC grant program (called its “Leadership Round”) and
+SW’s program development work, both of which could help support that project. [Bernie expressed
+interest in being our “guinea pig” and meter reader for a HPWH in his home.]
+- Jon Katz volunteered his son (Steven) to do a web search for others’ HPWH flyers and web
+postings that we could borrow for our own use. His activity would be part of his high school
+community service requirement. Lindsay will follow up with Jon/Steven to do so.
+- Jon Katz analyzed potential savings for homes having gas-fired DHW heaters, both with and
+without solar panels. He concluded that there would be no $ savings for such homes lacking PV.
+But those having PV panels (there are 180+ in Croton) could save if their systems outputted at
+least 1,500 excess kWh/yr to run the HPWH. Bernie made a similar point regarding homes with
+solar that have oil-fired systems (such as his). We will address both in our HPWH promotions.
+Reports:
+- Len followed up on seeking grants for us from private sources. Based on his research, he focused
+on two recipients of funding from the Bezos Fund: Rocky Mountain Institute (RMI) and the World
+Resources Institute (WRI). His report is appended to these minutes. Each group has supported
+very similar to our own (i.e., HPWH and EV school buses). Len agreed to follow-up with those
+groups and report back.
+While not discussed at the meeting, John Habib had emailed to the committee his findings on the
+differences between Sustainable Westchester and CURE 100 (formerly Croton 100). His report is
+appended. He noted that CURE 100 is presently focused on developing and distributing its Carbon
+Tracker app rather than pursuing projects that actually reduce GHG emissions.
+Communications:
+- NYPA’s renewable power offer: Despite a zoom and follow-up emails, NYPA’s rep says it needs
+more time to provide the numbers needed to determine the differential cost for power that would be
+bundled with hydro RECs. That package could enable the Village and/or school district to state that
+their electricity was considered renewable.
+- After much research, we learned that the power use at the Croton-Harmon train maintenance yard
+(Croton’s largest carbon emitter) is not metered. Instead, it is mixed with the traction power for the
+Hudson Line trains, making it impossible to fully analyze the buildings’ usage. The impacts of that
+deficiency were briefly discussed, with an eye to pressing MTA/State energy officials to add a
+traction sub-meter to correct it.
+Recruitment/Outreach:
+3
+
+- Issues with the school district’s initial energy audits were discussed. Lindsay asked school Supt.
+O’Connell for an opportunity to air them with its EPC contractor (Honeywell) but has not yet
+received a response. Those issues include a caution on the type of LED retrofit suggested in the
+district’s preliminary audit, and ways to expand its proposed rooftop solar capacity.
+New business / other events:
+- Joel gave us a quick overview of a planned installation of a 5 MW battery by Borrego Solar
+Systems just across the Croton River in Ossining, on the property of St. Augustine Church and
+School (381 N. Highland Ave). A zoom hearing on the matter will occur Dec. 16 at 7:30 PM. We
+were informed by Ecogy that a battery of that size could compete for feeder capacity with our
+planned train station solar canopy project. [Brian then asked Janine King to expedite review of the
+proposed lease agreement with Sol Systems, which is the front runner on that project.]
+Date for our next Zoom meeting: Jan. 24, 2021, Sunday, 10:30 AM
+_____________________________________________________________________________
+Len’s report:
+
+Len Simon
+150 B Old Post Road North
+Croton-on-Hudson, NY 10520
+202-607-9234  lensimon.ny@gmail.com
+
+TO:
+
+Lindsay Audin
+
+FROM:
+
+Len Simon
+
+SUBJECT:
+
+Rocky Mountain Institute, World Resources Institute and
+The Regional Greenhouse Gas Initiative
+
+DATE:
+December 5, 2020
+____________________________________________________________________________________
+I looked at the Rocky Mountain Institute and the World Resources Institute for programs potentially useful to
+the Sustainability Committee and found interesting results. I also clarified how Regional Greenhouse Gas
+Initiative funds are used. Here's a quick summary for your review.
+The Rocky Mountain Institute (RMI). RMI notes that, "In the US, cities and states are at the forefront of
+climate change risk and opportunity. And while many are making climate commitments, they need strategic,
+cost-effective solutions and the technical assistance to bring those intentions to reality". Of particular interest
+to the Committee could be the RMI Carbon Free Cities and States program which includes four main initiatives:
+(1) America's Pledge; (2) Urban Mobility Lab; (3) Residential Energy+; and City Renewables Accelerator.
+RMI says, "... we can deliver a holistic suite of services to cities, including cross-cutting research and analysis,
+facilitation of diverse stakeholders, and access to industry experts throughout our vast network. Our strategy
+is to work with cohorts of cities and focus on a limited number of near-term, high impact activities that can be
+4
+
+launched quickly with concrete results". I have written to RMI staff with background on the Committee and
+asked how we could work with them.
+World Resources Institute (WRI). The Ross Center for Sustainable Cities is the WRI program "dedicated
+to shaping a future where cities work better for everyone". Relevant programs include Buildings, Sustainable
+Urban Mobility, Urban Climate Resilience, Water, Energy and Climate, and Urban Development.
+Much of their focus is international, but I wrote to their Director with background on the Committee and asked
+how we could work with them. I received a positive response, which I'll review tomorrow.
+The NY Regional Greenhouse Gas Initiative (RGGI). Following up on your RGGI questions, I reviewed
+the material you sent, the RGGI website and operating plan. It appears that RGGI auction proceeds flow into
+NYSERDA, which then uses those resources for numerous CO2 emission reduction programs. NYSERDA
+notes it "designed and implemented a process to develop and annually update an Operating Plan which
+summarizes and describes the initiatives to be supported by RGGI auction proceeds. The RGGI Operating
+Plan is designed to strategically invest across disciplines, economy wide, in a way that supports comprehensive
+strategies that best advance the [goals] of the State".
+I hope the above is all helpful and look forward to our meeting tomorrow morning._______________________________________________________________________________________
+John Habib’s memo on Sustainable Westchester and CURE 100:
+John Habib’s report comparing Sustainable Westchester (SW) with CURE 100 - 12/6/20
+[The goal (and task request) was to show what CURE 100 could do that SW cannot do (e.g., possibly lobbying)
+While SW has many programs focused on actual carbon reductions, John’s research indicates that CURE 100
+is instead focused on developing and promoting its Carbon Tracker. It has no plans in the near or foreseeable
+future to pursue programs to actually reduce carbon emissions, either in Croton or elsewhere.]
+Hello Lindsay, Mayor Brian and everyone As we approach the last meeting of the year, I wanted to thank all members for supporting this Committee - but
+especially you Lindsay for your leadership of this important, accomplished Committee.
+I want to also apologize for being so badly delayed in sharing my quick research on the core differences at this
+stage between Sustainable Westchester and "CURE 100" (which used to be "Croton 100").
+The content in the Box below describing SW were largely taken from its website. For the Cure 100 column, I
+cut and pasted from their website, but also connected directly with its lead Officer, Leo Wiegman.
+(Additional apology - I will be forced to miss the meeting on Sunday morning to due family health care
+commitments in Brooklyn.)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sustainable Westchester Inc. (“SW”) and Croton 100 Inc. (which has changed its name to CURE100 –
+“Communities United to Reduce Emissions” 100%) are entirely separate non-profit corporations operating in
+Westchester County.
+
+5
+
+The 2 entities have adopted significantly different tactics to achieve their shared Mission of advocating for the adoption of
+impactful sustainability policies and practices.
+Despite the different strategy, they maintain very close and cooperative relations. SW and Cure 100 are jointly submitting
+a Grant Proposal to NYSERDA at the invitation of its program managers
+Below is a very brief summary of how each organization addresses key issues:
+ISSUE
+Mission
+
+SUSTAINABLE WESTCHESTER
+“[SW] is a nonprofit, consortium of Westchester
+County local governments that facilitates effective
+collaboration on sustainability initiatives. Our goal
+is to bring socially responsible, environmentally
+sound, and economically viable solutions that create
+healthy, resilient, sustainable communities.”
+
+CURE 100
+“[Cure 100] is an all-volunteer communitybased organization that seeks to reduce
+Greenhouse Gas (GHG) emissions in
+Croton-on-Hudson, NY (zip code 10520) to
+net zero by 2040, or 5% reduction per
+year, through a combination of advocacy,
+education and campaigns.”
+
+Legal
+Structure
+
+Licensed as a NY State non-profit corporation, also
+approved as a tax-exempt entity under IRS Code
+Sec. 501(c)(3).
+
+Licensed as a NY State non-profit
+corporation, also approved as a tax-exempt
+entity under IRS Code Sec. 501(c)(3).
+
+SW is membership-based organization. Its members
+are cities, towns and villages in Westchester
+County. It is not a grass roots membershipbased organization that admits individuals to its
+membership.
+
+Cure 100 is not a grass roots membershipbased organization. Its chapters and
+licensees may be located anywhere.
+
+SW focuses broadly on education, outreach,
+technology adoption and behavior modification
+programs targeting virtually any entity or individual
+interested in sustainability practices:
+government agencies/employees/elected
+officials; for-profit and non-profit entities; and
+residents of Westchester County
+
+Cure 100 is (almost) entirely focused on the
+proper development, properly publicized
+launch and broadest possible adoption of its
+“Carbon Tracker” software application.
+
+Digital
+Tactics/
+Overall
+Strategy
+
+SW has a well-developed website that effectively
+serves as an information portal and an enrollment
+platform for diverse sustainability programs
+targeting the broadest scope of Westchester County
+stakeholders.
+
+Cure 100 will be publicizing the completed
+App with direct outreach efforts targeting
+the diverse stakeholder groups SW interacts
+with on a routine basis. Cure 100 does not
+plan to sponsor programs like those offered
+by SW.
+Instead, Cure 100 intensively focuses on
+individuals, to persuade them to
+reduce/eliminate carbon-emitting activities
+by the individuals tracking their carbon
+footprint through the use of Cure 100’s App.
+
+Programs
+
+SW lists 6 different “Programs” on its website as
+focus areas:
+
+6
+
+Cure 100 is presently focused entirely upon
+completing the development phase of the
+Carbon Tracking App, and signing up
+
+community-based organizations that will
+publicize it and promote its adoption once
+the App is completed. The group has
+adopted a CURE100 Master Plan, as an
+open invitation to communities throughout
+the United States to become a “chapter” of
+CURE100.
+
+1) “Westchester Power”;
+2) “Community Solar”;
+3) “Energy Smart” Homes;
+4) Commercial Clean Heating and Cooling;
+5) Clean Transportation Project; and
+6) “Zero Waste”.
+SW is not focused on the "personalization" of
+carbon reduction action with a software application.
+SW has no publicized plans to expand nationally.
+
+7
+
+Under the Plan, CURE100 is disseminating
+the Carbon Tracker app under a Software as
+a Service license with incorporated groups
+in the .org and .gov space for the purpose of
+publicizing the App and maximizing its
+adoption by individuals for their
+daily/weekly use.
+
+Cure 100 seeks to expand the adoption of its
+App across the US.
+
+

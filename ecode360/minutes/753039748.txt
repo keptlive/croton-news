@@ -1,0 +1,161 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Mar. 24, 2024 – via zoom
+Members Attending:
+Lindsay Audin (chair, CSC Coordinator)
+Ashley Clemente
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (gardens)
+Brian Pugh (Croton Mayor)
+Len Simon (Village trustee)
+
+Absent:
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): none
+Announcements: Starting Saturday, March 30, the food scrap drop-off site will be open
+all day Saturday, Sunday, and Monday, with scrap pickups at 6 AM Tuesdays,
+starting April 2.
+- Earth Day tabling
+Croton’s Earth Day this year is Saturday, April 27 from 10 AM to 4 PM at Senasqua
+Park (rain date: May 4). As usual, we will have the covered picnic table at the
+entrance. Staffing the table will be:
+10 AM to noon: Dan, Jon (please arrive ~9:30 to help Lindsay set up)
+Noon to 2 PM: Dave, Ashley
+2 PM to 4 PM: Keiko, Lindsay, Niall available
+Len floating on as-needed basis.
+- Solar Projects/Issues
+Train station canopies: A sub-contractor (Apache Cons.) to Core Development
+(Sol’s contractor) quit the project. On 3/14, Core signed a replacement and claims this
+issue will not delay completion. On 3/13, Core also said:
+“We are beginning to get 3 carports ready to erect steel [i.e,
+vertical pedestals that support arrays], we will be mobilizing
+and receiving equipment the week of March 25th for the steel
+team. We will be starting to erect steel and modules at carport
+12 and 11 [i.e., the far south end] the week of April 1st, carport
+1 steel erection [near the batteries] will begin the week of
+April 8th…”
+
+Some of the large square pits have been filled in with concrete and sealed with
+blacktop (see Dave’s pic at right). That’s the last step before installing the pedestals
+that will support the racks to hold the solar panels.
+
+1
+
+Regarding questions on DirectPay for the gasketing and guttering of the train station
+canopies, Sol (on 2/29) was open to discussing how to manage receiving the refund
+and passing on an appropriate amount to Croton, based on our payment to Sol for that
+work. Since construction on the system started before 1/20/23, there is no requirement
+for apprenticeships or prevailing wage so a 30% DirectPay refund (~$300K) is likely.
+Harmon firehouse rooftops: At a 3/13 meeting,
+Village staff discussed how to integrate our
+sustainability desires with the planned 3,000 SF
+addition (see red outline in pic at right to the Harmon
+firehouse. Work on it is rapidly moving ahead. Staff
+expects it to be finished by late summer. Our part of that
+work would include a ~10 kW solar array on its rooftop
+costing ~$30,000, fully covered by our grants. Under
+DirectPay, Croton would get back ~$9,000.
+Atop the main building, we would (in 2025) install a ~34 kWp array (see blue strips
+in rendering above) around new heat pumps (discussed below) where A/C units (the
+orange rectangles) are now located. Rough cost would be ~$100,000 all of which
+would come from our grants. DirectPay would refund ~$30,000.
+As a pre-requisite, that work would require re-roofing the ~6,500 SF rooftop with a
+new membrane layer. At ~$10/SF that $65,000 cost would come from Village capital
+(existing roof is 24 years old). Neither our grants nor DirectPay will pay for roofing.
+DPW solar parking canopy: Since we now know the site is too small for community
+solar developers (who want ~400+ kW projects), we would need to bankroll this
+project from grants. Croton Energy Group (CEG) has said that a ~50 kW canopy is
+feasible. At $4.50/W, it would cost ~$225,000. DirectPay would reimburse ~$67,500.
+Gouveia Park House rooftop: Brian and Len said the Village plans to move the
+Recreation Dept. into it in 2025. Its ~2,000 SF flat could hold a ~20 kW array (enough
+to run much of the building). Doing so would require removing a few trees shading the
+roof. It would require re-roofing (a ~$20,000 Village capital cost). Our grants would
+cover the ~$60,000 solar array, for which DirectPay would refund ~$6,000. A ~72 kW
+ground-mounted array (enough to power electric usage at all of Croton’s parks) was
+discussed but would require removing ~24 trees (unacceptable) and securing an
+exemption from the park land alienation law.
+- Heat Pumps
+At the Harmon addition, we proposed a ~7-ton rooftop hybrid (electric/gas) ASHP
+instead of the 82,000 Btuh gas-fired HVAC RTU in the present design. Assuming a
+rough cost (equipment and labor) of ~$10,000/ ton and a capacity of 7 tons (i.e.,
+84,000 Btuh), the ASHP would cost ~$70,000.
+Grant funding of ~$14,000 would cover a 20% differential over what the Village would
+have paid for a gas-only A/C (about $56,000). There should be no extra cost for the
+electric or gas service (already in the base design). DirectPay doesn’t pay for ASHPs.
+2
+
+At Harmon’s main building, HPs in fiscal 2025 (6/25-5/26) would involve replacing six
+4-ton 25-year old rooftop A/C units with hybrid electric/gas HPs in the same positions
+(see orange rectangles in pic above). (An earlier design for locating HP condensers
+around the perimeter were found to be too expensive and complex.) At ~$10,000/ton,
+total cost would round out to ~$250,000. Since the units are already beyond their
+useful life, Village capital would cover the base cost (~$200,000) if new A/C units were
+instead installed, with our grants covering the 20% (i.e., $50,000) differential for HPs.
+DirectPay doesn’t pay for ASHPs.
+Washington firehouse garage HPs: Jon secured two proposals and felt confident
+his design (using six 9,000 Btuh HPs) could be done for ~$50,000. As part of that
+installation, to fully eliminate use of fuel oil at the site, we discussed replacing the
+existing oil-fired boiler with a small (~12 kW) electric boiler to run only when the heat
+pumps (existing and new) are unable to sufficiently heat on the coldest days of the
+year. [Mayor Pugh subsequently OKed using CREST funding since the end result
+would make the building all-electric while allowing decommissioning of its 45-year old
+underground oil tank. Doing so will avoid issues with CEC grant funding.]
+DPW HPs: To assess replacing the 25-year old A/Cs at DPW with ASHPs, a Village
+Level II ASHRAE energy audit was done on 3/14. A variety of other energy/carbon
+options will also be evaluated. Once we have the audit’s results, we can determine if
+covering 20% of the extra cost of HPs could be justified and covered by future grants.
+We should get results by our next meeting.
+Regarding limitations on DirectPay tax credits, we verified that they are available for
+commercial/institutional GSHPs (but not for ASHPs). For residential ASHPs under the
+“Energy Efficient Home Improvement Credit” program, up to $2,000 per year per home
+is available, regardless of income. More may be available under other IRA-related
+programs based on income, but their rules have yet to be finalized.
+- Financial and Budgeting Issues
+Budgeting grants: Our $507,500 of recently accrued CEC grants consist of $82,500
+(from Community Campaigns), $175,000, and $250,000 (both from gathering CEC
+points). To ensure we get all of it, NYSERDA (by 5/22) requires a basic budget for
+how we would spend it. We then have 3 years to spend the money or else lose it.
+Summing the above proposed projects (excluding any covered by CREST and net of
+DirectPay), we will have a ~30% “cushion” to cover unexpected costs. The above
+excludes the NY-SUN solar incentive (presently $1/W for rooftops and $1.20 for
+canopies). That funding may no longer be available by the time we start the projects.
+CEC may be cut back: Unrelated to the above, Len described a 3/22/24 proposed
+NYSERDA plan to greatly scale back CEC in 2026. What’s left would involve only the
+~50 munis now most active (~6% of the 850 participants). They would be moved into
+DEC’s Climate Smart Community (CSC) program. NYSERDA appears to expect the
+most active muni people) to help paid contractors support other munis without also
+getting paid. Many munis (and Lindsay) submitted comments on the planned changes.
+[HVRC subsequently said Croton’s leading CEC position should immunize us against
+the proposed change.]
+3
+
+First DirectPay refund sought: Dan Tucker (Village Treasurer) has pre-registered
+the Washington firehouse solar array for a DirectPay tax refund of ~$20,000.
+- EV/EVSE
+Our $150K DEC grant for EV chargers remains stalled while we await notification of
+when the State’s new grant management software (SFS GM) is ready-for-prime-time.
+On 3/13, we learned that the EMS will not be getting a new car, and the Harmon
+addition will eliminate the present parking area. Installing an EV charger as part of the
+addition was thus no longer appropriate or feasible.
+- Other Reports
+Dave had previously described issues with community solar credits on his Con Ed bill.
+Lindsay reviewed them and showed the CDG credit mess on his own bill. Committee
+members on community solar were asked to review their recent Con Ed electric bills
+and report at our next meeting regarding them.
+- Recruitment/Outreach/Communications/PR
+A photo and paragraph on our HVRC Impact Award appeared in the Village’s March
+newsletter.
+- New Business / Other Issues
+An article in the 3/17/24 Journal News about Dan Colombini’s Passive LEED House
+described its unique characteristics and the work it took to make it happen. It is
+appended to these minutes.
+Date for our next meeting was set for Sunday, Apr. 21 at 10:30 AM via zoom.
+
+4
+
+5
+
+6
+
+

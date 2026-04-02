@@ -1,0 +1,164 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:00 AM Sunday, April 27, 2025 – via zoom
+Members Attending:
+Absent:
+Lindsay Audin (chair, CSC Coordinator)
+Ashley Clemente
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (community gardens)
+Brian Pugh (Croton Mayor)
+Carly Shanks
+Len Simon (Village trustee)
+Cheryl Wong (reported prior to meeting start)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Attending guest(s): none
+Announcements: Earth Day tabling: The May 3 event at Senasqua Park runs from 11
+AM to 4 PM (the first shift starts at 10 AM to provide setup time). Below is the staffing
+schedule. Please be on time for your shift. Our banner and exhibit will be at the
+covered picnic table at the park entrance. These committee members agreed to the
+following shifts:
+- 10 AM to noon: Lindsay and Dan
+- noon to 2 PM: Ashley + son, early arrival by Carly, Jon until 12:45 PM
+- 2 to 4 PM: Carly and Dave
+Table staffers are advised to dress warmly due to gusty winds from the river side.
+- EV/EVSE/RD
+Len updated us on the Croton e-bike project. A master agreement between the Village
+and Project Mover (holder of the grant for the project) is almost done. There will be 6
+e-bike sites in the Village, 5 of which will be on municipal property, with the other
+being the Library. The bikes were purchased before the Trump tariffs went into effect.
+Len is working on the project’s rollout, which is expected in June or July.
+DEC approved the RFP for the train station EV charger project. The RFP is scheduled
+for release 5/1/25 with bids due 6/6/25. A mandatory site meeting is set for Thursday,
+May 9. Work would run through the summer with completion by Labor Day.
+On 4/9/25, Lindsay asked Bryan Healy and Frank Balbi what technical information or
+references they would need (other than was sent to them on 3/21/25) to consider
+renewable diesel (RD) as an alternative to standard diesel for the Village’s diesel
+trucks. Bryan indicated that staff are still reviewing the data.
+- Earth Day textile recycling event
+1
+
+Cheryl reviewed her plans for her Earth Day textile recycling booth. She has produced
+and is distributing a flyer. She secured a banner and canopy, has bins for the clothing,
+and a commitment from CAC for both a table and chairs. She has volunteers for table
+staffing. She will request a Village eblast announcement to go out this week. Members
+are reminded to bag and bring used clothing and fabrics to her booth.
+- Solar Projects/Issues
+Train station canopies: As of late March, all underside canopy lights are now on.
+Latest projection for full startup is early June, pending finalization of Madison Energy
+purchasing the project and inverter commissioning. Cleanup of the site is proceeding.
+Len noted that the Village has finally begun receiving the $485,000/yr
+(~$40.4K/month) rent from the project.
+DPW solar parking canopy: Village staff are reviewing the draft RFP. On 3/11/25,
+NYSERDA OKed using grant funding for SW’s “Municipal Solar” project mgt. (PM)
+program to facilitate the installation. A draft agreement was sent to Bryan Healy for his
+review 4/21/25. If accepted, Leo Wiegman of SW would provide the PM services, the
+cost of which would be capped at $4,000. Design changes to another project covered
+by the same grant will save more than that amount.
+SW new residential Solarize program: Carly reviewed SW’s new web page for the
+program at https://sustainablewestchester.org/residential-solarize/. On 4/14/25, she
+saw it as generally acceptable, but lacking in information on financing and contractor
+vetting issues. She expressed concerns about cost uncertainties due to tariffs.
+On 4/15/25, SW’s Leo Wiegman provided an advance copy of a program document
+that “invite[s] your municipality to participate in the Residential Solarize 2025
+campaign... Municipalities that have responded to us by noon, Friday, April 25,
+2025, may, at their option, be incorporated into our Press Release detailing the launch
+of Residential Solarize 2025... The campaign will be announced via press release on
+Monday, April 28, 2025, and continue for the rest of 2025.” It included an extensive
+memo addressing many issues that also raised two that need attention before getting
+on board with the program.
+Lindsay reviewed those issues, and concluded that we should instead hold off joining
+or promoting the program until we saw it in action. Carly would be the “guinea pig”
+since she is already planning on pursuing solar at her home. As she experiences its
+rollout, she will advise on how various issues were resolved. We could then become
+comfortable with suggesting that other Croton residents get involved.
+- Heat Pumps
+Washington firehouse garage HPs: To verify that the building has sufficient
+electrical service capacity to accommodate the proposed equipment, Jon is reviewing
+pics and data provided by Lindsay. Jon will also adjust the refrigerant spec language
+in the draft RFP to ensure an up-to-date choice is made. Dan agreed to review photos
+of power panels to assess the capacity issue. [Lindsay sent him the pics 4/27/25.]
+2
+
+Harmon firehouse rooftop HPs: The project has two parts. First, a single unit was
+be installed as part of the construction of the EMS addition. Second, six HPs would
+replace the six 25-year old RTUs atop the main building. NYSERDA funding is in hand
+for both parts but, due to issues with timely completion, a VRF heat recovery RTU will
+instead be installed atop the addition. After dialogue with Village staff, Lindsay was
+assured that - once we get to the main part of the project - only HPs will be installed.
+Design development for solar panels atop the addition found that, once the HVAC unit
+is installed, there will be insufficient room for solar panels due to a code requirement
+for a 10-foot buffer space inside the site’s perimeter. Otherwise, a railing would be
+needed that would balloon the cost without adding much PV capacity. But on the main
+roof, that will not be a problem building due to its size and shape.
+- Funding and Budgeting Issues
+Len asked Bedford regarding its proposed (in February) effort to lobby Mike Lawler
+(our House Rep.) to ensure DirectPay credits remain available to help municipalities
+fund their energy projects. However, no action was ever taken by Bedford. Len agreed
+to query the Westchester Municipal Officials Association (WMOA) regarding which (if
+any) munis in the County have already received a DirectPay reimbursement. If an
+example exists for a successful payment, we could use it as a template for our own
+later DirectPay submissions.
+At issue for us is ~$100K in DirectPay credits we will seek for the solar projects at
+DPW and the Harmon firehouse. Len asked Croton’s new Village Treasurer (Genette
+Toone) to update us on what efforts were in process regarding the IRS denial (in
+January) of our request for a ~$20K DirectPay reimbursement for the Washington
+firehouse solar rooftop. IRS had stated that the filing was “submitted too late”. Toone’s
+predecessor had replied with IRS paperwork showing it should have been allowed, but
+the Village has yet to receive a response. To avoid a repeat of the problem, this issue
+needs to be nailed down. We await Toone’s report.
+Len pointed out how 21 Republican congressmen (including Mike Lawler, our House
+Rep.) had in a March letter promoted maintaining the IRA tax credits. He mentioned
+that we won’t be assured until we see the “big, beautiful” federal budget bill initially
+expected by June, but unlikely to be done until later in the summer.
+- Other Reports
+Federal issue with State climate laws: On 4/8/25, the Trump administration issued
+an executive order directing Pam Bondi (federal Atty. Genl.) to “expeditiously” take
+action to halt the enforcement of 3 states’ (CA, VT, and NY) laws mandating carbon
+reductions. The order instructed Bondi to prioritize efforts to stop enforcement of state
+laws “purporting to address ‘climate change’ or involving ‘environmental, social, and
+governance’ initiatives, ‘environmental justice,’ carbon or ‘greenhouse gas’ emissions,
+and funds to collect carbon penalties or carbon taxes.”
+3
+
+One of those laws may be New York’s 2019 Climate Leadership and Community
+Protection Act (CLCPA). It calls for an emissions-free power system by 2040, with
+70% of statewide power sourced from renewable energy resources by 2030. None of
+our work is directly tied to the CLCPA.
+- Recruitment/Outreach/Communications/PR
+On 4/24/25, Brian accepted an award given
+for the train station solar canopy project by
+City&StateNY, a “media organization
+covering NY local and State politics and
+policy”. The event (its 2025 Trailblazers in
+Clean Energy: Celebrating the Innovators &
+Groundbreakers in New York's Energy
+Sector) was held in New York City and
+attended by Brian and Dan.
+- New Business / Other Issues
+Brian indicated that the recently passed Village budget has funding for a new (and
+larger) food scrap recycling shed. He expects it to be purchased over the summer.
+Due to actions needed to finalize sale of Lot A, there will no need to re-locate the
+present shed for at least 6 months. He also mentioned that Cortlandt is seeking a
+grant to initiate curbside scrap collection. If secured, he felt Cortlandt might share it
+with Croton to the same end. Carly stated that would be great as she has issues with
+the present program’s limited 3-day drop-off window. Brian also suggested that
+another visit to the SMM composting facility in Cortlandt Manor could be a great way
+to educate Villagers toward an expanded program once the new shed is installed.
+Dave asked about education/regulation of present young e-bike and e-scooter users
+who are posing safety issues, e.g., riding them on sidewalks. Len pointed out how the
+Village’s program is limited to those at least 18 years old. Dave also asked about
+speeding on Rt. 9. Brian said that it’s a State highway that is patrolled by State police.
+The Village’s two dozen electric accounts were enrolled in community solar in 2024.
+Lindsay updated us on securing the CDG $ credits for the Village’s 6 street lighting
+accounts. Despite an email from Con Edison’s Ranaan Korinow last September
+agreeing to initiate the credits manually on the Village’s NYPA bill (NYPA uses Con Ed
+data for our billing), a review of March’s bill shows nothing was ever done, causing the
+Village to (so far) lose several thousand dollars in credits. Efforts are underway to now
+force Con Ed to move on this matter or else deal with a PSC complaint on it.
+Date for our next meeting was set for Sunday, June 8, 2025 at 10:00 AM via Zoom (to
+avoid the Memorial Day weekend and Summerfest).
+
+4
+
+

@@ -1,0 +1,352 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Jan. 24, 2021 – via Zoom.us
+
+Members Attending:                                           Absent:
+Lindsay Audin             Joel Gingold
+Len Simon                 Niall Kelleher
+Brian Pugh                Bernie Yozwiak
+Jon Katz                  Dan Columbini
+
+[Bracketed] text indicates subsequent actions or clarifications. Underlining indicates a commitment.
+--------------------------------------------------------------------------
+Guest(s): none
+
+Announcements:
+ Reminder to complete two required online courses (workplace violence, sexual harassment).
+ On Dec. 7, Mayor Pugh announced that John Habib has been re-assigned to another committee.
+
+ Croton’s carbon mitigation efforts will soon be featured in two publications. The first is a press
+ release from Ecogy focusing on the successful startup of the DPW rooftop solar job. The second is
+ an article to be published in late winter by the Hudson Valley Regional Council (HVRC) in its first
+ Clean Energy Community (CEC) newsletter. HVRC manages the CEC and CSC programs in our
+ area under a NYSERDA contract. The article will highlight the DPW job and some of our other
+ successes, e.g., Croton has secured the most CEC action points of any entity in the State.
+
+Quick updates/holdovers/follow-ups/status:
+
+- Solar projects:
+      Train station parking lot canopy: The Village is almost finished its lease negotiations with
+ SolSystems (“Sol”). At its Dec. 21 meeting, the Village Board established itself as the Lead Agency
+ for SEQRA review. The matter was referred to the Waterfront Advisory Committee (WAC) which
+ ruled Jan. 6 that it was consistent with the Waterfront Revitalization Program. To expedite the
+ process for securing feeder capacity, Sol submitted its interconnection application. [Janine
+ scheduled the lease presentation to the VB for Feb. 17.]
+
+ With the passage of the COVID relief bill, the 26% Investment Tax Credit (ITC) was extended for 2
+ years. That significantly (~$50K-$100K) increased the potential annual rent from the project, and
+ adds impetus for other local solar projects. On the other hand, some developer $ incentives have
+ recently become iffy, which may reduce potential rent. [Jon checked the details on Jan. 25 and
+ responded: “Community Credit developer incentives are dwindling, and depending on the timing of
+ a project, might vanish, and it’s unknown what will replace that incentive.”]
+
+ Regarding the 5-MW Borrego Solar battery project in Ossining, Bernie sat in on the Dec. 16
+ Ossining Town Planning Board meeting on it. See his memo (sent to committee members on Dec.
+ 27) at the end of these minutes. While it turns out Borrego got its CESIR app in before ours, Sol
+ believes the feeder competition issue may not be as dire as Ecogy had predicted. A review of a
+ map of feeder locations and capacities appears to bear out Sol’s position. We won’t know which is
+ correct until Con Ed rules on Sol’s application, which may not occur until March.
+
+                                                  1
+Due to recent changes in community solar (CS) rules, the Village government now has the option
+to subscribe to up to 40% of the system’s output. If it attains Sol’s projected 4,753 kWp (~4,000
+kWac), the Village need only subscribe for ~30% (~1,300 kW) to cover all of its annual municipal
+kWh usage. The annual CS credits may amount to another ~$25,000 a year. We may also be able
+to get a one-time customer acquisition fee of $26,000 (maybe more). Once the lease agreement is
+in place, those options should be explored.
+
+    Croton Landing canopy: To overcome the “alienation” legal issue that presently blocks that
+project, multiple efforts were pursued to eliminate it via State legislation. [The bill to overcome it
+was re-introduced into the State Senate as S.2995. A companion bill is soon to be introduced into
+the Assembly by Assembly rep Carrie Woerner of Saratoga Springs.]
+
+    - On Dec. 17, Dan Welsh agreed to raise it at the January SW executive board meeting. He
+also introduced the bill to Chris Burdick (Assembly rep for the 93rd District, on the east side of the
+County) and his legislative aide. Dan says “I expect they will come out in support”.
+
+    - A similar request was sent on Dec. 19 to Anilla Cherian at the HVRC. She is the local liaison
+to help municipalities with renewable energy projects. She was eager until learning that NYSERDA
+said it could not be involved in lobbying. Nevertheless, she was open to helping us gin up support
+from participants in the CEC and CSC programs.
+
+    - On Dec. 29, Lindsay spoke with Camilla Calhoun, of the Westchester chapter of the League
+of Women Voters (LWV). She in turn communicated the problem to Susan Schwartz and Marcia
+Brewster (who sit on LWV’s State Board) to elicit their assistance. They also raised it with
+Assemblyman Tom Abinati (92nd district, lower Westchester).
+
+     - The issue was also raised in a Jan. 14 zoom sponsored by Federated Conservationists, Saw
+Mill River Audubon, and others which reviewed “Solar Siting Issues in Westchester”. Sierra Club’s
+Atlantic Chapter also agreed to assist.
+
+     - On Jan. 20, Midge Iorio of Bedford 2030 called about solar canopies in her town parks’
+parking lots. She was told to contact her State reps on the alienation issue, or look elsewhere to
+site canopies. We sent her the list of solar contractors that showed interest in the train station job.
+
+- Other local solar:
+
+      National Golf Course Matrix Solar Array Project: Regarding the proposed 1.8 MWp ground-
+mounted system, Bruce Kauderer, chair of the Village’s Planning Board and the WAC, inquired as
+to its economics and what financial benefit the Village may get from it. In early December, CAC
+members did a walk-through to assess the impact of removing ~500 trees (> 4” diameter) on the 7
+acres to be cleared (2 acres will be covered by panels). CAC was going to seek a one-time
+payment from the developer to cover planting of 2,000 trees elsewhere in Croton, but deferred to
+the Planning Board’s efforts to secure an equivalent payment as part of its approach. While
+discussing the issues, Brian pointed out that Matrix/National will need to deal with many time-
+consuming regulatory actions before the project could be authorized by the Village Board.
+
+     Croton Houses of Worship (HoW): Bernie secured a contact list for 6 of them. He also spoke
+with Nina Orville of SW, who got 6 Presbyterian churches to install rooftop panels in the County. In
+                                                   2
+ Croton, Temple Israel’s roof already has panels. It has its own active committee on energy issues
+ and was not interested in participating in a group program. However, none of the 6 have solar
+ canopies over their parking lots. As part of a State-supported $10M study of EEMs that included
+ Westchester area HoWs, a community development group (Metro IAF) had previously promoted
+ heat pumps (HP) to the group. Liza McCarthy of C100 had brought in Block Power, an energy
+ developer, to make the pitch, but there were no takers. Lindsay had reviewed the HP proposals for
+ both HNM and another HoW in Westchester, but their ~$500K+ price tags were non-starters.
+
+ Bernie agreed to do a googlemaps “flyover” to assess the potential solar square footage, and
+ multiply the result by ~15 watts/SF. If he finds that at least 300 kW of capacity could be cobbled
+ together, there may be a basis for contacting some solar developers. Anything much less would be
+ unlikely to interest them.
+
+- EV/EVSE:
+
+ - EV charger tax credit extended: In the COVID deal, the 30% fed. tax credit now goes to 12/31/21.
+
+ - School bus electrification: At the school district task force’s Dec. 21 zoom, Lindsay presented a
+ no-cost plan for EV charging infrastructure at the bus depot. A 5-minute video tour of the depot
+ may be found at https://ensemble.lhric.org/hapi/v1/contents/permalinks/La37Qpf2/view. The task
+ force’s next (and last) zoom is Jan. 28. Bernie and Lindsay had a Dec. 22 zoom with Siemens
+ Corp. regarding its chargers for large vehicles. Bernie has been collecting charger data from other
+ sources that will help us evaluate such options for our municipal vehicles.
+ On Dec. 30, additional State voucher money was allocated to school buses serving “disadvantaged
+ communities” (Croton is not one): https://www.governor.ny.gov/news/governor-cuomo-announces-
+ initiatives-electrify-transit-buses-boosting-access-clean
+ On Jan. 8, NYSERDA posted new voucher values for trucks and buses at
+ https://www.nyserda.ny.gov/All-Programs/Programs/Truck-Voucher-Program/How-the-Program-
+ Works/Funding-Amounts. Vouchers for Class 7 (the largest) school buses are now capped at
+ $200,000 (prior cap was $110,000). A standard new diesel costs ~$110, 000. Depending on the
+ cost of an EV version (~$400,000), up to 100% of the difference (to the maximum voucher value)
+ would leave ~$90,000 extra to be paid by the district. The cost for charging infrastructure for a full-
+ sized bus would be additional.
+ - Municipal EVs: On Dec. 16, DPW Director Frank Balbi provided data on the Village’s trucks. The
+ bottom line is that our needs are a few years ahead of the economically available technology. More
+ details appear in a memo at the end of these minutes. Frank was open to reviewing data and test
+ driving an EV truck, but expressed concerns on repairs, range on our hills, on cold days, etc.
+ Vouchers for Class 8 trucks (e.g., sanitation) were recently capped at $185,000. At present, that
+ would leave a differential of at least $130,000 over the cost of a new diesel version. DCFC
+ charging would be needed, the cost of which would be additional, and significant.
+ - Data on DCFC connectors: Niall produced an excellent overview of the different DC fast charger
+ (DCFC) connectors, which range from 50 to 350 kW. While early EVs (other than Tesla) could not
+ use them, many EVs produced after 2017 do so. While costing 10X-15X more than Level 2
+ chargers, they are ideal for fast charging of trucks and buses. Niall’s memo will be discussed at our
+ Feb. 28 zoom, and will be attached to its minutes.
+
+                                                   3
+- Food scrap recycling program:
+
+ Due to Village budget issues and the ongoing uncertainties regarding the COVID pandemic, Brian
+ discussed the project with Janine. They concluded that it would be best to postpone the project
+ until 2022. Our grant is good until Oct. 2022. If needed, DEC is likely to allow an extension due to
+ COVID’s impacts.
+
+ Joel and Lindsay had been re-designing the program, e.g., moving the site to a corner of the train
+ station parking lot as Brian suggested, to deal with COVID issues. Hopefully, we can again call
+ upon Rob Abbot (retired management consultant and food scrap recycler) and Donna O’Malley
+ (one of the early proponents of the program) to help run the program, which may start April 2022.
+
+ In a Jan. 5 zoom with County officials and Catherine Borgia (our County Legislator) on the option to
+ use the Cortlandt SMM composting site instead of the Ulster County site, all agreed that taking
+ scraps to Cortlandt minimized diesel truck GHG. However, several limiting factors exist:
+
+     - SMM has a smaller capacity than Ulster (5,000 vs 10,000 cubic yards/year). Ulster also
+ recently applied for a large expansion. Depending on a variety of factors, it’s possible that larger
+ communities and/or scrap sources (e.g., supermarkets) may at some point contract for SMM’s
+ capacity, locking out the County (and/or Croton) from using it. Such already occurred with the
+ Quantum BioPower methane digester in Conn., which primarily serves the Whole Foods chain.
+ Our program’s 6-month operation might produce a total of ~50 cu. yds., so we’re a teeny player.
+
+     - Routing also comes into play. About the best outcome may be a southern County route to
+ Ulster, and a northern County route that goes to SMM. That option has not yet been determined,
+ and is up to the carter (Suburban Carting).
+
+ Because of these variables, the only way Croton could be assured that its scrap would go to SMM
+ would be to use its own carter, which would cost an extra ~$7K/yr. Hopefully, that issue will also be
+ sorted out before initiating our program.
+
+- HPWH project:
+ - As part of his high school community service requirement, Jon Katz’s son (Steven) did a web
+ search for graphics in others’ HPWH flyers that we could borrow for our own use. He provided 6
+ pages of graphic subjects for our use and pulled images from several of them for our use. We
+ appreciate his efforts, and thank Jon for “volunteering” Steven for that work.
+
+ - Dan reviewed the option for incorporating heat trap piping (see photo at
+ right) into our HPWH spec to cut standby heat loss from thermo-
+ siphoning of tank heat when no water is being used. He concluded that
+ the extra piping cost was minimal and suggested that an anti-siphoning
+ nipple (a check valve located at the dielectric joint between the hot water
+ line and the heater) would also be a good idea. It would cut heat loss, as
+ it would remain closed when no hot water was flowing, helping to trap
+ heat in the water heater. At ~$10, it would be an additional cost-effective
+ way to cut backflow. Dan agreed to provide a short memo on those
+ options for inclusion in our Feb. zoom minutes.
+
+                                                   4
+ Committee members had earlier provided useful input on a first draft of the HPWH flyer/handout.
+ Lindsay will update it with the new graphics and text for committee review prior to our Feb. zoom.
+
+ - We discussed some details on NYSERDA’s new CEC grant program (its “Leadership Round”)
+ during a recent zoom, but full details (e.g., $) are not yet available. [Program details were
+ announced Jan. 26. Based on a quick review of its rules, Croton should be eligible for a $70K
+ grant, with no requirement for matching funds.] SW’s heat pump program is still under
+ development. Both are needed to support and coordinate with our project.
+
+ Several excellent ideas on configuring the program arose during the discussion. They could help
+ overcome two dilemmas that often confront us when seeking grants: NYSERDA wants a focus on
+ municipal (not community) GHG reduction, while private funding seeks activities that benefit the
+ overall community, not just a specific constituency (e.g., a single municipality’s GHG footprint).
+
+ While separate grant applications could be created that comply with each’s desires, we might “kill 2
+ birds with one stone” by seeking funding to install HPWH in all 5 municipal buildings and instrument
+ each (with electric and water sub-meters) to quantify usage and savings. That data would be part
+ of a study that shows measured results, instead of the projected / modeled / stipulated numbers
+ presently seen in others’ studies. Doing so would lend credibility to the technology regardless of
+ user type or site. It would cut GHG from DHW use in our buildings at little or no cost to Croton.
+
+ To expand the data, we could include one or two similar installations in homes. Bernie has
+ previously expressed interest in being a “guinea pig” and meter reader for a HPWH in his home,
+ which uses oil to heat DHW. The actual work of promoting HPWH installations HPWH (e.g., survey,
+ flyers, etc.) would be “folded into” the research grant application. Lindsay will flesh that out in a
+ revised program description for distribution before our Feb. zoom,
+
+Reports:
+
+- Lindsay summarized a Jan. 13 zoom Len set up with the Rocky Mountain Institute (RMI) in
+  Colorado to follow up on options for grant assistance. RMI was one of two recipients of funding
+  from the Bezos Fund. The other was the World Resources Institute (WRI). Len will follow up with
+  WRI to the same end. We learned that RMI cannot provide direct financial assistance to an end
+  user, and we’re already ahead of the technical assistance it offered. RMI agreed to have its grant
+  development people guide us on grant options. Len and Lindsay will follow up on that discussion.
+
+ Len reviewed the Doris Duke Charitable Foundation as another possible $ source. He concluded
+ that a “letter of inquiry” would be the best way to sound it out on financial support. Len will draft it
+ and mention the HPWH project as an example of our pending work.
+
+ Joel told us of his efforts to track down a possible intern via the EnergyCorps, a division of
+ AmeriCorps (the domestic version of the Peace Corps). He found that the maze of agencies
+ involved made it difficult to determine if this was a real option. Lindsay will put him in touch with
+ Sustainable Hudson Valley which navigated to secure an EnergyCorps person. [This turned out to
+ be an odd coincidence of agency names. There are no EnergyCorps personnel available to us.]
+
+ To the same end, Jon pointed out how high school kids were having a hard time finding community
+ service projects (which they must do to graduate) such that we might get some help from them. [He
+                                                    5
+ subsequently queried two members of the school’s Guidance Dept. for assistance on the option.
+ Doing so has so far – 1/31/21 – elicited 4 positive responses from interested students.] Bernie
+ agreed to check with the Boy Scouts, and Dan agreed to review Handshake, a web-based program
+ that connects potential interns with possible assignments.
+
+Communications:
+- NYPA’s renewable power offer is still “pending”. In April, it will be a year since it was first made.
+- The Westchester chapter of the LWV is sponsoring an April 7 panel on how local governments
+  could start or improve participation in the CEC and CSC programs. Lindsay will represent Croton.
+- Sustainable Hudson Valley asked for help on a study its doing on EV infrastructure.
+- Bedford 2030 asked for help on developing solar canopy projects.
+- Discussions with the school district on specs for its upcoming LED lighting work informed us of
+  technical requirements imposed on it by the State’s Education Dept. regarding the type of LED
+  retrofit that will be partially funded by that Department.
+
+Recruitment/Outreach: see “Communications”.
+
+New business / other events: None were raised.
+
+
+Date for our next Zoom meeting: Feb. 28, 2021, Sunday, 10:30 AM
+
+
+
+
+                                                     6
+Memo from Bernie Yozwiak on the proposed 5 MW battery near St. Augustine Church in Ossining
+
+
+I attended the on-line Town of Ossining Zoom meeting on Wednesday December 16, 2020 at which
+the Battery System proposed for the St. Augustine site was discussed.
+1.     The developer, Borrego, had 2 representatives at the meeting. They had just submitted
+documents that the Town had asked for that day, so no town officials or the public had an opportunity
+to review the submissions.
+2.    Discussion of the project was added to the next Town of Ossining public hearing/meeting
+scheduled for Jan. 22, 2021. Link to be published on their web site. I got the sense that they intend
+to approve the project at that meeting.
+3.    There were perhaps 10 questions raised by the public who were on the Zoom. The vast
+majority were from Mystic Point residents who were concerned about operating noise, construction
+trucks, sight issues, and fire protection issues.
+4.    Since I had not previously reviewed the information that is posted on their web site regarding
+the project, I only asked a couple general questions. The capacity is 5 MW to be run for 4 hours.
+The footprint was roughly 30 feet x 60 feet. The weight of the system will be 134 tons.
+5.    No geo-technic borings or reports have been done yet, so the structural design is not done.
+6.     There were a few questions on fire suppression by me and others. The developer noted that
+the layout is modular, with the overall capacity being installed in separate cubicles that each have
+their own monitoring and fire suppression systems so that a catastrophic event is unlikely. (My
+words.) No one asked about gases being emitted in the event of a fire.
+7.    The project is to last for 25 years. The developers expect to replace the batteries at various
+times and to cycle through 2 battery lives during the 25 years.
+8.    There will be a connection to the Con Ed grid along Route 9 with the cables from the batteries
+running underground from battery lineup.
+9.   The company mentioned that they have 2 installations either running or in the process with
+Orange and Rockland that are solar + battery systems. This is their first battery-only system.
+10. They at first said that this was the first such system to their knowledge installed in Westchester,
+then later said that there was one standalone battery system “by Staples in Yorktown”. (I could not
+find any reference to that when I looked online.)
+Bernie also provided a PDF description provided by Borrego. It was attached to the email sent to
+committee members on Dec. 27.
+
+
+
+
+                                                    7
+Memo on EV municipal trucks based on discussions with DPW director Frank Balbi – 12/30/20
+
+- Ford F150 pickup trucks lack the power necessary for snow plowing, towing, and other heavy
+  loads. While an EV F150 may be available later this year, it would not be useful to the Village. We
+  will need to wait for electric versions of the F250 to F550 to make such replacements.
+- Regarding sanitation trucks (the preferred term for garbage trucks), we have 6, of which any 3 are
+  in use on a given day. The others are kept as backups and/or other uses. Two are used 4 times a
+  week, and one is used twice a week. While all are International brand, all use Leach bodies. This
+  may be an issue because some (possibly all) EV versions instead use Heil bodies.
+- A typical daily truck run is roughly 100 miles, ~20 of which are the round trip to the Charles Point
+  incinerator. EV units have 100-mile ranges, unless larger batteries are installed, which significantly
+  boosts their prices. To be safe, we would need a range of ~150 miles to account for loss of battery
+  capacity on very cold days and/or extra heavy loads. There are no plug-in hybrid versions that
+  could also use diesel or gasoline, nor are any expected.
+- A new diesel sanitation truck costs about $225K. One existing unit is slated for retirement, but not
+  budgeted in the coming year. Our prior research found that an EV version may cost at least
+  ~$540K (though prices are dropping as batteries become cheaper). While NYSERDA truck
+  vouchers would cover 80% of the difference, that would still leave an extra ~$63K over the cost of
+  a new diesel unit, not including the high cost of a DC fast charger and its installation.
+- While there’s no maintenance cost data specific to the sanitation trucks, Frank offered $21K per
+  year per truck as an estimate. Most of that might be saved by an EV, but it’s not a deal maker.
+In a November zoom with one of the few suppliers of electric sanitation trucks, Lindsay learned the
+following. BYD, an international Chinese company with truck and bus production facilities in
+Lancaster, California, offers a Class 7 rear-loading unit (roughly the same as our existing trucks) with
+a standard range of 80+ miles. Longer ranges may be available by special order. Its standard side
+loading version gets only 60+ miles. Both units use lithium iron phosphate batteries that have a lower
+energy density than lithium-ion units but are much less prone to fire. BYD’s core business is battery
+production, with vehicle production an offshoot thereof.
+Both units have very large batteries: the rear loader holds 280 kWh while the 430 HP side-loader
+holds 295 kWh. Each vehicle (on average) consumes ~5 kWh/mile (which assumes 8 hours of trash
+collection). An EV school bus consumes ~2 kWh/mile, and a typical EV sedan may consume .3
+kWh/mile. BYD rear loaders utilize a proprietary DCFC charging receptacle, but can also use any 40
+kW or 150 kW CCS1 charge connector (common for DCFC charging) such as the ChargePoint CPE
+250. Side loaders can charge at 40 kW AC or 120 kW DC.
+The rear loader has a 25 cubic yard capacity (same as our existing units) and can be mated with
+truck bodies from Heil, Leach, or NewWay. Frank indicated that all our existing sanitation trucks use
+Leach bodies. At present, the only nearby repair facility (Milea Truck Sales in Elmsford) servicing
+BYD trucks handles only Heil body parts.
+At ~2 miles/gallon of diesel fuel, a sanitation truck running ~100 miles a day for 250 days/yr,
+consuming ~5 kWh/mile of utility power at ~.7 lb/kWh of CO2e may cut carbon emissions by ~85
+MT/yr. That’s roughly the same annual carbon reduction as 30 EV sedans.
+
+
+
+                                                    8
+

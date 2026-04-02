@@ -1,0 +1,109 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:00 AM Sunday, Dec. 7, 2025 – via zoom
+Members Attending:
+Edwin Adkins
+Lindsay Audin (chair, CSC Coord.)
+Ashley Clemente
+
+Absent:
+
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (community gardens)
+Brian Pugh (Croton Mayor)
+Carly Shanks
+Len Simon (Village Trustee)
+Cheryl Wong (food scrap program)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Attending guest(s): Jessa Mittleman, recent Croton resident interested in our work, was
+invited but did not attend.
+Announcements: as members of a Village committee, we must all complete the annual
+NYS–mandated Workplace Violence and Sexual Harassment/Discrimination training,
+unless a member has taken the courses at their workplace. Since taking the courses
+last year, you’ll likely need to reset your password. Got questions? Send them to
+pdisanto@crotononhudson-ny.gov
+- EV/EVSE/RD
+The contract with PISO (a/k/a Plug-In Stations Online) to install 18 EV charge ports at
+the train station was signed 11/18/25. Planning for work in sections D and E (east of
+canopy #3 along west side of Veterans Plaza) is now underway. Due to recent thefts
+of copper (resulting from increased copper pricing), the charger spec was upgraded to
+include newly available theft-resistant power cables.
+Len reported that the Project MOVER e-Bike program has been very successful so
+far: 1,088 rides initiated in Croton between July 9 and October 31. The program goes
+into hibernation on December 19 and restarts in early April with 2 new hubs, bringing
+the total to 8. Sleepy Hollow will be continuing its program through this winter to
+assess interest in using the bikes in cold weather. The NYSERDA grant for the 6-town
+program will run out in 2027, and Len indicated that support may be replaced through
+changes to the bike-sharing fee and adding advertising at the bike hub sites.
+The Renewable Diesel (RD) pilot test continues without problems. Mayor Pugh said it
+should be done in January at which time RD would be used by all our diesel trucks.
+- Solar Projects/Issues
+
+1
+
+Train station canopies: Commissioning of both the canopies and the BESS should
+be completed by the end of December, with startup shortly thereafter. To avoid
+continued damage to some downspout connections to the underground drainage
+system by hasty commuters parking their cars, Sol is installing bollards to block them.
+At canopy #2, Sol is installing shrouds around two photocells to block stray light from
+pole-mounted lamps in the train yard that are causing the canopy lights to stay off
+while other canopy lights came on after sundown.
+DPW solar canopy: The project was re-bid on 11/20/25, with bids due 12/8/25. Two
+more solar vendors attended the 12/1/25 site meeting. Hopefully, we’ll have a winner
+this time. Kudos to Village Manager Healy for pushing the project forward. [Two bids
+were received by the 10 AM 12/8/25 deadline.]
+- Heat Pumps/Building Electrification
+New building electrification code: As Jon and Dan briefly discussed at our last
+meeting, NY State was about to implement a law mandating full electrification of new
+buildings (including new houses), starting next month. However, on 11/13/25 Gov.
+Hochul suspended it pending a decision by a State appeals court. Jon reviewed how
+(once in place) the new code would disallow fossil-fueled heating systems,
+appliances, and water heaters. With a few exceptions (e.g., laundromats) it would
+apply to all new buildings under 7 stories in height and those less than 100,000 SF. If
+re-instated, the law would (in 2029) apply to all new buildings, regardless of height or
+size. Find a good summary at https://www.urbangreencouncil.org/decoding-new-yorkstates-all-electric-new-buildings-law/
+- Other Programs
+Food Scrap Recycling: The old shed and all items in it were moved 11/29/25 to Lot
+G (far south end of train station parking lot) by the salt shed. The new replacement
+scrap shed arrived 11/10/25. DPW removed visible screw tips, fixed the sticky left
+door, and installed a ramp. Cheryl asked Frank Balbi to order extra toters and other
+materials to expand the program in January to more households.
+- Funding and Budgeting Issues
+Possible 2nd BESS: On 11/17/25, the 11/3/25 proposal for a BESS behind (i.e., north
+of) the Municipal Place facility was reviewed by Village officials. To accommodate
+ongoing DPW uses of the site, the project needed to shrink by half. We reviewed
+Luminace’s 12/5/25 new proposal offering about half the previously proposed leasing
+rent. Village officials are reviewing it.
+As an alternate site for the original design, we discussed purchasing from the State
+DOT the narrow wooded strip northwest of the facility between Rt. 9 and South
+Riverside Ave. Mayor Pugh indicated that past experience with that agency on
+another project was problematic. He felt it unlikely our request for a price on the land
+would secure a useful or timely response. We then discussed moving the salt shed
+(under consideration for other reasons) and using its spot for a BESS. [Subsequent
+review of the adjacent power line found that it had no hosting capacity.]
+2
+
+Thank you to Jon for clarifying potential BESS revenue based on VDER credits, and
+to Carly for assembling a spreadsheet of ~25 BESS developers so we’re ready to
+seek competitive proposals.
+Cutting our muni electric bill: An 18-month struggle to enroll Croton’s streetlight
+electric accounts into community solar finally succeeded on 11/25/25. NYPA applied
+~$4K in accrued credits to the Muni Bldg account, zeroing out its Nov. bill, while
+providing another ~$1K credit against the Dec. bill. NYPA will apply all future street
+lighting credits to that account, saving the Village ~$3K per year. Croton is (so far) the
+only Westchester muni to secure such financial credits via its street lighting accounts.
+- Recruitment/Outreach/Communications/PR
+On 11/12/25, Croton100 said its next quilt will feature our EV charger installation and
+the e-bike sharing program.
+In its Fall 2025 newsletter, SW “pledged [at 2025’s Clinton Global Initiative event] to
+“deliver [in our County]…rooftop solar to an additional 30,000 homes and add solar
+canopies to nearly 300 parking lots”. The goal is to do so by the end of 2030. About
+10,000 Westchester homes now have solar. About 30 parking lots have canopies.
+- New Business / Other Issues
+None.
+To avoid holiday conflicts, we will take our usual winter recess. Our next zoom
+meeting was set for Sunday, Jan. 18, 2026 at 10:00 AM. Happy Holidays to all!
+
+3
+
+

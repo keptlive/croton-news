@@ -1,0 +1,235 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//croton.news//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Croton — Ossining Public Library
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Events from Ossining Public Library
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+BEGIN:VEVENT
+UID:8ac39d6dc7b7@croton.news
+DTSTART;TZID=America/New_York:20260402T100000
+SUMMARY:Tax-Aide Assistance (NO MORE APPOINTMENTS)
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/tax-aide-23954
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0f3383baeb1c@croton.news
+DTSTART;TZID=America/New_York:20260402T160000
+SUMMARY:Magic the Gathering Card Game
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/magic-gathering-card-game-23699
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f21fa461fa25@croton.news
+DTSTART;TZID=America/New_York:20260402T190000
+SUMMARY:Teen Book Club
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/teen-book-club-24475
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:22d0f89f246d@croton.news
+DTSTART;TZID=America/New_York:20260403T100000
+SUMMARY:Healthcare Navigator (by appointment)
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/healthcare-navigator-17774
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:93495c5db568@croton.news
+DTSTART;TZID=America/New_York:20260403T130000
+SUMMARY:Mahjong Game Day
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/mahjong-game-day-23488
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:679e33e6a567@croton.news
+DTSTART;TZID=America/New_York:20260403T140000
+SUMMARY:Little Gardeners
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/little-gardeners-25994
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:31a6d9ffd2f1@croton.news
+DTSTART;TZID=America/New_York:20260403T153000
+SUMMARY:DIY Beaded Earrings for a Cause
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/diy-beaded-earrings-cause-25321
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6483aec5c2bc@croton.news
+DTSTART;TZID=America/New_York:20260403T160000
+SUMMARY:Little Critics Book Club
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/little-critics-book-club-25671
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f3b271a14226@croton.news
+DTSTART;TZID=America/New_York:20260403T160000
+SUMMARY:Friday Afternoon Gaming
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/friday-afternoon-gaming-23085
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3c949ca070a9@croton.news
+DTSTART;TZID=America/New_York:20260404T093000
+SUMMARY:Beginner Yoga
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/beginner-yoga-23543
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e52ab5bbce21@croton.news
+DTSTART;TZID=America/New_York:20260404T100000
+SUMMARY:English Class for Kids
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/english-class-kids-23966
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b0545e778cd0@croton.news
+DTSTART;TZID=America/New_York:20260404T100000
+SUMMARY:Knitting Group
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/knitting-group-23875
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:aedd9b270146@croton.news
+DTSTART;TZID=America/New_York:20260404T110000
+SUMMARY:Children's Author- Chris Raschka
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/childrens-author-chris-raschka-24366
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ba4e738a32d3@croton.news
+DTSTART;TZID=America/New_York:20260404T130000
+SUMMARY:Dungeons and Dragons
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/dungeons-and-dragons-24424
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:611758d24238@croton.news
+DTSTART;VALUE=DATE:20260405
+SUMMARY:CLOSED For Easter Sunday
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/closed-easter-sunday-26092
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2ee4c5a93b3f@croton.news
+DTSTART;VALUE=DATE:20260405
+SUMMARY:Closing
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/events/upcoming
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a125bd06b112@croton.news
+DTSTART;TZID=America/New_York:20260406T100000
+SUMMARY:Mother Goose Time
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/mother-goose-time-24621
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4b25054a8c50@croton.news
+DTSTART;TZID=America/New_York:20260406T100000
+SUMMARY:Healthcare Navigator (by appointment)
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/healthcare-navigator-17774
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b954fd2b41bf@croton.news
+DTSTART;TZID=America/New_York:20260406T120000
+SUMMARY:OPL Board of Trustees - Buildings and Grounds Committee Meeting
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/building-grounds-committee-opl-bot-regular-monthly-mtg-21883
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8f27186ff694@croton.news
+DTSTART;TZID=America/New_York:20260406T160000
+SUMMARY:Homework Help
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/homework-help-20363
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:284e7231b6ee@croton.news
+DTSTART;TZID=America/New_York:20260406T161500
+SUMMARY:Build\, Play\, Code
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/build-play-code-24627
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:cfaf8df37512@croton.news
+DTSTART;TZID=America/New_York:20260406T161500
+SUMMARY:Cancelled
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/events/upcoming
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0ea1fcff135c@croton.news
+DTSTART;TZID=America/New_York:20260406T183000
+SUMMARY:Meditation Group
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/meditation-group-22662
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:34c4ffcf72f2@croton.news
+DTSTART;TZID=America/New_York:20260406T190000
+SUMMARY:Destination College Workshop Series Workshop 6: Show Me the Money (Scholarships & Financial Aid)
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/destination-college-workshop-series-workshop-6-show-me-money-scholarships-financial-aid-23299
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e690fcc637b4@croton.news
+DTSTART;TZID=America/New_York:20260407T140000
+SUMMARY:Spanish ~ English Conversation Group
+LOCATION:Ossining Public Library\, 53 Croton Ave
+URL:https://ossining.librarycalendar.com/event/spanish-english-conversation-group-25511
+CATEGORIES:events
+DESCRIPTION:Source: Ossining Public Library\n
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,238 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, June 25, 2023 – via zoom
+Members Attending:
+Lindsay Audin (CSC Coordinator)
+
+Absent:
+Dan Columbini PE
+David Goldman
+
+Ashley Clemente
+Niall Kelleher (Community Gardens)
+Brian Pugh (Mayor of Croton)
+Jon Katz PE
+Joel Gingold (CCoHOPE Indivisible)
+Bernie Yozwiak (Care for Creation Ministry)
+Len Simon (Village trustee)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): none
+Announcements: none
+Updates/holdovers/follow-ups/statuses:
+- Food Scrap Recycling
+With yesterday’s final monitored
+drop-off day, we have successfully
+completed the 6-month pilot
+program. See Dan’s production
+chart at right.
+A more robust effort will continue
+using funds budgeted by the
+Village. On 6/3, a dozen waitlisters
+(out of ~40) signed up and got
+starter kits. The program is now
+open to anyone via a web posting at https://www.crotononhudsonny.gov/sustainability-committee/news/croton%E2%80%99s-food-scrap-recyclingprogram To not overwhelm the system, only 30 new households will be accepted (for
+a total of ~80). Keiko Niccolini keikoniccolini@gmail.com now runs the program.
+Niall is quantifying $ savings from composting based on reduced trash weight at
+Charles Pt. incinerator. Data provided by DPW to him showed 3,444 tons of waste in
+2022. He’ll get the $/ton charge and work up a proposal for how home composting
+could reduce the overall cost of Croton’s municipal solid waste disposal.
+- NYSERDA CEC-sponsored projects
+
+1
+
+Firehouse HP controls: C&W got the touch screen thermostats and completed the
+installation on June 8. Thank you to Jon for all his hard work on this project and
+for his excellent commissioning report. His report was sent to committee members.
+On 6/15. Lindsay posted and photographed the required project poster in the
+firehouse (needed to get the grant $). Later that day, he filed for the project’s 700
+points in the Clean Energy Community (CEC) program.
+Firehouse HPWH: Bryan Healy verified that the project will not require competitive
+bidding. On 6/15, the Village’s plumbing contractor (McStay Plumbing) visited the site.
+Based on the SOW developed by Dan and Bernie, it offered a $7,200 proposal, which
+is ~40% higher than expected, Jon and Dan will look for ways to trim it down.
+- Solar Projects/Issues
+Work proceeds on the train station canopies toward completion by the end of calendar
+2023. Village payment for the gasketing and guttering is in process. Community solar
+customer acquisition efforts will soon start (see below for details).
+An issue that previously blocked a possible ~80 kW solar canopy over the ~8,000 SF
+DPW parking lot (east of the building) appears to have been resolved. Shortly after the
+DPW solar rooftop was done in 2020, Ecogy told us that further solar development
+was blocked by a kW limit on Con Ed’s nearby distribution line. However, a recent
+review of a map showing available capacity now shows 1-1.99 MW available. Another
+issue could have been the building’s septic system, but DPW (on 6/20) stated that it’s
+instead on the south and west sides of the building. Bottom line: if we could secure
+funding for a ~80 kW solar canopy (roughly $.25M), the site may yet be viable.
+- EV/EVSE
+On the $150K train station EV charger grant awarded in early May, we continue to
+wait for DEC’s contractual paperwork. DEC says it may arrive “mid-to late July”. Brian
+indicated other State funding to Croton may become available. He will look into it.
+Bernie showed us pics of chargers and switchgear he saw in Provincetown, MA (near
+Cape Cod) during recent travels. They were similar to those we plan to install at the
+train station.
+Len provided this report on new municipal EVs:
+New Police Vehicles - $160,000 (New Debt)
+The Police Department is seeking funding to purchase two new electric vehicles to
+replace existing gas-powered administrative vehicles. These will be used by the Chief
+of Police and the Detective Sergeant. This funding will also include the purchase of an
+additional vehicle charging station for the Municipal Building.
+New EV for Assistant Engineer - $45,000 (New Debt):
+
+2
+
+The Village vehicle currently used by the Assistant Village Engineer for inspections is
+almost 10 years old and showing signs of aging. We plan to replace this gas-operated
+vehicle with an electric vehicle like that currently used by the Village’s Code
+Enforcement Officer, which will reduce vehicle maintenance costs over the years.
+Once the VIN numbers are in hand for any new muni EV, we can get $5K for each
+vehicle from a DEC grant program.
+- Funding Sources/Issues
+On 6/14, Len forwarded the long-awaited IRA regs that would allow Croton to claim up
+to a 30% investment credit on our energy installations. Now called called “Elective
+Pay” (as well as “Direct Pay”), it involves new paperwork for the Village Treasurer. The
+regs are proposed, with a 60-day comment period from 8/14 to 10/14, Final rules won’t
+be out until late November. Solar projects < 1 MW would not require apprentices or
+prevailing wage. For the firehouse rooftop, that could allow get us a ~$20K ITC refund.
+On 6/13, NYSERDA announced new CEC program changes. Both demand response
+and Stretch Code were deleted. New grants are now available for two higher
+Achievement Levels in campaigns for community solar, HP installations, and EV
+purchases. Municipal-owned HPs or EVs, or muni electric accounts, won’t count.
+Three achievement levels were set. We already did Level 1 for all three campaigns.
+For Levels 2 and 3, all actions must occur after 6/1/23 and be done solely by residents
+and businesses with Croton addresses. We presently have 7,800 CEC points.
+Achvmt. Level for
+small communities
+Campaign
+Type
+
+2
+
+totals both
+levels
+
+3
+
+#
+actions
+
+grant $
+
+points
+
+# actions
+
+grant $
+
+points
+
+#
+actions
+
+grants $
+
+points
+
+Community
+Solar
+
+50
+
+10,000
+
+300
+
+100 more
+
+20,000
+
+500
+
+150
+
+30,000
+
+800
+
+EV purchases
+
+15
+
+7,500
+
+300
+
+50 more
+
+15,000
+
+500
+
+65
+
+22,500
+
+800
+
+HP installations
+
+10
+
+10,000
+
+600
+
+15 more
+
+20,000
+
+700
+
+25
+
+30,000
+
+1,300
+
+82,500
+
+2,900
+
+Jacktop totals
+
+$82.5K would pay for 12 more charge ports at the train station, completing that job.
+To expedite comm. solar recruiting, we discussed approaching groups of residences
+(e.g., condos, apartments). Bryan Healy has a good working relationship with the Half
+Moon Bay condo association. Ways to persuade people to enroll in comm. solar were
+discussed (e.g., no installation, not a solar scam, show Con Ed bill $ adjustment).
+
+3
+
+But on 6/23, the NY PSC issued a ruling deeming such activity “energy marketing”. It
+could require us to pay a $500 annual fee, post a $50,000 bond, and file a pile of
+paperwork. NYSERDA was asked for a response. Brian volunteered to look into it.
+On 6/20, NYSERDA said that a “much larger” CEC grant program will be announced
+by this year’s end, apparently involving IRA funding to the State.
+- Residential Heat Pumps
+On 5/18, Ashley sent all member a docx version of his draft report for editing and
+review, pursuant to creating a web-based advisory to guide homeowners on their heat
+pump options. To format Ashley’s compendium into a brief web posting, Lindsay
+drafted a short framework version and (6/11) sent it to Bernie to insert links to the web
+page content in Ashley’s draft. Bernie agreed to complete it before our July meeting in
+time for members’ input and editing.
+An extensive discussion of Ashley’s recent engagements with his HP contractor
+followed, focusing on estimated costs (less than expected), rebates, designs, etc. for
+his and his father’s homes. He asked members for electrical contractor contacts.
+To help promote HPWHs, Joel suggested a group discount purchasing deal with a
+selected HVAC contractor, as was done for the Solarize campaigns. He suggested
+featuring the firehouse HPWH in our promos, and giving tours to interested residents.
+Jon reviewed potential impacts of the change in refrigerants for new HVAC equipment
+starting 1/1/24. He concluded that it would be speculative at this time to make any
+recommendations to Croton residents with regard to their HP purchasing specs.
+- Other Reports
+Jon’s fine HP controls commissioning report was sent to all members.
+- Recruitment/Outreach/Communications/PR
+None.
+- New Business / Other Issues
+None.
+Date for our next meeting was set for Sunday, July 23, at 10:30 AM via zoom.
+
+4
+
+

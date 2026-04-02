@@ -1,0 +1,207 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:00 AM Sunday, Mar. 23, 2025 – via zoom
+Members Attending:
+Lindsay Audin (chair, CSC Coordinator)
+
+Absent:
+Ashley Clemente
+
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (community gardens)
+Brian Pugh (Croton Mayor)
+Len Simon (Village trustee)
+Cheryl Wong
+Carly Shanks
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Attending guest(s): none
+Announcements: Earth Day tabling: The May 3 event at Senasqua Park runs from 11
+AM to 4 PM. Help will be needed starting at 10 AM to set up our banner and exhibit on
+the covered picnic table at the park entrance. These committee members agreed to
+staff the table on the following shifts:
+- 10 AM to noon: Lindsay and Jonathan [tentative]
+- noon to 2 PM: Dan and Ashley [verified]
+- 2 to 4 PM: Carly and Dave
+- EV/EVSE/RD
+Nothing new on NRG’s demand response (DR) initiative for EV chargers. We await
+response to our 3/7/25 email on the issue. If NRG fails, we’ll enroll the charger
+account with GridRewards, which shares a lower % of the incentive than NRG.
+Village staff are in process for approving the draft RFP and bidder list for the train
+station EV chargers. [On 3/24/25, it was accepted as is.] The contractor submission
+timeline will run from May 1 through June 6, with work to start over the summer and
+be completed by Labor Day. We now await DEC’s approval of the RFP.
+On 3/21/25, Lindsay asked Bryan Healy and Frank Balbi what technical information or
+references they would need to consider renewable diesel (RD) as an alternative to
+standard diesel for the Village’s diesel trucks. Once they’re satisfied with the technical
+viability, we can propose to the VB that RD be purchased instead of diesel despite its
+slight cost increase. Doing so could cut our municipal carbon footprint by ~15%,
+equivalent to all our other efforts combined. [On 3/25/25.Bryan responded: “Thank you
+for sending this over and for the work that the Sustainability Committee has done on
+this initiative. Frank will review and we will be in touch shortly.”]
+
+1
+
+Carly reviewed how switching to RD was a good way to fulfill the Village’s February
+2023 Green Purchasing Community resolution. Her report is attached after Len’s
+report on his meeting with Mike Lawler, our Congressional House Rep.
+[On 3/26/25, Niall found and forwarded an article in “Fleet Maintenance” magazine
+detailing how UPS – Niall’s employer – has been using RD in its trucks for years, and
+how, due to its clean burning, RD reduces diesel engine maintenance.]
+- Solar Projects/Issues
+Train station canopies: Underside canopy lights
+came on 3/14/25 (see Dave’s ~9:30 PM pic) for
+canopies 1 & 2. A week later, all canopy lighting
+was on. A few that were flickering have been
+replaced. Lights are controlled by photocells atop
+each canopy. [The 3/24/25 Croton Chronicle
+featured pics of the lighting, credit: David S.
+Goldman.]
+Arevon is now selling the system to Madison
+Energy Infrastructure (www.madisonei.com/)
+which owns many comparable and smaller solar projects across the U.S.
+DPW solar parking canopy: Village staff are reviewing the draft RFP. On 3/11/25,
+NYSERDA OKed using grant funding for SW’s “Municipal Solar” project mgt. program
+to facilitate the installation. A contract is being developed for submission to the Village.
+SW new Solarize program: Carly reported that SW will circulate a draft Memo of
+Understanding (MOU) to municipal govts. by the end of the coming week. Several
+residents that are considering solar were advised to wait for the SW program to start.
+[On 3/26/25, Leo Wiegman of SW said: “We have decided to eliminate the need for
+any executed agreement between munis and SW for Residential Solarize. Instead we
+will be circulating a program description and allow munis that want to join to do so
+without any paperwork. We are polishing up that description to share with munis. It
+should be ready in a day or two. Meanwhile the SW Resi Solarize page is ready.”]
+- Heat Pumps
+Washington firehouse garage HPs: A draft RFP for installation of the heat pumps
+and electric boiler was sent to Village staff 2/21/25 for review and editing. Jon will
+adjust the refrigerant spec language in the draft RFP to ensure an up-to-date choice is
+made.
+Residential HPs: NY State has yet to roll out its Home Electrification and Appliance
+Rebates (HEAR) program for middle income homeowners. We had hoped to use its
+heat pump incentive to replace electric water heaters with HPWHs. An inquiry to SW
+on HEAR elicited this 3/14/25 response: “As you know, HEAR is an IRA program not
+2
+
+NYS…the best we can say at this time is that the [DOE] programs are continuing as
+planned right now. We have no updates on rollout for moderate income folks yet.”
+Along with other DOE energy efficiency programs, HEAR may get axed. Len found
+nothing on the matter – one way or the other – in the Congressional Resolution (CR)
+that passed 3/14/25. Until we have greater clarity, it will no longer be an agenda item.
+- Funding and Budgeting Issues
+Len is working with Bedford and other munis to lobby Mike Lawler (our House Rep.) to
+ensure DirectPay credits remain available to help municipalities fund their energy
+projects. At issue for us is ~$100K in DirectPay credits we will seek for the solar
+projects at DPW and the Harmon firehouse. On 3/9/25, Rep. Lawler and 20 other
+Republican House Reps signed a letter asking Trump to preserve the IRA tax credits.
+The letter did not specifically mention DirectPay, so (on 3/19/25) Len made the pitch
+directly to Lawler to preserve it. His report is at the end of these minutes. The CR
+didn’t change present tax law, so we’re likely OK until it runs out on 9/30/25.
+An “early warning” for what’s expected after the CR runs out may arrive by Memorial
+Day when the chair of the House Ways and Means Committee (Jason Smith) plans to
+send to Trump the “big beautiful” tax bill that will replace the CR.
+While eliminating the credits would require Congressional action, there is concern that
+the Trump administration may instead try to effectively kill them by “infinitely delaying”
+applications for them. On 3/7/25, Village Treasurer Dan Tucker reported that IRS in
+January denied our request for a ~$20K DirectPay reimbursement for the Washington
+firehouse solar rooftop, saying his filing was “submitted too late”. Dan referenced IRS
+paperwork that would allow his filing, but has yet to hear back from IRS on the matter.
+Even if the tax credits are maintained for now, efforts are underway to shorten their
+lifetime. Present law offers 30% through 2032 and then ratchets down to zero by
+2035. That timeline could be shortened by several years. However unless held up,
+both of our pending solar projects should be completed by mid-2026.
+- Other Reports
+Jon reported on information received regarding the GridRewards program. As a
+homeowner with solar panels on his roof, he had previously received ~$40 to ~50 a
+year in rewards. But for 2024, he was recently notified he would get only $12 despite
+his successful performance at 100% during 2024’s eight demand response calls. He
+was notified that owners having solar panels would not receive the usual
+performance-based rewards if the PV system is exporting during the Demand
+Respond/ event.
+
+3
+
+- Recruitment/Outreach/Communications/PR
+On 3/13/25, at an Ardsley meeting of the Westchester
+Municipal Officials Association (WMOA), Village Manager
+Bryan Healy delivered a tabletop presentation on the train
+station project that included photos taken by Dave.
+- New Business / Other Issues
+Textile recycling event at Earth Day: Cheryl reviewed
+planning for her Earth Day textile recycling booth. She has
+produced and is distributing a flyer. She is in process for ordering a banner, has bins
+for the clothing and a commitment from CAC for both a table and chairs, but still needs
+a few volunteers to staff her table. She will seek some from the Knights of Columbus.
+Via the high school’s guidance department, she and Jon will seek high schoolers
+needing public service credits as potential table staffers.
+Date for our next meeting was set for Sunday, April 27, 2025 at 10:00 AM via Zoom.
+
+4
+
+Len’s report on his chat with House Rep. Mike Lawler on DirectPay municipal tax credits
+Thanks so much for forwarding the article on tax credits. It was very informative and it’s
+encouraging to read that the member of the Presidential Transition Team thinks “the juice isn’t
+worth the squeeze” when it came to eliminating IRA energy tax credits.
+I had a good conversation with Rep. Mike Lawler on Wednesday [3/19/25]. Here are the
+highlights of our discussion:
+
+1. The Continuing Resolution (CR) adopted last week was just that – a straightforward
+continuation of ongoing government funding through the rest of the federal fiscal year,
+September 30th, 2025.
+
+2. There were no changes to previous governmental spending except the elimination of
+Community Project Funding and a slight increase in Pentagon and Department of
+Homeland Security funding.
+
+3. There were no changes to any current tax provisions in the CR. As the article you
+highlighted emphasized, all of that is to come later, in the “big beautiful bill” which the
+President envisions will contain his tax priorities, his border and national security
+initiatives and his energy production program.
+
+4. I thanked the Congressman for being part of the March 9th joint letter of 21 House GOP
+members urging retention of current energy tax credits.
+
+5. Following that, I told him that careful attention was needed to ensure that DirectPay was
+included in those retention efforts. I briefly explained how DirectPay worked in contrast
+to traditional tax credits for the benefit of him and the several of his staff members who
+were on the call, let him know how important it was to local governments and to our EV
+chargers at the train station. He seemed aware of DirectPay but made no specific pledge
+regarding any future effort. But we definitely placed the issue squarely on the table.
+
+6. The Congressman told us that when it came to energy tax credits, it was important not
+to “throw out the baby with the bathwater”. Having said that, he also pointed out that
+when it comes to specifics, even the 21 signatories to the joint letter are not in full
+agreement.
+7. Finally, his perspective on the Department of Governmental Efficiency (DOGE) is
+interesting. He believes that ultimately what they are doing is conducting a
+“supercharged audit” and that with respect to most of their work, and in the spirit of
+checks and balances, Congress will have the last word.
+
+5
+
+Carly’s report on how buying renewable diesel fits with Croton’s Green Purchasing resolution
+
+Page 6 section 9 of the document is on “Environmentally Preferable Purchasing”
+"Where the Village of Croton-on-Hudson is procuring a commodity or service, whether
+by competitive bid or other type of procurement, that is the subject of a GreenNY
+procurement specification that has received final approval of the NYS GreenNY Council
+pursuant to Executive Order No. 22 (2022), the Village Manager, Treasurer, or
+Department Head shall follow the GreenNY procurement specification to the maximum
+extent practicable and where cost is reasonably competitive as defined in General
+Municipal Law § 104-a. GreenNY approved procurement specifications can be found
+online at: https://ogs.ny.gov/greenny/approved-greenny- specifications.”
+Following that link to GreenNY if you go to the bottom and click on "NYS Sustainability
+Policies Supported by GreenNY Specifications" it takes you here
+https://ogs.ny.gov/sustainability-policies
+There is a section on Climate and Energy Related Policies and under that it says
+Greenhouse Gas Reduction Goals: The Climate Leadership and Community
+Protection Act has set ambitious climate protection goals aimed at limiting “statewide
+greenhouse gas emissions to 60% of 1990 levels by 2030 and 15% of 1990 levels by
+2050.”
+Citation: Climate Leadership and Community Protection Act (July 18, 2019). For more
+information, go to: https://climate.ny.gov/. See also https://dec.ny.gov/environmentalprotection/climate-change/new-york-response#Protection.
+Applicable GreenNY Specification Categories: Appliances, concrete,
+electronics, fuel, lighting equipment, refrigerants, vehicles, etc.
+Fuel is noted in that list, which would include Renewable Diesel as a cleaner alternative.
+
+6
+
+

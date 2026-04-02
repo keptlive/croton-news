@@ -1,0 +1,280 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//croton.news//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Croton — Field Library (Peekskill)
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Events from Field Library (Peekskill)
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+BEGIN:VEVENT
+UID:57e4af8c3d3f@croton.news
+DTSTART;TZID=America/New_York:20260401T110000
+SUMMARY:Playtime and Coffee
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/playtime-and-coffee-4/2026-04-01/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Playtime and Coffee:   We invite caregivers to join us for coffee and conversation, while your little ones have fun at playtime!  For children of all ages and caregivers.         Juego libre y café: 
+END:VEVENT
+BEGIN:VEVENT
+UID:c8cf9988837b@croton.news
+DTSTART;TZID=America/New_York:20260402T150000
+SUMMARY:LEGO Marble Maze
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/lego-marble-maze/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n LEGO Marble Maze:  Drop in to play with LEGOs and create a maze! Will you be able to get your marble through the maze successfully?  For ages 5-11.   LEGO Laberinto de canicas:  ¡Ven a jugar con LEGO
+END:VEVENT
+BEGIN:VEVENT
+UID:161528e03355@croton.news
+DTSTART;TZID=America/New_York:20260402T180000
+SUMMARY:FIBER ARTS GROUP
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/fiber-arts-group/2026-04-09/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\nField Library Fiber Artists:  Bring your current project to the library and join our crafting circle. Interested in learning to knit or need help? Talk to Benny!
+END:VEVENT
+BEGIN:VEVENT
+UID:186e5af10ffe@croton.news
+DTSTART;TZID=America/New_York:20260403T130000
+SUMMARY:Author Book Talk - The 50 Broken Arrows
+LOCATION:Library Program Room
+URL:https://thefieldlibrary.org/calendar/author-book-talk-the-50-broken-arrows/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n AUTHOR BOOK TALK – “THE 50 BROKEN ARROWS” Join us at The Field Library for a book discussion with local author Doreen Asia Headen, as she discusses her book. The 50 Broken Arrows is a powerful and tr
+END:VEVENT
+BEGIN:VEVENT
+UID:53d9c28cb539@croton.news
+DTSTART;TZID=America/New_York:20260403T143000
+SUMMARY:Open Play and Care Kits
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/open-play-and-care-kits-6/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Open Play and Care Kits:  Kids and caregivers are invited to join us for open play! On different days, we’ll have puzzles, trains, LEGOs, and more! We’ll also have Care Kits (snacks!) for families in
+END:VEVENT
+BEGIN:VEVENT
+UID:0f4296e15b07@croton.news
+DTSTART;TZID=America/New_York:20260406T150000
+SUMMARY:Teen Creativity Time
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/teen-creativity-time/2026-04-15/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teen Creativity Time – Drop In:  Stop by our Teen Program Room to hang out with friends and create things!    4/6: Friendship Bracelets (Pulseras de la amistad) 4/8: Coloring / Drawing (Colorear / Di
+END:VEVENT
+BEGIN:VEVENT
+UID:8e910e163b99@croton.news
+DTSTART;TZID=America/New_York:20260406T153000
+SUMMARY:Open Play and Care Kits
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/open-play-and-care-kits-6/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Open Play and Care Kits:  Kids and caregivers are invited to join us for open play! On different days, we’ll have puzzles, trains, LEGOs, and more! We’ll also have Care Kits (snacks!) for families in
+END:VEVENT
+BEGIN:VEVENT
+UID:3ef0984c70e2@croton.news
+DTSTART;TZID=America/New_York:20260406T160000
+SUMMARY:Teacher in the Library
+LOCATION:Children’s Study Room\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/teacher-in-the-library-23/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teacher in the Library:  Mystified by math? Puzzled by a project? Bilingual homework help is now available in the Children’s Room!  For pre-K to 5th grade students.      Maestra en la Biblioteca:  ¿P
+END:VEVENT
+BEGIN:VEVENT
+UID:a7f1660a3897@croton.news
+DTSTART;TZID=America/New_York:20260407T113000
+SUMMARY:Story Garden with Alexia
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/story-garden-with-alexia-10/2026-04-07/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Story Garden with Miss Alexia:  Enjoy stories, songs, and Miss Alexia’s magic ukulele!  This program is designed for babies and children up to 4 years old.       Jardín de Cuentos con Alexia:  ¡Disfr
+END:VEVENT
+BEGIN:VEVENT
+UID:26ec4c92c3e6@croton.news
+DTSTART;TZID=America/New_York:20260407T150000
+SUMMARY:Teacher in the Library
+LOCATION:Children’s Study Room\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/teacher-in-the-library-23/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teacher in the Library:  Mystified by math? Puzzled by a project? Bilingual homework help is now available in the Children’s Room!  For pre-K to 5th grade students.      Maestra en la Biblioteca:  ¿P
+END:VEVENT
+BEGIN:VEVENT
+UID:2d265506f693@croton.news
+DTSTART;TZID=America/New_York:20260408T110000
+SUMMARY:Playtime!
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/playtime-2/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Playtime!:  Enjoy playtime in the Children’s Room! Everyone will be able to play with a variety of toys and have fun! Playtime is also a great time to socialize and to get to know other caregivers in
+END:VEVENT
+BEGIN:VEVENT
+UID:64ff0ddda58a@croton.news
+DTSTART;TZID=America/New_York:20260408T150000
+SUMMARY:Teen Creativity Time
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/teen-creativity-time/2026-04-15/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teen Creativity Time – Drop In:  Stop by our Teen Program Room to hang out with friends and create things!    4/6: Friendship Bracelets (Pulseras de la amistad) 4/8: Coloring / Drawing (Colorear / Di
+END:VEVENT
+BEGIN:VEVENT
+UID:4b910907933b@croton.news
+DTSTART;TZID=America/New_York:20260408T153000
+SUMMARY:Tales for Tails: Read to a Therapy Dog
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/tales-for-tails-read-to-a-therapy-dog-9/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Tales for Tails – Read to a Therapy Dog:  Reading with a therapy animal can help reluctant readers, new language learners, and anxious readers gain confidence and develop a love of reading!  Children
+END:VEVENT
+BEGIN:VEVENT
+UID:ef6e280969a0@croton.news
+DTSTART;TZID=America/New_York:20260409T153000
+SUMMARY:Book Spine Poetry
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/book-spine-poetry/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Book Spine Poetry:  Search the stacks for the perfect words to create your very own poem – entirely out of books!  For ages 5-11.      Poesía del Lomo del Libro:  ¡Busque en la biblioteca las palabra
+END:VEVENT
+BEGIN:VEVENT
+UID:645f049abb59@croton.news
+DTSTART;TZID=America/New_York:20260409T160000
+SUMMARY:Teacher in the Library
+LOCATION:Children’s Study Room\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/teacher-in-the-library-23/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teacher in the Library:  Mystified by math? Puzzled by a project? Bilingual homework help is now available in the Children’s Room!  For pre-K to 5th grade students.      Maestra en la Biblioteca:  ¿P
+END:VEVENT
+BEGIN:VEVENT
+UID:9424bac6e8ea@croton.news
+DTSTART;TZID=America/New_York:20260409T180000
+SUMMARY:FIBER ARTS GROUP
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/fiber-arts-group/2026-04-09/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\nField Library Fiber Artists:  Bring your current project to the library and join our crafting circle. Interested in learning to knit or need help? Talk to Benny!
+END:VEVENT
+BEGIN:VEVENT
+UID:ea18387061cf@croton.news
+DTSTART;TZID=America/New_York:20260409T193000
+SUMMARY:CONVERSATIONS IN ENGLISH
+LOCATION:Library Gallery\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/49110/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n CONVERSATIONS IN ENGLISH:  Ideal for people of any level who are learning English and want to practice their language skills through simple conversation topics:   Ideal para personas de cualquier niv
+END:VEVENT
+BEGIN:VEVENT
+UID:cb8c1c80d1e3@croton.news
+DTSTART;TZID=America/New_York:20260410T103000
+SUMMARY:Story & Craft
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/story-craft-5/2026-04-10/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Story & Craft:  Join us for storytime followed by a special craft!  For ages 2-5.  Space and materials are limited, so please arrive on time.      Cuentos y Arte:  ¡Únete a nosotros para cuentos y un
+END:VEVENT
+BEGIN:VEVENT
+UID:318a09d490d4@croton.news
+DTSTART;TZID=America/New_York:20260410T153000
+SUMMARY:Fun with Blocks!
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/fun-with-blocks-5/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Fun with Blocks!:  Drop in to build with blocks, Lincoln logs, and other construction toys!  For ages 2-11.      ¡Diversión con bloques!:  ¡Entra a construir con bloques, troncos Lincoln y otros jugu
+END:VEVENT
+BEGIN:VEVENT
+UID:671a9c535c29@croton.news
+DTSTART;TZID=America/New_York:20260411T120000
+SUMMARY:Fiesta with Flor
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/fiesta-with-flor-9/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Fiesta with Flor – Bilingual Music, Movement, and Puppetry:   Join Flor Bromley for a fun free bilingual (English/Spanish) music program designed for the whole family! Flor teaches Spanish through mu
+END:VEVENT
+BEGIN:VEVENT
+UID:04884815be25@croton.news
+DTSTART;TZID=America/New_York:20260411T130000
+SUMMARY:Documentary Premiere - "A Winter Dream"
+LOCATION:Library Gallery\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/documentary-premiere-a-winter-dream/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Documentary Premiere – ” A Winter Dream” Watch this stunning documentary about the 2005 Special Olympics US Hockey team at the soft premiere at the Field Library! 
+END:VEVENT
+BEGIN:VEVENT
+UID:e882cbc02075@croton.news
+DTSTART;TZID=America/New_York:20260413T150000
+SUMMARY:Teen Creativity Time
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/teen-creativity-time/2026-04-15/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teen Creativity Time – Drop In:  Stop by our Teen Program Room to hang out with friends and create things!    4/6: Friendship Bracelets (Pulseras de la amistad) 4/8: Coloring / Drawing (Colorear / Di
+END:VEVENT
+BEGIN:VEVENT
+UID:bb46d27cce81@croton.news
+DTSTART;TZID=America/New_York:20260413T160000
+SUMMARY:Teacher in the Library
+LOCATION:Children’s Study Room\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/teacher-in-the-library-23/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teacher in the Library:  Mystified by math? Puzzled by a project? Bilingual homework help is now available in the Children’s Room!  For pre-K to 5th grade students.      Maestra en la Biblioteca:  ¿P
+END:VEVENT
+BEGIN:VEVENT
+UID:8f9e6c7bc4e7@croton.news
+DTSTART;TZID=America/New_York:20260414T110000
+SUMMARY:How to Survive Rising Food Prices
+LOCATION:Virtual
+URL:https://thefieldlibrary.org/calendar/how-to-survive-rising-food-prices/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n HOW TO SURVIVE RISING FOOD PRICES In addition, ideas for saving money with meal planning will be presented as well as tips to save money at home and in the kitchen. Participants will be provided with
+END:VEVENT
+BEGIN:VEVENT
+UID:1230d90f291f@croton.news
+DTSTART;TZID=America/New_York:20260414T150000
+SUMMARY:Teacher in the Library
+LOCATION:Children’s Study Room\, 4 Nelson Avenue\, Peekskill\, NY\, 10566\, United States
+URL:https://thefieldlibrary.org/calendar/teacher-in-the-library-23/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teacher in the Library:  Mystified by math? Puzzled by a project? Bilingual homework help is now available in the Children’s Room!  For pre-K to 5th grade students.      Maestra en la Biblioteca:  ¿P
+END:VEVENT
+BEGIN:VEVENT
+UID:88db3342a2eb@croton.news
+DTSTART;TZID=America/New_York:20260414T151500
+SUMMARY:Teen Craft - DIY Dust Covers and Phone Charms
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/teen-craft-diy-dust-covers-and-phone-charms/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n DIY Dust Covers and Phone Charms:  Learn how to create your very own dust covers and phone charms!  For ages 12-17.  *Bilingual program.       Protectores contra polvo y charms para móvil:  ¡Aprende 
+END:VEVENT
+BEGIN:VEVENT
+UID:35b32d52ec5e@croton.news
+DTSTART;TZID=America/New_York:20260414T153000
+SUMMARY:Open Play and Care Kits
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/open-play-and-care-kits-6/2026-04-14/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Open Play and Care Kits:  Kids and caregivers are invited to join us for open play! On different days, we’ll have puzzles, trains, LEGOs, and more! We’ll also have Care Kits (snacks!) for families in
+END:VEVENT
+BEGIN:VEVENT
+UID:02700ae75705@croton.news
+DTSTART;TZID=America/New_York:20260415T113000
+SUMMARY:Musical Tots with Lori Cohen
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/musical-tots-with-lori-cohen-9/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Musical Tots with Lori Cohen:  Stop by the Children’s Room for a fun, interactive program with Lori Cohen! Get ready to sing, dance, play, and maybe even pop some bubbles!  For ages 1-5.      Tots Mu
+END:VEVENT
+BEGIN:VEVENT
+UID:29350672f104@croton.news
+DTSTART;TZID=America/New_York:20260415T150000
+SUMMARY:Teen Creativity Time
+LOCATION:Downstairs Teen Room
+URL:https://thefieldlibrary.org/calendar/teen-creativity-time/2026-04-15/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Teen Creativity Time – Drop In:  Stop by our Teen Program Room to hang out with friends and create things!    4/6: Friendship Bracelets (Pulseras de la amistad) 4/8: Coloring / Drawing (Colorear / Di
+END:VEVENT
+BEGIN:VEVENT
+UID:a5080a3dd1ad@croton.news
+DTSTART;TZID=America/New_York:20260415T153000
+SUMMARY:Imagination Station
+LOCATION:Children’s Room
+URL:https://thefieldlibrary.org/calendar/imagination-station-7/
+CATEGORIES:events
+DESCRIPTION:Source: Field Library (Peekskill)\n Imagination Station:  Drop in and make some art in the Children’s Room! We’ll have plenty of craft materials on hand, so let your creativity run wild!  For children of all ages.      Estación de la I
+END:VEVENT
+END:VCALENDAR

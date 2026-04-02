@@ -1,0 +1,199 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Sept. 22, 2024 – via zoom
+Members Attending:
+Lindsay Audin (chair, CSC Coordinator)
+
+Absent:
+Ashley Clemente
+
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (community gardens)
+Brian Pugh (Croton Mayor)
+Len Simon (Village trustee)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): Joe Anthony, Croton High School senior (did not appear or respond)
+Announcements: On 5/30/24, Croton was re-certified as a Bronze Climate Smart
+Community (CSC), getting us 800 CEC points. On 9/5/24, we were re-certified as
+Silver, getting us another 600 CEC points. The re-certs are good until 9/2029. Croton
+is now 3rd in the CSC program, after Tompkins County and the Village of Hastings.
+As of 9/20/24, Croton still holds 1st place in NYSERDA’s CEC program with 16,200
+points. Kingston has 11,600, Hastings 11,100, Bedford 10,500, and Dobbs Ferry
+10,000. No other muni has over 10,000 points.
+On 7/12/24, the VB renewed Croton’s CCA contract for another two years. On 8/6/24,
+paperwork was filed to secure another 2,000 CEC points for doing so.
+- Solar Projects/Issues
+Train station canopies: 10 (of the 12) canopies are complete, except for minor work,
+e.g. gutters and downspouts. Sol’s revised schedule now shows final completion and
+startup by 12/27/24. On 9/17, Mayor Pugh
+and Lindsay escorted reps of other CECs,
+as well as local media, on a tour of the site.
+See Dave’s pic at right.
+Washington firehouse net metering:
+Further discussion with Village officials is
+needed to clarify how net metering’s carbon
+credits are preferable to VDER $ credits.
+However, a review of 18 months of interval
+data shows that – due to the solar array –
+peak demand has not yet exceeded the 10 kW threshold required to access net
+metering, so this issue remains open at this time. [It will be addressed at a 9/30/24
+meeting with Bryan Healy, Brian Pugh, and Len Simon.]
+DPW solar parking canopy: Next step is developing a draft project description,
+Scope of Work (SOW), and proposed budget to Village officials to start the planning.
+NYSERDA grant funding is in hand to cover the entire cost.
+1
+
+Village electric accounts in community solar: As of the June NYPA bill, most
+Village accounts were showing community solar credits. In early August, we secured
+the 300 CEC points for their enrollment. After much discussion and a threat of a PSC
+complaint, Con Ed on 8/16/24 allowed street lighting accounts to enroll. PowerMarket
+(our community solar agent) submitted the accounts on 9/20/24. Community solar is
+now savings the Village over $10K on its annual electric bills.
+- Heat Pumps
+Harmon firehouse addition: On 5/10/24, Lindsay sent Village staff the spec
+developed by Jon and Dan for a hybrid rooftop ASHP. It will furnish most heat, with a
+gas-fired heating coil to heat on very cold days. Our CEC grants will cover the extra
+cost over that of the gas-fired A/C in the original design. Len indicated that work on
+the addition should be completed before the end of 2025.
+Washington firehouse garage HPs: The option for a central HP and electric boiler,
+instead of individual HPs for the garage, needs review. It could fully electrify the
+building, allowing for removal of its oil-fired boiler and 45-year old underground oil
+tank. Via a suggestion from Dave, Lindsay found a 2/24 announcement of a packaged
+system that replaces fossil-fueled hydronic boilers with a combination air-to-water heat
+pump and electric boiler. Jon and Dan will be asked to review the option.
+DPW HPs: The ASHRAE energy audit of the building done in April was fixed and
+updated 8/28/24. It found there are rarely more than 4 people in the building at one
+time (DPW has 28 employees). Some employees work remotely, while others are in
+the field most of their workday. Three aging A/Cs were recommended to be replaced
+by heat pumps whose operation would be staged with existing hydronic controls. Most
+other measures had paybacks measured in decades.
+Residential HPs: On 5/30/24, NY opened its IRA-funded rebate/voucher program for
+its Home Electrification and Appliance Rebates (HEAR) Program. Only low-income
+households (~$50K/yr) eligible for NY’s EmPower+ program can access it. Rollout of
+the next phase (for middle-income families) is expected later this year. In early
+August, Len assessed how many Croton households have annual incomes of $50K/yr
+or less, pursuant to a possible HPWH campaign. See below for details.
+- EV/EVSE
+On 9/19/24, our revised layout for the train station chargers was OKed by Core
+Development, SolSystems’ prime contractor. We reviewed a diagram of the revised
+layout, which would not be covered by a canopy and would eliminate 1 of the 12 dual
+port chargers. Next step is a dimensioned drawing, once the site (now being used as
+a staging area) has been cleared of supplies and equipment, possibly by late October.
+On 7/22/24, we finally got paperwork for the DEC $150K grant to install the first 12 EV
+charge ports at the train station. We await State approval of the contract, which on
+8/8/24 DEC said involves:
+2
+
+The Program Manager is currently reviewing the drafted document, and will provide the final
+approval before we upload the WP/B [Work Plan/Budget] into SFS. Once it’s posted to SFS, I route
+the contract to the muni for final review, the muni will review and route the contract back to DEC
+where it will be reviewed by the Office of Management & Budget. After finishing review, it’s
+routed for signatures: first to the muni, then DEC, and finally the Attorney General. The muni will
+be notified by SFS whenever the contract is ready for review/approval and then signature.
+
+Additional paperwork (to comply with DEC’s previously unstated requirement for use
+of minority/women-owned contractors) has also slowed contract approval.
+Once a signed contract is in hand, the next steps include developing a RFP to get
+bids. In light of the delays since seeking the grant in 2022, we asked to raise the
+amount due to inflation, etc. DEC told us to instead reduce the scope of work, or else
+use part of the grant not devoted to installation (e.g., funding of 2 years of free
+charging) to cover cost increases. Deletion of 1 dual-port charger (mentioned above)
+could save ~$18K, which may be sufficient to cover those increases.
+See below for funding from 6 small NYSERDA grants (totaling $82.5K) that together
+will cover the other 12 ports not covered by the DEC grant.
+In late July, Croton Auto Park applied for a permit to install a 180 kW DCFC and two
+19.2 kW L2 chargers, as required to sell Stellantis EVs. The project would include a
+20 kW solar canopy and a 280 kW BESS. Total estimated project cost is $400,000.
+After community input, site was relocated to back of Auto Park property.
+- Funding and Budgeting Issues
+On 6/26/24, the Village Board authorized Bryan Healy to sign the $425K grant contract
+with NYSERDA that will pay for many of the above-mentioned Village projects. A 2nd
+contract with NYSERDA for $17.5K was countersigned 7/24/24 that combined two
+small grants ($10K and $7.5K). Four other small grants (ranging from $7.5K to $20K)
+arrived as checks not requiring contracts. Together, the six grants will be used to
+install the last 12 charge ports for the train station EV charger project.
+Len reported on several other financial issues.
+- His analysis of 2022 data for Croton household with incomes at or below $50K/yr
+found ~273. That cutoff covers those that might be eligible for recently offered
+vouchers for heat pump water heaters (HPWH). While 80.1% of households are
+owned in Croton, the split between owners and renters could not be determined. The
+% earning $50K or less is likely much lower. At best, that would leave ~220 eligible.
+Factoring those with electric water heaters (~40% at most) yields up to 88. With an atbest response rate of 10% for such efforts, fewer than 10 would be expected to
+participate in a campaign to replace electric water heaters with HPWHs, too few to
+initiate a program. Later this year, if the State expands the voucher option to medium
+income households (between $50K and ~$133K/yr, i.e., 80% of median income), a
+similar analysis will be performed.
+3
+
+- Len also assembled a list of 8 State grant programs for which Croton may be eligible
+based on its status as a Pro-Housing Community (PHC), one of which is NY Forward.
+[A 9/23/24 community meeting reviewed it, with many community members
+suggesting possible projects that included solar panels for more rooftops.]. While it’s a
+long shot, a pending energy audit of the Muni Bldg (see below) might provide tech
+backup for improving the Muni Bldg’s HVAC systems as a way to maintain the facility
+while cutting its GHG emissions, which is one of the goals of NY Forward. The audit
+will include a brief review of a ground-source heat pump (GSHP) to replace the many
+split A/C systems and gas-fired boiler.
+On 7/29/24, Gov. Hochul’s office announced a new grant program related to a nearby
+electric grid expansion. The State secured $43M in IRA funding for energy education
+and jobs along the Propel NY transmission line. It will run from Eastchester to New
+Rochelle, and on to points on Long Island. Under the “Propel NY Energy Sustainable
+Communities Initiative”, funding goes to disadvantaged communities (DACs) along the
+route. Croton is not near the route, nor are we a DAC, so there’s no funding for us.
+Find a map of the route at https://www.propelnyenergy.com/propel-in-your-region.
+- Other Reports
+Based on recent information on the potential use of Renewable Diesel (different from
+biodiesel) as an interim option until our local grid gets cleaner, a brief discussion
+occurred on the matter. [Subsequent research by Brian and Lindsay found that both
+New York City and Westchester County recently started replacing diesel with RD in
+some trucks and boilers. This option will be further discussed at our next meeting.]
+Pursuant to getting a free ASHRAE energy audit of the Municipal Building based on
+our CEC points, on 6/28/24 we filed for that option. Since no $ is involved, no bidding
+is needed. NYSERDA chose the auditor (L&S Energy Services). On 9/16/24, HVRC
+held a zoom on scheduling and other details. The audit will get us more CSC points
+and assess if a GSHP is an option to replace existing HVAC equipment.
+- Recruitment/Outreach/Communications/PR
+On 7/14/24, Croton’s CAC held another successful
+Repair Café in the Muni Bldg Community Room.
+See Dave’s pic at right.
+On 8/12/24, Lindsay zoomed with residents and
+the Sustainability Committee at Kendal-onHudson, a retirement community in Sleepy Hollow.
+The title was “Croton’s Clean Energy Actions: Working To Preserve Our World”.
+As mentioned above, on 9/17/24, Mayor Pugh and Lindsay guided a tour of the train
+station canopy project for the Hudson Valley Regional Council (HVRC), CEC
+participants, local media, and clean energy activists. Find the Croton Chronicle article
+on the event at: https://open.substack.com/pub/thecrotonchronicle/p/crotons4
+
+expansive-solar-canopies?r=3cxnji&utm_campaign=post&utm_medium=web. The
+event was also covered in The Gazette and the River Journal.
+On 9/18/24, Lindsay presented (via zoom) on the CSC and CEC programs at the
+annual conference of the NYS Assoc. of Conservation Councils held in Watertown.
+A drone pic of work at the train station canopy project was in the summer Village
+newsletter. The Sept. Mayor’s newsletter commended our CSC Silver re-certification.
+- New Business / Other Issues
+Regarding a potential conflict-of-interest if a committee advisor wanted to bid on a job
+about which he had consulted, Brian and Bryan Healy got a 7/16/24 opinion from
+Rebecca Ruscito, Counsel for the NY Conference of Mayors that stated:
+“No – the electrical contractor (EC) would not be precluded from bidding on this
+contract. The specifications cannot be drafted in a way to give preference to the contractor,
+but the EC may still bid.
+Another question is how the committee is selecting the EC and is the committee engaging
+him as a consultant? Assuming the committee is not contracting with the EC as a
+consultant and the EC is offering his opinion, there’s no professional services contract we
+need to consider. But if the committee is entering into a contract with the EC as a
+consultant, this contract also needs a competitive procedure before the EC can be engaged.
+All that to say, service providers/vendors/etc. may be utilized to help the village draft
+specifications, but the specifications cannot be drafted in a way that gives preferential
+treatment to the service provider.”
+
+Bottom line: we’re good to go as long as we don’t pay an EC and he doesn’t get to
+write the actual bid specs for the job.
+Following up on Dave’s suggestion for such an advisor, we approached Nick Kalyvas
+of NK Electric, a Croton-based contractor. During a 7/24/24 zoom, he checked the
+design and costing for the train station EV charger project. He found several code and
+cost issues with our preliminary charger project design and is helping to correct them.
+Date for our next meeting was set for Sunday, Oct. 27 at 10:30 AM via Zoom.
+
+5
+
+

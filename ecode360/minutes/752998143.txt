@@ -1,0 +1,161 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Oct. 22, 2023 – via zoom
+Members Attending:
+Lindsay Audin (chair and CSC Coordinator)
+
+Absent:
+Alexandra Barkan
+
+Dan Columbini PE
+Ashley Clemente
+David Goldman
+Jon Katz PE
+Niall Kelleher (Comm. Gardens)
+Brian Pugh (Mayor of Croton)
+Len Simon (Village trustee)
+Bernie Yozwiak (Care for Creation Ministry)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): none
+Announcement: On 10/16, Mayor Pugh appointed Alexandra Barkan to the Committee.
+- NYSERDA CEC-sponsored projects
+New Community Campaigns (community solar, EVs, HPs):
+- On community solar, Sol’s customer acquisition contractor (Community Solar
+Platform a/k/a CSP) enrolled 112 subscribers (all at the Skyview Rehab and Care
+Center), pushing us over the CEC achievement level (50) needed to secure a $10K
+grant and 300 CEC points. Paperwork to that end was filed 10/20.
+The other 62 subscribers will be “banked” for the next achievement level. It requires
+100 more, so we need to enlist 38 other subscribers. Doing so will yield another $20K
+grant and 500 more CEC points. CSP’s online enrollment page has been posted, but
+Joel found it needs serious “cleanup” before our own enrollment efforts can begin.
+- On identifying at least 25 new HP installations to secure 2 other grants totaling
+$30K grant and 1,300 CEC points, we need only cite those at the new Maple St. Apts.
+(to be done by Feb. 2024). A total of 66 HPs will be installed in those 33 apartments.
+- Finding at least 65 new EVs (not used or leased) in Croton presents a greater
+challenge. Success would yield an additional $22.5K in 2 grants and 800 CEC points.
+On 9/27, a new volunteer agreed to help, but - after receiving an outline of the task he did not respond and is no longer involved. On 9/28, Lindsay filed a Freedom of
+Information Law (FOIL) request to NYSERDA for data on recipients of the NYS Drive
+Clean Rebates ($2K each). That data may help identify EV/PHEV buyers in Croton
+since 6/1/23. An initial response is expected by 10/27.
+- Solar Projects/Issues
+
+1
+
+Train station canopies: completion is slated
+for late spring 2024. Dave took progress
+pics of work at the south end (near the salt
+shed). On 10/12, Sol indicated that cranes
+will soon arrive at the north end to lift the
+>5-ton POWIN battery containers onto their
+newly finished concrete pads.
+DPW solar canopy option: Mayor Pugh
+said that though the $100K CREST grant
+was used by the Village to buy 2 municipal
+EVs, funding was “fungible” such that the
+Village could provide $100K from its general funding toward a solar canopy.
+On 9/30, Lindsay asked NYPA for DPW’s 2022 hourly electric interval data to assess
+any peak demand issues. On 10/10, Frank Balbi said there were no known NY DEP
+issues with installing a canopy, but indicated that a definitive answer will require DEP
+review of the proposed design.
+After Jon’s extensive analysis of various NYPA and Con Ed tariff issues related to net
+metering, he explained a way we could install a ~80 kW (or larger) DPW canopy and
+retain the carbon credits from its solar production. The method bypasses two limits on
+the size of the system, and a rule that would have given the carbon credits to Con Ed.
+Jon’s work took considerable time (and brain cells). We thanked him for his work.
+On 10/18, Lindsay zoomed with NYPA re: project mgt. assistance for the project from
+its Customer Project Delivery division, but its estimated cost for the job (including its
+12.5% management fee) was almost triple our available funding. On 10/21, CEG
+(which built the DPW solar rooftop) was asked to provide a realistic ballpark cost.
+- EV/EVSE
+We reviewed a problem that is delaying our $150K DEC train station EV charger
+grant. On 10/10, DEC stated: “We have to resubmit the procurement to the
+comptroller, which will take some time to put together. I’m not sure where any of this
+will lead or how long it will take”. We were previously told the contract would arrive in
+“mid to late July”. It is impacting installation of the electrical infrastructure for the first
+12 charge ports. It’s unclear how this got so bungled at the State level. Brian will raise
+the issue with our State Sen. Pete Harckham.
+On 10/2, Bryan Healy said the County was offering a grant program to cover 50% of
+the cost to install public EV chargers. It could have helped fund the other 12 train
+station EV charge ports not covered by our ~$150K DEC charger grant. Later (10/17)
+info indicated the program was of no use to us.
+- Funding Sources/Issues
+In late September, Len attended two webinars on DOE and EPA grant programs for
+energy projects: the Low-Income Communities Bonus Credit Program, which offers an
+2
+
+extra 20% ITC, and EPA’s Climate Pollution Reduction Grants. Len sent reports on
+each with several slides. After analysis, it was apparent that for various reasons
+Croton is not eligible for either. His reports are appended to these minutes.
+- Heat Pumps
+Work on a general HP advisory posting stalled due to members’ work demands and
+the complexities and economics of switching home heating systems to HPs. Instead of
+pushing HPs on existing homes with presently acceptable heating systems, it may
+make sense to instead suggest HP adoption only where full HVAC replacement is
+needed due to age or failure, or in gut rehabs of older homes, and in new construction.
+We agreed to table further work until docs on securing HP incentives are available.
+Regarding replacing the aging A/C units at DPW with ASHPs, 3 energy audit
+proposals were received by 10/6 that will estimate the cost and savings for such
+replacements. The audit will cost $4,400, to be paid from one of our CEC grants.
+Delivery is expected by Christmas.
+With regard to promoting replacement of residential electric water heaters with
+HPWHs, we discussed drafts of two web postings to explain and encourage doing so.
+Lindsay will adjust their text as suggested by several committee members.
+- Other Reports
+Alexandra was unable to attend a 10/21 meeting of ~50 reps of local sustainability
+committees and CACs held by the Federated Conservationists of Westchester County
+(FCWC) at Scarsdale’s Greenburgh Nature Center. Brendan McNamara of FCWC will
+provide info on the event for our next meeting.
+- Recruitment/Outreach/Communications/PR
+On 10/3, Lindsay attended a zoom by the Purchase College Sustainability Coalition. It
+featured energy services by Ron Kamen of EarthKind Energy. Eight people attended.
+- New Business / Other Issues
+We briefly discussed indoor air quality, Energy Recovery Ventilation (ERV), and the
+lifetimes of water heaters. At a future date TBD, Dan agreed to host a tour of his new
+passive house and HP systems.
+Date for our next meeting was set for Sunday, Dec. 3, at 10:30 AM via zoom.
+
+3
+
+Len’s report on two federal funding programs
+Low Income Communities Bonus Credit Program
+Principal presenters were representatives from the DOE Energy Justice Projects Division and
+the Department of Treasury Office of the Counselor for Racial Equity. The focus was how the
+30% Direct Pay version of the investment tax credit could be raised up to 40 or 50% by a project
+meeting certain low income criteria. A fixed amount is set aside for this purpose in 2023 1.8GW. In other words, when projects equaling 1.8MW are approved, additional ITC credits will
+no longer be available.
+For a project located in a “Low Income Community” 700MW’s are allocated, and the tax credit
+addition is 10%. For a “Qualified Low-Income Residential Building Project” the MW allocation is
+200, and the additional tax credit is 20%. For a “Qualified Low-Income Economic Benefit
+Project”, the MW allocation is 700 and the additional tax credit is also 20%.
+The key question is whether there are any projects in Croton that meet any of those definitions.
+I’ve attached some key slides from the webinar which provide some possible sources where it
+can be determined if these definitions are applicable to Croton projects. This link from
+IRS https://www.irs.gov/credits-deductions/elective-pay-and-transferability might also be helpful.
+Also, as you’ll see from the slides, specific questions on this program can be asked directly to
+DOE at ejbonussupport@hq.doe.gov. Should it be determined that any of projects are eligible,
+applications can be submitted starting yesterday (October 19th) through November 18
+(application period may be continued depending on the applications they receive).
+Climate Pollution Reduction Grants
+This is Environmental Protection Agency $4.3 billion program for states, localities and tribes is
+focused on fund GHG reduction projects. Eligibility includes new projects, expansion of a project
+already being implemented or one for which partial funding has been obtained.
+Grants will range from $2.0 million to $500 million. I have also attached slides from this webinar
+to illustrate some of the highlights of the program. But as you can see, at the lower end of the
+scale – grants awarded between $2.0 - $10.0 million, which would have been the most likely for
+us to seek - there are relative few grants available – 10 to 50 nationally, for total funding of $100
+million. Applications will begin in the spring.
+Most significantly, though, I believe we may have an eligibility hurdle. This overall grant program
+is for implementation of a previous grant which was for creation of a “Priority Climate Action
+Plan” (PCAP). I don’t believe we applied for that previously. From the webinar I learned that we
+could apply an implementation grant if we are included in another level of government’s PCAP
+plan (county, regional body, state) but it’s likely that any of those will have their own priorities to
+pursue with this funding.
+I’ll certainly keep a lookout for any future PCAP funding availabilities which would open up the
+possibility of subsequent implementation grants for us.
+This link https://www.epa.gov/inflation-reduction-act/cprg-planning-grant-information provides
+more information on the Priority Climate Action Plan component of the Climate Pollution
+Reduction Grants. We can also address specific questions on the Climate Pollution Reduction
+Grants to the EPA staff running this program at cprg@epa.gov.
+I hope this is helpful and look forward to following-up on next steps.
+
+4
+
+

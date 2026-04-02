@@ -1,0 +1,359 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Oct. 27, 2024 – via zoom
+Members Attending:
+Lindsay Audin (chair, CSC Coordinator)
+Ashley Clemente
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+
+Absent:
+
+Niall Kelleher (community gardens)
+Brian Pugh (Croton Mayor)
+Len Simon (Village trustee)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): Sean Scollins, AVP for Engineering and Energy at Columbia Univ.,
+did not appear nor respond to follow-up emails. He will not be joining our committee.
+Croton holds 1st place in NYSERDA’s CEC program with 18,600 points. Hastings (as
+of 11/14/24) had 14,000. Bedford is tied with Irvington at 13,200.
+To hold our lead, Ashley compared our completed actions with those of Irvington. He
+found one (electric landscaping) we have not yet done. His work also revealed that we
+never got points for a task (EV chargers) completed last January. On 11/5/24, Lindsay
+re-filed for those 400 points. [They were awarded 11/13/24.]
+[Important update: as of noon, Thursday, Nov. 7, NYSERDA shut down the CEC
+program without prior notice. Fortunately, our grants are locked in by signed
+contracts. No more points will be awarded, and those having points must
+immediately “cash them in” if they are sufficient to qualify for a grant. Those
+funds will be awarded on a first-come, first-serve basis until they run out.
+For better or worse, Croton was the most successful CEC municipality, winning
+the most points and (probably) the most grants. We await word on how CEC
+may merge with the Climate Smart Community (CSC) program after 1/1/25.]
+We briefly discussed starting future meetings at 10:00 AM. All agreed that would be
+OK, starting with our November meeting.
+- Solar Projects/Issues
+Train station canopies: Except for minor
+work, e.g., gutters and wiring, structural work
+is done. To provide temporary lighting until
+the lights under the canopies get powered by
+Con Ed (likely by Dec.), portable solar lights
+are being set up. Dave provided recent pics
+of them.
+Battery charging and testing is to start in
+early December. Sol’s revised schedule still
+shows completion and startup by 12/27/24.
+1
+
+Washington firehouse net metering: In a 9/30/24 meeting with Village officials, the
+issue was clarified. But a review of interval data shows that – due to the solar array –
+peak demand has not yet met the threshold required to access net metering, so this
+issue remains open.
+DPW solar parking canopy: The next step is developing a draft project description,
+Scope of Work (SOW), and installation schedule to Village officials to start the
+planning. NYSERDA grant funding is in hand to cover the project cost.
+Others’ local solar installations: Recently completed renovations at the Metro-North
+train yard facility were (according to Metro-North and NYPA in 2022) to include a 130kW solar array on its roof, but a review of drone pics shows none. Queries to both
+agencies were not answered. Queries on two Ossining projects (5 MW battery behind
+St. Augustine Church and a solar canopy at its train station) also went unanswered.
+- Heat Pumps
+Harmon firehouse addition: On 9/30/24, the completion date for that project was
+clarified as the end of summer 2025, not 2024. As a result, installation of a hybrid
+(ASHP/gas) rooftop unit is on hold until next year. One of our CEC grants will cover
+the extra cost over that of the gas-fired A/C in the original design.
+Washington firehouse garage HPs: On 10/7/24, Jon and Lindsay zoomed on an
+option for a central HP and electric boiler as an alternative to individual HPs for the
+garage. It could fully electrify the building, allowing for removal of its oil-fired boiler and
+45-year old underground oil tank. Jon agreed to review the option and to query Greg
+Carey of C&W regarding likely duration of the planned HP installation. Issues of
+electric service capacity, load on the firehouse’s emergency generator, etc. will be
+assessed by Nick Kalyvas, our electrical advisor before our next meeting. Regarding
+potential interruption of firehouse activities during HP installation, Len agreed to query
+the Fire Council and fire chief Karpoff regarding how the same issue was handled
+when the Grand St. firehouse’s garage needed a new floor (which likely took much
+longer to fix than would the planned HP installation).
+DPW HPs: The option to replace #2 fuel oil with Renewable Diesel (RD, different from
+biodiesel) has put the HP project temporarily on hold until operating cost issues are
+sorted out. Sprague Energy, a past Village oil supplier, now offers RD. During a
+10/8/24 discussion, Sprague provided background and directed us to a data source to
+support RD’s claims of lower GHG and other emissions. Details on RD follow below.
+Residential HPs: NY State has yet to roll out its Home Electrification and Appliance
+Rebates (HEAR) rebate program for middle income homeowners. It’s now expected
+by the end of 2024 or early 2025. Once available, we will assess it for replacing
+existing residential electric DHW heaters with HPWH.
+Muni Bldg energy audit: Scheduled for late November, it will include a review of
+possible HPs (both ASHP and GSHP) to replace some or all of the building’s aging
+HVAC systems. Our standing in the CEC program made the audit free.
+2
+
+- EV/EVSE
+We continue to work our way through the DEC paperwork needed to finalize our
+$150K EV charger grant. Keiko Niccolini is assisting with that effort. [On 11/8/24, DEC
+finally posted a contract that, if acceptable to the Village, could be signed, thus moving
+this project forward.] The next step is a dimensioned drawing for Sol to follow to cut
+the trench and install PVC conduits for wiring to power
+to chargers. The area has not yet been fully cleared of
+equipment and materials for examination. [On 11/6/24,
+Lindsay and Keiko measured part of the area to
+develop the dimensioned drawing and will return once
+the space is fully clear].
+Len updated us on the e-bike sharing program now
+underway in Ossining and soon in Croton. A summary
+memo is attached.
+- Funding and Budgeting Issues
+We are approaching a point where more grant funding will either be unavailable or not
+applicable to some projects. Ongoing budgeting for carbon cutting was discussed. [In
+a 10/28/24, meeting Bryan Healy agreed to instead consider funding a switch to RD
+from general Village funds pending verification of pricing and DPW acceptance. Doing
+so could move us toward the same end.]
+- Other Reports
+We discussed Brian’s and Lindsay’s findings on RD as an option until the electric grid
+is cleaner. They found that New York City and the Westchester County Airport trucks
+now use RD. Instead of pursuing EV garbage trucks and fast chargers, the same GHG
+reduction could be had just by switching fuels. A memo on RD issues is attached. Dan
+agreed to ask his contact with the City’s Dept. of Sanitation on its experience with RD.
+- Recruitment/Outreach/Communications/PR
+On 9/29/24, Croton100 provided another EV display
+as part of the annual Rotary car show.
+The October Village Manager’s newsletter had a
+short piece on the 9/17 solar canopy tour.
+On 10/8/24, DEC delivered to the village a 12” x 18”
+sign saluting our Silver CSC re-certification.
+The Oct. issue of River Journal has an article on our
+solar canopy project: https://riverjournalonline.com/news/read-the-october-2024-issue-ofriver-journal-north/196928/
+
+3
+
+- New Business / Other Issues
+Date for our next meeting was set for Sunday, Nov. 24 at 10:00 AM via Zoom.
+MEMO
+Re: Using Renewable Diesel (RD) in Croton’s diesel-fueled trucks and oil-fired boilers
+Date: 11/14/24
+From: Lindsay Audin, chair, Croton Sustainability Committee
+To: Committee members
+[Note: information cited below came from US DOE, the Clean Fuels Alliance, National
+Oilheat Research Association (NORA), Sprague Energy, California state data
+resources, recent Village fuel bills, NY City and other press releases, and mileages for
+diesel and EV garbage trucks.]
+Executive Summary
+An alternative to using electricity to secure carbon reductions from municipal diesel
+trucks and oil-fired boilers has arisen. Switching from standard diesel and #2 fuel oil to
+renewable diesel (RD) fuel made from organic wastes, e.g., used vegetable oils and
+rendered fat from meat production, may yield comparable GHG reductions with faster
+implementation at lower cost than EV trucks.
+In areas where power plants primarily use fossil fuels (e.g., Westchester County), RD
+may be easier and more cost-effective than converting to large electric vehicles, e.g.,
+garbage trucks, and heat pumps to displace fuel oil for heating. In essence, this process
+takes organic waste that would otherwise end up creating methane from landfills in the
+South and instead converts it into very low carbon liquid fuels that displaces use of
+fossil fuels.
+Background
+Renewable Diesel (RD) differs from biodiesel (BD). BD is typically made from farmed
+soybean and palm oils that require use of fossil-fueled tractors, chemical fertilizers,
+arable land, etc. RD is instead made from used cooking oils, rendered animal fats, and
+similar organic waste products. RD is produced using a hydrogen treatment which
+makes it chemically equivalent to petroleum diesel. It can be blended at any
+concentration and transported using existing pipelines. While BD may be made with the
+same feedstocks as RD, it’s typically blended with petroleum distillate at concentrations
+of 20% or less for vehicle consumption due to its different chemistry. RD provides
+BTU/gal comparable to standard diesel: 123,701 versus 138,000 (about 9% lower).
+While BD has been in use in Europe and North America for decades, RD is a relatively
+new liquid fuel. In the U.S., most RD is consumed in California, which offers a generous
+subsidy for its use. San Francisco has been using it in its municipal vehicle fleet since
+2015. In 2023, it became available in the Northeast and – as of November 2023 – is
+4
+
+fueling New York City’s 12,600 municipal diesel vehicles. It’s shipped to NY by barge
+from Louisiana. Westchester County Airport now uses RD in its diesel trucks. No
+Westchester municipalities are now using RD.
+Unlike BD, RD is less temperature sensitive (storable to -4 F without issues) and is
+easily mixed with standard diesel. RD entails no alteration to diesel vehicles and no
+alteration to #2 fuel oil boilers. For the same gallons, Relative to diesel, RD’s NOx
+emissions are 11.5% lower, and PM 2.5 particulates are 5-28% lower. SOx emissions
+are the same as or lower than Ultra Low Sulfur Diesel (ULSD).
+In July 2022, U.S. RD production capacity surpassed BD, which led to RD production
+exceeding BD in 2023. So far in 2024, RD production has more than tripled from nearly
+70,000 barrels per day (b/d) in 2021 to 240,000 b/d. Refineries producing RD are now
+spreading across the U.S.
+A local delivery to Croton on 11/7/24 by Sprague Energy would have cost only
+$.1857/gal more than standard diesel, with an expected long-term contract price of up to
+$.50 - $.75 above standard diesel. In this memo, a $.75/gal differential is used for
+conservatism. On 11/21/24, RD will be available via the State’s contract for public
+agencies, providing a firm price at that time.
+Carbon Reduction With RD
+For a municipality seeking to reduce its carbon footprint, i.e., contribution to climate
+change, RD is an option for its diesel-fueled vehicles (e.g., garbage trucks) and its oilfired boilers.
+Depending on the feedstock, processing, and fuel delivery method, RD reduces carbon
+emissions relative to standard diesel by 50-80%, with ~70% being the most-cited
+reduction. RD still produces carbon when burned, but its lifecycle is almost “carbon
+neutral”: its released carbon was previously pulled from the atmosphere during growth
+of the vegetable matter that produced the waste oil and fats. By displacing fossil fuel
+that would add new carbon to the atmosphere, RD cuts overall carbon. The 30% that it
+doesn’t reduce comes from its processing, handling, and transportation.
+How Does This Relate To Electrification?
+In recent years, the “electrify everything” movement has focused attention on electric
+vehicles (EVs) and heat pumps (HPs) as the sole ways to cut carbon emissions from
+large vehicles and heating systems. However, too little attention has been paid to
+regional differences in power plant emissions to run those devices.
+In New York, this issue has been clouded by citing average NY State power plant
+emissions (in lb/kWh or MT/MWhr) instead of using EPA eGrid data that is specific to
+each utility service area. Emissions in upstate NY (served mainly by hydro and nuclear
+power plants) are (for 2023) .275 lb/kWh, while emissions behind Con Edison, i.e., New
+York City and most of Westchester County are at .887 lb/kWh, more than triple that of
+upstate NY. For Long Island, it’s worse: power production emits 1.209 lb/kWh. Behind
+utilities in both areas, over 90% of power comes from burning fossil fuels.
+5
+
+Switching truck fuels to RD – and postponing pursuit of the EV garbage trucks,
+L3 fast chargers, and the ~1000+ amp upgrade needed to run them – until our
+local grid is much cleaner may therefore be prudent.
+Cost And Carbon Reduction
+For a diesel garbage truck getting 3 miles/gal, and an electric version getting 3
+kWh/mile:
+Cost:
+- at $3.17/gallon, standard diesel costs 3.17/3 = $1.06/mile
+- at $3.92/gallon [standard diesel + $.75/gal], RD costs 3.92/3 = $1.31/mile
+- at $.25/kWh (average NYPA price), 3 x .25 = $.75/mile for EV
+Carbon:
+- at 3 mpg and diesel’s 22.4 lb of CO2 per gal , we get 22.4/3 = 7.47 lb/mile for diesel
+- at RD’s 70% carbon cut, we get (1-.70) x 22.4 lb/gal/3 x 1.07 (BTU adjustment) = 2.4
+lb/mile for RD
+- at .887 lb/kWh for Con Ed power, we get 3 x .887 = 2.661 lb/mile of CO2e for an EV
+garbage truck.
+Local electricity thus produces slightly more carbon per mile than RD. Either
+option (RD or EV) significantly cuts carbon relative to diesel, but RD does so
+without needing to replace trucks, install fast chargers, upgrade power service,
+increase distribution load, etc. RD can start immediately with no need to secure
+EV truck grants/vouchers, use personnel time, etc.
+Who Locally Is Using RD?
+As of November 2023, New York City and (as of 9/20/24) Westchester County Airport
+are now using RD in their trucks. The NY Port Authority started in May 2023. SUNY
+Albany is planning to start using it in oil-fired boilers by January 2025. NYC previously
+used a diesel blend including 5% BD to comply with a now-outdated local law requiring
+BD in all diesel and heating fuels.
+However, some climate activists continue to promote electric garbage trucks in Con Ed
+territory. This may be due to a lack of knowledge/awareness of local RD supply options
+and local power plant emissions, and/or loyalty to the “electrify everything” concept.
+Upon being told of RD’s availability, one responded that “burning any fuel creates
+emissions other than just carbon.” That view ignores the non-carbon emissions from
+burning natural gas at power plants, e.g., benzene and particulates, and the processing
+needed to remove H2S gas before it enters interstate pipelines.
+Using RD Instead Of Air Source Heat Pumps (ASHPs) In Oil-Heated Buildings
+Unlike boilers that get heat from burning fuel, ASHPs get heat from outdoor air. In the
+analysis below, carbon emissions from using RD were found comparable or lower than
+6
+
+power plant emissions supplying ASHPs at the same site in our area – but operating
+costs were higher.
+Cost:
+- at $3.17/gal, 138,000 BTU/gal, and 75% efficiency, #2 fuel oil costs ~$30.63/mmBTU
+[Note that the price of standard diesel in Croton on 11/7/24 was only $2.4643/gal,
+yielding $23.81/mmBTU.]
+- at ASHP’s average COP of 3, we get ~10,000 BTU/kWh (i.e., 3412 BTU/kWh x 3 =
+10,236); that translates to ~100 kWh/mmBTU. At $.25/kWh, ASHP heat then costs
+$25.00/mmBTU
+- RD at 75% efficiency, 123,710 BTU/gal and $3.92/gal = $42.25/mmBTU, ~70% more
+expensive than the energy cost of ASHP. If, however, the capital cost for ASHP (at
+$15,000 per ton, 3,000 hr/yr for heating, 20-year lifetime) is amortized across its
+produced BTUs, we see an additional cost (with no financing and interest) of
+$20.84/mmBTU, essentially erasing the extra operating cost of RD.
+Carbon:
+- use of #2 fuel oil (at 138,000 BTU/gal, 22.4 lb/gal, and 75% efficiency) produces 216
+lb/mmBTU
+- an ASHP would produce 1 mmBTU/10,000 BTU/kWh x .887 lb/kWh = 88.7 lb/mmBTU
+- but RD produces 30% x 22.4 lb/gal x 1mmBTU/(75% x 123,710 BTU/gal) = 72.4
+lb/mmBTU
+Bottom line: both RD and ASHP produce 60-65% less carbon than #2 fuel oil. But
+in our area, RD creates ~18% less carbon than ASHP, without needing to buy any
+equipment, expand electric service, or increase load on the grid. [Note: at this
+time, we have no information on who may be using RD as a boiler fuel, though
+there is no technical reason to not do so.]
+How Does This Compare For Heating Our DPW Building?
+DPW consumes ~5,500 gal/yr of #2 fuel oil. Its underground tank hold 1,000 gals. Using
+RD would increase cost by ~$4,125/yr more than oil, and ~$8,000/yr more than ASHP.
+However, it would avoid ~21 MT of carbon/yr at only ~$200/MT/yr, a very low cost for
+carbon reduction. An ASHP to provide the same heat would be quite large, likely costing
+well over $100,000. Payback could take ~13 or more years, relative to the extra cost of
+RD, while still producing the same or more GHG during that period. [GSHP is not an
+option at the site because it is directly above our drinking water aquifer.]
+Only if ASHP’s cost could be fully covered by grants and tax refunds, and cost
+and personnel time for project development and management are free, would
+ASHP make economic sense.
+RD Availability In Our Area
+For the last year, New York City has used RD to fuel its 12,600 diesel trucks. Its RD is
+supplied by Approved Oil, based in Brooklyn [Keith Kerman is the City’s contact for that
+7
+
+contract in its Dept. of Admin. Svcs., a/k/a DCAS]. Approved gets its supply from the
+largest RD vendor in North America: Diamond Green Diesel (DGD) with refineries in TX
+and LA. DGD gets its organic waste oil and fats from Darling Ingredients, which collects
+it from restaurant chains and meat-processing facilities in the South. Find a short video
+on this at https://www.diamondgreendiesel.com/science-process.
+Locally, RD is now supplied by Sprague Energy, a major diesel and fuel oil supplier that
+is a past supplier to Croton. Sprague annually supplies large quantities of #2 fuel oil to
+the Metro-North train maintenance yard. Its trucks often pass through Croton,
+minimizing its delivered price of RD. Its trucks have 5 fuel compartments, allowing each
+to deliver a variety of fuels. The tank at the Village’s Municipal Place depot has two
+compartments, each holding 4,000 gallons of diesel or gasoline.
+At the calculated $/MT/yr price for cutting carbon, until such time as our local grid
+gets much cleaner, RD is better for cutting carbon than HVAC electrification for
+the DPW building.
+Potential impacts on Croton’s GHG emissions if RD was used for both truck fuel and
+DPW heating
+Croton uses ~28,000 gal/yr in its diesel trucks and ~5,500 gal/yr of #2 fuel oil in DPW
+for a total potential RD usage of ~33,500 gal/yr.
+33,500 gal/yr of diesel creates ~341 MT GHG/yr, ~24% of our total municipal carbon
+footprint.
+Switching to RD could cut that by ~70% (about 239 MT/yr, ~17% of our total footprint).
+That’s more than all our carbon reductions efforts so far, combined.
+At ~$.75 more per gallon, that would cost Croton ~$25,125 extra a year, yielding
+$105/MT/yr.
+HPs one-time average capital cost of $15,000 to avoid 1 MT/yr (recent average net MT
+reduction from proposed garage ASHP project), and a 20-yr HP lifetime instead yields
+~$750/MT/yr, excluding interest and inflation. That is over 7 times the extra cost of RD
+during the same period.
+Closing note
+The above does not account for additional GHG reduction from keeping used vegetable
+oils, fats, etc. out of Southern landfills where they would feed anaerobic organisms
+producing methane. If instead burned in a standard incinerator, no carbon value would
+come from the produced heat (though no net GHG would occur).
+There are no waste-to-energy (WTE) plants in TX, LA, or near to Darling Ingredients to
+secure useful energy from such waste. Landfills are the primary waste disposal option.
+In Croton, burning local organic waste in the Charles Point WTE plant converts some of
+its heat into electricity and industrial steam otherwise generated by burning fossil fuels.
+But no local operation exists to collect, process, and convert local organic waste into
+fuel instead of incinerating it in the WTE plant.
+8
+
+MEMO
+From: Len Simon, Village Trustee and Deputy Mayor
+To: Sustainability Committee members
+Re: Croton’s e-bike sharing program
+Date: 11/8/2024
+Project MOVER means e-bike share for Croton is coming! Ossining has been granted
+$7.0 million from NYSERDA to establish an e-bike share program within its own
+community and create satellite versions for nearby neighbors like Croton, which is
+covered by the same grant. We’re working with their project managers now to select
+where the bikes would be located in Croton and how the program would work here. I’ve
+been very gratified by the positive reaction to e-bike sharing in our community. I’m also
+grateful that our own Pedego electric bike store will be involved in the program.
+Now that Ossining is underway, Croton can become a “satellite”, with the program
+starting probably summer-fall 2025. Once in operation, access to the bikes (and
+payment for use) will be handled by a phone app linked with a credit card. The app –
+called Project MOVER” - tells you the number of bikes at each of 11 locations in
+Ossining and the percent charge in each of their batteries. The app also unlocks the
+bikes once your account is set up.
+For detailed info, go to https://projectmoverbikeshare.com.
+Here’s a link that tells you a bit about the program in Ossining:
+https://www.villageofossining.org/project-mover.
+Fully charged batteries for the bikes are stored in a truck that travels to the various sites
+(11 in Ossining, probably fewer in Croton), replacing them in bikes having a low
+percentage of charge. The driver makes his rounds for maintenance and replacement of
+spent batteries, but the actual charging of fresh batteries occurs in an 8-foot tall cabinet
+located somewhere along Main Street in Ossining.
+The app has a great map of the bike sites. I toured around Croton with the project
+managers last week and we looked at several locations, including the train station,
+municipal building, parking lot by Vassallo, the library, Harmon business district,
+Senasqua Park and Shoprite area, among others.
+
+9
+
+

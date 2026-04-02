@@ -1,0 +1,164 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:00 AM Sunday, Feb. 22, 2026 – via zoom
+Members Attending:
+Edwin Adkins
+Lindsay Audin (chair, CSC Coord.)
+
+Absent:
+
+Ashley Clemente
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (community gardens)
+Brian Pugh (Croton Mayor)
+Carly Shanks
+Len Simon (Village Trustee)
+Cheryl Wong (food scrap program)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Attending guest(s): Archipelago Films videoed some of the meeting for inclusion in a short
+documentary, discussed below under “Recruitment/Outreach/Communications/PR”.
+Corey Cummings, a new Croton resident interested in our committee, also participated.
+Announcements: We were sorry to learn that Keiko Niccolini’s teen-aged daughter passed
+away last Sunday night (2/15/26) after a long illness. While not a committee member,
+Keiko was instrumental in making our food scrap recycling program a success.
+On 1/28/26, the daily wholesale power
+supply price in our area hit nearly
+$900/MWh (i.e., ~$.90/kWh). During the
+same period last year, it peaked at
+~$320/MWh, causing high electric bills. If
+CCA’s fixed supply pricing was still
+available, it would have “insulated” against
+such price spikes. Our local natural gas
+wholesale supply price averaged over
+$2.25/therm in January, about double the price during last year’s cold snap. On 1/27/26, it
+briefly exceeded $14/therm. Con Ed has the ability to spread the cost over several billing
+periods, but is not required do so. Levelized billing (of either type of energy) could limit
+the near-term impact but will spread the same total cost across bills for the next year.
+- EV/EVSE/RD
+EV charger project at the train station: Filings continue with Con Ed toward installing
+the necessary new transformer and electric service to power the 18 charge ports.
+Completion of the installation is expected during the coming summer.
+Renewable Diesel (RD): All 18 Village diesel vehicles now use RD. A widely seen press
+release (attached at the end of these minutes) was posted on 1/23/26 and featured in
+both municipal newsletters.
+1
+
+E-bikes: Len updated us on the program. While presently in winter “hibernation”, the
+successful program will be back in spring with additional bike stations. Among the six
+participating communities, Croton took the lead in per-capita uses of the bikes.
+- Solar Projects/Issues
+Train station canopies: Third-party commissioning is underway. It should be finished by
+our March meeting, with full operation of the system thereafter.
+DPW solar canopy: Rivertown Solar’s bid (already accepted by the Village Board) stalled
+again earlier this month due to continued inability to provide required paperwork. Once
+back on track, the next step would be signing the contract for the ~$300K project, fully
+paid by a grant. The goal is to complete installation by Labor Day.
+- Heat Pumps / Electrification
+A proposed $1B Sustainable Future Program would offer new State funding to help lowand moderate-income households (but not municipalities) prepare for electrification and
+add new support for weatherization and energy efficiency programs. Find details at:
+https://www.nysenate.gov/sites/default/files/admin/structure/media/manage/filefile/a/202601/new-yorkers-for-clean-power.pdf Mayor Pugh clarified that it is not yet a matter before
+the State Legislature, nor does it appear in the State budget, despite strong support from
+the environmental community.
+- Other Programs
+Food Scrap Recycling: The two new toters (large green collection bins) were delivered
+to the site 2/19/26. Cheryl has prepped the announcements to notify the community of the
+program’s opening to all interested Croton residents. The announcements will appear in
+Village newsletters and local media and in an eblast to present participants. We thank to
+Frank Balbi and the DPW for handling the purchase and delivery of the toters. Cheryl
+emailed that she is also now prepping a proposal to expand her textile recycling effort that
+was successful at last year’s Earth Day event. She will review it at our March meeting.
+Dave asked if we could count any GHG reduction from recycling food scraps. But since
+food scraps would otherwise go to the Charles Pt. Waste-To-Energy (WTE) incineration
+facility (not to a landfill where they could instead produce methane), Lindsay said it’s hard
+to support such a claim.
+- Funding and Budgeting Issues
+BESS 2.0: Development of that Municipal Place project is back on track. On 1/27/26,
+Luminace provided a modified proposal accepting our requested change to an easement
+to access the site. Prior confusion on that company’s desire to acquire (not develop)
+BESS projects was clarified as instead acquiring other BESS development firms, not just
+their developed projects, while expanding Luminace’s own development staff.
+
+2
+
+Len and Brian reported on a discussion to relocate our salt shed to the County’s Croton
+Point Park salt storage site. Doing so would free up the present shed site to be used to
+store the seasonal yard waste presently held at the DPW’s Municipal Place site. That
+would free up space to maximize potential BESS MW (and rent). While feasible, Len said
+such action isn’t likely until later this year. The salt shed site in not near a power line
+having the capacity needed for a BESS. Brian pointed out that moving our salt storage
+would also clear up an issue regarding water contamination at the present site.
+To “lock up” 5 MW of hosting capacity elsewhere while those discussions continue,
+Lindsay is outlining a Letter of Intent to that end. Before our March meeting, he will set up
+a zoom with Village officials to nail down its terms. To address other issues to expedite
+BESS development, Len suggested pursuit of a mini-RFP and other mechanisms needed
+to comply with State regulations regarding municipal public works projects.
+Regarding other local BESS issues, we briefly discussed how a patchwork of projects and
+barriers is becoming apparent. A 5 MW project is being developed in Tarrytown by
+Catalyze, a competitor to Luminace, in the parking lot of a professional services building,
+supported by local municipal officials. But in the Village of Ossining (not the Town) a
+hearing on 2/18/26 was held on a possible 8-month moratorium that would include
+residential BESS. The Town of Ossining, however, has a BESS law and a 5 MW system
+was installed in 2024. Another large system is being developed in the Town.
+- Recruitment/Outreach/Communications/PR
+Len reported on “The Little Town That Could”, a 15-20 minute documentary film
+spearheaded by Croton100, about Croton’s sustainability efforts. Archipelago Films, an
+award-winning production firm based in Pleasantville, finished a first draft of the film
+earlier this month. Len has the starring role as he points out local sustainability efforts
+while riding his e-bike. Earlier this month, Lindsay was interviewed for some voiceovers.
+The film expects to be ready for showing during the coming April Climate Week in New
+York City and at the County Center on May 9 (a Saturday). The film was bankrolled via
+State and County government grants.
+CAC’s next Repair Café is set for this Saturday, Feb. 28, 11 AM at the Croton Library.
+Dave agreed to take a few pictures for future use to support our CSC status.
+- New Business / Other Issues
+“Balcony solar” systems are getting attention, both nationally (2/11/26 NY Times) and
+locally (proposed NY State law). They differ from presently-available portable “solar
+generators” that send power from panels into a housing containing a battery, inverter
+(converting output to 120v AC), and several 120v outlets to feed light electric loads. A
+balcony solar system has similar equipment but instead has a cord and plug that fits into
+a wall electric outlet to inject AC power into a home’s electric breaker panel. They are
+being offered by Craftstrom, Gizmopower, and EcoFlow (among other online firms).
+Allowed in Germany, balcony systems are now also OK in Utah, pending compliance with
+electrical standards and local building codes. The Utah and NYS laws limit solar output to
+1.2 kW (about a 5’ x 9’ array). Dan raised several electrical and fire code issues that
+3
+
+would need resolution before such devices could be acceptable. We also discussed at
+what point the issue would be “ripe” enough to discuss publicly. To that end, Lindsay
+agreed to draft a list of questions about the devices and Corey Cummings agreed to
+research and deliver a short report answering them at our March meeting.
+Jon updated us on his ongoing experience with the Grid Rewards demand response
+program. Despite his early efforts to minimize his electric usage when asked, he received
+$0 for his effort, due to his use of solar panels. However, upon doing nothing to limit his
+demand last summer, he instead got $50 in credits. Dave pointed out that he got ~$33 in
+credits despite the fact that he dropped out of the program last year. Jon felt that the
+crediting system was quite flawed and expressed disappointment with the program.
+Our next zoom meeting was set for Sunday, Mar. 22, 2026 at 10:00 AM.
+
+4
+
+Village Switches to Renewable Diesel
+The Village of Croton-on-Hudson has
+transitioned its municipal fleet to renewable
+diesel following a successful pilot program.
+This shift reduces the Village’s carbon
+footprint by 12.5%, cutting 186 metric tons of
+CO2 annually without taxpayer cost.
+Sustainability Committee Chair Lindsay Audin
+developed the initiative, which will be Village's
+largest single measure to reduce greenhouse
+gas emissions to date. Superintendent of
+Public Works Frank Balbi managed the
+technical implementation, ensuring the fuel
+functioned as a seamless "drop-in"
+replacement.
+All of the Village’s diesel-powered heavy-duty vehicles (e.g., garbage trucks and snow
+plows) now run on Renewable Diesel (RD). Unlike traditional biodiesel, RD is a distinct fuel
+made from fats and oils (such as soybean or canola oil). These byproducts are processed
+to be chemically identical to petroleum diesel. The cost of the RD will be paid for out of the
+Village’s dedicated sustainability fund, which is capitalized by the revenue of the community
+solar array on top of the DPW building.
+
+5
+
+

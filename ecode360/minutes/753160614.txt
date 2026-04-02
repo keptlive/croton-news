@@ -1,0 +1,523 @@
+Planning Board Meeting Minutes
+August 6, 2024
+8:00 p.m.
+PRESENT:
+
+0 ffl@mi
+
+Rob Luntz
+John Ghegan
+Geoffrey Haynes
+Steve Krisky
+Eva Thaddeus
+
+ALSO PRESENT: Daniel O'Connor, P.E., Village Engineer
+Taryn Ramey, Asst. Village Attorney
+
+\
+
+ABSENT: Ian Murtaugh, Village Board Trustee & Planning Board Liaison
+Len Simon, Village Board Trustee & Planning Board Liaison
+1. CALL TO ORDER:
+Chairman Rob Luntz called the Planning Board meeting of April 2nd, 2024 to order at 8:00 p.m.
+2.
+a)
+
+NEW BUSINESS
+Referral from Village Board of Trustees to review a Special Permit Application from
+Sprocket Power for an integrated energy system to be installed at Croton Auto Park at 1
+Municipal Place (79. 12-3-2)
+
+Maria Fields, CEO and Cofounder of Sprocket Power and Peter Fazio, Project Manager at Sprocket
+Power, were present in support of the application. The Project originated from auto dealers needing to
+electrify their fleets and the electric vehicle charger is required by the auto manufacturer, Stellantis, to be
+authorized to sell electric vehicles. The special permit use is for the battery which is 280 kWh, above the
+200-kWh threshold. The other components of the project require only a building permit. Maria Fields
+reported that both Con Edison and NY State were in favor of the project. Maria Fields stated that the
+project will provide clean energy and elevate the local grid. The system, called a Managed Microgrid
+consists of several components including electric vehicle charging that is one fast charger and two wall
+mount chargers, one new utility transformer and a step-down transformer, a solar canopy that is 20 x 24
+feet, with 20 kW DC output, a battery energy storage system (BESS) and the associated electrical
+combiner panel. The equipment will be surrounded by a 7-foot fence. The Planning Board questioned the
+location of all the equipment as it is right on the corner of Municipal Place and South Riverside Avenue.
+The Planning Board asked Maria Fields if there was another spot on the property where the system could
+operate, maybe further back on the site. Maria Fields said that Con Ed will need to upgrade the service
+to the car dealership due to the increase in power requirements, so Con Ed is saying where they will put
+the transformer. Maria Fields noted that there is a similar project in Bedford with the equipment along a
+commercial road and offered that a possibility would be to have some a community art project to improve
+the aesthetics.
+The aesthetics are a problem for the Planning Board. Maria Fields asked if more plantings would be of
+interest to the Planning Board, and the Planning Board answered no. The Planning Board asked if the
+size of the equipment could be reduced.
+The Planning Board reviewed the following objectives and goals:
+
+A: The accessibility of all proposed structures to fire and police protection.
+
+1
+
+The battery system will need to meet the NYS fire code and national electric code. This project involves a
+system with a large power supply. The Planning Board will ask the Croton on Hudson Fire Department to
+review the plans during site plan approval.
+B: The compatibility of the location, size and character of the proposed use with the orderly
+development of the zoning district in which it is located and with that of adjacent properties in
+conformity with the zoning district applicable to such properties.
+The Village has a Comprehensive Plan (see attached) and zoning code that calls the area where this project
+is located a Gateway District and the Planning Board believes that this project is in conflict with the
+comprehensive plan and zoning code as the equipment is located in the front yard in front of the business
+and is unsightly and not consistent with the purpose of the Gateway District as indicated in the zoning code
+sections below. The Planning Board recommends that the BESS and other equipment be relocated out of
+the front yard to another location on the property such as near the proposed solar canopy car port and level
+3 charger.
+
+230-20.1A: Croton-on-Hudson's commercial gateways are the major entry
+points from surrounding municipalities and roads. The physical gateway
+areas are comprised of the roads and surrounding properties a motorist or
+pedestrian encounters when first entering the Village. These areas create a
+sense of arrival and connection to the Village, and establish an image and
+initial impression of the community.
+230-20.1C: The purpose of the Gateway Overlay District is to establish
+standards that upgrade the image and function of gateway areas, strengthen
+the overall visual identity of the Village, and improve pedestrian linkages to
+adjacent residential neighborhoods.
+230-20.. 2A(2): Municipal Place Shopping Area, consisting of lots on the north
+and south sides of Municipal Place between Route 9 and Maple Street, and
+the commercially zoned portion of the block on the east side of Maple Street,
+and the lots located between Route 9 and South Riverside Avenue from the
+Village-owned parcel to the north to the intersection of Maple and South
+Riverside to the south ... The Municipal Place Shopping Area is an important
+entrance to the Village from Route 9. It connects to the Upper Village via
+Maple Street and to the surrounding neighborhoods.
+The zoning setbacks are met.
+
+C: The safety, convenience, and congruity with the normal traffic of the neighborhood and of the
+pedestrian and vehicular traffic generated by the proposed use, taking into particular account the
+location, and size of such use, the nature and intensity of operations involved in or conducted in
+connection therewith, its site layout and its relation to access streets.
+The Planning Board noted a lot of electrical equipment adjacent to the sidewalk and will be looking for
+clarification of the safety of this plan. Again, it is recommended that the BESS and other equipment be
+relocated out of the front yard to another location on the property such as near the proposed solar canopy
+car port and level 3 charger.
+
+2
+
+D: The compatibility of the location and height of buildings, the location, nature and height of walls
+and fences and the nature and extent of landscaping on the site with adjacent land and buildings
+and their appropriate development.
+
+The area where the BESS and associated equipment is proposed is highly visible from the sidewalk and
+South Riverside Ave. The location of the proposed BESS and associated equipment, including the sevenfoot-high chain link fence and in its current proposed location is not compatible with the Comprehensive
+Plan and purpose of the Gateway District.
+E: The preservation of ecological or environmental assets of the site or adjacent lands.
+
+The preservation of ecological assets is not applicable to this application.
+
+Chairman Luntz invited comments from the audience:
+John McKean of 25 Prospect Place was first to speak and said that the technical presentation was
+insufficient and that he is very concerned. Riverside Ave is a State Road, "Does it meet the setback
+requirements under state code and setback requirements of the Village?" John McKean asked. John
+McKean stated that an electrical engineer needed to look at the project.
+Gary Eisinger of 210 Cleveland Drive was next to speak and he is concerned about cars turning right onto
+South Riverside Avenue and their ability to see pedestrians and that this project may hinder pedestrians.
+The applicant stated that this project has been going on for 18 months, there is an interconnection process
+with Con Ed, so this has been combed over and Con Ed decides the rules. In response to some questions,
+the applicant stated that this is a three-phase system, the zoning setback is 1O feet and that is being met.
+The applicant stated that moving the equipment to another location on the property would be more
+expensive and said that this is a climate friendly project for the town. Chairman Luntz said that the project
+seems efficient, the location that they have chosen for the equipment is not the best spot. The Planning
+Board understood that the transformer may have to stay where Con Ed wanted to put it, but everything else
+should move and if it did, the Planning Board would support the project. The Planning Board will make a
+recommendation to the Village Board. In conclusion the Planning Board believes that is a positive project
+that will provide a 20kWDC solar car port canopy system with a 280 kWh Battery Energy Storage System
+and one level 3 and two level 2 Electrical Vehicle chargers. However, the Planning Board strongly
+recommends that the BESS and other equipment be relocated out of the front yard to another location on
+the property such as near the proposed solar canopy car port and level 3 charger.
+b) Referral from Village Board of Trustees to review a Special Permit Application from Ryan
+Kao of CTRH LLC, to construct a three-story mixed-use building at 325 South Riverside Ave.
+(79-13-1-60)
+Architect JB Hernandez was present in support of the application. The proposal is for a three-story
+mixed-use building with commercial space in the first floor (Save-Mor Pharmacy), commercial/office
+space on the second floor with the potential for future addition of an additional residential unit) and two
+apartments (1400 square-feet and 950 square feet) on the third floor. The proposal allows for 20 parking
+spaces, one more than the required 19. Landscaping will be provided as shown of the plans. The
+entrance to the building will be on Oneida Avenue. The footprint of the new building is approximately
+
+3
+
+50% larger than the existing one. The applicant plans to use stone panels and brick on the facade to fit
+into the residential area . No one will work in the basement. A zoning variance will be required to meet
+the setback requirements .
+The Planning Board suggested a break in the landscaping for pedestrian access and the applicant was
+amenable to this suggestion . The Planning Board also asked for clarification on the colors of the building
+as they appeared different in different renderings on the plans. The Planning Board felt that the signage
+was wrong, and that maybe a canopy could be added . The Planning Board suggested that the applicant
+take some cues from Capriccios Pizza and Baked by Susan, and soften the architecture.
+There was a discussion regarding the flow of traffic and the possibility of using the South Riverside
+Avenue curb cut or possibly reconfiguring the parking lot so that there was a separate entrance and exit
+on Oneida Avenue. The applicant will make some changes and present them to the Planning Board.
+The Planning Board also requested a write up on the fact that the building is in a Gateway Overlay Zoning
+District.
+The Planning Board reviewed the Coastal Assessment Form and found that under "C. Coastal
+Assessment 1, where Yes is checked, it should be explained under the Remarks section that the entire
+Village is in a coastal area.
+The Planning Board reviewed the five factors for the Special Permit application, and their comments can
+be found a memo to the Village Board.
+
+A: The accessibility of all proposed structures to fire and police protection.
+The property is served by the Croton-on-Hudson Fire and Police Departments. Its location at the
+intersection of South Riverside Avenue and Oneida Avenue provides sufficient accessibility to the proposed
+structure. The proposed mixed-use building will have a fire sprinkler system installed as required by Village
+Code. A fire hydrant is located directly across the street.
+
+B: The compatibility of the location, size, and character of the proposed use with the orderly
+development of the zoning district in which it is located and with that of adjacent properties in
+conformity with the zoning district applicable to such properties.
+The Planning Board suggests that the architecture should be softened and the signage redesigned to fit in
+with the character of the neighborhood. The Planning Board suggested that the applicant look at the
+Capriccios Pizza and Baked by Susan Bakery and take cues from their aesthetics.
+
+C: The safety, convenience, and congruity with the normal traffic of the neighborhood and of the
+pedestrian and vehicular traffic generated by the proposed use, taking into particular account the
+location, and size of such use, the nature and intensity of operations involved in or conducted in
+connection therewith, its site layout and its relation to access streets.
+The Planning Board believes that there should be an adjustment relative to parking and access to parking .
+The Planning Board discussed possibly having separate entrances and exits and suggested that the
+applicant consider employee parking at another location to leave the proposed 15 parking spaces for the
+commercial space for customers of the pharmacy. The Planning Board recommends that different optional
+conceptual onsite parking and traffic flow configurations be provided for review such as, a one-way entrance
+off
+South
+Riverside
+Avenue
+and
+exit
+onto
+Oneida
+Avenue,
+etc.
+
+4
+
+The Planning Board recommends that pedestrian walkways from the sidewalk on South Riverside Avenue
+to the proposed entrance be enhanced with special attention being given to the streetscape along South
+Riverside Avenue and Oneida Avenue.
+The applicant will also need to apply to the Zoning Board of Appeals for a front yard and side yard setback
+variances.
+
+D: The compatibility of the location and height of buildings, the location, nature and height of walls
+and fences and the nature and extent of landscaping on the site with adjacent land and buildings
+and their appropriate development.
+With the existing proposal, some trees are being lost. This is something that will need to addressed during
+site plan review. The Planning Board noted that all existing trees should be shown on the site plan as trees
+along the property line with Capriccios Pizza are not shown on the site plan.
+
+E: The preservation of ecological or environmental assets of the site or adjacent lands.
+As stated above, the Planning Board asks that all existing trees be shown on the site plan and will be paying
+attention to any that will possibly need to be removed.
+The Planning Board reviewed the Coastal Assessment Form and found that under "C. Coastal
+Assessment 1, where Yes is checked, it should be explained under the Remarks section that the entire
+Village is in a coastal area.
+The Planning Board reviewed the Environmental Assessment Form and notes that under #6 that the
+proposed building may not be consistent with the predominant character of the existing built ... landscape.
+Steve Krisky made a motion to accept the Village Board of Trustees acting as Lead Agency for SEQRA
+purposes, seconded by Geoff Haynes and the motion carried, 5-0
+Chairman Luntz invited comments from the audience:
+Erica Laudon of 124 Penfield Avenue and 68 Young Ave voiced concerns about parking on Young
+Avenue and wants to make sure that there is a plan for employee parking. A question was raised if
+employees could park across the street at the firehouse. Dan O'Connor will look into the parking permit
+regulations on the neighboring streets and permitted employee parking at the Wayne Street Firehouse.
+Patrons going into the pharmacy will have to follow street parking regulations if they do not park in the
+parking lot.
+John McKean of 25 Prospect Place says that the Village seniors often meet at the Wayne Street
+Firehouse, so this may not be a good spot for employee parking. John McKean also questioned the
+height of the building with mechanical equipment on the roof. It was reported that, by Village Code,
+mechanicals are allowed to be on rooftops. John McKean also questioned an observation deck proposed
+on the roof but this was not proposed or suggested by the applicant. Lastly, John McKean stated that the
+application does not meet the setback requirements of the zoning code and that looking at non-compliant
+applications is inappropriate.
+
+5
+
+Gary Eisinger of 210 Cleveland Drive asked if the three-foot parapet was shown on the rendering. The
+plans were checked and the parapet was shown to be 30 inches, maybe a little shorter than the required
+height.
+Tony Granger, a Half Moon Bay resident requested that Planning Board member Geoff Haynes recuse
+himself from decision making on this application due to a conflict of interest as he is on the Croton
+Housing Network Board. Geoff Haynes responded that he is the treasurer of the Croton Housing
+Network, and is very involved in the community. Geoff Haynes has been the Commodore of the Croton
+Yacht Club and a hockey coach. Prior to this Planning Board meeting, Geoff Haynes spoke to the Village
+Attorney to ask if she saw a conflict. The Village Attorney spoke to Village Manager Bryan Healy and
+they determined that if any Croton Housing Network business came before the Planning Board, Geoff
+Haynes would recuse himself. The applications before the Planning Board currently are not Croton
+Housing Network applications. If a decision is made that Geoff Haynes should recuse himself, he will be
+happy to do so.
+c) Referral from Village Board of Trustees to review a Special Permit Application from WPB
+Development LC to construct a 100-unit residential building located at 1-3 Croton Point
+Avenue and Parking Lot A (79.17-1-3,4,5)
+Jim Wendling, of WPB Development, Rich Williams, P.E., of lnsite Engineering, Michale Bevivino of
+Arketkcher, and Jan Johannessen of KSCJ Consultants were present in support of the application. Jim
+Wendling described WPB Development as a fully integrated (they develop, build, and manage their
+properties) Westchester based development firm.
+Jim Wendling reported that their firm has a history in Croton as they did both the Arrowcrest and
+Westwind developments. Regarding the proposed site at 1-3 Croton Point Avenue, Jim Wendling
+believes that it is under-utilized, transit oriented and zoning compliant. At this time, the units are
+proposed to be affordable condominiums, which is a state program that sets prices at 80% area medium
+income and eligible households can go up to 100% area medium income. There are 100 units in the
+building, 46 one-bedroom and 54 two-bedroom units. They expect high demand.
+Rich Williams, P.E. of lnsite Engineering said that the site is on 1.76 acres which access from Croton
+Point Avenue. Rich Williams said that there is a traffic light at the entrance to the property, there will be
+outdoor parking and the lot descends in grade to in indoor parking. There is a trash room inside the
+building and a small gravel area which the sewer pump station which connects to the sewer system on
+Croton Point Avenue. Rich Williams says that there is a net decrease in impervious surface on the site,
+they are providing storm water treatment, which is not currently done, so there should be a decrease in
+runoff from the property. There are no steep slopes, no wetlands and the developers will be creating
+additional green space. They have access to both sides of the building and will meet fire code for fire
+access and the building will have sprinklers. There are zoning compliant and believe that they fit in to the
+area. They also have a traffic consultant who will work with the Village's traffic consultant.
+Michael Bevivino of Arketkcher was next to speak. Michael Bevivino lives in Ossining and spends a lot of
+time in Croton. He reports that the project meets the transit-oriented developmenUlight industrial zoning
+code requirements, the building is proposed to be five stories with one- and two-bedroom units, there are
+robust indoor and exterior amenities including a co-working lounge, fitness center, bike room, community
+room and roof deck. For the exterior of the building, they took inspiration from the train stations along the
+Hudson River and chose a brick facade, with a big canopy in front of the front door and set the front of the
+building down four stories to mitigate the visual impact. The back portion of the building is clad in metal
+panels. Both facades were chosen to maximize the view, increase the natural light and mitigate sound
+
+6
+
+concerns. It is a fully electric building, solar ready with high efficiency HVAC. They also looked for any
+opportunity to bring green space to a space that is 100% asphalt now, including a pocket park in the front
+of the building.
+Steve Krisky went on record to say that he did business with Bill Balter (WPB Development) twenty years
+ago.
+When asked about the height of the building, the applicant stated that it is approximately 10 feeU per
+story with the ground floor being taller, so approximately 58 feet. The Village will determine the setbacks.
+The building will be solar ready, and their business model is to do solar on all their buildings. When
+asked about glare coming from solar panels, they said that they would look into it. It was noted that
+Village Code requires that all solar panels have an antireflective coating to reduce glare.
+The Croton Harmon Fire Department has a tower ladder. The Planning Board will refer this application to
+the Croton Harmon Fire Dept for review. When asked about extra fire protection in the bike room for ebicycles, the applicant said that that was a good point to consider.
+Regarding visibility from the nearest residential homes, the building will be tucked in, mostly blocked by
+Route 9. There is a row of trees along the Route 9 exit ramp that will remain.
+The water and waste water engineering report presented two different flows, a maximum daily flow, and
+an average daily flow design. The average flow was about 8000 gallons per day and that is the number
+that the waste water treatments were designed. Wastewater will gravity feed to an on-site sewer pump
+station which connects into a sewer force main on Croton Point Avenue which pumps up to South
+Riverside Avenue and then gravity flows to a county owned waste water treatment plant which has
+excess capacity available for this project.
+The applicants were asked if the Community Room in the building could be made accessible to all
+community residents and the applicant stated that no, that is not how it was proposed, but they would
+look into it.
+The applicants were also asked if Croton residents could be given priority access to these units and the
+applicant stated that if Westchester County is involved with the funding, they require a nine-county
+outreach. Preferences are difficult to do. If it were possible, they would look at prioritizing Croton
+residents.
+Chairman Luntz asked for some clarification on the business model. The applicant explained that Croton
+zoning code requires that a new development have 10% affordable units. When the RFP went out for this
+project, 20% of the units were required to be affordable. As proposed, this development is to be a 100%
+affordable condominium with units selling at prices based on 80% of the area median income (AMI) for
+Westchester County to households with income levels up to 100% AMI. There are rules for reselling the
+units. To purchase a unit, you must qualify for a mortgage. There would be a lottery system for the
+applicants that would be televised. There would be HOAs and other fees as with other condominiums.
+The development company would control three of the five board seats of the condominium. The HOA
+rates would go up every year. When asked how many school-aged children they anticipated, the
+applicant said that their consulting firm, KSCJ Consulting are working with the Village's consultants.
+Regarding limits on how many people can live in each apartment, NY State has rules that we do not know
+off the top of our heads. The Planning Board's recommendation to the Village Board of Trustees to pay
+
+7
+
+special attention to the SEQRA report, including the estimated number of school children and the traffic
+study. The applicant has hired a noise consultant.
+The Planning Board reviewed the five factors for the Special Permit application, and their comments can
+be found a memo to the Village Board.
+A: The accessibility of all proposed structures to fire and police protection.
+The Planning Board would refer the application to the Croton on Hudson Fire Department to review.
+There were questions as to Groton's volunteer fire department's ability to keep the building and residents
+safe due to the height of the building. The Planning Board would also like to hear about safety measures
+for the potential storage of E-bikes in the bicycle storage area.
+
+B: The compatibility of the location, size, and character of the proposed use with the orderly
+development of the zoning district in which it is located and with that of adjacent properties in
+conformity with the zoning district applicable to such properties.
+The proposed five-story building is zoning compliant in the Transit-Oriented Development in Light
+Industrial (LI) District in which it is located, by Special Permit.
+
+C: The safety, convenience, and congruity with the normal traffic of the neighborhood and of the
+pedestrian and vehicular traffic generated by the proposed use, taking into particular account the
+location, and size of such use, the nature and intensity of operations involved in or conducted in
+connection therewith, its site layout and its relation to access streets.
+The Planning Board would like to see a more in-depth traffic study and would also like to hear how the
+impact to commuter traffic would be mitigated during construction. The Planning Board is concerned
+about the impact of the increase in traffic and questioned if 103 parking spots is sufficient for resident
+parking for the proposed 100 residential units.
+
+D: The compatibility of the location and height of buildings, the location, nature and height of
+walls and fences and the nature and extent of landscaping on the site with adjacent land and
+buildings and their appropriate development.
+The project is not adjacent to a residential neighborhood. The Planning Board asked if the applicant
+would consider this project on a smaller scale (fewer apartments and fewer than five stories). There is
+concern about the Village's handling the increase in school children, increased traffic, and potentially
+increased taxes for current residents to fund affordable development.
+E: The preservation of ecological or environmental assets of the site or adjacent lands.
+The preservation of ecological assets is not applicable to this project.
+
+The Planning Board would also like to hear if there was a way to prioritize Croton families in the mix of
+potential residents.
+Overall, the Planning Board thinks that this is a good location and design for the apartment building, but
+the project, as proposed is too large for the Village when you factor in the increased traffic, increased
+
+8
+
+number of school children, and concern that this particular project, all affordable, would not prioritize
+Croton residents.
+Eva Thaddeus made a motion to accept the Village Board of Trustees acting as Lead Agency for SEQRA
+purposes, seconded by John Ghegan and the motion carried, 5-0
+Chairman Luntz invited comments from the audience:
+Ed Riley of Truesdale Drive was first to speak. Ed Riley stated that this proposal does not fit into the
+Village of Groton's master plan. This proposal is ugly and it does not fit in. This will increase the size of
+Croton by 1000-2000 people. There is a petition, signed by 12% of the voting population against this
+development. Ed Riley would also like to have elections moved back to March and he would also like to
+see a moratorium on large projects, over six units. Mr. Riley would like to rewrite or amend the Village's
+master plan. Mr. Riley believes a 33-unit building would work at 1-3 Croton Point Ave., not this size.
+Sara Cucinelli of Whelan Avenue spoke and says that she has managed over one billion dollars and has
+advised some of the best investors in the history of the country and is able to identify red flags and the
+red flag here is the fire department. Sara Cucinelli does not think that the Croton Harmon Fire
+Department is large enough or trained enough or compensated enough to take on a building of this size
+and believes that the Village would need a full-time fire department to protect this building.
+Michael Kolk of 114 Elmore Ave has lived in village over 50 years, does not want a five-story building
+anywhere in the Village. Mr. Kolk feels that the visuals for this project appear greater than five stories
+and that 10 feet, floor to floor is excessive. Mr. Kolk says that this application has no compatibility
+aesthetically in the Village.
+Lisa Stenson Desamours is a 21-year resident of Croton. Lisa Stenson Desamours says that since this
+building is supposed to be transit oriented and both Metro North and Amtrak are federally regulated
+transportation providers and SEQRA has begun, the Village must fulfill a variety of diligence. Lisa
+Stenson Desamours believes that the combination of this Lot A proposal and 1 Half Moon Bay proposal
+will exacerbate an adverse impact exclusively on Half Moon Bay homeowners. These two developments
+will be built on the two single lane roads to and from Half Moon Bay and asks how the Village make sure
+that this does not cause worse congestion. She is concerned about the additional police, fire, trash,
+recycling, and school bus traffic at this site and requests a comprehensive road infrastructure
+enhancement plan that is not paid for by current Village residents. If the Village does go ahead with
+these projects, Lisa Stenson Desamours believes that an engineer be retained at no cost to existing
+Village homeowners. Also, Transit Oriented Development as of February, 2024 is defined as a mix of
+commercial, residential, office and entertainment spaces around a transit system, so this proposal does
+not meet those criteria. Also, for it to be considered transit-oriented development, they need to guarantee
+that no transit parking spaces are lost and again, WBP does not met these criteria.
+Brian McAlister 73 Truesdale spoke and his major concern is the traffic that this proposed development
+will bring. This proposal allows for one car per household. He and his wife lived near a train station and
+had two cars. Brian McAlister believes that the traffic study is wrong and that this development will impact
+the train station parking lot and is wrong on all accounts.
+Susan Skrelja 56 Truesdale Drive believes there is a conflict of interest with Mayor Brian Pugh. Susan
+Skrelja requests an immediate moratorium on any new, large-scale developments, she would like there to
+be a pause on new developments. Susan Skrelja said that Croton is one of two villages in the MidHudson Valley that has a pro-housing designation. The two proposed developments would increase the
+Village's population by 11 %, and introduce 192 new students to our schools. Susan Skrelja cited a
+
+9
+
+statistic that 13% of school-aged children have disabilities and all these new students will cost the Village
+and mean higher taxes for the current taxpayers. Currently, 80% of school revenue comes from Village
+tax payers. 13% of our current student body, says Susan Skrelja, qualify for free lunch, so our community
+is diverse. Aggressive urbanization must stop. These projects are too large. New developments should
+be 90% market value so as not to burden the current taxpayers.
+Stefanie Siegal grew up on Penfield Avenue and now lives at 165 Old Post Road North. In 2006,
+Stefanie and her husband bought into a new condominium under a TCO and planned to stay for a few
+years. It took them several years and they almost had to become the Board (of the condominium) to sell
+their unit. Stefanie Siegal asks that the Planning Board researches this company's history to find out
+about the transition from being building managed, to owner managed.
+Gary Eisinger of 210 Cleveland says that what resonates for him is that it is too early for developers to
+answer questions. Future residents will suffer from light pollution, and noise pollution. Where will
+children play? Will this be a drain on the water supply? Gary Eisinger does not believe that the Village is
+prepared to move forward on the application.
+Colleen Beyrer of 19 Wells also says that the developer does not have enough answers. Colleen Beyrer
+believes that five-stories is too much, the scale is too big and the Village is too far along in the process
+not to have more information. Additionally, directly across the street from this site is another building that
+is zoned for five stories and long until there is another building this size proposed. The potential for
+another five-story building should be considered.
+John McKean of Prospect Place had a revelation at this meeting and says that the Board wants to build a
+five-story building with 100 units and pretend that they will only allow one and two-bedroom apartments
+as they thought was the case in the building across from CVS. John McKean said that this five-story
+building does not have enough water available in the street for a fire suppression system. John McKean
+notes that there are no proposals for dry wells. The applicants do not know where the drains go. John
+McKean asked if there was an easement.
+Edwin Atkins of 95 Truesdale Drive spoke next and reported that he is new to Croton and has been
+watching these developments. Edwin Atkins is focusing on the demographics that underlies some of the
+tension as he hears about people such as empty nesters who want to stay in the Village but as this
+proposal is for 100% affordable housing, you all but guarantee that no one from Croton can take
+advantage of these projects, so hard to see this as something other than bait and switch. Edwin Atkins
+says that Croton needs things, but these projects are not those things and they prevent problems being
+solved.
+Brian Cook of 52 Truesdale Drive spoke next and believes that something is clearly afoot as the first two
+proposes were picked at for small issues such as turning lanes and that they were "ugly" and for this large
+building there is no discussion about the smaller details or aesthetics.
+Maria DiBella of 713 Half Moon Bay Drive spoke next and has lived in Croton since 1998 and has a
+daughter going into first grade. She is taken aback that there is no study on the children and asks the
+Board to consider the school bus and if it cannot go on to this property, they will be picked up on a main
+road which is dangerous.
+Alexander Skrelja of 56 Truesdale read a Facebook message exchange with Brian Pugh from June 3,
+2021 when Alexander Skrelja asked the mayor if the development of the Katz property development, now
+
+10
+
+Maple Commons, was done to comply with the housing and urban development settlement with
+Westchester County and the Brian Pugh said, by Alexander Skrelja's report that these is an acute need
+for affordable housing in our community and the sale of the property would provide the Village with
+revenue. Alexander Skrelja noted that the sale to anyone would provide the Village with revenue and that
+a building with 80 percent market rate and 20 percent affordable housing would have a higher tax rate for
+the Village. Alexander Skrelja believes that this development was pushed through during the COVID
+pandemic and questions Brian Pugh's motivation and connection to Senator P. Harkham. Alexander
+Skrelja read other messages from Brian Pugh where, by report, in March 2022, Brian Pugh said that the
+property that is now Maple Commons is a step forward with regard to providing affordable housing but not
+a model that he thought would be repeated in the near future. Alexander Skrelja again questioned Brian
+Pugh's intentions.
+Chairman Luntz explained to the audience that the charge of the Planning Board is very specific. The
+Village Board of Trustees asked the Planning Board to look at this special permit application and give
+recommendations on very specific criteria. The Planning Board can weigh in on some things and it is up
+to the Village Board of Trustees if they will issue the special permit or not. If the special permit is issued,
+the application will come back to the Planning Board for site plan approval. The Planning Board cannot
+vote NO on this application, only give a recommendation .
+
+d)
+
+Referral from Village Board to review Draft Local Law Introductory 10 of 2024 recommending
+that the Zoning regulations addressing the reservation of parkland be revised to provide
+clear and concise language on their applicability
+
+The Planning Board noted that this local law appears to be changing language of an existing law and
+asked to see a copy of the "red lined" law. Dan O'Connor said that for subdivisions, a new lot is being
+established, so there will be more people, and there was a recreation fee (was $9,000, now maybe
+$11,000 or $12,000), that you pay to go in to a trust for Village parks and recreation. Now that multifamily buildings may be coming in, the law needs to be expanded, so the main change here is that this
+new law will establish a clear system where the Village Board will set a fee scale for larger developments,
+depending on the number of bedrooms, for a park and recreation fee.
+The Planning Board requested a copy of the "red lined" law and will table further discussion until the next
+Planning Board meeting.
+
+3. OLD BUSINESS
+a) Sklar, Richard, Senior Helpers, 383 South Riverside Ave. (79.13-2-27) Sign Permit Approval
+Planning Board approved your Sign Permit Application for Senior Helpers with the condition that the
+projecting 3' x 3' sign be modified to remove the excess "white space" as indicated on the attached
+sketch.
+Steve Krisky made a motion to approve the sign permit application with the condition that the projecting
+sign be modified to remove the excess "white space," seconded by John Ghegan, and the motion carried,
+
+5-0.
+b) Adopting Planning Board Rules and Procedures
+The Planning Board tabled this discussion until the next meeting.
+
+11
+
+4. APPROVAL OF MINUTES- Draft Minutes June 4th, 2024
+Steve Krisky made a motion to approve the Planning Board minutes of June 4th , 2024, as amended,
+seconded by John Ghegan, and the motion carried, 4-0, with Rob Luntz abstaining as he was absent on
+June 4, 2024.
+
+5.
+
+ADJOURNMENT
+
+There being no further business, the meeting adjourned at 12:14 a.m. on Wednesday, August 7th , 2024
+
+***Minutes approved, as amended, at the August 20th , 2024 Planning Board meeting, with a motion
+by Steve Krisky, seconded by Geoff Haynes, and passed by a vote of 5- 0. ***
+
+12
+
+

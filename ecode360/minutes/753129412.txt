@@ -1,0 +1,159 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, May 19, 2024 – via zoom
+Members Attending:
+Lindsay Audin (chair, CSC Coordinator)
+Ashley Clemente
+
+Absent:
+
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (community gardens)
+Brian Pugh (Croton Mayor)
+Len Simon (Village trustee)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): none
+Announcements: our next meeting (June 23) will be our last before our summer recess.
+In the CEC program, as of 5/15/24, Croton is still in 1st place with 14,500 points.
+Kingston has 11,600, Hastings has 11,100, and Bedford has 10,500.
+- Earth Day tabling
+Thank you to all who staffed or otherwise helped our
+Earth Day presence, and to Dave for his pics.
+- Solar Projects/Issues
+Train station canopies: Work at both ends
+continues. See 5/6/24 north end drone pic below.
+HVRC (NYSERDA contractor on the CEC program)
+asked for an August site visit for a group of CEC munis. Mayor Pugh agreed to act as
+tour guide with Lindsay accompanying to answer tech questions.
+One of Dave’s pics of progress at the station showed a vertical 4” tube that looked like
+a downspout drain line sticking up next to a canopy’s pedestals. Sol said it connected
+to the Village’s underground drainage system. Brian said such connection was not
+authorized by the Village, Lindsay will follow up with Bryan Healy on the matter.
+Washington firehouse net metering: For various reasons, Con Ed and NYPA had
+resisted providing it. To push the issue, on 5/10/24 Lindsay submitted a formal
+application (signed by Bryan Healy) to NYPA. It now appears to be moving forward.
+Once accepted, Croton will be the first NYPA-served
+muni to get net metering.
+DPW solar parking canopy: Lindsay is assembling
+a project description and Scope of Work (SOW)
+pursuant to a RFP. When completed, we’ll meet with
+DPW to develop the project and schedule the
+process and installation.
+1
+
+Village electric accounts in community solar: An application was submitted in midMarch. Once bill savings appear, we get 300 CEC points, and the Village saves
+~$20K a year. For months, we were blocked from enrolling street lighting accounts
+(~7% of muni kWh, saving ~$2K/yr). On 5/13/24, Con Ed agreed to upgrade its billing
+software to allow enrollment of such accounts to community solar. Once done, we will
+be the first NYPA-served muni to do so.
+- Heat Pumps
+Harmon firehouse addition: on 5/1, Lindsay zoomed with Village staff and Sullivan
+Architects on issues re: draft docs and equipment choices (e.g., gas-fired A/C). On
+5/8, Jon and Dan specified a hybrid heat pump / gas-fired rooftop unit to replace the
+Sullivan-specified gas-only A/C unit. By 5/9, the issues had been addressed. On 5/16,
+DPW and CEG met at the firehouse to verify that the existing electric service and
+panels were OK to accommodate load of the addition and installation of solar arrays.
+Washington firehouse garage HPs: At Earth Day, Jon and Dan hashed out tech
+issues on an electric boiler and controls to support the proposed six 9,000 Btuh HPs
+and eliminate oil use at the site, pursuant to developing a SOW for a RFP on the work.
+A concept document on the fully electric option was sent to Bryan Healy and Frank
+Balbi on 5/15/24 for their review. The Village treasurer verified that funding for design
+development is available from two unused $5K NYSERDA grants secured last year.
+DPW HPs: The ASHRAE energy audit of the building arrived 5/17/24. It estimated the
+cost to replace the four existing 26-year old A/C units with ASHPs at $52,500, much
+lower than expected. Doing so would cut about 9 MT/yr of carbon emissions.
+The audit’s most surprising finding was the low average occupancy of the facility:
+rarely are there more than 4 people present at one time. We are checking that claim
+with DPW. But some DPW employees now work remotely, while others are in the field
+most of their workday. Mayor Pugh indicated that the Village has only 2 mechanics for
+work on vehicles, so the audit may be correct. It could impact the viability of some
+suggested measures, e.g., a HPWH. A detailed review of the audit is in process.
+Residential HPs: After being awarded IRA funds in late April, NY State began
+prepping its grant program for HPs. Retail rebates may be available later this year.
+Doing so could help jumpstart our stalled promo effort for residential HPWHs.
+- EV/EVSE
+Our $150K DEC grant for EV chargers is finally moving forward. On 4/28, DEC’s
+Gwenyth Widrick said the State’s new grant management software (SFS GM) is at last
+OK for grant processing. We are standing by for instructions.
+Next steps include contract signing and developing the SOW for an RFP to get bids
+that will update our now 2-year old cost estimate. In light of the ~2-year delay since we
+applied for the grant, we will ask to up the amount due to inflation, etc.
+2
+
+Depending on several factors, we may have enough small CEC grants (6 were won
+earlier this year) to cover another 6 dual-port EV chargers at the train station.
+- Financial and Budgeting Issues
+Grant funding is in hand to cover the cost of the projects listed above. Development
+will be pursued over the coming summer.
+Len reviewed the federal Comeback Communities and DOE’s Energy Future Grant
+(EFG) programs. Bottom line: both were focused on disadvantaged/LMI communities,
+though Len did find that Croton might be able to compete for an EFG in the future. His
+report is appended to these minutes.
+- Other Reports
+We await DEC’s review of our 4/2/24 re-certification submission for our Silver Climate
+Smart Community (CSC) status. We were told to watch for an answer in late May. If
+accepted, we will maintain our Silver certification until 2029 (when next it must be
+renewed). Re-certification now will also secure another 1,400 CEC points.
+- Recruitment/Outreach/Communications/PR
+Committee member Dan Colombini was quoted extensively (5/17/24) in FacilitiesNet,
+the online version of Building Operating Management magazine, regarding planning
+and installation of EV chargers:
+https://www.facilitiesnet.com/energyefficiency/article/Facilities-Managers-to-Lead-theCharge-in-Expanding-EV-Charging-Stations-20215?oly_enc_id=2682E5239256B1V&source=facility_insider&utm_source=facility_i
+nsider&utm_campaign=fnnewsletter-2024&utm_medium=email
+- New Business / Other Issues
+We need to recruit a new committee member with electrical engineering or contractor
+experience. Dave suggested Victor Conte of Conte Electric Co. of Ossining, who he
+believed may (by now) have retired. Westchester County has a service that connects
+retired professionals willing to provide pro bono advice as a community service. [To
+that end, Lindsay enrolled the Committee in the www.volunteernewyork.org program
+through which the County provides volunteers.] Mayor Pugh said there would no
+problem if a new member was not a Croton resident. Lindsay will look into those
+options.
+Date for our next meeting (last before our summer recess) was set for Sunday, June
+
+23 at 10:30 AM via zoom. Our next meeting thereafter will be Sept. 22.
+Report on the Comeback Communities and DOE’s Energy Future Grant programs
+3
+
+Best wishes to you and our Sustainability Committee colleagues for a good meeting on Sunday.
+Here’s some thoughts on two Biden Administration energy initiatives for local governments:
+Comeback Communities
+The Department of Treasury information below [for brevity, not herein included] is more of a
+policy statement by the Administration than a specific announcement of grant availability. There
+is good discussion of the Direct Pay option which was inaugurated in the inflation Reduction Act
+(IRA), a breakthrough program which makes the value of tax credits available to non-tax paying
+local governments in the form of cash. But most of the information on “Comeback Communities”
+below, including a link to a major address by the Secretary of Treasury, refers to the
+Administration’s efforts regarding “communities across the country characterized by high
+poverty and population decline”.
+That focus on distressed communities is present to an extent in the Direct Pay program but
+does not prevent Croton’s effort to participate in it. Other programs, as we have come to know,
+in both the IRA and the Bipartisan Infrastructure Law (BIL) treat “underserved communities” in
+different ways. Some programs are exclusively for their benefit. Others adhere to Section 223 of
+Executive Order14008 which established the Justice40 Initiative, directing that 40% of the
+overall benefits of certain Federal investments – including investments in clean energy and
+energy efficiency - be allocated to disadvantaged communities as defined by law.
+While we should continue to be aggressive in seeking federal funding opportunities, we should
+be aware that both recent laws and the policy direction of the Biden Administration may often
+include program eligibility Croton will not meet.
+DOE Energy Future Grants
+A good example of what is discussed above is the DOE Energy Futures Grant [EFG]. The
+Energy Future Grants (EFG) provides $27 million in financial and technical assistance to
+support partnership efforts (including local governments) that will help scale local strategies that
+increase resiliency and improve access to affordable clean energy. EFG seeks to ensure the
+broad benefits of a clean energy economy—including health, economic development and jobs,
+grid resilience and adaptability, and emissions reductions—flow to disadvantaged communities
+and support Justice 40.
+The first round of Energy Future Grants were announced on April 4th and can be viewed
+at https://tinyurl.com/f7yd3asb. [A review of them found all to involve only planning, training,
+education, etc. rather than “iron in the ground” installations; average grant was ~$500K]. While
+the communities benefitting from Justice 40 are clearly present, there are good examples shown
+of projects from communities which do not come under the 40% set-aside. Many of the projects
+are regional or partnerships of a number of different entities coming together for the purpose of
+this grant. There may be some potential in the next round for Croton to be an applicant directly
+or through a consortium of different communities or organizations. I’ll be sure to keep an eye out
+for the next round of Energy Future Grants so the Village can consider its options at that time.
+
+4
+
+

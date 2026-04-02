@@ -1,0 +1,172 @@
+May 2025
+Croton-on-Hudson Bicycle-Pedestrian Committee
+May 2025 Meeting Minutes
+Date: May 15, 2025– 7:30-9:00pm
+Present: Matt Arnold (chair), Christine O’Connor (visitor, neighbor), Kevin Scott, Barry Scheer, Brian
+Pugh (Mayor), Neal Haber (BOE), Matthew Schuerman, Len Simon (ex officio)
+●
+●
+
+●
+
+●
+
+April Minutes approved (link)
+Sidewalks and Enforcement
+● Christine O’Connor joined to share concerns about sidewalks and crosswalks
+● Sent a message to Len re: crosswalks
+● Action: get list from Len and compare to our current watchlist
+● State currently replacing sidewalk ramps at intersections along Riverside
+Project MOVER
+● Discussion w/ Library on placement of rack/hub was positive
+● Questions on liability and program operations
+● Reviewing Site Plan
+● Survey - Nora looking for full open text output re: bike share adoption to help in crafting
+communications
+● Alex Maccalini (Shared Mobility) joined by phone to answer questions:
+● Responses to Amos’s queries (see table below*)
+● How many distinct users?
+● A: ~600 (active members); 1 user took over 60 trips
+● Because a NYSERDA project, data sharing requirement to share usage data
+(monthly). Additionally, data will be available to Village upon request for analysis
+● In Ossining the average trip was 20 mins.
+● Pilot rate - avg ~$4/ride
+● $20/mo monthly plan will be available
+● $4/month “equity” plan for low income residents
+● Tarrytown and Sleepy Hollow launch and ribbon cutting next Friday (5/23)
+● Croton target launch - mid June or July
+● Action: Len to send pricing plan info to committee
+● Roll-out / Marketing
+● Plan in progress (Len + Nora)
+● Opportunity to promote general bike safety
+● E-Bikes - Project MOVER launch as an opportunity to educate public
+about safe usage / regulations, etc.
+Bike Safety material
+● Incorporate with MOVER (some examples included in the Sharepoint site shared by
+Nelson\Nygaard)
+● Key component of Slow Down Croton – content on both safe driving habits, sharing the
+road and bike safety
+● Materials for the school:
+● Age appropriate
+● Opportunities to build into the curriculum (CHAP, Health, PhysEd?)
+
+● Matthew forwarded email re: past attempt to Neal
+Opportunity for next Earth Day (or other events) to promote basic bike safety
+Action: begin assembling standard info sheet (Matt and Matthew) [Standard Asset]
+● Examples:
+● https://www.nhtsa.gov/sites/nhtsa.gov/files/811557.pdf
+● Resource - League of American Bicyclists
+● https://bikeleague.org
+“Bike Friendly City” – League of American Bicyclists
+● How to become a “Bike Friendly City” (BFC) designation (460 current communities)
+● Committee endorses idea of applying
+● https://bikeleague.org/bfa/community/
+Slow Down Croton
+● Revised design (color scheme)
+● Design/color
+● Feedback – looking for more “different” than the last
+● E.g., safety yellow/green
+● Timing
+● Prepare over summer
+● Launch in mid-August, in advance of back2 school
+● Schedule press conference (as did last campaign)
+● Materials
+● Yard sign
+● Bumper sticker (or check on price of magnets, or static cling)
+● Snail only
+● Idea - apply to all Village and Police vehicles
+● Distribution via CPD
+● Web Page (via Village website/BPC pages)
+● AOB (8:50-9:00pm)
+● CHHS – Old Post South access during school drop-off times (issue raised by Will
+Begeny)
+● Elliott Way/Croton Landing – possible adjustments to make route more bike and
+pedestrian accommodating (see resident comments)
+●
+●
+
+●
+
+●
+
+*Answers to Amos’s questions posed over email:
+Question
+
+Answer
+
+Can the Board request and share
+with us an anonymized copy of
+the Ossining trip data to verify
+patterns for ourselves?
+
+We have done so. Please see here for a report outlining
+start/end hub data by hub for the Ossining pilot as well
+
+Can the Board request and share
+with us a copy of the Ossining
+site/license agreement with Drop
+Mobility so we can see the terms
+(including important terms for
+terminating the program,
+insurance requirements for the
+operator, liability waiver for the
+
+The Croton Master Site License Agreement, covering five of
+the six hubs is attached. Like Ossining, it was based on the
+standard Drop Mobility agreement and was the joint work of
+the Village Manager, the Village Attorney and the Village’s
+insurance representatives. The Croton Free Library will have
+a separate, similar site agreement.
+
+village, sharing of anonymized trip
+data with the village, etc)?
+
+Can Drop Mobility assure the
+Board that bikes will be
+redistributed throughout the day
+— especially during morning and
+evening commute -- both within
+Croton and between Croton and
+Ossining (so bikes are indeed
+accessible at all locations most of
+the day and busy racks like the
+Croton train station are emptied to
+make room for new drop-offs)?
+
+Effective distribution of the bikes among the various Hubs is
+the professional responsibility of Drop Mobility and is part of
+the Master Site/license Agreement (section 7, paragraph 2.)
+Drop operates similar programs across 50+ North American
+municipalities.
+
+Can Drop Mobility assure the
+Board that riders will not be
+charged for leaving a bike
+adjacent to -- but not on — a bike
+rack, if it’s full?
+
+Accommodating riders when a rack is full is normal in all Drop
+markets. Drop makes the footprint for the geofenced hub
+larger than the hub itself to account for GPS drift. The user
+can end their ride anywhere in the geofenced area. Drop does
+ask that the user still locks the bike properly by tethering the
+bike to a sign post or even another bike. This will prevent the
+user from getting a warning for improper parking. They should
+also send a message to the Customer service team using the
+app and mentioning there was no availability to park at the
+rack. Users can see the geofenced area on the map in the
+app.
+
+Is the Board willing to ask for
+better data privacy terms for
+riders?
+
+Drop Mobility verifies that they do not collect or sell user data
+to third parties. They share data with NYSERDA/the project
+partners for reporting purposes, including the following
+variables. Bike ID number, Start Hub, End Hub, Date, Start
+Time, Trip Duration, Billing Zip Code
+
+Message to Village Manager, Mayor, Trustees re: endorsement of e-bike/e-scooter regulation:
+
+

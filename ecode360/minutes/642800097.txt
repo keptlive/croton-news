@@ -1,0 +1,179 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Jan. 23, 2022 – via zoom
+Members Attending:
+Lindsay Audin
+Len Simon
+Bernie Yozwiak
+Joel Gingold
+Niall Kelleher
+Dan Columbini
+Brian Pugh
+Jon Katz
+
+Absent:
+
+[Bracketed] text mean subsequent actions or clarifications. Underlining indicates a
+commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: We again thank the Village for sponsoring our zooms.
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC grants and campaigns
+We await arrival of NYSERDA’s contracts with the Village. Its PM (Gwenyth Widrick)
+stated 1/11/22 that she expects to get them to us by the end of January.
+On 12/20/21, the Village Board passed a resolution allowing Mayor Pugh to sign the
+Letter of Commitment required by NYSERDA for our two new Community Campaigns
+to promote EVs and HPs. The resolution and letter were submitted to NYSERDA with
+both programs’ Scoping Docs on 12/24/21. They were then approved 1/4/22.
+On 12/20/21, Lindsay sent Jon, Len, and Bernie NYSERDA docs needed to start the
+Stretch Code adoption process. On 1/5/22, they zoomed together to start the effort.
+Their report appears below. Passage of the Code could get us another $5,000 grant
+and 1,200 CEC points. The deadline to make the Code effective is 6/30/22.
+On 1/11/22, Lindsay emailed the Village attorney regarding the plan to offer $100
+bonuses to secure information on EV and HP purchases in Croton. [On 1/24/22, she
+responded “I believe there is no issue with this as proposed”.] On 1/13/22, C100
+agreed to assist with handling the money and getting us the purchasing data. We
+agreed to delay offering the bonus for 2 months to see if it’s really necessary.
+Regarding the solar rooftop for the Washington Engine firehouse, a draft RFP (required
+by the Village for projects costing over $20K) was sent to Village staff for review on
+12/30/21 and 1/10/22. Once approved, it will be issued to seek proposals. We await
+comments from Dan O’Connor and Frank Balbi. Bernie asked to see it, so it was
+subsequently sent to Committee members for INTERNAL REVIEW ONLY.
+- Two New Funding Sources
+
+1
+
+Research by Len and Niall found that the Biden infrastructure bill passed in November
+contains a program similar to PowerReady, Con Ed’s funding for EV infrastructure. Len
+reported that, under its “community grant” section, Croton could directly seek funding to
+cover 80% of it, including EV chargers. PowerReady does not fund chargers. Len said
+Croton would also be eligible for other work under the new law’s Energy Efficiency and
+Conservation Grant program. Money is also available to assist adoption of stricter
+energy efficiency codes and electric school buses. Half the money is from existing
+programs. Some of it may find its way into Gov. Hochul’s energy program budgeting.
+The other new source is a solar incentive requested by Gov. Hochul from the PSC.
+Lindsay reported that it would be a one-time upfront payment of $1.30/W, plus an
+additional $.10/W for community solar projects. If OKed, it would provide 60-70% of the
+now-expired Community Credit, and may help kick-start some stalled solar projects.
+NESEA (solar industry group) is pushing to distribute the money so that small projects
+get more (it’s pushing for $2/W) with larger ones getting less (good for our projects).
+On 1/3/22, NYSERDA said that, if PSC OKs the request, we could access that funding
+for the Washington firehouse solar job by “piggy backing” the new incentive on our
+present CEC solar grants. Doing so could free up ~$48K for other (possibly non-solar)
+projects. New solar projects (e.g., a canopy at DPW’s parking lot) would also be
+eligible. Timing is crucial: if the incentive doesn’t take effect soon, we’ll need to proceed
+without it, losing out on that ~$48K. Since this involves electric rates, a decision is
+unlikely before April. By then, work on the solar rooftop may already be in progress.
+- Other Solar Projects
+Bernie reported on C4C’s 1/9/22 webinar on three solar canopy sites, with a focus on
+IBM’s Yorktown Heights research center, Its engineer, Arnie Vimba, described a 5 MW
+installation with a 1 MW battery and many EV charging stations. Also presenting was
+Father Breen of Maryknoll on its completed 800 kW system. Lindsay did a short status
+update on our 4 MW train station system. A YouTube of the event may be viewed at
+https://fordham.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ecd3d727-3b2842b9-b3ee-ae1901863d2f
+Brian reviewed a 1/10/22 report to the Village Board on the 1.8 MW Hudson National
+Golf Course solar project. The Stage 3 Environmental Assessment Form (EAF) has not
+yet been completed. A public hearing is scheduled for 1/24/22.
+On the Croton Landing Park canopy, Lindsay forwarded (12/22/21) materials to Sandy
+Galef’s staff (including a letter from Ecogy) regarding problems with the present “park
+alienation” law. Joel reported on his latest discussion with her and her staff. Neither
+Galef nor Joel were optimistic on legislation to break the alienation logjam.
+However, NYPA responded (1/14/22) to our queries on the problem with an offer to
+assist with that law’s process, noting that "a number of [Westchester munis] are also
+running into the alienation issue". Lindsay sent (1/20/22) a draft plan to NYPA for
+simultaneously processing individual exemption laws for Croton Landing Park and
+Croton Point Park, with NYPA and the State Parks Dept. handling the paperwork,
+2
+
+surveying, etc. On 1/17/22, Ecogy said that – if NYPA handled the alienation exemption
+process – it was open to re-starting development of the Croton Landing canopy job.
+- EV/EVSE
+During the 1/6/22 bi-weekly call-in with Sol Systems, we discussed running conduits for
+EV chargers on the underside of the canopies to cut installation costs. Sol cited legal
+issues with owning or maintaining anything related to EV chargers, so it would instead
+handle installation under the blacktop. They were open to submitting a PowerReady
+application to Con Ed to cover part of the cost.
+On 1/12/22, Frank, Dan, and Lindsay met again at the station to review possible
+pathways for underground conduits to the chargers. We decided to wait for Sol’s 30%
+drawings to review the paths of its trenches for use with EV charger conduits.
+The option to install a dual-port charger at the DPW parking lot was reviewed and OKed
+by Bryan Healy. Frank Balbi subsequently approved, if it was combined with other
+planned work at the site. To avoid parking capacity issues (there are only 35 spaces),
+parking would be unlimited in the EV spaces until employees owning EVs wanted to use
+them. Because it is not a public parking lot, PowerReady, would cover only 50% of the
+infrastructure cost. The other 50% and charger could come from federal funding. We
+discussed other sites, but would need other personnel to manage such installations.
+On the EV Community Campaign, two towns (Queensbury and Philipstown) have
+already completed them. Both were queried on how they handled securing purchasing
+information. In Queensbury, nearly all were the Toyota RAV 4 Prime SUV PHEV. [When
+Sustainable Westchester (SW) was asked how it could assist us, its director (Nina
+Orville) informed Lindsay that its EV expert had left SW and it could not help.]
+Niall provided data on EV purchases across the State. Croton EVs have doubled in the
+last 2 years, to 162. [Subsequent study found ~79% were Teslas, Chevy Bolts/Volts,
+Nissan Leafs, or Toyota Priuses. It would make sense to focus on those 4 brands for our
+required dealer “partnerships”.] Bernie announced his purchase of a plug-in Prius.
+Niall, Len, and Lindsay reviewed an opportunity to submit comments on how federal
+funding will be distributed to cover the costs of EV infrastructure. Len determined that no
+Board resolution was needed to authorize that submission. Draft comments were
+submitted 1/21/22 (deadline was 1/28/22). Len described the content. He expects
+federal DOT to respond with details on program implementation by the fall of 2022.
+Regarding the EV school bus, no new details are available. The school district’s January
+Environmental Sustainability Committee meeting was again postponed due to COVID.
+- Stretch Code Report
+
+Jon outlined the work he, Len, and Bernie are planning to get the Stretch Code adopted
+in Croton. His key takeaway is to push for adoption of Code in its entirety. Any exception
+could entail lengthy negotiations with the State. Jon is creating a supplemental FAQ doc
+tailored to Croton’s needs/issues, focusing on the residential part of Stretch. It will also
+address expected increases in construction costs. Bernie will do the same for
+3
+
+commercial installations (retail, etc.). When completed, they will push to meet with Dan
+O’Connor. Their general timeline is:
+- meet with O’Connor in February
+- March 14 - Village Board work session
+- late March / early April - the required public hearing
+- May 16 - Board final approval
+Jon reviewed the State forms that must be submitted and found no major issues. He will
+look into how other Westchester munis have adopted the code. As of 1/23/22, 9 had
+done so (and 15 others elsewhere in NY). Len will review implementation, e.g., what
+Village staff actually make the code changes. Joel reported that Yorktown 100 sees
+Stretch as trivial. It wants a code featuring “carbon neutrality” in new buildings.
+- Pilot Food Scrap Recycling Program
+After 7 weeks, NY DEC responded with directions on how we could modify our program.
+The Work Plan was altered to eliminate human interactions, as per COVID. We also
+requested a two-year extension (to 9/30/2024) for the grant (we await its OK). For
+various reasons, Municipal Place is now the only viable drop-off site in the Village.
+- Communications/Public Relations
+Drafts of a press release and social media posting regarding our NYSERDA grants and
+projects were approved by Village staff on 1/11/22. The release was then forwarded to
+NYSERDA to insert a quote. [It sent us its changes on 1/25/22, and that version was
+forwarded to staff the same day for public release.] Village staff will do social media and
+Facebook postings in February.
+- Recruitment/Outreach
+As part of its initial offering, SolSystems will give $10,000 in scholarships to the local high
+school. Sol’s Claire Siwulec spoke with Mark Maxam, the high school’s assistant
+principal. Joel suggested to C100 that, if it had suggestions on projects or awards, it
+should contact Maxam directly. Joel suggested our three interns that have helped us
+over the last year. Bernie suggested Mothers Out Front be apprised as it may also have
+useful suggestions. [Joel subsequently did so.] We do not otherwise envision other
+involvement on our part. [Update 1/27/22: Sol has connected with the Croton-Harmon
+High School which will be administering scholarships through its existing scholarship
+fund. Three (3) $2,000 scholarships will be awarded in 2022, and two in 2023.]
+Joel reported on his efforts to interest C100 in working with us on some of our programs.
+It appears that it will limit its assistance to promoting our EV and HP campaigns, and
+perhaps offering ideas for how to utilize the scholarships offered by Sol.
+The Croton resident that initially expressed interest in assisting our committee has not
+responded to multiple follow-up emails and will not be contacted again.
+4
+
+- New business / other issues
+Due to time constraints, we didn’t discuss our Clean Heating & Cooling Community
+Campaign (hereafter called CH&C) but will do so in February. We need 5 Crotonites to
+install GSHP, ASHP, HPWH, or some form of home energy efficiency project (e.g.,
+insulation, sealing). It’s not yet clear if the latter can include lighting conversions. We
+await NYSERDA guidance thereof. Our Scoping Doc was OKed 1/4/22, so any of the
+above done in Croton after that date will count toward the 5.
+Date for our next meeting was set for Sunday, February 27 at 10:30 AM via zoom.
+
+5
+
+

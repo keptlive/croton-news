@@ -1,0 +1,161 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Apr. 24, 2022 – via zoom
+Members Attending:
+Lindsay Audin
+Len Simon
+Joel Gingold
+Bernie Yozwiak
+Dan Columbini
+Brian Pugh
+Jon Katz
+
+Absent:
+Niall Kelleher
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: We again thank the Village for sponsoring our zooms.
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC grants and projects
+On 4/4/22, Bryan Healy signed NYSERDA’s revised contract for the Washington
+firehouse solar rooftop grants. It then authorized work to begin. By 4/5/22, only Croton
+Energy Group (CEG) had submitted a proposal. It was within our budget.
+On 4/15/22, the NY PSC significantly increased the NY-SUN incentive that buys down a
+project’s cost. Projects like our firehouse will now get $1.20/kWp (up from $.20/kWp).
+Doing so should cut its cost by ~$37K. Regarding timing, “the Order directs NYSERDA
+to file a revised NY-Sun Operating Plan no later than May 31, after which NY-SUN will
+begin accepting project applications for the newly approved incentive blocks.” Lindsay
+will take a webinar on May 10 to get more details.
+Since we already have enough grant money for the project, that “bonus” may be used
+for other NYSERDA-approved projects, e.g., another municipal EV or more public EV
+chargers. See below for further discussion.
+On 4/5/22, Bryan Healy signed the contract for the firehouse heat pump controls. On
+4/13/22, NYSERDA authorized work to begin. Jon is securing a refreshed proposal from
+Carey & Walsh that includes prevailing wage. If under $20K, no RFP is required.
+- EV and HP Campaigns
+Another new Croton resident emailed to say he is soon getting a Tesla, and will provide
+that data to become our 6th EV purchase since 1/4/22.
+On 4/22/22, we got our first ASHP purchase via a NextDoor.com posting. Our HP blurb
+was posted at our page on 3/2/2022. Eblasts will start the week of May 2. An article on
+our effort will appear in the River Journal. As a HP owner, Jon is being interviewed for it.
+
+1
+
+On 3/4/2022, Dan O’Connor stated that building permits are not required for either
+ASHPs or HPWH, so his office has no data about them. Permits are required for
+GSHPs, but none have been installed in Croton since our campaign kickoff date
+(1/4/2022). Elsewhere in the County, GSHPs accounted for ~½ of the HP installations.
+Sustainable Westchester (SW) said that since June 2021 its contractors had installed 8
+HP systems in Croton. It was asked to provide data for after 1/4/2022.
+Jon and Dan mentioned that 3 new homes were going up on Wells Ave. Jon saw a HP
+being installed in at least 1 of them. Dan will ask around for more info, and Jon will
+check the builder’s yard sign so we may inquire regarding which homes are getting HPs.
+- New Funding Sources
+Len reported on a federal program (Community Project Funding [CPF]) from which
+Cohoes (Albany suburb) got $3 million for a 3.2 MW floating PV system atop its
+municipal reservoir. CPF is a competitive process for federal earmarks via infrastructure
+funding for public works projects. Len said the Village is already looking to CPF to fund a
+roadway renovation project. He suggested that an energy project between $250K and
+$500K would be best to pitch during the next CPF funding round in early 2023. The
+Village would likely need to provide some matching funds (maybe ~25%). One option
+could be to cover some of the cost for canopy water management at the train station.
+- Other Solar Projects
+Train station canopies – This project will not benefit from the new NY-SUN incentives
+because it already locked in the more valuable “community credit”. The 50% drawings
+(needed for permits, charger siting, etc.) are slightly delayed. We now expect them by
+the week of 4/28/22. In early May, a survey of underground utilities (using groundpenetrating radar) will be done in stages for the entire parking lot west of Veterans Plaza.
+Croton Landing Park canopies – It’s now clear that we can’t get the exemption before the
+end of the present legislative session. However, we should be well positioned to do so
+during the 2023 session. To that end, a variety of actions are in process.
+- On 3/24/22, our Assembly rep (Sandy Galef) submitted a bill (A.9746) requesting
+exemption for Croton Landing, but it lacks essential supporting documentation. Joel
+explained that, for the bill to have any impact, it would have to pass before the close of
+the legislative session which ends in June. A new bill will be needed for the 2023
+session. A new sponsor will be needed since Galef is retiring later this year.
+- Bryan Healy signed paperwork that allowed Ecogy to submit its CESIR application
+to Con Edison. That study will likely take until June. He also reviewed with Brian Pugh if
+the VB would accept the possibility of little or no leasing revenue. Len and Brian felt that
+a revenue of at least $5K/yr was necessary to justify installation. That revenue is tied to
+the size of the new NY-SUN incentives. As per Ecogy’s analysis, getting to ~$5K would
+require at least a $2/W incentive. At present, the highest that may be secured for Croton
+Landing is $1.70/W. If the project was downsized to 200 kWp (from 430 kWp), it would
+2
+
+be $1.90/W, yielding ~$2K/yr. If (as hoped) the VDER Environmental benefit (~3¢/kWh)
+is raised, that could get us closer to $5K. If Build Back Better is resurrected and returns
+the Investment Tax Credit (ITC) to 30%, that alone could yield over $5K/yr. We’ll have a
+better grasp of all this by early June when the dust has settled on those issues.
+- Bryan Healy determined that the Village will need a professional appraisal of the
+“alienated” property at a cost under $2,500. It’s not yet clear if that property would
+include only two narrow strips of land where the canopy support pillars would be located,
+or if we can get away with just the area where the pillars touch the ground, or if we must
+also include area above underground power lines that will need to be installed.
+- As NYPA worked with the State Parks Dept. on several details, the latter found
+that some parcels of the Park were secured via federal or State funding. Len is looking
+for a map to see if any involve the “alienated” areas. If so, we may have to secure
+permissions from other agencies. Len is also securing a copy of Yorktown’s Home Rule
+request to see if we could use it as a template for our own version.
+- NYPA found that it could not speak with legislative personnel until an internal
+NYPA review of such communication allowed it do so. They agreed that Bryan Healy
+could instead seek answers to several questions on the exemption process. [On 4/25/22,
+he emailed them to Michelle Milot, legislative aide involved in alienation exemptions.]
+- On 3/28/22, Lindsay met Frank Balbi at the Park to plot out canopy drainage.
+Existing in-ground grates and drains are sufficient so only residential-grade gutters and
+downspouts will be needed. No drains exist at the unpaved boat landing parking lot, so
+downspouts will instead be connected to a perforated PVC pipe that spreads the water
+along an adjacent land strip. Snow guards will only be needed above the paved area.
+- EV/EVSE
+The $37K NY-SUN “bonus” could be used to pay for more public EV chargers such as
+those slated for the train station, or to buy a 4th municipal EV. Using it for chargers could
+leverage a Con Ed charger infrastructure incentive, but would entail installing many that
+could go unused for several years. After an extensive discussion, the committee agreed
+to instead offer the money toward a new police EV already in the Village’s upcoming
+budget. [Bryan Healy subsequently indicated that would be fine and that the timing to
+receive the funds, i.e., by mid-summer, would work for the Village.]
+Purchase by the school district of a second EV bus (a mini-bus) fell through due to loss
+of a $60K voucher when NYSERDA changed its scrappage rules (the existing diesel bus
+is too “young” to qualify). The district will instead buy another diesel mini-bus.
+C100 will run its next EV show at the entrance to Senasqua Park on Earth Day. We will
+again provide our EV flyers for that event.
+- Stretch Code
+
+3
+
+On 3/22/22, Dan O’Connor and Ron Wegman took a training class on Stretch. Based on
+advice from nearby towns that already adopted it, Bernie informed Dan that extra
+inspections in the Code would be done by third party inspectors, not Village staff.
+Several interactions with the Planning Board (PB) occurred. At its 3/22 meeting, Dan
+O’Connor overviewed Stretch. On 4/12, Bernie showed the PPt. slides, and reviewed
+Stretch’s requirements to ready new homes for solar panels and EV chargers. Bernie
+sent PB members analyses on the minimal cost impacts of Stretch on residential and
+commercial buildings. At its 4/26 meeting, Jon will expand the discussion using the Ppt.
+show and seek a PB resolution supporting Village adoption of the Stretch Code.
+Next steps include prepping for a May 3 VB work session to review the matter. It will set
+a date for the required public hearing (possibly May 9 or 23) and a date (possibly June 6)
+for a resolution approving timely adoption of the code to meet the June 30 deadline. Len
+will work with Dan O’Connor to draft that resolution.
+- Other Reports
+Dan will be performing a walk-through at the Washington firehouse to determine if
+installing instantaneous DHW heaters could discontinue use of the existing indirect-fired
+heater and allow summer shutdown of the oil-fired boiler. Summer fuel deliveries account
+for over 200 gallons of oil being consumed mostly by line and DHW tank losses.
+Joel reviewed a recording of a recent webinar on GridRewards for municipal accounts.
+Last summer, Hastings got ~$13K for its accounts. The process is the same as for
+residential accounts. [Bryan Healy said he will try it for some of our municipal accounts.]
+- Recruitment/Outreach/Communications/PR
+On 4/4/22, Westchester Power updated the VB on its next power procurement. Due to
+present volatility, it will seek a 5-month extension of its existing contract that ends Dec. 1.
+In September, it will get bids for a new contract. It also asked the VB to sign a doc that
+would allow the CCA price to rise as high as 13.5¢/kWh. The previous limit was 12.5¢.
+Recent fixed price offerings by local ESCos ranged between 11 and 12¢/kWh.
+Preparations are complete for our Earth Day tabling. Four types of flyers will be
+available, along with several table placards/displays. Staffing schedule will be:
+9:30-11: Lindsay & Joel (setup starts at 9:30, event starts at 10)
+11-noon: Jon & Joel
+noon-1: Joel & Adlin Hadad
+1-2: Bernie & Adlin Hadad
+2-3: Dan & Lindsay
+- New Business / Other Issues
+Date for our next meeting was set for Sunday, May 22 at 10:30 AM via zoom.
+4
+
+

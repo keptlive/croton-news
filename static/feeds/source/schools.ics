@@ -1,0 +1,577 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//croton.news//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Croton — Croton-Harmon Schools
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Events from Croton-Harmon Schools
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+BEGIN:VEVENT
+UID:4fdab789d544@croton.news
+DTSTART;VALUE=DATE:20260401
+SUMMARY:Passover Begins April 1 Ends April 9
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d137663540c0@croton.news
+DTSTART;VALUE=DATE:20260401
+SUMMARY:Spring Recess - SCHOOLS CLOSED
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1b316f75e875@croton.news
+DTSTART;VALUE=DATE:20260402
+SUMMARY:Spring Recess - SCHOOLS CLOSED
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ff85481315b1@croton.news
+DTSTART;VALUE=DATE:20260403
+SUMMARY:Spring Recess - SCHOOLS CLOSED
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3a1ccbf2f303@croton.news
+DTSTART;VALUE=DATE:20260405
+SUMMARY:Easter Sunday
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2ea3533450ac@croton.news
+DTSTART;VALUE=DATE:20260406
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0616a8dc32e2@croton.news
+DTSTART;VALUE=DATE:20260407
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:db983125b516@croton.news
+DTSTART;VALUE=DATE:20260408
+SUMMARY:NYS English Language Arts Assessment Computer Based Grades 3 & 4
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f8d0b3883c40@croton.news
+DTSTART;VALUE=DATE:20260408
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0c99a06ab98f@croton.news
+DTSTART;VALUE=DATE:20260408
+SUMMARY:BOE Communications Committee Meeting CHANGED: This event has been changed.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2448aa626b51@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:CET Building Planning Council Meeting
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6945fd8b5af4@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:NYS English Language Arts Assessment Computer Based Grades 3 & 4
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8cf8416e0c11@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:Passover Ends
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c101a327226b@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c376e9e4f1fd@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:PVC Building Planning Council\, 3:15 p.m.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8bccfc03287b@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:BOE Audit Committee Meeting
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c96496ed1ff4@croton.news
+DTSTART;VALUE=DATE:20260409
+SUMMARY:BOE Regular Meeting\, 7:30 pm
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c9e444cd1179@croton.news
+DTSTART;VALUE=DATE:20260410
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3080373ae689@croton.news
+DTSTART;VALUE=DATE:20260410
+SUMMARY:CHHS Junior Prom
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0be9f2e6be4a@croton.news
+DTSTART;VALUE=DATE:20260413
+SUMMARY:F Day
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2079b87adf70@croton.news
+DTSTART;VALUE=DATE:20260413
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:032bda519226@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:Booster Club Meeting\, 7:30 p.m.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:16b001dc4930@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:F Day
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9a68a8ce6517@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:NYS English Language Arts Assessment Computer Based Grades 5-8
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e4b8eae6c7cd@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:Tiger Tuesday
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:18240f5f3d44@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:45ad697049eb@croton.news
+DTSTART;VALUE=DATE:20260415
+SUMMARY:NYS English Language Arts Assessment Computer Based Grades 5-8
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1174dbe69c1d@croton.news
+DTSTART;VALUE=DATE:20260415
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a58050c2deb5@croton.news
+DTSTART;VALUE=DATE:20260416
+SUMMARY:CET Parent/Teacher Day Conferences\, Early Dismissal 10:45 AM
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0e9bf058a7a6@croton.news
+DTSTART;VALUE=DATE:20260416
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d94002936971@croton.news
+DTSTART;VALUE=DATE:20260417
+SUMMARY:C Day (Zero Period)
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8868ed8d8178@croton.news
+DTSTART;VALUE=DATE:20260417
+SUMMARY:CHHS Spring Musical
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d2cbbda3a175@croton.news
+DTSTART;VALUE=DATE:20260417
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1a10b9f7089a@croton.news
+DTSTART;VALUE=DATE:20260417
+SUMMARY:BOE Policy Committee Meeting   CHANGED: This event has been changed.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:60f9e0973155@croton.news
+DTSTART;VALUE=DATE:20260418
+SUMMARY:CHHS Spring Musical
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:86a2aa8e673a@croton.news
+DTSTART;VALUE=DATE:20260419
+SUMMARY:CHHS Spring Musical
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:41a824f77066@croton.news
+DTSTART;VALUE=DATE:20260420
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3d9fcb91d3ce@croton.news
+DTSTART;VALUE=DATE:20260421
+SUMMARY:F Day
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3d75c8472657@croton.news
+DTSTART;VALUE=DATE:20260421
+SUMMARY:NYS Mathematics Assessment Grades 5-7
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9a6c35630868@croton.news
+DTSTART;VALUE=DATE:20260421
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9143f60bc902@croton.news
+DTSTART;VALUE=DATE:20260421
+SUMMARY:Hidden Transitions - 6th Grade Parents\, 7:00 p.m.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:daa1cca406eb@croton.news
+DTSTART;VALUE=DATE:20260421
+SUMMARY:BOE Work Session & Special Meeting:  BOCES Budget Vote\, 7:30 pm
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:341177766cdd@croton.news
+DTSTART;VALUE=DATE:20260422
+SUMMARY:F Day
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6f938bc68222@croton.news
+DTSTART;VALUE=DATE:20260422
+SUMMARY:NYS Mathematics Assessment Grades 5-7
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0d083e51c578@croton.news
+DTSTART;VALUE=DATE:20260422
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3f472cb6c9b0@croton.news
+DTSTART;VALUE=DATE:20260423
+SUMMARY:A * Day (Advisory)
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f074595dd494@croton.news
+DTSTART;VALUE=DATE:20260423
+SUMMARY:CET Parent/Teacher Day Conferences\, Early Dismissal 10:45 a.m.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:dbe425ba4446@croton.news
+DTSTART;VALUE=DATE:20260423
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:961d2c018cd6@croton.news
+DTSTART;VALUE=DATE:20260423
+SUMMARY:CET Parent/Teacher Evening Conferences\, 4:00 - 7:00 p.m.
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:30f56dc7ff38@croton.news
+DTSTART;VALUE=DATE:20260424
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f4198ad05c7e@croton.news
+DTSTART;VALUE=DATE:20260424
+SUMMARY:SAT - Grade 11 (in-school)
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:61840ee42469@croton.news
+DTSTART;VALUE=DATE:20260427
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1ec7825ffc5e@croton.news
+DTSTART;VALUE=DATE:20260428
+SUMMARY:Tiger Tuesday
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:fe6f38c99591@croton.news
+DTSTART;VALUE=DATE:20260428
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:752b4d8c3a78@croton.news
+DTSTART;VALUE=DATE:20260428
+SUMMARY:PTSA Meeting @6:30pm
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1bdc65125c01@croton.news
+DTSTART;VALUE=DATE:20260429
+SUMMARY:CHHS Spring Concert
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b1aca2916302@croton.news
+DTSTART;VALUE=DATE:20260429
+SUMMARY:F Day
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:834041a4cda2@croton.news
+DTSTART;VALUE=DATE:20260429
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4b94d5fb3813@croton.news
+DTSTART;VALUE=DATE:20260430
+SUMMARY:F Day (Zero Period)
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2ddfbedbd7a7@croton.news
+DTSTART;VALUE=DATE:20260430
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1468f8b92aae@croton.news
+DTSTART;VALUE=DATE:20260501
+SUMMARY:Checkpoint 5 Published
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2da8205eb2d9@croton.news
+DTSTART;VALUE=DATE:20260501
+SUMMARY:NYSESLAT Speaking Exam
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:58905e7c1689@croton.news
+DTSTART;VALUE=DATE:20260502
+SUMMARY:SAT (Administered at CHHS)
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+END:VCALENDAR

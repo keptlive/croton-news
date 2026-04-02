@@ -1,0 +1,190 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Apr. 21, 2024 – via zoom
+Members Attending:
+Lindsay Audin (chair, CSC Coordinator)
+Ashley Clemente
+
+Absent:
+Dan Columbini PE
+
+David Goldman
+Jon Katz PE
+
+Niall Kelleher (community gardens)
+
+Brian Pugh (Croton Mayor)
+
+Len Simon (Village trustee)
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): none
+Announcements: On 4/2, Keiko Niccolini submitted paperwork to re-certify Croton as a
+Silver Climate Smart Community (CSC). She beat the deadline by 3 days, giving us
+another 1,400 CEC points. We’re still 1st in the State with 12,400 CEC points.
+- Earth Day tabling
+Croton’s Earth Day this year is Saturday, April 27 from 10 AM to 4 PM at
+Senasqua Park (rain date: May 4). We will once again have the covered picnic
+table at the Park entrance. Members volunteered to staff that table as follows:
+10 AM to noon: Dan, Jon (please arrive by ~9:45 to help Lindsay set up)
+Noon to 2 PM: Dave, Ashley
+2 PM to 4 PM: Keiko, Lindsay
+Len will float as-needed, and Niall will be at his community garden table. We’ll have
+our banner, flyers, and two 24”x18” picture boards. A FAQ sheet will be available.
+- Methane Satellite Report from Ashley
+Ashley reviewed his research on methane emission data from satellite-based gas
+detectors. Despite a web-based claim to the contrary, he found that the one satellite
+with sufficiently fine resolution data found no methane emitting from the former Croton
+landfill. His excellent presentation is appended to these minutes.
+- Solar Projects/Issues
+Train station canopies: Steel frames for
+pedestals and racks appeared 4/8 by the
+salt shed and at the north end by the
+batteries. See Dave’s pic. First panels
+were installed 4/10. A 4/17 drone pic is
+appended to these minutes.
+While photographing the south end, Dave
+also took the next pic, which appears to
+
+1
+
+show a bowed horizontal beam. On 4/17, Sol explained how beams may bow slightly
+until attached to the rest of a framework. Later pics showed the beam straightened
+out. We discussed the need to monitor the work.
+Washington firehouse net metering: Despite net
+metering being in NYPA’s tariff, a NYPA official
+claimed that “Con Ed now only offers VDER $ credits
+[which give us no carbon credits] and we are following
+its lead.” (NYPA gets our meter data from Con Ed.)
+Due to a lack of net metering, we are presently “giving
+away” ~½ the solar output to the Con Ed grid. In the
+end, he agreed to provide contact info for the Con Ed
+person to act on our metering request. If successful,
+we will be the first NYPA-powered muni to get net
+metering. Thank you to Jon for (once again) clarifying
+issues with the VDER process.
+DPW solar parking canopy: Croton Energy Group (CEG) said a ~50 kW canopy is
+feasible. At $4.50/W, it would cost ~$225K. NY-SUN could cut that by ~$60K but may
+not be available by the time we’re ready to build. If so, DirectPay would reimburse
+~$67K. If we do get the NY-SUN $, DirectPay would drop to ~$49K. At this time, all
+numbers are approximate. To ensure we get the $60K, Lindsay will seek ways to
+expedite that project.
+Harmon firehouse addition: Bryan forwarded a list of issues raised by Lindsay re:
+draft docs and equipment choices (e.g., gas-fired A/C) to Village staff for review. [On
+4/23, a zoom on the issues was set up for May 1. The goal is to ensure the final
+mechanical design minimizes carbon emissions.] Issues (e.g., heat pumps, solar) with
+Harmon’s main building will be addressed later.
+Gouveia Park house: A ~20 kW rooftop may be feasible, but re-roofing (costing
+roughly $20K) is a pre-requisite. We have CEC grant $ to pay for i solar, but the
+Village would need to re-roof. Brian indicated that other work (e.g. connection to or
+septic system) will need to be done first to make the site usable by the Rec. Dept. His
+timeline indicated that roofing and solar would need to wait until ~2026.
+- Heat Pumps
+Washington firehouse garage HPs: Jon secured two proposals and was confident
+his design (using six 9,000 Btuh HPs) could be done for ~$50K, including electric
+work. He raised several design issues (e.g., an existing garage exhaust system) that
+might impact his design. He, Dan, and Lindsay will hash out the issues while staffing
+our Earth Day table.
+Brian OKed using the $100K fungible CREST money (instead of NYSERDA grants)
+for those HPs. Doing so will avoid $ hassles with NYSERDA and would include a
+small electric boiler to end use of fuel oil at the site. It would only run on very cold days
+when the heat pumps could not alone handle the load. Lindsay estimated that a
+40,000 Btuh electric boiler and electric service would cost under $20K. Bernie (former
+2
+
+committee member) agreed to assist with the electrical design and cost estimation.
+CREST would also cover decommissioning the 45-year old underground oil tank.
+DPW HPs: Regarding replacing four of the 25-year old A/Cs with ASHPs, we await a
+Level II ASHRAE energy audit (on-site visit was done on 3/14) that would evaluate
+that option (and others). We should get results before our May meeting.
+- EV/EVSE
+Our $150K DEC grant for EV chargers remains stalled while we await notification that
+the State’s new grant management software (SFS GM) is ready-for-prime-time.
+- Financial and Budgeting Issues
+Via email, Len overviewed the NYS tax credit for EV chargers. While there’s no $ in it
+for us (because Croton does not pay income taxes), there are opportunities for
+individuals and businesses. His report is appended to these minutes.
+Len will review U.S, DOE’s Energy Future grant option (and whether Croton could
+access it) for our May meeting. In its first round, some munis in other states got $ from
+it. Len will see if we can get in line for its next iteration.
+As mentioned at our last meeting, in response to budget cuts by the PSC, NYSERDA
+plans to cut back the CEC program in 2026 and move what’s left into the CSC
+program. However, HVRC said Croton should come out OK because it’s likely to
+remain among the top ~50 munis that NYSERDA says it would continue to serve. The
+plan would cut ~800 of the 850 participating munis, including ~25 in Westchester
+County, e.g., Ossining, Cortlandt, and the County itself. Lindsay submitted comments
+on the proposal, but it’s unlikely that PSC or NYSERDA will reverse themselves.
+Formal applications for our $175K and $250K grants were submitted 4/18/24. The first
+will go toward ~44 kW of solar arrays and heat pumps at the Harmon firehouse and its
+EMS addition. The second will go toward a ~50 kW DPW solar canopy and perhaps
+heat pumps, if suggested by the DPW energy audit.
+- Other Reports
+A 4/8 chat with Leo Wiegman at SW verified that community solar credits in Con Ed
+bills have become erroneous, as Dave recently found in his bills. Leo said SW has
+been inundated with complaints about the screw-ups, which started late last year. He
+felt things may work out in this quarter, but there’s no guarantee. A formal complaint to
+PSC is being considered.
+- Recruitment/Outreach/Communications/PR
+The following appeared in the April Village newsletter: “In 2023, several notable
+achievements in energy conservation have been observed, including a significant
+decrease in the amount of electricity and heating oil usage at the Washington Engine
+Firehouse, which can largely be attributed to the installation of a rooftop solar array
+3
+
+and heat pump.” [Preliminary data appears to show a ~75% cut in oil use and a ~93%
+(if net metered) cut in electricity consumption.]
+On 4/16, Lindsay did a brief PowerPoint zoom for Croton’s Planning Board on our
+involvement with the CEC program.
+- New Business / Other Issues
+None.
+To avoid the Memorial Day weekend, the date for our next meeting was set for
+Sunday, May 19 at 10:30 AM via zoom.
+Len’s Report on the NYS Tax Credit for Public and Workplace Charging
+From my review there is no provision for its application to the public sector and nothing
+comparable to the new federal Direct Pay program. As was the case with federal energy
+tax credits prior to the advent of Direct Pay, the NY state tax credits are all targeted to
+taxpayers.
+Though not applicable to the public sector, I thought it would be interesting for you and
+the Committee to know how the program works. Here’s a link to the program description
+from the New York State Department of Taxation and Finance:
+https://www.tax.ny.gov/pit/credits/alt_fuels_elec_vehicles.htm.
+Below are excerpts from their summary.
+Who Is Eligible? You or your business is entitled to this nonrefundable credit for
+investments in new alternative fuels vehicle refueling property or electric vehicle
+recharging property for tax years beginning on or after January 1, 2013.
+How much is the credit? The credit for each installation of property is equal to the
+lesser of $5,000 or 50% of the cost of property less any cost paid from the proceeds of
+grants that:
+• is located in New York State;
+• is used 50% or more during the tax year in a trade or business carried on in New
+York State;
+• constitutes alternative fuels vehicle refueling property or electric vehicle refueling
+property; and
+• has not been paid for from the proceeds of grants awarded before January 1,
+2015, including grants from the New York State Energy Research and
+Development Authority or the New York Power Authority.
+You may claim this credit if you invest in qualifying alternative fuels vehicle refueling
+property or electric vehicle recharging property and you are a: (1) transportation and
+transmission corporation taxable under Article 9, sections 183 and 184; or (2) business
+corporation taxable under Article 9-A.
+While this EV charger New York State Tax Credit is not applicable to municipalities,
+hopefully the existence and implementation of Direct Pay at the federal level will help
+4
+
+inspire progressive legislatures like NY State to enact comparable provisions within their
+own tax codes. I’ll discuss with the Mayor recommending to our state delegation in
+Albany that something along the federal DirectPay provisions be considered for the
+state.
+Ashley’s Review Of Satellite-based Methane Detections at Landfills
+
+5
+
+Note: Carbonmapper found no detectable methane leaking from the former Croton
+landfill, which was capped and closed in 1984. Since then, methane has been
+vacuumed below ground and burned, cutting its GHG impact by ~95%.
+
+6
+
+First Drone Photo of Train Station Canopy Work (at the south end)
+
+7
+
+

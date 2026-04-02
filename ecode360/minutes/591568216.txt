@@ -1,0 +1,885 @@
+MINUTES – Croton Sustainability Comm. (SC) – 10:30 AM Sunday, Feb. 28, 2021 – via Zoom.us
+Members Attending:
+Lindsay Audin
+Len Simon
+Brian Pugh
+Jon Katz
+
+Absent:
+Joel Gingold
+Niall Kelleher
+Bernie Yozwiak
+Dan Columbini
+
+[Bracketed] text indicates subsequent actions or clarifications. Underlining indicates a commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: none
+- CEC Leadership Round Grants: we will soon become eligible for up to five grants, none requiring
+matching funds: $10,000, $20,000, and $70,000, and two options for additional $5,000 grants for
+specific actions (e.g., adopt NY Stretch Code, pursue a community campaign). Based on our
+positions in the CEC and CSC programs, we have already accumulated 4,100 of the required
+5,000 CEC points needed to qualify for $100,000 of those grants.
+After a review of all options available in the near term, the only one that could get us to 5,000 is
+adoption of the NY Stretch Code, as previously suggested by Jon. Doing so would secure another
+1,200 points, bringing our total to 5,300 points.
+After much discussion, all agreed to push ahead on the Stretch Code. To that end, Jon and
+Lindsay will start the education process with Village Engineer Dan O’Connor. That will include:
+setting up zooms and/or calls with Dan, putting him in touch with Dan Colombini’s architect on his
+new house (Christina Griffin) who helped get Stretch adopted in Hastings, and (if needed)
+connecting him with municipal engineers in towns that already adopted Stretch. [Lindsay made the
+pitch for Stretch to Dan O’Connor via email on 3/2/21.]
+Once he’s on board, Brian directed that a draft resolution (NYSERDA has one) be attached to a
+letter to the Board. It would initially be reviewed as correspondence. Lindsay will push to get the
+letter to the Board before our next meeting. The Board would then discuss the matter and set a
+date for a public hearing and (hopefully) a quick passage of the resolution. Brian said that a
+webinar for property developers on Stretch’s $ impacts would be appropriate thereafter.
+Regarding how best to spend the grants (if we get them), see below in approximate order of costeffectiveness for cutting GHG. All are evaluated based on a ~15-year lifetime. CEC funding is
+unlikely for the first three. We agreed that they could be considered without using grant money.
+1. Buy carbon offsets to zero out the municipal carbon footprint at a price of ~$5/MT. Our present
+footprint is ~1,400 MT/yr, so annual cost would be ~$7K/yr. The 15-year cost would be $105K.
+2. Buy down 100% renewable NYPA power by its extra ~5 mills/kWh. At .7 lb/kWh, we get a price
+of ~$16/MT. Annual cost would be ~$8K/yr yielding a 15-year cost of $120K.
+
+1
+
+3. Buy down B10 for diesel trucks and fuel oil at the DPW based on its extra $.10/gal. At 22.2
+lb/gal diesel and a ~10% carbon cut, GHG is saved at ~$100/MT. Annual cost would be ~$3.5K/yr
+leading to a 15-year cost of $52.5K.
+4. Convert the Washington Engine fire house from oil heat to air-source heat pumps (ASHP).
+Based on Jon’s draft design, the capital cost is ~$30K. Replacing its ~2,500 gal/yr of fuel oil with
+~27,000 kWh/yr to run heat pumps, would cut ~16.6 MT GHG at ~$125/MT. If 15-year operating
+savings of ~$2K/yr are included, that cost drops to about zero.
+5. replace resistance DHW heaters at the DPW and Muni Bldg with HPWH at net .5 MT/yr per
+site, and per site cost of ~$2,000, yielding GHG savings at ~$270/MT. Because of NYPA demand
+charges, operating cost savings may be small. Installation and GHG pricing to replace the
+Washington firehouse’s oil-fired DHW system would be higher because it instead uses oil and also
+incurs demand charges. The other two firehouses use natural gas. While their DHW replacements
+would net ~.14 MT/yr per site, operating costs would increase.
+6. To replace residential resistance units with HPWH at Con Ed rates, a ~2/3 reduction in kWh, and
+a net cost (after rebate and tax credit) of $700, GHG cost is under ~$100/MT. If operating savings
+are included, that would be less than zero. Without rebate and tax credits, it is about zero.
+7. New EV sedans at ~$30,000 (after $5K/car State subsidy), at net 3 MT/yr per car, GHG savings
+would cost ~$700/MT. If operating savings are ~$.03/mile, 15-year savings would bring that cost
+down to ~$650/MT. Two cars are old enough to merit replacement: Rec. Dept. 2001 Taurus 19
+MPG (veh. #94-10) and the Eng. Dept. 2002 Crown Victoria 18 MPG (#102-02). Both are parked at
+the Muni Bldg, and would use its two (presently public) charge ports. Janine has been asked to
+provide odometer readings and indicate if replacements are desired. Brian will remind her.
+By comparison, rooftop PV (@ $2/W, .7 lb/kWh) cuts GHG at a cost of ~$300/MT. For canopies,
+that cost may be 50+% higher. However, community solar leasing rent avoids a need for grants.
+Brian asked that Lindsay refresh Ecogy’s earlier offer for rooftop PV at several muni sites. [On
+2/28, Lindsay sent him Ecogy’s mockups and some questions to clarify the spaces involved.]
+Pending acceptability from the Village manager and Board, the committee approved the above.
+Niall asked if grant funds could be used to start another community garden. Bernie asked about a
+tree planting program. Lindsay agreed to query NYSERDA on those options [done 3/2/21]. It may
+be possible to use funds from the $5K grants (if we get them) to do so. Bernie liked the purchase of
+carbon offsets and RECs, even if that could not be done using grant money. Joel was not
+enthusiastic on that option.
+[After the meeting, Lindsay and Jon discussed a fallback position if new EVs were not desired:
+install two large ASHPs in the DPW garage areas to cut fuel oil used to heat them. They concluded
+doing so would not be a good idea, and could trigger changes required by the building code.]
+Updates/holdovers/follow-ups/statuses:
+- EV/EVSE:
+
+2
+
+- School bus electrification: The last district bus task force meeting occurred Jan. 28. Its report was
+presented to the Board of Education on Feb. 25. In essence, the draft suggested a RFI for vendors
+interested in developing a roadmap for infrastructure and a process for securing electric school
+buses. It suggested budgeting for one bus in the next budget cycle. At its end, it contrasted costs
+for diesel and electric versions of a full and medium size units, though the unit used for comparison
+of the smaller unit was a van, not a school bus. It therefore lacked the extra safety and other
+features required for school buses. No EV school bus in that size is presently manufactured.
+- Data on DCFC connectors: Niall reviewed his research on the different DC fast charger (DCFC)
+connectors, which range from 50 to 350 kW (see attached memo). He pointed out that it is likely
+that (for large trucks) a different DC fast charger (not CCS or ChadeMO) will be created for them.
+- Solar projects:
+Train station parking lot canopies: On 2/17, the VB OKed Village to sign the draft lease
+agreement with SolSystems, which Janine then did. The next step: begin (as weather allows)
+drilling bore holes through the blacktop to determine if the site is sufficiently stable and does not
+pose a toxic waste disposal issue. Joel will send Lindsay the Gazette article on the project.
+Croton Landing canopies: Joel reported that the bill to overcome the “park alienation” barrier
+was re-introduced by State Sen. Peter Harckham as S.2995. Rep. Carrie Woerner of Saratoga
+Springs agreed to introduce a companion bill into the Assembly. On 2/20, Sandy Galef reported to
+Joel that “It has been rather slow this year to get bills in so Carrie is probably waiting patiently for a
+bill number - hopefully soon.” We look forward to seeing the problem gone before summer, at
+which time we can re-initiate development. Joelle Foskett, Harckham’s Legislative Director, says
+that they have included the bill in their budget letter and are proposing it for article 7 (i.e., budget)
+language. Lindsay again raised at SW’s 2/25 Annual Meeting where Warren Lucas, Town
+Supervisor of North Salem, agreed to raise it to NYS Conference of Mayors and Municipal Officials
+(NYCOM) and discuss it with Mayor Pugh. Joel agreed to raise it at a 3/16 zoom on State energy
+issues being sponsored by Mothers Out Front.
+- Other local solar:
+National Golf Course 1.8 MW Matrix Solar Array Project: Brian said that, other than the tree
+cutting issue, the site had other problems including application fees and existing code violations.
+Croton Houses of Worship (HoW): Bernie did a googlemaps “flyover” of the six in Croton to
+assess their potential solar square footage. All potential areas were rather small, with the total
+yielding less than 160 kW, not enough to meet the ~300 kW needed to attract a solar developer.
+His analysis is attached at the end of these minutes.
+- HPWH project:
+- To bankroll and “sweeten” HPWH installations using some of a $10K CEC grant, we discussed
+using some grant funds to provide a subsidy (e.g., $250 per home) for Low-To-Moderate (LMI)
+households. After much discussion, we concluded that could be problematic from several
+standpoints. Brian agreed to confirm that with Janine. We will instead try other means, e.g., bilingual postings and a push in HoWs via promotion from the pulpits.
+3
+
+To help win the grant (and to satisfy ourselves on savings claims), all agreed to using some of it to
+pay to instrument several sites (with electric and water sub-meters) to quantify water and power
+usage. That data would show measured results, instead of the projected / modeled / stipulated
+numbers seen in others’ studies. Bernie previously expressed interest in being a test site and meter
+reader for a HPWH in his home, which uses oil to heat DHW. Costs to promote HPWH installations
+(e.g., banner, survey, flyers, etc.) would also be covered in the $10K grant request. Lindsay will
+distribute a revised draft program description for member comment before our next meeting.
+- Dan reviewed a memo he produced on specification details (e.g., heat trap piping, expansion tank
+backflow preventers) for reducing HPWH standby losses due to thermos-siphoning. He provided an
+excellent graphic we will add to our flyer and web posting. He suggested that our counseling to
+potential customers include consideration of one-tank-size larger to ensure minimal (or no) use of a
+HPWH’s built-in resistance element during high DHW demand periods.
+- Bernie got DHW data from the 6 HoWs. Many have indirect units fired by oil-fired boilers, but
+Asbury Methodist has two “almost new” electrics and one old gas unit that might be appropriate
+due to its age. Holy Name has one electric, and St. Augustine’s has one direct-fired oil. His
+spreadsheet of that data is attached.
+- SW’s heat pump effort is now part of its EnergySmart Homes program. During a 2/26 call with
+Lauren Brois of SW, she and Lindsay worked out several ways to integrate our program with its
+HPWH promotions, including its pre-screened contractors and web postings. [A series of questions,
+and a draft of our flyer, were sent to her 3/1 for responses.]
+Reports:
+- On securing grants from private foundations, Rocky Mountain Institute (RMI) suggested four that
+might support some of our work. Len found that one of them was a serious option. World
+Resources Institute (WRI) agreed last December to discuss it with its staff. He also got a positive
+response from the Doris Duke Charitable Foundation, It asked for a “letter of inquiry” containing
+specific data. Lindsay will provide it. Len will follow up on those 3 options. His memo is attached.
+- Jon described his design and expected cost (~$30K) for the Washington Engine ASHP option.
+When he has determined the additional electric load involved, he will communicate that to Bernie.
+Bernie will speak with Joe Streany (who he knows), a fireman familiar with recent changes at the
+site. As needed to assess changes to its electric service, Bernie will do the same with Chris
+Colombo, Washington’s fire chief and the electrician that did the service upgrade. To assess any
+other site issues, Jon agreed to set up a site walk-through with Streany and Bernie by mid-March.
+Brian said that any project costing over $20K will need to be competitively bid. Jon has a contractor
+willing to provide a “deep discount” because it involved first responders, but it was unclear if it
+would do so if required to bid.
+Communications: nothing significant, other than indicated above.
+Recruitment/Outreach:
+- On intern searching, Jon hit “pay dirt” with the High School’s Guidance Dept. Six AP Environmental
+Science students expressed interest, with four following up. In a 2/20 zoom, Joel and Lindsay
+reviewed tasks with them. They will next zoom to assess progress on 3/6.
+4
+
+- Bernie had raised the internship option with HNM’s Youth Minister (Carl Barnes) who offered two
+others, but the timing of our work was not in sync with their availability. Lindsay thanked Carl, and
+said we will keep them in mind for future tasks.
+New business / other events:
+- To create a backup file and person for the committee, Jon agreed to be our vice-chair and to
+receive and keep secure a thumb drive of the committee’s archive. Every six months, Lindsay will
+replace it with an updated version thereof.
+Date for next meeting: March 28, 2021
+
+5
+
+TO:
+
+Lindsay Audin
+
+FROM:
+
+Len Simon
+
+SUBJECT:
+
+Foundation Update
+
+DATE:
+February 27, 2021
+_____________________________________________________________________________
+Here's an update on various foundation sources and opportunities.
+World Resources Institute. I reached out this week to the staff member who said in December "I’m pulling
+together a few colleagues who might like to participate and will get back to schedule". Hopefully there will be
+some follow-up.
+Doris Duke Charitable Foundation. They have a specific format for their Letter of Inquiry. I can finalize
+and submit it electronically if you can get me: (1) the Tax ID we use for grants; (2) Title of the proposed project;
+(3) Brief description of the specific project; and (4) Requested funding amount.
+Park Foundation. Their energy program supports efforts in NY to decrease reliance on fossil fuels, and shift
+the state’s energy needs towards a clean energy system. But review of their grants for the last several years
+show awards only for advocacy efforts. No recommended follow-up.
+Overbrook Foundation. They have an active environmental program, but no recent grants for energy projects
+or to governmental entities, focusing on advocacy to national and regional groups. No recommended followup.
+Energy Foundation. Their work accelerates the transition to a clean energy economy and they have funded
+some interesting projects, but they do not accept unsolicited proposals or letters of inquiry No recommended
+follow-up.
+New York Community Trust. The division for their work here is the Westchester Community Foundation.
+Like NYCT they have a Thriving Communities program which includes Protect Our Environment as a focus.
+Activities include mitigating climate change and making communities more resilient to it. WCF will fund
+local governments working in these areas. Some of their grants support: (1) promoting energy efficiency and
+alternative sources of energy for buildings; (2) shifting to electric or low-emission vehicles; (3) promoting a
+smarter, more resilient grid and distributed generation; and (4) reducing emissions from existing fossil fuelpowered facilities and extraction activities.
+They have three grant rounds in 2021. The next Letter of Intent is due May 28. More information at www.wcfny.org/overview. Recent recipients include: Sustainable Westchester, for a community solar project for lowand moderate-income residents; Teatown Lake Reservation, to provide scientific and technical training to
+volunteer environmental decision-makers; and Westchester Chamber Educational Foundation, to promote
+environmentally sustainable business practices. The Thriving Communities Senior Program Officer is Tara
+Seeley, (914) 948-5166 x 6, tseeley@wcf-ny.org. I recommend immediate contact and will be pleased to
+initiate.
+
+6
+
+Fast Charging Systems [by Niall Kelleher]
+Tesla created and operates the Supercharger network, which is exclusive to Tesla vehicles. Older
+Superchargers support up to 150 kW and the new Version 3 supports up to 250 kW. Tesla also uses
+some 72 kW dedicated stalls in metro areas. The 2020 mid-year Model S/X LR+ supports up to 250
+kW charging, and the Model 3 and Y LR support 250 kW charging. The Model 3 and Y SR+ support
+170 kW charging.
+Combined Charging System (CCS) offers slow AC charging and the newest version offers fast DC
+charging. For the rest of this article, we only consider the DC fast charging version for the
+USA. Europe also uses CCS but has a different standard and different incompatible connector with
+the USA CCS. CCS DC fast charge system can support up to 350 kW at 1000V. No current EV can
+accept 350 kW, but the Porsche Taycan can accept 270 kW at 800V for a portion of its charging
+session.
+CHAdeMO also offers fast DC charging and has been mostly used by Japanese carmakers. The first
+version supports up to 62.5 kW at 500V. There are no EVs that can use this rate and are really
+limited to 50 kW or less due to the battery voltage. Version 2 goes to 400 kW at 1000 volts. We are
+not aware of any EV that can accept anything close to this. The latest 2020 Leaf can accept up to 100
+kW. Tesla offers a CHAdeMo adapter that can convert CHAdeMO to the Tesla connector up to 50
+kW.
+As the market for large EV trucks and buses develops, it is likely that a different charging system may
+emerge to serve them. Pensky, for example, is developing a system for its EV trucks.
+
+DC fast Charging Network Sizes
+These are the reported counts in the USA as of June-2020. Some networks are somewhat vague as
+to network size at a specific date.
+Network
+
+Power
+
+Sites
+
+Tesla
+
+250, 150 kW, 120 kW, and 72 kW
+
+824
+
+Blink Charging
+
+54 kW
+
+Few
+
+ChargePoint
+
+62.5 kW and 50 kW
+
+unstated
+
+Electrify America
+
+350 kW, 150 kW, 125 kW, 75 kW
+
+429
+
+EVgo
+
+50 kW
+
+unstated
+
+* For most networks with multiple types, they do not specify the number of specific types. Some stalls
+may offer multiple connection types.
+
+
+
+
+Network Notes
+Tesla’s Superchargers are mostly 150 kW with new installations using 250 kW. There are some older
+120 kW stations, but Tesla is in the process of upgrading these. Some metro locations have 72 kW
+unpaired stalls.
+Blink is a large L2 network but offers very few fast-charging sites, and those are limited to 54 kW.
+7
+
+
+
+Electrify America’s most common new installations appear to be 150 kW with more CCS than
+CHAdeMO.
+
+
+
+EVgo is the first independent network that offers Tesla connectors in select locations.
+
+Accessibility
+Charge locations offer a mix of key travel routes and in-town charging for those that don’t have home
+charging. A number of CCS and CHAdeMO charge sites are at car dealers. These sites are rarely
+convent to owners. Dealer charging stalls are often occupied by dealer cars, or worse blocked with
+the dealer’s ICE cars. Access to these stalls can be further limited to business hours and are
+inaccessible after hours.
+
+Growth
+All networks are actively growing the locations and number of stalls. Some companies like
+ChargePoint and Blink are mostly expanding in company parking lots with restricted access. Electrify
+America’s network is funded with Dieselgate settlement money. The expansion could completely
+stop when the money runs out next year.
+
+Charging Costs
+Many Tesla owners get Supercharger access for free. Newer owners do have to pay for
+Supercharging. This chart covers the pricing of DC charging as of June-2020 for the major networks
+in California. Pricing may vary in other areas.
+Network
+
+Connection Cost
+
+Cost
+
+Tesla
+
+0
+
+$0.28 per kWh
+
+$14.0
+
+Blink Charging
+
+0
+
+$0.49 per kWh**
+
+$24.5
+
+ChargePoint
+
+0
+
+$0.20 per kWh***
+
+$10.0
+
+Electrify America
+
+0
+
+$0.43 per kWh****
+
+$21.5
+
+EVgo
+
+0
+
+$0.30 per minute
+
+$18.0
+
+* Maximum Power is at the best location – there can be locations with less power and other than
+Tesla, it can become more costly on per-minute plans or may become cheaper on per kWh
+plans. Usable maximum power depends on vehicle limitations, the state-of-charge, and battery
+temperature.
+** With an account. No account cost is $0.59 per kWh or $29.50 for 50 kWh.
+*** Rates from 6 pm to noon. Noon to 6 pm rate increases to $0.25 per kWh, or $12.50 for 50 kWh.
+**** New rates as of Sep-2020 and varies by location. With a $4 per month fee, price drops to $0.31
+per kWh
+
+Interface
+
+With Tesla, owners plugin and charge. With CCS and CHAdeMO you must navigate a terminal, use
+a credit card or pre-authorized network card. There is a variety of charging pedestals, each with
+different interfaces. There is no standardization in the industry. There are plans to try and duplicate
+Tesla’s plug-and-play system, but it may be years away from being implemented across all the
+different networks and EVs.
+8
+
+Connector Design
+A teenager can easily lift and connect a Tesla charge connector. Tesla’s connector and cable is about
+one quarter the volume and less than half the weight of the CHAdeMO connector and cable. The
+CCS connector is even larger than the CHAdeMO connector! The CCS and CHAdeMO bulky
+connectors can be a struggle for even an average adult to manhandle into place. It can be done, but
+it’s not always easy.
+Fast Charging DC Connectors
+
+Reliability
+
+No system is perfect 100% of the time, but Tesla has been diligent at keeping the Superchargers
+working smoothly. With so many stalls at each location, a single stall failure is not much of a
+concern. We hear far more complaints of broken CCS and CHAdeMO stalls, ones that remain
+broken for long periods of time. With few CCS/CHAdeMO stalls at most locations, it can make for a
+stressful hunt trying to find an alternative location.
+
+Conclusion
+I don’t know why the CCS and CHAdeMO are so poorly designed. One thought that keeps appearing
+is the carmakers who support these systems want to make it as undesirable as possible. This helps
+to keep EV sales limited and steer users to ICE. When you lose money on every EV sold, the goal is
+to only sell enough cars to meet the compliance minimums.
+Sources
+Oddly, networks do not make finding the current network sizes easy. Here are the sources we used
+for key data.
+
+9
+
+
+
+For Tesla locations and stalls we counted from source data provided by Supercharge.info for the USA
+only.
+
+
+
+Blink Charging – We could find no data on the number of fast chargers, and a spot check on the Blink
+map showed very few fast DC chargers. They appear to be mostly focused on L2 AC charging.
+
+
+
+ChargePoint data on fast charging
+
+
+
+Electrify America’s map includes the latest counts.
+
+
+
+EVgo Fast Charging Plans
+---------Croton Sustainability Committee [by Dan Colombini, PE]
+Heat Pump Water Heater Accessories and Ancillary Devices
+Homes in New York use 17% of their energy consumption to generate domestic hot water. Energy efficiency
+upgrades have long focused on thermal insulation, and heating and cooling systems. As we heat and cool our
+homes more efficiently, water heating will become a larger share of overall energy consumption, and should be
+addressed. One strategy to reduce water heating energy usage is to install more efficient water heating
+equipment. As part of promoting the installation of high efficiency heat pump water heaters, some ancillary
+installation items should be considered, as described here.
+
+Hybrid Water Heater Heat Source and Storage Capacity
+Most HPWH’s available for residential use are a hybrid design, combining a heat pump and backup traditional
+electric resistance heater. The lower efficiency electric resistance portion is used during periods of high hot
+water use, or if room temperature is too low for proper heat pump operation. Increasing storage capacity of the
+water heater and ensuring adequate space heating will improve overall efficiency, by allowing more use of the
+heat pump function.
+Ancillary Considerations:
+Heat traps and Anti-Siphon Valves
+Heat traps are useful in many hot water systems in preventing thermo-siphoning. Hot water, being less dense
+than colder water, will tend to rise up a vertical pipe. In some cases, this results in a considerable amount of
+energy being removed from a hot water tank. The simple U-bend of a heat trap will limit hot water from rising
+into a piping system. See diagram below for an example heat trap installation. The installation cost of heat trap
+or anti-siphon valves are minimal.
+Drainage and Leak Detection
+HPWH equipment generates condensate that must be drained (see figure below). This requires a floor drain in
+the area of the water heater, or a small condensate pump can be provided to pump condensate drainage to a
+suitable location.
+Many water heaters come with integral leak detection systems, or they can be provided separately. These will
+detect the presence of water, either on the floor or in a drip pan under the equipment, and can initiate an alarm
+via Wi-Fi. This can protect against damage from unnoticed leaks or failure of a water heater tank.
+10
+
+Condensate Pump Cost
+Wi-Fi Leak Detector Cost (without auto-shutoff valve)
+
+$100
+$50-100
+
+Expansion Tank
+Most water heater installations require an expansion tank to prevent over-pressurization from thermal expansion
+(see figure below). As part of installing a HPWH, the existing expansion tank’s condition should be checked,
+and replaced if necessary. If there is no existing expansion tank, it is recommended to provide one.
+Expansion Tank Cost
+
+$200
+
+Figure 1: Example Installation Detail for Heat Pump Water Heater
+
+11
+
+Houses of Worship – DHW and Solar potentials [Bernie Yozwiak]
+Houses of
+Worship
+Facility
+Contacts
+
+Title
+
+Facilities
+
+Name
+
+Description
+
+Fuel
+
+Type
+
+Tank
+
+Age
+
+Rate
+
+Mark Anzani
+
+Kitchen within the main church building - this is a 30 gallon unit, town-gas-fired. It is
+a new unit installed one year ago, so any replacement action would have to be cost
+neutral to even consider doing something with that.
+
+Con
+Ed
+Gas
+
+Direct Fired
+Tank
+
+30
+gak
+
+1 year old
+
+EL1
+
+Jenny
+
+In our church office building the DHW was provided by an oil burner system however, that unit broke down also around a year ago and because of financial
+concerns we decided not to do an immediate replacement. As we are not running
+programs out of the office with the pandemic, and given our rector and parish admin
+can walk over to the kitchen if they need hot water, holding was not too much of an
+issue. My intention once I have the money freed up is to replace the oil unit with an
+on demand electric unit, as the water requirements in the building are small even
+with programs in operation from there.
+
+Oil
+
+Direct Fired
+Tank
+
+?
+
+Broken
+
+EL1
+
+We have a rectory on Piney Point. As our rector purchased a home of her own here
+in Croton, to have more room for her growing family, we rent that building (tenant is
+still clergy, to ensure our tax status remains simple). That is a central oil fired unit
+that provides hot water for heating and domestic purposes. I don't have specs on the
+unit etc - I would need to make a trip over to do that.
+
+Oil
+
+?
+
+?
+
+?
+
+EL1
+
+St.
+Augustine's
+Episcopal
+Church
+Rector
+
+Our Saviour
+Lutheran
+Church
+
+Temple Israel
+of Northern
+Westchester
+
+Asbury
+United
+Methodist
+Church
+
+Pastor
+
+Justin Johnson
+
+No response
+
+Facilities Contact
+Temple
+Administrator
+
+Steve Krisky
+Robin
+Sasarowic
+
+The boiler heats and stores water directly into a large water tank.
+
+Oil
+
+Direct Fired
+Tank
+
+68
+
+Old
+
+EL1
+
+Pastor
+
+Doug
+Cunningham
+
+There is a 40 gallon 4500 Watt Bradford White for the main building kitchen &
+bathroom(s).
+
+Elec
+
+Direct Fired
+Tank
+
+40
+
+Almost new
+condition
+
+EL1
+
+Mart Caterino
+
+We have 40 gallon 4500 Watt Reliance unit in the Education Building for preschool
+bathrooms & classroom sink.
+
+Elec
+
+Direct Fired
+Tank
+
+40
+
+Almost new
+condition
+
+EL1
+
+The Wesley House has a 40 gallon "parasitic" heater which is set up as a "zone" of
+the building"s oil burner which also provides heat for the building. That unit (as well
+as the oil burner itself) also appears to be relatively new.
+
+oil
+
+Direct Fired
+Tank
+
+40
+
+Good Condition
+
+EL1
+
+Facilities
+
+12
+
+Our Pastor's residence on Grand Street has a (quite old) gas fired water heater which
+might be a candidate for replacement although it is not actually part of the
+"campus".
+
+Holy Name of
+Mary
+Catholic
+Church
+
+Unitarian
+Universalist
+Congregation
+of the
+Hudson
+Valley
+
+Ho
+Parish
+Administrator
+
+Fr. Nelson
+
+Church DHW is gas
+
+Debbie Rago
+
+Parish Ctr/school is electric
+
+Member
+
+Bernie Yozwiak
+
+Member
+
+Carl Grimm
+
+Member
+
+Teri Lukin
+
+Member
+
+Daria Gregg
+
+Gas
+
+Direct Fired
+Tank
+
+Quite Old
+
+EL1
+
+EL1
+
+The UU do not want to invest anything in the Church as they will likely be moving
+
+13
+
+Croton Houses of Worship Flyover Solar Study – Feb. 16, 2021
+Org
+St Aug
+Episcopal
+
+HNM
+Catholic
+
+Location
+
+Orientation
+
+church roof
+hall
+hall
+rectory
+total
+parish cntr
+
+sw
+se
+sw
+sw
+sw
+
+Note
+
+up roof
+lo roof front
+
+total
+Asbury
+church
+se
+Methodist corner bldg
+no good roof
+hall
+shaded
+total
+Our Sav
+church
+sw
+Lutheran hall
+sw
+optimistic
+total
+Grand Total
+Temple
+right
+s
+already has solar
+Jewish
+top l
+s
+total
+Unitarian
+not keeping building
+Grand Total with addition to Temple
+
+ft-l
+
+ft-w
+
+ft2
+
+48
+48
+48
+32
+
+12
+8
+9
+12
+
+576
+384
+432
+384
+
+76
+64
+
+36
+16
+
+2736
+1024
+
+64
+
+24
+
+1536
+0
+0
+
+48
+44
+
+8
+28
+
+112
+56
+
+40
+32
+
+ft2
+
+15W/ft2
+W
+
+kW
+
+1776
+
+26640
+
+27
+
+3760
+
+56400
+
+56
+
+1536
+
+23040
+
+23
+
+1616
+8688
+
+24240
+130320
+
+130
+
+1792
+
+26880
+
+27
+
+384
+1232
+24
+
+0
+1792
+
+157
+
+Total potential square footage needs to be at least 300 SF to attract solar developers.
+
+14
+
+

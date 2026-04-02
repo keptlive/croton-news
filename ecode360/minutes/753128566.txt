@@ -1,0 +1,398 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:00 AM Sunday, Jan. 26, 2025 – via zoom
+Members Attending:
+Lindsay Audin (chair, CSC Coordinator)
+
+Absent:
+Ashley Clemente
+Dan Columbini PE
+
+David Goldman
+Jon Katz PE
+Niall Kelleher (community gardens)
+Brian Pugh (Croton Mayor)
+Len Simon (Village trustee)
+Cheryl Wong (new member)
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Attending guest(s): Carly Shanks, Edwin Adkins
+Announcements: At the Jan. 22 meeting of the Village Board (VB), Mayor Pugh formally
+appointed Cheryl Wong to the Sust. Comm. Welcome Cheryl!
+On 12/3/24, NYSERDA announced termination of the renewable power contracts that
+would have supported the 5 GW Clean Path transmission line from upstate to Con Ed
+territory (where total load exceeds 10 GW). The project was to come on line in 2027.
+On 12/20/24, NYPA asked PSC to support a 1.3 GW version by using existing NYPA
+rights-of-way, and (to support CLCPA) by declaring it a “priority transmission project”.
+The Champlain Express (CHPE) 1.25
+GW line from Quebec is ~50% done and
+should be finished in spring 2026.
+Bottom line: the high GHG intensity of our
+local power (.974 lb/kWh as of 2023 EPA
+eGrid data, >4X that of upstate NY) may
+continue longer than projected.
+In early Dec. in response to NYSERDA’s
+RFI to identify entities wishing to develop
+nuclear solutions for the state, NANO
+Nuclear Energy Inc., maker of microreactor technology, said that it’s “examining replacement nuclear technology that
+could be inserted at…Indian Point because it’s already been licensed. It’s already got
+an infrastructure that sets up for that kind of technology and facility”. In August, NY
+Senate Republicans introduced a bill designed to explore reopening Indian Point
+- EV/EVSE
+Len updated us on Croton’s pending e-bike program. Rollout is expected in June.
+Seven sites around the Village will be equipped with racks and the bikes. Among
+efforts to inform the public and encourage participation, Len mentioned featuring it at
+the Bike-Ped Committee’s Earth Day table, an assembly of bike riders (non-electric)
+1
+
+that ends at Senasqua Park on Earth Day, and a public meeting when the system is
+open for use.
+The fully executed DEC contract for the train station EV charger grant was signed on
+1/13/25. On 1/22/25, SolSystems agreed to give us a $25K credit instead of doing the
+related trench and conduit work, as discussed below. That construction will instead be
+folded into the SOW for installing the system. A draft RFP for installation of the system
+is being readied for Village Engineer review.
+- Solar Projects/Issues
+Train station canopies: All batteries have
+been installed and charged. The site is
+mostly cleaned up. The underside LED
+lights should be on by late February. Con
+Ed’s Permission To Operate (PTO) the
+whole system is now looking like March or
+April. Dave asked about the financial impact
+of the project on Con Ed’s bottom line. Jon
+and Lindsay described how Con Ed will buy
+the power to meet a PSC requirement for
+use of renewable power, and that the utility
+is compensated via its electric rates for any
+negative financial impact. Len provided the
+Gazette pic at right. Its caption touts how the
+canopies shielded commuters’ cars from last
+week’s 5.5” snowfall.
+DPW solar parking canopy: The possible
+loss of the 30% IRA tax credit was reviewed. Due also to the reduced NY-SUN
+incentive and NYSERDA’s $/MT limit on what it will pay for a solar project, losing the
+IRA $ could leave us short $32K-$50K. However, Len pointed out that while federal
+grants may be suspended, tax credits are unlikely to be threatened in the near future.
+A draft RFP is being readied for the Village Engineer’s review.
+SW Municipal Solar program: On 1/18/25, SW proposed a service that could
+manage a municipal solar project for a fee. We await its proposal. Having SW’s Leo
+Wiegman provide those services could significantly expedite the DPW canopy project.
+This service is not related to SW’s planned residential Solarize effort discussed below.
+- Heat Pumps
+Harmon firehouse addition: Installation of a hybrid (ASHP/gas) rooftop unit is on
+hold until spring when construction should be ready to receive it. Work will not be
+affected by changes in IRA funding.
+Washington firehouse garage HPs: Jon and Lindsay are finishing a draft SOW and
+RFP for review by the Village Engineer. As per Jon’s earlier findings on the cost and
+efficiency of an air-to-water (instead of an air-to-air) heat pump, we will instead move
+2
+
+ahead with his original design with 6 ASHPs, coupled with a 15 kW electric boiler to
+ensure full heating service on very cold days. He stated that ASHPs installed after
+1/1/25 need to use a new refrigerant that might slightly impact the cost, and is
+updating his expected pricing thereof.
+Issues of electric service capacity, load on the firehouse’s emergency generator, etc.
+are being assessed by John Whelan of Switch Electric. He tentatively concluded that
+the existing electric service may be sufficient for the proposed added loads. If correct,
+the cost to electrify the heating system may be manageable.
+Full electrification would allow decommissioning of the 45+ year old underground oil
+tank. During a 12/8/24 chat with Bronxville’s sustainability coordinator, Lindsay
+learned that both of that village’s municipal oil tanks (40-50 years old) were found to
+be leaking last summer. DEC became involved, resulting in installation of temporary
+above-ground oil tanks, natural gas services, and replacement of boilers’ burners.
+DPW HPs: The option to replace #2 fuel oil with Renewable Diesel (RD) has put the
+this project on hold until RD operating cost and availability issues are sorted out.
+Residential HPs: NY State has yet to roll out its Home Electrification and Appliance
+Rebates (HEAR) program for middle income homeowners. It’s now expected by
+spring. Once available, we’ll assess it for our long-delayed program to replace
+residential electric DHW heaters with HPWH. Jon has a volunteer (his daughter) to
+assist with the survey work to find existing electric water heaters ripe for replacement.
+- Funding and Budgeting Issues
+Loss/delay of the 30% IRA tax credit won’t affect our HP or EV charger projects since
+IRA funding is not available for them.
+Re: the demise of the Clean Energy Community (CEC) program (from which we
+secured >$500K in grants), we await word on its pending merger with the Climate
+Smart Community (CSC) program, likely by late spring. At that time, a new grant
+program may be announced. Based on its standing in both programs, Croton is well
+positioned to secure such funding.
+Now that the train station work is approaching completion, Village officials on 12/12/24
+raised to Arevon (Sol’s financier) the issue of securing an IRA $300K DirectPay tax
+credit (for 30% of the $1M Village payment for stormwater management work).
+However, Arevon stated that it had already sold tax credits based on the $500K the
+Village has paid so far, creating a problem. They instead agreed to credit us $150K,
+thus reducing our 2nd $500K payment to $350K. Village officials chose to take the
+$150K with a proviso that Sol/Arevon provide an additional $25K credit to resolve the
+Special Permit calling for EV charger trenching and conduits. Together, those credits
+will cut the Village’s final stormwater mgt. payment to $325K.
+- Other Reports
+3
+
+Re: the draft renewable diesel (RD) memo attached to Nov.’s meeting minutes. Jon
+made valuable adjustments to its math and content. Dan found the memo acceptable.
+We await RD pricing on the State fuel contract, expected in February. If OK, we can
+then propose RD use for Village diesel vehicles and DPW oil-fired boilers.
+Regarding RD, the NY League of Conservation Voters’ 2025 Policy Agenda includes
+these goals: “For diesel trucks and equipment in public fleets, adopt a state policy
+commitment to use low-carbon biobased [e.g., biodiesel] or renewable diesel in all
+public truck and equipment fleets” [and for buildings] “modify the state’s bioheat law of
+2021 to expand the definition of bio-heating fuel to include renewable diesel.”
+During a chat with a Yorktown sustainability activist, Lindsay learned that a 5 MW / 15
+MWhr lithium-ion battery power storage system (same storage capacity as our train
+station batteries) was installed in Jefferson Valley (part of Yorktown) in late 2022 or
+early 2023 by Borrego Solar (proposed of other nearby projects). Find a site plan at
+https://www.yorktownny.gov/sites/default/files/fileattachments/planning/page/21811/yo
+rktown_energy_storage_aka_borrego_solar_-_signed_site_plan.pdf
+- Recruitment/Outreach/Communications/PR
+The press release on our attainment of 18,600 CEC points (highest in the Statewide
+program) and a photo were featured in the Village’s November newsletter. The press
+release also appeared in the 12/6/24 issue of the Northern Westchester Examiner. A
+revised version acceptable to NYSERDA was distributed on 12/30/24.
+On 1/12/25, a 3-page feature that included pics, video, and info on the train station
+canopy project appeared in the Journal News. A PDF was sent to committee
+members. The Village will post a link to the article at our web page, but it will only work
+for Journal News subscribers. The newspaper would not allow other access.
+- New Business / Other Issues
+Two new projects were discussed.
+Textile recycling event at Earth Day: Cheryl Wong summarized her proposal for a
+separate Sust. Comm. table at Croton’s Earth Day (May 3rd 11 AM, once again at
+Senasqua Park). Her detailed proposal is appended at the end of these minutes.
+New Sust. West. (SW) Solarize program: Carly Shanks expressed interest in
+overseeing a new Solarize project. Our previous (and 2nd) effort was in 2018. Working
+through SW, it involved vetting and choosing one solar contractor, followed by
+education and promotion of residential and small commercial solar installations. It was
+successful, resulting in ~30 installations, including atop Jon’s house.
+Coincidentally, SW is developing a new Solarize program. In response to a 12/18/24
+query on it, Leo Wiegman of SW said: “[SW] will run one [Solarize] program countywide for at least a year. We will work directly with municipalities and their volunteer
+committees to promote awareness of Solarize Westchester locally.
+4
+
+Everyone interested will be sent to a SW Solarize webpage to register. SW will assist
+inquiring homeowners or business owners with a preliminary desktop solar
+assessment. Those still interested will be referred to 2 or 3 vetted solar installers who
+are active at present in the County and have high quality assurance marks from
+NYSERDA, among other qualifications. SW will fund the resources it devotes to
+Solarize Westchester out of receiving a pre-negotiated referral fee from the
+companies that complete a solar installation from our referrals.
+Municipalities who want a local Solarize campaign will need to demonstrate they have
+streamlined local permitting and approval process for PV systems under 25 kWdc and
+be willing to use their local outreach methods to raise awareness. Croton will clearly
+qualify!
+This week I [Leo Wiegman] am vetting qualifications from a select number of solar
+contractors (Solar Liberty is not among them). Next week we will be reaching out to
+our municipalities to gauge interest. If all goes well, we will launch in February.
+Based on Leo’s description, our effort could include promoting the program at our
+Earth Day table and at a later live in-person event in early fall. Once we get details on
+the SW offering, we’ll review its options at our February meeting.
+
+Date for our next meeting was set for Sunday, Feb. 23, 2025 at 10:00 AM via Zoom.
+
+5
+
+May 2025 Textile Collection Event Proposal – January 2025 Draft
+Author: Cheryl Wong
+Proposal: I propose that the Sustainability Committee (Sust Comm) host a textile
+collection event on May 3, 2025 in conjunction with the Croton Conservation Advisory
+Committee’s (CAC’s) Earth Day events. Residents of the village of Croton and their
+guests will bring clothing and other textiles they wish to donate or recycle. Helpsy, a
+certified B corp dedicated to textile reuse and recycle, will pick up textiles donated by
+village residents. Volunteers from Sust Comm, CAC, and other local organizations
+will staff the table.
+Event Description: Sust Comm and CAC will have a table, tent, chairs and a banner
+at the CAC Earth Day Event at Senasqua Park on May 3rd, 2025 from 11 am to 3:30
+pm. The rain date for the Earth Day Event is May 10; contingency plans for the
+Textile Event in case the Earth Day Event is rained out are still under development.
+Volunteers will arrive at 10am to set up. At least 1 volunteer will be present at the table
+to answer questions and perform a cursory check of donations from village residents
+from 11 am to 3:30 pm.
+Residents will drop off clean, dry, odorless textiles in clear plastic bags. If a Resident
+does not have a clear plastic bag, Sust Comm will provide them, but all marketing for
+the event should specify that the textiles should be dropped off in clear plastic bags to
+discourage loose donations.
+Volunteers will do a cursory check to ensure the item is a textile we accept, dry, and
+has no visible stains from bodily fluids or strong odors. Items with broken fasteners or
+holes are acceptable. A full list of types of textiles and criterion for acceptance are in
+Appendix 2. Residents will be asked to take back textiles not meeting the criterion as
+no waste collection will be provided as part of this event.
+Volunteers will put the bags in boxes for collection by Helpsy. Volunteers will also
+answer questions or provide literature about Sust Comm and CAC efforts, such as
+the Composting Program, and Helpsy’s reuse/recycle program.
+Volunteers will pack up materials, tables, and chairs at 3:45 pm. A truck from Helpsy is
+scheduled for a 3:45 pm arrival for a 4 pm end time to the event. Helpsy will collect
+the boxes for processing at their facility.
+Budget: Below are the anticipated costs to the event and an estimated budget. This
+budget will be finalized and agreed upon with Sust Comm and the Village of Croton
+prior to the event.
+Item
+
+Cost per Unit
+
+Quantity
+
+6
+
+Total
+
+3’ x 5’ Banner with “Textile
+Collection” print
+Clear Plastic Bags
+Tables
+Chairs
+Printouts
+Pens
+Clipboard
+
+$103.64
+
+1
+
+$103.64 1
+
+$26.00
+Donated
+Donated
+Donated
+Donated
+Donated
+
+1
+3
+3
+100
+10
+2
+
+$26.00 2
+0
+0
+0
+0
+0
+$1
+
+Grand Total
+
+Helpsy will pay for the donated textiles at $0.10 a pound. As of the January 2025
+version of this proposal, how the Helpsy payment will be processed is to be
+determined.
+Marketing: The Textile Collection Event will be advertised in the Village Newsletter,
+Village Facebook page and Instagram, and in the local church bulletins. As of the
+January 2025 draft of this proposal, marketing materials are still in flight. 3
+Volunteer: Volunteers are needed for the following tasks.
+Before the Event Day
+● Advertise event with local groups and on their social media
+● Create or compile materials for distribution on the day of the event.
+● Print marketing materials for distribution on day of the event – Village of Croton
+will print
+● Secure collection bins before the day of the event – Sust Comm can provide a
+box; Helpsy can provide rolling bins
+● Create/print banner and obtain materials to mount banner
+● Secure canopy and stakes/weights to hold it in place against wind – Sust Comm
+may provide
+● Secure several light or fold-up chairs
+● Obtain booth layout map from CAC
+On the Day of the Event in the Morning
+● Bring and set up collection bins on the day of the event
+● Set up tables, chairs, canopy, clothing hangers/bar, and collection bins on the
+day of the event
+
+1 Estimate is based on https://www.bannersonthecheap.com and includes shipping and bungees to hang
+
+the banner
+2 Estimated cost is based on Jumbo 20 Gallon Size Zip Bags from Amazon and includes shipping and
+taxes.
+3 The event is expected to be branded as a joint project of the Sustainability Committee and
+Conversation Advisory Council. I am in touch with Sustainability Committee Public Relations associate
+Adlin Hadid, linum04@gmail.com on production of materials.
+
+7
+
+On the Day of the Event During the Event
+● Perform cursory checks of donated textiles
+● Put them in the bins
+● Answer questions about the Sustainability Committee or take down the asker’s
+questions and contact information
+On the Day of the Event After the Event
+● Store or recycle the unused literature
+● Clean up the tables/chairs
+● Return any donated equipment (such as a canopy or rolling rack)
+Appendix 1: Textile Types and Quality Criterion for Acceptance
+We will accept clean, dry, odorless textiles with no visible stains from bodily fluids.
+Holes, rips, and broken fasteners are acceptable.
+Examples of the types of textiles we will accept include the following 4:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+stuffed animals
+clothes and shoes
+linens
+blankets and comforters
+rugs
+curtains
+towels
+tablecloths
+pillows and pillowcases
+shoes
+cloth luggages
+outerwear (coats, gloves, hats)
+underwear including bras
+swimwear
+cloth tents
+
+Examples of the types of textiles we will not accept include the following:
+•
+•
+
+plastic shell luggages
+plastic tarps
+
+Appendix 2: Event Day Volunteer Staffing List
+Volunteers will be needed for the following shifts on the day of the event
+
+4 This list is still in discussion with Helpsy as of January 2025
+
+8
+
+Shift
+9 – 11am
+
+11 – 1pm
+1 – 3pm
+3 – 5pm
+
+Tasks
+Bring canopy, banner, printed materials to
+Senasqua Park.
+Receive bins from Helpsy and set them up.
+Set up tables, set up canopy, set up chairs,
+set up bins
+Perform checks of donated materials.
+Answer resident’s questions
+Perform checks of donated materials.
+Answer resident’s questions
+Close up canopy, close down tables, gather
+and store or recycle leftover printed
+materials.
+Assist with Helpsy pick up.
+Return canopy.
+
+9
+
+# of Volunteers Needed
+2
+
+2
+2
+2
+
+

@@ -1,0 +1,160 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Nov. 6, 2022 – via zoom
+Members Attending:
+Lindsay Audin
+Brian Pugh
+Dan Columbini
+Len Simon
+Joel Gingold
+Jon Katz
+Bernie Yozwiak
+Ashley Clemente David Goldman
+
+Absent:
+Niall Kelleher (NYC marathon)
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): none
+Announcements: We thank the Village for fixing our zoom access and this zoom. On
+10/17, Mayor Pugh formally appointed David and Ashley to our committee.
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC-sponsored projects
+Washington firehouse solar rooftop: on 9/13, the Village got the 25% initial payment
+($22,500) from NYSERDA for this project. On 10/18, CEG applied for the building
+permit. Once in hand, CEG will work out the schedule with Fire Dept. (FD) personnel.
+HP controls proposal: Carey & Walsh (C&W) stated (10/24) that a building permit is
+not needed for the job but delivery of some materials needed for the project has been
+delayed. They are holding off on scheduling, pending clarification on a delivery date.
+Jon pointed out that, once the hybrid HP / oil boiler control system is in place, it would
+provide a good example of such systems, including for homeowners that wish to
+integrate new HPs with their existing fuel-based heating systems.
+- Other Solar Projects/Issues
+Train station canopies: On 10/21, SolSystems’ contractor, Core Development Group,
+started staging its construction work (e.g., blocking off parts of the lot to install fencing,
+delivering materials, etc.). Groundbreaking is scheduled for 11/14. See the end of
+these minutes for Sol’s phasing plan. DPW is coordinating this work. Holes for >200
+columns will be drilled to hold the canopy footings. Work will start at the south end of
+the lot. Commuters are being warned regarding parking disruptions for 6+ months
+Re: CS 2.0 subscribers. Ecogy’s next project (1 MW at Arcadia Farm) starts up this
+Feb. Subscribers should start seeing their solar discounts on electric bills thereafter.
+Croton Landing Park canopies: Jon expressed concerns regarding Ecogy’s revised
+design (i.e., two canopies over portions of the boat launch area). He presented photos
+and findings of the site regarding visual impacts and difficulties with turnarounds for
+vehicles pulling boat trailers. Eliminating the section near the river could avoid some of
+those issues, but others (e.g., restricting river view from the walkway) remained. A
+single canopy near the walkway would also output only ~80 kW, making the project
+1
+
+too small to finance through community solar. After a lengthy discussion, the
+committee chose to drop this project.
+The only remaining undeveloped solar sites owned by the Village are strips of parking
+areas next to the Muni Bldg and the DPW building. They are too small to finance via
+community solar. Once we have clarity on IRA funding (see “funding” below) we can
+review viability via a direct grant. All other Village-owned sites (including rooftops,
+parking lots, and parks) have either been developed/installed, or found unsuitable.
+Other possible sites are privately owned, e.g., ShopRite, Finkelstein Tire. At the
+schools, solar panels have already been (or are being) installed on their rooftops.
+Once completed (by the end of 2022), a total of 381.5 kW will be installed:
+- 247.5 kW at Carrie Tompkins (CET)
+- 101.6 kW at the high school
+- 32.4 kW at Pierre Van Cortlandt (PVC).
+- EV/EVSE
+Another of the 3 dual-port ChargePoint chargers installed in May 2019 had a relay
+head failure (the main part of the unit). A Village PO was issued for $1,790 to replace
+it. DPW will install it. Concerns were expressed regarding high maintenance costs.
+We await word from DEC on our ~$150K application for a grant to cover train station
+chargers, their installation, electrical infrastructure work, and 2 years of free charging.
+Thank you to Ashley for completing a tedious task compiling an email list of
+participants in the SmartCharge program. Once the train station system is operational
+(late 2023/early 2024), the list will be used to publicize the free charging.
+On 10/17, the charger/trenching layout (diagram reviewed during October’s meeting)
+at the train station was sent to SolSystems for review and inclusion in its construction
+work. Thanks to Bernie and Abhi (his intern) for producing the design’s line diagram
+(see last page of minutes) and checking that it meets all NEC codes.
+Regarding the school’s EV bus and charger, Joe Bernardi (CHUFSD Trans. Spvsr.)
+stated (10/19) that “We are happy to advise you that our chargers are up and running
+and fully operational. Our Electric Bus ribbon cutting will be Tuesday 10/25”. For those
+wishing to visit the site, they may reach Joe at transportation@chufsd.org.
+- Funding Sources/Issues
+Len reviewed his findings on the federal Inflation Reduction Act (IRA). Regarding
+potential funding, he translated “IRA-speak” into terms used in NY State programs. He
+found that IRA Disadvantaged Community (DAC) boundaries differ from State DEC
+DACs in ways that limits our IRA funding options. He provided an excellent review of
+the IRA from the standpoint of local govts., produced by the Climate Mayors group.
+Lindsay agreed to sift through it for possible financial opportunities.
+2
+
+On 10/19, regarding compilation (at our request) of IRA incentives for municipalities,
+Jenna Cain of the Sunrise Movement (SM) stated that “a bunch” of SM personnel that
+had committed to doing the task had instead “dropped out”. She agreed to complete
+the task alone by late November. See “recruitment” below for other efforts to work with
+local youth climate action groups.
+On 11/3, NYSERDA announced: “…to prevent over-incentivizing projects with public
+funding, NYSERDA has decided to temporarily suspend the Community Adder in the
+Con Edison territory until federal guidance on the [IRA’s] ITC adders is published.
+NYSERDA intends to re-launch an adjusted Community Adder once the ITC guidance
+is available…” When clarity on the matter is available (perhaps by late January), we
+will review our options re: the parking lot strips discussed above.
+- Food Scrap Recycling Program
+With help from CAC, C100, MoF, C4C, and Village staff, 70 requests to participate
+were received by 10/24; 40 (the goal) were accepted. Others were notified that they
+were not selected, but would be informed if the program is later expanded.
+Frank Balbi (DPW) on 11/3 reported that most of the needed materials are in hand or
+awaiting delivery. The service shed at the dog park is being moved to Lot A, so a new
+shed was not needed. Other items (e.g., cleaning supplies) are readily available.
+We are prepping for the Dec. 4 kick-off event. To avoid overcrowding and parking
+issues, the distributions will be done in two time slots: noon to 1, and 1 to 2.
+Committee members will next meet on that Sunday at 11:00 AM in the Muni Bldg
+Community Room to set up the room for distributing the materials.
+Scrap drop-offs will run from Saturday, Jan. 7 through June 24, 2023 at the end of
+Pkg. Lot A near the train station. The first County scrap pickup will be Monday, Jan. 9.
+- Recruitment/Outreach/Communications/PR
+As previously discussed, all but one member of the youth-based Sunrise Movement
+that had agreed to perform a review of the IRA had dropped out of that effort before
+completing it. To assess viability of working with other youth-oriented groups, Lindsay
+researched them for local contacts. The nearest chapter of Greta Thunberg’s Fridays
+for Future is in the Bronx. Another group (Extinction Rebellion) had a Westchester
+chapter (Hastings?), but its contact info now goes instead to the group’s NYC chapter.
+Last Generation only has chapters in Florida. Most are focused on non-violent direct
+action. At this time, no value was seen in further efforts to engage with them.
+On 10/12, Adlin Hadad (our PR associate) agreed to produce a 2022 annual report of
+our activities to the VB. We had suspended that activity (needed to maintain our CSC
+status) during COVID. The report will be compiled during January.
+- Other Reports
+On 10/12, Dan attended a Sandy Galef-sponsored zoom on HPs. Regarding pending
+new incentives, he stated that we need to wait for new Con Ed rebate rules (expected
+3
+
+by January). He reviewed a variety of options for homeowners as detailed in online
+presentations by Rewiring America, a NGO promoting widespread electrification
+(www.rewiringamerica.org). Depending on income, for example, a $1,750 IRA
+incentive for a HP water heater (HPWH) will be available as a “buy down” through a
+plumbing contractor. A 30% tax credit (up to $2,000) may also be accessed. Together,
+they may make HPWHs financially desirable to replace existing electric water heaters.
+- New Business / Other Issues
+Jon reviewed his findings on rooftop boiler/furnace exhausts at the Metro North
+Railroad (MNR) maintenance buildings. Lindsay had asked him to do so pursuant to
+an IRA-based option for carbon capture incentives. In IRA DACs, facilities able to
+capture at least 1,000 metric tons (MT) per year would qualify for $85/MT. MNR burns
+~250,000 gal/yr of heating oil, producing over 2,500 MT/yr.
+A commercial carbon capture system (offered by CarbonQuest Inc., carbonquest.com)
+captures 50% of carbon from an exhaust stream. But review of IRA DAC boundaries
+found that the MNR site is not within one. Non-DAC sites would need to capture at
+least 12,500 MT/yr to qualify for the incentive. Such facilities may be large industrials
+or campuses burning over ~1.2 million gal/yr of oil (e.g., a university or medical center
+with a central plant heating ~2 million SF of buildings).
+Members are reminded that they must take the annual State-required online training in
+sex harassment and workplace violence unless having taken it during October. Proof
+of completion should be sent to pdisanto@crotononhudson-ny.gov as PDFs.
+
+Date for our next meeting was set for Sunday, Dec. 4, at 11:00 AM in the Muni Bldg
+basement Community Room to distribute food scrap program materials. To avoid
+conflicts with holidays, the following meeting is suggested for Sunday, Jan. 22, 2023
+via zoom, as usual, at 10:30 AM.
+
+4
+
+5
+
+6
+
+

@@ -1,0 +1,135 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:00 AM Sunday, Nov. 24, 2024 – via zoom
+Members Attending:
+Lindsay Audin (chair, CSC Coordinator)
+Ashley Clemente
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (community gardens)
+Brian Pugh (Croton Mayor)
+Len Simon (Village trustee)
+
+Absent:
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Invited guest(s): Alex Maccalini, manager of Shared Mobility, Inc. Project MOVER
+program in Ossining, to review e-bike sharing for Croton, and Cheryl Wong, a
+prospective new committee member.
+Announcements: On 11/7/24, NYSERDA shut down the Clean Energy Community
+(CEC) program. It ended with Croton leading with 18,600 CEC points. 2nd place went
+to Hastings at 14,000, and 3rd to Bedford at 13,200. See below for financial impacts.
+Reminder: committee members must take the annual required trainings on workplace
+violence and on harassment. Direct questions to pdisanto@crotononhudson-ny.gov.
+- EV/EVSE
+Alex Maccalini reviewed the e-bike sharing program as applied to Croton. [His slide
+presentation was later sent to all committee members.] When fully charged, an e-bike
+can go 30-40 miles. Alex discussed the successful Ossining pilot program scheduled
+to end in December and start up fully in early 2025. The Ossining program features 11
+drop-off sites, including its train station. He suggested 6-9 stations for Croton to
+include (among others) our train station, Municipal Building, several parks, and ShopRite, and a central battery repository. Others suggested additional sites. Ossining’s
+train station is below a steep hill. Alex indicated that the e-bikes were able to handle it.
+Dave suggested imprinting on the bikes a warning that protective helmets must be
+worn. He also suggested that e-bike promotions include the calorie use Alex later
+cited for biking, along with guidelines and metrics on speed, incline and ride duration.
+As the program develops in 2025, Croton, Sleepy Hollow, and Tarrytown will become
+“satellite” participants. The Village is considering hosting a “Project MOVER – Bike
+Share Town Hall” in the near future so that all members of the community can learn
+more about the program and provide their views on its design and operation.
+The contract for our DEC EV charger grant is at last in hand and is now going through
+the review and signing process. On 11/18/24, Village staff walked the EV charger lane
+with Lindsay and modified the trench and charger layout. The next step is securing
+1
+
+agreement with Sol on installing the trench and PVC conduits for charger wiring. A
+RFP to hire an electrician to install the wires and switchboard is in process.
+- Solar Projects/Issues
+Train station canopies: The
+portable solar lights have been
+sufficient to avoid complaints.
+Delivery of the batteries started
+11/15/24 (see Dave’s pics at
+right). Each module is the size of
+a phone booth and includes
+monitoring and cooling
+equipment. A truck-mounted
+crane is inserting them into the four white battery housings.
+DPW solar parking canopy: this project is now on hold until we are assured the 30%
+IRA rebate will remain available in 2025. Without it, we could be short at least ~$32K
+(and up to ~$50K) due to NYSERDA’s $10K/MT/yr limit that it will pay for a solar
+project. Members expressed confidence that the 30% would remain in effect, at least
+through next year. Mayor Pugh and Trustee Simon were open to having the Village
+fund the difference should it appear the 30% rebate is lost.
+Washington firehouse net metering: Nothing new to report.
+- Heat Pumps
+Harmon firehouse addition: Installation of a hybrid (ASHP/gas) rooftop unit is on
+hold until 2025 but will not be affected by changes in IRA funding.
+Washington firehouse garage HPs: After much discussion, we chose to move
+ahead with a slightly modified version of Jon’s original 6-ASHP design, coupled with a
+12 kW electric boiler to ensure full heating service on very cold days. Doing so would
+allow decommissioning of the 45+ year old underground oil tank. On 10/7/24, Jon and
+Lindsay zoomed on an option for a central air-to-water HP and electric boiler as an
+alternative. While it could achieve the same ends, Jon estimated a much higher
+overall installation cost and 20 kW electric boiler, which could challenge the existing
+electric service. Jon pointed out that ASHPs installed after 1/1/25 would need to use a
+new refrigerant that might impact the cost. He agreed to update his pricing.
+Jon also queried Greg Carey of C&W regarding likely duration of the planned HP
+installation work. Carey indicated that the job could be done in 5 working days, but
+said assume 7 to be sure. Len had looked into how that could be handled since it
+would require that the fire engine be kept outdoors for that duration. He found that a
+longer project years ago at the Grand St. firehouse required its engine to be out of its
+garage for several months while repairs were made to its floor. Len felt the HP work
+should be OK if done in spring/summer next year.
+2
+
+Issues of electric service capacity, load on the firehouse’s emergency generator, etc.
+will be assessed by Nick Kalyvas, our electrical advisor before our next meeting.
+DPW HPs: The option to replace #2 fuel oil with Renewable Diesel (RD) has put the
+this project on hold until operating cost and availability issues are sorted out. Dan is
+awaiting a meeting with his contact at the NY City’s Dept. of Sanitation to confirm
+acceptability of the City’s use of RD in its garbage trucks.
+Residential HPs: NY State has yet to roll out its Home Electrification and Appliance
+Rebates (HEAR) rebate program for middle income homeowners. It’s now expected
+by early 2025. Once available, we will assess it for our long-delayed program to
+replace existing residential electric DHW heaters with HPWH. Jon has a volunteer (his
+daughter) to assist with the survey work to find existing electric water heaters.
+- Funding and Budgeting Issues
+Possible loss of the 30% IRA rebate would not affect our air-source HP projects since
+IRA funding was never available for them. As stated above, the main IRA issue is for
+solar installations where the rebate could be important to their financing.
+The demise of the Clean Energy Community (CEC) program was unexpected. No
+reason was given for the sudden shutdown. We had been told that a merger with the
+Climate Smart Community (CSC) program was likely by mid-2025. It’s possible that
+many more municipalities sought grants to beat an October deadline (after which
+grant values dropped), thus depleting the CEC budget. We await clarification on the
+merger of the programs and whether new grants may then become available. Based
+on its standing in both programs, Croton is well positioned to secure such funding.
+- Other Reports
+We briefly discussed the draft renewable diesel (RD) memo attached to the minutes of
+the last meeting. Based on his own calculations, Dan found it acceptable. No opposing
+views were expressed. [Jon later reviewed it and made valuable adjustments.]
+[On 11/25/24, Sprague Energy indicated that a differential upcharge of only ~$.25/gal
+(not the $.75 assumed in the draft memo) was likely. But a firm annual price will not be
+available until Jan. or Feb. after Congress renews (and maybe changes) existing
+federal biofuel tax credits that go to producers. Once a firm number is in hand, we can
+raise the RD option to Village officials and the Village Board.]
+- Recruitment/Outreach/Communications/PR
+A press release on our attainment of 18,600 CEC points is being issued that includes
+congratulatory comments from our elected State representatives. A photo op to
+commemorate our success was held 11/22/24 at Croton Landing with several Village
+EVs in the background. State and local officials and others attended. The
+announcement and photo were featured in the Village’s November newsletter.
+3
+
+To seek new committee members, over the last 2 months Lindsay took training in two
+national climate action organizations. While both organizations are to be applauded for
+their efforts, their training was too basic to be of use. Participation in group dialogues
+found no one involved in development or implementation of carbon-cutting projects.
+Instead, both groups focus solely on lobbying for climate legislation and education.
+To the same end, Keiko polled participants in the food scrap program on their potential
+interest in serving our committee. Four people responded, and are being reviewed.
+- New Business / Other Issues
+Date for our next meeting was set for Sunday, Jan. 26, 2025 at 10:00 AM via Zoom.
+
+4
+
+

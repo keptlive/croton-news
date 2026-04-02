@@ -1,0 +1,189 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, May 22, 2022 – via zoom
+Members Attending:
+Lindsay Audin
+Len Simon
+Joel Gingold
+Bernie Yozwiak
+Niall Kelleher
+Brian Pugh
+Jon Katz
+
+Absent:
+Dan Columbini
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: We again thank the Village for sponsoring our zooms.
+Updates/holdovers/follow-ups/statuses:
+- Earth Day April 30
+Thank you to all who helped staff our table, and to Janet Monahan of the CAC who gave
+us the covered picnic table at the entrance. Despite the gusty winds, everything went
+well. People took our flyers, names were added to or emailing list, and much good will
+was created for our committee. If next year’s Earth Day is also held at Senasqua Park,
+Janet said she would reserve the covered picnic table for us.
+- NYSERDA CEC grants and projects
+On 5/10, a webinar clarified how new NY-SUN incentives could significantly cut the cost
+of the Washington firehouse solar project. See further discussion below. The revised
+NY-SUN Operating Manual will be issued on 5/31, after which that project can file for the
+higher incentive. Next steps: Lindsay will get approval from Village staff for CEG’s
+proposal and its contract to perform the work.
+On 5/19, Jon secured a refreshed heat pump controls proposal from Carey & Walsh
+(C&W) that includes prevailing wage. At $13,600, it’s just a tad higher than its original
+proposal. Since it’s still under $20K, no RFP is required. Before our next meeting, Jon
+and Lindsay will set up a site review with Village staff and Fire Dept. officials to kick off
+the project. Jon will ask C&W to provide its contract for Village approval. With it, we can
+apply for 25% of the grant money to get the installation work under way.
+- Heat Pump Campaign
+The campaign is done. As of 5/19, we logged 14 HP installations. Only 5 were needed to
+get a $5,000 grant and 500 CEC points. Nearly all are ASHPs. Some of the same sites
+also had HPWHs, 2 HPWHs are by themselves, and there was 1 GSHP. Two other
+responders claimed to have installed heat pumps but were mistaken. Another declined to
+provide requested information. The HPs were found via: a NextDoor.com posting, the
+eagle eyes of Jon and Dan at 3 new homes on Wells Ave., another on Cleveland Drive, a
+Gazette LTE, C100’s newsletter, various social media, the River Journal article, and
+1
+
+eblasts by Bernie, the Village, and our committee’s list. We also gave out HP flyers at
+Earth Day. Paperwork to NYSERDA for the grant and points was filed on 5/19.
+- Funding Sources/Issues
+Via email, Dan detailed his research into the utility “Cost Sharing 2.0” (CS 2.0) program
+being pushed by the solar industry to cover costs to upgrade power distribution to solar
+sites. It’s presently before the PSC for approval. Some proposed projects in the Con Ed
+territory would require expensive feeder upgrades which (without CS 2.0) could cost too
+much for a solar project to bear. None of our present projects need that help.
+Len reported on the viability and timing for seeking a large ($1+ million) grant for Croton
+Landing Park under Community Project Funding (CPF) in the annual federal
+appropriations process. Each Representative gets funding “earmarks” that it can provide
+to communities in its district, with one to each. Due to redistricting, Rep. Mondaire Jones
+may be replaced by Sean Maloney who previously repped the district just north of us.
+Len reviewed guidance from congressional committees to see if such a project would be
+acceptable. Grants range from $70K to $3M, with an average of ~$750K. Each would
+require a 50% match (a deal killer for Croton Landing) but the Village has other (nonenergy) projects it would likely prefer for its one grant. Timeline: submit proposals in April
+2023, responses by Dec. 2023, spending in spring 2024. We will not pursue it further.
+On 5/12, Con Ed announced that all rebate funds for ASHPs and HPWHs were spent.
+They were expected to last into 2025. No more rebates for them are available unless
+funded by the PSC. The $1,000 HPWH rebate was key to promoting that option. GHSP
+rebates are still available, but it’s unclear for how long. Sustainable Westchester is
+leading an effort for a PSC proceeding to remedy the situation. Jon will review docs
+[subsequently sent to all committee members] on the matter and clarify any details.
+Funding under Con Ed’s PowerReady EV infrastructure program has also run out. We
+had been planning to seek it for the train station project. Through the end of March, it
+funded infrastructure for 359 EV chargers, of which 42 were DC fast chargers. Con Ed is
+wait-listing applicants, but it may be a year before the PSC authorizes new funding.
+Plan B is to seek similar funding from either the Bipartisan Infrastructure Law, probably in
+the early fall, or sooner via an upcoming DEC Request for Applications (RFA) for EV
+infrastructure. DEC said it will be similar to the last one, so Bernie reported on its likely
+requirements. There is no minimum grant, and the peak is $250K. Rough costing for the
+train station EV infrastructure work is at least $100K. The grant requires metering of the
+chargers pursuant to calculating reductions in GHG reduction from their use. Bernie is
+detailing a Scope of Work (SOW) and spec to nail down the EVSE costs.
+To assess the potential grant size, we needed to know Croton’s Median Household
+Income (MHI) for 2020. Len found it was $135,845. Under DEC’s rules, that would
+require we provide 20% of the cost (i.e., $20K+). Bernie found that we can’t use other
+2
+
+federal or State grants for the match. We may be able to count the SolSystems’ payment
+for the empty conduits toward that 20% since it is coming out of our leasing revenue.
+Jon mentioned the July 1 deadline for applications under DEC’s Climate Smart
+Community (CSC, not CEC) grant program, but we had already reviewed the options and
+found none that were relevant to our carbon-cutting focus.
+Joel reported on a NYSERDA grant program focused on getting a handful of State
+municipalities to develop building codes that would (for new buildings) yield net zero
+energy homes and businesses. Only 4 municipalities would be eligible for grants up to
+$500K each to research and develop such codes for use in their jurisdictions. The most
+likely recipients would be cities with staffing to pursue the grants and comply with their
+requirements. We saw no reason to seek such a grant.
+- Other Solar Projects
+Train station canopies – The 50% plans (needed for permits, charger siting, etc.) arrived
+5/3. The water management section was not included, pending completion of the groundpenetrating radar (GPR) survey presently underway. Village staff are reviewing the
+plans. An in-person meeting of all parties is set for Wednesday, May 25 at the Muni Bldg.
+[At that meeting, Sol’s contractor projected major work to start in mid-October, with
+completion by August 2023.]
+Croton Landing Park canopies – To clarify issues related to limiting the size of alienated
+property, Bryan Healy on 4/25 submitted 4 questions to Assembly staff involved with
+alienation exemptions. Answers are expected by early June.
+NYPA found that small bits of property that may be alienated due to canopy pillar
+installation were secured through grants from the State’s Environmental Protection Act
+and its Clean Water Clean Air Bond Act. That will require securing permissions from the
+State DEC. Len said that Ann Gallelli is checking on funding that went into Croton
+Landing and will get back to him on which source paid for which parcel.
+We also found a Con Edison easement through which an underground power line will be
+needed to connect the two canopied areas. Ecogy is reviewing the issue.
+Bottom line: even if we had gotten an exemption through the State Legislature this year,
+getting those other approvals would have blocked proceeding until we do.
+However, the new NY-SUN incentive may not be enough to bankroll the project. While
+there’s still some “wiggle room” in the incentive rules, even reaching $1.70/W (feasible if
+part of Croton is declared a Disadvantage Community, see “Other Reports” below) would
+not be enough to secure leasing revenue. An increase in a VDER benefit or in the federal
+ITC would be needed to secure acceptable revenue. The new NY-SUN Operating
+Manual (arriving 5/31) may better inform our financial options.
+- EV/EVSE
+3
+
+Bryan Healy accepted our suggestion to use the “found money” from the increased NYSUN incentive for the firehouse rooftop project to pay for part of the Village’s 4th EV.
+Depending on supply issues, that new police enforcement vehicle may arrive by late fall.
+On Earth Day, C100 ran its EV show at Senasqua Park. It distributed our EV flyers.
+See above for the loss of PowerReady EV charger infrastructure funding and Plan B.
+On 5/17, the school district’s bus proposition passed. It authorized purchase of another
+full-size (66-passenger) EV bus, a 20-passenger diesel mini-bus. and funding for EV bus
+chargers.
+- Stretch Code
+
+At the 5/3 VB work session, Jon reviewed the Stretch Code and answered trustee
+questions. There was no opposition. Jon drafted the resolution and Stretch law and they
+were forwarded to Brian Healy on 5/11. On 5/16, the Stretch Code legislation was
+introduced. A public hearing on the Code’s changes and the SEQR analysis are both
+scheduled for 6/6. Several committee members will attend. If all goes as expected,
+Stretch will be formally adopted on 6/21.
+If so, we will receive the final $5,000 grant under the Clean Energy Community (CEC)
+program. At that point, we will have collected $125,000 in CEC grants (the maximum
+available under that program). We will also get 1,200 CEC points, raising our total to
+6,900 points. Doing so would give us the 2nd highest total in the State (just below
+Hastings’ 7,100 points). A few other CEC actions (which would yield points but no
+money) could later make us the lead CEC municipality in NY. Doing so would position us
+to compete in the next grant program.
+Len noted that all environmental forms have been filled out, and Stretch was to be
+reviewed by the Waterfront Advisory Committee in the coming week. He felt certain it
+would support Stretch. The Planning Board already indicated its support.
+- Other Reports
+Niall looked into if/how Croton could be designated a Disadvantage Community (DC or
+DAC) and an Environmental Justice (EJ) community. Based on recent analysis by the
+State’s Climate Justice Working Group (CJWG), he found that part of Croton may soon
+become a DC but is unlikely to become an EJ. A new map showing DCs and EJs is due
+out this fall.
+Being a DC would raise the potential NY-SUN incentive for Croton Landing to $1.70/W.
+Also being an EJ would boost it to $1.80/W, which is still too low to secure leasing
+revenue. [Ecogy proposed installing only a 200 kWp system since that would get us to
+$1.90/W. But the latter would yield <$1K in annual leasing revenue.]
+
+4
+
+On 5/17, Dan did a walk-through at the Washington firehouse to see if instantaneous
+DHW heaters could be installed to displace the existing oil-fired indirect-fired water
+heater. Due to high DHW demands in the kitchen, a local storage tank would also be
+needed for which there’s no room. A lot of electric service would also be needed for
+instantaneous water heaters to serve the sinks in the bathrooms and garage.
+He felt the best course was replacing the existing DHW heater with a HPWH once a
+financial incentive is available. In the meantime, alleviating the energy waste due to the
+(roughly) 100’ of uninsulated DHW piping in the ceiling could be done cheaply with foam
+tube insulation. Access should be easy due to dropped ceilings. Labor cost would not be
+an issue if DPW and/or firemen did the work.
+- Recruitment/Outreach/Communications/PR
+The EV and HP campaigns produced a lot of visibility and positive PR for our efforts. In
+the end, no $100 incentives were needed to fulfill either campaign. As a result, Lindsay
+stated that his faith in humanity is almost restored.
+Due to the paperwork overload involved with many of the above issues, we need 1 or 2
+new members, preferably much younger (like <40), willing to take on tasks and assist
+with committee management. DOE’s Clean Energy Corps (funded under the Bipartisan
+Infrastructure Law) may be a possible source, but its hiring has been moving glacially.
+Members were asked for ideas to find new people.
+Bernie will forward a contact for a senior intern to help us with small tasks.
+- New Business / Other Issues
+Joel stated that the ~300-page report from the State’s Climate Action Council was out for
+comments. Lindsay indicated that reviewing it and producing a short memo on its
+relevance to us would be a nice task for a new committee member, or senior intern.
+Date for our next meeting was set for Sunday, June 26 at 10:30 AM via zoom.
+
+5
+
+

@@ -1,0 +1,170 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, May 31, 2020 – via Zoom.us
+Members Attending:
+Lindsay Audin
+Niall Kelleher
+Len Simon
+John Habib
+
+Joel Gingold
+Brian Pugh
+Jon Katz
+
+Absent:
+David Goldman (on leave)
+
+Non-members wishing to attend are asked to RSVP to energywiz@aol.com to verify meeting date,
+time, and location, which may be adjusted to meet committee member requests. [Bracketed] text
+relates to actions subsequent to this meeting.
+-------------------------------------------------------------------------Scheduled guests: none
+Personnel item:
+David Goldman informed us that he will be absent from committee activities until September due to
+a work-related project that until then will take most of his time. His absence is thus excused, and
+we wish him the best with his project. He will be kept up-to-date by receiving our meeting minutes.
+Quick updates/holdovers/follow-ups/status:
+- Food scrap recycling: Joel reported that C100 has not yet decided if it will take over the admin of
+our pilot food scrap grant and project. It’s also looking into Hilltop Hanover Farm in Yorktown as a
+recipient for Croton food scraps. Regarding Sustainable Materials Management (SMM), our
+present choice for receiving our food scraps, the present status of the composting facility that it’s
+building in Cortlandt is not known. Messages to its office on May 10 & 17 have yet to be returned.
+Jon informed us of a vertical tubular composting device he recently purchased. He is feeding it food
+scraps (as well as yard waste) and will report back in a few months on its performance.
+- EV/EVSE: Lindsay recounted Dave’s review of Connecticut’s 109-page EV Roadmap document.
+The goal was to see if it contained helpful information for us. Aside from some useful references,
+there wasn’t anything that we had not already reviewed. We will continue to focus on opportunities
+as they arise to replace Village-owned cars with EVs, when supported by State grants.
+On May 28, Joel and Lindsay (and 47 other people) attended Sustainable Westchester’s Zoom
+show, “EVs: Who's in the Driver's Seat & What's Down the Road?” Much of it was overview on the
+EV market, forthcoming models, “landscape”, etc. There was nothing new of use to our efforts.
+Regarding EV school buses, we recently learned that the CMAQ funding which Len had been
+investigating is already built into the existing State bus vouchers (presently too small to be useful).
+They may be increased later this year (or maybe in 2021) if the VW Settlement money already
+allocated to each state is finally disbursed. The district has two other 2006 Type C buses (i.e.,
+same as the one at issue in the bus budget) that it may soon also need to replace. It may thus be
+best to wait a year or two to do so if/when EV vouchers go up and EV bus prices come down.
+Further investigation of EV school buses found that:
+1
+
+- new versions will be better insulated to reduce the need for a diesel or propane-fired heater.
+Using the battery alone to heat a bus could consume 30% of its capacity in 1 hour.
+- in winter, EV buses should be parked in a heated garage to maintain startup battery capacity. The
+bus depot has only 3 bays, with some in continuous use, making it difficult to store an EV all winter.
+- the battery essentially fills the “underloader”, a space used to stow athletic and other equipment to
+school events and field trips. As a result, an EV bus may not be useable for such activities.
+- the depot’s infrastructure (e.g., electric service) is too stretched to take an EV bus and charger.
+Despite the above (and many other) issues, C100 organized against the school’s upcoming June 9
+transportation budget vote, unless it includes an EV school bus.
+The possibility of an EV for the high school’s driver education program is dormant due to a lack of
+response from the existing program contractor (PAS Driving School). Once the new school year
+starts (and assuming driver education is again being taught), we will re-examine that option.
+Regarding EV trucks, Len reviewed two long studies from NACFE (North American Council for
+Freight Efficiency) on the status and issues related to electrically-powered mid-size and class 8
+(i.e., big) trucks. Some Village trucks (e.g., garbage) fall into class 8. While informative, the studies
+did not point to or reveal anything of immediate use to us. It concluded that, while work is in
+process to make small EV trucks, it may be a decade (or longer) before technology exists to make
+large units competitive with diesel/gasoline units on a total-cost-of-ownership (TCO) basis. We will
+continue to monitor available grants, and hope that the technology and cost of such vehicles will
+eventually approach a point worthy of our attention.
+Congress has re-instated the 30% federal income tax credit for purchasing and installing an EV
+charger used for business (not individual) vehicles, up to a credit of $1,000. It had run out 12/31/17,
+and now runs until 12/31/20. Learn more at: https://www.irs.gov/forms-pubs/about-form-8911
+- Solar projects: Brian helped expedite Cortlandt’s building permit for the DPW rooftop job (held up
+for ~2 months due to COVID). Ecogy got the permit May 3. Phase 1 COVID Reopening started
+May 26, allowing roof work to begin. Ecogy expects to be generating power by Labor Day, and to
+start community solar sales in the fall/winter. Regarding the proposed solar canopies at 2 Village
+parks, the VB on May 4 (again with Brian’s help) approved signing the CESIR interconnection
+applications for both sites. Ecogy received that paperwork on May 7. To avoid tree and other
+issues related to Senasqua Park, Ecogy chose at this time to move ahead only on Croton Landing.
+For that site, it revised its design to avoid such issues. Based on experience with Con Ed, its
+CESIR study should be done by Hallowe’en.
+During the May 4 VB session, trustees asked about installing solar canopies at the train station
+parking lot. Janine added that issue to the VB’s June 8 work session agenda. Lindsay prepared a
+draft RFP for that project based on the DPW rooftop RFP, and forwarded a copy to her on May 15.
+NYSERDA provided its comments on May 26. Since creating the bidder list for the DPW project
+over a year ago, another ~200 solar vendors were approved by NYSERDA. To whittle that down
+via a RFI, Lindsay secured from NYSERDA a file of email addresses and contact names. If (on
+June 8) the VB wishes us to proceed, we will have the tools needed to expedite the job.
+
+2
+
+- Leaf blower regulation: Leaf blowers are presently regulated only under the Village’s general noise
+statute. John Habib reported that Janine King on May 12 issued an amendment to the April 8, 2020
+Emergency Order that had banned the weekend use of leaf blowers within the Village boundaries.
+The amendment now allows their use on Saturdays from 9:00 a.m. through 6:00 p.m., and on
+Sundays from 10:00 a.m. through 6:00 p.m.
+The matter has been formally referred to the CAC for its review of the "A to Z" issues. It may advise
+the VB to amend the Village's legislative treatment of the issue. To solicit input from residents, it
+will host a Zoomed public comment forum on the issue on Wednesday, June 3, at 7:30 p.m. It may
+also be watched live on cable Ch. 78. Information will be provided about gas-powered leaf blowers
+and their effects on the environment. All who wish to publicly comment or watch the forum need to
+first register at: https://tinyurl.com/CACRegister20. Once registered, you will receive the Zoom link.
+Public comments will also be accepted via email to managersoffice@crotononhudson-ny.gov.
+Recruitment/Outreach:
+- School district: Its Environmental Sustainability Committee met May 27 via Google Meet. Much of
+the discussion involved the June 9 bus budget vote. It was also stated that the school will be
+issuing its RFP for an energy performance contract (EPC) in late June or early July. An EPC will
+involve energy auditing of all 4 buildings, with recommendations for upgrades. If accepted, it will
+also bankroll installing them, with repayments from energy cost savings.
+Our FOIL request for the schools’ benchmarking and GHG inventory data was accepted the
+district’s clerk on April 24. Once the data arrives, we will set up a process to enter it into
+appropriate software tools for analysis. Jon K. volunteered to assist with that work.
+Communications:
+In an email from the school district on other issues, Denise Harrington-Cohen (Asst. Supt. For
+Business) wrote: “Lastly, I wanted to thank you for the technical support surrounding sustainability
+that you’ve provided and offered the district thus far. As we continue to advance our knowledge &
+understanding, your insight and experience will be a valuable resource for us.”
+Responses were received from MTA on GHG issues related to the Croton-Harmon Train Yard. We
+learned: it will be installing a 130-kW solar rooftop array on a new building, to be done by 2023;
+there is no GHG inventory or ASHRAE Level 2 energy audit for the Yard; MTA has no sustainability
+director, but does have Energy Mgt. and Environmental Compliance Depts.; MTA is “developing a
+Green Fleet Action Plan that will consider the feasibility of EVs” for its cars/trucks. Our FOIL
+request to MTA revealed that the Yard uses about 500,000 gal/yr of fuel oil and about 70,000
+therms/yr of gas. Electric usage was lumped in with all other MTA facilities, and will require some
+analysis to tease out a useful value. Bottom line: the Yard is likely Croton’s largest GHG emitter.
+New/ongoing business:
+- Others’ efforts: Joel briefly reported on other C100 activities and our interactions with it. He said
+many actions appear to be on hold, pending resolution of its demands for an EV bus.
+Subsequent to our discussions regarding C100’s proposed carbon footprinting app, Lindsay had
+expressed our concerns to Leo Wiegman regarding use of inappropriate emission factors from the
+3
+
+online Berkeley.edu CoolClimate calculator. C100 had used that site to develop an average
+baseline Croton household (HH) footprint of 52.6 MT/yr. Lindsay forwarded to Leo two studies from
+2012 by professional firms experienced in the field, and data from the EPA’s own carbon calculator.
+Each showed average HH footprints between ~21 and 24 MT/HH/yr without taking CCA into
+account (which would further reduce them). Rather than using factors found in the Berkeley
+calculator, Leo provided a spreadsheet of acceptable factors (based on EPA data) that would
+instead be used by C100. A recent examination of the Carbon Tracker section of C100’s web site
+no longer showed the 52.6 number. It also shows a link to EPA’s carbon calculator.
+- NYPA 100% renewable power offering: During a May 11 Zoom, Lindsay reviewed it with NYPA
+reps. In short, it is not yet “fully baked”. NYPA agreed to provide details and written materials
+before our June meeting. About 40% of the Village’s municipal footprint is from electrical
+consumption. Switching to “green” power could thus cut it by almost 40%. To a lesser % degree,
+the same would be true of the school district’s footprint.
+- Climate Smart Community (CSC): On May 22, DEC awarded us bronze certification. DEC says we
+are “on the horizon” to win silver (the highest level), but again withheld points for 4 of our
+submissions. More revisions are needed (by July 3) to make them acceptable. One problem in
+doing so relates to the loss of documentation provided (in 2012) by the consultant (Ecology &
+Environment, a/k/a E&E) that had produced a regional climate action plan that included Croton.
+DEC would not accept that document as is, and demanded its backup data. E&E told us (last
+December) that it had lost all that data, so we must now re-construct it on our own.
+Attaining CSC certification is another CEC (Clean Energy Community, a NYSERDA program)
+action item. Proof of our CSC certification was submitted 3/30/20. In 2017, we had been certified as
+a CEC.. We have now completed 9 of the 10 CEC action items, more than any other community in
+the State. The last one requires our building inspector to attend a live training class on the State
+energy code as it applies to residences. All live events are presently suspended due to COVID.
+- Niall’s request for approval of a community garden at Gouveia Park: As per Brian’s prior statement
+that other issues had to be handled by the VB before it would be considered, discussion of a third
+community garden will remain on hold at this time. CAC will need to be involved.
+- Regarding his Stretch Code FAQ, Jon asked that it be put on the agenda for our next meeting. He
+asked for questions that should be included, e.g., extra costs involved (for both residents and our
+building inspector’s time), tax implications, if all (or only) parts of the code must be accepted, etc.
+- Joel asked about a proposed wind turbine manufacturing plant (not a wind farm) called Port
+Cortlandt. The town of Cortlandt clarified that the application to lease 20+ of its acres (along the
+Hudson River in Verplanck) was a private project by AKRF, Inc. which is seeking financial support
+from NYSERDA. No approvals have been given, nor has Cortlandt’s board voted on it. Public
+hearings will be held before any municipal actions are taken.
+Date for our next meeting: June 28, 2020 (to avoid the June 21 Father’s Day).
+
+4
+
+

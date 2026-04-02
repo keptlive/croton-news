@@ -1,0 +1,281 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Oct. 24, 2021 – via zoom
+
+Members Attending:                                      Absent:
+Lindsay Audin                                           Len Simon (MCing other event)
+Joel Gingold                                            BernieYozwiak (graduation)
+Niall Kelleher                                          Dan Columbini (vacation)
+Jon Katz                                                Brian Pugh
+
+[Bracketed] text mean subsequent actions or clarifications. Underlining indicates a
+commitment.
+--------------------------------------------------------------------------
+Guest(s): none
+Announcements: Thank you to the Village for providing Zoom service.
+
+Reminder: All members must take two online PERMA classes: RISE Up Against
+Workplace Bullying (HV 16) and Harassment Prevention for NY Employees (HV 20).
+Please do so. If you need help, ask Lindsay.
+
+Updates/holdovers/follow-ups/statuses:
+
+- Public relations effort
+
+ The committee reviewed Adlin Hadad’s draft proposal (attached as an appendix) for
+ expanding public awareness of our efforts via social media and other venues. The
+ Village does not allow committees to have their own Facebook (FB) or web pages.
+
+ Regarding use of FB, issues of time commitment, negative comments about our
+ postings, file size, etc. were reviewed. [Adlin agreed to assess how best to use the
+ Village FB site for postings about us]. Niall showed us a way to search just the Village’s
+ page for postings based on keywords. [Another way – using the “three dots” menu –
+ was subsequently found and tested by Adlin. It produces a unique URL that would be
+ very helpful to direct people, e.g., via news releases, to all of our FB postings.]
+
+ Suggestions on how to get the most out of the process were offered. They included:
+
+ - emphasize taxpayer savings and how grants and programs cover most project costs
+
+ - often use the Gazette’s Letters to the Editor (LtE); include pictures that the editor may
+ choose to include with our LtEs
+
+ - once we have a bunch of items posted, ask Mayor Pugh to mention our FB postings
+ whenever possible at his meetings
+
+ - if feasible, post our stuff in a green-colored or different font [Adlin responded that
+ neither a different font color, or a different font, is an option in Facebook.]
+
+
+                                              1
+ - create a FAQ at our web page and post a link to it on FB to respond to oft-asked
+ questions (e.g., “why isn’t there a hydroelectric power plant at the Croton Dam?”)
+
+ One way to get good exposure would be a zoom during which the four Mid-Hudson
+ munis (Hastings, Croton, Bedford, and Dobbs Ferry) that won $70K grants would
+ review their projects. They would trade experiences and encourage other communities
+ with their own projects. All 88 Mid-Hudson CEC participants would be invited to attend.
+ The event would be promoted via local and social media. On 10/10, the idea was well
+ received by our CEC coordinator (Eleanor Peck) and the HVRC (NYSERDA’s
+ contractor for our region). They agreed to develop it for presentation in early ’22.
+
+- NYSERDA CEC grants
+
+ All applications for CEC grants were submitted by Oct. 12. Funds for one of the $5K
+ grants (for a HPWH in the Muni Bldg) was already received. We expect NYSERDA
+ responses on the others by Thanksgiving. We cannot proceed before then.
+
+- Washington Engine firehouse projects
+
+ Once NYSERDA sends written approval for our two projects (37.3 kWp solar rooftop
+ and a control system for its existing ASHPs), Lindsay will work with Village staff on the
+ RFP needed for the solar job. No RFP is needed for the ASHP controls work.
+ We reviewed a draft proposal from Ecogy for a small Battery Energy Storage System
+ (BESS) at the firehouse to work with its proposed rooftop solar system. Unlike most
+ solar+storage systems, it would be used solely to reduce the building’s peak electric
+ demand, rather than releasing stored power to the grid when its load and hourly pricing
+ peak. Ecogy worked out a way to install it at no cost, and with a guaranteed savings, to
+ the Village.
+
+ A variety of comments were noted: how the 18% demand charge discount was figured,
+ the 25-year term of the proposed deal, interactions with NYPA tariff and billing, and
+ how the idea may a tough “sell” to non-technical people (e.g., the VB). All members
+ were asked to offer their thoughts after digesting Ecogy’s draft proposal sent to them
+ 10/22. All were asked not to distribute it further at this time.
+
+- Other grant-supported projects
+ Dan agreed to view the existing Muni Bldg electric DHW system with Lindsay and the
+ DPW in the near future to develop a SOW to price replacement with a HPWH.
+
+ In case another grant comes our way, Bruni & Campisi is scheduled to visit the
+ firehouse 11/1 to price converting its boiler from oil to natural gas. Fuel switching is
+ acceptable to NYSERDA because gas (for the same Btus) emits ~30% less carbon.
+
+- Other Solar Projects
+
+
+
+                                             2
+  Canopy projects at parking lots for the DPW and Muni Bldgs are still on hold, pending
+  various technical and financial issues. The demise of the Community Credit in Con Ed
+  territory (essential for financial viability) on 10/31 will likely halt new community solar in
+  our area unless it’s restored or replaced with a comparable incentive. At Mayor Pugh’s
+  request, comments were submitted to Gov. Hochul requesting that the NY PSC restore
+  the Community Credit for at least several more years.
+  On the SolSystems’ train station canopies, Sol and Village staff continue to work on an
+  acceptable water management system. Initial cost estimates had exceeded $1 million.
+  That could reduce our expected annual revenue. Based on communications with
+  personnel that handle snow and water flow from canopies at parking lots in our region,
+  there may be a middle ground to allow some overflow during heavy rains. Once a
+  revised design is in hand, the VB will be asked for its approval. Before installation
+  begins, commuter expectations (versus Village revenue) will need to be managed.
+  On the Croton Landing Park canopy, Joel reported on a meeting he and Lindsay had
+  with Sandy Galef (our State Assembly rep) on ways to amend A.6838 (bill to allow
+  canopies over parking lots in parks). Doing so is needed to make it acceptable to the
+  Assembly member presently blocking it. To gin up more support for the bill, Joel raised
+  it at the CCoHOPE group’s Oct. 13 meeting where State Sen. Peter Harckham was a
+  guest. He also circulated a request for CCoHOPE members to communicate with that
+  Assembly member on the matter. He will be raising the issue at an upcoming “Town
+  Hall” zoom to be run by Sandy Galef. Lindsay raised it at zooms run by Sustainable
+  Putnam (Oct. 10), Westchester’s League of Conservation Voters (Oct. 12), and the
+  Village of Mamaroneck’s sustainability committee (on Oct. 19). The latter passed a
+  support resolution, and its mayor agreed to speak with their Assembly rep (Steve Otis).
+
+  We discussed demise of the Shrub Oak project (in Yorktown) that was to provide the
+  10% discount to our Community Solar 2.0 subscribers. They will be moved to another
+  nearly completed project at the Arcadia Farm in Yorktown. A reduced discount (~8%)
+  will occur. The discount will begin when consolidated billing starts later this year.
+
+- EV/EVSE
+
+  On the electric school buses, the following appeared in Croton100’s October 10
+  newsletter:
+     “Croton100's nearly 2 years of intensive efforts are culminating in helping to bring
+     $220,000 of funding for electric school buses to Croton. The School District has made
+     significant progress in procuring two electric buses, having entered the final phase of
+     receiving NYSERDA funding for one 66-passenger and one 27-passenger bus.”
+
+
+- Reports
+ Lindsay reviewed a way to revive our 2019 pilot 6-month food scrap recycling program.
+ Ossining (Town) runs a nearly identical program. He asked Town official Victoria
+ Cafarelli (program coordinator) if it could take over our DEC grant and project.
+
+
+                                                 3
+ Instead of dealing with DEC or Village personnel issues, she suggested we use
+ Ossining’s part-time employee and program manager (Marcus DaSilva), and the
+ County’s food scrap pickup program. She said the County now uses SMM’s composting
+ facility in Peekskill instead of the one in Ulster County. Under the County’s contract,
+ Suburban Carting takes the scraps to SMM at a much lower cost and vehicle emissions.
+ As part of its 50% grant match, Croton would pay the County instead of using a
+ separate contract. [DaSilva later indicated interest in the idea. He described his present
+ work for Ossining. Discussions are underway on how to do the same for Croton.]
+
+- Communications
+
+See items discussed above.
+
+- Recruitment/Outreach
+
+Dan Oppenheim has begun assessing how he will perform our community GHG
+inventory. A 10/27 zoom with Lindsay will nail down Dan’s SOW and schedule.
+
+- New business / other issues
+
+Regarding another tree inventory (our first failed due to erroneous property data from
+Cortlandt), Lindsay asked Gunnel Rydstrom, of Green Ossining, how it inventoried its
+trees in 2019. A close review of that inventory (performed by Davey Tree Service) found
+that its methodology lacked data needed to assess the trees’ carbon impact. It was thus
+of no use for assessing a forested area as a carbon sink as part of our GHG inventory.
+
+
+Date for our next meeting was set for Sunday, November 21 at 10:30 AM by zoom.
+
+
+
+
+                                             4
+ Public Relations Proposal for The
+
+Croton Sustainability Committee
+10.16.2021
+─
+
+
+
+
+Prepared by:
+ Adlin Hadad
+                                     5
+Purpose
+ The purpose of this proposal is to outline a public relations strategy for the Croton
+ Sustainability Committee (SC). The overarching objective is to highlight the work the SC is
+ undergoing in its mission to successfully reduce carbon emissions in Village’s municipal
+ operations.
+
+
+
+Goals
+    1. Increase awareness around SC carbon reduction eﬀorts to Croton residents, like
+       minded environmental grounds, and local policymakers and municipalities.
+    2. Drive engagement around the SC programs that aim to reduce our community’s
+       carbon emissions.
+    3. Secure points for the CSC and CEC grants to increase Croton’s rating.
+
+
+
+ Strategy
+
+ To achieve these goals, I will require the SC to partner with me in developing and
+ implementing the communication strategy to deliver timely messaging, information, and
+ call-to-actions to Croton residents, local policymakers, and like-minded environmental
+ groups and municipalities.
+ All communication eﬀorts will align to the SC carbon reduction mission. These
+ communications can feature information around past and current campaigns, factoids,
+ interviews with SC program leads, etc. to increase awareness and drive community
+ engagement. We can discuss priorities and create a communications plan and schedule to
+ ensure timely information is distributed to gain maximum exposure and traction.
+ I can establish a simple process to prioritize and craft messaging, produce creative (if
+ applicable), and facilitate reviews and approvals before distribution. I can assist with the
+ dissemination of these communications, to the appropriate media channel, and if deemed
+ appropriate by SC leadership I can assist with any necessary engagement follow-ups (i.e.,
+ responding to Facebook posts from followers).
+
+
+
+
+                                                1
+ProposedPR CommunicationChannels
+
+   1. Sustainability Committee *Facebook page
+      The dedicated SC page will inform our community, and followers, of important
+      information around the work the SC is doing. This can include posts around near
+      term and long term goals, past and active campaigns, partnerships, community
+      activities/events, and general awareness information.
+          a. The goal of the page is to increase community awareness and engagement.
+          b. Cadence: 3-4 post per month; ~1 post per week
+               i.   This can increase depending upon priority needs
+          c. By establishing this dedicated page, the SC will fulﬁl the CSC PE9 Action:
+              Social Media requirement and obtain 3 points.
+     *NOTE: We may need permission from The Village of Croton to establish this page according to
+      the village’s social media policy.
+
+   2. Print and digital media press
+      Print and digital media communication channels will increase awareness of the work
+      the SC is undergoing within Croton and other Westchester communities.
+          a. Establish relationships with local publishers, such as River Journal News,
+             Lohud.com, The Gazette, News12, etc., that we would like to approach.
+          b. Create press releases, articles, and facilitate SC interviews with these
+              publishers.
+
+   3. Events press
+      Event press will increase community engagement and participation in the SC eﬀorts
+      to reduce carbon emissions. Event press can include Facebook, print, and digital
+      communications around:
+          a. Events the SC is participating within the village (i.e. Earth Day, Fallfest,
+             Summerfest, etc.).
+          b. Partnerships with like-minded environmental groups such as: Audubon
+             Society, Croton100, etc.
+          c. Participation in forums with municipalities who have won CSC and CEC grants
+             (i.e., share and obtain knowledge on how grants/points were obtained and
+             how to best leverage grant funding).
+
+
+
+
+                                                2
+Next Steps
+
+
+  I.   Review proposal
+       As a committee, please review the proposal and reach out if you have any questions. I am
+       more than happy to answer them. I can be reached at
+       linum04@gmail.com or via cell phone at 305-494-0116
+
+
+       Thank you, Adlin Hadad
+
+
+
+
+                                                 3
+

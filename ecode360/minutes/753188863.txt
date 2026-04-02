@@ -1,0 +1,324 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:00 AM Sunday, Sept. 7, 2025 – via zoom
+Members Attending:
+Edwin Adkins
+Lindsay Audin (chair, CSC Coord.)
+Ashley Clemente
+
+Absent:
+
+Dan Columbini PE
+David Goldman
+Jon Katz PE
+Niall Kelleher (comm. gardens)
+Brian Pugh (Croton Mayor)
+Carly Shanks
+Len Simon (Village trustee)
+Cheryl Wong
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Attending guest(s): none
+Announcements:
+On 6/25/25, Mayor Pugh appointed Edwin Adkins to our committee. Edwin is a Senior
+Research Associate at Columbia Univ. and has a MS in Environmental Engineering,
+As of 8/3/25, Cheryl Wong is managing the food scrap recycling program.
+- EV/EVSE/RD
+Len reported that Project Mover (e-bikes)
+went “live” on 7/9/25 (see photo at right). In
+July, 250 trips were logged, most less than
+~30 minutes. He detailed a new program
+that will offer 425 $1,000/e-bike vouchers for
+low-income e-bike buyers. See details at:
+tinyurl.com/CrotonEBikeRebate.
+On 7/9/25, the VB awarded PISO (a/k/a
+Plug-In Stations Online) the job to install 9 dual-port EV chargers (18 charge ports) at
+the train station. To save on grant funds, VB (7/23/25) waived the building permit fee.
+A contract with PISO is being drafted. Construction should start in October, with
+startup planned before this year’s end. Total cost for the project will be ~$300K, fully
+funded by grants and other non-taxpayer sources.
+In late July, Con Edison began offering SmartCharge Commercial (SCC), a demand
+response (DR) program for EV chargers. Earlier DR discussions with a large nonutility firm found our charger load was too small to secure its attention. Under Con
+Ed’s program, loads consistently reduced between 4 and 8 PM would get $10 per
+reduced kW per month from June to September, and $2/kW/month in the rest of the
+year. Unlike GridRewards, the starting point for measuring the demand reduction is
+1
+
+the highest load seen prior to 4 PM in each month. No advance notification is
+involved. All reductions are handled remotely and automatically via for load control
+software. The program also yields (for our project) a one-time ~$25K incentive to pay
+for that software, regardless of the reduction in kW, though it must be >0 kW. If all 18
+charge ports were used and their ~65 kW peak load dropped each month, Croton
+would get ~$4,600/yr, paid in quarterly installments.
+An actual power reduction may not be needed to comply. Most EVs plugging in at 8
+AM should be fully charged by 4 PM. Commuters that start charging by 8 AM are thus
+unlikely to notice a 4-8 PM power drop. An 8-hour charge (until 4 PM) would yield
+~170 miles per workday if a charger is used by one EV or ~90 miles on a shared
+charger. For details, go to https://www.coned.com/en/our-energy-future/electricvehicles/commercial-electric-vehicle-charging-station-rewards
+Regarding use of Renewable Diesel (RD) in Village trucks instead of fossil-based
+diesel, Mayor Pugh reported that the VB on 8/20/25 approved a pilot program wherein
+3 Village diesel trucks (sewer truck, landscaper, street sweeper) will be fueled with RD
+through January to assess viability. Thereafter, the VB will decide if RD will be used in
+other Village diesel trucks. He said a separate fuel tank for RD will be installed at the
+Municipal Place depot later this month. RD use significantly cuts both CO2e and soot.
+On 8/20/25, NYSERDA began seeking proposals to build RD refineries in NY State
+that would process local organic waste. A 10/6/25 webinar will provide details for
+interested firms and others. In NYC, the Staten Island ferries switched to RD. They
+use 400,000 gal/month, ~200X more than all Village diesel trucks combined.
+On 8/12/25, Frank Balbi (DPW Supt.) informed Lindsay of a February 2025 explosion
+of one of the DPW building’s two 27-year old oil-fired heating boilers. No damage or
+fire resulted. The Village replaced both with propane-fired units and installed a 1,000
+gallon above-ground propane tank next to the DPW parking lot. The only muni facility
+still depending on fuel oil is the Washington firehouse (others use natural gas).
+- Solar Projects/Issues
+Train station canopies: All installation work has been done and all parking areas
+cleared, but power startup was delayed until a NYSERDA incentive issue was settled.
+Commissioning is now slated for late October. In the meantime, the Village is
+receiving its ~$40K per month in rent. Unrelated, Arevon on 8/14/25 said that POWIN
+(the battery contractor) went bankrupt in July, delaying commissioning. The BESS is
+being bought (and will be managed) by Flexgen, which owns other BESSs.
+SW residential Solarize program: Carly updated us on her home’s solar installation.
+SunBlue started work on 8/7/25 and finished by 8/22/25. Actual work took only about 2
+days. Con Ed inspected and approved the interconnection on 8/20/25. She was happy
+with the work, and is looking forward to starting bill savings in 2-3 billing cycles. In
+response to an inquiry from Jon, she verified that she will be able to track solar output
+using the ENPHASE program via her phone or computer. SW reported that (by late
+2
+
+August) over 76 Croton residents (more than any other Westchester community) had
+applied for help from its program. Over 360 in the County have done so. Installations
+completed by 12/31/25 are eligible for the 30% federal IRA tax credit.
+DPW solar canopy: A bid package was posted at BidNet on 8/1/25 and also sent to 7
+solar contractors recommended by SW. Three (Rivertowns Solar, Croton Energy
+Group, and Indent Builders) appeared at a mandatory site meeting. All indicated they
+could complete the work before the 7/4/26 DirectPay deadline (which would secure a
+~$60K rebate). On 8/26/25, SunBlue asked to bid but was dropped due to failure to
+appear at a meeting. Three others suggested by SW (HESP Renua Energy, and NY
+State Solar Farms) did not respond to the RFP. On 9/4/25, Rivertowns submitted its
+proposal on time. Cost for its 59.4 kWdc system (net of the NY-SUN discount) will be
+~$255K. If we also get the 30% DirectPay rebate, we would cover the other ~$179K
+from our $425K NYSERDA grant. The rest will go to projects at the Harmon firehouse.
+Harmon firehouse solar rooftop: Due to scheduling issues, it may not be installed in
+time to secure the full 30% IRA DirectPay rebate (~$25K) but, If construction starts in
+Q3 2026, we could get ~$15K.
+Other solar: On 8/5/25, a Trump executive order terminated all federal Solar-For-All
+(SFA) grants to fund installations for low-to-moderate (LMI) income (<$108K/yr)
+residences). NY State and SW were pursuing a SFA program using those funds.
+Lawsuits are being pursued to challenge such “claw back” efforts.
+- Heat Pumps
+Washington firehouse garage HPs: The draft RFP is done and being reviewed by
+Village staff. Due to the need to expedite the Harmon firehouse solar job to ensure we
+secure its DirectPay rebate, this job was re-scheduled for after the Harmon HP job.
+Harmon firehouse rooftop HPs: Production of a draft RFP is in process. DirectPay
+does not pay for non-residential HPs. A NYSERDA grant will instead pay for the work.
+In early August, the DPW installed a heat pump water heater (HPWH) in the EMS
+addition to the Harmon firehouse. No grants or incentives were involved.
+- Other Programs
+Food Scrap Recycling: Cheryl reviewed her proposal for expanding the program
+(see her proposal at the end of these minutes). She is now handling program tasks
+previously done by others. Pending installation of a larger scrap shed and additional
+toters, she is planning a 20% increase in participants.
+- Funding and Budgeting Issues
+During July-August, 1-year extensions for our 3 current grants (2 from NYSERDA, 1
+from NY DEC) were granted, giving us “breathing room” to complete their projects
+3
+
+during the grants’ terms. For our $425K grant, NYSERDA (on 8/19/25) OKed
+transferring funds among the covered projects (solar at DPW and Harmon firehouse,
+HPs at Harmon) to reflect technical changes at those sites.
+The federal DirectPay process remains in effect, but the Trump tax bill accelerated
+funding deadlines that impact our two pending solar projects. However, if we spend at
+least 5% of total project cost (~$15K) for the canopy before the 7/4/26 deadline, and
+put the Harmon solar rooftop into service before the end of 2027, we should be able to
+recoup ~$75K in rebates that will help fund Harmon’s re-roofing (a pre-requisite to
+installing solar panels). Moving sooner on both projects could also avoid a further loss
+in the NY-SUN discount (now worth $.80/W for the canopy and $/60/W for the
+rooftop). $.20/W was lost on the canopy when that incentive dropped earlier this year.
+Trump’s 7/7/25 executive order called for hardening IRS rules on “commencing
+construction.” But the actual revisions (IRS Notice 2025-42, issued 8/15/25) impact
+only projects over 1.5 MWac, requiring that they show “physical work”. Rules related
+to our projects remained the same as before the Trump tax bill.
+Len reported on a NY PSC five-year plan (announced 5/15/25) to spend $5 billion on
+energy efficiency and weatherization programs that would include “$3.29 billion for
+non-low-to-moderate-income (LMI) customers” (i.e. gross income >$108K/yr). No
+federal funding is involved. Set to start 1/1/2026, it appears limited to homes built after
+2010 unless previously involved in a NYSERDA or utility home energy upgrade
+program. Focused on whole-home electrification, it would not fund heat pump projects
+that had backup or supplementary fossil-fueled heating.
+- Recruitment/Outreach/Communications/PR
+At 2 PM on 9/20/25, Lindsay will give a brief tour of the train station canopies to
+Groundwork Hudson Valley, a Yonkers-based community development group.
+- New Business / Other Issues
+Edwin reported on a proposed NY State law that would require all facilities emitting
+over 25,000 (and some over 10,000) MT CO2e/yr of Scope 1 (i.e., direct) carbon
+emissions to annually report them. None of the Village’s municipal buildings directly
+emit more than 200 MT/yr. The largest emitter in Croton is the Metro-North train yard
+at less than 7,000 MT/yr of on-site carbon, so no Croton facilities would be affected.
+In late June, a NYSERDA-sponsored energy audit (free due to our CEC position) on
+the Municipal Building was completed and submitted. It focused on electrification and
+fuel reduction actions, but did not consider renewable options, e.g., a GSHP. Doing
+the audit secured points toward our Climate Smart Community (CSC) standing.
+The date for our next zoom meeting was set for Sunday, Oct. 5, 2025 at 10:00 AM.
+
+4
+
+Sustainability Committee Compost Program Expansion Proposal for 2025-2026
+Proposal: The Sustainability Committee (SustComm) proposes to expand the compost program offering
+by 20% while purchasing equipment to service a 40% expansion. This approach enables us to grow the
+program further in coming years with an incremental increase now while staying in budget for 20252026.
+Background: There are currently about 100 families signed up for the village composting program. As of
+July 2025, five compost bins suffice to service those families through both low and high volume
+composting days1. In 2024, there were 40 families on the waiting list for the program. Given budget
+allocations for equipment in 2025-2026, SustComm can purchase two more bins. Two more bins will
+enable all the families on the waitlist to participate2. Budget allocations for labor, however, allow for
+only an increase of 20% more hours. Therefore, we propose to increase the program offering by 20%. A
+40% increase in equipment coupled with a 20% increase in labor allows us to have the equipment for
+further expansion in coming years with an incremental increase in 2025.
+Conclusion: Pending committee approval of this proposal, we will advertise the expansion of the
+program in the village newsletter, initiate purchase of the additional equipment, and discussion with the
+Department of Public Works on the additional hours.
+Frequently Asked Questions:
+What will SustComm do with the budget surplus3? We reserve the surplus for unanticipated costs.
+Additionally, the Committee has participated in the Croton Earth Day event sponsored by the
+Conservation Advisory Council. As we have preliminary plans to expand that effort in 2026 as well, we
+reserve surplus to cover that event as well.
+How will SustComm advertise to recruit new participants? We propose to advertise the expansion of the
+program in the village newsletter in both English and Spanish. We expect to also post flyers at the
+Croton Library. Lastly, at the 2026 Croton Earth Day event, we expect to advertise the composting
+program for 2026-2027.
+About the author: This proposal was authored by Sustainability Committee member, Cheryl Wong, a
+Croton resident of over 40 years. A natural-born organizer, Cheryl created and expanded the Beat the
+Streets Girls Wrestling program in New York City. As a testament to her ability to create and grow
+programs, Cheryl took that program from a one-hour a week volunteer run program to a Public School
+Athletic League seasonal sport with Girls Wrestling offerings in 21 high schools in New York City.
+
+
+
+Beat the Streets Promotional Video featuring Cheryl Wong:
+https://www.instagram.com/reel/DAHxOYCsnFVwtrtSDsChL72Sz8rlPneLqqrRqE0/?igsh=MTVma
+G5jOHN3NGJnOA==
+PSAL: https://www.psal.org/sports/sport.aspx?spCode=017&flag=All
+
+1 An example of a high volume composting day is the weekend after Halloween when multiple families
+
+compost their jack-o-lantern pumpkins.
+2
+100 families serviced by 5 bins breaks down to 20 families per bin. To accommodate 40 families, thus, we
+estimate that 2 more bins will suffice.
+3 See Table 1: Sustainability Committee Compost Program Expansion Budget Proposal 2025-2026. The
+proposal is anticipated to result in a $510 surplus.
+
+5
+
+Table 1: Sustainability Committee Compost Program Expansion Budget Proposal 2025-2026
+
+Total
+Cost
+
+Difference
+between
+Proposed
+and
+Allocated
+
+Budget Proposal
+
+Item
+
+We already have 5 toters from the 2024 - 2025; we need to purchase 2 more
+to have a total of 7 toters for 52 weeks.
+
+Toters
+
+2
+
+$250
+
+$500
+
+Each case of toter liner bags costs $80 and contains 60 bags. We use one
+bag per toter per week. 52 weeks x 7 toters = 364 bags needed. At 60
+bags per case, we need 60.06 or 7 cases for 7 toters for 52 weeks.
+
+Toter Liners
+
+7
+
+$60
+
+$420
+
+Trash Can
+Rubber
+Bands
+
+1
+
+$100
+
+$100
+
+$800
+
+$800
+
+0
+
+$20
+
+$8,120
+
+($1,470)
+
+$3,000
+
+0
+
+$270
+
+0
+
+Each carton of trash can rubber bands costs $100 and contains 400 bands.
+We use one rubber band per toter per week. 52 weeks x 7 bands = 364
+rubber bands needed. At 400 bands per case, we need 1 case for 7 toters
+for 52 weeks.
+Pest Control cost is expected to stay the same even with the increase in # of
+toters.
+A Department of Public Works Employee (DPW) prepares the toters for pick
+up by Sustainability Management. For the current 5 toter program, DPW
+required an average of 6.5 hours per week for 52 weeks for a total of 338
+hours in 2024-2025.To accommodate an increase of 20% in toters, we
+anticipate an increase of 20%, for a total of 405.6 or 406 hours.
+
+Pest Control
+
+Quantity
+
+N/a
+
+Food Scrap
+Manager
+
+Shed
+SMM/CRP
+Sanitation
+
+Cost/Unit
+
+406
+
+N/a
+N/a
+
+$270
+
+Total Difference
+between Allocated by
+Village and
+SustComm Proposed
+Budget
+
+6
+
+$1,980
+
+$510
+
+

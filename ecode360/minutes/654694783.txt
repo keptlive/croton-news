@@ -1,0 +1,148 @@
+MINUTES – Croton Sust. Comm. (SC) – 10:30 AM Sunday, Mar. 27, 2022 – via zoom
+Members Attending:
+Lindsay Audin
+Len Simon
+Joel Gingold
+Niall Kelleher
+
+Absent:
+Jon Katz
+Bernie Yozwiak
+Dan Columbini
+Brian Pugh
+
+[Bracketed] text is subsequent actions/clarifications. Underlining shows a commitment.
+-------------------------------------------------------------------------Guest(s): none
+Announcements: We again thank the Village for sponsoring our zooms.
+Updates/holdovers/follow-ups/statuses:
+- NYSERDA CEC grants and projects
+On 3/24/22, NYSERDA notified us that it would not accept 2 changes to the contracts
+requested by the Village’s attorney, and that the attorney “is not willing to sign with our
+standard contracting language”. In 2018, the Village signed an identical contract for our
+$50K grant for LED lighting. This problem arose now because (for the CEC program)
+NYSERDA entertained contractual changes. Bryan and Brian have been notified, with a
+request to ignore/overrule the attorney and sign the contracts as is. [3/28/22: Bryan
+Healy informs us that NYSERDA agreed to make one of the changes, and Croton
+agreed to accept the other wording as is.]
+On the firehouse RFP, 4 contractors came to the 3/8/22 mandatory site meeting.
+Inquiries to other RFP recipients found that: the job was too small, or the vendor only
+did jobs where it retained ownership (e.g., community solar, PPAs, or leased solar) or
+failed to respond to follow-up communications. Two vendors were not NY-SUN
+contractors and thus not acceptable. One of the other 2 indicated that prevailing wage
+(because this job qualifies as a “public works” project) may be a deal breaker for him.
+Prevailing wage will increase the cost by ~$5K over budget. Fortunately, the $5K grant
+from the EV campaign may cover it. Contractor proposals are due April 4.
+- EV and HP Campaigns
+The EV campaign document was posted at our web page 3/2/22. Eblasts for the EV
+campaign ran from 3/3 to 3/19/22. We thank Village staff, Bernie and C4C, Patty
+Buchanan of C100, and Adlin Hadad (our PR guru) for using their email lists and/or FB
+contacts (e.g., Croton Community) for their help.
+By 3/7/22, we had 4 (of the necessary 5) confirmed EV purchases: a Tesla, 2 Toyotas,
+and 1 Hyundai. Other responders bought their EVs before the Jan. 4 start date or only
+leased them and could not be counted. After some discussions with NYSERDA, it
+allowed us to count the school’s EV bus as the 5th required purchase. Paperwork for the
+1
+
+$5,000 grant and 200 CEC points was submitted to NYSERDA 3/7/22. Formal
+notification of the 200 points and the associated $5K grant was received 3/24/22.
+The HP campaign article was posted at our web page on 3/2/2022. Its eblasts will start
+in late April. On 3/4/2022, Dan O’Connor stated that building permits are not required for
+either ASHPs or HPWH, so his office cannot provide data about them. Permits are,
+however, required for GSHPs. In other nearby municipalities, GSHPs accounted for
+roughly half of the HP installations. Sustainable Westchester (SW) will help secure
+purchase/installation data from the contractors on its list.
+Another new Croton homeowner asked for to convert from oil to gas. Lindsay pitched
+heat pumps, but the homeowner was not persuaded. HPs may be a tough sell.
+- New Funding Sources
+We await the results of Gov. Hochul’s request to the PSC for new solar incentives. Ecogy
+informed us that NESEA (regional association of solar developers) is lobbying for a
+higher (roughly double) incentive for projects <1 MW. It would also include extra money
+for solar parking canopies. A final decision should be made by late June.
+Joel reported on a 3/23/22 webinar he attended that (in its promo) claimed a $500K
+NYSERDA grant was available to communities adopting a net zero carbon building code.
+Because Croton’s municipal government does not pay System Benefit Charge (SBC)
+since our power comes from NYPA, Croton would not be eligible for such a grant,
+regardless of how it changed its building code. The program is also limited to 4
+municipalities for the whole State. We concurred on not involving Croton in this program.
+- Other Solar Projects
+Train station canopies – The 50% drawings (needed for permits, charger siting, etc.) are
+expected by 4/1/22. They will help us site the EV chargers. The drawings will include
+Core Development’s proposed water management plan. On 3/24/22, Frank Balbi
+proposed splitting the water management work between Core and Village staff, thereby
+reducing the potential impact on the project’s lease revenue.
+
+2
+
+Croton Landing Park canopies –On 3/11/22, Ecogy provided docs the Village needs to
+sign to move ahead. Bryan Healy signed and returned them to Ecogy for processing on
+
+3/22/22. Ecogy will now survey the metes-and-bounds needed to get an exemption from
+park alienation.
+Because of pending changes to NY-SUN incentives (see chart above), the annual
+leasing revenue for Croton Landing can’t be quoted at this time. By June, we may know
+the value of the PSC incentives and annual leasing revenue.
+NYPA is seeking our alienation exemption through the State Legislature before June, but
+some filings with other State/federal agencies will be needed that may delay it. If so, we
+will likely have to wait until the 2023 legislative session to get the alienation exemption.
+Other work (e.g., lease negotiation) will continue during that interim period.
+On Monday (3/28) at a site meeting, Lindsay and Frank will review drainage and water
+management issues. [They found those issues can be easily addressed at little cost.]
+On 3/9/22 NYPA indicated that a dozen park sites in Westchester will be pursued as a
+package for exemptions, several of which are at County parks. It’s working with
+Legislative staff and the State Parks Dept. on the requests. For those sites, NYPA
+affirmed it will either work with canopy developers to perform the surveys, or else provide
+grants to municipalities for them to pay for the surveying on their own.
+- EV/EVSE
+A relay in the dual-port charger at the train station (installed ~3 years ago) burned out.
+We had a 1-year warranty on parts. On 3/15/22, ChargePoint provided a quote for
+$1,075 to cover parts and labor. It was forwarded to Bryan Healy for processing. We
+have ~$14K so far from the DPW rooftop lease so there should be no issue with funding
+the repair. The 2 dual-port units at the Muni Bldg are still working OK.
+Mark Franzoso reported that his firm will be getting its first EV truck (a Ford) by Earth
+Day and asked to show it then. Lindsay asked C100 to follow-up with him for Earth Day
+EV show. His firm now has 3 dual-port chargers at its Peekskill operations site.
+3
+
+- Stretch Code
+
+Len reported that on 3/1/2022, Jon, Bernie, and he had a good zoom with Dan O’Connor
+and Ron Wegman (Village engineers) and Bryan Healy. On 3/22/22, Dan and Ron took a
+training class on Stretch. Based on advice from nearby towns that already adopted it,
+Bernie informed Dan on the issue of extra inspections which will be done by third party
+inspectors, not Village staff.
+Len reviewed interactions with the Planning Board (PB), which is considering new rules
+for homes regarding solar, EV chargers, etc. At the PB’s 3/22 meeting, Dan O’Connor
+overviewed Stretch. At the PB’s 4/12 meeting, Bernie will review Stretch’s solar aspects.
+At its 4/26 meeting, Jon will present the PowerPoint show on Stretch.
+Next steps include prepping for a May 2 VB work session to review the matter. Len
+asked members of the committee to attend. It will set a date for the required public
+hearing (possibly May 9 or 23) and a date (possibly June 6) for final approval of the code
+to ensure the June 30 deadline is met.
+- Communications/Public Relations
+For the EV campaign, the Village did an eblast using its cmsmailer list, and Bernie did an
+eblast to C4C’s list. C100 did an eblast, an Instagram posting, and had items in its
+February and March newsletters. We also eblasted our own list (157 addresses). A
+letter-to-the-editor appeared in the Gazette on 3/10/22. The Village posted at its FB
+page, and Adlin Hadad linked that posting to the Croton Community FB page.
+- Other Reports
+Ecogy tells us that consolidated billing was scheduled to start in February, but Con Ed
+now says it’s having “technical difficulties” that are delaying its initiation (i.e., Community
+Solar 2.0 discounts), so Ecogy lodged a formal PSC complaint against Con Ed.
+DEC OKed a 2-year extension on our food scrap grant until 9/30/24. This item will be
+taken off our agendas until 2023.
+- Recruitment/Outreach
+For Croton’s Earth Day (April 30), we agreed to staff a table under the gazebo at
+Senasqua Park. Joel and Len agreed to participate. Lindsay will ask Dan and Jon to
+assist. Niall will staff tables for the community gardens, and Bernie will do so for C4C.
+The person that initially offered assistance with a community GHG inventory is
+recovering from long COVID. He continues to re-assess his ability to do so.
+- New Business / Other Issues
+None was raised.
+4
+
+Dates for our next meetings were set for Sunday, April 24 and May 22 (to avoid the
+Memorial Day weekend) at 10:30 AM via zoom.
+
+5
+
+
