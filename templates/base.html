@@ -312,6 +312,45 @@
         }
         .site-footer a { color: var(--text-muted); }
 
+        /* Weather banner */
+        .weather-banner {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .weather-card {
+            flex: 1;
+            min-width: 200px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+        .weather-icon { font-size: 1.8rem; line-height: 1; }
+        .weather-info { display: flex; flex-direction: column; gap: 0.25rem; }
+        .weather-info strong { font-size: 0.95rem; color: var(--text); }
+        .weather-detail { font-size: 0.8rem; color: var(--text-muted); line-height: 1.4; }
+
+        /* Transit/status cards */
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .status-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1rem 1.25rem;
+        }
+        .status-card h3 { font-size: 0.95rem; margin-bottom: 0.5rem; }
+        .status-card p { font-size: 0.85rem; color: var(--text-muted); }
+
         /* Responsive */
         @media (max-width: 640px) {
             .header-inner { padding: 0.75rem 1rem; }

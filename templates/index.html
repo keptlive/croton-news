@@ -4,12 +4,40 @@
 {% if search %}
 <h1 class="page-title">Search results for &ldquo;{{ search }}&rdquo;</h1>
 {% else %}
-<h1 class="page-title">Latest News</h1>
+
+<!-- Weather + Water banner -->
+{% set weather_articles = articles | selectattr('category', 'equalto', 'weather') | list %}
+{% if weather_articles %}
+<div class="weather-banner">
+    {% for w in weather_articles[:3] %}
+    <div class="weather-card">
+        <span class="weather-icon">
+            {% if 'Current Weather' in w.title %}🌡️
+            {% elif 'Forecast' in w.title %}📅
+            {% elif 'Croton River' in w.title %}🌊
+            {% elif '⚠️' in w.title %}⚠️
+            {% else %}🌤️{% endif %}
+        </span>
+        <div class="weather-info">
+            <strong>{{ w.title | replace('Current Weather: ', '') | replace('Forecast: ', '') }}</strong>
+            {% if w.summary and 'Current Weather' not in w.title %}
+            <span class="weather-detail">{{ w.summary[:120] }}{% if w.summary|length > 120 %}&hellip;{% endif %}</span>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+<h1 class="page-title">Latest News
+    <span style="font-size:0.7em; font-weight:400; color:var(--text-muted);">{{ total_count }} articles from {{ cat_counts|length }} categories</span>
+</h1>
 {% endif %}
 
 {% if articles %}
 <div class="articles-grid">
     {% for art in articles %}
+    {% if art.category != 'weather' or search %}
     <article class="article-card">
         <div class="card-meta">
             {% set cat = categories.get(art.category, {}) %}
@@ -29,6 +57,7 @@
             <span class="card-source">&nbsp;&middot;&nbsp;{{ art.source }}</span>
         </div>
     </article>
+    {% endif %}
     {% endfor %}
 </div>
 {% else %}
