@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Croton News</title>
+    <link>https://croton.news</link>
+    <description>Hyperlocal news for Croton-on-Hudson, NY 10520</description>
+    <language>en-us</language>
+    <atom:link href="https://croton.news/feed" rel="self" type="application/rss+xml"/>
+    {% for art in articles %}
+    <item>
+      <title>{{ art.title|e }}</title>
+      <link>https://croton.news/article/{{ art.id }}</link>
+      <guid>https://croton.news/article/{{ art.id }}</guid>
+      <description>{{ (art.summary or '')|e }}</description>
+      <category>{{ art.category }}</category>
+      {% if art.published_at %}<pubDate>{{ art.published_at }}</pubDate>{% endif %}
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

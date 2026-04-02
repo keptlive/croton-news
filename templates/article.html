@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% set cat = categories.get(article.category, {}) %}
+{% block title %}{{ article.title }}{% endblock %}
+{% block meta_desc %}{{ article.summary[:160] if article.summary else article.title }}{% endblock %}
+{% block og_title %}{{ article.title }} — Croton News{% endblock %}
+
+{% block schema %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": {{ article.title|tojson }},
+    "description": {{ (article.summary or article.title)|tojson }},
+    "url": "https://croton.news/article/{{ article.id }}",
+    "datePublished": {{ (article.published_at or article.scraped_at)|tojson }},
+    "publisher": {
+        "@type": "Organization",
+        "name": "Croton News",
+        "url": "https://croton.news"
+    },
+    "mainEntityOfPage": "https://croton.news/article/{{ article.id }}"
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="article-detail">
+    <a href="/" style="font-size:0.85rem;color:var(--text-muted);">&larr; Back to all news</a>
+
+    <div style="margin-top:1rem;">
+        <span class="category-badge" style="background:{{ cat.get('color', '#64748b') }}; font-size:0.8rem;">
+            {{ cat.get('icon', '') }} {{ cat.get('label', article.category) }}
+        </span>
+    </div>
+
+    <h1 style="margin-top:0.75rem;">{{ article.title }}</h1>
+
+    <div class="meta">
+        {% if article.published_at %}
+        <span>Published: {{ article.published_at[:10] }}</span>
+        {% endif %}
+        <span>Source: {{ article.source }}</span>
+        <span>Scraped: {{ article.scraped_at[:10] }}</span>
+    </div>
+
+    {% if article.summary %}
+    <div class="body">
+        <p>{{ article.summary }}</p>
+    </div>
+    {% endif %}
+
+    {% if article.content and article.content != article.summary %}
+    <div class="body" style="margin-top:1rem;">
+        {{ article.content }}
+    </div>
+    {% endif %}
+
+    {% if article.url %}
+    <a class="source-link" href="{{ article.url }}" target="_blank" rel="noopener">
+        View original source &rarr;
+    </a>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Croton News{% endblock %} — Croton-on-Hudson, NY</title>
+    <meta name="description" content="{% block meta_desc %}Hyperlocal news for Croton-on-Hudson, NY 10520 — village government, police blotter, fire department, schools, and regional news.{% endblock %}">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://croton.news{{ request.path }}">
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Croton News">
+    <meta property="og:title" content="{% block og_title %}Croton News — Croton-on-Hudson, NY{% endblock %}">
+    <meta property="og:description" content="Hyperlocal news for Croton-on-Hudson, NY 10520">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://croton.news{{ request.path }}">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Croton News">
+
+    {% block schema %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Croton News",
+        "url": "https://croton.news",
+        "description": "Hyperlocal news aggregator for Croton-on-Hudson, NY 10520",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://croton.news/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    {% endblock %}
+
+    <style>
+        :root {
+            --bg: #ffffff;
+            --bg-card: #f8fafc;
+            --bg-hover: #f1f5f9;
+            --text: #0f172a;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --primary: #1e3a5f;
+            --primary-light: #2563eb;
+            --accent: #3b82f6;
+            --shadow: 0 1px 3px rgba(0,0,0,0.08);
+            --shadow-lg: 0 4px 12px rgba(0,0,0,0.1);
+            --radius: 8px;
+            --max-width: 1200px;
+        }
+        [data-theme="dark"] {
+            --bg: #0f172a;
+            --bg-card: #1e293b;
+            --bg-hover: #334155;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --primary: #93c5fd;
+            --primary-light: #60a5fa;
+            --shadow: 0 1px 3px rgba(0,0,0,0.3);
+            --shadow-lg: 0 4px 12px rgba(0,0,0,0.4);
+        }
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        a { color: var(--primary-light); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            background: var(--primary);
+            color: #fff;
+            padding: 0;
+            border-bottom: 3px solid var(--accent);
+        }
+        [data-theme="dark"] .site-header { background: #1e293b; }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 1rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-brand { display: flex; align-items: center; gap: 0.75rem; }
+        .site-brand h1 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            color: #fff;
+        }
+        .site-brand h1 a { color: #fff; text-decoration: none; }
+        .site-brand .subtitle {
+            font-size: 0.8rem;
+            opacity: 0.8;
+            font-weight: 400;
+        }
+        .header-actions { display: flex; align-items: center; gap: 0.75rem; }
+        .search-box {
+            display: flex;
+            background: rgba(255,255,255,0.15);
+            border-radius: var(--radius);
+            overflow: hidden;
+        }
+        .search-box input {
+            background: transparent;
+            border: none;
+            color: #fff;
+            padding: 0.5rem 0.75rem;
+            font-size: 0.9rem;
+            width: 200px;
+            outline: none;
+        }
+        .search-box input::placeholder { color: rgba(255,255,255,0.6); }
+        .search-box button {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: #fff;
+            padding: 0.5rem 0.75rem;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        .search-box button:hover { background: rgba(255,255,255,0.3); }
+        .theme-toggle {
+            background: rgba(255,255,255,0.15);
+            border: none;
+            color: #fff;
+            padding: 0.5rem;
+            border-radius: var(--radius);
+            cursor: pointer;
+            font-size: 1.1rem;
+            line-height: 1;
+        }
+        .theme-toggle:hover { background: rgba(255,255,255,0.25); }
+
+        /* Nav */
+        .category-nav {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            overflow-x: auto;
+        }
+        .category-nav-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            display: flex;
+            gap: 0;
+        }
+        .cat-link {
+            padding: 0.75rem 1rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            white-space: nowrap;
+            border-bottom: 2px solid transparent;
+            transition: all 0.15s;
+        }
+        .cat-link:hover { color: var(--text); text-decoration: none; background: var(--bg-hover); }
+        .cat-link.active { color: var(--primary-light); border-bottom-color: var(--primary-light); }
+        .cat-link .count {
+            font-size: 0.75rem;
+            background: var(--bg-hover);
+            padding: 0.1rem 0.4rem;
+            border-radius: 10px;
+            margin-left: 0.3rem;
+        }
+
+        /* Main layout */
+        .main-content {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+        .page-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            color: var(--text);
+        }
+        .page-title .badge {
+            font-size: 0.8rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            color: #fff;
+            vertical-align: middle;
+            margin-left: 0.5rem;
+        }
+
+        /* Article cards */
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1rem;
+        }
+        .article-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.25rem;
+            transition: box-shadow 0.15s, transform 0.15s;
+            display: flex;
+            flex-direction: column;
+        }
+        .article-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-1px);
+        }
+        .article-card .card-meta {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.78rem;
+        }
+        .category-badge {
+            display: inline-block;
+            padding: 0.15rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            color: #fff;
+        }
+        .card-date { color: var(--text-muted); font-size: 0.78rem; }
+        .card-source { color: var(--text-muted); font-size: 0.75rem; font-style: italic; }
+        .article-card h2 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            line-height: 1.35;
+            margin-bottom: 0.5rem;
+        }
+        .article-card h2 a { color: var(--text); }
+        .article-card h2 a:hover { color: var(--primary-light); text-decoration: none; }
+        .article-card .summary {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            flex: 1;
+        }
+        .article-card .card-footer {
+            margin-top: 0.75rem;
+            padding-top: 0.5rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.8rem;
+        }
+        .article-card .card-footer a { font-weight: 600; }
+
+        /* Article detail */
+        .article-detail {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        .article-detail h1 {
+            font-size: 1.8rem;
+            font-weight: 800;
+            line-height: 1.25;
+            margin-bottom: 0.75rem;
+        }
+        .article-detail .meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        .article-detail .body {
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+        .article-detail .source-link {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.6rem 1.2rem;
+            background: var(--primary-light);
+            color: #fff;
+            border-radius: var(--radius);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        .article-detail .source-link:hover { opacity: 0.9; text-decoration: none; }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--text-muted);
+        }
+        .empty-state h2 { font-size: 1.3rem; margin-bottom: 0.5rem; color: var(--text); }
+
+        /* Footer */
+        .site-footer {
+            max-width: var(--max-width);
+            margin: 3rem auto 0;
+            padding: 1.5rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+        .site-footer a { color: var(--text-muted); }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header-inner { padding: 0.75rem 1rem; }
+            .site-brand h1 { font-size: 1.2rem; }
+            .search-box input { width: 140px; }
+            .main-content { padding: 1rem; }
+            .articles-grid { grid-template-columns: 1fr; }
+            .article-detail h1 { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="site-brand">
+                <h1><a href="/">Croton News</a></h1>
+                <span class="subtitle">Croton-on-Hudson, NY 10520</span>
+            </div>
+            <div class="header-actions">
+                <form class="search-box" action="/" method="get">
+                    <input type="text" name="q" placeholder="Search news..." value="{{ search|default('') }}" aria-label="Search">
+                    <button type="submit" aria-label="Search">&#128269;</button>
+                </form>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" title="Toggle dark/light mode">&#9790;</button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="category-nav" aria-label="Categories">
+        <div class="category-nav-inner">
+            <a class="cat-link {% if request.path == '/' and not search %}active{% endif %}" href="/">
+                All <span class="count">{{ total_count }}</span>
+            </a>
+            {% for key, cat in categories.items() %}
+            <a class="cat-link {% if request.path == '/category/' + key %}active{% endif %}"
+               href="/category/{{ key }}">
+                {{ cat.icon }} {{ cat.label }}
+                <span class="count">{{ cat_counts.get(key, 0) }}</span>
+            </a>
+            {% endfor %}
+        </div>
+    </nav>
+
+    <main class="main-content">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; {{ now.year }} Croton News &mdash; Automated local news aggregator for Croton-on-Hudson, NY</p>
+        <p style="margin-top:0.3rem;">
+            <a href="/feed">RSS Feed</a> &middot;
+            <a href="/api/health">API Status</a> &middot;
+            <a href="/sitemap.xml">Sitemap</a>
+        </p>
+    </footer>
+
+    <script>
+        function toggleTheme() {
+            const html = document.documentElement;
+            const current = html.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+        }
+        (function() {
+            const saved = localStorage.getItem('theme');
+            if (saved) document.documentElement.setAttribute('data-theme', saved);
+            else if (window.matchMedia('(prefers-color-scheme: dark)').matches)
+                document.documentElement.setAttribute('data-theme', 'dark');
+        })();
+    </script>
+</body>
+</html>

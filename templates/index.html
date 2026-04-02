@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if search %}
+<h1 class="page-title">Search results for &ldquo;{{ search }}&rdquo;</h1>
+{% else %}
+<h1 class="page-title">Latest News</h1>
+{% endif %}
+
+{% if articles %}
+<div class="articles-grid">
+    {% for art in articles %}
+    <article class="article-card">
+        <div class="card-meta">
+            {% set cat = categories.get(art.category, {}) %}
+            <span class="category-badge" style="background:{{ cat.get('color', '#64748b') }}">
+                {{ cat.get('icon', '') }} {{ cat.get('label', art.category) }}
+            </span>
+            {% if art.published_at %}
+            <span class="card-date">{{ art.published_at[:10] }}</span>
+            {% endif %}
+        </div>
+        <h2><a href="/article/{{ art.id }}">{{ art.title }}</a></h2>
+        {% if art.summary %}
+        <p class="summary">{{ art.summary[:200] }}{% if art.summary|length > 200 %}&hellip;{% endif %}</p>
+        {% endif %}
+        <div class="card-footer">
+            <a href="/article/{{ art.id }}">Read more &rarr;</a>
+            <span class="card-source">&nbsp;&middot;&nbsp;{{ art.source }}</span>
+        </div>
+    </article>
+    {% endfor %}
+</div>
+{% else %}
+<div class="empty-state">
+    {% if search %}
+    <h2>No results found</h2>
+    <p>Try a different search term or <a href="/">browse all news</a>.</p>
+    {% else %}
+    <h2>No articles yet</h2>
+    <p>News sources are being scraped. Check back in a few minutes.</p>
+    {% endif %}
+</div>
+{% endif %}
+{% endblock %}

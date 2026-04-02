@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% set cat = categories.get(current_category, {}) %}
+{% block title %}{{ cat.get('label', current_category) }}{% endblock %}
+{% block meta_desc %}{{ cat.get('label', current_category) }} news for Croton-on-Hudson, NY 10520.{% endblock %}
+
+{% block content %}
+<h1 class="page-title">
+    {{ cat.get('icon', '') }} {{ cat.get('label', current_category) }}
+    <span class="badge" style="background:{{ cat.get('color', '#64748b') }}">{{ articles|length }} articles</span>
+</h1>
+
+{% if articles %}
+<div class="articles-grid">
+    {% for art in articles %}
+    <article class="article-card">
+        <div class="card-meta">
+            <span class="category-badge" style="background:{{ cat.get('color', '#64748b') }}">
+                {{ cat.get('icon', '') }} {{ cat.get('label', art.category) }}
+            </span>
+            {% if art.published_at %}
+            <span class="card-date">{{ art.published_at[:10] }}</span>
+            {% endif %}
+        </div>
+        <h2><a href="/article/{{ art.id }}">{{ art.title }}</a></h2>
+        {% if art.summary %}
+        <p class="summary">{{ art.summary[:200] }}{% if art.summary|length > 200 %}&hellip;{% endif %}</p>
+        {% endif %}
+        <div class="card-footer">
+            <a href="/article/{{ art.id }}">Read more &rarr;</a>
+            <span class="card-source">&nbsp;&middot;&nbsp;{{ art.source }}</span>
+        </div>
+    </article>
+    {% endfor %}
+</div>
+{% else %}
+<div class="empty-state">
+    <h2>No {{ cat.get('label', '') }} articles yet</h2>
+    <p>This category is being scraped. Check back soon or <a href="/">browse all news</a>.</p>
+</div>
+{% endif %}
+{% endblock %}
