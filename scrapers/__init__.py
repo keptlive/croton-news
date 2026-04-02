@@ -9,6 +9,8 @@ from .library import LibraryScraper
 from .board_agendas import BoardAgendasScraper
 from .emergency import EmergencyAlertsScraper
 from .water_data import WaterDataScraper
+from .tides import TidesScraper
+from .patch_news import RiverJournalScraper
 
 ALL_SCRAPERS = [
     VillageNewsScraper,
@@ -22,4 +24,6 @@ ALL_SCRAPERS = [
     BoardAgendasScraper,
     EmergencyAlertsScraper,
     WaterDataScraper,
+    TidesScraper,
+    RiverJournalScraper,
 ]

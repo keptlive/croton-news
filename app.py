@@ -36,6 +36,8 @@ SCRAPER_TIER = {
     "village": "medium",
     "police": "medium",
     "fire": "medium",
+    "tides": "fast",
+    "riverjournal": "medium",
     "boards": "slow",
     "schools": "slow",
     "cortlandt": "slow",
