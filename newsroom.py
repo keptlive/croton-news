@@ -57,13 +57,21 @@ Writing style:
 - Explain jargon — readers aren't municipal lawyers
 - Quote directly from the minutes when interesting or significant
 - Include context that helps residents understand *why* something matters
-- If multiple newsworthy items exist, you may suggest splitting into separate articles
+- If multiple newsworthy items exist, write separate articles (each with its own # heading)
 
 Article structure:
 1. Headline (compelling, specific, under 80 chars)
 2. Subhead (one sentence expanding the headline)
 3. Body paragraphs
 4. "What's Next" section if applicable (upcoming votes, deadlines, hearings)
+
+SEO guidelines (important for local search):
+- Always include "Croton-on-Hudson" in the headline or first paragraph
+- Use specific local terms: village, Westchester County, Hudson River, Metro-North
+- Include street addresses, neighborhood names, and landmarks when mentioned
+- Use committee full names (e.g. "Croton-on-Hudson Board of Trustees" not just "the board")
+- Natural keyword phrases: "Croton village board", "Croton planning", "Croton zoning"
+- Include the meeting date prominently
 
 Do NOT:
 - Editorialize or inject opinion
@@ -72,6 +80,33 @@ Do NOT:
 - Add background info you don't know from the document itself
 
 Output format: Markdown with the headline as # H1.
+
+After all articles, add a section:
+## Meeting Summary
+A bulleted list of ALL decisions, votes, appointments, and notable discussion items from the meeting — even minor ones not covered in articles. This is for residents who want a quick scan of everything that happened.
+"""
+
+SUMMARY_PROMPT = """\
+You are a municipal analyst for croton.news, covering Croton-on-Hudson, NY.
+
+Read the meeting minutes and produce a structured summary with these sections:
+
+## Key Decisions & Votes
+Bullet list of every resolution, vote, or decision made. Include vote tallies.
+
+## Discussion Highlights
+Notable discussion items, resident comments, or debates — even if no vote was taken.
+
+## People & Places
+Names mentioned (officials, applicants, residents) and specific addresses or locations discussed.
+
+## Upcoming
+Future dates, deadlines, public hearings, or next steps mentioned.
+
+## Keywords
+Comma-separated list of 10-15 local SEO keywords based on the content (e.g. "Croton-on-Hudson zoning, Mount Airy Road variance, village budget 2025").
+
+Be thorough — capture everything, not just the headline items. Use specific names, amounts, and addresses.
 """
 
 
@@ -85,25 +120,45 @@ def get_document_text(doc_id):
 
 
 def get_document_meta(doc_id):
-    """Get metadata for a document."""
-    conn = sqlite3.connect(SEARCH_DB)
-    c = conn.cursor()
-    c.execute(
-        "SELECT doc_id, committee, date, type, text_size, preview FROM documents WHERE doc_id = ?",
-        (doc_id,),
-    )
-    row = c.fetchone()
-    conn.close()
-    if not row:
-        return None
-    return {
-        "doc_id": row[0],
-        "committee": row[1],
-        "date": row[2],
-        "type": row[3],
-        "text_size": row[4],
-        "preview": row[5],
-    }
+    """Get metadata for a document from search.db or full index."""
+    # Try search.db first
+    if os.path.exists(SEARCH_DB):
+        conn = sqlite3.connect(SEARCH_DB)
+        c = conn.cursor()
+        c.execute(
+            "SELECT doc_id, committee, date, type, text_size, preview FROM documents WHERE doc_id = ?",
+            (doc_id,),
+        )
+        row = c.fetchone()
+        conn.close()
+        if row:
+            return {
+                "doc_id": row[0],
+                "committee": row[1],
+                "date": row[2],
+                "type": row[3],
+                "text_size": row[4],
+                "preview": row[5],
+            }
+
+    # Fallback to full_document_index.json
+    full_index = os.path.join(ECODE360_DIR, "full_document_index.json")
+    if os.path.exists(full_index):
+        with open(full_index) as f:
+            data = json.load(f)
+        for d in data.get("documents", data if isinstance(data, list) else []):
+            if str(d.get("id")) == str(doc_id):
+                txt_path = os.path.join(MINUTES_DIR, f"{doc_id}.txt")
+                text_size = os.path.getsize(txt_path) if os.path.exists(txt_path) else 0
+                return {
+                    "doc_id": str(d["id"]),
+                    "committee": d.get("category", {}).get("title", "unknown"),
+                    "date": d.get("date", "unknown"),
+                    "type": "minutes",
+                    "text_size": text_size,
+                    "preview": d.get("title", ""),
+                }
+    return None
 
 
 def list_documents(committee=None):
@@ -211,24 +266,39 @@ def generate_article(doc_id):
 
 
 def generate_summary(doc_id):
-    """Generate a brief summary of a document (no full article)."""
+    """Generate a structured summary of a document."""
     meta = get_document_meta(doc_id)
     text = get_document_text(doc_id)
     if not meta or not text:
-        print(f"Document {doc_id} not found.")
-        return None
+        # Try reading from full_document_index.json as fallback
+        text = get_document_text(doc_id)
+        if not text:
+            print(f"Document {doc_id} not found.")
+            return None
+        meta = {"committee": "unknown", "date": "unknown", "type": "minutes", "text_size": len(text), "doc_id": doc_id}
 
     if len(text) > 60000:
         text = text[:60000] + "\n\n[... truncated ...]"
 
     user_msg = (
-        f"Summarize the key decisions, votes, and newsworthy items from these "
-        f"{meta['committee']} {meta['type']} ({meta['date'] or 'unknown date'}) "
-        f"in 5-10 bullet points. Focus on what matters to Croton residents.\n\n"
-        f"---\n\n{text}"
+        f"Here are the {meta.get('type', 'minutes')} from the {meta.get('committee', 'unknown')} "
+        f"({meta.get('date') or 'unknown date'}).\n\n---\n\n{text}"
     )
 
-    summary = call_llm(SYSTEM_PROMPT, user_msg, max_tokens=1500)
+    summary = call_llm(SUMMARY_PROMPT, user_msg, max_tokens=2000)
+
+    # Save summary
+    os.makedirs(STORIES_DIR, exist_ok=True)
+    safe_date = (str(meta.get("date") or "unknown")).replace(" ", "-").replace(",", "").replace("/", "-")
+    safe_committee = str(meta.get("committee", "unknown")).replace(" ", "-").lower()
+    filename = f"summary_{safe_committee}_{safe_date}_{doc_id}.md"
+    filepath = os.path.join(STORIES_DIR, filename)
+    with open(filepath, "w") as f:
+        f.write(f"<!-- Source: ecode360 doc {doc_id} | {meta.get('committee')} | {meta.get('date')} -->\n")
+        f.write(f"<!-- Generated: {__import__('datetime').datetime.now().isoformat()} -->\n\n")
+        f.write(summary)
+
+    print(f"Saved: {filepath}")
     print(summary)
     return summary
 
