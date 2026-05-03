@@ -1,4 +1,68 @@
-venv/
-data/*.db
+# Python
 __pycache__/
 *.pyc
+*.pyo
+venv/
+
+# Databases (large, generated, contain user data)
+*.db
+*.db-journal
+*.db-wal
+
+# Secrets
+.env
+rag/.env
+rag/.env.*
+*credentials*
+
+# Media (large binary files)
+videos/
+audio/
+photos/
+rag/frames/
+rag/packets/
+
+# Generated feeds and static data
+static/feeds/
+static/events.json
+static/upcoming_agendas.json
+
+# Transcripts (raw Deepgram output — large JSON)
+rag/transcripts/raw/
+
+# Backups
+*.bak
+*.bak_*
+site/
+templates.bak/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Transcripts (generated, large)
+rag/transcripts/
+ecode360/
+
+# Saved articles (review drafts)
+rag/saved_articles/
+
+# History corpus data
+rag/history/
+
+# Research data
+research/
+
+# Scrapers (separate module)
+scrapers/
+
+
+# Test/temp data
+rag/*.testing
+rag/transcripts_ecode360
+rag/transcripts_sentiment/
+rag/pr_*.txt
+
