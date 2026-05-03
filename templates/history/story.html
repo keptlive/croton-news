@@ -1,0 +1,386 @@
+{% extends "history/base.html" %}
+{% block title %}{{ story.title }}{% endblock %}
+{% block meta_desc %}{{ story.subtitle or story.body[:160] }}{% endblock %}
+
+{% block head %}
+<meta property="og:title" content="{{ story.title }}">
+<meta property="og:description" content="{{ story.subtitle or story.body[:160] }}">
+{% if story.photo %}<meta property="og:image" content="https://history.croton.news/maps/{{ story.photo }}">{% endif %}
+<meta property="og:type" content="article">
+<style>
+/* ── Article wrap ── */
+.story-wrap { max-width: 740px; margin: 0 auto; }
+
+/* ── Hero with overlay text ── */
+.story-hero-wrap {
+  position: relative;
+  margin: 0 -60px 40px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.story-hero-wrap img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.65);
+}
+.story-hero-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 40px 36px 32px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.85));
+  color: #fff;
+}
+.story-hero-overlay h1 {
+  font: 900 36px/1.12 var(--serif);
+  letter-spacing: -0.5px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  margin-bottom: 10px;
+}
+.story-hero-overlay .subtitle {
+  font: italic 17px/1.4 var(--body);
+  opacity: 0.9;
+  max-width: 580px;
+}
+.story-hero-overlay .meta-line {
+  font: 13px var(--sans);
+  opacity: 0.65;
+  margin-top: 12px;
+  display: flex;
+  gap: 14px;
+}
+/* Fallback header when no hero image */
+.story-header-plain {
+  text-align: center;
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+  border-bottom: 3px double var(--ink);
+}
+.story-header-plain h1 {
+  font: 900 36px/1.12 var(--serif);
+  letter-spacing: -0.5px;
+  margin-bottom: 12px;
+}
+.story-header-plain .subtitle {
+  font: italic 18px/1.45 var(--body);
+  color: var(--ink-2);
+  max-width: 580px;
+  margin: 0 auto 14px;
+}
+.story-header-plain .meta-line {
+  font: 13px var(--sans);
+  color: var(--ink-4);
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+.story-header-plain .meta-line a { color: var(--ink-4); }
+
+/* ── Body text ── */
+.story-body {
+  font-size: 18px;
+  line-height: 1.85;
+  color: var(--ink);
+  margin-top: 8px;
+}
+.story-body p {
+  margin-bottom: 1.2em;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+/* Drop cap */
+.story-body > p:first-of-type::first-letter {
+  float: left;
+  font: 900 3.8em/0.78 var(--serif);
+  color: var(--accent);
+  padding: 4px 10px 0 0;
+  margin-top: 2px;
+}
+/* Section headers */
+.story-body h2 {
+  font: 900 24px/1.25 var(--serif);
+  color: var(--ink);
+  margin: 2.2em 0 0.7em;
+  padding-top: 1.4em;
+  border-top: 1px solid var(--border);
+  text-align: left;
+}
+.story-body h3 {
+  font: 700 19px/1.3 var(--serif);
+  color: var(--ink);
+  margin: 1.6em 0 0.5em;
+  text-align: left;
+}
+/* Blockquotes */
+.story-body blockquote {
+  margin: 1.8em -8px;
+  padding: 22px 28px;
+  border-left: 4px solid var(--accent);
+  background: linear-gradient(135deg, rgba(139,37,0,0.03), rgba(139,37,0,0.06));
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--ink-2);
+  text-align: left;
+}
+.story-body blockquote p { margin-bottom: 0.5em; }
+.story-body blockquote p:last-child { margin-bottom: 0; }
+/* Emphasis */
+.story-body strong { font-weight: 700; color: var(--ink); }
+.story-body em { font-style: italic; }
+/* Scene break */
+.story-body hr {
+  border: none;
+  text-align: center;
+  margin: 2.5em 0;
+  color: var(--ink-4);
+}
+.story-body hr::after { content: "\2022\00a0\00a0\2022\00a0\00a0\2022"; font-size: 14px; letter-spacing: 4px; }
+
+/* ── Inline figure ── */
+.story-inline-fig {
+  margin: 2.5em -24px;
+  padding: 0;
+  position: relative;
+}
+.story-inline-fig img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.story-inline-fig figcaption {
+  font: 12px/1.5 var(--sans);
+  color: var(--ink-4);
+  margin-top: 10px;
+  padding: 0 8px;
+  text-align: left;
+}
+
+/* ── Sources ── */
+.story-sources {
+  margin-top: 48px;
+  padding: 28px 32px;
+  background: var(--bg-warm);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.story-sources h3 {
+  font: 800 12px var(--sans);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--accent);
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.story-sources ul {
+  list-style: none;
+  font: 14px/1.7 var(--sans);
+  color: var(--ink-2);
+}
+.story-sources li {
+  padding: 3px 0 3px 18px;
+  text-indent: -18px;
+}
+.story-sources li::before {
+  content: "\2014\00a0";
+  color: var(--border-dark, #bbb);
+}
+.story-sources .note {
+  font: 12px/1.5 var(--sans);
+  color: var(--ink-4);
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+/* ── Actions ── */
+.story-actions {
+  display: flex;
+  gap: 10px;
+  margin: 28px 0;
+  padding: 18px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  font: 13px var(--sans);
+  flex-wrap: wrap;
+}
+.story-actions a {
+  padding: 7px 16px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--ink-3);
+  transition: .15s;
+}
+.story-actions a:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ── Nav ── */
+.story-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 2px solid var(--ink);
+  font: 14px var(--sans);
+  gap: 20px;
+}
+.story-nav a { color: var(--accent); }
+.story-nav .prev, .story-nav .next { flex: 1; max-width: 260px; }
+.story-nav .next { text-align: right; }
+.story-nav .center { flex-shrink: 0; }
+.story-nav .label {
+  font: 600 10px var(--sans);
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  color: var(--ink-4);
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .story-hero-wrap { margin: 0 -16px 28px; }
+  .story-hero-wrap img { height: 280px; }
+  .story-hero-overlay { padding: 24px 20px 20px; }
+  .story-hero-overlay h1 { font-size: 26px; }
+  .story-hero-overlay .subtitle { font-size: 15px; }
+  .story-header-plain h1 { font-size: 28px; }
+  .story-body { font-size: 17px; line-height: 1.75; }
+  .story-body p { text-align: left; hyphens: none; }
+  .story-body > p:first-of-type::first-letter { font-size: 3em; }
+  .story-body h2 { font-size: 20px; }
+  .story-inline-fig { margin: 2em -16px; }
+  .story-nav { flex-direction: column; gap: 12px; }
+  .story-nav .prev, .story-nav .next { max-width: none; text-align: left; }
+  .story-actions { gap: 6px; }
+  .story-actions a { padding: 6px 12px; font-size: 12px; }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="story-wrap">
+
+<div class="bc">
+  <a href="/history">Home</a> / <a href="/history/stories">Stories</a>
+</div>
+
+<article>
+  {% if story.photo %}
+  <!-- Hero with overlay -->
+  <div class="story-hero-wrap">
+    <img src="/history/maps/{{ story.photo }}" alt="{{ story.title }}" loading="eager">
+    <div class="story-hero-overlay">
+      <h1>{{ story.title }}</h1>
+      {% if story.subtitle %}
+      <p class="subtitle">{{ story.subtitle }}</p>
+      {% endif %}
+      <div class="meta-line">
+        <span>{{ (story.word_count / 250)|int }} min read</span>
+        <span>{{ story.sources|length }} sources</span>
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <!-- Plain header (no photo) -->
+  <header class="story-header-plain">
+    <h1>{{ story.title }}</h1>
+    {% if story.subtitle %}
+    <p class="subtitle">{{ story.subtitle }}</p>
+    {% endif %}
+    <div class="meta-line">
+      <span>{{ (story.word_count / 250)|int }} min read</span>
+      <span>{{ story.sources|length }} sources</span>
+      <a href="/history/search?q={{ story.title.split(':')[0]|urlencode }}">Search archive</a>
+    </div>
+  </header>
+  {% endif %}
+
+  <div class="story-body">
+    {% set paragraphs = story.body.split('\n\n') %}
+    {% set total_p = paragraphs|length %}
+    {% set photo2_after = (total_p * 0.4)|int %}
+    {% set photo2_shown = namespace(val=false) %}
+    {% for paragraph in paragraphs %}
+      {% set p = paragraph.strip() %}
+      {% if p %}
+        {% if p.startswith('## ') %}
+          <h2>{{ p[3:] }}</h2>
+        {% elif p.startswith('### ') %}
+          <h3>{{ p[4:] }}</h3>
+        {% elif p.startswith('> ') or p.startswith('>') %}
+          <blockquote><p>{{ p.lstrip('> ') }}</p></blockquote>
+        {% elif p == '---' %}
+          <hr>
+        {% else %}
+          <p>{{ p }}</p>
+        {% endif %}
+      {% endif %}
+      {% if story.photo2 and not photo2_shown.val and loop.index >= photo2_after %}
+        {% set photo2_shown.val = true %}
+        <figure class="story-inline-fig">
+          <img src="/history/maps/{{ story.photo2 }}" alt="{{ story.photo2_caption or story.title }}" loading="lazy">
+          {% if story.photo2_caption %}
+          <figcaption>{{ story.photo2_caption }}</figcaption>
+          {% endif %}
+        </figure>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="story-actions">
+    <a href="/history/search?q={{ story.title.split(':')[0]|urlencode }}">Search related documents</a>
+    <a href="/history/api/report?q={{ story.title.split(':')[0]|urlencode }}" target="_blank">AI research report</a>
+    <a href="/history/timeline">Timeline</a>
+    <a href="/history/stories">All stories</a>
+  </div>
+
+  {% if story.sources %}
+  <div class="story-sources">
+    <h3>Sources Consulted</h3>
+    <ul>
+      {% for src in story.sources %}
+      <li>{{ src }}</li>
+      {% endfor %}
+    </ul>
+    <p class="note">
+      All direct quotes are verbatim from the cited sources. Each factual claim was verified against the
+      <a href="/history/documents">Croton Historical Archive</a> database.
+    </p>
+  </div>
+  {% endif %}
+
+  <nav class="story-nav">
+    <div class="prev">
+      {% if prev_story %}
+      <span class="label">Previous</span>
+      <a href="/history/story/{{ prev_story.slug }}">&larr; {{ prev_story.title }}</a>
+      {% endif %}
+    </div>
+    <div class="center">
+      <a href="/history/stories" style="font-weight: 600;">All Stories</a>
+    </div>
+    <div class="next">
+      {% if next_story %}
+      <span class="label">Next</span>
+      <a href="/history/story/{{ next_story.slug }}">{{ next_story.title }} &rarr;</a>
+      {% endif %}
+    </div>
+  </nav>
+</article>
+
+</div>
+{% endblock %}

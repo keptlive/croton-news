@@ -1,0 +1,158 @@
+{% extends "base.html" %}
+{% block title %}Pipeline Status{% endblock %}
+
+{% block content %}
+<style>
+.status-page { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+.status-page h1 { font-family: var(--serif-display); margin-bottom: 0.5rem; }
+.status-page .subtitle { color: var(--ink-muted); margin-bottom: 2rem; font-size: 0.9rem; }
+.status-section { margin-bottom: 2.5rem; }
+.status-section h2 { font-family: var(--serif-display); font-size: 1.3rem; border-bottom: 2px solid var(--rule-bold); padding-bottom: 0.3rem; margin-bottom: 1rem; }
+.cron-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+.cron-table th { text-align: left; padding: 0.5rem 0.7rem; background: var(--paper-warm); border-bottom: 1px solid var(--rule); font-weight: 600; }
+.cron-table td { padding: 0.5rem 0.7rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.cron-table tr:hover { background: var(--gold-highlight); }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 0.78rem; font-weight: 600; }
+.badge-ok { background: #d4edda; color: #155724; }
+.badge-warn { background: #fff3cd; color: #856404; }
+.badge-error { background: #f8d7da; color: #721c24; }
+.badge-dead { background: #e2e3e5; color: #383d41; }
+.log-preview { font-family: monospace; font-size: 0.78rem; background: var(--paper-warm); padding: 0.8rem; border-radius: 4px; overflow-x: auto; white-space: pre-wrap; word-break: break-all; max-height: 200px; overflow-y: auto; margin-top: 0.5rem; border: 1px solid var(--rule); }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+.stat-card { background: var(--paper-card); border: 1px solid var(--rule); border-radius: 4px; padding: 1rem; box-shadow: var(--shadow); }
+.stat-card .label { font-size: 0.78rem; color: var(--ink-muted); text-transform: uppercase; letter-spacing: 0.03em; }
+.stat-card .value { font-size: 1.5rem; font-weight: 700; font-family: var(--serif-display); }
+.stat-card .detail { font-size: 0.8rem; color: var(--ink-secondary); margin-top: 0.3rem; }
+.champds-status { padding: 1rem; border-radius: 4px; border: 1px solid var(--rule); margin-bottom: 1rem; }
+</style>
+
+<div class="status-page">
+  <h1>Pipeline Status</h1>
+  <p class="subtitle">System health dashboard — updated live on each page load</p>
+
+  <!-- Summary Stats -->
+  <div class="stat-grid">
+    <div class="stat-card">
+      <div class="label">Total Meetings</div>
+      <div class="value">{{ stats.total_meetings }}</div>
+      <div class="detail">{{ stats.with_articles }} with articles</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Last Meeting Ingested</div>
+      <div class="value">{{ stats.last_meeting_date }}</div>
+      <div class="detail">{{ stats.last_meeting_committee }}</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Days Since Last Meeting</div>
+      <div class="value {% if stats.days_since_last > 10 %}style="color: var(--accent);"{% endif %}">{{ stats.days_since_last }}</div>
+      <div class="detail">{% if stats.days_since_last > 10 %}<span class="badge badge-error">Gap detected</span>{% else %}<span class="badge badge-ok">Normal</span>{% endif %}</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">ChampDS Last Event</div>
+      <div class="value">#{{ stats.max_event_id }}</div>
+      <div class="detail">{{ stats.max_event_date }}</div>
+    </div>
+  </div>
+
+  <!-- ChampDS API Status -->
+  <div class="status-section">
+    <h2>ChampDS API</h2>
+    <div class="champds-status" style="background: {% if champds.api_live %}#d4edda{% else %}#f8d7da{% endif %};">
+      <strong>API:</strong> {% if champds.api_live %}<span class="badge badge-ok">Responding</span>{% else %}<span class="badge badge-error">Down</span>{% endif %}
+      &nbsp;&nbsp;
+      <strong>Portal:</strong> {% if champds.portal_live %}<span class="badge badge-ok">Accessible</span>{% else %}<span class="badge badge-error">403/Down</span>{% endif %}
+      &nbsp;&nbsp;
+      <strong>New events since #{{ stats.max_event_id }}:</strong> 
+      {% if champds.next_event_exists %}<span class="badge badge-ok">Yes</span>{% else %}<span class="badge badge-warn">None found</span>{% endif %}
+    </div>
+    <p style="font-size: 0.85rem; color: var(--ink-secondary);">
+      The pipeline discovers meetings by scanning incremental ChampDS event IDs. 
+      If ChampDS hasn't posted new events, no new meetings can be imported automatically.
+      Last scanned up to event #{{ champds.scan_ceiling }}.
+    </p>
+  </div>
+
+  <!-- Cron Jobs -->
+  <div class="status-section">
+    <h2>Cron Jobs</h2>
+    <table class="cron-table">
+      <thead>
+        <tr><th>Job</th><th>Schedule</th><th>Last Run</th><th>Status</th><th>Output</th></tr>
+      </thead>
+      <tbody>
+        {% for job in cron_jobs %}
+        <tr>
+          <td><strong>{{ job.name }}</strong><br><span style="font-size:0.75rem;color:var(--ink-muted)">{{ job.script }}</span></td>
+          <td style="white-space:nowrap;">{{ job.schedule }}</td>
+          <td style="white-space:nowrap;">{{ job.last_run or "Never" }}</td>
+          <td>
+            {% if job.status == "ok" %}<span class="badge badge-ok">OK</span>
+            {% elif job.status == "warn" %}<span class="badge badge-warn">Warning</span>
+            {% elif job.status == "error" %}<span class="badge badge-error">Error</span>
+            {% elif job.status == "dead" %}<span class="badge badge-dead">No cron</span>
+            {% endif %}
+          </td>
+          <td style="font-size:0.78rem;">{{ job.last_output|truncate(120) if job.last_output else "—" }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Log Previews -->
+  <div class="status-section">
+    <h2>Recent Logs</h2>
+    {% for log in logs %}
+    <details style="margin-bottom: 0.8rem;">
+      <summary style="cursor:pointer; font-weight:600; font-size:0.9rem;">{{ log.name }} <span style="color:var(--ink-muted); font-weight:400;">({{ log.modified }})</span></summary>
+      <div class="log-preview">{{ log.tail }}</div>
+    </details>
+    {% endfor %}
+  </div>
+
+  <!-- Expected Schedule -->
+
+  <!-- Phone Relay Actions -->
+  {% if relay_actions %}
+  <div class="status-section">
+    <h2>Phone Relay Required</h2>
+    <p style="font-size:0.85rem; color:var(--ink-secondary); margin-bottom:1rem;">These actions require a residential IP (blocked from VPS). Run from phone via <code>boe-fetch</code> or <code>boarddocs-fetch</code>.</p>
+    <table class="cron-table">
+      <thead><tr><th>Priority</th><th>Action</th><th>Description</th><th>Command</th></tr></thead>
+      <tbody>
+        {% for action in relay_actions %}
+        <tr>
+          <td><span class="badge {% if action.priority == 'high' %}badge-error{% else %}badge-warn{% endif %}">{{ action.priority }}</span></td>
+          <td><strong>{{ action.action }}</strong></td>
+          <td>{{ action.description }}</td>
+          <td><code style="font-size:0.75rem;">{{ action.command }}</code></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+  <div class="status-section">
+    <h2>Expected Meeting Schedule</h2>
+    <p style="font-size:0.85rem; color:var(--ink-secondary); margin-bottom:1rem;">Based on known recurring patterns. Meetings that should have occurred but have no DB entry are flagged.</p>
+    <table class="cron-table">
+      <thead><tr><th>Date</th><th>Committee</th><th>Status</th></tr></thead>
+      <tbody>
+        {% for m in expected_meetings %}
+        <tr>
+          <td>{{ m.date }}</td>
+          <td>{{ m.committee }}</td>
+          <td>
+            {% if m.status == "covered" %}<span class="badge badge-ok">Covered</span>
+            {% elif m.status == "missing" %}<span class="badge badge-error">Missing</span>
+            {% elif m.status == "upcoming" %}<span class="badge badge-warn">Upcoming</span>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

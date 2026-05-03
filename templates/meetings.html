@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block title %}Meeting Coverage{% endblock %}
+
+{% block content %}
+<div class="layout-cols">
+<div>
+
+  <div class="section-head">
+    <h2 class="section-title">
+      {% if committee_filter %}
+        {{ committee_filter }}
+      {% else %}
+        All Meeting Coverage
+      {% endif %}
+    </h2>
+    {% if committee_filter %}
+    <a class="section-more" href="/meetings">All committees &rarr;</a>
+    {% endif %}
+  </div>
+
+  {# ═══ Split meetings into upcoming and past ═══ #}
+  {% set today = now.strftime('%Y-%m-%d') %}
+  {% set ns = namespace(upcoming=[], past=[]) %}
+  {% for meeting in meetings %}
+    {% if meeting.date >= today and not meeting.has_article %}
+      {% if ns.upcoming.append(meeting) %}{% endif %}
+    {% else %}
+      {% if ns.past.append(meeting) %}{% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {# ═══ UPCOMING MEETINGS ═══ #}
+  {% if ns.upcoming %}
+  <div style="margin-bottom:32px">
+    <div class="section-rule"><span class="section-label">Upcoming Meetings</span></div>
+    {% for meeting in ns.upcoming %}
+    <div class="meeting-row" style="border-left:4px solid var(--accent);background:var(--paper-warm);margin-bottom:8px;border-radius:0 6px 6px 0">
+      <div class="meeting-date-block">
+        {% set parts = meeting.date.split('-') %}
+        {% set months = {'01':'Jan','02':'Feb','03':'Mar','04':'Apr','05':'May','06':'Jun','07':'Jul','08':'Aug','09':'Sep','10':'Oct','11':'Nov','12':'Dec'} %}
+        <div class="m">{{ months.get(parts[1], parts[1]) }}</div>
+        <div class="d">{{ parts[2]|int }}</div>
+      </div>
+      <div class="meeting-info">
+        <span class="story-badge" style="background:{{ committees.get(meeting.committee, {}).get('color', '#8b2500') }}">
+          {{ meeting.committee }}
+        </span>
+        <h3><a href="/meeting/{{ meeting.id }}">{{ meeting.headline or meeting.committee }} &mdash; {{ meeting.date }}</a></h3>
+        {% if meeting.quick_summary %}
+        <div style="font-size:13px;color:var(--ink-secondary);margin-top:2px">{{ meeting.quick_summary[:150] }}</div>
+        {% endif %}
+        <div style="margin-top:4px;display:flex;gap:8px;flex-wrap:wrap">
+          <span style="font-size:11px;padding:2px 8px;background:var(--accent);color:#fff;border-radius:10px;font-weight:600">Upcoming</span>
+          {% if meeting.agenda_json %}<span style="font-size:11px;padding:2px 8px;background:var(--paper-card);border:1px solid var(--rule);border-radius:10px;font-weight:600;color:var(--ink-secondary)">Agenda Available</span>{% endif %}
+          {% if meeting.has_video %}<span style="font-size:11px;color:var(--blue-link);font-weight:600">Video</span>{% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {# ═══ PAST COVERAGE ═══ #}
+  {% if ns.upcoming %}<div class="section-rule"><span class="section-label">Coverage Archive</span></div>{% endif %}
+  {% for meeting in ns.past %}
+  <div class="meeting-row">
+    <div class="meeting-date-block">
+      {% set parts = meeting.date.split('-') %}
+      {% set months = {'01':'Jan','02':'Feb','03':'Mar','04':'Apr','05':'May','06':'Jun','07':'Jul','08':'Aug','09':'Sep','10':'Oct','11':'Nov','12':'Dec'} %}
+      <div class="m">{{ months.get(parts[1], parts[1]) }}</div>
+      <div class="d">{{ parts[2]|int }}</div>
+    </div>
+    <div class="meeting-info">
+      <span class="story-badge" style="background:{{ committees.get(meeting.committee, {}).get('color', '#8b2500') }}">
+        {{ meeting.committee }}
+      </span>
+      {% if meeting.has_article %}
+      <h3><a href="/article/{{ meeting.id or meeting.doc_id }}">{{ meeting.headline or meeting.quick_summary or meeting.committee }}</a></h3>
+      {% else %}
+      <h3><a href="/meeting/{{ meeting.id }}">{{ meeting.headline or meeting.committee }} &mdash; {{ meeting.date }}</a></h3>
+      {% endif %}
+      {% if meeting.has_transcript %}
+      <span style="font-size:11px;color:var(--green-nature);font-weight:600">Transcript</span>
+      {% endif %}
+      {% if meeting.has_video %}
+      <span style="font-size:11px;color:var(--blue-link);font-weight:600">Video</span>
+      {% endif %}
+    </div>
+  </div>
+  {% else %}
+  {% if not ns.upcoming %}
+  <p style="padding:40px;text-align:center;color:var(--ink-muted)">No meetings found.</p>
+  {% endif %}
+  {% endfor %}
+
+</div>
+
+<aside>
+  <div class="sidebar-box">
+    <h4>Filter by Committee</h4>
+    <div class="sb-row">
+      <a href="/meetings" style="{% if not committee_filter %}font-weight:700;color:var(--accent){% endif %}">All Committees</a>
+    </div>
+    {% for name, count in committee_counts.items() %}
+    <div class="sb-row">
+      <a href="/meetings?committee={{ committees.get(name, {}).get('slug', '') }}"
+         style="{% if committee_filter == name %}font-weight:700;color:var(--accent){% endif %}">
+        {{ committees.get(name, {}).get('icon', '') }} {{ name }}
+      </a>
+      <span class="sb-count">{{ count }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</aside>
+
+</div>
+{% endblock %}

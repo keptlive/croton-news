@@ -1,0 +1,208 @@
+{% extends "history/base.html" %}
+{% block title %}Stories — Deep Dives into Croton History{% endblock %}
+
+{% block head %}
+<style>
+.stories-hero {
+  text-align: center;
+  padding: 12px 0 28px;
+  border-bottom: 3px double var(--ink);
+  margin-bottom: 32px;
+}
+.stories-hero h1 {
+  font: 900 42px/1.1 var(--serif);
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+.stories-hero p {
+  font: 17px var(--body);
+  color: var(--ink-2);
+  max-width: 600px;
+  margin: 0 auto;
+}
+/* Lead story — full width */
+.lead-story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  padding: 28px 0 32px;
+  border-bottom: 1px solid var(--border);
+}
+.lead-story .lead-img {
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.lead-story .lead-img img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+.lead-story .lead-text h2 {
+  font: 900 28px/1.2 var(--serif);
+  margin-bottom: 8px;
+}
+.lead-story .lead-text h2 a { color: var(--ink); }
+.lead-story .lead-text h2 a:hover { color: var(--accent); text-decoration: none; }
+.lead-story .lead-text .sub {
+  font: italic 15px/1.4 var(--body);
+  color: var(--ink-2);
+  margin-bottom: 12px;
+}
+.lead-story .lead-text .excerpt {
+  font: 15px/1.6 var(--body);
+  color: var(--ink-2);
+}
+.lead-story .lead-text .meta {
+  font: 13px var(--sans);
+  color: var(--ink-4);
+  margin-top: 12px;
+}
+.lead-story .lead-text .read-link {
+  font: 600 14px var(--sans);
+  color: var(--accent);
+}
+/* Story grid */
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 28px 0;
+}
+.story-card { }
+.story-card .card-img {
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.story-card .card-img img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  transition: transform .3s;
+}
+.story-card:hover .card-img img { transform: scale(1.03); }
+.story-card h3 {
+  font: 700 17px/1.3 var(--serif);
+  margin-bottom: 6px;
+}
+.story-card h3 a { color: var(--ink); }
+.story-card h3 a:hover { color: var(--accent); text-decoration: none; }
+.story-card .sub {
+  font: italic 13px/1.4 var(--body);
+  color: var(--ink-3);
+  margin-bottom: 6px;
+}
+.story-card .meta {
+  font: 12px var(--sans);
+  color: var(--ink-4);
+}
+/* Remaining stories list */
+.story-list-item {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: flex-start;
+}
+.story-list-item img {
+  width: 140px;
+  height: 95px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  flex-shrink: 0;
+}
+.story-list-item h3 {
+  font: 700 18px/1.3 var(--serif);
+  margin-bottom: 4px;
+}
+.story-list-item h3 a { color: var(--ink); }
+.story-list-item h3 a:hover { color: var(--accent); text-decoration: none; }
+.story-list-item .sub { font: italic 14px var(--body); color: var(--ink-3); margin-bottom: 4px; }
+.story-list-item .meta { font: 12px var(--sans); color: var(--ink-4); }
+
+@media (max-width: 768px) {
+  .lead-story { grid-template-columns: 1fr; }
+  .story-grid { grid-template-columns: 1fr 1fr; }
+  .stories-hero h1 { font-size: 30px; }
+}
+@media (max-width: 480px) {
+  .story-grid { grid-template-columns: 1fr; }
+  .story-list-item img { width: 100px; height: 70px; }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="stories-hero">
+  <h1>Stories</h1>
+  <p>Deep dives into Croton-on-Hudson history, cross-referenced from primary source documents and fact-checked against the archive.</p>
+</div>
+
+{% if not stories %}
+<p style="color: var(--ink-3); font-style: italic; padding: 40px 0; text-align: center;">Stories coming soon.</p>
+{% endif %}
+
+{% if stories|length > 0 %}
+<!-- Lead story -->
+{% set lead = stories[0] %}
+<div class="lead-story">
+  {% if lead.photo %}
+  <div class="lead-img">
+    <a href="/history/story/{{ lead.slug }}"><img src="/history/maps/{{ lead.photo }}" alt="{{ lead.title }}" loading="eager"></a>
+  </div>
+  {% endif %}
+  <div class="lead-text">
+    <h2><a href="/history/story/{{ lead.slug }}">{{ lead.title }}</a></h2>
+    {% if lead.subtitle %}
+    <p class="sub">{{ lead.subtitle }}</p>
+    {% endif %}
+    <p class="excerpt">{{ lead.body[:280] }}{% if lead.body|length > 280 %}…{% endif %}</p>
+    <div class="meta">{{ (lead.word_count / 250)|int }} min read &middot; {{ lead.sources|length }} sources</div>
+    <a href="/history/story/{{ lead.slug }}" class="read-link">Read story &rarr;</a>
+  </div>
+</div>
+{% endif %}
+
+{% if stories|length > 1 %}
+<!-- Story grid (stories 2-4) -->
+<div class="story-grid">
+  {% for story in stories[1:4] %}
+  <div class="story-card">
+    {% if story.photo %}
+    <div class="card-img">
+      <a href="/history/story/{{ story.slug }}"><img src="/history/maps/{{ story.photo }}" alt="{{ story.title }}" loading="lazy"></a>
+    </div>
+    {% endif %}
+    <h3><a href="/history/story/{{ story.slug }}">{{ story.title }}</a></h3>
+    {% if story.subtitle %}
+    <p class="sub">{{ story.subtitle[:80] }}{% if story.subtitle|length > 80 %}…{% endif %}</p>
+    {% endif %}
+    <div class="meta">{{ (story.word_count / 250)|int }} min &middot; {{ story.sources|length }} sources</div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if stories|length > 4 %}
+<!-- Remaining stories as list -->
+<h2 class="sec">More Stories</h2>
+{% for story in stories[4:] %}
+<div class="story-list-item">
+  {% if story.photo %}
+  <a href="/history/story/{{ story.slug }}"><img src="/history/maps/{{ story.photo }}" alt="{{ story.title }}" loading="lazy"></a>
+  {% endif %}
+  <div>
+    <h3><a href="/history/story/{{ story.slug }}">{{ story.title }}</a></h3>
+    {% if story.subtitle %}
+    <p class="sub">{{ story.subtitle }}</p>
+    {% endif %}
+    <div class="meta">{{ (story.word_count / 250)|int }} min read &middot; {{ story.sources|length }} sources</div>
+  </div>
+</div>
+{% endfor %}
+{% endif %}
+
+<div style="margin-top: 36px; padding: 20px 24px; background: var(--bg-warm); border-radius: var(--radius); font: 14px var(--sans); color: var(--ink-3); text-align: center;">
+  <strong>About these stories:</strong> Each article draws from primary source documents in the archive and is cross-referenced across multiple independent sources. All direct quotes are verbatim. Factual claims are verified against the database before publication. <a href="/history/documents">Browse source documents &rarr;</a>
+</div>
+{% endblock %}

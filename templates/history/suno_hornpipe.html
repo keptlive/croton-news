@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suno Recording Kit — Croton Hornpipe (c.1840s)</title>
+<style>
+:root {
+  --bg: #faf8f5;
+  --card: #fff;
+  --border: #e0dbd4;
+  --ink: #1a1a1a;
+  --ink2: #4a4540;
+  --ink3: #8a8580;
+  --accent: #8b2500;
+  --accent2: #c04a20;
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--sans); }
+
+.hero {
+  background: linear-gradient(135deg, #3a1505 0%, #6b2a10 40%, #8b4020 100%);
+  color: #fff;
+  padding: 48px 20px 40px;
+  text-align: center;
+}
+.hero h1 { font: 900 32px/1.2 var(--serif); margin-bottom: 8px; }
+.hero .sub { font: 300 15px/1.5 var(--sans); opacity: .85; max-width: 640px; margin: 0 auto; }
+.hero .badge {
+  display: inline-block;
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 20px;
+  padding: 4px 14px;
+  font: 600 11px var(--sans);
+  margin-top: 12px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+.hero .also {
+  margin-top: 14px;
+  font: 13px var(--sans);
+  opacity: .7;
+}
+.hero .also a { color: #e8a888; }
+
+.container { max-width: 820px; margin: 0 auto; padding: 0 20px; }
+
+.downloads {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: -30px auto 32px;
+  position: relative;
+  z-index: 2;
+}
+.dl-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+.dl-card .icon { font-size: 36px; margin-bottom: 8px; }
+.dl-card h3 { font: 700 15px var(--sans); margin-bottom: 4px; }
+.dl-card .meta { font: 12px var(--sans); color: var(--ink3); margin-bottom: 12px; }
+.dl-btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font: 600 14px var(--sans);
+  text-decoration: none;
+  cursor: pointer;
+  transition: .15s;
+}
+.dl-btn:hover { background: var(--accent2); transform: translateY(-1px); }
+
+.section {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.04);
+}
+.section h2 {
+  font: 800 20px var(--serif);
+  color: var(--accent);
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section h2 .num {
+  background: var(--accent);
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 14px var(--sans);
+  flex-shrink: 0;
+}
+.section .desc {
+  font: 14px/1.6 var(--sans);
+  color: var(--ink2);
+  margin-bottom: 16px;
+}
+
+.copy-block {
+  position: relative;
+  background: #faf0ea;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px 0;
+}
+.copy-block pre {
+  font: 13px/1.5 var(--mono);
+  color: var(--ink);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font: 600 12px var(--sans);
+  cursor: pointer;
+  transition: .15s;
+  z-index: 1;
+}
+.copy-btn:hover { background: var(--accent2); }
+.copy-btn.copied { background: #16a34a; }
+
+.tip {
+  background: #fff5f0;
+  border: 1px solid #f5c8b0;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font: 13px var(--sans);
+  color: #6b2a10;
+  margin: 12px 0;
+}
+
+.history-box {
+  background: #faf5f0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 16px;
+}
+.history-box h3 { font: 700 15px var(--serif); color: var(--accent); margin-bottom: 8px; }
+.history-box p { font: 14px/1.6 var(--sans); color: var(--ink2); margin-bottom: 10px; }
+.history-box p:last-child { margin-bottom: 0; }
+.history-box table { width: 100%; border-collapse: collapse; font: 13px var(--sans); }
+.history-box td { padding: 4px 8px; vertical-align: top; }
+.history-box td:first-child { font-weight: 600; color: var(--ink2); white-space: nowrap; width: 130px; }
+
+.abc-box {
+  background: #f5f0ea;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+  font: 13px/1.6 var(--mono);
+  color: var(--ink);
+}
+
+.footer {
+  text-align: center;
+  padding: 32px 20px;
+  font: 13px var(--sans);
+  color: var(--ink3);
+}
+.footer a { color: var(--accent); }
+
+@media (max-width: 600px) {
+  .downloads { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 24px; }
+  .section { padding: 20px; }
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>Croton Hornpipe</h1>
+  <div class="sub">An anonymous fiddle tune from <em>Ryan's Mammoth Collection</em> (1883) — likely composed in the 1840s when the Croton Aqueduct made "Croton" the most famous word in America. A solo display dance for fiddle, born from the same moment of civic triumph that inspired the Croton Ode.</div>
+  <div class="badge">Instrumental &mdash; No Lyrics</div>
+  <div class="also">Also available: <a href="/suno-croton-ode">Morris — "The Croton Ode"</a> &middot; <a href="/suno">Phillips — "From Mountain Heights"</a></div>
+</div>
+
+<div class="container">
+
+<div class="downloads">
+  <div class="dl-card">
+    <div class="icon">🎻</div>
+    <h3>MP3 Audio</h3>
+    <div class="meta">1.8 MB &middot; 192 kbps &middot; ~75 seconds<br>Fiddle + Guitar + Bass<br>Two full passes (AABB x2)</div>
+    <a href="/suno/croton_hornpipe.mp3" class="dl-btn" download>Download MP3</a>
+  </div>
+  <div class="dl-card">
+    <div class="icon">🎹</div>
+    <h3>MIDI File</h3>
+    <div class="meta">3 tracks &middot; Fiddle, Guitar, Bass<br>C major &middot; 2/4 &middot; 108 BPM<br>Editable in any DAW</div>
+    <a href="/suno/croton_hornpipe.mid" class="dl-btn" download>Download MIDI</a>
+  </div>
+</div>
+
+<div class="section">
+  <h2><span class="num">1</span> Upload Audio to Suno</h2>
+  <div class="desc">This is an <strong>instrumental</strong> piece — no lyrics needed. Upload the MP3 as base audio and let Suno render it with period-accurate fiddle tone.</div>
+  <div class="tip">
+    <strong>Audio Influence:</strong> HIGH (the melody is the whole piece — Suno must follow it)<br>
+    <strong>Weirdness:</strong> LOW<br>
+    <strong>Instrumental:</strong> Toggle ON (no vocals)<br>
+    <strong>Model:</strong> v4.5 Pro if available
+  </div>
+</div>
+
+<div class="section">
+  <h2><span class="num">2</span> Paste Style / Genre Tags</h2>
+  <div class="desc">Since this is instrumental, the style tags carry all the weight. These tell Suno to produce an authentic 19th-century American fiddle dance tune.</div>
+  <div class="copy-block">
+    <button class="copy-btn" onclick="copyBlock(this)">Copy</button>
+    <pre>American fiddle hornpipe, 1840s dance tune, solo violin with acoustic guitar and upright bass, lively 2/4 time 108 BPM, C major, old-time string band, warm parlor room acoustic, energetic bowing, no drums, no electric instruments, no synthesizer, foot-tapping rhythm, jig-like ornamental, tavern dance music, bright and celebratory, Ryan's Mammoth Collection style, New England fiddle tradition</pre>
+  </div>
+</div>
+
+<div class="section">
+  <h2><span class="num">3</span> Lyrics Field (Instrumental Metatags)</h2>
+  <div class="desc">Even for instrumental pieces, you can use Suno metatags to structure the arrangement.</div>
+  <div class="copy-block">
+    <button class="copy-btn" onclick="copyBlock(this)">Copy</button>
+    <pre>[Lively Fiddle Introduction]
+
+[A Part - Bright ascending melody, energetic bowing]
+[Repeat A Part]
+
+[B Part - Higher register, running sixteenth notes]
+[Repeat B Part]
+
+[A Part - Second pass, more ornamentation and energy]
+[Repeat A Part]
+
+[B Part - Final pass, building to climax]
+[Repeat B Part - Grand finish with held final note]
+
+[End]</pre>
+  </div>
+</div>
+
+<div class="section">
+  <h2><span class="num">4</span> Generate & Select</h2>
+  <div class="desc">Generate <strong>10+ variations</strong>.</div>
+  <div class="tip">
+    <strong>What to listen for:</strong> A bright, agile fiddle playing rapid sixteenth-note runs in C major. The guitar and bass should provide simple rhythmic backing — boom-chuck, boom-chuck. The sound should be intimate, like a parlor or tavern, not a concert hall. Think a skilled fiddler showing off at a dance, not a symphony orchestra.<br><br>
+    <strong>The key test:</strong> Can you imagine someone dancing a solo hornpipe to it? The rhythm should be infectious and the fiddle should sound like it's having fun.
+  </div>
+</div>
+
+<div class="section">
+  <h2>The Story Behind the Tune</h2>
+
+  <div class="history-box">
+    <h3>When "Croton" Was the Most Famous Word in America</h3>
+    <p>On October 14, 1842, New York City staged the largest parade in its history — a seven-mile procession celebrating the arrival of clean water from the Croton River, forty-one miles north. A fifty-foot fountain erupted in City Hall Park. Fire companies demonstrated their new hydrant connections. The New York Sacred Music Society sang Rossini. And overnight, "Croton" became a household word from Maine to Georgia.</p>
+    <p>The celebration spawned a wave of commemorative music. George Pope Morris wrote the <a href="/suno-croton-ode">Croton Ode</a>. Jonas B. Phillips wrote <a href="/suno">"From Mountain Heights & Vallies Green."</a> Lewis H. von Vultee composed the <strong>Croton Jubilee Quick Step</strong>. Henry F. Williams — a Black violinist and composer from Boston — wrote a <strong>Croton Waltz</strong> in 1844. J. Hazzard wrote another <strong>Croton Waltz</strong> the same year.</p>
+    <p>The Croton Hornpipe almost certainly belongs to this same moment of "Croton mania." In the 19th century, dance tunes were routinely named after famous places, events, and public works — and nothing was more famous in the 1840s than Croton water. The tune was likely composed or titled by a fiddler capitalizing on the name's celebrity, then passed from player to player for decades before William Bradbury Ryan collected it for his <em>Mammoth Collection</em> in 1883.</p>
+  </div>
+
+  <div class="history-box" style="margin-top: 16px;">
+    <h3>What Is a Hornpipe?</h3>
+    <p>The hornpipe is a solo display dance that originated in Britain in the 16th century. By the 1800s it had evolved into common time (4/4 or 2/4) and become one of the most popular dance forms in America. As the musicologist Kate Van Winkle Keller wrote, hornpipes were "ubiquitous, with all classes of people dancing them in all sorts of places, from the opera stage to the back-water tavern."</p>
+    <p>A hornpipe is a <strong>solo</strong> dance — one dancer, showing off footwork while a fiddler plays rapid, ornamental melody. Think of it as the 19th-century equivalent of a breakdance battle. The Croton Hornpipe's running sixteenth notes and leaping intervals are designed to showcase both the fiddler's agility and the dancer's.</p>
+    <p>Hornpipes were commonly named after cities and places. The naming convention was different from waltzes (named after states) or quicksteps (named after events). A hornpipe called "Croton" tells us the name was famous enough that a fiddler in a Boston tavern could announce "The Croton Hornpipe" and everyone would know what Croton meant: clean water, civic triumph, the engineering marvel of the age.</p>
+  </div>
+
+  <div class="history-box" style="margin-top: 16px;">
+    <h3>Ryan's Mammoth Collection</h3>
+    <p>The <em>Mammoth Collection of Fiddle Tunes</em> was published in 1883 by Elias Howe of Boston, compiled by William Bradbury Ryan. It contains <strong>1,050 tunes</strong> — reels, jigs, hornpipes, clogs, strathspeys, walk-arounds, and contra dances. Musicologist Charles Wolfe called it "the most popular fiddle book in American history."</p>
+    <p>Crucially, the 1883 publication date does not mean the tunes were composed in 1883. Ryan collected tunes from the active repertoire of fiddlers in and around New England, many of which had been in circulation for decades. The Croton Hornpipe was likely composed in the 1840s and played at dances and taverns for forty years before Ryan wrote it down.</p>
+  </div>
+
+  <div class="history-box" style="margin-top: 16px;">
+    <h3>Musical Details</h3>
+    <table>
+      <tr><td>Title</td><td>Croton Hornpipe</td></tr>
+      <tr><td>Composer</td><td>Anonymous (likely 1840s)</td></tr>
+      <tr><td>Published</td><td>1883 in <em>Ryan's Mammoth Collection</em> (Elias Howe, Boston)</td></tr>
+      <tr><td>Key</td><td>C major</td></tr>
+      <tr><td>Time</td><td>2/4 (common hornpipe meter)</td></tr>
+      <tr><td>Tempo</td><td>~108 BPM (lively but not frantic)</td></tr>
+      <tr><td>Structure</td><td>32-bar AABB form (standard hornpipe)</td></tr>
+      <tr><td>Character</td><td>Bright, agile, with running sixteenth-note passages and leaping intervals</td></tr>
+      <tr><td>Instrumentation</td><td>Solo fiddle (original); this MIDI adds guitar and bass backing</td></tr>
+    </table>
+  </div>
+
+  <div class="history-box" style="margin-top: 16px;">
+    <h3>ABC Notation (Original Transcription)</h3>
+    <p>From the John Chambers transcription of Ryan's Mammoth Collection:</p>
+    <div class="abc-box">
+X: 1<br>
+T: CROTON -- HORNPIPE<br>
+B: Ryan's Mammoth Collection of Fiddle Tunes<br>
+R: hornpipe<br>
+M: 2/4<br>
+L: 1/16<br>
+K: C<br>
+uG2 |<br>
+| cedf egfa | gefd ecdB | cdec fedc | B2G2G2 G2 |<br>
+| cedf egfa | gdeB cABG | ABcf ecdB | c2c2c2 :|<br>
+|: (uef) |<br>
+| gefd ecdB | cBAG AGFE | fdec dBcA | Bcdc BGAB |<br>
+| cedB Ggec | Aagf edcB | cagf edcB | c2c2c2 :|
+    </div>
+  </div>
+
+  <div class="history-box" style="margin-top: 16px;">
+    <h3>The Family of Croton Music (1842&ndash;1883)</h3>
+    <p>The Croton Hornpipe is one of at least <strong>six known pieces of music</strong> inspired by the Croton Aqueduct:</p>
+    <table>
+      <tr><td>1842</td><td><strong>The Croton Ode</strong> — Morris / Pearson (from Rossini). Sung at the official celebration. <a href="/suno-croton-ode">Suno kit</a></td></tr>
+      <tr><td>1842</td><td><strong>"From Mountain Heights"</strong> — Phillips / Willis. Temperance chorus. <a href="/suno">Suno kit</a></td></tr>
+      <tr><td>1842</td><td><strong>Croton Jubilee Quick Step</strong> — Lewis H. von Vultee. Piano. Cover art at Met Museum.</td></tr>
+      <tr><td>1844</td><td><strong>Croton Waltz</strong> — J. Hazzard. Piano. LOC (not digitized).</td></tr>
+      <tr><td>1844</td><td><strong>Croton Waltz</strong> — Henry F. Williams (Black composer, Boston). Piano. LOC (not digitized).</td></tr>
+      <tr><td>c.1840s</td><td><strong>Croton Hornpipe</strong> — Anonymous. Fiddle. Published 1883 in Ryan's Mammoth Collection.</td></tr>
+    </table>
+    <p style="margin-top: 10px;">No other single American engineering project before the transcontinental railroad inspired as much music. The Croton Aqueduct wasn't just infrastructure — it was a cultural event that produced an entire genre of celebration music.</p>
+  </div>
+</div>
+
+<div class="footer">
+  Part of <a href="https://history.croton.news">history.croton.news</a> — the Croton-on-Hudson Historical Document Archive<br>
+  See also: <a href="/suno-croton-ode">"The Croton Ode" (Morris/Rossini)</a> &middot; <a href="/suno">"From Mountain Heights" (Phillips)</a><br>
+  Read the full story: <a href="/story/the-poets-of-croton-water">The Poets of Croton Water</a><br><br>
+  MIDI transcribed from ABC notation (John Chambers / Ryan's Mammoth Collection).<br>
+  Built by Claude, April 2026
+</div>
+
+</div>
+
+<script>
+function copyBlock(btn) {
+  var pre = btn.parentElement.querySelector('pre');
+  navigator.clipboard.writeText(pre.textContent).then(function() {
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(function() {
+      btn.textContent = 'Copy';
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{% extends "history/base.html" %}
+{% block title %}Search McDonald Interviews{% endblock %}
+
+{% block content %}
+<div class="bc">
+  <a href="/history">Home</a> /
+  <a href="/history/mcdonald">McDonald Interviews</a> /
+  Search
+</div>
+
+<h1 style="font: 900 28px var(--serif); margin-bottom: 18px; letter-spacing: -0.3px;">Search the McDonald Interviews</h1>
+
+<form action="/history/mcdonald/search" method="get" style="display: flex; gap: 8px; margin-bottom: 24px;">
+  <input type="text" name="q" value="{{ q or '' }}" placeholder="Search transcripts — try 'Paulding', 'Vail's Ford', 'Tea Captain'…" autocomplete="off"
+    style="flex: 1; padding: 11px 16px; font: 16px var(--body); border: 1px solid #c4b99a; border-radius: var(--radius); background: #fff;">
+  <button type="submit" style="padding: 11px 22px; font: 600 14px var(--sans); background: var(--accent); color: #fff; border: none; border-radius: var(--radius); cursor: pointer;">Search</button>
+</form>
+
+{% if q %}
+<p style="color: var(--ink-3); font-size: 14px; margin-bottom: 16px;">
+  {{ results|length }} match{% if results|length != 1 %}es{% endif %} for <strong style="color: var(--ink);">{{ q }}</strong>
+</p>
+
+{% for r in results %}
+<div class="res">
+  <div class="res-title"><a href="/history/mcdonald/{{ r.slug }}">{{ r.interviewee }}</a></div>
+  <div class="res-src">passage {{ r.passage_index }} in McDonald interview</div>
+  <div class="res-snip">{{ r.snip|safe }}</div>
+</div>
+{% else %}
+<p style="color: var(--ink-3);">No matches. Try a different phrase or check spelling — McDonald's manuscripts use period spellings like "Crompond" and "York=town".</p>
+{% endfor %}
+{% else %}
+<p style="color: var(--ink-3);">Enter a phrase above to search the full-text index of all {{ 80 }} transcribed interviews.</p>
+{% endif %}
+{% endblock %}

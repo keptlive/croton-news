@@ -1,0 +1,51 @@
+{% extends "history/base.html" %}
+{% block title %}{{ col.name }}{% endblock %}
+
+{% block content %}
+<div class="bc"><a href="/history">Home</a> / {{ col.name }}</div>
+
+<h1 style="font: 900 28px var(--serif); margin-bottom: 6px;">{{ col.icon }} {{ col.name }}</h1>
+<p style="font-size: 16px; color: var(--ink-2); margin-bottom: 20px;">{{ col.desc }}</p>
+
+<div class="stats">
+  <div><span class="st-n">{{ "{:,}".format(total) }}</span><span class="st-l">Passages</span></div>
+  <div><span class="st-n">{{ sources|length }}</span><span class="st-l">Source Documents</span></div>
+</div>
+
+<h2 class="sec">Sources</h2>
+<table class="tbl">
+  <thead><tr><th>Source</th><th class="r">Passages</th><th class="r">Words</th><th>Link</th></tr></thead>
+  <tbody>
+    {% for s in sources %}
+    <tr>
+      <td><a href="/history/source/{{ s.source_file }}" style="color:var(--ink)">{{ s.source or s.source_file }}</a></td>
+      <td class="r">{{ s.chunks }}</td>
+      <td class="r">{{ "{:,}".format(s.words) }}</td>
+      <td>{% if s.source in source_urls %}<a href="{{ source_urls[s.source] }}" target="_blank" style="font-size:12px;">Original &rarr;</a>{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2 class="sec">Passages</h2>
+{% for doc in documents %}
+<div class="res">
+  <div class="res-title"><a href="/history/document/{{ doc.id }}">{{ doc.title or doc.source_file }}</a></div>
+  <div class="res-src">{{ doc.source or doc.source_file }}</div>
+  <div class="res-snip">{{ doc.preview[:250] }}{% if doc.preview|length > 250 %}…{% endif %}</div>
+  <div class="res-meta">{{ doc.word_count }} words</div>
+</div>
+{% endfor %}
+
+{% if pages > 1 %}
+<div class="pag">
+  {% if page > 1 %}<a href="/history/collection/{{ col.id }}?page={{ page-1 }}">&laquo;</a>{% endif %}
+  {% for p in range(1, pages+1) %}
+    {% if p == page %}<span class="cur">{{ p }}</span>
+    {% elif p <= 3 or p >= pages-1 or (p >= page-1 and p <= page+1) %}<a href="/history/collection/{{ col.id }}?page={{ p }}">{{ p }}</a>
+    {% elif p == 4 or p == pages-2 %}<span>…</span>{% endif %}
+  {% endfor %}
+  {% if page < pages %}<a href="/history/collection/{{ col.id }}?page={{ page+1 }}">&raquo;</a>{% endif %}
+</div>
+{% endif %}
+{% endblock %}

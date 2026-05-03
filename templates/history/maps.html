@@ -1,0 +1,233 @@
+{% extends "history/base.html" %}
+{% block title %}Photo Library — Historical Maps &amp; Images{% endblock %}
+
+{% block head %}
+<style>
+.lib-hero { text-align: center; margin-bottom: 28px; }
+.lib-hero h1 { font: 900 32px var(--serif); margin-bottom: 8px; }
+.lib-hero p { font: 15px var(--body); color: var(--ink-2); }
+.lib-hero .count { font: 600 13px var(--sans); color: var(--accent); margin-top: 6px; }
+
+.lib-cats { display: flex; gap: 8px; flex-wrap: wrap; margin: 20px 0 28px; justify-content: center; }
+.lib-cat-btn {
+  font: 500 13px var(--sans);
+  padding: 7px 16px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--ink-3);
+  cursor: pointer;
+  background: var(--bg-card);
+  transition: .15s;
+}
+.lib-cat-btn:hover, .lib-cat-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); text-decoration: none; }
+
+.lib-section { margin-bottom: 36px; }
+.lib-section-hdr {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--accent);
+}
+.lib-section-icon { font-size: 22px; }
+.lib-section-title { font: 700 18px var(--serif); color: var(--ink); }
+.lib-section-count { font: 600 12px var(--sans); color: var(--ink-4); }
+.lib-section-desc { font: 13px var(--sans); color: var(--ink-3); margin: -6px 0 14px; }
+
+.lib-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+.lib-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: .2s;
+}
+.lib-item:hover { box-shadow: 0 4px 16px rgba(0,0,0,.1); border-color: #bbb; transform: translateY(-2px); }
+.lib-item a { display: block; }
+.lib-item img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+.lib-item-info {
+  padding: 10px 12px;
+}
+.lib-item-title {
+  font: 600 13px/1.3 var(--sans);
+  color: var(--ink);
+  margin-bottom: 3px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.lib-item-meta {
+  font: 11px var(--sans);
+  color: var(--ink-4);
+}
+
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.9);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.lightbox.show { display: flex; }
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 4px;
+}
+.lightbox-caption {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font: 14px var(--sans);
+  color: rgba(255,255,255,.8);
+  background: rgba(0,0,0,.7);
+  padding: 8px 20px;
+  border-radius: 20px;
+  max-width: 80vw;
+  text-align: center;
+}
+.lightbox-close {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font: 700 24px var(--sans);
+  color: #fff;
+  background: rgba(0,0,0,.5);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .lib-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+  .lib-item img { height: 120px; }
+  .lib-hero h1 { font-size: 24px; }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="bc"><a href="/history">Home</a> / Photo Library</div>
+
+<div class="lib-hero">
+  <h1>Photo Library</h1>
+  <p>Historical maps, engravings, photographs, and illustrations from primary source books and archives.</p>
+  <div class="count">{{ total }} images from Internet Archive, Library of Congress, NARA, and Wikimedia Commons</div>
+</div>
+
+<div class="lib-cats">
+  <a href="#" class="lib-cat-btn active" onclick="showAll(); return false;">All ({{ total }})</a>
+  {% for cat in categories %}
+  <a href="#{{ cat.id }}" class="lib-cat-btn" onclick="showCat('{{ cat.id }}', this); return false;">{{ cat.icon }} {{ cat.name }} ({{ cat.count }})</a>
+  {% endfor %}
+</div>
+
+{% for cat in categories %}
+<div class="lib-section" data-cat="{{ cat.id }}">
+  <div class="lib-section-hdr">
+    <span class="lib-section-icon">{{ cat.icon }}</span>
+    <span class="lib-section-title">{{ cat.name }}</span>
+    <span class="lib-section-count">{{ cat.count }} images</span>
+  </div>
+  <div class="lib-section-desc">{{ cat.desc }}</div>
+  <div class="lib-grid">
+    {% for img in cat.images %}
+    {% set meta = photo_meta.get(img.file, {}) %}
+    {% set title = meta.get('title', db_maps.get(img.file, img.file.replace('_', ' ').replace('.jpg', '').replace('.png', ''))) %}
+    <div class="lib-item">
+      <a href="javascript:void(0)" onclick="openLightbox('/maps/{{ img.file }}', '{{ title|e }}', '{{ meta.get('source', '')|e }}', '{{ meta.get('date', '')|e }}')">
+        <img src="/history/maps/{{ img.file }}" alt="{{ title }}" loading="lazy">
+      </a>
+      <div class="lib-item-info">
+        <div class="lib-item-title">{{ title }}</div>
+        <div class="lib-item-meta">
+          {% if meta.get('date') %}{{ meta.date }} &middot; {% endif %}
+          {% if meta.get('source') %}{{ meta.source[:30] }}{% if meta.source|length > 30 %}…{% endif %} &middot; {% endif %}
+          <a href="/history/maps/{{ img.file }}" target="_blank">Full size</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}
+
+{% if uncategorized %}
+<div class="lib-section" data-cat="other">
+  <div class="lib-section-hdr">
+    <span class="lib-section-icon">📁</span>
+    <span class="lib-section-title">Other Images</span>
+    <span class="lib-section-count">{{ uncategorized|length }} images</span>
+  </div>
+  <div class="lib-grid">
+    {% for img in uncategorized %}
+    <div class="lib-item">
+      <a href="javascript:void(0)" onclick="openLightbox('/maps/{{ img.file }}', '{{ img.file|e }}')">
+        <img src="/history/maps/{{ img.file }}" alt="{{ img.file }}" loading="lazy">
+      </a>
+      <div class="lib-item-info">
+        <div class="lib-item-title">{{ img.file.replace('_', ' ').replace('.jpg', '').replace('.png', '') }}</div>
+        <div class="lib-item-meta">{{ (img.size / 1024)|int }}KB &middot; <a href="/history/maps/{{ img.file }}" target="_blank">Full size</a></div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+  <img id="lightbox-img" src="" alt="">
+  <div class="lightbox-caption" id="lightbox-caption"></div>
+</div>
+
+<script>
+function openLightbox(src, title, source, date) {
+  document.getElementById('lightbox-img').src = src;
+  var cap = title;
+  if (date) cap += ' (' + date + ')';
+  if (source) cap += ' — ' + source;
+  document.getElementById('lightbox-caption').textContent = cap;
+  document.getElementById('lightbox').classList.add('show');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('show');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeLightbox(); });
+
+function showAll() {
+  document.querySelectorAll('.lib-section').forEach(function(s) { s.style.display = ''; });
+  document.querySelectorAll('.lib-cat-btn').forEach(function(b) { b.classList.remove('active'); });
+  document.querySelector('.lib-cat-btn').classList.add('active');
+}
+function showCat(cat, btn) {
+  document.querySelectorAll('.lib-section').forEach(function(s) {
+    s.style.display = s.dataset.cat === cat ? '' : 'none';
+  });
+  document.querySelectorAll('.lib-cat-btn').forEach(function(b) { b.classList.remove('active'); });
+  btn.classList.add('active');
+}
+</script>
+{% endblock %}

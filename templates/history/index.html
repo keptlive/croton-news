@@ -1,0 +1,107 @@
+{% extends "history/base.html" %}
+{% block title %}Historical Archive{% endblock %}
+
+{% block content %}
+<div class="hero">
+  <h2>Seven Thousand Years of Croton History</h2>
+  <p>Primary source documents from the Kitchawank shell middens to modern village governance — fully searchable, with AI-powered research reports.</p>
+</div>
+
+<div class="stats">
+  <div><span class="st-n">{{ "{:,}".format(totals.words) }}</span><span class="st-l">Words</span></div>
+  <div><span class="st-n">{{ "{:,}".format(totals.chunks) }}</span><span class="st-l">Passages</span></div>
+  <div><span class="st-n">{{ totals.files }}</span><span class="st-l">Documents</span></div>
+  <div><span class="st-n">{{ map_count }}</span><span class="st-l">Maps</span></div>
+</div>
+
+{% if story_count > 0 %}
+<h2 class="sec">Stories</h2>
+<p style="font: 15px var(--body); color: var(--ink-2); margin: -10px 0 16px;">Deep dives into Croton history, cross-referenced from primary sources.</p>
+
+<div class="feat-grid">
+  {% for s in latest_stories[:4] %}
+  <article class="feat">
+    {% if s.photo %}
+    <div class="feat-img"><a href="/history/story/{{ s.slug }}"><img src="/history/maps/{{ s.photo }}" alt="{{ s.title }}" loading="lazy"></a></div>
+    {% endif %}
+    <div class="feat-body">
+      <h3><a href="/history/story/{{ s.slug }}">{{ s.title }}</a></h3>
+      <p>{{ s.subtitle or s.body[:120] }}{% if not s.subtitle and s.body|length > 120 %}…{% endif %}</p>
+      <a href="/history/story/{{ s.slug }}" class="feat-link">Read &rarr;</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% if story_count > 4 %}
+<p style="text-align: center; margin: 12px 0;"><a href="/history/stories" style="font: 600 14px var(--sans); color: var(--accent);">All {{ story_count }} stories &rarr;</a></p>
+{% endif %}
+{% endif %}
+
+{% if mcdonald_stats and mcdonald_stats.n %}
+<h2 class="sec">McDonald Interviews</h2>
+<div class="report-panel" style="background: linear-gradient(135deg, #fdf6e3, #f2e6c9); border-color: #c4b38a;">
+  <div class="report-content">
+    <p style="font-size: 15px;">Between 1844 and 1851, the Hudson Valley chronicler <strong>John M. McDonald</strong> interviewed Westchester County's last living Revolutionary War veterans and recorded their testimony in a series of notebooks now held by the Westchester County Historical Society. In April 2026 we transcribed <strong>{{ mcdonald_stats.n }}</strong> of the highest-relevance interviews from the manuscript page images — totaling <strong>{{ "{:,}".format(mcdonald_stats.w or 0) }}</strong> words across <strong>{{ mcdonald_stats.p or 0 }}</strong> pages — and cross-read them against the published Teatown/Pines Bridge narratives to surface <strong>{{ mcdonald_findings }}</strong> original findings.</p>
+    <p style="margin-top: 10px;"><a href="/history/mcdonald" style="font: 600 14px var(--sans); color: var(--accent);">Browse all McDonald interviews &rarr;</a></p>
+  </div>
+</div>
+{% if mcdonald_highlights %}
+<div class="cards" style="margin-top: 14px;">
+  {% for h in mcdonald_highlights %}
+  <div class="card">
+    <h3 style="font-size: 15px;"><a href="/history/mcdonald/{{ h.slug }}">{{ h.interviewee }}</a></h3>
+    <p>{% if h.date %}{{ h.date }}{% else %}Interview date unknown{% endif %}</p>
+    <div class="card-num">{{ h.fc }} original finding{% if h.fc != 1 %}s{% endif %}</div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+{% endif %}
+
+<h2 class="sec">Featured Topics</h2>
+
+<div class="feat-grid">
+  {% for f in featured %}
+  <article class="feat">
+    {% if f.image %}
+    <div class="feat-img"><a href="/history/search?q={{ f.query|urlencode }}"><img src="/history/maps/{{ f.image }}" alt="{{ f.title }}" loading="lazy"></a></div>
+    {% endif %}
+    <div class="feat-body">
+      <div class="feat-era">{{ f.era }}</div>
+      <h3><a href="/history/search?q={{ f.query|urlencode }}">{{ f.title }}</a></h3>
+      <p>{{ f.summary }}</p>
+      <a href="/history/search?q={{ f.query|urlencode }}" class="feat-link">Explore sources &rarr;</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+<h2 class="sec">Collections</h2>
+
+<div class="cards">
+  {% for col in collections %}
+  <div class="card">
+    <div class="card-icon">{{ col.icon }}</div>
+    <h3><a href="/history/collection/{{ col.id }}">{{ col.name }}</a></h3>
+    <p>{{ col.desc }}</p>
+    <div class="card-num">{{ "{:,}".format(col.words) }} words &middot; {{ col.chunks }} passages</div>
+  </div>
+  {% endfor %}
+</div>
+
+<h2 class="sec">Sources</h2>
+
+<table class="tbl">
+  <thead><tr><th>Author / Source</th><th class="r">Passages</th><th class="r">Words</th><th>Original</th></tr></thead>
+  <tbody>
+    {% for s in sources %}
+    <tr>
+      <td><strong>{{ s.source }}</strong></td>
+      <td class="r">{{ s.chunks }}</td>
+      <td class="r">{{ "{:,}".format(s.words) }}</td>
+      <td>{% if s.source in source_urls %}<a href="{{ source_urls[s.source] }}" target="_blank" rel="noopener" style="font-size:12px;">Archive &rarr;</a>{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

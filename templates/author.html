@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block title %}{{ author.name }} — Staff{% endblock %}
+{% block meta_desc %}{{ author.name }}, {{ author.role }} at croton.news — {{ author.bio_short }}{% endblock %}
+
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": {{ author.name | tojson }},
+    "description": {{ author.bio_short | tojson }},
+    "jobTitle": {{ author.role | tojson }},
+    "url": "https://croton.news/author/{{ author.slug }}",
+    "agentInteractionStatistic": {
+      "@type": "InteractionCounter",
+      "interactionType": "https://schema.org/WriteAction",
+      "userInteractionCount": {{ author.article_count }}
+    }
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div style="max-width:680px">
+
+<div class="section-head">
+  <h2 class="section-title">{{ author.name }}</h2>
+</div>
+
+<div style="font-family:var(--serif-body);font-size:16px;line-height:1.8;color:var(--ink-secondary)">
+
+<div style="display:flex;gap:20px;align-items:flex-start;margin-bottom:24px;flex-wrap:wrap">
+  <div style="width:80px;height:80px;border-radius:50%;background:{{ author.color }};display:flex;align-items:center;justify-content:center;font-family:var(--serif-display);font-size:32px;font-weight:900;color:white;flex-shrink:0">{{ author.initials }}</div>
+  <div style="flex:1;min-width:200px">
+    <div style="font-family:var(--sans);font-size:14px;font-weight:600;color:var(--ink)">{{ author.role }}</div>
+    <div style="font-family:var(--sans);font-size:12px;color:var(--ink-faint);margin-top:2px">Powered by {{ author.model_id }}</div>
+    <div style="font-family:var(--sans);font-size:12px;color:var(--ink-faint)">{{ author.article_count }} article{{ 's' if author.article_count != 1 }} published</div>
+  </div>
+</div>
+
+<p>{{ author.bio }}</p>
+
+<h3 style="font-family:var(--serif-display);font-size:20px;color:var(--ink);margin:28px 0 12px;border-bottom:2px solid var(--accent);padding-bottom:6px">Writing Style</h3>
+<p>{{ author.style }}</p>
+
+<h3 style="font-family:var(--serif-display);font-size:20px;color:var(--ink);margin:28px 0 12px;border-bottom:2px solid var(--accent);padding-bottom:6px">System Prompt</h3>
+<p style="font-size:14px;color:var(--ink-muted);margin-bottom:12px">The following prompt is used to generate articles with this model. Full transparency is central to our <a href="/editorial-policy" style="color:var(--accent)">editorial policy</a>.</p>
+<pre style="background:var(--paper-warm);border:1px solid var(--rule);border-radius:6px;padding:16px;font-size:13px;line-height:1.6;white-space:pre-wrap;word-wrap:break-word;font-family:'DM Mono',monospace;color:var(--ink-secondary);max-height:400px;overflow-y:auto">{{ author.system_prompt }}</pre>
+
+<h3 style="font-family:var(--serif-display);font-size:20px;color:var(--ink);margin:28px 0 12px;border-bottom:2px solid var(--accent);padding-bottom:6px">Recent Articles</h3>
+{% for a in articles %}
+<div style="padding:10px 0;border-bottom:1px dotted var(--rule)">
+  <a href="/article/{{ a.id }}" style="font-weight:500;color:var(--ink);font-size:15px">{{ a.headline or a.quick_summary }}</a>
+  <div style="font-size:12px;color:var(--ink-faint);margin-top:2px">{{ a.committee }} &middot; {{ a.date }}</div>
+</div>
+{% endfor %}
+
+<h3 style="font-family:var(--serif-display);font-size:20px;color:var(--ink);margin:28px 0 12px;border-bottom:2px solid var(--accent);padding-bottom:6px">Feedback</h3>
+<p>Found an issue with {{ author.name }}'s writing? Help us improve.</p>
+
+<form action="/api/author-feedback" method="POST" style="margin-top:16px">
+  <input type="hidden" name="author" value="{{ author.slug }}">
+  <div style="margin-bottom:12px">
+    <label style="font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);display:block;margin-bottom:4px">Type</label>
+    <select name="type" style="width:100%;padding:8px 12px;border:1px solid var(--rule);border-radius:var(--radius);font-family:var(--sans);font-size:14px">
+      <option value="factual_error">Factual error</option>
+      <option value="quote_mismatch">Quote doesn't match video</option>
+      <option value="bias">Bias or unfair framing</option>
+      <option value="missing_context">Missing important context</option>
+      <option value="style">Writing quality issue</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+  <div style="margin-bottom:12px">
+    <label style="font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);display:block;margin-bottom:4px">Article URL (optional)</label>
+    <input type="text" name="article_url" placeholder="https://croton.news/article/..." style="width:100%;padding:8px 12px;border:1px solid var(--rule);border-radius:var(--radius);font-family:var(--sans);font-size:14px;box-sizing:border-box">
+  </div>
+  <div style="margin-bottom:12px">
+    <label style="font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);display:block;margin-bottom:4px">Details</label>
+    <textarea name="details" rows="4" required placeholder="Describe the issue..." style="width:100%;padding:8px 12px;border:1px solid var(--rule);border-radius:var(--radius);font-family:var(--sans);font-size:14px;box-sizing:border-box;resize:vertical"></textarea>
+  </div>
+  <div style="margin-bottom:12px">
+    <label style="font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);display:block;margin-bottom:4px">Your email (optional)</label>
+    <input type="email" name="email" placeholder="For follow-up" style="width:100%;padding:8px 12px;border:1px solid var(--rule);border-radius:var(--radius);font-family:var(--sans);font-size:14px;box-sizing:border-box">
+  </div>
+  <button type="submit" style="padding:10px 24px;background:var(--ink);color:var(--paper);border:none;border-radius:var(--radius);font-family:var(--sans);font-size:14px;font-weight:600;cursor:pointer">Submit Feedback</button>
+</form>
+
+</div>
+</div>
+{% endblock %}

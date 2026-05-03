@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}Topics{% endblock %}
+{% block meta_desc %}Track recurring issues across Croton-on-Hudson village meetings{% endblock %}
+
+{% block content %}
+<div class="section-head">
+  <h2 class="section-title">Topic Threads</h2>
+</div>
+
+<p style="color:var(--ink-secondary);margin-bottom:24px;font-family:var(--serif-body);font-size:15px">
+  Follow {{ topics|length }} ongoing and resolved issues across {{ total_meetings }} village meetings.
+</p>
+
+{% if active_topics %}
+<div class="section-rule"><span class="section-label">Active ({{ active_topics|length }})</span></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;margin-bottom:28px">
+  {% for t in active_topics %}
+  <a href="/topic/{{ t.slug }}" style="text-decoration:none;display:block">
+    <div class="sidebar-box" style="transition:box-shadow 0.15s;border-left:3px solid var(--accent)">
+      <h4 style="border-bottom:none;margin-bottom:4px;color:var(--ink)">{{ t.name }}</h4>
+      <p style="font-size:13px;color:var(--ink-secondary);margin-bottom:8px;line-height:1.4">{{ t.description[:120] }}{% if t.description|length > 120 %}&hellip;{% endif %}</p>
+      <div style="display:flex;gap:12px;font-size:11px;color:var(--ink-muted)">
+        <span>{{ t.chunk_count }} moments</span>
+        <span>{{ t.meeting_count }} meetings</span>
+        <span>{{ t.first_date }} &ndash; {{ t.last_date }}</span>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if resolved_topics %}
+<div class="section-rule"><span class="section-label">Resolved ({{ resolved_topics|length }})</span></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;margin-bottom:28px">
+  {% for t in resolved_topics %}
+  <a href="/topic/{{ t.slug }}" style="text-decoration:none;display:block">
+    <div class="sidebar-box" style="transition:box-shadow 0.15s;border-left:3px solid var(--green-nature);opacity:0.85">
+      <h4 style="border-bottom:none;margin-bottom:4px;color:var(--ink)">{{ t.name }}</h4>
+      <p style="font-size:13px;color:var(--ink-secondary);margin-bottom:8px;line-height:1.4">{{ t.description[:120] }}{% if t.description|length > 120 %}&hellip;{% endif %}</p>
+      <div style="display:flex;gap:12px;font-size:11px;color:var(--ink-muted)">
+        <span>{{ t.chunk_count }} moments</span>
+        <span>{{ t.meeting_count }} meetings</span>
+        <span>{{ t.first_date }} &ndash; {{ t.last_date }}</span>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+{% block title %}{{ meeting.committee }} — {{ meeting.date }}{% endblock %}
+{% block meta_desc %}{{ meeting.quick_summary or meeting.headline }}{% endblock %}
+
+{% block content %}
+<div class="article-wrap">
+
+  <div class="article-head">
+    <span class="lead-badge" style="background:{{ committees.get(meeting.committee, {}).get('color', '#8b2500') }}">
+      {{ committees.get(meeting.committee, {}).get('icon', '') }} {{ meeting.committee }}
+    </span>
+    <h1>{{ meeting.headline or meeting.committee }}</h1>
+    <div class="deck">{{ meeting.date }}{% if meeting.word_count %} &middot; {{ meeting.word_count|int }} words{% endif %}{% if meeting.speaker_count %} &middot; {{ meeting.speaker_count }} speakers{% endif %}</div>
+    <div class="article-head-meta">
+      {% if meeting.has_transcript and meeting.event_id %}
+      <a href="/transcript/{{ meeting.event_id }}">Full Transcript</a>
+      <span>&middot;</span>
+      <a href="/videos/{{ meeting.event_id }}.mp4" target="_blank">Watch Full Video &nearr;</a>
+      <span>&middot;</span>
+      <a href="/audio/{{ meeting.event_id }}.mp3">Listen to Audio &nearr;</a>
+      <span>&middot;</span>
+      {% endif %}
+      <a href="/article/{{ meeting.id }}">Read Article &rarr;</a>
+    </div>
+  </div>
+
+  {# ═══ VIDEO PLAYER ═══ #}
+  {% if meeting.has_video and meeting.event_id %}
+  <div style="margin:20px 0;background:#000;border-radius:4px;overflow:hidden">
+    <video controls preload="none" style="width:100%;max-height:400px;display:block"
+           poster="">
+      <source src="/videos/{{ meeting.event_id }}.mp4" type="video/mp4">
+    </video>
+  </div>
+  {% endif %}
+
+  {# ═══ MEETING AGENDA ═══ #}
+  {% if meeting.agenda_json %}
+  {% set agenda = meeting.agenda_json|from_json %}
+  {% if agenda %}
+  {% macro render_agenda(items, depth=0) %}
+    <ol style="list-style:none;padding:0;margin:0{% if depth > 0 %};padding-left:20px{% endif %}">
+      {% for item in items %}
+      <li style="padding:6px 0;{% if depth == 0 %}border-bottom:1px dotted var(--rule);{% endif %}">
+        <div style="display:flex;align-items:flex-start;gap:8px">
+          {% if depth == 0 %}
+          <span style="color:var(--accent);font-weight:700;flex-shrink:0;font-size:14px">&#9654;</span>
+          {% else %}
+          <span style="color:var(--ink-muted);flex-shrink:0;font-size:12px">&#8226;</span>
+          {% endif %}
+          <span style="font-family:var(--serif-body);font-size:{% if depth == 0 %}15{% else %}14{% endif %}px;line-height:1.4;color:var(--ink){% if depth > 0 %}-secondary{% endif %}">
+            {{ item.title }}
+            {% if item.attachments %}
+            <span style="font-size:11px;color:var(--ink-faint)">({{ item.attachments|length }} doc{{ 's' if item.attachments|length > 1 }})</span>
+            {% endif %}
+          </span>
+        </div>
+        {% if item.children %}{{ render_agenda(item.children, depth + 1) }}{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  {% endmacro %}
+  <div style="background:var(--paper-warm);border:1px solid var(--rule);border-left:4px solid #2d6a4f;padding:20px 24px;margin:24px 0;border-radius:0 6px 6px 0">
+    <h3 style="font-family:var(--serif-display);font-size:18px;font-weight:700;color:#2d6a4f;margin-bottom:14px">
+      Meeting Agenda
+      <span style="font-size:12px;font-weight:400;color:var(--ink-muted);margin-left:8px">{{ agenda|length }} items</span>
+    </h3>
+    {{ render_agenda(agenda) }}
+  </div>
+  {% endif %}
+  {% endif %}
+
+  {# ═══ KEY ACTIONS & DECISIONS ═══ #}
+  {% if meeting.complete_summary %}
+  <div style="background:var(--paper-warm);border:1px solid var(--rule);border-left:4px solid var(--accent);padding:20px 24px;margin:24px 0">
+    <h3 style="font-family:var(--serif-display);font-size:18px;font-weight:700;color:var(--accent);margin-bottom:14px">Key Actions &amp; Decisions</h3>
+    <ul style="list-style:none;padding:0;margin:0">
+      {% for line in meeting.complete_summary.split('\n') %}
+        {% set item = line.strip().lstrip('- ').strip() %}
+        {% if item %}
+        <li style="padding:8px 0;border-bottom:1px dotted var(--rule);font-family:var(--serif-body);font-size:15px;line-height:1.5;color:var(--ink);display:flex;gap:10px">
+          <span style="color:var(--accent);font-weight:700;flex-shrink:0">&#9670;</span>
+          <span>{{ item|md_bold|safe }}</span>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {# ═══ QUICK SUMMARY ═══ #}
+  {% if meeting.quick_summary %}
+  <p style="font-family:var(--serif-body);font-size:17px;line-height:1.6;color:var(--ink-secondary);margin:20px 0;padding:16px 0;border-bottom:1px solid var(--rule)">
+    {{ meeting.quick_summary }}
+  </p>
+  {% endif %}
+
+  {# ═══ TOPICS ═══ #}
+  {% if topics %}
+  <div style="margin:16px 0">
+    <span style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-muted)">Topics</span>
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:6px">
+      {% for t in topics %}
+      <a href="/topic/{{ t.slug }}" style="padding:4px 12px;background:var(--paper-card);border:1px solid var(--rule);border-radius:16px;font-size:12px;color:var(--ink-secondary);text-decoration:none">{{ t.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {# ═══ PEOPLE IN THIS MEETING ═══ #}
+  {% if people %}
+  <div style="margin:16px 0 24px">
+    <span style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-muted)">People</span>
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:6px">
+      {% for p in people %}
+      <a href="/entity/{{ p.slug }}" style="padding:4px 12px;background:var(--paper-card);border:1px solid var(--rule);border-radius:16px;font-size:12px;color:var(--ink-secondary);text-decoration:none">{{ p.name }}{% if p.role %} <span style="color:var(--ink-faint)">({{ p.role }})</span>{% endif %}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {# ═══ RELATED MEETINGS ═══ #}
+  {% if related %}
+  <div style="margin-top:32px">
+    <div class="section-rule"><span class="section-label">More from {{ meeting.committee }}</span></div>
+    {% for r in related %}
+    <div class="related-row">
+      <div class="related-date">
+        {% set p = r.date.split('-') %}
+        {{ p[1] }}/{{ p[2] }}<br>{{ p[0] }}
+      </div>
+      <div class="related-title">
+        <a href="/meeting/{{ r.id }}">{{ r.headline or r.quick_summary }}</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+</div>
+{% endblock %}

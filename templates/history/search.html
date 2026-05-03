@@ -1,0 +1,128 @@
+{% extends "history/base.html" %}
+{% block title %}Search{% if query %}: {{ query }}{% endif %}{% endblock %}
+
+{% block content %}
+<div class="bc"><a href="/history">Home</a> / Search</div>
+
+{% if query %}
+<h1 style="font: 700 24px var(--serif); margin-bottom: 6px;">
+  {% if total %}{{ total }} result{{ 's' if total != 1 }} for "{{ query }}"{% else %}No results for "{{ query }}"{% endif %}
+</h1>
+
+{% if collections is defined %}
+<div style="margin: 10px 0 18px; font: 13px var(--sans);">
+  <span style="color: var(--ink-4);">Filter:</span>
+  <a href="/history/search?q={{ query }}" style="{% if not collection %}font-weight:700{% endif %}">All</a>
+  {% for col in collections %}
+  &middot; <a href="/history/search?q={{ query }}&collection={{ col.id }}" style="{% if collection == col.id %}font-weight:700{% endif %}">{{ col.icon }} {{ col.name }}</a>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if total > 0 and has_llm %}
+<div id="report-area">
+  <button class="report-btn" onclick="generateReport()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+    Generate Research Report
+  </button>
+</div>
+{% endif %}
+
+{% for r in results %}
+<div class="res">
+  {% if r.source_file and r.source_file.endswith(('.jpg', '.png', '.jpeg')) %}
+  <img src="/history/maps/{{ r.source_file }}" alt="{{ r.title }}" class="res-thumb" loading="lazy">
+  {% endif %}
+  <div class="res-title"><a href="/history/document/{{ r.id }}">{{ r.title or r.source_file }}</a></div>
+  <div class="res-src">
+    {{ r.source or r.source_file }}
+    {% if r.source in source_urls %} — <a href="{{ source_urls[r.source] }}" target="_blank">source</a>{% endif %}
+  </div>
+  <div class="res-snip">{{ r.snippet|safe }}</div>
+  <div class="res-meta">{{ r.word_count }} words</div>
+</div>
+{% endfor %}
+
+{% if pages > 1 %}
+<div class="pag">
+  {% if page > 1 %}<a href="/history/search?q={{ query }}{% if collection %}&collection={{ collection }}{% endif %}&page={{ page-1 }}">&laquo;</a>{% endif %}
+  {% for p in range(1, pages+1) %}
+    {% if p == page %}<span class="cur">{{ p }}</span>
+    {% elif p <= 3 or p >= pages-1 or (p >= page-1 and p <= page+1) %}<a href="/history/search?q={{ query }}{% if collection %}&collection={{ collection }}{% endif %}&page={{ p }}">{{ p }}</a>
+    {% elif p == 4 or p == pages-2 %}<span>…</span>{% endif %}
+  {% endfor %}
+  {% if page < pages %}<a href="/history/search?q={{ query }}{% if collection %}&collection={{ collection }}{% endif %}&page={{ page+1 }}">&raquo;</a>{% endif %}
+</div>
+{% endif %}
+
+{% elif not query %}
+<div class="hero">
+  <h2>Search the Archive</h2>
+  <p>Search across 1.5 million words of primary source documents about Croton-on-Hudson history. Generate AI research reports from the sources.</p>
+</div>
+
+<div style="margin: 28px 0;">
+  <h3 style="font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .5px; color: var(--ink-4); margin-bottom: 12px;">Popular searches</h3>
+  <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+    {% for t in ["Kitchawank", "shell midden", "Van Cortlandt", "Croton Point", "aqueduct", "Wappinger", "Senasqua", "Teatown", "Quaker Bridge", "Harmon railroad", "Indian treaty", "Croton Dam"] %}
+    <a href="/history/search?q={{ t }}" style="font: 14px var(--sans); padding: 7px 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 20px; color: var(--ink-2);">{{ t }}</a>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if has_llm is defined and has_llm %}
+<script>
+function generateReport() {
+  var area = document.getElementById('report-area');
+  area.innerHTML = '<div class="report-panel"><div class="report-loading">Researching across {{ total }} sources…</div></div>';
+  fetch('/history/api/report?q={{ query|urlencode }}')
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      if (d.report) {
+        var html = '<div class="report-panel">';
+        html += '<h3>Research Report: {{ query }}</h3>';
+        html += '<div class="report-content">' + formatReport(d.report) + '</div>';
+        if (d.sources_consulted && d.sources_consulted.length) {
+          html += '<div class="report-sources">Sources: ' + d.sources_consulted.join(', ') + ' (' + d.chunks_used + ' passages analyzed)</div>';
+        }
+        html += '</div>';
+        area.innerHTML = html;
+      } else {
+        area.innerHTML = '<div class="report-panel"><p style="color:var(--ink-3)">Could not generate report. ' + (d.error || '') + '</p></div>';
+      }
+    })
+    .catch(function(e) {
+      area.innerHTML = '<div class="report-panel"><p style="color:var(--ink-3)">Report generation failed. Try again later.</p></div>';
+    });
+}
+function formatReport(text) {
+  // Convert markdown-ish headers and paragraphs to HTML
+  var lines = text.split('\n');
+  var html = '';
+  var inList = false;
+  for (var i = 0; i < lines.length; i++) {
+    var l = lines[i].trim();
+    if (!l) { if (inList) { html += '</ul>'; inList = false; } continue; }
+    if (l.match(/^#{1,3}\s/)) {
+      l = l.replace(/^#+\s*/, '');
+      html += '<h3 style="font-size:16px;margin:1em 0 .3em;">' + l + '</h3>';
+    } else if (l.match(/^\*\*.*\*\*$/)) {
+      l = l.replace(/\*\*/g, '');
+      html += '<h3 style="font-size:16px;margin:1em 0 .3em;">' + l + '</h3>';
+    } else if (l.match(/^[-*]\s/)) {
+      if (!inList) { html += '<ul style="margin:.5em 0;padding-left:1.2em;">'; inList = true; }
+      html += '<li>' + l.replace(/^[-*]\s/, '') + '</li>';
+    } else {
+      if (inList) { html += '</ul>'; inList = false; }
+      // Bold
+      l = l.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+      html += '<p>' + l + '</p>';
+    }
+  }
+  if (inList) html += '</ul>';
+  return html;
+}
+</script>
+{% endif %}
+{% endblock %}

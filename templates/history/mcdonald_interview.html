@@ -1,0 +1,144 @@
+{% extends "history/base.html" %}
+{% block title %}{{ iv.interviewee }} — McDonald Interviews{% endblock %}
+{% block meta_desc %}Full transcription of John M. McDonald's {{ iv.date or '' }} interview with {{ iv.interviewee }} from the Westchester County Historical Society McDonald Interviews collection. {{ iv.page_count }} manuscript pages, {{ iv.word_count }} words.{% endblock %}
+
+{% block head %}
+<style>
+.iv-grid { display: grid; grid-template-columns: 1fr 280px; gap: 32px; margin: 24px 0; }
+@media (max-width: 900px) { .iv-grid { grid-template-columns: 1fr; } }
+.iv-meta { background: var(--bg-warm); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; font-size: 13px; }
+.iv-meta dt { font: 600 11px var(--sans); text-transform: uppercase; letter-spacing: .5px; color: var(--ink-3); margin-top: 10px; }
+.iv-meta dt:first-child { margin-top: 0; }
+.iv-meta dd { color: var(--ink); font-size: 14px; margin-top: 2px; }
+.iv-meta a { color: var(--blue); }
+.facsimiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; margin: 12px 0; }
+.facsimiles a { display: block; border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
+.facsimiles a:hover { border-color: var(--accent); }
+.facsimiles img { display: block; width: 100%; height: 180px; object-fit: cover; background: #eee; }
+.facsimiles .pi { font: 600 11px var(--sans); padding: 4px 6px; color: var(--ink-3); text-align: center; }
+.transcription { font: 17px/1.75 var(--body); max-width: 720px; }
+.transcription p { margin-bottom: 1em; text-indent: 1.5em; }
+.transcription p:first-child { text-indent: 0; }
+.findings { background: linear-gradient(135deg, #fefcf8, #f8f3eb); border: 1px solid #d4c9b4; border-radius: var(--radius); padding: 22px; margin: 24px 0; }
+.findings h3 { font: 700 14px var(--sans); text-transform: uppercase; letter-spacing: .5px; color: var(--accent); margin-bottom: 14px; }
+.finding { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.finding:last-child { border-bottom: none; }
+.finding-title { font: 700 16px var(--serif); margin-bottom: 4px; }
+.finding-body { font-size: 14px; line-height: 1.55; color: var(--ink-2); }
+.finding-link { display: inline-block; font: 600 11px var(--sans); text-transform: uppercase; letter-spacing: .5px; color: var(--accent); margin-top: 6px; }
+.catalog { font: italic 14px/1.55 var(--body); color: var(--ink-2); padding: 14px 18px; background: #fafafa; border-left: 3px solid var(--ink-4); border-radius: 3px; margin: 16px 0; }
+.iv-nav { display: flex; justify-content: space-between; gap: 16px; margin: 32px 0 16px; padding: 16px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.iv-nav a { font: 14px var(--sans); color: var(--ink-2); }
+.iv-nav .left { text-align: left; }
+.iv-nav .right { text-align: right; }
+.mark-marg { background: #fff3cd; padding: 0 3px; border-radius: 2px; font: italic 0.92em var(--body); color: var(--ink-2); }
+.mark-illeg { color: var(--ink-4); font-style: italic; }
+.mark-strike { text-decoration: line-through; color: var(--ink-3); }
+.mentions-list { font: 13px/1.45 var(--sans); display: flex; flex-wrap: wrap; gap: 6px; }
+.mentions-list .pill { background: var(--bg-warm); border: 1px solid var(--border); border-radius: 12px; padding: 3px 10px; color: var(--ink-2); }
+.mentions-list .pill.person { border-color: #c9b88a; }
+.mentions-list .pill.place { border-color: #a8b8d0; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="bc">
+  <a href="/history">Home</a> /
+  <a href="/history/mcdonald">McDonald Interviews</a> /
+  {{ iv.interviewee }}
+</div>
+
+<h1 style="font: 900 30px var(--serif); margin-bottom: 4px; letter-spacing: -0.4px;">{{ iv.interviewee }}</h1>
+<p style="font: italic 17px var(--body); color: var(--ink-3); margin-bottom: 18px;">
+  John M. McDonald interview {% if iv.date %}— {{ iv.date }}{% endif %}{% if iv.location %} — {{ iv.location }}{% endif %}
+</p>
+
+<div class="iv-grid">
+  <div>
+    {% if iv.catalog_descr %}
+    <div class="catalog">
+      <strong style="font-style: normal;">From the Westchester County Historical Society catalog:</strong><br>
+      {{ iv.catalog_descr }}
+    </div>
+    {% endif %}
+
+    {% if findings %}
+    <div class="findings">
+      <h3>Original findings from this interview</h3>
+      {% for f in findings %}
+      <div class="finding">
+        <div class="finding-title">{{ f.title }}</div>
+        <div class="finding-body">{{ f.body }}</div>
+        {% if f.related_story %}
+        <a class="finding-link" href="/history/story/{{ f.related_story }}">→ See {{ f.related_story.replace('_', ' ').title() }}</a>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <h2 class="sec">Manuscript page facsimiles</h2>
+    <p style="font-size: 13px; color: var(--ink-3); margin-bottom: 10px;">
+      High-resolution images served from the Westchester County Historical Society's IIIF endpoint. Click any page to view full size.
+    </p>
+    <div class="facsimiles">
+      {% for p in pages %}
+      <a href="{{ p.iiif_image_url }}" target="_blank" rel="noopener" title="WCHS page id {{ p.wchs_page_id }}">
+        <img src="{{ p.iiif_thumb_url }}" alt="Page {{ p.page_index + 1 }}" loading="lazy">
+        <div class="pi">page {{ p.page_index + 1 }} / {{ pages|length }}</div>
+      </a>
+      {% endfor %}
+    </div>
+
+    <h2 class="sec">Transcription</h2>
+    <div class="transcription">
+      {% for paragraph in iv.transcription.split('\n\n') %}
+      {% if paragraph.strip() %}<p>{{ paragraph|mcdonald_marks }}</p>{% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="iv-nav">
+      <div class="left">
+        {% if prev_iv %}<a href="/history/mcdonald/{{ prev_iv.slug }}">← {{ prev_iv.interviewee }}</a>{% endif %}
+      </div>
+      <div class="right">
+        {% if next_iv %}<a href="/history/mcdonald/{{ next_iv.slug }}">{{ next_iv.interviewee }} →</a>{% endif %}
+      </div>
+    </div>
+  </div>
+
+  <aside>
+    <div class="iv-meta">
+      <dt>Interviewee</dt>
+      <dd>{{ iv.interviewee }}</dd>
+      <dt>Date</dt>
+      <dd>{{ iv.date or 'Unknown' }}</dd>
+      {% if iv.location %}<dt>Location</dt><dd>{{ iv.location }}</dd>{% endif %}
+      <dt>Manuscript pages</dt>
+      <dd>{{ iv.page_count }}</dd>
+      <dt>Word count</dt>
+      <dd>{{ "{:,}".format(iv.word_count) }}</dd>
+      <dt>Repository</dt>
+      <dd>{{ iv.repository }}</dd>
+      <dt>WCHS catalog</dt>
+      <dd><a href="{{ iv.wchs_url }}" target="_blank" rel="noopener">Item {{ iv.wchs_item_id }} →</a></dd>
+      <dt>OCR model</dt>
+      <dd style="font-size: 12px;">{{ iv.ocr_model }} ({{ iv.ocr_date }})</dd>
+    </div>
+
+    {% if mentions %}
+    <h3 style="font: 600 11px var(--sans); text-transform: uppercase; letter-spacing: .5px; color: var(--ink-3); margin: 24px 0 10px;">People &amp; places mentioned</h3>
+    <div class="mentions-list">
+      {% set seen_entities = [] %}
+      {% for m in mentions %}
+        {% if m.entity not in seen_entities %}
+          {% set _ = seen_entities.append(m.entity) %}
+          <span class="pill {{ m.entity_type }}">{{ m.entity }}</span>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </aside>
+</div>
+
+{% endblock %}

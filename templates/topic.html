@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block title %}{{ topic.name }}{% endblock %}
+{% block meta_desc %}Timeline of {{ topic.name }} across Croton-on-Hudson village meetings{% endblock %}
+
+{% block content %}
+<div class="section-head" style="margin-bottom:8px">
+  <h2 class="section-title">{{ topic.name }}</h2>
+</div>
+
+<div style="display:flex;gap:12px;align-items:center;margin-bottom:16px;flex-wrap:wrap">
+  {% if topic.status == 'active' %}
+  <span class="story-badge" style="background:var(--accent)">Active</span>
+  {% elif topic.status == 'resolved' %}
+  <span class="story-badge" style="background:var(--green-nature)">Resolved</span>
+  {% else %}
+  <span class="story-badge" style="background:var(--ink-muted)">Dormant</span>
+  {% endif %}
+  <span style="font-size:13px;color:var(--ink-muted)">
+    {{ topic.meeting_count }} meetings &middot;
+    {{ topic.first_date }} to {{ topic.last_date }}
+  </span>
+</div>
+
+<p style="font-family:var(--serif-body);font-size:16px;line-height:1.6;color:var(--ink-secondary);margin-bottom:24px">
+  {{ topic.description }}
+</p>
+
+<div class="section-rule"><span class="section-label">Timeline ({{ meetings|length }} meetings)</span></div>
+
+{% for meeting in meetings %}
+<div style="margin-bottom:24px">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+    <div style="min-width:90px;font-family:var(--serif-display);font-size:15px;font-weight:700;color:var(--accent)">{{ meeting.date }}</div>
+    <div style="font-size:13px;font-weight:600;color:var(--ink-secondary)">{{ meeting.committee }}</div>
+    <div style="flex:1;height:1px;background:var(--rule)"></div>
+  </div>
+  {% for chunk in meeting.chunks %}
+  <div class="doc-result" style="margin-bottom:8px;margin-left:100px">
+    <div class="doc-result-meta" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      {% if chunk.doc_type == 'transcript' %}
+      <span class="story-badge" style="background:var(--green-nature);font-size:10px;padding:2px 6px">Transcript</span>
+      {% else %}
+      <span class="story-badge" style="background:var(--blue-civic);font-size:10px;padding:2px 6px">Article</span>
+      {% endif %}
+      {% if chunk.speaker %}
+      <span style="font-size:12px;color:var(--ink-secondary);font-style:italic">{{ chunk.speaker }}</span>
+      {% endif %}
+      {% if chunk.start_time is not none %}
+      <a href="/transcript/{{ chunk.doc_id }}#t={{ chunk.start_time|int }}"
+         style="margin-left:auto;font-size:12px;color:var(--accent);font-weight:600"
+         title="Jump to this moment">
+        {{ '%d:%02d'|format(chunk.start_time // 60, chunk.start_time % 60) }} &rarr;
+      </a>
+      {% elif chunk.doc_type == 'article' %}
+      <a href="/article/{{ chunk.doc_id }}"
+         style="margin-left:auto;font-size:12px;color:var(--accent)"
+      >Read &rarr;</a>
+      {% endif %}
+    </div>
+    <div style="margin-top:4px;font-family:var(--serif-body);font-size:14px;line-height:1.5;color:var(--ink)">
+      {{ chunk.content[:250] }}{% if chunk.content|length > 250 %}&hellip;{% endif %}
+    </div>
+    {% if chunk.doc_type == 'transcript' and chunk.start_time is not none %}
+    <div style="margin-top:4px;display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <audio preload="none" style="height:24px;width:100%;max-width:320px" controls>
+        <source src="/audio/{{ chunk.doc_id }}.mp3#t={{ chunk.start_time|int }}" type="audio/mpeg">
+      </audio>
+      <a href="/videos/{{ chunk.doc_id }}.mp4#t={{ chunk.start_time|int }}" target="_blank"
+         style="font-size:11px;color:var(--accent);font-weight:600;white-space:nowrap;text-decoration:none"
+         title="Open video at {{ '%d:%02d'|format(chunk.start_time // 60, chunk.start_time % 60) }}">&#9654; Video</a>
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
+
+{% if not meetings %}
+<p style="color:var(--ink-muted);font-family:var(--serif-body);padding:40px 0;text-align:center">
+  No timeline data available for this topic.
+</p>
+{% endif %}
+{% endblock %}

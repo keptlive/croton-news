@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+{% block meta_desc %}About croton.news — AI-assisted civic information covering Croton-on-Hudson village government from public records and meeting transcripts{% endblock %}
+
+{% block content %}
+<div style="max-width:680px">
+
+<div class="section-head">
+  <h2 class="section-title">About croton.news</h2>
+</div>
+
+<div style="font-family:var(--serif-body);font-size:16px;line-height:1.8;color:var(--ink-secondary)">
+
+<p>croton.news is an independent, AI-assisted civic information project covering the Village of Croton-on-Hudson, New York. We publish news articles, investigative features, and meeting coverage drawn entirely from public records, official meeting transcripts, and government documents.</p>
+
+<h3 style="font-family:var(--serif-display);font-size:20px;color:var(--ink);margin:28px 0 12px;border-bottom:2px solid var(--accent);padding-bottom:6px">Mission</h3>
+
+<p>Local news coverage is disappearing. Croton-on-Hudson, like thousands of small communities across America, has no dedicated reporter covering village government. Board meetings go unattended. Budget decisions, zoning fights, and policy debates happen with minimal public scrutiny.</p>
+
+<p>croton.news exists to fill that gap. We use AI to process what no single reporter could: every minute of every public meeting, cross-referenced against municipal code, budget documents, and historical records. The result is comprehensive, sourced coverage that links every claim to a timestamp in the public record.</p>
+
+<h3 style="font-family:var(--serif-display);font-size:20px;color:var(--ink);margin:28px 0 12px;border-bottom:2px solid var(--accent);padding-bottom:6px">How It Works</h3>
+
+<p><strong>Source material:</strong> All content originates from public records. Meeting videos are downloaded from the village's <a href="https://play.champds.com/crotononhudsonny" style="color:var(--accent)">ChampDS video archive</a>, transcribed using AI speech recognition (Deepgram Nova 3), and processed into searchable text with speaker identification.</p>
+
+<p><strong>Article generation:</strong> Articles are drafted by AI language models (Anthropic Claude and others) using the full meeting transcript as source material, supplemented by cross-references to related meetings, municipal code, and publicly available government records. Every quoted statement links directly to the video timestamp where it was spoken.</p>
+
+<p><strong>Human editorial oversight:</strong> All articles are reviewed by a human editor before publication. The editor verifies factual claims against source transcripts, checks quote accuracy, and ensures fair representation of all parties. Articles may be revised or withheld if they do not meet our standards.</p>
+
+<p><strong>Transparency:</strong> Every article identifies its AI model in the metadata. Every quote includes a link to the source transcript and video timestamp so readers can verify claims in context. We believe radical transparency is the only ethical way to publish AI-assisted information.</p>
+
+<h3 style="font-family:var(--serif-display);font-size:20px;color:var(--ink);margin:28px 0 12px;border-bottom:2px solid var(--accent);padding-bottom:6px">Coverage</h3>
+
+<p>We cover the following Croton-on-Hudson government bodies:</p>
+<ul style="margin:12px 0;padding-left:24px">
+  <li>Board of Trustees (regular meetings and work sessions)</li>
+  <li>Planning Board</li>
+  <li>Zoning Board of Appeals</li>
+  <li>Conservation Advisory Council</li>
+  <li>Sustainability Committee</li>
+  <li>Recreation Advisory Committee</li>
+  <li>IDEA Advisory Committee</li>
+  <li>Police Advisory Committee</li>
+  <li>Bicycle and Pedestrian Committee</li>
+  <li>Waterfront Advisory Committee</li>
+  <li>Fire Council</li>
+</ul>
+
+<h3 style="font-family:var(--serif-display);font-size:20px;color:var(--ink);margin:28px 0 12px;border-bottom:2px solid var(--accent);padding-bottom:6px">Who We Are</h3>
+
+<p>croton.news is operated by Matthew Broudy, a Croton-on-Hudson resident and technologist. It is not affiliated with the Village of Croton-on-Hudson, any political party, or any commercial interest.</p>
+
+<p>For questions, corrections, or tips: <a href="/contact" style="color:var(--accent)">Contact us</a>.</p>
+
+<h3 style="font-family:var(--serif-display);font-size:20px;color:var(--ink);margin:28px 0 12px;border-bottom:2px solid var(--accent);padding-bottom:6px"id= "corrections">Corrections</h3>
+
+<p>We take accuracy seriously. When we get something wrong, we fix it and document the correction here.</p>
+
+<ul style="margin:12px 0;padding-left:24px;list-style:disc">
+  <li><strong>April 29, 2026</strong> &mdash; <a href="/meeting/102" style="color:var(--accent)">Board of Education Candidate Forum (April 23)</a>: Corrected attendance estimate from "over 300" to approximately 100 (the venue does not hold 300). Changed headline from "Candidates Clash" to "Five Candidates Debate" to better reflect the cordial tone of the forum. Corrected moderator name spelling from "Dani Zelliger" to "Danny Zeliger." Revised characterizations that overstated conflict between candidates.</li>
+  <li><strong>April 29, 2026</strong> &mdash; <a href="/meeting/94" style="color:var(--accent)">Zoning Board of Appeals (April 21)</a>: Corrected headline from "Three Home Additions" to "Two" &mdash; the 59 Sunset Drive application was deferred, not approved. Replaced unresolved speaker tag with ZBA Chair James Tuman.</li>
+</ul>
+
+<h3 style="font-family:var(--serif-display);font-size:20px;color:var(--ink);margin:28px 0 12px;border-bottom:2px solid var(--accent);padding-bottom:6px">Open Data</h3>
+
+<p>Our searchable transcript archive contains {{ transcript_count }} meeting transcripts spanning {{ meeting_count }} meetings from 15 committees (2020&ndash;2026). All transcripts are derived from public meeting videos and are freely searchable via our <a href="/search" style="color:var(--accent)">Ask Croton</a> tool.</p>
+
+</div>
+</div>
+{% endblock %}

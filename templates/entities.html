@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}People &amp; Places{% endblock %}
+{% block meta_desc %}Browse all people, places, organizations, and topics mentioned in Croton-on-Hudson village meetings{% endblock %}
+
+{% block content %}
+<div class="section-head">
+  <h2 class="section-title">People &amp; Places</h2>
+</div>
+
+<p style="color:var(--ink-secondary);margin-bottom:24px;font-family:var(--serif-body);font-size:15px">
+  {{ entity_count }} entities extracted from {{ meeting_count }} meetings — everyone who spoke, every place mentioned, every topic discussed.
+</p>
+
+{% for type_name, type_entities in grouped.items() %}
+<div class="section-rule"><span class="section-label">{{ type_name|capitalize }}s ({{ type_entities|length }})</span></div>
+
+<div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:28px">
+  {% for e in type_entities %}
+  <a href="/entity/{{ e.slug }}" style="display:inline-block;padding:5px 12px;background:var(--paper-card);border:1px solid var(--rule);border-radius:2px;font-size:13px;color:var(--ink-secondary);text-decoration:none;transition:all 0.15s"
+     onmouseover="this.style.borderColor='var(--accent)';this.style.color='var(--accent)'"
+     onmouseout="this.style.borderColor='var(--rule)';this.style.color='var(--ink-secondary)'"
+     {% if e.metadata and e.metadata.role %}title="{{ e.metadata.role }}"{% endif %}>{{ e.name }}{% if e.metadata and e.metadata.role %} <span style="font-size:10px;color:var(--ink-faint);font-style:italic">{{ e.metadata.role }}</span>{% endif %}{% if e.mention_count > 3 %} <span style="font-size:10px;color:var(--ink-faint)">({{ e.mention_count }})</span>{% endif %}</a>
+  {% endfor %}
+</div>
+{% endfor %}
+{% endblock %}

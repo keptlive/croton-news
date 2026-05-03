@@ -1,0 +1,22 @@
+{% extends "history/base.html" %}
+{% block title %}{{ chunks[0].source or source_file }}{% endblock %}
+
+{% block content %}
+{% set src = chunks[0].source or source_file %}
+<div class="bc"><a href="/history">Home</a> / <a href="/history/documents">Documents</a> / Source</div>
+
+<h1 style="font: 700 24px var(--serif); margin-bottom: 8px;">{{ src }}</h1>
+<div class="doc-meta">
+  <span>{{ chunks|length }} passages</span>
+  <span>{{ "{:,}".format(total_words) }} words</span>
+  {% if src in source_urls %}<span><a href="{{ source_urls[src] }}" target="_blank">View on Internet Archive &rarr;</a></span>{% endif %}
+</div>
+
+{% for chunk in chunks %}
+<div class="res" id="p{{ chunk.chunk_index }}">
+  <div class="res-title"><a href="/history/document/{{ chunk.id }}">{{ chunk.title or ('Passage ' ~ loop.index) }}</a></div>
+  <div class="res-snip">{{ chunk.content[:400] }}{% if chunk.content|length > 400 %}…{% endif %}</div>
+  <div class="res-meta">{{ chunk.word_count }} words &middot; <a href="/history/document/{{ chunk.id }}">Read &rarr;</a></div>
+</div>
+{% endfor %}
+{% endblock %}

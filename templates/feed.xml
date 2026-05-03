@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Croton News</title>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+  <title>croton.news</title>
+  <link>https://croton.news</link>
+  <description>AI-assisted civic information covering Croton-on-Hudson, NY village government from public records and meeting transcripts</description>
+  <language>en-us</language>
+  <copyright>2026 croton.news</copyright>
+  <managingEditor>andy@croton.news (Andy Ciordia)</managingEditor>
+  <webMaster>andy@croton.news (Andy Ciordia)</webMaster>
+  <image>
+    <url>https://croton.news/static/favicon.svg</url>
+    <title>croton.news</title>
     <link>https://croton.news</link>
-    <description>Hyperlocal news for Croton-on-Hudson, NY 10520</description>
-    <language>en-us</language>
-    <atom:link href="https://croton.news/feed" rel="self" type="application/rss+xml"/>
-    {% for art in articles %}
-    <item>
-      <title>{{ art.title|e }}</title>
-      <link>https://croton.news/article/{{ art.id }}</link>
-      <guid>https://croton.news/article/{{ art.id }}</guid>
-      <description>{{ (art.summary or '')|e }}</description>
-      <category>{{ art.category }}</category>
-      {% if art.published_at %}<pubDate>{{ art.published_at }}</pubDate>{% endif %}
-    </item>
-    {% endfor %}
-  </channel>
+  </image>
+  <atom:link href="https://croton.news/feed" rel="self" type="application/rss+xml"/>
+  {% for a in articles %}
+  <item>
+    <title>{{ a.headline or a.quick_summary or a.short_summary }}</title>
+    <link>https://croton.news/article/{{ a.id or a.doc_id }}</link>
+    <guid isPermaLink="true">https://croton.news/article/{{ a.id or a.doc_id }}</guid>
+    <pubDate>{{ a.date }}T19:00:00-05:00</pubDate>
+    <dc:creator>Andy Ciordia</dc:creator>
+    <category>{{ a.committee }}</category>
+    <description><![CDATA[{{ a.quick_summary or a.short_summary }}]]></description>
+  </item>
+  {% endfor %}
+</channel>
 </rss>

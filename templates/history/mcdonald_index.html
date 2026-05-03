@@ -1,0 +1,81 @@
+{% extends "history/base.html" %}
+{% block title %}McDonald Interviews{% endblock %}
+{% block meta_desc %}Full transcriptions of John M. McDonald's 1844–1851 oral histories of Westchester County Revolutionary War veterans, OCR'd from the Westchester County Historical Society manuscripts and re-published with original scholarship from history.croton.news.{% endblock %}
+
+{% block content %}
+<div class="bc"><a href="/history">Home</a> / McDonald Interviews</div>
+
+<h1 style="font: 900 32px var(--serif); margin-bottom: 6px; letter-spacing: -0.5px;">The McDonald Interviews</h1>
+<p style="font: italic 17px var(--body); color: var(--ink-2); margin-bottom: 6px;">John M. McDonald's oral histories of Westchester County's Revolutionary War generation, 1844–1851</p>
+
+<div class="report-panel" style="margin-top: 24px;">
+  <div class="report-content">
+    <p>Between 1844 and 1851, the Hudson Valley chronicler <strong>John M. McDonald</strong> traveled across Westchester County and interviewed more than 400 people who had lived through the American Revolution. He recorded the conversations in his own hand, in a series of notebooks now held by the Westchester County Historical Society. McDonald presented his findings to the New-York Historical Society on October 7, 1862, but he died before he could publish them. The notebooks lay in private hands for decades. In April 2025, WCHS digitized the entire collection and made it available through CONTENTdm and New York Heritage.</p>
+
+    <p>The McDonald Interviews are the most important oral-history collection from the American Revolution in the Lower Hudson Valley. They are also the only surviving record for many of the small wartime episodes in towns like Croton-on-Hudson, Ossining, Yorktown, North Castle, Pines Bridge, and Cortlandt Manor — episodes that show up in our other stories under their familiar names: <a href="/history/story/06_westchester_tea_party">the Tea Party at Teatown</a>, <a href="/history/story/03_nimham_last_stand">Nimham's last stand</a>, <a href="/history/story/01_cannon_tellers_point">the cannon at Teller's Point</a>, the Battle of Pines Bridge.</p>
+
+    <p>For 175 years the only way to read these interviews was to travel to Elmsford, request the manuscript notebooks, and decipher McDonald's rapid 19th-century cursive yourself. WCHS has now digitized the page images, but the actual handwriting was never transcribed. In April 2026, as part of the history.croton.news project, we ran the manuscript pages through <strong>Google Gemini's vision model</strong> to produce the first machine-readable text of the interviews. The transcriptions on this site are the result. Each one is a faithful reading of what is on the page — preserving McDonald's spelling, his marginal notes, and the editorial annotations later added by the WCHS scribe John English. They have not been edited for clarity.</p>
+
+    <p>Where our reading of the manuscript contradicts the published Teatown narrative, or any other modern secondary source, you will find the finding documented on the <a href="/history/story/20_original_research">Original Research</a> page. Each interview below is linked to the Westchester County Historical Society's CONTENTdm record so you can see the manuscript page yourself and check our work.</p>
+  </div>
+</div>
+
+<div class="stats">
+  <div><span class="st-n">{{ interviews|length }}</span><span class="st-l">Interviews Transcribed</span></div>
+  <div><span class="st-n">{{ total_pages }}</span><span class="st-l">Manuscript Pages</span></div>
+  <div><span class="st-n">{{ "{:,}".format(total_words) }}</span><span class="st-l">Words</span></div>
+  <div><span class="st-n">{{ findings_count }}</span><span class="st-l">Original Findings</span></div>
+</div>
+
+{% if highlights %}
+<h2 class="sec">Most significant interviews</h2>
+<p style="font: 15px var(--body); color: var(--ink-2); margin: -10px 0 16px;">These interviews generated original scholarship — new readings that either confirm or contradict the published Teatown/Pines Bridge narrative.</p>
+<div class="feat-grid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
+  {% for h in highlights %}
+  <article class="feat" style="border-left: 3px solid var(--accent);">
+    <div class="feat-body">
+      <div class="feat-era">{% if h.date %}{{ h.date }}{% else %}Date unknown{% endif %} · {{ "{:,}".format(h.word_count or 0) }} words</div>
+      <h3><a href="/history/mcdonald/{{ h.slug }}">{{ h.interviewee }}</a></h3>
+      {% if h.finding_titles %}<p style="font-size: 13px;">{{ h.finding_titles }}</p>{% endif %}
+      <a href="/history/mcdonald/{{ h.slug }}" class="feat-link">{{ h.fc }} original finding{% if h.fc != 1 %}s{% endif %} &rarr;</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% endif %}
+
+<h2 class="sec">All interviews</h2>
+
+<table class="tbl">
+  <thead>
+    <tr>
+      <th>Interviewee</th>
+      <th>Date</th>
+      <th class="r">Pages</th>
+      <th class="r">Words</th>
+      <th>Findings</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for iv in interviews %}
+    <tr>
+      <td>
+        <a href="/history/mcdonald/{{ iv.slug }}" style="color:var(--ink); font-weight:600;">{{ iv.interviewee or iv.label }}</a>
+        {% if iv.page_count and iv.page_count > 1 %}<span style="color:var(--ink-4); font-size:11px; margin-left:6px;">({{ iv.page_count }} pages)</span>{% endif %}
+      </td>
+      <td style="white-space: nowrap; font-size:13px; color:var(--ink-3);">{{ iv.date or '—' }}</td>
+      <td class="r">{{ iv.page_count or '—' }}</td>
+      <td class="r">{{ "{:,}".format(iv.word_count) }}</td>
+      <td>
+        {% if iv.finding_count %}<span class="badge" style="background:#fef3c7; color:#92400e;">{{ iv.finding_count }}</span>{% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<div style="margin-top: 32px; padding: 16px; background: var(--bg-warm); border-left: 3px solid var(--accent); border-radius: 4px; font-size: 14px; color: var(--ink-2);">
+  <strong>Citation note:</strong> The handwritten McDonald notebooks were transcribed in April 2026 by Google's Gemini 2.5 Pro and Gemini 3 Pro vision models, page by page, with no human editing of the OCR output. Where the model could not read a word, you will see <code>[illegible]</code>; where its reading is uncertain, <code>[?guess]</code>. Marginal notes added by the WCHS scribe John English appear inline as <code>[marg: …]</code>. For scholarly use, please verify against the page facsimiles linked from each interview.
+</div>
+
+{% endblock %}

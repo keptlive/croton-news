@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Editorials{% endblock %}
+
+{% block content %}
+
+<div class="page" style="max-width:800px">
+
+  <div class="section-rule"><span class="section-label">Editorials &amp; Features</span></div>
+  <p style="font-family:var(--serif-body);font-size:15px;color:var(--ink-secondary);margin-bottom:32px;line-height:1.7">
+    In-depth reporting that goes beyond a single meeting. These stories combine transcript analysis,
+    public records, and independent research to provide context on the issues shaping Croton-on-Hudson.
+  </p>
+
+  {% for article in articles %}
+  <article style="margin-bottom:36px;padding-bottom:36px;border-bottom:1px solid var(--rule)">
+    <span class="lead-badge" style="background:{{ committees.get(article.committee, {}).get('color', '#8b2500') }}">
+      {{ committees.get(article.committee, {}).get('icon', '') }} {{ article.committee }}
+    </span>
+    <h2 style="font-family:var(--serif-display);font-size:24px;font-weight:700;line-height:1.25;margin:8px 0 6px">
+      <a href="/article/{{ article.id }}" style="color:var(--ink);text-decoration:none">{{ article.headline }}</a>
+    </h2>
+    <p style="font-family:var(--serif-body);font-size:15px;color:var(--ink-secondary);line-height:1.6;margin-bottom:8px">
+      {{ article.quick_summary }}
+    </p>
+    <div style="font-size:12px;color:var(--ink-muted)">
+      {{ article.date }}
+      {% if article.word_count %}
+      &nbsp;&middot;&nbsp; {{ (article.word_count / 250) | int }} min read
+      {% endif %}
+      &nbsp;&middot;&nbsp; <a href="/article/{{ article.id }}">Read full story &rarr;</a>
+    </div>
+  </article>
+  {% endfor %}
+
+  {% if not articles %}
+  <p style="color:var(--ink-muted);font-style:italic">No editorials published yet.</p>
+  {% endif %}
+
+</div>
+
+{% endblock %}

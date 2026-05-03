@@ -3,327 +3,441 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Community Calendar — Croton-on-Hudson</title>
-<meta name="description" content="Events from 12+ local sources in Croton-on-Hudson, Ossining, Peekskill, and the Hudson Valley">
+<title>Community Calendar — croton.news</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.17/index.global.min.js"></script>
 <style>
 :root {
-  --navy: #1a3a5c;
-  --navy-light: #2a5a8c;
-  --sky: #eef4fb;
-  --cat-events: #2563eb;
-  --cat-schools: #16a34a;
-  --cat-government: #ea580c;
-  --cat-safety: #dc2626;
-  --cat-business: #7c3aed;
-}
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background: #f5f6f8; color: #1a1a1a; }
+  --serif: 'Playfair Display', Georgia, serif;
+  --body: 'Source Serif 4', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, sans-serif;
 
-.header {
-  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
-  color: white; padding: 24px 32px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
-}
-.header-logo { font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }
-.header-logo span { opacity: 0.6; font-weight: 400; }
-.header-sub { font-size: 13px; opacity: 0.7; }
-.header-right { margin-left: auto; display: flex; gap: 8px; align-items: center; }
-.header-right a {
-  font-size: 12px; padding: 6px 14px; border-radius: 6px;
-  background: rgba(255,255,255,0.15); color: white; text-decoration: none; transition: background 0.15s;
-}
-.header-right a:hover { background: rgba(255,255,255,0.25); }
+  --ink: #1a1a1a;
+  --ink-2: #3a3a3a;
+  --ink-3: #6b6b6b;
+  --ink-4: #999;
+  --paper: #faf8f5;
+  --paper-warm: #f1ede6;
+  --card: #ffffff;
+  --rule: #d4cfc7;
+  --rule-bold: #1a1a1a;
+  --accent: #8b2500;
+  --gold: #d4a537;
+  --gold-wash: #fdf6e3;
 
-.toolbar {
-  background: white; border-bottom: 1px solid #e2e5ea; padding: 12px 24px;
-  display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+  --c-events: #1d4ed8;
+  --c-schools: #15803d;
+  --c-gov: #c2410c;
+  --c-biz: #6d28d9;
 }
-.toolbar label { font-size: 12px; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
-.toolbar select, .toolbar input {
-  font-size: 13px; padding: 7px 12px; border: 1px solid #d1d5db; border-radius: 8px;
-  background: white; color: #333; outline: none; transition: border-color 0.15s;
-}
-.toolbar select:focus, .toolbar input:focus { border-color: var(--navy); }
-.toolbar input[type="text"] { width: 200px; }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--sans); background: var(--paper); color: var(--ink); -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+::selection { background: #f7e8c8; }
 
-.legend {
-  display: flex; gap: 14px; flex-wrap: wrap; padding: 0 24px; margin: 12px 0 4px;
+/* ═══ MASTHEAD ═══ */
+.top-bar {
+  background: var(--ink); color: rgba(255,255,255,0.7);
+  font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase;
 }
-.legend-item { display: flex; align-items: center; gap: 5px; font-size: 12px; color: #555; cursor: pointer; }
-.legend-dot { width: 11px; height: 11px; border-radius: 3px; }
-.legend-item.dimmed { opacity: 0.3; }
+.top-bar-inner { max-width: 1100px; margin: 0 auto; padding: 5px 24px; display: flex; justify-content: space-between; }
+.top-bar a { color: rgba(255,255,255,0.7); }
+.top-bar a:hover { color: #fff; text-decoration: none; }
 
-.subscribe-strip {
-  background: var(--sky); padding: 8px 24px; font-size: 12px; color: #555;
-  display: flex; align-items: center; gap: 10px; flex-wrap: wrap; border-bottom: 1px solid #d0dde8;
+.masthead {
+  background: var(--paper); text-align: center;
+  padding: 18px 24px 14px;
+  border-bottom: 3px double var(--rule-bold);
 }
-.subscribe-strip strong { color: var(--navy); }
-.ics-btn {
-  font-size: 11px; padding: 3px 10px; border-radius: 4px;
-  background: var(--navy); color: white; text-decoration: none; transition: opacity 0.15s;
-}
-.ics-btn:hover { opacity: 0.85; }
-
-.calendar-wrap {
-  max-width: 1100px; margin: 16px auto; padding: 0 16px;
+.mast-title { font-family: var(--serif); font-size: clamp(30px, 5vw, 44px); font-weight: 900; line-height: 1; }
+.mast-title a { color: var(--ink); text-decoration: none; }
+.mast-dot { color: var(--accent); }
+.mast-sub {
+  font-family: var(--sans); font-size: 10px; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--ink-3); margin-top: 3px;
 }
 
-/* FullCalendar overrides */
-.fc { background: white; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); overflow: hidden; }
-.fc .fc-toolbar { padding: 12px 16px; }
-.fc .fc-toolbar-title { font-size: 20px; font-weight: 600; color: var(--navy); }
+.nav { border-bottom: 1px solid var(--rule); background: var(--paper); position: sticky; top: 0; z-index: 100; }
+.nav-inner { max-width: 1100px; margin: 0 auto; display: flex; justify-content: center; overflow-x: auto; }
+.nav a {
+  font-size: 13px; font-weight: 600; color: var(--ink-2); padding: 11px 20px;
+  border-bottom: 2px solid transparent; transition: all 0.15s; white-space: nowrap;
+}
+.nav a:hover { color: var(--ink); text-decoration: none; border-bottom-color: var(--rule); }
+.nav a.on { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* ═══ PAGE LAYOUT ═══ */
+.page { max-width: 1100px; margin: 0 auto; padding: 28px 24px; }
+.layout { display: grid; grid-template-columns: 220px 1fr; gap: 32px; }
+
+/* ═══ SIDEBAR ═══ */
+.side {}
+.side-box { margin-bottom: 20px; }
+.side-title {
+  font-family: var(--serif); font-size: 13px; font-weight: 700;
+  padding-bottom: 6px; margin-bottom: 10px;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink);
+}
+.side-box label {
+  display: block; font-size: 11px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--ink-3); margin-bottom: 4px;
+}
+.side-box select, .side-box input {
+  width: 100%; font-family: var(--sans); font-size: 13px;
+  padding: 7px 10px; border: 1px solid var(--rule);
+  background: var(--card); color: var(--ink); margin-bottom: 10px;
+}
+.side-box select:focus, .side-box input:focus { outline: none; border-color: var(--ink); }
+
+/* Category toggles */
+.cat-toggle {
+  display: flex; align-items: center; gap: 8px;
+  padding: 6px 0; cursor: pointer; user-select: none;
+  font-size: 13px; color: var(--ink-2); transition: opacity 0.15s;
+}
+.cat-toggle.off { opacity: 0.2; }
+.cat-dot { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
+.cat-count { margin-left: auto; font-size: 11px; color: var(--ink-4); }
+
+/* Subscribe links */
+.sub-link {
+  display: block; font-size: 12px; padding: 5px 0;
+  color: var(--ink-2); border-bottom: 1px dotted var(--rule);
+}
+.sub-link:last-child { border-bottom: none; }
+.sub-link:hover { color: var(--accent); text-decoration: none; }
+
+/* ═══ CALENDAR AREA ═══ */
+.cal-area { min-width: 0; }
+
+/* FullCalendar deep overrides */
+.fc { background: var(--card); border: 1px solid var(--rule); font-family: var(--sans); }
+.fc .fc-toolbar { padding: 16px 20px; }
+.fc .fc-toolbar-title { font-family: var(--serif); font-size: 24px; font-weight: 900; color: var(--ink); }
 .fc .fc-button-primary {
-  background: var(--navy) !important; border-color: var(--navy) !important;
-  font-size: 13px; border-radius: 6px !important; padding: 6px 14px;
+  background: var(--ink) !important; border-color: var(--ink) !important;
+  font-family: var(--sans); font-size: 12px; font-weight: 600;
+  border-radius: 0 !important; padding: 7px 16px;
+  text-transform: uppercase; letter-spacing: 0.04em;
 }
-.fc .fc-button-primary:hover { background: var(--navy-light) !important; }
-.fc .fc-button-primary.fc-button-active { background: var(--navy-light) !important; box-shadow: inset 0 2px 4px rgba(0,0,0,0.2); }
-.fc .fc-daygrid-day-number { font-size: 13px; color: #555; padding: 4px 8px; }
-.fc .fc-daygrid-day.fc-day-today { background: var(--sky) !important; }
-.fc .fc-col-header-cell { background: #f8f9fb; font-size: 12px; font-weight: 600; color: #666; text-transform: uppercase; }
-.fc .fc-daygrid-day-frame { min-height: 85px; }
-.fc .fc-event {
-  border: none !important; border-radius: 4px !important; padding: 2px 5px;
-  font-size: 11px; cursor: pointer; transition: opacity 0.15s;
-  min-height: 22px; line-height: 1.4;
+.fc .fc-button-primary:hover { background: var(--accent) !important; border-color: var(--accent) !important; }
+.fc .fc-button-primary.fc-button-active {
+  background: var(--accent) !important; border-color: var(--accent) !important;
 }
-@media (max-width: 768px) {
-  .fc .fc-event { min-height: 28px; padding: 4px 6px; font-size: 12px; }
+.fc .fc-button-group .fc-button { border-radius: 0 !important; }
+
+/* Column headers */
+.fc .fc-col-header-cell {
+  background: var(--paper-warm); font-size: 11px; font-weight: 700;
+  color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.08em;
+  padding: 8px 0;
 }
-.fc .fc-event:hover { opacity: 0.85; }
+.fc .fc-col-header-cell-cushion { padding: 6px 8px; }
+
+/* Day cells */
+.fc .fc-daygrid-day-number { font-family: var(--sans); font-size: 13px; color: var(--ink-3); padding: 6px 10px; }
+.fc .fc-daygrid-day.fc-day-today { background: var(--gold-wash) !important; }
+.fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-number { color: var(--accent); font-weight: 700; }
+.fc .fc-daygrid-day-frame { min-height: 100px; }
+
+/* Events in grid — left-border pill style */
+.fc .fc-daygrid-event, .fc .fc-timegrid-event {
+  border: none !important; border-radius: 0 !important;
+  border-left: 3px solid transparent !important;
+  background: var(--paper-warm) !important; color: var(--ink) !important;
+  padding: 2px 6px 2px 5px; font-size: 11px; line-height: 1.4;
+  min-height: 22px; margin-bottom: 1px;
+}
+.fc .fc-daygrid-event:hover { background: var(--gold-wash) !important; }
+
+/* Category left borders */
+.fc .fc-event.cat-events { border-left-color: var(--c-events) !important; }
+.fc .fc-event.cat-schools { border-left-color: var(--c-schools) !important; }
+.fc .fc-event.cat-government { border-left-color: var(--c-gov) !important; }
+.fc .fc-event.cat-business { border-left-color: var(--c-biz) !important; }
+
 .fc .fc-daygrid-event-dot { display: none; }
-.fc .fc-list-event-title a { color: var(--navy); }
-.fc .fc-list-event-time { font-size: 12px; }
-.fc .fc-popover { border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+.fc .fc-event-title { font-weight: 500; }
 
-/* Category colors */
-.fc-event.cat-events { background-color: var(--cat-events) !important; }
-.fc-event.cat-schools { background-color: var(--cat-schools) !important; }
-.fc-event.cat-government { background-color: var(--cat-government) !important; }
-.fc-event.cat-safety { background-color: var(--cat-safety) !important; }
-.fc-event.cat-business { background-color: var(--cat-business) !important; }
+/* More popover */
+.fc .fc-popover { border-radius: 0; box-shadow: 0 6px 20px rgba(0,0,0,0.12); border: 1px solid var(--rule); }
+.fc .fc-popover-header { background: var(--paper-warm); font-family: var(--serif); font-weight: 700; font-size: 13px; padding: 8px 12px; }
+.fc .fc-more-link { font-size: 11px; color: var(--accent); font-weight: 600; }
 
-/* List view colors */
-.fc-list-event.cat-events td:first-child { border-left: 3px solid var(--cat-events); }
-.fc-list-event.cat-schools td:first-child { border-left: 3px solid var(--cat-schools); }
-.fc-list-event.cat-government td:first-child { border-left: 3px solid var(--cat-government); }
-.fc-list-event.cat-business td:first-child { border-left: 3px solid var(--cat-business); }
-
-.fc .fc-list-event:hover td { background: var(--sky) !important; }
-
-.stats { font-size: 12px; color: #999; text-align: center; padding: 8px; }
-
-/* Event tooltip */
-.fc-event-tooltip {
-  position: absolute; z-index: 9999; background: white; color: #333;
-  border-radius: 8px; padding: 12px 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-  max-width: 300px; font-size: 13px; pointer-events: none;
+/* ═══ LIST VIEW — the star ═══ */
+.fc .fc-list { border: none; }
+.fc .fc-list-day-cushion {
+  background: var(--paper) !important;
+  font-family: var(--serif); font-weight: 700; font-size: 15px;
+  color: var(--ink); padding: 14px 16px 8px;
+  border-bottom: 2px solid var(--rule-bold);
 }
-.fc-event-tooltip .tt-title { font-weight: 600; margin-bottom: 4px; color: var(--navy); }
-.fc-event-tooltip .tt-time { font-size: 12px; color: #666; }
-.fc-event-tooltip .tt-loc { font-size: 12px; color: #888; margin-top: 2px; }
-.fc-event-tooltip .tt-source { font-size: 11px; color: #aaa; margin-top: 4px; border-top: 1px solid #eee; padding-top: 4px; }
-.fc-event-tooltip .tt-audience { font-size: 11px; background: #f0f0f0; padding: 1px 6px; border-radius: 3px; display: inline-block; margin-top: 3px; }
+.fc .fc-list-day-side-text { font-family: var(--sans); font-size: 12px; color: var(--ink-3); font-weight: 500; }
+.fc .fc-list-event td {
+  padding: 12px 16px; border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+.fc .fc-list-event:hover td { background: var(--gold-wash) !important; }
+.fc .fc-list-event-time {
+  font-size: 13px; color: var(--ink-3); font-weight: 500;
+  min-width: 100px; white-space: nowrap;
+}
+.fc .fc-list-event-title { font-size: 15px; font-weight: 500; }
+.fc .fc-list-event-title a { color: var(--ink); }
+.fc .fc-list-event-title a:hover { color: var(--accent); text-decoration: none; }
 
-@media (max-width: 768px) {
-  .header { padding: 16px; }
-  .header-logo { font-size: 20px; }
-  .header-right { margin-left: 0; width: 100%; }
-  .toolbar { padding: 10px 12px; }
-  .toolbar input[type="text"] { width: 100%; }
-  .calendar-wrap { padding: 0 8px; }
-  .fc .fc-toolbar { flex-direction: column; gap: 8px; }
-  .fc .fc-toolbar-title { font-size: 17px; }
+/* Category accent in list */
+.fc .fc-list-event.cat-events .fc-list-event-dot { border-color: var(--c-events) !important; }
+.fc .fc-list-event.cat-schools .fc-list-event-dot { border-color: var(--c-schools) !important; }
+.fc .fc-list-event.cat-government .fc-list-event-dot { border-color: var(--c-gov) !important; }
+.fc .fc-list-event.cat-business .fc-list-event-dot { border-color: var(--c-biz) !important; }
+
+/* Location + source in list */
+.evt-loc { display: block; font-size: 12px; color: var(--accent); margin-top: 3px; font-weight: 400; }
+.evt-src { display: inline-block; font-size: 10px; color: var(--ink-4); background: var(--paper-warm); padding: 1px 6px; margin-top: 4px; letter-spacing: 0.03em; }
+
+/* ═══ TOOLTIP ═══ */
+.evt-tip {
+  position: absolute; z-index: 9999; pointer-events: none;
+  background: var(--card); color: var(--ink);
+  border: 1px solid var(--rule); border-left: 4px solid var(--ink);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+  padding: 14px 18px; max-width: 340px;
+}
+.evt-tip[data-cat="events"] { border-left-color: var(--c-events); }
+.evt-tip[data-cat="schools"] { border-left-color: var(--c-schools); }
+.evt-tip[data-cat="government"] { border-left-color: var(--c-gov); }
+.evt-tip[data-cat="business"] { border-left-color: var(--c-biz); }
+.evt-tip .tip-title { font-family: var(--serif); font-weight: 700; font-size: 16px; line-height: 1.25; margin-bottom: 6px; }
+.evt-tip .tip-time { font-size: 13px; color: var(--ink-2); }
+.evt-tip .tip-loc { font-size: 13px; color: var(--accent); margin-top: 4px; }
+.evt-tip .tip-src { font-size: 11px; color: var(--ink-4); margin-top: 8px; padding-top: 6px; border-top: 1px dotted var(--rule); }
+
+/* ═══ STATS ═══ */
+.cal-stats { font-size: 12px; color: var(--ink-4); text-align: right; padding: 8px 4px; }
+
+/* ═══ FOOTER ═══ */
+.foot {
+  max-width: 1100px; margin: 0 auto; padding: 28px 24px;
+  border-top: 3px double var(--rule-bold); text-align: center;
+}
+.foot-brand { font-family: var(--serif); font-size: 16px; font-weight: 700; color: var(--ink-3); }
+.foot-links { font-size: 11px; color: var(--ink-4); margin-top: 3px; }
+.foot-links a { color: var(--ink-3); }
+
+/* ═══ RESPONSIVE ═══ */
+@media (max-width: 800px) {
+  .layout { grid-template-columns: 1fr; gap: 0; }
+  .side {
+    display: flex; gap: 12px; flex-wrap: wrap; padding: 12px 0;
+    border-bottom: 1px solid var(--rule); margin-bottom: 16px;
+  }
+  .side-box { margin-bottom: 0; flex: 1; min-width: 140px; }
+  .side-title { display: none; }
+  .cat-toggle { padding: 3px 0; font-size: 12px; }
+  .cat-count { display: none; }
+  .page { padding: 16px; }
+  .fc .fc-toolbar { flex-direction: column; gap: 8px; padding: 12px; }
+  .fc .fc-toolbar-title { font-size: 18px; }
+  .fc .fc-daygrid-event { font-size: 10px; min-height: 18px; }
+  .fc .fc-list-event-title { font-size: 14px; }
 }
 </style>
 </head>
 <body>
 
-<div class="header">
-  <div>
-    <div class="header-logo">croton.news <span>/ calendar</span></div>
-    <div class="header-sub">Community events from 12+ local sources</div>
+<div class="top-bar">
+  <div class="top-bar-inner">
+    <span>Croton-on-Hudson, NY</span>
+    <span><a href="/">Home</a> &middot; <a href="/feed">RSS</a> &middot; <a href="/feeds/all.ics">ICS Feed</a></span>
   </div>
-  <div class="header-right">
+</div>
+<header class="masthead">
+  <div class="mast-title"><a href="/">croton<span class="mast-dot">.</span>news</a></div>
+  <div class="mast-sub">Community Calendar &mdash; 440 Events from 12 Local Sources</div>
+</header>
+<nav class="nav">
+  <div class="nav-inner">
     <a href="/">News</a>
+    <a href="/meetings">Meetings</a>
+    <a href="/calendar" class="on">Calendar</a>
     <a href="/documents">Documents</a>
-    <a href="/calendar">Calendar</a>
   </div>
+</nav>
+
+<div class="page">
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="side">
+    <div class="side-box">
+      <div class="side-title">Filter</div>
+      <label>Source</label>
+      <select id="srcFilter"><option value="all">All Sources</option></select>
+      <label>Search</label>
+      <input type="text" id="search" placeholder="Type to filter...">
+    </div>
+
+    <div class="side-box" id="cat-box">
+      <div class="side-title">Categories</div>
+      <div class="cat-toggle" data-cat="events" onclick="toggleCat(this)">
+        <div class="cat-dot" style="background:var(--c-events)"></div>
+        Community Events <span class="cat-count" id="cnt-events"></span>
+      </div>
+      <div class="cat-toggle" data-cat="schools" onclick="toggleCat(this)">
+        <div class="cat-dot" style="background:var(--c-schools)"></div>
+        Schools <span class="cat-count" id="cnt-schools"></span>
+      </div>
+      <div class="cat-toggle" data-cat="government" onclick="toggleCat(this)">
+        <div class="cat-dot" style="background:var(--c-gov)"></div>
+        Government <span class="cat-count" id="cnt-gov"></span>
+      </div>
+      <div class="cat-toggle" data-cat="business" onclick="toggleCat(this)">
+        <div class="cat-dot" style="background:var(--c-biz)"></div>
+        Business <span class="cat-count" id="cnt-biz"></span>
+      </div>
+    </div>
+
+    <div class="side-box">
+      <div class="side-title">Subscribe</div>
+      <a class="sub-link" href="/feeds/all.ics">All Events (ICS)</a>
+      <a class="sub-link" href="/feeds/category/events.ics">Community Events</a>
+      <a class="sub-link" href="/feeds/category/schools.ics">Schools</a>
+      <a class="sub-link" href="/feeds/category/government.ics">Government</a>
+      <a class="sub-link" href="/feed">News (RSS)</a>
+    </div>
+  </aside>
+
+  <!-- CALENDAR -->
+  <div class="cal-area">
+    <div id="calendar"></div>
+    <div class="cal-stats" id="stats"></div>
+  </div>
+
+</div>
 </div>
 
-<div class="toolbar">
-  <label>Category</label>
-  <select id="catFilter">
-    <option value="all">All Categories</option>
-    <option value="events">Community Events</option>
-    <option value="schools">Schools</option>
-    <option value="government">Government</option>
-    <option value="business">Business</option>
-  </select>
-  <label>Source</label>
-  <select id="srcFilter"><option value="all">All Sources</option></select>
-  <label>Search</label>
-  <input type="text" id="search" placeholder="Filter events...">
-</div>
-
-<div class="legend" id="legend">
-  <div class="legend-item" data-cat="events" onclick="toggleCat(this)"><div class="legend-dot" style="background:var(--cat-events)"></div>Community Events</div>
-  <div class="legend-item" data-cat="schools" onclick="toggleCat(this)"><div class="legend-dot" style="background:var(--cat-schools)"></div>Schools</div>
-  <div class="legend-item" data-cat="government" onclick="toggleCat(this)"><div class="legend-dot" style="background:var(--cat-government)"></div>Government</div>
-  <div class="legend-item" data-cat="business" onclick="toggleCat(this)"><div class="legend-dot" style="background:var(--cat-business)"></div>Business</div>
-</div>
-
-<div class="subscribe-strip">
-  <strong>Subscribe:</strong>
-  <a class="ics-btn" href="/feeds/all.ics">All Events</a>
-  <a class="ics-btn" href="/feeds/category/events.ics">Community</a>
-  <a class="ics-btn" href="/feeds/category/schools.ics">Schools</a>
-  <a class="ics-btn" href="/feeds/category/government.ics">Government</a>
-  <span style="margin-left:auto;color:#999">Add to Google Calendar, Apple Calendar, or Outlook</span>
-</div>
-
-<div class="calendar-wrap">
-  <div id="calendar"></div>
-  <div class="stats" id="stats"></div>
-</div>
+<footer class="foot">
+  <div class="foot-brand">croton.news</div>
+  <div class="foot-links">AI-assisted civic information &middot; <a href="/feeds/all.ics">Subscribe</a> &middot; <a href="/api/health">Status</a></div>
+</footer>
 
 <script>
 let allEvents = [];
 let calendar;
 let hiddenCats = new Set();
-let tooltip = null;
-
-const catColors = {
-  events: 'var(--cat-events)',
-  schools: 'var(--cat-schools)',
-  government: 'var(--cat-government)',
-  safety: 'var(--cat-safety)',
-  business: 'var(--cat-business)',
-};
+let tip = null;
 
 async function loadEvents() {
-  try {
-    const resp = await fetch('/api/calendar/events');
-    allEvents = await resp.json();
-  } catch {
-    try {
-      const resp = await fetch('events.json');
-      allEvents = await resp.json();
-    } catch { return; }
-  }
+  try { allEvents = await (await fetch('/api/calendar/events')).json(); }
+  catch { try { allEvents = await (await fetch('events.json')).json(); } catch { return; } }
 
   // Populate source filter
   const sources = [...new Set(allEvents.map(e => e.source).filter(Boolean))].sort();
   const sel = document.getElementById('srcFilter');
-  sources.forEach(s => {
-    const opt = document.createElement('option');
-    opt.value = s; opt.textContent = s;
-    sel.appendChild(opt);
-  });
+  sources.forEach(s => { const o = document.createElement('option'); o.value = s; o.textContent = s; sel.appendChild(o); });
+
+  // Category counts
+  const counts = {};
+  allEvents.forEach(e => { counts[e.category] = (counts[e.category] || 0) + 1; });
+  const map = { events: 'cnt-events', schools: 'cnt-schools', government: 'cnt-gov', business: 'cnt-biz' };
+  for (const [cat, id] of Object.entries(map)) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = counts[cat] || 0;
+  }
 
   initCalendar();
   updateStats();
 }
 
-function getFilteredEvents() {
-  const cat = document.getElementById('catFilter').value;
+function getFiltered() {
   const src = document.getElementById('srcFilter').value;
   const q = document.getElementById('search').value.toLowerCase();
-
   return allEvents.filter(e => {
-    if (cat !== 'all' && e.category !== cat) return false;
-    if (src !== 'all' && e.source !== src) return false;
     if (hiddenCats.has(e.category)) return false;
-    if (q && !e.title.toLowerCase().includes(q)
-        && !(e.source || '').toLowerCase().includes(q)
-        && !(e.location || '').toLowerCase().includes(q)) return false;
+    if (src !== 'all' && e.source !== src) return false;
+    if (q && !e.title.toLowerCase().includes(q) && !(e.source||'').toLowerCase().includes(q)
+        && !(e.location||'').toLowerCase().includes(q)) return false;
     return true;
   });
 }
 
-function toFCEvents(events) {
+function toFC(events) {
   return events.map(e => {
-    const hasTime = e.time && /\d/.test(e.time);
     let start = e.date;
-    if (hasTime && e.date) {
-      // Parse time like "10:00am" or "7:00 PM"
-      const tm = e.time.match(/(\d{1,2}):(\d{2})\s*([ap]m?)/i);
-      if (tm) {
-        let h = parseInt(tm[1]);
-        const m = tm[2];
-        const ampm = tm[3].toLowerCase();
-        if (ampm.startsWith('p') && h < 12) h += 12;
-        if (ampm.startsWith('a') && h === 12) h = 0;
-        start = `${e.date}T${String(h).padStart(2,'0')}:${m}:00`;
-      }
+    const tm = (e.time||'').match(/(\d{1,2}):(\d{2})\s*([ap]m?)/i);
+    if (tm && e.date) {
+      let h = parseInt(tm[1]); const m = tm[2]; const ap = tm[3].toLowerCase();
+      if (ap[0]==='p' && h<12) h+=12; if (ap[0]==='a' && h===12) h=0;
+      start = e.date+'T'+String(h).padStart(2,'0')+':'+m+':00';
     }
-
-    const hasLink = e.url && (e.url.includes('/event') || e.url.includes('/calendar/'));
-
     return {
-      title: e.title,
-      start: start,
-      url: hasLink ? e.url : null,
-      classNames: ['cat-' + (e.category || 'events')],
-      extendedProps: {
-        source: e.source || '',
-        location: e.location || '',
-        time: e.time || '',
-        end_time: e.end_time || '',
-        audience: e.audience || '',
-        category: e.category || 'events',
-      }
+      title: e.title, start,
+      url: (e.url && (e.url.includes('/event') || e.url.includes('/calendar/'))) ? e.url : null,
+      classNames: ['cat-'+(e.category||'events')],
+      extendedProps: { source:e.source||'', location:e.location||'', time:e.time||'', end_time:e.end_time||'', category:e.category||'events' }
     };
   });
 }
 
 function initCalendar() {
-  const calendarEl = document.getElementById('calendar');
-  calendar = new FullCalendar.Calendar(calendarEl, {
-    initialView: window.innerWidth < 768 ? 'listMonth' : 'dayGridMonth',
-    initialDate: '2026-04-01',
-    headerToolbar: {
-      left: 'prev,next today',
-      center: 'title',
-      right: 'dayGridMonth,timeGridWeek,listMonth'
-    },
-    buttonText: {
-      today: 'Today',
-      month: 'Month',
-      week: 'Week',
-      list: 'List'
-    },
+  calendar = new FullCalendar.Calendar(document.getElementById('calendar'), {
+    initialView: 'listMonth',
+    initialDate: new Date().toISOString().slice(0, 10),
+    headerToolbar: { left: 'prev,next today', center: 'title', right: 'listMonth,dayGridMonth' },
+    buttonText: { today: 'Today', month: 'Grid', list: 'List' },
     height: 'auto',
     dayMaxEvents: 4,
-    moreLinkText: function(n) { return '+' + n + ' more'; },
-    events: toFCEvents(getFilteredEvents()),
+    moreLinkText: n => '+'+n,
+    events: toFC(getFiltered()),
+    datesSet: function() {
+      // Scroll to today in list view
+      setTimeout(function() {
+        var today = new Date().toISOString().slice(0, 10);
+        var rows = document.querySelectorAll(".fc-list-day");
+        for (var i = 0; i < rows.length; i++) {
+          if (rows[i].getAttribute("data-date") >= today) {
+            rows[i].scrollIntoView({ behavior: "smooth", block: "start" });
+            return;
+          }
+        }
+      }, 100);
+    },
     eventDidMount: function(info) {
-      // Tooltip on desktop
-      if (window.innerWidth >= 768) {
-        info.el.addEventListener('mouseenter', function(e) { showTooltip(e, info.event); });
-        info.el.addEventListener('mouseleave', hideTooltip);
+      // Desktop tooltips
+      if (window.innerWidth >= 800) {
+        info.el.addEventListener('mouseenter', e => showTip(e, info.event));
+        info.el.addEventListener('mouseleave', hideTip);
       }
-      // Make clickable events visually distinct
-      if (info.event.url) {
-        info.el.style.cursor = 'pointer';
-        // In list view, show a link indicator
-        const titleEl = info.el.querySelector('.fc-list-event-title a');
-        if (titleEl) {
-          titleEl.style.textDecoration = 'underline';
-          titleEl.style.textDecorationStyle = 'dotted';
-          titleEl.href = url;
+      // List view: add location + source
+      if (info.view.type.includes('list')) {
+        const p = info.event.extendedProps;
+        const cell = info.el.querySelector('.fc-list-event-title');
+        if (cell) {
+          if (p.location) {
+            const loc = document.createElement('span');
+            loc.className = 'evt-loc';
+            loc.textContent = p.location;
+            cell.appendChild(loc);
+          }
+          if (p.source) {
+            const src = document.createElement('span');
+            src.className = 'evt-src';
+            src.textContent = p.source;
+            cell.appendChild(src);
+          }
         }
       }
     },
     eventClick: function(info) {
       if (info.event.url) {
         info.jsEvent.preventDefault();
-        // Same tab on mobile, new tab on desktop
-        if (window.innerWidth < 768) {
-          window.location.href = info.event.url;
-        } else {
-          window.open(info.event.url, '_blank');
-        }
+        if (window.innerWidth < 800) window.location.href = info.event.url;
+        else window.open(info.event.url, '_blank');
       }
     },
   });
@@ -333,57 +447,42 @@ function initCalendar() {
 function refreshCalendar() {
   if (!calendar) return;
   calendar.removeAllEvents();
-  const events = toFCEvents(getFilteredEvents());
-  events.forEach(e => calendar.addEvent(e));
+  toFC(getFiltered()).forEach(e => calendar.addEvent(e));
   updateStats();
 }
 
 function updateStats() {
-  const filtered = getFilteredEvents();
-  document.getElementById('stats').textContent =
-    `${filtered.length} events from ${new Set(filtered.map(e => e.source)).size} sources`;
+  const f = getFiltered();
+  document.getElementById('stats').textContent = f.length + ' events from ' + new Set(f.map(e=>e.source)).size + ' sources';
 }
 
 function toggleCat(el) {
   const cat = el.dataset.cat;
-  if (hiddenCats.has(cat)) {
-    hiddenCats.delete(cat);
-    el.classList.remove('dimmed');
-  } else {
-    hiddenCats.add(cat);
-    el.classList.add('dimmed');
-  }
+  if (hiddenCats.has(cat)) { hiddenCats.delete(cat); el.classList.remove('off'); }
+  else { hiddenCats.add(cat); el.classList.add('off'); }
   refreshCalendar();
 }
 
-function showTooltip(mouseEvent, event) {
-  hideTooltip();
-  const props = event.extendedProps;
-  const time = props.time ? (props.end_time ? `${props.time} – ${props.end_time}` : props.time) : '';
-
-  tooltip = document.createElement('div');
-  tooltip.className = 'fc-event-tooltip';
-  tooltip.innerHTML = `
-    <div class="tt-title">${esc(event.title)}</div>
-    ${time ? `<div class="tt-time">${esc(time)}</div>` : ''}
-    ${props.location ? `<div class="tt-loc">${esc(props.location)}</div>` : ''}
-    ${props.audience ? `<span class="tt-audience">${esc(props.audience)}</span>` : ''}
-    <div class="tt-source">${esc(props.source)}</div>
-  `;
-  document.body.appendChild(tooltip);
-
-  const rect = mouseEvent.target.getBoundingClientRect();
-  tooltip.style.left = Math.min(rect.left, window.innerWidth - 320) + 'px';
-  tooltip.style.top = (rect.bottom + 8 + window.scrollY) + 'px';
+function showTip(me, event) {
+  hideTip();
+  const p = event.extendedProps;
+  const time = p.time ? (p.end_time ? p.time+' \u2013 '+p.end_time : p.time) : '';
+  tip = document.createElement('div');
+  tip.className = 'evt-tip';
+  tip.setAttribute('data-cat', p.category);
+  tip.innerHTML =
+    '<div class="tip-title">'+esc(event.title)+'</div>'+
+    (time ? '<div class="tip-time">'+esc(time)+'</div>' : '')+
+    (p.location ? '<div class="tip-loc">'+esc(p.location)+'</div>' : '')+
+    '<div class="tip-src">'+esc(p.source)+'</div>';
+  document.body.appendChild(tip);
+  const r = me.target.getBoundingClientRect();
+  tip.style.left = Math.min(r.left, window.innerWidth-360)+'px';
+  tip.style.top = (r.bottom+8+window.scrollY)+'px';
 }
+function hideTip() { if(tip){tip.remove();tip=null;} }
+function esc(s) { const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }
 
-function hideTooltip() {
-  if (tooltip) { tooltip.remove(); tooltip = null; }
-}
-
-function esc(s) { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
-
-document.getElementById('catFilter').addEventListener('change', refreshCalendar);
 document.getElementById('srcFilter').addEventListener('change', refreshCalendar);
 document.getElementById('search').addEventListener('input', refreshCalendar);
 

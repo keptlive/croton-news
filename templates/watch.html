@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+{% block title %}{{ meeting.headline or meeting.quick_summary or 'Meeting Video' }}{% endblock %}
+{% block meta_desc %}Watch the full {{ meeting.committee }} meeting from {{ meeting.date }}. {{ meeting.quick_summary or '' }}{% endblock %}
+
+{% block head %}
+{% set vid_title = meeting.headline or meeting.quick_summary or (meeting.committee ~ ' Meeting — ' ~ meeting.date) %}
+{% set vid_desc = meeting.quick_summary or ('Full video of the ' ~ meeting.committee ~ ' meeting held on ' ~ meeting.date ~ ', Village of Croton-on-Hudson, NY.') %}
+{% set eid = meeting.event_id or '' %}
+{% set is_yt = eid.startswith('yt-') %}
+{% set yt_id = eid[3:] if is_yt else '' %}
+{% set vid_url = 'https://croton.news/videos/' ~ eid ~ '.mp4' %}
+{% set thumb_url = 'https://croton.news/photos/' ~ eid ~ '_t60_og.jpg' %}
+{% set dur_secs = meeting.duration_seconds|default(0)|int %}
+{% set dur_h = dur_secs // 3600 %}
+{% set dur_m = (dur_secs % 3600) // 60 %}
+{% set dur_s = dur_secs % 60 %}
+{% set iso_dur = 'PT' ~ (('%dH' % dur_h) if dur_h else '') ~ '%dM%dS' % (dur_m, dur_s) %}
+
+<!-- Open Graph Video -->
+<meta property="og:type" content="video.other">
+<meta property="og:title" content="{{ vid_title }}">
+<meta property="og:description" content="{{ vid_desc }}">
+<meta property="og:url" content="https://croton.news/watch/{{ eid }}">
+<meta property="og:image" content="{{ thumb_url }}">
+<meta property="og:video" content="{{ vid_url }}">
+<meta property="og:video:type" content="video/mp4">
+<meta property="og:site_name" content="croton.news">
+
+<!-- Twitter Player Card -->
+<meta name="twitter:card" content="player">
+<meta name="twitter:title" content="{{ vid_title }}">
+<meta name="twitter:description" content="{{ vid_desc }}">
+<meta name="twitter:image" content="{{ thumb_url }}">
+
+<!-- Schema.org VideoObject -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": {{ vid_title|tojson }},
+  "description": {{ vid_desc|tojson }},
+  "thumbnailUrl": ["{{ thumb_url }}"],
+  "uploadDate": "{{ meeting.date }}T19:00:00-05:00",
+  {% if dur_secs > 0 %}"duration": "{{ iso_dur }}",{% endif %}
+  {% if is_yt %}
+  "contentUrl": "https://www.youtube.com/watch?v={{ yt_id }}",
+  "embedUrl": "https://www.youtube.com/embed/{{ yt_id }}",
+  {% else %}
+  "contentUrl": "{{ vid_url }}",
+  {% endif %}
+  "potentialAction": {
+    "@type": "SeekToAction",
+    "target": "https://croton.news/watch/{{ eid }}?t={seek_to_second_number}",
+    "startOffset-input": "required name=seek_to_second_number"
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="article-wrap">
+
+  {# ═══ Video Player — PRIMARY CONTENT ═══ #}
+  {% set eid = meeting.event_id or '' %}
+  {% set is_yt = eid.startswith('yt-') %}
+  {% set t = request.args.get('t', '0')|int %}
+
+  <div style="position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:8px;overflow:hidden;margin-bottom:20px">
+    {% if is_yt %}
+    <iframe src="https://www.youtube.com/embed/{{ eid[3:] }}{% if t %}?start={{ t }}{% endif %}"
+            style="width:100%;height:100%;border:0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    {% else %}
+    <video id="player" controls preload="metadata"
+           style="width:100%;height:100%;display:block"
+           poster="/photos/{{ eid }}_t60_og.jpg">
+      <source src="/videos/{{ eid }}.mp4#t={{ t }}" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+    {% endif %}
+  </div>
+
+  {# ═══ Title & Metadata ═══ #}
+  <span class="lead-badge" style="background:{{ committees.get(meeting.committee, {}).get('color', '#8b2500') }}">
+    {{ committees.get(meeting.committee, {}).get('icon', '') }} {{ meeting.committee }}
+  </span>
+  <h1 style="margin-top:8px">{{ meeting.headline or meeting.quick_summary or 'Meeting Video' }}</h1>
+
+  <div style="font-family:var(--sans);font-size:13px;color:var(--ink-muted);margin:8px 0 20px;display:flex;gap:16px;flex-wrap:wrap">
+    <span>{{ meeting.date }}</span>
+    {% if meeting.duration_seconds %}
+    {% set dur = meeting.duration_seconds|int %}
+    <span>{{ '%d:%02d:%02d'|format(dur // 3600, (dur % 3600) // 60, dur % 60) }}</span>
+    {% endif %}
+    {% if meeting.word_count %}<span>{{ meeting.word_count|int }} words transcribed</span>{% endif %}
+  </div>
+
+  {# ═══ Description ═══ #}
+  {% if meeting.quick_summary %}
+  <p style="font-family:var(--serif-body);font-size:16px;line-height:1.6;color:var(--ink-secondary);margin-bottom:20px">
+    {{ meeting.quick_summary }}
+  </p>
+  {% endif %}
+
+  {# ═══ Links ═══ #}
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px">
+    {% if meeting.article %}
+    <a href="/article/{{ meeting.id }}" style="padding:8px 16px;background:var(--ink);color:var(--paper);border-radius:var(--radius);font-family:var(--sans);font-size:13px;font-weight:600;text-decoration:none">
+      Read Article &rarr;
+    </a>
+    {% endif %}
+    <a href="/transcript/{{ eid }}" style="padding:8px 16px;border:1px solid var(--rule);border-radius:var(--radius);font-family:var(--sans);font-size:13px;font-weight:600;text-decoration:none;color:var(--ink)">
+      Full Transcript
+    </a>
+    {% if meeting.has_audio %}
+    <a href="/audio/{{ eid }}.mp3" style="padding:8px 16px;border:1px solid var(--rule);border-radius:var(--radius);font-family:var(--sans);font-size:13px;font-weight:600;text-decoration:none;color:var(--ink)">
+      Audio Only
+    </a>
+    {% endif %}
+  </div>
+
+  {# ═══ Key Actions (if available) ═══ #}
+  {% if meeting.complete_summary %}
+  <div style="border:1px solid var(--rule);border-radius:8px;padding:16px 20px;margin-bottom:24px">
+    <h3 style="font-family:var(--sans);font-size:14px;font-weight:700;margin-bottom:10px">Key Actions &amp; Decisions</h3>
+    {% for line in meeting.complete_summary.split('\n') %}
+      {% set item = line.strip().lstrip('- ').strip() %}
+      {% if item %}
+      <div style="padding:4px 0;display:flex;gap:10px;font-family:var(--serif-body);font-size:14px;line-height:1.5;color:var(--ink-secondary)">
+        <span style="color:var(--accent);font-size:7px;margin-top:7px">&#9679;</span>
+        <span>{{ item }}</span>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% endif %}
+
+</div>
+
+{% if not is_yt %}
+<script>
+// Seek to timestamp from URL ?t= parameter
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  var t = parseInt(params.get('t') || '0');
+  if (t > 0) {
+    var v = document.getElementById('player');
+    if (v) {
+      v.addEventListener('loadedmetadata', function() { v.currentTime = t; });
+    }
+  }
+})();
+</script>
+{% endif %}
+
+{% endblock %}

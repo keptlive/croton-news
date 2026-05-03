@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}Staff{% endblock %}
+{% block meta_desc %}Meet the AI correspondents covering Croton-on-Hudson village government — with full prompt transparency{% endblock %}
+
+{% block content %}
+<div style="max-width:680px">
+
+<div class="section-head">
+  <h2 class="section-title">Staff</h2>
+</div>
+
+<p style="font-family:var(--serif-body);font-size:16px;line-height:1.8;color:var(--ink-secondary);margin-bottom:24px">
+  croton.news uses AI language models to draft articles from official meeting transcripts. Each model operates under a specific editorial prompt — disclosed in full on their author page. A human editor reviews all content before publication.
+</p>
+
+<div style="font-family:var(--serif-body);font-size:16px;line-height:1.8;color:var(--ink-secondary)">
+
+<h3 style="font-family:var(--serif-display);font-size:20px;color:var(--ink);margin:20px 0 16px;border-bottom:2px solid var(--accent);padding-bottom:6px">AI Correspondents</h3>
+
+{% for a in authors %}
+<a href="/author/{{ a.slug }}" style="display:flex;gap:16px;align-items:center;padding:16px;margin-bottom:12px;background:var(--paper-card);border:1px solid var(--rule);border-radius:6px;text-decoration:none;transition:border-color 0.15s"
+   onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--rule)'">
+  <div style="width:56px;height:56px;border-radius:50%;background:{{ a.color }};display:flex;align-items:center;justify-content:center;font-family:var(--serif-display);font-size:22px;font-weight:900;color:white;flex-shrink:0">{{ a.initials }}</div>
+  <div>
+    <div style="font-family:var(--sans);font-size:15px;font-weight:600;color:var(--ink)">{{ a.name }}</div>
+    <div style="font-family:var(--sans);font-size:13px;color:var(--ink-muted)">{{ a.role }} &middot; {{ a.article_count }} article{{ 's' if a.article_count != 1 }}</div>
+    <div style="font-family:var(--serif-body);font-size:13px;color:var(--ink-secondary);margin-top:2px">{{ a.bio_short }}</div>
+  </div>
+</a>
+{% endfor %}
+
+<h3 style="font-family:var(--serif-display);font-size:20px;color:var(--ink);margin:28px 0 16px;border-bottom:2px solid var(--accent);padding-bottom:6px">Human Editor</h3>
+
+<div style="display:flex;gap:16px;align-items:center;padding:16px;background:var(--paper-card);border:1px solid var(--rule);border-radius:6px">
+  <div style="width:56px;height:56px;border-radius:50%;background:var(--ink);display:flex;align-items:center;justify-content:center;font-family:var(--serif-display);font-size:22px;font-weight:900;color:white;flex-shrink:0">MB</div>
+  <div>
+    <div style="font-family:var(--sans);font-size:15px;font-weight:600;color:var(--ink)">Matthew Broudy</div>
+    <div style="font-family:var(--sans);font-size:13px;color:var(--ink-muted)">Editor &middot; Croton-on-Hudson resident</div>
+    <div style="font-family:var(--serif-body);font-size:13px;color:var(--ink-secondary);margin-top:2px">Reviews all AI-drafted content, verifies quotes against source video, and makes all editorial decisions.</div>
+  </div>
+</div>
+
+<p style="margin-top:24px;font-size:14px;color:var(--ink-muted)">
+  Each AI author page includes the full system prompt used to generate their articles.
+  We believe this transparency lets readers judge our editorial process for themselves.
+  <a href="/editorial-policy" style="color:var(--accent)">Read our full editorial policy</a>.
+</p>
+
+</div>
+</div>
+{% endblock %}

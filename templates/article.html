@@ -1,65 +1,522 @@
 {% extends "base.html" %}
+{% block title %}{{ article.headline or article.quick_summary or article.short_summary }}{% endblock %}
+{% block meta_desc %}{{ article.quick_summary or article.short_summary or '' }}{% endblock %}
 
-{% set cat = categories.get(article.category, {}) %}
-{% block title %}{{ article.title }}{% endblock %}
-{% block meta_desc %}{{ article.summary[:160] if article.summary else article.title }}{% endblock %}
-{% block og_title %}{{ article.title }} — Croton News{% endblock %}
+{% block head %}
+{% set og_title = article.headline or article.quick_summary or article.short_summary %}
+{% set og_desc = article.quick_summary or article.short_summary or '' %}
+{% set og_url = 'https://croton.news/article/' ~ (article.id or article.doc_id) %}
+{% set eid = article.event_id or '' %}
+{% if eid %}
+{% set og_image = 'https://croton.news/photos/' ~ eid ~ '_t60_og.jpg' %}
+{% else %}
+{% set og_image = 'https://croton.news/photos/placeholder_og.jpg' %}
+{% endif %}
 
-{% block schema %}
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ og_title }}">
+<meta property="og:description" content="{{ og_desc }}">
+<meta property="og:url" content="{{ og_url }}">
+<meta property="og:image" content="{{ og_image }}">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:site_name" content="croton.news">
+<meta property="article:published_time" content="{{ article.date }}T19:00:00-05:00">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ og_title }}">
+<meta name="twitter:description" content="{{ og_desc }}">
+<meta name="twitter:image" content="{{ og_image }}">
+
+<!-- Schema.org NewsArticle -->
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "NewsArticle",
-    "headline": {{ article.title|tojson }},
-    "description": {{ (article.summary or article.title)|tojson }},
-    "url": "https://croton.news/article/{{ article.id }}",
-    "datePublished": {{ (article.published_at or article.scraped_at)|tojson }},
-    "publisher": {
-        "@type": "Organization",
-        "name": "Croton News",
-        "url": "https://croton.news"
-    },
-    "mainEntityOfPage": "https://croton.news/article/{{ article.id }}"
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": {{ og_title | tojson }},
+  "image": [
+    "{{ og_image }}"
+  ],
+  "datePublished": "{{ article.date }}T19:00:00-05:00",
+  "dateModified": "{{ article.article_generated_at[:19] if article.article_generated_at and article.article_generated_at|length >= 10 else article.date ~ 'T19:00:00' }}-05:00",
+  "author": [{
+    "@type": "Person",
+    "name": "Matthew Broudy",
+    "url": "https://croton.news/about"
+  }]
 }
 </script>
 {% endblock %}
 
 {% block content %}
-<div class="article-detail">
-    <a href="/" style="font-size:0.85rem;color:var(--text-muted);">&larr; Back to all news</a>
+<div class="article-wrap">
 
-    <div style="margin-top:1rem;">
-        <span class="category-badge" style="background:{{ cat.get('color', '#64748b') }}; font-size:0.8rem;">
-            {{ cat.get('icon', '') }} {{ cat.get('label', article.category) }}
-        </span>
+  <div class="article-head">
+    <span class="lead-badge" style="background:{{ committees.get(article.committee, {}).get('color', '#8b2500') }}">
+      {{ committees.get(article.committee, {}).get('icon', '') }} {{ article.committee }}
+    </span>
+    <h1>{{ article.headline or article.quick_summary or article.short_summary }}</h1>
+    <div class="deck">{{ article.quick_summary or article.short_summary }}</div>
+    <div class="article-head-meta">
+      <span>{{ article.date }}</span>
+      {% if author %}
+      <span>&middot;</span>
+      <a href="/author/{{ author.slug }}">{{ author.name }}</a>
+      {% endif %}
+      {% set eid = article.event_id or (article.doc_id.split('-')[0] if article.doc_id is defined and '-' in (article.doc_id or '') else (article.doc_id or '')) %}
+      {% if pdf_url %}
+      <span>&middot;</span>
+      <a href="{{ pdf_url }}" target="_blank" rel="noopener">Meeting Minutes &nearr;</a>
+      {% endif %}
+      {% if eid %}
+      <span>&middot;</span>
+      <a href="/transcript/{{ eid }}">Full Transcript</a>
+      <span>&middot;</span>
+      <a href="/watch/{{ eid }}">Watch Video &nearr;</a>
+      {% endif %}
     </div>
+  </div>
 
-    <h1 style="margin-top:0.75rem;">{{ article.title }}</h1>
-
-    <div class="meta">
-        {% if article.published_at %}
-        <span>Published: {{ article.published_at[:10] }}</span>
+  {# ═══ Minutes Verification Warning ═══ #}
+  {% if not article.minutes_verified %}
+  <div style="background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:12px 16px;margin:16px 0;font-size:13px;color:#6d4c00;display:flex;align-items:center;gap:10px">
+    <span style="font-size:18px">&#9888;</span>
+    <span>This article has not yet been verified against the official meeting minutes. Details may contain errors. See our <a href="/editorial-policy" style="color:#6d4c00;font-weight:600">corrections log</a> for more information.</span>
+  </div>
+  {% elif article.minutes_verified %}
+  {% endif %}
+  {# ═══ Key Actions & Decisions (collapsed by default) ═══ #}
+  {% set summary = article.complete_summary or article.executive_summary %}
+  {% if summary %}
+  <details style="margin:24px 0;border:1px solid var(--rule);border-radius:8px;overflow:hidden">
+    <summary style="padding:14px 20px;background:linear-gradient(135deg, var(--paper-warm), var(--paper-card));display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none">
+      <span class="expand-arrow" style="transition:transform 0.15s;display:inline-block">&#9654;</span>
+      <span style="font-family:var(--serif-display);font-size:16px;font-weight:700;color:var(--ink)">Key Actions &amp; Decisions</span>
+    </summary>
+    <div style="padding:0;border-top:1px solid var(--rule)">
+      {% for line in summary.split('\n') %}
+        {% set item = line.strip().lstrip('- ').strip() %}
+        {% if item %}
+        <div style="padding:12px 20px;border-bottom:1px solid color-mix(in srgb, var(--rule) 50%, transparent);display:flex;gap:14px;align-items:baseline;font-family:var(--serif-body);font-size:14.5px;line-height:1.55;color:var(--ink){% if loop.last %};border-bottom:none{% endif %}">
+          <span style="color:var(--accent);font-size:7px;flex-shrink:0;margin-top:7px">&#9679;</span>
+          <span>{{ item|md_bold|safe }}</span>
+        </div>
         {% endif %}
-        <span>Source: {{ article.source }}</span>
-        <span>Scraped: {{ article.scraped_at[:10] }}</span>
+      {% endfor %}
     </div>
+  </details>
+  {% endif %}
 
-    {% if article.summary %}
-    <div class="body">
-        <p>{{ article.summary }}</p>
+  {# ═══ Article with quote video embeds ═══ #}
+  {% set body = article.article or article.news_article %}
+  {% set eid = article.event_id or '' %}
+  {% if body %}
+  <div class="article-body" id="article-body" data-eid="{{ eid }}">
+    {{ body|safe }}
+  </div>
+  {% raw %}
+  <script>
+  (function() {
+    const el = document.getElementById('article-body');
+    if (!el) return;
+    const eid = el.dataset.eid || '';
+    var html = el.innerHTML;
+
+    // ── {{quote:SECONDS}} or {{quote:EVENT:SECONDS}} → transcript/video links ──
+    function renderQuote(qEid, ts) {
+      var mins = Math.floor(ts / 60);
+      var secs = String(ts % 60).padStart(2, '0');
+      var videoHref, videoLabel;
+      if (qEid.startsWith('yt-')) {
+        var ytId = qEid.slice(3);
+        videoHref = 'https://www.youtube.com/watch?v=' + ytId + '&t=' + ts + 's';
+        videoLabel = '&#9654; YouTube ' + mins + ':' + secs;
+      } else {
+        videoHref = '/videos/' + qEid + '.mp4#t=' + ts;
+        videoLabel = '&#9654; ' + mins + ':' + secs;
+      }
+      var links = '<span class="quote-links" style="display:inline-flex;gap:8px;margin-left:4px">' +
+        '<a href="/transcript/' + qEid + '#t=' + ts + '" style="font-size:11px;color:var(--ink-muted);text-decoration:none" title="Read in transcript">&#128196; transcript</a>' +
+        '<a href="' + videoHref + '" target="_blank" style="font-size:11px;color:var(--accent);text-decoration:none" title="Watch at ' + mins + ':' + secs + '">' + videoLabel + '</a>' +
+        '</span>';
+      return links;
+    }
+    // {{quote:yt-VIDEO_ID:SECONDS}} — YouTube cross-meeting quotes
+    html = html.replace(/\{\{quote:(yt-[\w-]+):(\d+)\}\}/g, function(match, qEid, ts) {
+      return renderQuote(qEid, parseInt(ts));
+    });
+    // {{quote:EVENT:SECONDS}} — explicit event ID (for editorials referencing multiple meetings)
+    html = html.replace(/\{\{quote:(\d{4,}):(\d+)\}\}/g, function(match, qEid, ts) {
+      return renderQuote(qEid, parseInt(ts));
+    });
+    // {{quote:SECONDS}} — uses article's event_id
+    if (eid) {
+      html = html.replace(/\{\{quote:(\d+)\}\}/g, function(match, ts) {
+        return renderQuote(eid, parseInt(ts));
+      });
+    } else {
+      html = html.replace(/\{\{quote:\d+\}\}/g, '');
+    }
+
+    // ── {{photo:EVENT:SECONDS:CAPTION}} → on-demand image ──
+    html = html.replace(
+      /\{\{photo:([\w-]+):(\d+)(?::([^}]*))?\}\}/g,
+      function(match, photoEid, ts, caption) {
+        var src = '/photos/' + photoEid + '_t' + ts + '.jpg';
+        var cap = caption || '';
+        return '<figure style="margin:20px 0;max-width:560px">' +
+          '<img src="' + src + '" alt="' + cap.replace(/"/g,'&quot;') + '" ' +
+          'style="width:100%;border-radius:6px;display:block" loading="lazy">' +
+          '<figcaption style="padding:6px 0;font-size:12px;color:var(--ink-muted);font-family:var(--sans)">' +
+          cap + '</figcaption></figure>';
+      }
+    );
+
+    // ── {{photo_static:FILENAME:CAPTION}} → pre-generated image ──
+    html = html.replace(
+      /\{\{photo_static:([^:}]+)(?::([^}]*))?\}\}/g,
+      function(match, filename, caption) {
+        var cap = caption || '';
+        return '<figure style="margin:20px 0;max-width:560px">' +
+          '<img src="/photos/' + filename + '" alt="' + cap.replace(/"/g,'&quot;') + '" ' +
+          'style="width:100%;border-radius:6px;display:block" loading="lazy">' +
+          '<figcaption style="padding:6px 0;font-size:12px;color:var(--ink-muted);font-family:var(--sans)">' +
+          cap + '</figcaption></figure>';
+      }
+    );
+
+    // ── {{openverse:QUERY:CAPTION}} → Openverse CC image ──
+    html = html.replace(
+      /\{\{openverse:([^:}]+)(?::([^}]*))?\}\}/g,
+      function(match, query, caption) {
+        var cap = caption || '';
+        var imgId = 'ov-' + Math.random().toString(36).slice(2,8);
+        // Load async from Openverse API
+        setTimeout(function() {
+          fetch('/api/openverse?q=' + encodeURIComponent(query))
+            .then(function(r) { return r.json(); })
+            .then(function(d) {
+              var fig = document.getElementById(imgId);
+              if (fig && d.url) {
+                fig.querySelector('img').src = d.url;
+                fig.querySelector('.ov-credit').innerHTML = d.credit || '';
+                fig.style.display = 'block';
+              }
+            }).catch(function() {});
+        }, 100);
+        return '<figure id="' + imgId + '" style="margin:20px 0;max-width:560px;display:none">' +
+          '<img src="" alt="' + cap.replace(/"/g,'&quot;') + '" ' +
+          'style="width:100%;border-radius:6px;display:block" loading="lazy">' +
+          '<figcaption style="padding:6px 0;font-size:12px;color:var(--ink-muted);font-family:var(--sans)">' +
+          cap + '<span class="ov-credit" style="display:block;font-size:10px;color:var(--ink-faint);margin-top:2px"></span>' +
+          '</figcaption></figure>';
+      }
+    );
+
+    // ── Markdown → HTML ──
+    html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    html = html.replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>');
+    html = html.replace(/^#{2,3}\s+(.+)$/gm, '<h3>$1</h3>');
+    html = html.replace(/^[-*]{3,}\s*$/gm, '<hr>');
+    el.innerHTML = html;
+
+    // ── Paragraph wrapping ──
+    if (!el.innerHTML.match(/<p[\s>]/i)) {
+      el.innerHTML = el.innerHTML.split(/\n\n+/).filter(function(p) { return p.trim(); }).map(function(p) {
+        var t = p.trim();
+        if (t.match(/^<(figure|div|video|table|blockquote|h[1-6]|hr)/i)) return t;
+        return '<p>' + t + '</p>';
+      }).join('');
+    }
+
+    // ── Styled blockquotes with source links ──
+    el.querySelectorAll('p').forEach(function(p) {
+      var text = p.innerHTML;
+      var m = text.match(/^["\u201C](.+?)["\u201D]\s*(?:[-\u2013\u2014]\s*(.+))?$/s);
+      if (m && text.length > 60) {
+        var quote = m[1];
+        var attr = m[2] || '';
+        var bq = document.createElement('blockquote');
+        var inner = '<p>\u201C' + quote + '\u201D</p>';
+        if (attr) inner += '<span class="quote-attr">\u2014 ' + attr + '</span>';
+        if (eid) {
+          inner += '<div class="quote-sources" style="margin-top:8px;display:flex;gap:12px">' +
+            '<a href="/transcript/' + eid + '" style="font-size:11px;color:var(--ink-muted);text-decoration:none">&#128196; View in transcript</a>' +
+            '<a href="/videos/' + eid + '.mp4" target="_blank" style="font-size:11px;color:var(--accent);text-decoration:none">&#9654; Watch meeting</a>' +
+            '</div>';
+        }
+        bq.innerHTML = inner;
+        p.replaceWith(bq);
+      }
+    });
+  })();
+  </script>
+  {% endraw %}
+  {% endif %}
+
+  {# ═══ Meeting Index (legacy, from summaries) ═══ #}
+  {% if index_data and index_data.topics %}
+  <div class="index-box">
+    <h3>&#9670; Meeting Index</h3>
+    {% if index_data.topics %}
+    <div class="idx-section">
+      <div class="idx-label">Topics Discussed</div>
+      <div class="idx-tags">
+        {% for t in index_data.topics %}<span class="idx-tag">{{ t }}</span>{% endfor %}
+      </div>
     </div>
     {% endif %}
-
-    {% if article.content and article.content != article.summary %}
-    <div class="body" style="margin-top:1rem;">
-        {{ article.content }}
+    {% if index_data.people %}
+    <div class="idx-section">
+      <div class="idx-label">People</div>
+      <div class="idx-tags">
+        {% for p in index_data.people %}
+        <span class="idx-tag">{{ p.name }}{% if p.role %} &mdash; <em>{{ p.role }}</em>{% endif %}</span>
+        {% endfor %}
+      </div>
     </div>
     {% endif %}
+    {% if index_data.locations %}
+    <div class="idx-section">
+      <div class="idx-label">Locations</div>
+      <div class="idx-tags">
+        {% for l in index_data.locations %}<span class="idx-tag">{{ l }}</span>{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+    {% if index_data.dollar_amounts %}
+    <div class="idx-section">
+      <div class="idx-label">Dollar Amounts</div>
+      <div class="idx-tags">
+        {% for a in index_data.dollar_amounts %}
+        <span class="idx-tag"><strong>{{ a.amount }}</strong> &mdash; {{ a.description }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
 
-    {% if article.url %}
-    <a class="source-link" href="{{ article.url }}" target="_blank" rel="noopener">
-        View original source &rarr;
+  {# ═══ Share Buttons ═══ #}
+  {% set share_url = 'https://croton.news/article/' ~ (article.id or article.doc_id) %}
+  {% set share_title = article.headline or article.quick_summary or article.short_summary %}
+  <div style="margin-top:28px;padding:16px 0;border-top:1px solid var(--rule);display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+    <span style="font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-muted)">Share</span>
+    <a href="https://twitter.com/intent/tweet?url={{ share_url | urlencode }}&text={{ share_title | urlencode }}" target="_blank" rel="noopener" class="share-btn" title="Share on X">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
     </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url | urlencode }}" target="_blank" rel="noopener" class="share-btn" title="Share on Facebook">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url | urlencode }}" target="_blank" rel="noopener" class="share-btn" title="Share on LinkedIn">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+    <a href="mailto:?subject={{ share_title | urlencode }}&body={{ share_url | urlencode }}" class="share-btn" title="Share via email">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"/><path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"/></svg>
+    </a>
+    <button onclick="navigator.clipboard.writeText('{{ share_url }}');this.textContent='Copied!';setTimeout(()=>this.textContent='Copy link',2000)" class="share-btn" style="cursor:pointer;font-family:var(--sans);font-size:11px;font-weight:600" title="Copy link">Copy link</button>
+  </div>
+
+  {# ═══ Source Attribution ═══ #}
+  {% set eid = article.event_id or '' %}
+  <div style="margin-top:4px;padding:16px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font-family:var(--sans);font-size:13px;color:var(--ink-muted)">
+    <p>Coverage of the <strong>{{ article.committee }}</strong> meeting on {{ article.date }},
+    Village of Croton-on-Hudson, NY.
+    {% if pdf_url %}<a href="{{ pdf_url }}" target="_blank">View original document &nearr;</a>{% endif %}
+    {% if eid %} &middot; <a href="/transcript/{{ eid }}">Read full transcript</a>{% endif %}
+    </p>
+    {% if article.article_model %}
+    <p style="margin-top:8px;font-size:12px;color:var(--ink-faint)">
+      This article was drafted by AI ({{ article.article_model }}) from the official meeting transcript and reviewed by a human editor.
+      Quotes link to source video timestamps for verification.
+      <a href="/editorial-policy" style="color:var(--ink-muted)">Read our editorial policy</a>.
+    </p>
     {% endif %}
+  </div>
+
+  {# ═══ Ask Croton Widget ═══ #}
+  <div style="margin-top:32px;padding:24px;background:var(--paper-warm);border:1px solid var(--rule);border-radius:8px">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+      <span style="font-size:20px">&#128269;</span>
+      <span style="font-family:var(--serif-display);font-size:18px;font-weight:700;color:var(--ink)">Ask Croton</span>
+    </div>
+    <p style="font-family:var(--serif-body);font-size:14px;color:var(--ink-secondary);margin-bottom:14px">
+      Have a question about this story? Search across meeting transcripts, village history, and municipal code.
+    </p>
+    <form action="/search" method="get" style="display:flex;gap:8px">
+      <input type="text" name="q" placeholder="Ask anything about Croton-on-Hudson&hellip;"
+             style="flex:1;padding:10px 14px;border:1px solid var(--rule);border-radius:var(--radius);font-family:var(--sans);font-size:14px;background:var(--paper-card)">
+      <input type="hidden" name="db" value="meetings">
+      <button type="submit" style="padding:10px 20px;background:var(--ink);color:var(--paper);border:none;border-radius:var(--radius);font-family:var(--sans);font-size:14px;font-weight:600;cursor:pointer">Search</button>
+    </form>
+  </div>
+
+  {# ═══ Related Meetings ═══ #}
+  {% if related %}
+  <div style="margin-top:36px">
+    <div class="section-head">
+      <h2 class="section-title">Related {{ article.committee }} Meetings</h2>
+    </div>
+
+    {% for r in related %}
+    <div style="margin-bottom:20px;border:1px solid var(--rule);border-radius:8px;overflow:hidden">
+      {# Meeting header #}
+      <div style="padding:14px 20px;background:var(--paper-card);border-bottom:1px solid var(--rule);display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+        <span style="font-family:var(--sans);font-size:13px;font-weight:700;color:var(--ink)">{{ r.date }}</span>
+        {% if r.headline %}
+        <span style="font-family:var(--serif-body);font-size:14px;color:var(--ink-secondary)">{{ r.headline }}</span>
+        {% elif r.quick_summary %}
+        <span style="font-family:var(--serif-body);font-size:14px;color:var(--ink-secondary)">{{ r.quick_summary }}</span>
+        {% endif %}
+        <div style="margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap">
+          {% if r.minutes_url %}
+          <a href="{{ r.minutes_url }}" target="_blank" style="font-size:11px;font-weight:600;color:var(--ink-secondary);text-decoration:none;padding:3px 10px;border:1px solid var(--rule);border-radius:12px">Minutes &nearr;</a>
+          {% endif %}
+          {% if r.has_transcript and r.event_id %}
+          <a href="/transcript/{{ r.event_id }}" style="font-size:11px;font-weight:600;color:var(--accent);text-decoration:none;padding:3px 10px;border:1px solid var(--accent);border-radius:12px">Transcript</a>
+          {% endif %}
+          {% if r.has_video and r.event_id %}
+          <a href="/videos/{{ r.event_id }}.mp4" target="_blank" style="font-size:11px;font-weight:600;color:var(--accent);text-decoration:none;padding:3px 10px;border:1px solid var(--accent);border-radius:12px">&#9654; Video</a>
+          {% endif %}
+          <a href="/article/{{ r.id }}" style="font-size:11px;font-weight:600;color:var(--ink-secondary);text-decoration:none;padding:3px 10px;border:1px solid var(--rule);border-radius:12px">Read &rarr;</a>
+        </div>
+      </div>
+
+      {# Key actions if available — collapsed by default #}
+      {% if r.complete_summary %}
+      <details style="border-top:1px solid color-mix(in srgb, var(--rule) 50%, transparent)">
+        <summary style="padding:10px 20px;cursor:pointer;font-family:var(--sans);font-size:12px;font-weight:600;color:var(--ink-muted);list-style:none;display:flex;align-items:center;gap:6px;user-select:none">
+          <span style="transition:transform 0.15s;display:inline-block" class="expand-arrow">&#9654;</span>
+          Key Actions &amp; Decisions
+        </summary>
+        <div style="padding:4px 20px 14px">
+          {% for line in r.complete_summary.split('\n') %}
+            {% set item = line.strip().lstrip('- ').strip() %}
+            {% if item %}
+            <div style="padding:5px 0;display:flex;gap:12px;align-items:baseline;font-family:var(--serif-body);font-size:13.5px;line-height:1.5;color:var(--ink-secondary)">
+              <span style="color:var(--ink-faint);font-size:6px;flex-shrink:0;margin-top:6px">&#9679;</span>
+              <span>{{ item|md_bold|safe }}</span>
+            </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </details>
+      {% endif %}
+
+      {# Audio player if available #}
+      {% if r.has_video and r.event_id %}
+      <div style="padding:8px 20px 14px;border-top:1px solid color-mix(in srgb, var(--rule) 50%, transparent)">
+        <audio preload="none" style="height:28px;width:100%;max-width:400px" controls>
+          <source src="/audio/{{ r.event_id }}.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <style>
+    details[open] .expand-arrow { transform: rotate(90deg); }
+    details summary::-webkit-details-marker { display: none; }
+  </style>
+
+  {# ═══ Comments ═══ #}
+  {% set article_id = article.id or article.doc_id %}
+  <div style="margin-top:40px" id="comments">
+    <div class="section-head">
+      <h2 class="section-title">Community Discussion</h2>
+      <span style="font-size:12px;color:var(--ink-muted)" id="comment-count">{{ comments | length }} comment{{ 's' if comments | length != 1 }}</span>
+    </div>
+
+    <div id="comments-list">
+      {% for c in comments %}
+      <div class="comment" id="comment-{{ c.id }}">
+        <div class="comment-header">
+          <strong class="comment-name">{{ c.name }}</strong>
+          <span class="comment-date">{{ c.created_at[:16] }}</span>
+        </div>
+        <div class="comment-body">{{ c.body }}</div>
+      </div>
+      {% endfor %}
+      {% if not comments %}
+      <p style="color:var(--ink-muted);font-style:italic;font-family:var(--serif-body);padding:16px 0" id="no-comments">
+        Be the first to comment on this story.
+      </p>
+      {% endif %}
+    </div>
+
+    <form id="comment-form" style="margin-top:24px">
+      <input type="hidden" name="article_id" value="{{ article_id }}">
+      <div style="display:none"><input type="text" name="website" tabindex="-1" autocomplete="off"></div>
+      <div style="display:flex;gap:12px;margin-bottom:12px">
+        <input type="text" name="name" placeholder="Your name" required maxlength="80"
+               style="flex:1;padding:10px 14px;border:1px solid var(--rule);font-family:var(--sans);font-size:14px;background:var(--paper-card);border-radius:var(--radius)">
+      </div>
+      <textarea name="body" placeholder="Share your thoughts on this story..." required maxlength="2000" rows="4"
+                style="width:100%;padding:10px 14px;border:1px solid var(--rule);font-family:var(--sans);font-size:14px;background:var(--paper-card);border-radius:var(--radius);resize:vertical"></textarea>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-top:10px">
+        <span style="font-size:11px;color:var(--ink-faint)">Comments are public. Be respectful.</span>
+        <button type="submit" style="padding:10px 28px;background:var(--ink);color:var(--paper);border:none;font-family:var(--sans);font-size:14px;font-weight:600;cursor:pointer;border-radius:var(--radius)">
+          Post Comment
+        </button>
+      </div>
+      <div id="comment-error" style="display:none;color:#dc2626;font-size:13px;margin-top:8px"></div>
+    </form>
+  </div>
+
+  <script>
+  document.getElementById('comment-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const form = this;
+    const data = {
+      article_id: form.article_id.value,
+      name: form.name.value.trim(),
+      body: form.body.value.trim(),
+      website: form.website.value
+    };
+    if (!data.name || !data.body) return;
+    const btn = form.querySelector('button[type=submit]');
+    btn.disabled = true; btn.textContent = 'Posting...';
+    const errEl = document.getElementById('comment-error');
+    errEl.style.display = 'none';
+
+    fetch('/api/comments', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(data)
+    })
+    .then(r => r.json())
+    .then(d => {
+      if (d.ok) {
+        const noComments = document.getElementById('no-comments');
+        if (noComments) noComments.remove();
+        const list = document.getElementById('comments-list');
+        const div = document.createElement('div');
+        div.className = 'comment';
+        div.innerHTML = '<div class="comment-header"><strong class="comment-name">' +
+          data.name.replace(/</g,'&lt;') + '</strong><span class="comment-date">just now</span></div>' +
+          '<div class="comment-body">' + data.body.replace(/</g,'&lt;').replace(/\n/g,'<br>') + '</div>';
+        div.style.background = 'var(--gold-highlight)';
+        list.appendChild(div);
+        setTimeout(() => div.style.background = '', 2000);
+        form.body.value = '';
+        const countEl = document.getElementById('comment-count');
+        const n = list.querySelectorAll('.comment').length;
+        countEl.textContent = n + ' comment' + (n !== 1 ? 's' : '');
+      } else {
+        errEl.textContent = d.error || 'Failed to post comment.';
+        errEl.style.display = 'block';
+      }
+    })
+    .catch(() => {
+      errEl.textContent = 'Network error. Please try again.';
+      errEl.style.display = 'block';
+    })
+    .finally(() => { btn.disabled = false; btn.textContent = 'Post Comment'; });
+  });
+  </script>
+
 </div>
 {% endblock %}

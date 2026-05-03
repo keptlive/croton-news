@@ -1,0 +1,51 @@
+{% extends "history/base.html" %}
+{% block title %}{{ doc.title or doc.source_file }}{% endblock %}
+
+{% block content %}
+<div class="bc">
+  <a href="/history">Home</a> /
+  <a href="/history/source/{{ doc.source_file }}">{{ doc.source or doc.source_file }}</a> /
+  Passage
+</div>
+
+<h1 style="font: 700 24px var(--serif); margin-bottom: 8px;">{{ doc.title or doc.source_file }}</h1>
+
+<div class="doc-meta">
+  {% if doc.source %}<span>{{ doc.source }}</span>{% endif %}
+  <span>{{ doc.word_count }} words</span>
+  {% if doc.source in source_urls %}<span><a href="{{ source_urls[doc.source] }}" target="_blank">View original &rarr;</a></span>{% endif %}
+</div>
+
+{% if doc.source == 'Historical Map' %}
+{% set ext = doc.source_file.rsplit('.', 1)[-1] %}
+{% if ext in ('jpg', 'jpeg', 'png') %}
+<div style="margin: 20px 0;">
+  <a href="/history/maps/{{ doc.source_file }}" target="_blank">
+    <img src="/history/maps/{{ doc.source_file }}" alt="{{ doc.title }}" style="max-width:100%; border:1px solid var(--border); border-radius:var(--radius);">
+  </a>
+  <p style="font:13px var(--sans); color:var(--ink-4); margin-top:8px;">Click to view full size. Public domain.</p>
+</div>
+{% endif %}
+{% endif %}
+
+<div class="doc-body">
+  {% for paragraph in doc.content.split('\n\n') %}
+  <p>{{ paragraph }}</p>
+  {% endfor %}
+</div>
+
+{% if siblings|length > 1 %}
+<div class="sidebar">
+  <h3>Other passages from this source ({{ siblings|length }})</h3>
+  <ul>
+    {% for s in siblings[:30] %}
+    <li class="{% if s.id == doc.id %}on{% endif %}">
+      {% if s.id == doc.id %}{{ s.title or ('Passage ' ~ loop.index) }} <span class="badge">current</span>
+      {% else %}<a href="/history/document/{{ s.id }}">{{ s.title or ('Passage ' ~ loop.index) }}</a> <span style="color:var(--ink-4);font-size:12px;">({{ s.word_count }}w)</span>{% endif %}
+    </li>
+    {% endfor %}
+    {% if siblings|length > 30 %}<li style="color:var(--ink-4);">… and {{ siblings|length - 30 }} more</li>{% endif %}
+  </ul>
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,251 @@
+{% extends "base.html" %}
+{% block title %}Ask Croton{% endblock %}
+{% block meta_desc %}Search Croton-on-Hudson meeting transcripts, village history, and municipal code{% endblock %}
+
+{% block content %}
+<div class="section-head">
+  <h2 class="section-title">Ask Croton</h2>
+</div>
+
+<p style="color:var(--ink-secondary);margin-bottom:20px;font-family:var(--serif-body);font-size:15px">
+  Search {{ chunk_count }} indexed passages across village meetings, local history, and municipal code.
+</p>
+
+<form action="/search" method="get" class="search-form" id="search-form" style="flex-wrap:wrap">
+  <div style="display:flex;gap:8px;flex:1;min-width:280px">
+    <input type="text" name="q" value="{{ query }}" placeholder="Ask anything about Croton-on-Hudson&hellip;" autofocus style="flex:1">
+    <button type="submit">Search</button>
+  </div>
+  <div style="display:flex;gap:6px;align-items:center;width:100%;margin-top:8px">
+    <span style="font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-muted)">Search in:</span>
+    {% for db_key, db_label, db_icon, db_desc in [
+      ('meetings', 'Government', '&#x1F3DB;', 'Meeting transcripts & articles'),
+      ('history', 'History', '&#x1F4DC;', 'Books, blogs & historical documents'),
+      ('code', 'Village Code', '&#x2696;', 'Laws & regulations'),
+    ] %}
+    <label style="display:flex;align-items:center;gap:5px;padding:6px 14px;border:1px solid {% if corpus == db_key %}var(--accent){% else %}var(--rule){% endif %};border-radius:var(--radius);cursor:pointer;font-family:var(--sans);font-size:12px;font-weight:{% if corpus == db_key %}700{% else %}500{% endif %};color:{% if corpus == db_key %}var(--accent){% else %}var(--ink-secondary){% endif %};background:{% if corpus == db_key %}var(--gold-highlight){% else %}var(--paper-card){% endif %};transition:all 0.15s"
+           title="{{ db_desc }}">
+      <input type="radio" name="db" value="{{ db_key }}" {% if corpus == db_key %}checked{% endif %}
+             style="display:none" onchange="if(this.form.q.value.trim())this.form.submit()">
+      <span>{{ db_icon|safe }}</span> {{ db_label }}
+      <span style="font-size:10px;color:var(--ink-faint)">({{ '{:,}'.format(db_counts.get(db_key, 0)) }})</span>
+    </label>
+    {% endfor %}
+  </div>
+</form>
+
+{% if query %}
+
+{# ═══ AI Answer (loads async) ═══ #}
+{% if results %}
+<div id="ai-answer-box" style="margin:24px 0;padding:20px 24px;background:var(--paper-warm);border-left:3px solid var(--accent);border-radius:0 var(--radius) var(--radius) 0">
+  <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
+    <span style="font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent)">AI Answer</span>
+    <span id="ai-status" style="font-size:11px;color:var(--ink-faint)">analyzing sources&hellip;</span>
+  </div>
+  <div id="ai-answer-text" style="font-family:var(--serif-body);font-size:15px;line-height:1.7;color:var(--ink)">
+    <span style="color:var(--ink-muted);font-style:italic">Generating answer&hellip;</span>
+  </div>
+</div>
+<script>
+fetch('/api/ask?q={{ query | urlencode }}&db={{ corpus }}')
+  .then(r => r.json())
+  .then(d => {
+    const box = document.getElementById('ai-answer-box');
+    if (d.answer) {
+      document.getElementById('ai-status').textContent = 'based on {{ results|length }} sources';
+      let text = d.answer;
+      // Convert markdown-style bold **text** to <strong>
+      text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+      // Convert section references § to styled spans
+      text = text.replace(/(§\s*[\d\-\.]+)/g, '<code style="background:var(--paper-warm);padding:1px 4px;font-size:13px;border-radius:2px">$1</code>');
+      // Convert Local Law references
+      text = text.replace(/(LL?\s*\d+-\d{4})/g, '<code style="background:var(--paper-warm);padding:1px 4px;font-size:13px;border-radius:2px">$1</code>');
+      // Paragraphs
+      text = text.split(/\n\n+/).filter(p => p.trim()).map(p => '<p>' + p.trim() + '</p>').join('');
+      // Line breaks within paragraphs
+      text = text.replace(/\n/g, '<br>');
+      document.getElementById('ai-answer-text').innerHTML = text;
+    } else {
+      box.style.display = 'none';
+    }
+  })
+  .catch(() => {
+    document.getElementById('ai-answer-box').style.display = 'none';
+  });
+</script>
+{% endif %}
+
+<div id="search-status" style="margin:12px 0 4px;font-size:13px;color:var(--ink-muted);font-family:var(--sans)">
+  {{ results|length }} result{{ 's' if results|length != 1 }} for &ldquo;{{ query }}&rdquo;
+  in <strong>{% if corpus == 'meetings' %}Government{% elif corpus == 'history' %}History{% else %}Village Code{% endif %}</strong>
+  <span style="margin-left:8px;font-size:11px;color:var(--ink-faint)">keyword + semantic search</span>
+</div>
+
+<div class="section-rule"><span class="section-label">Sources</span></div>
+
+{% for r in results %}
+<div class="doc-result" style="margin-bottom:16px">
+  <div class="doc-result-meta" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+
+    {# ── Meetings corpus ── #}
+    {% if r.corpus == 'meetings' %}
+      {% if r.doc_type == 'transcript' %}
+      <span class="story-badge" style="background:var(--green-nature)">Transcript</span>
+      {% else %}
+      <span class="story-badge" style="background:var(--blue-civic)">Article</span>
+      {% endif %}
+      {% if r.committee %}
+      <span style="font-size:12px;font-weight:600;color:var(--ink-secondary)">{{ r.committee }}</span>
+      {% endif %}
+      <span style="font-size:13px;color:var(--ink-muted)">{{ r.date }}</span>
+      {% if r.speaker %}
+      <span style="font-size:12px;color:var(--ink-secondary);font-style:italic">{{ r.speaker }}</span>
+      {% endif %}
+      {% if r.start_time is not none %}
+      <a href="/transcript/{{ r.doc_id }}#t={{ r.start_time|int }}"
+         style="margin-left:auto;font-size:12px;color:var(--accent);font-weight:600;white-space:nowrap">
+        {{ '%d:%02d'|format(r.start_time // 60, r.start_time % 60) }} &rarr;
+      </a>
+      {% elif r.doc_type == 'article' %}
+      <a href="/article/{{ r.doc_id }}" style="margin-left:auto;font-size:12px;color:var(--accent)">Read article &rarr;</a>
+      {% endif %}
+
+    {# ── History corpus ── #}
+    {% elif r.corpus == 'history' %}
+      <span class="story-badge" style="background:#78716c">History</span>
+      <span style="font-size:12px;font-weight:600;color:var(--ink-secondary)">{{ r.title }}</span>
+      {% if r.source %}
+      <span style="font-size:11px;color:var(--ink-muted)">&middot; {{ r.source }}</span>
+      {% endif %}
+
+    {# ── Code corpus ── #}
+    {% elif r.corpus == 'code' %}
+      <span class="story-badge" style="background:#7c3aed">Village Code</span>
+      <span style="font-size:12px;font-weight:600;color:var(--ink-secondary)">{{ r.title }}</span>
+    {% endif %}
+  </div>
+
+  {% if r.corpus == 'code' %}
+  <div class="doc-result-snippet" style="margin-top:6px;font-family:var(--sans);font-size:13px;line-height:1.65;color:var(--ink);white-space:pre-wrap;max-height:400px;overflow-y:auto;padding:12px 16px;background:var(--paper-card);border:1px solid var(--rule);border-radius:var(--radius)">{{ r.content }}</div>
+  {% else %}
+  <div class="doc-result-snippet" style="margin-top:6px;font-family:var(--serif-body);font-size:15px;line-height:1.55;color:var(--ink)">
+    {{ r.content[:400] }}{% if r.content|length > 400 %}&hellip;{% endif %}
+  </div>
+  {% endif %}
+
+  {# Audio player for meeting transcripts #}
+  {% if r.corpus == 'meetings' and r.doc_type == 'transcript' and r.start_time is not none %}
+  <div style="margin-top:6px;display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+    <audio preload="none" style="height:28px;width:100%;max-width:360px" controls>
+      <source src="/audio/{{ r.doc_id }}.mp3#t={{ r.start_time|int }}" type="audio/mpeg">
+    </audio>
+    <a href="/videos/{{ r.doc_id }}.mp4#t={{ r.start_time|int }}" target="_blank"
+       style="font-size:12px;color:var(--accent);font-weight:600;white-space:nowrap;text-decoration:none">&#9654; Video</a>
+  </div>
+  {% endif %}
+
+  <div style="margin-top:4px;font-size:11px;color:var(--ink-faint);font-family:var(--sans)">
+    Relevance: {{ '%.1f'|format(r.score * 1000) }}
+    {% if r.corpus == 'meetings' and r.start_time is not none %}
+    &middot; {{ '%d:%02d'|format(r.start_time // 60, r.start_time % 60) }}&ndash;{{ '%d:%02d'|format(r.end_time // 60, r.end_time % 60) }}
+    {% endif %}
+    {% if r.corpus in ('history', 'code') and r.source_file %}
+    &middot; {{ r.source_file }}
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+
+{% if not results %}
+<p style="color:var(--ink-muted);font-family:var(--serif-body);padding:40px 0;text-align:center">
+  No results found. Try different wording or search a different database.
+</p>
+{% endif %}
+
+{% else %}
+
+{# ═══ Landing State ═══ #}
+<div class="section-rule"><span class="section-label">Popular Searches</span></div>
+<div id="suggestions" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px"></div>
+<script>
+(function() {
+  var suggestions = {
+    meetings: [
+      'affordable housing', 'body cameras', 'court consolidation',
+      'solar panels', 'Gouveia Park', 'rental registry',
+      'village budget', 'short-term rental tax', 'EV charging',
+      'Harmon parking', 'water infrastructure', 'chickens'
+    ],
+    history: [
+      'New Croton Dam construction', 'Pete Seeger Clearwater',
+      'Van Cortlandt Manor', 'Kitchawank tribe',
+      'Old Croton Aqueduct', 'Revolutionary War',
+      'Croton Point Park', 'Hudson River railroad',
+      'Mount Airy history', 'Underhill family',
+      'village incorporation', 'Croton Landing'
+    ],
+    code: [
+      'zoning setback requirements', 'noise regulations',
+      'wetlands protection', 'tree removal permit',
+      'short-term rentals', 'parking restrictions',
+      'building permits', 'flood plain',
+      'historic preservation', 'sign regulations',
+      'accessory dwelling units', 'stormwater management'
+    ]
+  };
+  var icons = { meetings: '\u{1F3DB}', history: '\u{1F4DC}', code: '\u2696' };
+
+  function renderSuggestions(corpus) {
+    var box = document.getElementById('suggestions');
+    var items = suggestions[corpus] || suggestions.meetings;
+    box.innerHTML = items.map(function(q) {
+      return '<a href="/search?q=' + encodeURIComponent(q) + '&db=' + corpus + '" ' +
+        'style="display:inline-block;padding:6px 14px;background:var(--paper-warm);border:1px solid var(--rule);border-radius:20px;font-size:13px;color:var(--ink-secondary);text-decoration:none;font-family:var(--sans);transition:all 0.15s" ' +
+        'onmouseover="this.style.borderColor=\'var(--accent)\';this.style.color=\'var(--accent)\'" ' +
+        'onmouseout="this.style.borderColor=\'var(--rule)\';this.style.color=\'var(--ink-secondary)\'">' +
+        icons[corpus] + ' ' + q + '</a>';
+    }).join('');
+  }
+
+  // Render for current corpus
+  renderSuggestions('{{ corpus }}');
+
+  // Update when corpus radio changes
+  document.querySelectorAll('input[name="db"]').forEach(function(radio) {
+    radio.addEventListener('change', function() {
+      var q = document.querySelector('input[name="q"]').value.trim();
+      if (!q) {
+        renderSuggestions(this.value);
+        // Update button styles
+        document.querySelectorAll('input[name="db"]').forEach(function(r) {
+          var lbl = r.closest('label');
+          var active = r.checked;
+          lbl.style.borderColor = active ? 'var(--accent)' : 'var(--rule)';
+          lbl.style.fontWeight = active ? '700' : '500';
+          lbl.style.color = active ? 'var(--accent)' : 'var(--ink-secondary)';
+          lbl.style.background = active ? 'var(--gold-highlight)' : 'var(--paper-card)';
+        });
+      }
+    });
+  });
+})();
+</script>
+
+<div class="section-rule"><span class="section-label">Three Databases</span></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:24px">
+  <div class="sidebar-box">
+    <h4 style="border-bottom:none;margin-bottom:4px">&#x1F3DB; Government</h4>
+    <p style="font-size:13px;color:var(--ink-muted)">{{ '{:,}'.format(db_counts.get('meetings', 0)) }} passages from village meeting transcripts, articles, and minutes.</p>
+  </div>
+  <div class="sidebar-box">
+    <h4 style="border-bottom:none;margin-bottom:4px">&#x1F4DC; History</h4>
+    <p style="font-size:13px;color:var(--ink-muted)">{{ '{:,}'.format(db_counts.get('history', 0)) }} passages from historical books, blogs, Wikipedia, and government documents.</p>
+  </div>
+  <div class="sidebar-box">
+    <h4 style="border-bottom:none;margin-bottom:4px">&#x2696; Village Code</h4>
+    <p style="font-size:13px;color:var(--ink-muted)">{{ '{:,}'.format(db_counts.get('code', 0)) }} passages from all 80 chapters of the municipal code and laws.</p>
+  </div>
+</div>
+{% endif %}
+{% endblock %}

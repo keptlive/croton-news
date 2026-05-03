@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Croton-on-Hudson — Village Map</title>
+<script src="https://unpkg.com/maplibre-gl@5.5.0/dist/maplibre-gl.js"></script>
+<link href="https://unpkg.com/maplibre-gl@5.5.0/dist/maplibre-gl.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1a1a; --paper: #faf8f5; --accent: #8b2500;
+    --blue: #1e3a5f; --green: #2d6a4f; --gold: #f7e8c8;
+    --sans: 'DM Sans', -apple-system, sans-serif;
+    --serif: 'Playfair Display', Georgia, serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: var(--sans); background: var(--paper); color: var(--ink); }
+
+  .header {
+    text-align: center; padding: 16px 16px 10px;
+    border-bottom: 3px double var(--ink);
+  }
+  .header h1 { font-family: var(--serif); font-size: 26px; font-weight: 900; letter-spacing: -0.02em; }
+  .header p { font-size: 11px; color: #888; letter-spacing: 0.1em; text-transform: uppercase; margin-top: 2px; }
+
+  #map { width: 100%; height: calc(100vh - 130px); min-height: 500px; }
+
+  .controls {
+    display: flex; gap: 6px; padding: 8px 12px;
+    overflow-x: auto; border-bottom: 1px solid #d4cfc7;
+    background: var(--paper); -webkit-overflow-scrolling: touch;
+  }
+  .controls button {
+    padding: 5px 12px; border: 1px solid #d4cfc7; border-radius: 20px;
+    background: white; font-size: 11px; font-family: var(--sans);
+    font-weight: 600; color: #454545; cursor: pointer; white-space: nowrap;
+    transition: all 0.15s;
+  }
+  .controls button:hover { border-color: var(--accent); color: var(--accent); }
+  .controls button.active { background: var(--accent); color: white; border-color: var(--accent); }
+
+  .maplibregl-popup-content {
+    border-radius: 6px !important; padding: 0 !important;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.18) !important;
+    max-width: 300px !important; font-family: var(--sans) !important;
+    overflow: hidden;
+  }
+  .maplibregl-popup-close-button {
+    font-size: 18px; padding: 4px 8px; color: #999;
+  }
+  .popup-img {
+    width: 100%; height: 100px; object-fit: cover; display: block;
+    background: linear-gradient(135deg, #1e3a5f 0%, #8b2500 100%);
+  }
+  .popup-body { padding: 12px 14px; }
+  .popup-body .badge {
+    display: inline-block; padding: 2px 8px; border-radius: 10px;
+    font-size: 9px; font-weight: 700; color: white;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    margin-bottom: 6px;
+  }
+  .popup-body h3 {
+    font-family: var(--serif); font-size: 15px; font-weight: 700;
+    margin-bottom: 4px; color: var(--ink); line-height: 1.25;
+  }
+  .popup-body p { font-size: 12px; color: #555; line-height: 1.4; margin-bottom: 8px; }
+  .popup-body a {
+    font-size: 11px; color: var(--accent); font-weight: 600;
+    text-decoration: none; display: inline-block;
+  }
+  .popup-body a:hover { text-decoration: underline; }
+
+  .legend {
+    position: absolute; bottom: 30px; left: 10px; background: rgba(255,255,255,0.95);
+    border-radius: 6px; padding: 10px 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    font-size: 10px; z-index: 10; backdrop-filter: blur(8px);
+  }
+  .legend h4 { font-size: 9px; text-transform: uppercase; letter-spacing: 0.12em; color: #999; margin-bottom: 5px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; padding: 2px 0; color: #555; }
+  .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .legend-line { width: 16px; height: 2px; flex-shrink: 0; border-radius: 1px; }
+
+  .style-toggle {
+    position: absolute; top: 10px; left: 10px; z-index: 10;
+    background: rgba(255,255,255,0.95); border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden;
+    backdrop-filter: blur(8px);
+  }
+  .style-toggle button {
+    padding: 6px 10px; border: none; background: transparent;
+    font-size: 10px; font-family: var(--sans); font-weight: 600;
+    color: #666; cursor: pointer; border-right: 1px solid #eee;
+  }
+  .style-toggle button:last-child { border-right: none; }
+  .style-toggle button.active { color: var(--accent); background: var(--gold); }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Croton-on-Hudson</h1>
+  <p>Village Map &middot; Government &amp; Community</p>
+</div>
+
+<div class="controls" id="filters">
+  <button class="active" data-filter="all">All</button>
+  <button data-filter="government">Government</button>
+  <button data-filter="parks">Parks</button>
+  <button data-filter="infrastructure">Infrastructure</button>
+  <button data-filter="schools">Schools</button>
+  <button data-filter="transport">Transport</button>
+  <button data-filter="news">In the News</button>
+</div>
+
+<div id="map">
+  <div class="style-toggle" id="style-toggle">
+    <button class="active" data-style="liberty">Street</button>
+    <button data-style="positron">Light</button>
+    <button data-style="satellite">Satellite</button>
+    <button data-style="hybrid">Hybrid</button>
+    <span style="width:1px;background:#ddd;margin:2px 4px"></span>
+    <button id="parcel-toggle" style="color:#b45309;border-color:#e5c07b">Parcels</button>
+  </div>
+  <div class="legend">
+    <h4>Legend</h4>
+    <div class="legend-item"><div class="legend-dot" style="background:#8b2500"></div> Government</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#2d6a4f"></div> Parks</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#1e3a5f"></div> Infrastructure</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> Schools</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#0284c7"></div> Transport</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#ea580c"></div> In the News</div>
+    <div class="legend-item"><div class="legend-line" style="background:#2d6a4f"></div> Aqueduct Trail</div>
+    <div class="legend-item"><div class="legend-line" style="background:#0284c7"></div> Croton River</div>
+    <div class="legend-item"><div class="legend-line" style="background:#b45309"></div> Property Lines</div>
+  </div>
+</div>
+
+<script>
+// ═══ PLACES ═══
+const CAT = {
+  government:     { color: '#8b2500', label: 'Government' },
+  parks:          { color: '#2d6a4f', label: 'Parks' },
+  infrastructure: { color: '#1e3a5f', label: 'Infrastructure' },
+  schools:        { color: '#7c3aed', label: 'Schools' },
+  transport:      { color: '#0284c7', label: 'Transport' },
+  news:           { color: '#ea580c', label: 'In the News' },
+};
+
+const places = [
+  // Government (OSM-verified)
+  { name: "Village Hall", cat: "government", coords: [-73.88768, 41.20831],
+    desc: "Stanley H. Kellerhouse Municipal Building. Board of Trustees, Village Manager, Clerk, Police.", link: "/meetings" },
+  { name: "Grand St Firehouse", cat: "government", coords: [-73.88271, 41.20983],
+    desc: "Engine Company #1 — 154 Grand Street. Volunteer fire department.", link: null },
+  { name: "Washington St Firehouse", cat: "government", coords: [-73.89398, 41.20855],
+    desc: "Engine Company #2 — 81 North Riverside Avenue.", link: null },
+  { name: "Harmon Firehouse", cat: "government", coords: [-73.88256, 41.19491],
+    desc: "Engine Company #3 — 30 Wayne Street, Harmon section.", link: null },
+  { name: "DPW Garage", cat: "government", coords: [-73.86231, 41.23310],
+    desc: "435 Yorktown Road. Solar canopy project approved 2026.", link: "/topic/solar-battery-storage" },
+
+  // Parks (OSM-verified)
+  { name: "Gouveia Park", cat: "parks", coords: [-73.90991, 41.21756],
+    desc: "Historic park undergoing restoration — driveway, lighting, fencing, Gouveia house.", link: "/topic/gouveia-park" },
+  { name: "Senasqua Park", cat: "parks", coords: [-73.89139, 41.20277],
+    desc: "Hudson River waterfront park with boat launch and picnic area.", link: null },
+  { name: "Black Rock Park", cat: "parks", coords: [-73.86688, 41.21427],
+    desc: "Park along the Croton River with dog park. Hours debated at board meetings.", link: null },
+  { name: "Dobbs Park", cat: "parks", coords: [-73.88184, 41.20976],
+    desc: "New playground equipment installed January 2026.", link: null },
+  { name: "Croton Point Park", cat: "parks", coords: [-73.89381, 41.17997],
+    desc: "Westchester County park on a peninsula in the Hudson River.", link: null },
+  { name: "Croton Gorge Park", cat: "parks", coords: [-73.85312, 41.22180],
+    desc: "County park at the base of New Croton Dam. Trailhead for Aqueduct.", link: null },
+
+  // Infrastructure (OSM-verified)
+  { name: "New Croton Dam", cat: "infrastructure", coords: [-73.85697, 41.22743],
+    desc: "1906 masonry gravity dam, 297 feet tall. USGS gauge site 01375000.", link: null },
+  { name: "Olcott Ave Water Main Break", cat: "news", coords: [-73.88550, 41.20750],
+    desc: "118-year-old cast iron pipe ruptured March 26, 2026, cutting village water.", link: "/topic/water-infrastructure" },
+
+  // Schools (OSM-verified)
+  { name: "Croton-Harmon High School", cat: "schools", coords: [-73.88219, 41.20676],
+    desc: "Croton-Harmon Union Free School District.", link: null },
+  { name: "Pierre Van Cortlandt Middle School", cat: "schools", coords: [-73.88333, 41.20522],
+    desc: "Glen Place.", link: null },
+  { name: "Carrie E. Tompkins Elementary", cat: "schools", coords: [-73.87459, 41.21019],
+    desc: "8 Gerstein Street.", link: null },
+
+  // Transport (OSM-verified)
+  { name: "Croton-Harmon Station", cat: "transport", coords: [-73.88262, 41.18984],
+    desc: "Metro-North Hudson Line. Major commuter station. Harmon parking expanded.", link: "/topic/harmon-parking" },
+
+  // In the News (OSM-verified)
+  { name: "52 Mount Airy Road", cat: "news", coords: [-73.88211, 41.21491],
+    desc: "Controversial 2-lot subdivision. 45 residents opposed at ZBA hearing.", link: "/topic/mount-airy-road-subdivision" },
+  { name: "ShopRite", cat: "news", coords: [-73.87939, 41.19218],
+    desc: "460 South Riverside Ave. Site of racist incident prompting community response.", link: null },
+];
+
+// ═══ ROUTE LINES ═══
+
+const aqueductTrail = [
+  [-73.85425, 41.22512], [-73.85737, 41.22381], [-73.85908, 41.22189],
+  [-73.85935, 41.21568], [-73.86521, 41.21270], [-73.86757, 41.20998],
+  [-73.86994, 41.20676], [-73.87076, 41.20393], [-73.87058, 41.20055],
+  [-73.87003, 41.19757], [-73.87011, 41.19408], [-73.86871, 41.19168],
+  [-73.86857, 41.18921],
+];
+
+const crotonRiver = [
+  [-73.85716, 41.22723], [-73.85956, 41.22471], [-73.86172, 41.22244],
+  [-73.86503, 41.21707], [-73.86604, 41.21444], [-73.87018, 41.21082],
+  [-73.87166, 41.20532], [-73.87251, 41.20340], [-73.87232, 41.19920],
+  [-73.87321, 41.19429], [-73.87386, 41.19118], [-73.87552, 41.18733],
+  [-73.87896, 41.18401], [-73.88799, 41.16810],
+];
+
+// ═══ MAP INIT ═══
+const VECTOR_STYLES = {
+  liberty: 'https://tiles.openfreemap.org/styles/liberty',
+  positron: 'https://tiles.openfreemap.org/styles/positron',
+};
+
+// Satellite style (ESRI World Imagery — free, no API key)
+const SATELLITE_STYLE = {
+  version: 8,
+  name: 'satellite',
+  sources: {
+    'esri-satellite': {
+      type: 'raster',
+      tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
+      tileSize: 256,
+      attribution: 'Esri, Maxar, Earthstar Geographics',
+      maxzoom: 19,
+    }
+  },
+  layers: [{ id: 'satellite', type: 'raster', source: 'esri-satellite' }],
+};
+
+// Hybrid style (satellite + vector labels on top)
+const HYBRID_STYLE = {
+  version: 8,
+  name: 'hybrid',
+  sources: {
+    'esri-satellite': {
+      type: 'raster',
+      tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
+      tileSize: 256,
+      attribution: 'Esri, Maxar, Earthstar Geographics',
+      maxzoom: 19,
+    },
+    'esri-labels': {
+      type: 'raster',
+      tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}'],
+      tileSize: 256,
+      maxzoom: 19,
+    }
+  },
+  layers: [
+    { id: 'satellite', type: 'raster', source: 'esri-satellite' },
+    { id: 'labels', type: 'raster', source: 'esri-labels' },
+  ],
+};
+
+let currentStyle = 'liberty';
+
+const map = new maplibregl.Map({
+  container: 'map',
+  style: VECTOR_STYLES[currentStyle],
+  center: [-73.880, 41.205],
+  zoom: 13.5,
+  pitch: 40,
+  bearing: -15,
+  maxZoom: 19,
+  minZoom: 11,
+});
+
+map.addControl(new maplibregl.NavigationControl(), 'top-right');
+map.addControl(new maplibregl.ScaleControl({ maxWidth: 120 }), 'bottom-right');
+
+// ═══ MARKERS ═══
+const allMarkers = [];
+
+places.forEach(place => {
+  const c = CAT[place.cat];
+
+  const el = document.createElement('div');
+  el.className = 'marker';
+  el.dataset.cat = place.cat;
+  el.style.cssText = `
+    width: 16px; height: 16px; border-radius: 50%;
+    background: ${c.color}; border: 2.5px solid white;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.35);
+    cursor: pointer; transition: transform 0.2s ease;
+  `;
+
+  const linkHtml = place.link
+    ? `<a href="${place.link}">Read coverage &rarr;</a>`
+    : '';
+
+  const popup = new maplibregl.Popup({ offset: 14, closeOnClick: true, maxWidth: '300px' })
+    .setHTML(`
+      <div class="popup-body">
+        <span class="badge" style="background:${c.color}">${c.label}</span>
+        <h3>${place.name}</h3>
+        <p>${place.desc}</p>
+        ${linkHtml}
+      </div>
+    `);
+
+  const marker = new maplibregl.Marker({ element: el })
+    .setLngLat(place.coords)
+    .setPopup(popup)
+    .addTo(map);
+
+  // Click to open popup and fly to location
+  el.addEventListener('click', (e) => {
+    e.stopPropagation();
+    // Close all other popups first
+    allMarkers.forEach(m => { if (m.marker.getPopup().isOpen()) m.marker.togglePopup(); });
+    marker.togglePopup();
+    map.flyTo({ center: place.coords, zoom: Math.max(map.getZoom(), 15), duration: 800 });
+  });
+
+  // Hover effect
+  el.addEventListener('mouseenter', () => { el.style.transform = 'scale(1.5)'; el.style.zIndex = '10'; });
+  el.addEventListener('mouseleave', () => { el.style.transform = 'scale(1)'; el.style.zIndex = ''; });
+
+  allMarkers.push({ marker, el, cat: place.cat, name: place.name });
+});
+
+// ═══ ROUTE LINES (on initial load) ═══
+map.on('load', addRouteLines);
+
+// ═══ FILTER BUTTONS ═══
+document.getElementById('filters').addEventListener('click', (e) => {
+  const btn = e.target.closest('button');
+  if (!btn) return;
+  document.querySelectorAll('#filters button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const filter = btn.dataset.filter;
+  allMarkers.forEach(({ el, cat }) => {
+    el.style.display = (filter === 'all' || cat === filter) ? '' : 'none';
+  });
+});
+
+// ═══ STYLE TOGGLE ═══
+function addRouteLines() {
+  try {
+    if (!map.getSource('croton-river')) {
+      map.addSource('croton-river', { type: 'geojson', data: { type: 'Feature', geometry: { type: 'LineString', coordinates: crotonRiver } } });
+      map.addLayer({ id: 'river-glow', type: 'line', source: 'croton-river', paint: { 'line-color': '#4a90d9', 'line-width': 10, 'line-opacity': 0.15, 'line-blur': 6 }, layout: { 'line-cap': 'round' } });
+      map.addLayer({ id: 'river-line', type: 'line', source: 'croton-river', paint: { 'line-color': '#4a90d9', 'line-width': 3.5, 'line-opacity': 0.8 }, layout: { 'line-cap': 'round', 'line-join': 'round' } });
+    }
+    if (!map.getSource('aqueduct')) {
+      map.addSource('aqueduct', { type: 'geojson', data: { type: 'Feature', geometry: { type: 'LineString', coordinates: aqueductTrail } } });
+      map.addLayer({ id: 'aqueduct-line', type: 'line', source: 'aqueduct', paint: { 'line-color': currentStyle === 'satellite' || currentStyle === 'hybrid' ? '#44cc77' : '#2d6a4f', 'line-width': 3, 'line-opacity': 0.9, 'line-dasharray': [2, 1.5] }, layout: { 'line-cap': 'round', 'line-join': 'round' } });
+    }
+  } catch(e) { console.log('Route add error:', e); }
+}
+
+function setMapStyle(styleName) {
+  currentStyle = styleName;
+  let style;
+  if (styleName === 'satellite') style = SATELLITE_STYLE;
+  else if (styleName === 'hybrid') style = HYBRID_STYLE;
+  else style = VECTOR_STYLES[styleName];
+  map.setStyle(style);
+  map.once('styledata', () => setTimeout(addRouteLines, 300));
+  // Update marker borders for visibility on satellite
+  const isSat = styleName === 'satellite' || styleName === 'hybrid';
+  allMarkers.forEach(({ el }) => {
+    el.style.borderColor = isSat ? 'white' : 'white';
+    el.style.boxShadow = isSat ? '0 1px 6px rgba(0,0,0,0.6)' : '0 1px 4px rgba(0,0,0,0.35)';
+    el.style.width = isSat ? '18px' : '16px';
+    el.style.height = isSat ? '18px' : '16px';
+  });
+}
+
+document.getElementById('style-toggle').addEventListener('click', (e) => {
+  const btn = e.target.closest('button');
+  if (!btn) return;
+  if (btn.id === 'parcel-toggle') return; // handled separately
+  if (!btn.dataset.style) return;
+  document.querySelectorAll('#style-toggle button[data-style]').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  setMapStyle(btn.dataset.style);
+});
+
+// ═══ PARCEL OVERLAY (Westchester County GIS) ═══
+let parcelsVisible = false;
+const PARCEL_SOURCE_ID = 'wc-parcels';
+const PARCEL_LAYER_ID = 'parcels-overlay';
+
+function addParcelLayer() {
+  if (map.getSource(PARCEL_SOURCE_ID)) return;
+  map.addSource(PARCEL_SOURCE_ID, {
+    type: 'raster',
+    tiles: [
+      'https://giswww.westchestergov.com/arcgis/rest/services/MunicipalTaxParcels_WGS84/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=512,512&format=png32&transparent=true&f=image'
+    ],
+    tileSize: 512,
+    minzoom: 14,
+    maxzoom: 20,
+  });
+  map.addLayer({
+    id: PARCEL_LAYER_ID,
+    type: 'raster',
+    source: PARCEL_SOURCE_ID,
+    minzoom: 14,
+    paint: { 'raster-opacity': 0.75 },
+  });
+}
+
+function removeParcelLayer() {
+  if (map.getLayer(PARCEL_LAYER_ID)) map.removeLayer(PARCEL_LAYER_ID);
+  if (map.getSource(PARCEL_SOURCE_ID)) map.removeSource(PARCEL_SOURCE_ID);
+}
+
+document.getElementById('parcel-toggle').addEventListener('click', () => {
+  const btn = document.getElementById('parcel-toggle');
+  parcelsVisible = !parcelsVisible;
+  if (parcelsVisible) {
+    btn.classList.add('active');
+    btn.style.background = '#b45309';
+    btn.style.color = 'white';
+    btn.style.borderColor = '#b45309';
+    addParcelLayer();
+    // Zoom in if too far out for parcels
+    if (map.getZoom() < 15) map.flyTo({ zoom: 15, duration: 800 });
+  } else {
+    btn.classList.remove('active');
+    btn.style.background = 'transparent';
+    btn.style.color = '#b45309';
+    btn.style.borderColor = '#e5c07b';
+    removeParcelLayer();
+  }
+});
+
+// Re-add parcels after style change if they were visible
+const origSetMapStyle = setMapStyle;
+setMapStyle = function(styleName) {
+  origSetMapStyle(styleName);
+  if (parcelsVisible) {
+    map.once('styledata', () => setTimeout(addParcelLayer, 500));
+  }
+};
+</script>
+
+</body>
+</html>

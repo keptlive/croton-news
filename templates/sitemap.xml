@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://croton.news/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://croton.news/editorials</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://croton.news/meetings</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://croton.news/calendar</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://croton.news/topics</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://croton.news/entities</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://croton.news/documents</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://croton.news/search</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://croton.news/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://croton.news/contact</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://croton.news/editorial-policy</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  {% for m in meetings %}
+  <url><loc>https://croton.news/article/{{ m.id }}</loc><lastmod>{{ m.date }}</lastmod><priority>{% if m.article_model == 'claude-opus-4-feature' %}0.9{% else %}0.6{% endif %}</priority></url>
+  {% endfor %}
+  {% for a in legacy %}
+  <url><loc>https://croton.news/article/{{ a.doc_id }}</loc><lastmod>{{ a.date }}</lastmod><priority>0.5</priority></url>
+  {% endfor %}
+  {% for m in all_meetings %}
+  <url><loc>https://croton.news/meeting/{{ m.id }}</loc><lastmod>{{ m.date }}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  {% if m.has_transcript and m.event_id %}
+  <url><loc>https://croton.news/transcript/{{ m.event_id }}</loc><lastmod>{{ m.date }}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  {% endif %}
+  {% if m.event_id and (m.has_transcript or m.id) %}
+  <url><loc>https://croton.news/watch/{{ m.event_id }}</loc><lastmod>{{ m.date }}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  {% endif %}
+  {% endfor %}
+  {% for t in topics %}
+  <url><loc>https://croton.news/topic/{{ t.slug }}</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  {% endfor %}
+  {% for e in entities %}
+  <url><loc>https://croton.news/entity/{{ e.slug }}</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  {% endfor %}
+</urlset>

@@ -1,0 +1,35 @@
+{% extends "history/base.html" %}
+{% block title %}All Documents{% endblock %}
+
+{% block content %}
+<div class="bc"><a href="/history">Home</a> / All Documents</div>
+
+<h1 style="font: 900 28px var(--serif); margin-bottom: 6px;">All Source Documents</h1>
+<p style="font-size: 15px; color: var(--ink-2); margin-bottom: 24px;">
+  {{ totals.files }} source documents &middot; {{ "{:,}".format(totals.chunks) }} passages &middot; {{ "{:,}".format(totals.words) }} words
+</p>
+
+<table class="tbl">
+  <thead><tr><th>Document</th><th>File</th><th class="r">Passages</th><th class="r">Words</th></tr></thead>
+  <tbody>
+    {% set ns = namespace(cur='') %}
+    {% for s in sources %}
+      {% if s.source != ns.cur %}
+        {% set ns.cur = s.source %}
+        <tr style="background:var(--bg-warm);">
+          <td colspan="4" style="font-weight:700;padding-top:14px;border-bottom:2px solid var(--border);">
+            {{ s.source or 'Other' }}
+            {% if s.source in source_urls %}<a href="{{ source_urls[s.source] }}" target="_blank" style="font-size:12px;font-weight:400;margin-left:8px;">Original &rarr;</a>{% endif %}
+          </td>
+        </tr>
+      {% endif %}
+      <tr>
+        <td><a href="/history/source/{{ s.source_file }}">{{ s.sample_title or s.source_file }}</a></td>
+        <td style="color:var(--ink-4);font-size:13px;">{{ s.source_file }}</td>
+        <td class="r">{{ s.chunks }}</td>
+        <td class="r">{{ "{:,}".format(s.words) }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

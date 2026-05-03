@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block title %}Send a Tip or Request a Fact-Check{% endblock %}
+{% block meta_desc %}Send a news tip or request a fact-check to croton.news. We read every submission, verify before publishing, and protect our sources.{% endblock %}
+
+{% block content %}
+<div style="max-width:640px;margin:0 auto;padding:20px 0">
+
+  <h1 style="font-family:var(--serif-display);font-size:32px;font-weight:900;margin-bottom:8px">Send a Tip or Request a Fact-Check</h1>
+  <p style="font-family:var(--serif-body);font-size:16px;line-height:1.6;color:var(--ink-secondary);margin-bottom:24px">
+    Know something Croton-on-Hudson residents should know about? See a claim on social media or in the news that doesn't sound right? We want to hear from you.
+  </p>
+
+  {% if submitted %}
+  <div style="padding:32px;background:#f0fdf4;border:1px solid #86efac;border-radius:8px;text-align:center;margin:40px 0">
+    <div style="font-size:32px;margin-bottom:12px">&#10003;</div>
+    <h2 style="font-family:var(--serif-display);font-size:22px;margin-bottom:8px;color:#166534">Received</h2>
+    <p style="font-family:var(--sans);font-size:14px;color:#166534;line-height:1.6">
+      Thank you. We read every submission and will look into this. If you left contact information, we may reach out for follow-up.
+    </p>
+    <a href="/" style="display:inline-block;margin-top:16px;padding:10px 24px;background:var(--ink);color:var(--paper);border-radius:var(--radius);font-family:var(--sans);font-size:14px;font-weight:600;text-decoration:none">Back to Homepage</a>
+  </div>
+
+  {% else %}
+
+  {% if error %}
+  <div style="padding:12px 16px;background:#fef2f2;border:1px solid #fca5a5;border-radius:6px;margin-bottom:20px;font-family:var(--sans);font-size:14px;color:#991b1b">
+    {{ error }}
+  </div>
+  {% endif %}
+
+  <div style="padding:16px 20px;background:var(--paper-warm);border-radius:8px;margin-bottom:24px;font-family:var(--sans);font-size:13px;line-height:1.6;color:var(--ink-secondary)">
+    <strong style="color:var(--ink)">What you can send us:</strong>
+    <ul style="margin:8px 0 0 20px;padding:0">
+      <li><strong>News tips</strong> &mdash; something happening in the village, schools, or local government that we should cover</li>
+      <li><strong>Fact-check requests</strong> &mdash; a Facebook post, news article, Substack editorial, flyer, or public claim you'd like us to verify</li>
+      <li><strong>Corrections</strong> &mdash; something we got wrong in an article (we take accuracy seriously)</li>
+      <li><strong>Documents</strong> &mdash; public records, meeting materials, or other evidence that supports a story</li>
+    </ul>
+    <div style="margin-top:12px;padding-top:10px;border-top:1px solid var(--rule)">
+      <strong style="color:var(--ink)">How we handle submissions:</strong>
+      <ul style="margin:6px 0 0 20px;padding:0">
+        <li>Tips are <strong>anonymous by default</strong> &mdash; contact info is optional</li>
+        <li>We <strong>verify before publishing</strong> &mdash; submissions inform our reporting, not replace it</li>
+        <li>We <strong>protect sources</strong> &mdash; we never reveal who sent a tip without permission</li>
+        <li>Fact-checks cite <strong>primary sources</strong> with footnotes so you can verify our work too</li>
+      </ul>
+    </div>
+  </div>
+
+  <form method="POST" action="/tips" style="display:flex;flex-direction:column;gap:20px">
+
+    <div>
+      <label style="font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);display:block;margin-bottom:6px">
+        What are you sending?
+      </label>
+      <select name="topic" style="width:100%;padding:10px 12px;border:1px solid var(--rule);border-radius:var(--radius);font-family:var(--sans);font-size:14px;background:var(--paper)">
+        <option value="">Select a type (optional)</option>
+        <option value="tip">News tip &mdash; something we should investigate</option>
+        <option value="factcheck">Fact-check request &mdash; verify a claim or article</option>
+        <option value="correction">Correction &mdash; something we got wrong</option>
+        <option value="village">Village government / Board of Trustees</option>
+        <option value="schools">Schools / Croton-Harmon</option>
+        <option value="library">Library</option>
+        <option value="development">Development / Planning / Zoning</option>
+        <option value="safety">Public safety</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div>
+      <label style="font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);display:block;margin-bottom:6px">
+        Your Message <span style="color:#dc2626">*</span>
+      </label>
+      <textarea name="message" required minlength="10" rows="6" placeholder="For tips: What should we look into? Names, dates, locations help.&#10;&#10;For fact-checks: Paste the link or quote the claim, and tell us what seems off."
+        style="width:100%;padding:12px;border:1px solid var(--rule);border-radius:var(--radius);font-family:var(--sans);font-size:14px;line-height:1.6;resize:vertical;background:var(--paper)"></textarea>
+      <p style="font-family:var(--sans);font-size:11px;color:var(--ink-faint);margin-top:4px">For fact-checks, include a link to the post or article if possible.</p>
+    </div>
+
+    <div style="padding:16px 20px;background:var(--paper-warm);border-radius:8px">
+      <p style="font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);margin-bottom:12px">
+        Contact Information <span style="font-weight:400;color:var(--ink-muted)">(optional &mdash; leave blank to stay anonymous)</span>
+      </p>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <input type="text" name="name" placeholder="Name"
+          style="padding:10px 12px;border:1px solid var(--rule);border-radius:var(--radius);font-family:var(--sans);font-size:14px;background:var(--paper)">
+        <input type="email" name="email" placeholder="Email"
+          style="padding:10px 12px;border:1px solid var(--rule);border-radius:var(--radius);font-family:var(--sans);font-size:14px;background:var(--paper)">
+      </div>
+    </div>
+
+    <button type="submit" style="padding:14px 32px;background:var(--ink);color:var(--paper);border:none;border-radius:var(--radius);font-family:var(--sans);font-size:15px;font-weight:700;cursor:pointer;align-self:flex-start">
+      Submit
+    </button>
+
+  </form>
+
+  {% endif %}
+
+</div>
+{% endblock %}

@@ -1,611 +1,2132 @@
-"""Croton News — Hyperlocal news aggregator for Croton-on-Hudson, NY."""
+"""
+croton.news — Hyperlocal news for Croton-on-Hudson, NY
+
+Serves:
+  - AI-generated news articles from meeting transcripts (rag.db)
+  - Full-text document search via FTS5 (rag.db chunks_fts)
+  - Community calendar (events.json)
+  - Meeting index by committee
+"""
 
 import json
-import logging
 import os
+import sys
 import sqlite3
 import threading
-import time
-from datetime import datetime, timezone
-from pathlib import Path
-
-import requests as http_requests
+from datetime import datetime
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from flask import (
-    Flask, Response, abort, g, jsonify, render_template, request,
+    Flask, Response, abort, g, jsonify, render_template, render_template_string, request,
+    redirect, send_from_directory,
 )
 
-from scrapers import ALL_SCRAPERS
+# ── Config ────────────────────────────────────────────────────────
 
-# ---------------------------------------------------------------------------
-# Config
-# ---------------------------------------------------------------------------
+# Load .env if present
+_env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+if os.path.exists(_env_path):
+    with open(_env_path) as _f:
+        for _line in _f:
+            _line = _line.strip()
+            if _line and not _line.startswith("#") and "=" in _line:
+                _k, _v = _line.split("=", 1)
+                os.environ.setdefault(_k.strip(), _v.strip())
 
-BASE_DIR = Path(__file__).parent
-DB_PATH = BASE_DIR / "data" / "croton.db"
-DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ECODE_DIR = os.path.join(BASE_DIR, "ecode360")
+SUMMARIES_DB = os.path.join(ECODE_DIR, "summaries.db")
+PHOTOS_DB = os.path.join(BASE_DIR, "photos.db")
+# rag/ is sibling to site/ locally, or child of BASE_DIR on VPS
+_rag_sibling = os.path.join(os.path.dirname(BASE_DIR), "rag")
+_rag_child = os.path.join(BASE_DIR, "rag")
+RAG_DIR = _rag_child if os.path.isdir(_rag_child) else _rag_sibling
+STATIC_DIR = os.path.join(BASE_DIR, "static")
+TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
 
-# Tiered scrape intervals (seconds)
-SCRAPE_TIERS = {
-    "fast": 300,     # 5 min — weather, transit
-    "medium": 3600,  # 1 hr — news, police, fire, events
-    "slow": 21600,   # 6 hr — schools, regional, library
-}
-SCRAPER_TIER = {
-    "weather": "fast",
-    "transit": "fast",
-    "water": "fast",
-    "emergency": "fast",
-    "village": "medium",
-    "police": "medium",
-    "fire": "medium",
-    "tides": "fast",
-    "riverjournal": "medium",
-    "boards": "slow",
-    "schools": "slow",
-    "cortlandt": "slow",
-    "library": "slow",
-}
-TICK_INTERVAL = 60  # check every 60s
-CATEGORIES = {
-    "municipal": {"label": "Village News", "icon": "🏛️", "color": "#2563eb"},
-    "police": {"label": "Police Blotter", "icon": "🚔", "color": "#dc2626"},
-    "fire": {"label": "Fire Department", "icon": "🚒", "color": "#ea580c"},
-    "schools": {"label": "Schools", "icon": "🎓", "color": "#16a34a"},
-    "regional": {"label": "Regional", "icon": "🗺️", "color": "#7c3aed"},
-    "weather": {"label": "Weather", "icon": "🌤️", "color": "#0891b2"},
-    "transit": {"label": "Transit", "icon": "🚂", "color": "#ca8a04"},
-    "events": {"label": "Events", "icon": "📅", "color": "#9333ea"},
+COMMITTEES = {
+    "Board Of Trustees": {"slug": "board-of-trustees", "icon": "🏛️", "color": "#1e40af"},
+    "Planning Board": {"slug": "planning-board", "icon": "📐", "color": "#7c3aed"},
+    "Zoning Board of Appeals": {"slug": "zba", "icon": "⚖️", "color": "#b45309"},
+    "Sustainability Committee": {"slug": "sustainability", "icon": "🌿", "color": "#15803d"},
+    "Recreation Advisory Committee": {"slug": "recreation", "icon": "🏞️", "color": "#0d9488"},
+    "Conservation Advisory Council": {"slug": "conservation", "icon": "🦅", "color": "#166534"},
+    "Bicycle and Pedestrian Committee": {"slug": "bike-ped", "icon": "🚲", "color": "#0284c7"},
+    "Police Advisory Committee (PAC)": {"slug": "police", "icon": "🛡️", "color": "#dc2626"},
+    "Fire Council": {"slug": "fire-council", "icon": "🚒", "color": "#ea580c"},
+    "Waterfront Advisory Committee": {"slug": "waterfront", "icon": "⚓", "color": "#0369a1"},
+    "IDEA Advisory Committee": {"slug": "idea", "icon": "💡", "color": "#7c3aed"},
+    "Board of Education": {"slug": "board-of-education", "icon": "🎓", "color": "#7e22ce"},
+    "Topics": {"slug": "topics-feature", "icon": "📰", "color": "#991b1b"},
 }
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
-)
-logger = logging.getLogger("croton-news")
+SLUG_TO_COMMITTEE = {v["slug"]: k for k, v in COMMITTEES.items()}
 
-# ---------------------------------------------------------------------------
-# Database
-# ---------------------------------------------------------------------------
+COMMENTS_DB = os.path.join(BASE_DIR, "comments.db")
 
-def get_db() -> sqlite3.Connection:
-    if "db" not in g:
-        g.db = sqlite3.connect(str(DB_PATH))
-        g.db.row_factory = sqlite3.Row
-        g.db.execute("PRAGMA journal_mode=WAL")
-    return g.db
+app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)
 
+# ── History Blueprint ─────────────────────────────────────────────
+from history_bp import history_bp
+app.register_blueprint(history_bp, url_prefix='/history')
 
-def init_db():
-    conn = sqlite3.connect(str(DB_PATH))
-    conn.executescript("""
-        CREATE TABLE IF NOT EXISTS articles (
-            id TEXT PRIMARY KEY,
-            title TEXT NOT NULL,
-            summary TEXT DEFAULT '',
-            content TEXT DEFAULT '',
-            source TEXT NOT NULL,
-            category TEXT NOT NULL,
-            url TEXT DEFAULT '',
-            published_at TEXT,
-            scraped_at TEXT NOT NULL
-        );
-        CREATE INDEX IF NOT EXISTS idx_articles_category ON articles(category);
-        CREATE INDEX IF NOT EXISTS idx_articles_published ON articles(published_at DESC);
-        CREATE INDEX IF NOT EXISTS idx_articles_source ON articles(source);
-    """)
-    conn.close()
+# ── Database helpers ──────────────────────────────────────────────
+
+def get_summaries_db():
+    if "summaries_db" not in g:
+        g.summaries_db = sqlite3.connect(SUMMARIES_DB)
+        g.summaries_db.row_factory = sqlite3.Row
+    return g.summaries_db
 
 
-def upsert_articles(articles: list[dict]):
-    conn = sqlite3.connect(str(DB_PATH))
-    try:
-        for art in articles:
-            conn.execute("""
-                INSERT INTO articles (id, title, summary, content, source, category, url, published_at, scraped_at)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ON CONFLICT(id) DO UPDATE SET
-                    title=excluded.title,
-                    summary=excluded.summary,
-                    source=excluded.source,
-                    category=excluded.category,
-                    url=excluded.url,
-                    published_at=COALESCE(excluded.published_at, articles.published_at),
-                    scraped_at=excluded.scraped_at
-            """, (
-                art["id"],
-                art["title"],
-                art.get("summary", ""),
-                art.get("content", ""),
-                art["source"],
-                art["category"],
-                art.get("url", ""),
-                art.get("published_at"),
-                art.get("scraped_at", datetime.now(timezone.utc).isoformat()),
-            ))
-        conn.commit()
-    finally:
-        conn.close()
+def get_rag_db():
+    if "rag_db" not in g:
+        g.rag_db = sqlite3.connect(os.path.join(RAG_DIR, "rag.db"))
+        g.rag_db.row_factory = sqlite3.Row
+    return g.rag_db
 
+def get_photos_db():
+    if "photos_db" not in g:
+        g.photos_db = sqlite3.connect(PHOTOS_DB)
+        g.photos_db.row_factory = sqlite3.Row
+        g.photos_db.execute("PRAGMA foreign_keys=ON")
+    return g.photos_db
 
-def query_articles(category=None, search=None, limit=50, offset=0) -> list[dict]:
-    conn = sqlite3.connect(str(DB_PATH))
-    conn.row_factory = sqlite3.Row
-    clauses = []
-    params = []
-
-    if category:
-        clauses.append("category = ?")
-        params.append(category)
-    if search:
-        clauses.append("(title LIKE ? OR summary LIKE ?)")
-        params.extend([f"%{search}%", f"%{search}%"])
-
-    where = f"WHERE {' AND '.join(clauses)}" if clauses else ""
-    rows = conn.execute(
-        f"SELECT * FROM articles {where} ORDER BY "
-        f"COALESCE(published_at, scraped_at) DESC LIMIT ? OFFSET ?",
-        params + [limit, offset],
-    ).fetchall()
-    conn.close()
-    return [dict(r) for r in rows]
-
-
-def get_article(article_id: str) -> dict | None:
-    conn = sqlite3.connect(str(DB_PATH))
-    conn.row_factory = sqlite3.Row
-    row = conn.execute("SELECT * FROM articles WHERE id = ?", (article_id,)).fetchone()
-    conn.close()
-    return dict(row) if row else None
-
-
-def count_articles(category=None) -> int:
-    conn = sqlite3.connect(str(DB_PATH))
-    clause = "WHERE category = ?" if category else ""
-    params = [category] if category else []
-    count = conn.execute(
-        f"SELECT COUNT(*) FROM articles {clause}", params
-    ).fetchone()[0]
-    conn.close()
-    return count
-
-
-def category_counts() -> dict:
-    conn = sqlite3.connect(str(DB_PATH))
-    rows = conn.execute(
-        "SELECT category, COUNT(*) as cnt FROM articles GROUP BY category"
-    ).fetchall()
-    conn.close()
-    return {r[0]: r[1] for r in rows}
-
-
-# ---------------------------------------------------------------------------
-# Scraping
-# ---------------------------------------------------------------------------
-
-scraper_instances = [cls() for cls in ALL_SCRAPERS]
-_last_scrape: dict[str, float] = {}  # scraper_name -> last run timestamp
-
-
-def run_scrapers(force_all: bool = False):
-    """Run scrapers that are due based on their tier interval."""
-    now = time.time()
-    total = 0
-    for scraper in scraper_instances:
-        tier = SCRAPER_TIER.get(scraper.name, "medium")
-        interval = SCRAPE_TIERS[tier]
-        last = _last_scrape.get(scraper.name, 0)
-        if not force_all and (now - last) < interval:
-            continue
-        try:
-            articles = scraper.scrape()
-            if articles:
-                upsert_articles(articles)
-                total += len(articles)
-            _last_scrape[scraper.name] = now
-        except Exception as e:
-            logger.error(f"Scraper {scraper.name} failed: {e}")
-    if total:
-        logger.info(f"Scrape tick — {total} articles processed")
-
-
-def scrape_loop():
-    """Background thread that scrapes on tiered intervals."""
-    # First run: scrape everything
-    logger.info("Initial scrape — all sources...")
-    run_scrapers(force_all=True)
-    logger.info("Initial scrape complete")
-    while True:
-        try:
-            run_scrapers()
-        except Exception as e:
-            logger.error(f"Scrape loop error: {e}")
-        time.sleep(TICK_INTERVAL)
-
-
-# ---------------------------------------------------------------------------
-# Flask App
-# ---------------------------------------------------------------------------
-
-app = Flask(__name__)
-app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 3600
-
+def get_comments_db():
+    if "comments_db" not in g:
+        g.comments_db = sqlite3.connect(COMMENTS_DB)
+        g.comments_db.row_factory = sqlite3.Row
+        g.comments_db.execute("PRAGMA journal_mode=WAL")
+        g.comments_db.executescript("""
+            CREATE TABLE IF NOT EXISTS comments (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                article_id TEXT NOT NULL,
+                name TEXT NOT NULL,
+                body TEXT NOT NULL,
+                created_at TEXT DEFAULT (datetime('now')),
+                approved INTEGER DEFAULT 1,
+                ip TEXT
+            );
+            CREATE INDEX IF NOT EXISTS idx_comments_article ON comments(article_id, approved);
+        """)
+    return g.comments_db
 
 @app.teardown_appcontext
-def close_db(exception):
-    db = g.pop("db", None)
-    if db is not None:
-        db.close()
+def close_dbs(exception):
+    for key in ("summaries_db", "rag_db", "photos_db", "comments_db",
+                "history_db", "mcdonald_db"):
+        db = g.pop(key, None)
+        if db:
+            db.close()
+
+@app.after_request
+def add_cache_headers(response):
+    path = request.path
+    if path.startswith('/photos/') or path.startswith('/static/'):
+        response.cache_control.public = True
+        response.cache_control.max_age = 86400  # 1 day
+    elif path.startswith('/api/'):
+        response.cache_control.public = True
+        response.cache_control.max_age = 300  # 5 min
+    elif path in ('/feed', '/sitemap.xml', '/news-sitemap.xml', '/robots.txt'):
+        response.cache_control.public = True
+        response.cache_control.max_age = 3600  # 1 hour
+    return response
 
 
-def _ctx():
-    """Common template context."""
+# ── Template context ──────────────────────────────────────────────
+
+import re
+
+@app.template_filter("md_bold")
+def md_bold_filter(text):
+    """Convert **text** to <strong>text</strong>."""
+    if not text:
+        return text
+    return re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', text)
+
+@app.context_processor
+def inject_globals():
     return {
-        "categories": CATEGORIES,
-        "cat_counts": category_counts(),
-        "total_count": count_articles(),
-        "now": datetime.now(timezone.utc),
+        "now": datetime.now(),
+        "committees": COMMITTEES,
     }
 
 
-# --- HTML Routes ---
+# ── Routes: Pages ─────────────────────────────────────────────────
 
 @app.route("/")
 def index():
-    search = request.args.get("q", "").strip()
-    articles = query_articles(search=search if search else None, limit=40)
-    return render_template("index.html", articles=articles, search=search, **_ctx())
+    rag = get_rag_db()
+
+    # Latest articles from meetings table
+    articles = rag.execute("""
+        SELECT id, committee, date, quick_summary, article, headline,
+               event_id, has_transcript, has_video
+        FROM meetings
+        WHERE article IS NOT NULL AND article != ''
+        ORDER BY date DESC LIMIT 20
+    """).fetchall()
+
+    # Committee meeting counts
+    committee_counts = {}
+    for row in rag.execute("SELECT committee, COUNT(*) as c FROM meetings GROUP BY committee ORDER BY c DESC"):
+        committee_counts[row["committee"]] = row["c"]
+
+    # Fire dept RSS
+    fire_articles = []
+    try:
+        import requests as http
+        import re as _re
+        fr = http.get("https://www.crotonfd.org/apps/public/news/rss/",
+                       timeout=8, allow_redirects=True)
+        if fr.ok:
+            items = _re.findall(r'<item>(.*?)</item>', fr.text, _re.DOTALL)
+            for item in items[:5]:
+                t = _re.search(r'<title>(.*?)</title>', item, _re.DOTALL)
+                d = _re.search(r'<pubDate>(.*?)</pubDate>', item, _re.DOTALL)
+                l = _re.search(r'<link>(.*?)</link>', item, _re.DOTALL)
+                desc = _re.search(r'<description>(.*?)</description>', item, _re.DOTALL)
+                if t:
+                    from datetime import datetime as _dt
+                    date_str = ""
+                    try:
+                        date_str = _dt.strptime(d.group(1).strip()[:25],
+                                                '%a, %d %b %Y %H:%M:%S').strftime('%Y-%m-%d') if d else ""
+                    except Exception:
+                        pass
+                    fire_articles.append({
+                        "headline": t.group(1).strip(),
+                        "short_summary": _re.sub(r'<[^>]+>', '', desc.group(1)).strip()[:200] if desc else "",
+                        "date": date_str,
+                        "committee": "Fire Department",
+                        "doc_id": None,
+                        "url": l.group(1).strip() if l else "",
+                        "source": "fire",
+                    })
+    except Exception:
+        pass
+
+    return render_template("index.html",
+        articles=articles,
+        fire_articles=fire_articles,
+        committee_counts=committee_counts,
+    )
+
+
+@app.route("/editorials")
+def editorials():
+    rag = get_rag_db()
+    articles = rag.execute("""
+        SELECT id, committee, date, quick_summary, article, headline,
+               event_id, has_transcript, has_video, word_count
+        FROM meetings
+        WHERE article_model = 'claude-opus-4-feature'
+        ORDER BY date DESC
+    """).fetchall()
+    return render_template("editorials.html", articles=articles)
+
+
+@app.route("/api/weather")
+def api_weather():
+    """Fetch live weather + AQI + river for Croton-on-Hudson."""
+    import requests as http
+    data = {}
+
+    # NWS forecast
+    try:
+        fr = http.get("https://api.weather.gov/gridpoints/OKX/34,58/forecast",
+                       headers={"User-Agent": "croton.news"}, timeout=8)
+        if fr.ok:
+            periods = fr.json()["properties"]["periods"]
+            data["weather"] = {
+                "name": periods[0]["name"],
+                "temp": periods[0]["temperature"],
+                "unit": periods[0]["temperatureUnit"],
+                "forecast": periods[0]["shortForecast"],
+                "detail": periods[0]["detailedForecast"],
+                "wind": periods[0]["windSpeed"],
+                "icon": periods[0].get("icon", ""),
+            }
+            # Include tonight + tomorrow for "click for more"
+            data["forecast"] = [{
+                "name": p["name"],
+                "temp": p["temperature"],
+                "unit": p["temperatureUnit"],
+                "forecast": p["shortForecast"],
+                "detail": p["detailedForecast"],
+                "wind": p["windSpeed"],
+            } for p in periods[:6]]
+    except Exception:
+        pass
+
+    # Open-Meteo AQI (free, no key)
+    try:
+        r = http.get("https://air-quality-api.open-meteo.com/v1/air-quality"
+                      "?latitude=41.2087&longitude=-73.8912"
+                      "&current=us_aqi,pm2_5,pm10"
+                      "&timezone=America/New_York", timeout=5)
+        if r.ok:
+            cur = r.json().get("current", {})
+            aqi_val = cur.get("us_aqi", 0)
+            if aqi_val <= 50:
+                cat = "Good"
+            elif aqi_val <= 100:
+                cat = "Moderate"
+            elif aqi_val <= 150:
+                cat = "Unhealthy for Sensitive Groups"
+            else:
+                cat = "Unhealthy"
+            data["aqi"] = {
+                "value": aqi_val,
+                "category": cat,
+                "pm25": cur.get("pm2_5"),
+                "pm10": cur.get("pm10"),
+            }
+    except Exception:
+        pass
+
+    # Croton River at New Croton Dam (01375000) — discharge (cfs)
+    # 6 years of daily data (2020-2026) for historical comparison
+    try:
+        # Current flow
+        r = http.get("https://waterservices.usgs.gov/nwis/iv/"
+                      "?format=json&sites=01375000&parameterCd=00060&period=PT2H",
+                      timeout=5)
+        if r.ok:
+            ts = r.json()["value"]["timeSeries"]
+            if ts and ts[0]["values"][0]["value"]:
+                val = ts[0]["values"][0]["value"][-1]
+                flow = float(val["value"])
+                # Historical average for this day of year (2020-2025)
+                from datetime import datetime as _dt
+                mmdd = _dt.now().strftime("-%m-%d")
+                try:
+                    hr = http.get("https://waterservices.usgs.gov/nwis/dv/"
+                                  "?format=json&sites=01375000&parameterCd=00060"
+                                  "&startDT=2015-01-01&endDT=2025-12-31", timeout=8)
+                    if hr.ok:
+                        hvals = [float(v["value"]) for v in
+                                 hr.json()["value"]["timeSeries"][0]["values"][0]["value"]
+                                 if v["value"] and mmdd in v["dateTime"]]
+                        avg = round(sum(hvals) / len(hvals), 1) if hvals else flow
+                    else:
+                        avg = flow
+                except Exception:
+                    avg = flow
+                diff = round(flow - avg, 1)
+                pct = round((diff / avg) * 100) if avg else 0
+                data["river"] = {
+                    "flow_cfs": flow,
+                    "avg_cfs": avg,
+                    "diff_cfs": diff,
+                    "diff_pct": pct,
+                    "status": "above" if pct > 15 else "below" if pct < -15 else "near",
+                    "time": val["dateTime"],
+                    "site": "Croton River at New Croton Dam",
+                    "years": len(hvals) if 'hvals' in dir() else 0,
+                }
+    except Exception:
+        pass
+
+    return jsonify(data)
+
+
+# Redirects for deleted articles that have backlinks
+ARTICLE_REDIRECTS = {
+    "59": "/article/58",  # High school → committee appointments editorial
+    "60": "/article/61",  # Court study → court consolidation editorial
+}
+
+@app.route("/article/<doc_id>")
+def article_page(doc_id):
+    # Handle redirects for deleted articles
+    if doc_id in ARTICLE_REDIRECTS:
+        from flask import redirect
+        return redirect(ARTICLE_REDIRECTS[doc_id], code=301)
+
+    rag = get_rag_db()
+
+    # Try meetings table first (by id or event_id)
+    meeting = rag.execute(
+        "SELECT * FROM meetings WHERE id = ? OR event_id = ?", (doc_id, doc_id)
+    ).fetchone()
+
+    if meeting:
+        # Related meetings (same committee, nearby dates) — with full data for display
+        related = rag.execute("""
+            SELECT id, committee, date, quick_summary, headline, event_id,
+                   has_transcript, has_video, has_audio, complete_summary
+            FROM meetings
+            WHERE committee = ? AND id != ?
+            ORDER BY ABS(julianday(date) - julianday(?))
+            LIMIT 6
+        """, (meeting["committee"], meeting["id"], meeting["date"])).fetchall()
+        related = [dict(r) for r in related]
+
+        def _minutes_url(doc_ids_str):
+            """Extract ecode360 minutes PDF URL from doc_ids."""
+            for did in (doc_ids_str or "").split(","):
+                did = did.strip()
+                if did and not did.endswith("-transcript") and not did.endswith("-opus-news"):
+                    return f"https://ecode360.com/CR0035/document/{did}.pdf"
+            return None
+
+        # Get doc_ids for PDF links
+        pdf_url = _minutes_url(meeting["doc_ids"])
+
+        # Add minutes_url to each related meeting
+        rel_doc_ids = {r["id"]: r for r in related}
+        if rel_doc_ids:
+            for rm in rag.execute(
+                f"SELECT id, doc_ids FROM meetings WHERE id IN ({','.join('?' * len(rel_doc_ids))})",
+                list(rel_doc_ids.keys())
+            ).fetchall():
+                rel_doc_ids[rm["id"]]["minutes_url"] = _minutes_url(rm["doc_ids"])
+
+        cdb = get_comments_db()
+        comments = cdb.execute(
+            "SELECT * FROM comments WHERE article_id = ? AND approved = 1 ORDER BY created_at ASC",
+            (str(meeting["id"]),)
+        ).fetchall()
+
+        author = get_author_for_model(meeting["article_model"]) if meeting["article_model"] else None
+
+        return render_template("article.html",
+            article=meeting,
+            author=author,
+            index_data={},
+            pdf_url=pdf_url,
+            related=related,
+            comments=comments,
+        )
+
+    # Fallback to old summaries table for legacy doc_ids
+    try:
+        db = get_summaries_db()
+        article = db.execute(
+            "SELECT * FROM summaries WHERE doc_id = ?", (doc_id,)
+        ).fetchone()
+    except Exception:
+        article = None
+    if not article:
+        abort(404)
+
+    index_data = {}
+    try:
+        index_data = json.loads(article["index_json"]) if article["index_json"] else {}
+    except (json.JSONDecodeError, KeyError):
+        pass
+
+    pdf_url = f"https://ecode360.com/CR0035/document/{doc_id}.pdf"
+    related = db.execute("""
+        SELECT doc_id, committee, date, short_summary
+        FROM summaries
+        WHERE committee = ? AND doc_id != ?
+        ORDER BY ABS(julianday(date) - julianday(?))
+        LIMIT 4
+    """, (article["committee"], doc_id, article["date"])).fetchall()
+
+    cdb = get_comments_db()
+    comments = cdb.execute(
+        "SELECT * FROM comments WHERE article_id = ? AND approved = 1 ORDER BY created_at ASC",
+        (doc_id,)
+    ).fetchall()
+
+    return render_template("article.html",
+        article=article,
+        index_data=index_data,
+        pdf_url=pdf_url,
+        related=related,
+        comments=comments,
+    )
+
+
+@app.route("/meetings")
+def meetings_index():
+    rag = get_rag_db()
+    committee_filter = request.args.get("committee", "")
+
+    if committee_filter:
+        full_name = SLUG_TO_COMMITTEE.get(committee_filter, committee_filter)
+        mtgs = rag.execute("""
+            SELECT id, committee, date, quick_summary, headline, event_id,
+                   has_transcript, has_video
+            FROM meetings
+            WHERE committee = ?
+            ORDER BY date DESC
+        """, (full_name,)).fetchall()
+    else:
+        mtgs = rag.execute("""
+            SELECT id, committee, date, quick_summary, headline, event_id,
+                   has_transcript, has_video
+            FROM meetings
+            ORDER BY date DESC
+        """).fetchall()
+
+    committee_counts = {}
+    for row in rag.execute("SELECT committee, COUNT(*) as c FROM meetings GROUP BY committee ORDER BY c DESC"):
+        committee_counts[row["committee"]] = row["c"]
+
+    return render_template("meetings.html",
+        meetings=mtgs,
+        committee_filter=committee_filter,
+        committee_counts=committee_counts,
+    )
+
+
+@app.route("/calendar")
+def calendar_page():
+    return send_from_directory(TEMPLATE_DIR, "calendar.html")
 
 
 @app.route("/documents")
 def documents_page():
-    """Municipal documents search page."""
-    q = request.args.get("q", "").strip()
+    db = get_rag_db()
+    query = request.args.get("q", "").strip()
+
     results = []
-    if q and ECODE360_DB.exists():
-        conn = sqlite3.connect(str(ECODE360_DB))
-        c = conn.cursor()
-        # Get matching chunks grouped by document
-        c.execute(
-            "SELECT c.doc_id, c.committee, c.date, "
-            "snippet(chunks, 4, '<b>', '</b>', '…', 50), c.rank, "
-            "d.preview, d.text_size "
-            "FROM chunks c LEFT JOIN documents d ON c.doc_id = d.doc_id "
-            "WHERE chunks MATCH ? ORDER BY c.rank LIMIT 60",
-            (q,),
-        )
-        rows = c.fetchall()
-        conn.close()
-        # Group by doc_id — keep best snippet per doc, collect up to 3 snippets
-        seen = {}
-        for r in rows:
-            doc_id = r[0]
-            if doc_id not in seen:
-                seen[doc_id] = {
-                    "doc_id": doc_id,
-                    "committee": r[1],
-                    "date": r[2],
-                    "snippets": [r[3]],
-                    "score": round(-r[4], 2),
-                    "preview": r[5] or "",
-                    "text_size": r[6] or 0,
-                    "source_url": f"https://ecode360.com/CR0035/document/{doc_id}.pdf",
-                }
-            elif len(seen[doc_id]["snippets"]) < 3:
-                seen[doc_id]["snippets"].append(r[3])
-        results = list(seen.values())
-    return render_template("documents.html", query=q, results=results, **_ctx())
+    if query:
+        rows = db.execute("""
+            SELECT c.doc_id, c.committee, c.date, c.content,
+                   snippet(chunks_fts, 0, '<mark>', '</mark>', '...', 40) as snippet,
+                   m.id as meeting_id
+            FROM chunks_fts
+            JOIN chunks c ON c.id = chunks_fts.rowid
+            LEFT JOIN meetings m ON c.doc_id = m.event_id
+            WHERE chunks_fts MATCH ?
+            ORDER BY rank
+            LIMIT 30
+        """, (query,)).fetchall()
 
+        seen = set()
+        for row in rows:
+            if row["doc_id"] not in seen:
+                seen.add(row["doc_id"])
+                results.append(dict(row))
 
-@app.route("/documents/<doc_id>")
-def document_detail_page(doc_id):
-    """Individual document page: AI summary + full text + PDF link."""
-    if not ECODE360_DB.exists():
-        abort(404)
-    conn = sqlite3.connect(str(ECODE360_DB))
-    c = conn.cursor()
-    # Get document metadata
-    c.execute("SELECT doc_id, committee, date, type, text_size, preview FROM documents WHERE doc_id = ?", (doc_id,))
-    row = c.fetchone()
-    if not row:
-        conn.close()
-        abort(404)
-    doc = {"doc_id": row[0], "committee": row[1], "date": row[2], "type": row[3], "text_size": row[4], "preview": row[5]}
-    # Get pre-generated summary if available
-    summary_data = {}
-    try:
-        c.execute("SELECT summary, topics, key_people, key_locations FROM summaries WHERE doc_id = ?", (doc_id,))
-        srow = c.fetchone()
-        if srow:
-            summary_data = {"summary": srow[0], "topics": srow[1] or "", "key_people": srow[2] or "", "key_locations": srow[3] or ""}
-    except sqlite3.OperationalError:
-        pass
-    conn.close()
-    # Load full text
-    txt_path = BASE_DIR / "ecode360" / "minutes" / f"{doc_id}.txt"
-    full_text = ""
-    if txt_path.exists():
-        with open(txt_path) as f:
-            full_text = f.read()
-    source_url = f"https://ecode360.com/CR0035/document/{doc_id}.pdf"
-    return render_template("document_detail.html", doc=doc, summary_data=summary_data,
-                           full_text=full_text, source_url=source_url, **_ctx())
+    # Committee list for browsing
+    committees = db.execute("""
+        SELECT committee, COUNT(DISTINCT doc_id) as c FROM chunks
+        GROUP BY committee ORDER BY c DESC
+    """).fetchall()
 
-
-@app.route("/category/<name>")
-def category_page(name):
-    if name not in CATEGORIES:
-        abort(404)
-    articles = query_articles(category=name, limit=40)
-    return render_template(
-        "category.html", articles=articles,
-        current_category=name, **_ctx(),
+    return render_template("documents.html",
+        query=query,
+        results=results,
+        doc_committees=committees,
     )
 
 
-@app.route("/article/<article_id>")
-def article_page(article_id):
-    article = get_article(article_id)
-    if not article:
+# ── Routes: Meeting Page ─────────────────────────────────────────
+
+@app.route("/meeting/<int:meeting_id>")
+def meeting_page(meeting_id):
+    rag = get_rag_db()
+    meeting = rag.execute(
+        "SELECT * FROM meetings WHERE id = ?", (meeting_id,)
+    ).fetchone()
+    if not meeting:
         abort(404)
-    return render_template("article.html", article=article, **_ctx())
+
+    meeting = dict(meeting)
+
+    # Get topics linked to this meeting's chunks
+    topics = []
+    if meeting.get("event_id"):
+        topics = rag.execute("""
+            SELECT DISTINCT t.name, t.slug FROM topic_threads t
+            JOIN topic_mentions tm ON tm.topic_id = t.id
+            JOIN chunks c ON c.id = tm.chunk_id
+            WHERE c.doc_id = ?
+        """, (meeting["event_id"],)).fetchall()
+        topics = [dict(t) for t in topics]
+
+    # Get people entities linked to this meeting's chunks
+    people = []
+    if meeting.get("event_id"):
+        people = rag.execute("""
+            SELECT DISTINCT e.name, e.slug, e.metadata_json
+            FROM entities e
+            JOIN entity_mentions em ON em.entity_id = e.id
+            JOIN chunks c ON c.id = em.chunk_id
+            WHERE c.doc_id = ? AND e.type = 'person'
+            ORDER BY e.mention_count DESC
+            LIMIT 20
+        """, (meeting["event_id"],)).fetchall()
+        people_list = []
+        for p in people:
+            pd = dict(p)
+            try:
+                meta = json.loads(pd.get("metadata_json") or "{}")
+                pd["role"] = meta.get("role", "")
+            except (json.JSONDecodeError, TypeError):
+                pd["role"] = ""
+            people_list.append(pd)
+        people = people_list
+
+    # Related meetings
+    related = rag.execute("""
+        SELECT id, committee, date, headline, quick_summary
+        FROM meetings
+        WHERE committee = ? AND id != ?
+        ORDER BY ABS(julianday(date) - julianday(?))
+        LIMIT 4
+    """, (meeting["committee"], meeting_id, meeting["date"])).fetchall()
+    related = [dict(r) for r in related]
+
+    return render_template("meeting.html",
+        meeting=meeting,
+        topics=topics,
+        people=people,
+        related=related,
+    )
 
 
-# --- API Routes ---
+# ── Routes: Topics ───────────────────────────────────────────────
+
+@app.route("/topics")
+def topics_index():
+    db = get_rag_db()
+    rows = db.execute("""
+        SELECT t.id, t.name, t.slug, t.description, t.status,
+               t.first_date, t.last_date, t.meeting_count,
+               COUNT(tm.chunk_id) as chunk_count
+        FROM topic_threads t
+        LEFT JOIN topic_mentions tm ON tm.topic_id = t.id
+        GROUP BY t.id
+        ORDER BY chunk_count DESC
+    """).fetchall()
+
+    topics = [dict(r) for r in rows]
+    active_topics = [t for t in topics if t["status"] == "active"]
+    resolved_topics = [t for t in topics if t["status"] != "active"]
+
+    total_meetings = db.execute(
+        "SELECT COUNT(DISTINCT doc_id) FROM chunks"
+    ).fetchone()[0]
+
+    return render_template("topics.html",
+        topics=topics,
+        active_topics=active_topics,
+        resolved_topics=resolved_topics,
+        total_meetings=total_meetings,
+    )
+
+
+@app.route("/topic/<slug>")
+def topic_page(slug):
+    db = get_rag_db()
+    topic = db.execute(
+        "SELECT * FROM topic_threads WHERE slug = ?", (slug,)
+    ).fetchone()
+    if not topic:
+        abort(404)
+
+    topic = dict(topic)
+
+    # Get all chunks for this topic, grouped by meeting date
+    chunks = db.execute("""
+        SELECT c.id, c.doc_id, c.doc_type, c.committee, c.date, c.content,
+               c.speaker, c.start_time, c.end_time, tm.relevance
+        FROM topic_mentions tm
+        JOIN chunks c ON c.id = tm.chunk_id
+        WHERE tm.topic_id = ?
+        ORDER BY c.date ASC, c.start_time ASC NULLS LAST
+    """, (topic["id"],)).fetchall()
+
+    # Group by date+committee
+    from collections import OrderedDict
+    meetings = OrderedDict()
+    for chunk in chunks:
+        chunk = dict(chunk)
+        key = f"{chunk['date']}|{chunk['committee'] or 'N/A'}"
+        if key not in meetings:
+            meetings[key] = {
+                "date": chunk["date"],
+                "committee": chunk["committee"] or "N/A",
+                "chunks": [],
+            }
+        meetings[key]["chunks"].append(chunk)
+
+    return render_template("topic.html",
+        topic=topic,
+        meetings=list(meetings.values()),
+    )
+
+
+# ── SMTP Email ──────────────────────────────────────────────────
+
+SMTP_HOST = "mail.cyberpersons.com"
+SMTP_PORT = 587
+SMTP_USER = os.environ.get("SMTP_USER", "smtp_1c45c43cd1597103")
+SMTP_PASS = os.environ.get("SMTP_PASS", "")
+SMTP_FROM = "editor@croton.news"
+EDITOR_EMAIL = "editor@croton.news"
+
+
+def send_email(to, subject, body_text, body_html=None):
+    """Send email via SMTP in a background thread."""
+    if not SMTP_PASS:
+        print(f"SMTP not configured — would send to {to}: {subject}")
+        return
+
+    def _send():
+        try:
+            msg = MIMEMultipart("alternative")
+            msg["From"] = f"croton.news <{SMTP_FROM}>"
+            msg["To"] = to
+            msg["Subject"] = subject
+            msg.attach(MIMEText(body_text, "plain"))
+            if body_html:
+                msg.attach(MIMEText(body_html, "html"))
+            with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as server:
+                server.starttls()
+                server.login(SMTP_USER, SMTP_PASS)
+                server.sendmail(SMTP_FROM, [to], msg.as_string())
+            print(f"Email sent to {to}: {subject}")
+        except Exception as e:
+            print(f"Email failed: {e}")
+
+    threading.Thread(target=_send, daemon=True).start()
+
+
+# ── AI Author Pseudonyms ────────────────────────────────────────
+
+AI_AUTHORS = {
+    "glm-5-turbo": {
+        "slug": "grant-mitchell",
+        "name": "Grant Mitchell",
+        "initials": "GM",
+        "color": "#2d5a27",
+        "role": "Staff Reporter",
+        "bio_short": "Covers routine meeting business and committee updates",
+        "bio": "Grant Mitchell handles the bulk of croton.news's day-to-day meeting coverage. Powered by a frontier language model, Grant specializes in concise, factual reporting on committee proceedings, budget discussions, and routine board actions. His articles prioritize clarity and completeness over narrative flair, ensuring every vote, motion, and public comment is captured in the record.",
+        "style": "Straightforward news reporting. Short paragraphs, active voice, inverted pyramid structure. Focuses on who-said-what and what-was-decided. Minimal editorializing.",
+        "model_id": "Frontier language model",
+        "system_prompt": "You are a local news reporter covering Croton-on-Hudson village government. Write a news article from the meeting transcript provided. Include all key decisions, votes, and notable public comments. Use direct quotes with speaker attribution. Keep paragraphs short. Write in inverted pyramid style with the most newsworthy item first.",
+    },
+    "glm-5-turbo-styled": {
+        "slug": "grant-mitchell",
+        "name": "Grant Mitchell",
+        "initials": "GM",
+        "color": "#2d5a27",
+        "role": "Staff Reporter",
+        "bio_short": "Covers routine meeting business and committee updates",
+        "bio": "Grant Mitchell handles the bulk of croton.news's day-to-day meeting coverage. Powered by a frontier language model, Grant specializes in concise, factual reporting on committee proceedings, budget discussions, and routine board actions. His articles prioritize clarity and completeness over narrative flair, ensuring every vote, motion, and public comment is captured in the record.",
+        "style": "Straightforward news reporting with light narrative structure. Section headers organize complex meetings into digestible topics. Direct quotes linked to video timestamps.",
+        "model_id": "Frontier language model",
+        "system_prompt": "You are a local news reporter covering Croton-on-Hudson village government. Write a structured news article from the meeting transcript. Use section headers (##) to organize by topic. Include direct quotes with speaker attribution. Every factual claim should be traceable to the transcript. Write with authority but without editorial opinion.",
+    },
+    "claude-sonnet-4-20250514": {
+        "slug": "claire-ashford",
+        "name": "Claire Ashford",
+        "initials": "CA",
+        "color": "#8b2500",
+        "role": "Senior Correspondent",
+        "bio_short": "In-depth meeting analysis with context and cross-references",
+        "bio": "Claire Ashford produces croton.news's most detailed meeting coverage. Powered by a frontier language model, Claire brings deeper analysis to complex topics — connecting current decisions to prior meetings, identifying patterns in board behavior, and providing context that helps readers understand why a vote matters. Her articles are longer and more layered than standard meeting coverage.",
+        "style": "Analytical reporting with rich context. Weaves in cross-references to related meetings and policy history. Longer-form, magazine-style paragraphs. Sources quotes precisely with transcript timestamps.",
+        "model_id": "Frontier language model",
+        "system_prompt": "You are an experienced local government reporter covering Croton-on-Hudson. Write a comprehensive news article from the meeting transcript. Go beyond summarizing — analyze the implications of decisions, connect them to prior meetings and ongoing policy debates, and explain what matters to residents. Use the RAG search results to add cross-meeting context. Include direct quotes with timestamps. Write with narrative authority while maintaining strict factual accuracy.",
+    },
+    "opus": {
+        "slug": "claire-ashford",
+        "name": "Claire Ashford",
+        "initials": "CA",
+        "color": "#8b2500",
+        "role": "Senior Correspondent",
+        "bio_short": "In-depth meeting analysis",
+        "bio": "Claire Ashford produces croton.news's most detailed meeting coverage.",
+        "style": "Analytical reporting with rich context.",
+        "model_id": "Frontier language model",
+        "system_prompt": "Same as Senior Correspondent prompt.",
+    },
+    "claude-opus-4-feature": {
+        "slug": "nora-caldwell",
+        "name": "Nora Caldwell",
+        "initials": "NC",
+        "color": "#4a1259",
+        "role": "Investigative Editor",
+        "bio_short": "Deep-dive features and investigative editorials",
+        "bio": "Nora Caldwell writes croton.news's long-form investigative features and editorials. Powered by a frontier language model, Nora synthesizes months of meeting transcripts, public records, and external research into narrative-driven stories that reveal the forces shaping village governance. Her pieces trace a single issue across multiple meetings, identify contradictions between public statements and actions, and give voice to residents whose testimony might otherwise be lost in the minutes.",
+        "style": "Long-form investigative reporting. Literary narrative structure with scene-setting, character development, and dramatic pacing. Heavy use of direct quotes in dramatic context. Connects dots across multiple meetings to build a thesis. Asks the questions the board didn't ask themselves.",
+        "model_id": "Frontier language model",
+        "system_prompt": "You are an investigative journalist writing a long-form feature article for a hyperlocal news site. Your source material is multiple meeting transcripts, public records, and web research. Write a narrative-driven piece that tells the STORY behind the policy — who are the people, what are the stakes, why should readers care? Use scene-setting, direct quotes in dramatic context, and connect events across multiple meetings to reveal patterns. Be fair but don't be neutral — if the facts point to a conclusion, follow them. Every claim must be sourced to a specific public record or meeting timestamp.",
+    },
+}
+
+def get_author_for_model(model_id):
+    """Get author data for a model ID, with fallback."""
+    if model_id in AI_AUTHORS:
+        return AI_AUTHORS[model_id]
+    return AI_AUTHORS.get("glm-5-turbo")  # default fallback
+
+
+# ── Routes: Transparency Pages ──────────────────────────────────
+
+@app.route("/author/<slug>")
+def author_page(slug):
+    # Find author by slug
+    author = None
+    for model_id, data in AI_AUTHORS.items():
+        if data["slug"] == slug:
+            author = dict(data)
+            break
+    if not author:
+        abort(404)
+
+    # Get articles by this author
+    rag = get_rag_db()
+    model_ids = [mid for mid, d in AI_AUTHORS.items() if d["slug"] == slug]
+    placeholders = ",".join("?" * len(model_ids))
+    articles = rag.execute(f"""
+        SELECT id, headline, quick_summary, committee, date
+        FROM meetings
+        WHERE article IS NOT NULL AND article_model IN ({placeholders})
+        ORDER BY date DESC
+    """, model_ids).fetchall()
+    articles = [dict(a) for a in articles]
+    author["article_count"] = len(articles)
+
+    return render_template("author.html", author=author, articles=articles)
+
+
+@app.route("/staff")
+def staff_page():
+    """Staff directory — all AI authors."""
+    rag = get_rag_db()
+    seen = set()
+    authors = []
+    for model_id, data in AI_AUTHORS.items():
+        if data["slug"] in seen:
+            continue
+        seen.add(data["slug"])
+        model_ids = [mid for mid, d in AI_AUTHORS.items() if d["slug"] == data["slug"]]
+        placeholders = ",".join("?" * len(model_ids))
+        count = rag.execute(f"""
+            SELECT COUNT(*) FROM meetings
+            WHERE article IS NOT NULL AND article_model IN ({placeholders})
+        """, model_ids).fetchone()[0]
+        a = dict(data)
+        a["article_count"] = count
+        authors.append(a)
+    return render_template("staff.html", authors=authors)
+
+
+@app.route("/api/author-feedback", methods=["POST"])
+def author_feedback():
+    """Receive feedback about AI author output."""
+    data = {
+        "author": request.form.get("author", ""),
+        "type": request.form.get("type", ""),
+        "article_url": request.form.get("article_url", ""),
+        "details": request.form.get("details", ""),
+        "email": request.form.get("email", ""),
+    }
+    if not data["details"]:
+        return "Details required", 400
+
+    # Store feedback in comments.db
+    cdb = get_comments_db()
+    cdb.execute("""
+        INSERT INTO comments (article_id, name, body, approved, created_at)
+        VALUES (?, ?, ?, 0, datetime('now'))
+    """, (
+        f"author-feedback-{data['author']}",
+        data["email"] or "Anonymous",
+        f"[{data['type']}] {data['article_url']}\n\n{data['details']}",
+    ))
+    cdb.commit()
+
+    # Notify editor
+    send_email(
+        EDITOR_EMAIL,
+        f"[croton.news] Author feedback: {data['type']} — {data['author']}",
+        f"Author: {data['author']}\nType: {data['type']}\nArticle: {data['article_url']}\nFrom: {data['email'] or 'Anonymous'}\n\n{data['details']}",
+    )
+
+    return redirect(f"/author/{data['author']}?feedback=sent")
+
+
+@app.route("/about")
+def about_page():
+    rag = get_rag_db()
+    transcript_count = rag.execute(
+        "SELECT COUNT(*) FROM meetings WHERE has_transcript = 1"
+    ).fetchone()[0]
+    meeting_count = rag.execute("SELECT COUNT(*) FROM meetings").fetchone()[0]
+    return render_template("about.html",
+        transcript_count=transcript_count, meeting_count=meeting_count)
+
+@app.route("/contact")
+def contact_page():
+    return render_template("contact.html")
+
+@app.route("/tips", methods=["GET", "POST"])
+def tips_page():
+    if request.method == "POST":
+        import sqlite3 as _sql
+        tips_db = os.path.join(BASE_DIR, "tips.db")
+        db = _sql.connect(tips_db)
+        db.execute("""CREATE TABLE IF NOT EXISTS tips (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            created_at TEXT DEFAULT (datetime('now')),
+            topic TEXT, message TEXT NOT NULL,
+            name TEXT, email TEXT, phone TEXT,
+            status TEXT DEFAULT 'new',
+            notes TEXT
+        )""")
+        topic = request.form.get("topic", "").strip()
+        message = request.form.get("message", "").strip()
+        name = request.form.get("name", "").strip()
+        email = request.form.get("email", "").strip()
+        phone = request.form.get("phone", "").strip()
+        if message and len(message) >= 10:
+            db.execute("INSERT INTO tips (topic, message, name, email, phone) VALUES (?,?,?,?,?)",
+                       (topic, message, name or None, email or None, phone or None))
+            db.commit()
+            db.close()
+            return render_template("tips.html", submitted=True)
+        db.close()
+        return render_template("tips.html", submitted=False, error="Please include a message (at least 10 characters).")
+    return render_template("tips.html", submitted=False)
+
+@app.route("/editorial-policy")
+def editorial_policy_page():
+    return render_template("editorial-policy.html")
+
+
+# ── Routes: Entities ─────────────────────────────────────────────
+
+@app.route("/entities")
+def entities_index():
+    db = get_rag_db()
+    entities = db.execute("""
+        SELECT name, type, slug, mention_count, metadata_json FROM entities
+        WHERE type != 'meeting'
+        ORDER BY mention_count DESC
+    """).fetchall()
+
+    grouped = {}
+    for e in entities:
+        t = e["type"]
+        if t not in grouped:
+            grouped[t] = []
+        d = dict(e)
+        try:
+            d["metadata"] = json.loads(e["metadata_json"]) if e["metadata_json"] else {}
+        except (json.JSONDecodeError, TypeError):
+            d["metadata"] = {}
+        grouped[t].append(d)
+
+    # Sort types: person, location, organization, topic
+    type_order = ["person", "location", "organization", "topic"]
+    grouped = {k: grouped[k] for k in type_order if k in grouped}
+
+    entity_count = len(entities)
+    meeting_count = db.execute(
+        "SELECT COUNT(DISTINCT doc_id) FROM chunks"
+    ).fetchone()[0]
+
+    return render_template("entities.html",
+        grouped=grouped,
+        entity_count=entity_count,
+        meeting_count=meeting_count,
+    )
+
+
+@app.route("/entity/<slug>")
+def entity_page(slug):
+    db = get_rag_db()
+    entity = db.execute(
+        "SELECT * FROM entities WHERE slug = ?", (slug,)
+    ).fetchone()
+    if not entity:
+        abort(404)
+
+    entity_dict = dict(entity)
+    try:
+        entity_dict["metadata"] = json.loads(entity["metadata_json"]) if entity["metadata_json"] else {}
+    except (json.JSONDecodeError, TypeError):
+        entity_dict["metadata"] = {}
+
+    # Get all chunks mentioning this entity
+    mentions = db.execute("""
+        SELECT c.id, c.doc_id, c.doc_type, c.committee, c.date, c.content,
+               c.speaker, c.start_time, c.end_time, em.role
+        FROM entity_mentions em
+        JOIN chunks c ON c.id = em.chunk_id
+        WHERE em.entity_id = ?
+        ORDER BY c.date DESC, c.start_time
+        LIMIT 50
+    """, (entity["id"],)).fetchall()
+    mentions = [dict(m) for m in mentions]
+
+    # Find related entities (co-occurring in same chunks)
+    related = db.execute("""
+        SELECT DISTINCT e.name, e.slug, e.type
+        FROM entity_mentions em1
+        JOIN entity_mentions em2 ON em1.chunk_id = em2.chunk_id
+        JOIN entities e ON e.id = em2.entity_id
+        WHERE em1.entity_id = ? AND em2.entity_id != ?
+          AND e.type != 'meeting'
+        GROUP BY e.id
+        ORDER BY COUNT(*) DESC
+        LIMIT 15
+    """, (entity["id"], entity["id"])).fetchall()
+    related = [dict(r) for r in related]
+
+    return render_template("entity.html",
+        entity=entity_dict,
+        mentions=mentions,
+        related_entities=related,
+    )
+
+
+# ── Routes: RAG Search ───────────────────────────────────────────
+
+# Add rag/ to path for import
+sys.path.insert(0, RAG_DIR)
+
+@app.route("/search")
+def search_page():
+    query = request.args.get("q", "").strip()
+    corpus = request.args.get("db", "meetings")
+    results = []
+    ai_answer = None
+    chunk_count = 0
+
+    # Count chunks across all DBs
+    db_counts = {}
+    for name, fname in [("meetings", "rag.db"), ("history", "history.db"), ("code", "code.db")]:
+        try:
+            db_path = os.path.join(RAG_DIR, fname)
+            tmp = sqlite3.connect(db_path)
+            db_counts[name] = tmp.execute("SELECT COUNT(*) FROM chunks").fetchone()[0]
+            tmp.close()
+        except Exception:
+            db_counts[name] = 0
+    chunk_count = sum(db_counts.values())
+
+    if query:
+        try:
+            from multi_search import search as multi_search
+            results = multi_search(query, corpus=corpus, limit=15)
+        except Exception as e:
+            app.logger.error(f"Search error: {e}")
+            if corpus == "meetings":
+                try:
+                    from search import rag_search
+                    results = rag_search(query, limit=20)
+                except Exception:
+                    pass
+
+    # Results render immediately — AI answer loads async via /api/ask
+    return render_template("search.html",
+        query=query,
+        corpus=corpus,
+        results=results,
+        ai_answer=None,
+        chunk_count=f"{chunk_count:,}",
+        db_counts=db_counts,
+    )
+
+
+@app.route("/api/ask")
+def api_ask():
+    """Async AI answer endpoint — called after search results render."""
+    query = request.args.get("q", "").strip()
+    corpus = request.args.get("db", "meetings")
+    if not query:
+        return jsonify({"answer": None})
+
+    try:
+        from multi_search import search as multi_search, ask_llm
+        results = multi_search(query, corpus=corpus, limit=8)
+        if results:
+            answer = ask_llm(query, results, corpus)
+            return jsonify({"answer": answer})
+    except Exception as e:
+        app.logger.error(f"AI answer error: {e}")
+
+    return jsonify({"answer": None})
+
+
+@app.route("/api/search")
+def api_search():
+    query = request.args.get("q", "").strip()
+    limit = min(int(request.args.get("limit", 20)), 50)
+    doc_type = request.args.get("type")
+    committee = request.args.get("committee")
+
+    if not query:
+        return jsonify([])
+
+    try:
+        from search import rag_search
+        results = rag_search(query, limit=limit, doc_type=doc_type, committee=committee)
+        return jsonify(results)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+# ── Routes: API ───────────────────────────────────────────────────
+
+@app.route("/transcript/<event_id>")
+def transcript_page(event_id):
+    # Try ecode360 first (ChampDS transcripts)
+    transcript_path = os.path.join(ECODE_DIR, f"transcript-{event_id}.json")
+    if not os.path.exists(transcript_path):
+        # Try RAG transcripts dir (YouTube + other sources)
+        transcript_path = os.path.join(RAG_DIR, "transcripts", f"transcript-{event_id}.json")
+    if not os.path.exists(transcript_path):
+        abort(404)
+    with open(transcript_path) as f:
+        data = json.load(f)
+    return render_template("transcript.html", transcript=data)
+
+
+@app.route("/watch/<event_id>")
+def watch_page(event_id):
+    """Dedicated video watch page with VideoObject structured data."""
+    rag = get_rag_db()
+    meeting = rag.execute(
+        "SELECT * FROM meetings WHERE event_id = ?", (event_id,)
+    ).fetchone()
+    if not meeting:
+        abort(404)
+
+    # Verify video file exists
+    video_dir = os.path.join(os.path.dirname(BASE_DIR), "videos")
+    if not os.path.isdir(video_dir):
+        video_dir = os.path.join(BASE_DIR, "videos")
+
+    is_yt = event_id.startswith("yt-")
+    if not is_yt:
+        video_path = os.path.join(video_dir, f"{event_id}.mp4")
+        if not os.path.exists(video_path):
+            # Check boe subdirectory for YouTube-sourced videos
+            video_path = os.path.join(video_dir, "boe", f"{event_id[3:]}.mp4") if is_yt else None
+            if not video_path or not os.path.exists(video_path):
+                abort(404)
+
+    return render_template("watch.html", meeting=meeting)
+
+
+@app.route("/videos/<path:filename>")
+def serve_video(filename):
+    video_dir = os.path.join(os.path.dirname(BASE_DIR), "videos")
+    if not os.path.isdir(video_dir):
+        video_dir = os.path.join(BASE_DIR, "videos")
+    return send_from_directory(video_dir, filename, mimetype="video/mp4")
+
+
+@app.route("/audio/<path:filename>")
+def serve_audio(filename):
+    audio_dir = os.path.join(os.path.dirname(BASE_DIR), "audio")
+    if not os.path.isdir(audio_dir):
+        audio_dir = os.path.join(BASE_DIR, "audio")
+    return send_from_directory(audio_dir, filename, mimetype="audio/mpeg")
+
+
+# ── Routes: On-demand photo extraction from meeting videos ───────
+
+PHOTOS_CACHE_DIR = os.path.join(BASE_DIR, "photos")
+
+@app.route("/photos/<path:filename>")
+def serve_photo(filename):
+    """Serve a cached photo, or extract it on-demand from video.
+
+    URL formats:
+        /photos/<event_id>_t<seconds>.jpg       — cropped inline photo
+        /photos/<event_id>_t<seconds>_og.jpg    — full-frame 16:9 for og:image / Google News
+        /photos/<anything>.jpg                  — static cached file
+    """
+    # Serve from cache if exists
+    if os.path.isdir(PHOTOS_CACHE_DIR):
+        cached = os.path.join(PHOTOS_CACHE_DIR, filename)
+        if os.path.exists(cached):
+            return send_from_directory(PHOTOS_CACHE_DIR, filename, mimetype="image/jpeg")
+
+    # Parse filename — supports numeric ChampDS IDs and yt-VIDEO_ID format
+    import re as _re
+    m = _re.match(r'^([\w-]+)_t(\d+?)(?:_(og))?\.(jpg|png)$', filename)
+    if not m:
+        abort(404)
+
+    event_id = m.group(1)
+    timestamp = int(m.group(2))
+    is_og = m.group(3) == "og"
+    crop = request.args.get("crop", "auto")
+
+    # Find video — YouTube videos stored in boe/ subdirectory
+    video_dir = os.path.join(os.path.dirname(BASE_DIR), "videos")
+    if not os.path.isdir(video_dir):
+        video_dir = os.path.join(BASE_DIR, "videos")
+    if event_id.startswith("yt-"):
+        video_id = event_id[3:]
+        video_path = os.path.join(video_dir, "boe", f"{video_id}.mp4")
+    else:
+        video_path = os.path.join(video_dir, f"{event_id}.mp4")
+    if not os.path.exists(video_path):
+        abort(404)
+
+    try:
+        sys.path.insert(0, RAG_DIR)
+        from frame_extract import (
+            extract_frame, detect_layout, crop_frame, sharpen,
+            QUAD_SPLIT, PODIUM_VIEW, auto_face_crop,
+        )
+        try:
+            from frame_extract import BOE_SPLIT
+        except ImportError:
+            BOE_SPLIT = {"main": (0, 300, 1280, 720), "speaker": (400, 300, 1280, 720)}
+        from PIL import Image
+
+        # Extract frame
+        os.makedirs(PHOTOS_CACHE_DIR, exist_ok=True)
+        raw_path = os.path.join(PHOTOS_CACHE_DIR, f"{event_id}_t{timestamp}_raw.png")
+        extract_frame(video_path, timestamp, raw_path)
+        img = Image.open(raw_path)
+
+        if is_og:
+            # OG image for Google News: 16:9, minimum 1200px wide
+            # Use the inline cached photo as source if it exists (may be upscaled)
+            inline_cached = os.path.join(PHOTOS_CACHE_DIR, f"{event_id}_t{timestamp}.jpg")
+            if os.path.exists(inline_cached):
+                img = Image.open(inline_cached)
+
+            w, h = img.size
+            # Crop to exactly 16:9 (trim top/bottom or left/right)
+            target_ratio = 16 / 9
+            current_ratio = w / h
+            if current_ratio > target_ratio:
+                # Too wide — crop sides
+                new_w = int(h * target_ratio)
+                left = (w - new_w) // 2
+                img = img.crop((left, 0, left + new_w, h))
+            elif current_ratio < target_ratio:
+                # Too tall — crop top/bottom
+                new_h = int(w / target_ratio)
+                top = (h - new_h) // 2
+                img = img.crop((0, top, w, top + new_h))
+
+            # Scale to exactly 1200x675 (16:9)
+            img = img.resize((1200, 675), Image.LANCZOS)
+
+            img = sharpen(img, 1.2)
+        else:
+            # Inline photo: auto-detect layout and crop
+            is_boe = event_id.startswith("yt-")
+            if is_boe:
+                # BOE meetings: split-screen with panoramic top, main camera bottom
+                img = crop_frame(img, BOE_SPLIT["main"])
+            elif crop == "auto":
+                layout = detect_layout(img)
+                if layout == "podium":
+                    img = crop_frame(img, PODIUM_VIEW["podium"])
+                elif layout == "quad":
+                    img = crop_frame(img, QUAD_SPLIT["board"])
+                elif layout == "closeup":
+                    img = crop_frame(img, auto_face_crop(img))
+                # wide: keep full frame
+            elif crop in PODIUM_VIEW:
+                img = crop_frame(img, PODIUM_VIEW[crop])
+            elif crop in QUAD_SPLIT:
+                img = crop_frame(img, QUAD_SPLIT[crop])
+            img = sharpen(img, 1.3)
+
+        # Save as JPEG
+        out_path = os.path.join(PHOTOS_CACHE_DIR, filename)
+        img.save(out_path, "JPEG", quality=88)
+
+        # Clean up raw
+        if os.path.exists(raw_path):
+            os.remove(raw_path)
+
+        return send_from_directory(PHOTOS_CACHE_DIR, filename, mimetype="image/jpeg")
+
+    except Exception as e:
+        app.logger.error(f"Photo extraction error: {e}")
+        abort(500)
+
+
+@app.route("/api/openverse")
+def api_openverse():
+    """Search Openverse for CC-licensed images. Returns best landscape photo >= 1200px."""
+    import urllib.request as _ur
+    query = request.args.get("q", "").strip()
+    if not query:
+        return jsonify({"url": None})
+    try:
+        params = _ur.quote(query)
+        # Try wide+large first, fall back to any
+        best = None
+        for filters in ["&aspect_ratio=wide&size=large", "&size=large", ""]:
+            url = (f"https://api.openverse.org/v1/images/?q={params}"
+                   f"&license_type=commercial&page_size=10{filters}")
+            req = _ur.Request(url, headers={"User-Agent": "croton.news/1.0 (hyperlocal news)"})
+            resp = _ur.urlopen(req, timeout=10)
+            data = json.loads(resp.read())
+            results = data.get("results", [])
+            # Pick best: landscape preferred, decent size
+            for r in results:
+                w = r.get("width", 0) or 0
+                h = r.get("height", 0) or 0
+                if not r.get("url"):
+                    continue
+                if w >= 800 and w >= h:
+                    best = r
+                    break
+            if not best and results:
+                # Take first with a URL
+                for r in results:
+                    if r.get("url"):
+                        best = r
+                        break
+            if best:
+                break
+        if best:
+            creator = best.get("creator", "Unknown")
+            title = best.get("title", "")
+            lic = best.get("license", "CC").upper().replace("_", "-")
+            credit = f'{title} by {creator} ({lic}) via Openverse'
+            return jsonify({
+                "url": best.get("url", ""),
+                "credit": credit,
+                "source": best.get("foreign_landing_url", ""),
+                "width": best.get("width", 0),
+                "height": best.get("height", 0),
+            })
+    except Exception as e:
+        app.logger.error(f"Openverse error: {e}")
+    return jsonify({"url": None})
+
 
 @app.route("/api/articles")
 def api_articles():
-    category = request.args.get("category")
-    search = request.args.get("q")
-    limit = min(int(request.args.get("limit", 50)), 200)
+    db = get_rag_db()
+    limit = min(int(request.args.get("limit", 20)), 100)
     offset = int(request.args.get("offset", 0))
-    articles = query_articles(category=category, search=search, limit=limit, offset=offset)
-    return jsonify({"articles": articles, "count": len(articles)})
+    committee = request.args.get("committee", "")
+
+    if committee:
+        full_name = SLUG_TO_COMMITTEE.get(committee, committee)
+        rows = db.execute("""
+            SELECT id, committee, date, quick_summary, article, headline
+            FROM meetings WHERE committee = ?
+            AND article IS NOT NULL AND article != ''
+            ORDER BY date DESC LIMIT ? OFFSET ?
+        """, (full_name, limit, offset)).fetchall()
+    else:
+        rows = db.execute("""
+            SELECT id, committee, date, quick_summary, article, headline
+            FROM meetings
+            WHERE article IS NOT NULL AND article != ''
+            ORDER BY date DESC LIMIT ? OFFSET ?
+        """, (limit, offset)).fetchall()
+
+    return jsonify([dict(r) for r in rows])
 
 
-# --- Document Search (ecode360 minutes/resolutions) ---
-
-ECODE360_DB = BASE_DIR / "ecode360" / "search.db"
+@app.route("/api/calendar/events")
+def api_calendar_events():
+    return send_from_directory(STATIC_DIR, "events.json")
 
 
 @app.route("/api/search/documents")
 def api_search_documents():
-    """Full-text search across municipal meeting minutes and resolutions."""
-    q = request.args.get("q", "").strip()
-    committee = request.args.get("committee")
-    limit = min(int(request.args.get("limit", 20)), 100)
-    if not q:
-        return jsonify({"error": "Missing 'q' parameter"}), 400
-    if not ECODE360_DB.exists():
-        return jsonify({"error": "Search index not built yet"}), 503
-    conn = sqlite3.connect(str(ECODE360_DB))
-    c = conn.cursor()
-    try:
-        if committee:
-            c.execute(
-                "SELECT doc_id, committee, date, snippet(chunks, 4, '<b>', '</b>', '…', 40), rank "
-                "FROM chunks WHERE chunks MATCH ? AND committee = ? ORDER BY rank LIMIT ?",
-                (q, committee, limit),
-            )
-        else:
-            c.execute(
-                "SELECT doc_id, committee, date, snippet(chunks, 4, '<b>', '</b>', '…', 40), rank "
-                "FROM chunks WHERE chunks MATCH ? ORDER BY rank LIMIT ?",
-                (q, limit),
-            )
-        results = [
-            {"doc_id": r[0], "committee": r[1], "date": r[2], "snippet": r[3], "score": round(-r[4], 2)}
-            for r in c.fetchall()
-        ]
-    except Exception as e:
-        conn.close()
-        return jsonify({"error": str(e)}), 400
-    conn.close()
-    return jsonify({"query": q, "results": results, "count": len(results)})
+    db = get_rag_db()
+    query = request.args.get("q", "").strip()
+    if not query:
+        return jsonify([])
 
+    rows = db.execute("""
+        SELECT c.doc_id, c.committee, c.date,
+               snippet(chunks_fts, 0, '<mark>', '</mark>', '...', 40) as snippet
+        FROM chunks_fts
+        JOIN chunks c ON c.id = chunks_fts.rowid
+        WHERE chunks_fts MATCH ?
+        ORDER BY rank LIMIT 20
+    """, (query,)).fetchall()
 
-@app.route("/api/documents")
-def api_documents():
-    """List all indexed municipal documents."""
-    if not ECODE360_DB.exists():
-        return jsonify({"error": "Search index not built yet"}), 503
-    conn = sqlite3.connect(str(ECODE360_DB))
-    c = conn.cursor()
-    c.execute("SELECT doc_id, committee, date, type, text_size, preview FROM documents ORDER BY committee, date")
-    docs = [
-        {"doc_id": r[0], "committee": r[1], "date": r[2], "type": r[3], "text_size": r[4], "preview": r[5]}
-        for r in c.fetchall()
-    ]
-    conn.close()
-    return jsonify({"documents": docs, "count": len(docs)})
-
-
-# --- AI Document Summary (Gemini Flash via OpenRouter) ---
-
-_OPENROUTER_KEY = None
-def _get_openrouter_key():
-    global _OPENROUTER_KEY
-    if _OPENROUTER_KEY:
-        return _OPENROUTER_KEY
-    cred_path = BASE_DIR.parent / "openrouter_credentials.json"
-    if cred_path.exists():
-        with open(cred_path) as f:
-            _OPENROUTER_KEY = json.load(f).get("openrouter_api_key", "")
-    if not _OPENROUTER_KEY:
-        _OPENROUTER_KEY = os.environ.get("OPENROUTER_API_KEY", "")
-    return _OPENROUTER_KEY
-
-SUMMARY_MODEL = "nvidia/llama-3.1-nemotron-ultra-253b-v1"  # highest quality Nemotron
-
-# Simple in-memory cache for summaries (doc_id → summary)
-_summary_cache = {}
-
-
-@app.route("/api/documents/<doc_id>/summary")
-def api_document_summary(doc_id):
-    """Generate a readable AI summary for a document."""
-    # Check in-memory cache first
-    if doc_id in _summary_cache:
-        return jsonify({"doc_id": doc_id, "summary": _summary_cache[doc_id], "cached": True})
-
-    # Check persistent summaries table
-    if ECODE360_DB.exists():
-        try:
-            conn = sqlite3.connect(str(ECODE360_DB))
-            c = conn.cursor()
-            c.execute("SELECT summary, topics, key_people, key_locations FROM summaries WHERE doc_id = ?", (doc_id,))
-            row = c.fetchone()
-            conn.close()
-            if row:
-                result = {
-                    "doc_id": doc_id, "summary": row[0], "cached": True,
-                    "topics": row[1] or "", "key_people": row[2] or "", "key_locations": row[3] or "",
-                }
-                _summary_cache[doc_id] = row[0]
-                return jsonify(result)
-        except sqlite3.OperationalError:
-            pass  # summaries table doesn't exist yet
-
-    # Load document text
-    txt_path = BASE_DIR / "ecode360" / "minutes" / f"{doc_id}.txt"
-    if not txt_path.exists():
-        return jsonify({"error": "Document not found"}), 404
-    with open(txt_path) as f:
-        text = f.read()
-
-    # Get metadata
-    meta = {}
-    if ECODE360_DB.exists():
-        conn = sqlite3.connect(str(ECODE360_DB))
-        c = conn.cursor()
-        c.execute("SELECT committee, date FROM documents WHERE doc_id = ?", (doc_id,))
-        row = c.fetchone()
-        conn.close()
-        if row:
-            meta = {"committee": row[0], "date": row[1]}
-
-    # Use more text for better context — 262K context window allows it
-    doc_text = text[:16000]
-
-    key = _get_openrouter_key()
-    if not key:
-        return jsonify({"error": "OpenRouter API key not configured"}), 500
-
-    committee = meta.get('committee', 'committee')
-    date = meta.get('date', 'unknown date')
-
-    prompt = f"""Summarize these {committee} meeting minutes from {date} in Croton-on-Hudson, NY for a local news website.
-
-FORMAT RULES:
-• Start IMMEDIATELY with the first bullet point — no title, heading, date, attendance list, or introduction
-• Use "•" for main topics and "  ◦" (indented) for key details under that topic
-• Each main bullet = one major topic or decision, written as a complete sentence with full context
-• Sub-bullets for: vote tallies, dollar amounts, specific addresses, names of speakers, deadlines
-• Cover every significant topic — no arbitrary limit — but be CONCISE (1-2 sentences per bullet, not paragraphs)
-• For public hearings: summarize the issue, key arguments for/against, and outcome in 2-3 bullets total — do NOT transcribe testimony verbatim
-• End after the last bullet — no summary paragraph, no closing remarks
-
-MEETING MINUTES:
-{doc_text}"""
-
-    try:
-        resp = http_requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-            json={
-                "model": SUMMARY_MODEL,
-                "messages": [
-                    {"role": "system", "content": "You produce concise bulleted summaries of village government meeting minutes. Start immediately with the first • bullet. No titles, headings, attendance lists, introductions, or closing paragraphs. Each bullet is 1-2 sentences max."},
-                    {"role": "user", "content": prompt},
-                ],
-                "temperature": 0.2,
-                "max_tokens": 1500,
-            },
-            timeout=45,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        summary = data["choices"][0]["message"]["content"].strip()
-
-        # Strip preamble (headers, attendance) and closing paragraphs
-        lines = summary.split('\n')
-        # Find first bullet line
-        bullet_start = 0
-        for i, line in enumerate(lines):
-            stripped = line.strip()
-            if stripped.startswith(('•', '-', '*', '◦', '–', '1.', '2.')):
-                bullet_start = i
-                break
-        # Find last bullet line (trim closing paragraphs)
-        bullet_end = len(lines)
-        for i in range(len(lines) - 1, bullet_start - 1, -1):
-            stripped = lines[i].strip()
-            if stripped and (stripped.startswith(('•', '-', '*', '◦', '–')) or stripped.startswith((' ', '\t'))):
-                bullet_end = i + 1
-                break
-        if bullet_start > 0 or bullet_end < len(lines):
-            summary = '\n'.join(lines[bullet_start:bullet_end]).strip()
-
-        _summary_cache[doc_id] = summary
-        return jsonify({"doc_id": doc_id, "summary": summary, "cached": False})
-    except Exception as e:
-        logging.error("Summary generation error: %s", e)
-        return jsonify({"error": f"AI summary failed: {str(e)}"}), 500
+    return jsonify([dict(r) for r in rows])
 
 
 @app.route("/api/health")
 def api_health():
+    db = get_rag_db()
+    article_count = db.execute(
+        "SELECT COUNT(*) FROM meetings WHERE article IS NOT NULL AND article != ''"
+    ).fetchone()[0]
+    chunk_count = db.execute("SELECT COUNT(*) FROM chunks").fetchone()[0]
+    meeting_count = db.execute("SELECT COUNT(*) FROM meetings").fetchone()[0]
     return jsonify({
         "status": "ok",
-        "total_articles": count_articles(),
-        "categories": category_counts(),
-        "last_scrape": {
-            name: datetime.fromtimestamp(ts, tz=timezone.utc).isoformat()
-            for name, ts in _last_scrape.items()
-        } if _last_scrape else None,
+        "articles": article_count,
+        "meetings": meeting_count,
+        "chunks": chunk_count,
+        "timestamp": datetime.now().isoformat(),
     })
 
 
-# --- RSS Feed ---
+@app.route("/api/indexnow", methods=["POST"])
+def api_indexnow():
+    """Submit all article URLs to IndexNow for Bing/Yandex indexing."""
+    db = get_rag_db()
+    articles = db.execute("""
+        SELECT id FROM meetings
+        WHERE article IS NOT NULL AND article != ''
+        ORDER BY date DESC
+    """).fetchall()
+    urls = [f"https://croton.news/article/{a['id']}" for a in articles]
+    urls.extend(["https://croton.news/", "https://croton.news/meetings",
+                 "https://croton.news/topics", "https://croton.news/entities"])
+    notify_indexnow(urls)
+    return jsonify({"submitted": len(urls)})
+
+
+# ── Routes: Photo Gallery ────────────────────────────────────────
+
+@app.route("/gallery")
+def gallery():
+    db = get_photos_db()
+    category = request.args.get("category", "")
+    sort = request.args.get("sort", "quality")
+    search = request.args.get("search", "").strip()
+
+    # Sort mapping
+    order_map = {
+        "quality": "p.quality_score DESC",
+        "newest": "p.harvested_at DESC",
+        "title": "p.title ASC",
+    }
+    order = order_map.get(sort, "p.quality_score DESC")
+
+    # Build query
+    where = ["p.deleted = 0", "p.downloaded = 1"]
+    params = []
+    if category:
+        where.append("p.category = ?")
+        params.append(category)
+    if search:
+        where.append("(p.title LIKE ? OR p.section LIKE ? OR p.creator LIKE ?)")
+        like = f"%{search}%"
+        params.extend([like, like, like])
+
+    where_sql = " AND ".join(where)
+
+    photos = db.execute(f"""
+        SELECT p.*, GROUP_CONCAT(pt.tag_id) as tag_ids
+        FROM photos p
+        LEFT JOIN photo_tags pt ON pt.photo_id = p.id
+        WHERE {where_sql}
+        GROUP BY p.id
+        ORDER BY p.section, {order}
+    """, params).fetchall()
+
+    # Get all tags
+    all_tags = db.execute("SELECT * FROM tags ORDER BY name").fetchall()
+
+    # Category counts
+    categories = db.execute("""
+        SELECT category as name, COUNT(*) as count
+        FROM photos WHERE deleted = 0 AND downloaded = 1
+        GROUP BY category ORDER BY count DESC
+    """).fetchall()
+
+    # Stats
+    total_photos = db.execute(
+        "SELECT COUNT(*) FROM photos WHERE deleted = 0 AND downloaded = 1"
+    ).fetchone()[0]
+    featured_count = db.execute(
+        "SELECT COUNT(*) FROM photos WHERE featured = 1 AND deleted = 0"
+    ).fetchone()[0]
+    tagged_count = db.execute("""
+        SELECT COUNT(DISTINCT pt.photo_id) FROM photo_tags pt
+        JOIN photos p ON p.id = pt.photo_id WHERE p.deleted = 0
+    """).fetchone()[0]
+
+    # Group by section
+    sections = []
+    current_section = None
+    for photo in photos:
+        p = dict(photo)
+        p["tag_ids_set"] = set(
+            int(x) for x in (p["tag_ids"] or "").split(",") if x
+        )
+        section_name = p["section"] or p["category"] or "Other"
+        if not current_section or current_section["name"] != section_name:
+            current_section = {"name": section_name, "photos": []}
+            sections.append(current_section)
+        current_section["photos"].append(p)
+
+    # JSON data for lightbox
+    photo_data = [
+        {
+            "id": p["id"], "title": p["title"], "local_path": p["local_path"],
+            "creator": p["creator"], "license": p["license"],
+            "license_version": p["license_version"],
+            "width": p["width"], "height": p["height"],
+            "foreign_landing_url": p["foreign_landing_url"],
+        }
+        for s in sections for p in s["photos"]
+    ]
+
+    return render_template("gallery.html",
+        sections=sections,
+        all_tags=all_tags,
+        categories=categories,
+        category=category,
+        sort=sort,
+        search=search,
+        total_photos=total_photos,
+        featured_count=featured_count,
+        tagged_count=tagged_count,
+        photo_data_json=json.dumps(photo_data),
+    )
+
+
+@app.route("/api/photos/<int:photo_id>", methods=["DELETE"])
+def api_delete_photo(photo_id):
+    db = get_photos_db()
+    photo = db.execute(
+        "SELECT local_path FROM photos WHERE id = ?", (photo_id,)
+    ).fetchone()
+    if photo and photo["local_path"]:
+        filepath = os.path.join(STATIC_DIR, photo["local_path"])
+        try:
+            os.remove(filepath)
+        except OSError:
+            pass
+    db.execute("DELETE FROM photo_tags WHERE photo_id = ?", (photo_id,))
+    db.execute("DELETE FROM photos WHERE id = ?", (photo_id,))
+    db.commit()
+    return jsonify({"ok": True})
+
+
+@app.route("/api/photos/<int:photo_id>/feature", methods=["POST"])
+def api_feature_photo(photo_id):
+    db = get_photos_db()
+    data = request.get_json()
+    featured = 1 if data.get("featured") else 0
+    db.execute("UPDATE photos SET featured = ? WHERE id = ?", (featured, photo_id))
+    db.commit()
+    return jsonify({"ok": True, "featured": featured})
+
+
+@app.route("/api/photos/<int:photo_id>/tags", methods=["POST"])
+def api_toggle_tag(photo_id):
+    db = get_photos_db()
+    data = request.get_json()
+    tag_id = data.get("tag_id")
+    action = data.get("action", "add")
+
+    if action == "add":
+        db.execute(
+            "INSERT OR IGNORE INTO photo_tags (photo_id, tag_id) VALUES (?, ?)",
+            (photo_id, tag_id)
+        )
+    else:
+        db.execute(
+            "DELETE FROM photo_tags WHERE photo_id = ? AND tag_id = ?",
+            (photo_id, tag_id)
+        )
+    db.commit()
+
+    tag = db.execute("SELECT color FROM tags WHERE id = ?", (tag_id,)).fetchone()
+    return jsonify({"ok": True, "color": tag["color"] if tag else "#6b7280"})
+
+
+@app.route("/api/comments", methods=["POST"])
+def api_post_comment():
+    data = request.get_json()
+    if not data:
+        return jsonify({"ok": False, "error": "Invalid request"}), 400
+
+    # Honeypot - if website field is filled, it's a bot
+    if data.get("website"):
+        return jsonify({"ok": True, "id": 0})
+
+    article_id = str(data.get("article_id", "")).strip()
+    name = str(data.get("name", "")).strip()[:80]
+    body = str(data.get("body", "")).strip()[:2000]
+
+    if not article_id or not name or not body:
+        return jsonify({"ok": False, "error": "Name and comment are required"}), 400
+    if len(name) < 2:
+        return jsonify({"ok": False, "error": "Name too short"}), 400
+    if len(body) < 3:
+        return jsonify({"ok": False, "error": "Comment too short"}), 400
+
+    # Basic rate limiting: max 5 comments per IP per hour
+    ip = request.remote_addr or ""
+    cdb = get_comments_db()
+    recent = cdb.execute(
+        "SELECT COUNT(*) FROM comments WHERE ip = ? AND created_at > datetime('now', '-1 hour')",
+        (ip,)
+    ).fetchone()[0]
+    if recent >= 5:
+        return jsonify({"ok": False, "error": "Too many comments. Please wait a bit."}), 429
+
+    # Sanitize: strip HTML tags
+    import re as _re
+    body = _re.sub(r'<[^>]+>', '', body)
+    name = _re.sub(r'<[^>]+>', '', name)
+
+    cdb.execute(
+        "INSERT INTO comments (article_id, name, body, ip) VALUES (?, ?, ?, ?)",
+        (article_id, name, body, ip)
+    )
+    cdb.commit()
+    return jsonify({"ok": True})
+
+
+@app.route("/api/comments/<int:comment_id>", methods=["DELETE"])
+def api_delete_comment(comment_id):
+    cdb = get_comments_db()
+    cdb.execute("DELETE FROM comments WHERE id = ?", (comment_id,))
+    cdb.commit()
+    return jsonify({"ok": True})
+
+
+@app.route("/api/photos/stats")
+def api_photos_stats():
+    db = get_photos_db()
+    total = db.execute("SELECT COUNT(*) FROM photos WHERE deleted = 0").fetchone()[0]
+    downloaded = db.execute("SELECT COUNT(*) FROM photos WHERE downloaded = 1 AND deleted = 0").fetchone()[0]
+    featured = db.execute("SELECT COUNT(*) FROM photos WHERE featured = 1 AND deleted = 0").fetchone()[0]
+    categories = db.execute("""
+        SELECT category, COUNT(*) as c FROM photos
+        WHERE deleted = 0 GROUP BY category ORDER BY c DESC
+    """).fetchall()
+    return jsonify({
+        "total": total,
+        "downloaded": downloaded,
+        "featured": featured,
+        "categories": [dict(r) for r in categories],
+    })
+
+
+# ── Routes: Feeds & Static ───────────────────────────────────────
 
 @app.route("/feed")
 def rss_feed():
-    articles = query_articles(limit=30)
-    xml = render_template("feed.xml", articles=articles)
-    return Response(xml, mimetype="application/rss+xml")
+    """RSS 2.0 feed with proper article URLs and metadata."""
+    rag = get_rag_db()
+    articles = rag.execute("""
+        SELECT id, committee, date, headline, quick_summary, event_id
+        FROM meetings
+        WHERE article IS NOT NULL AND article != ''
+        ORDER BY date DESC LIMIT 20
+    """).fetchall()
+    articles = [dict(a) for a in articles]
+
+    from email.utils import formatdate
+    from time import mktime
+    import datetime as _dt
+
+    rss = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    rss += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">\n'
+    rss += '<channel>\n'
+    rss += '  <title>croton.news</title>\n'
+    rss += '  <link>https://croton.news</link>\n'
+    rss += '  <description>AI-assisted civic information covering Croton-on-Hudson, NY village government from public records</description>\n'
+    rss += '  <language>en-us</language>\n'
+    rss += '  <copyright>2026 croton.news</copyright>\n'
+    rss += '  <managingEditor>editor@croton.news (Matthew Broudy)</managingEditor>\n'
+    rss += '  <atom:link href="https://croton.news/feed" rel="self" type="application/rss+xml"/>\n'
+    rss += '  <image><url>https://croton.news/static/favicon.svg</url><title>croton.news</title><link>https://croton.news</link></image>\n'
+
+    for a in articles:
+        dt = _dt.datetime.strptime(a["date"], "%Y-%m-%d").replace(hour=19)
+        pub_date = formatdate(mktime(dt.timetuple()), localtime=True)
+        eid = a.get("event_id") or ""
+        og_img = f"https://croton.news/photos/{eid}_t60_og.jpg" if eid else "https://croton.news/photos/placeholder_og.jpg"
+        title = (a["headline"] or a["quick_summary"] or "").replace("&", "&amp;").replace("<", "&lt;")
+        desc = (a["quick_summary"] or "").replace("&", "&amp;").replace("<", "&lt;")
+
+        rss += '  <item>\n'
+        rss += f'    <title>{title}</title>\n'
+        rss += f'    <link>https://croton.news/article/{a["id"]}</link>\n'
+        rss += f'    <guid isPermaLink="true">https://croton.news/article/{a["id"]}</guid>\n'
+        rss += f'    <pubDate>{pub_date}</pubDate>\n'
+        rss += f'    <dc:creator>Matthew Broudy</dc:creator>\n'
+        rss += f'    <description><![CDATA[{desc}]]></description>\n'
+        rss += f'    <category>{a["committee"]}</category>\n'
+        rss += f'    <media:content url="{og_img}" medium="image" type="image/jpeg" width="1200" height="675"/>\n'
+        rss += '  </item>\n'
+
+    rss += '</channel>\n</rss>'
+    return Response(rss, mimetype="application/rss+xml")
 
 
-# --- SEO ---
+@app.route("/feeds/<path:filename>")
+def feeds(filename):
+    feeds_dir = os.path.join(STATIC_DIR, "feeds")
+    mimetype = "text/calendar" if filename.endswith(".ics") else "application/json"
+    return send_from_directory(feeds_dir, filename, mimetype=mimetype)
+
+
+INDEXNOW_KEY = "d0b7fffbe494bf18af45048af4bddaef"
 
 @app.route("/robots.txt")
 def robots():
     return Response(
-        "User-agent: *\nAllow: /\nSitemap: https://croton.news/sitemap.xml\n",
+        "User-agent: *\n"
+        "Allow: /\n\n"
+        "User-agent: Googlebot-News\n"
+        "Allow: /\n\n"
+        "Sitemap: https://croton.news/sitemap.xml\n"
+        "Sitemap: https://croton.news/news-sitemap.xml\n",
         mimetype="text/plain",
     )
+
+@app.route(f"/{INDEXNOW_KEY}.txt")
+def indexnow_key():
+    return Response(INDEXNOW_KEY, mimetype="text/plain")
+
+def notify_indexnow(urls):
+    """Notify Bing/Yandex of new or updated URLs via IndexNow."""
+    import urllib.request
+    if isinstance(urls, str):
+        urls = [urls]
+    payload = json.dumps({
+        "host": "croton.news",
+        "key": INDEXNOW_KEY,
+        "keyLocation": f"https://croton.news/{INDEXNOW_KEY}.txt",
+        "urlList": urls,
+    }).encode()
+    def _send():
+        for endpoint in ("https://api.indexnow.org/indexnow",
+                         "https://www.bing.com/indexnow"):
+            try:
+                req = urllib.request.Request(
+                    endpoint, data=payload,
+                    headers={"Content-Type": "application/json"})
+                urllib.request.urlopen(req, timeout=10)
+            except Exception:
+                pass
+    threading.Thread(target=_send, daemon=True).start()
+
+
+@app.route("/news-sitemap.xml")
+def news_sitemap():
+    """Google News sitemap — articles from last 48 hours (Google requirement)."""
+    rag = get_rag_db()
+    articles = rag.execute("""
+        SELECT id, date, committee, headline, quick_summary
+        FROM meetings
+        WHERE article IS NOT NULL AND article != ''
+          AND date >= date('now', '-2 days')
+        ORDER BY date DESC
+    """).fetchall()
+    # If no recent articles, include last 10 for discovery
+    if not articles:
+        articles = rag.execute("""
+            SELECT id, date, committee, headline, quick_summary
+            FROM meetings
+            WHERE article IS NOT NULL AND article != ''
+            ORDER BY date DESC LIMIT 10
+        """).fetchall()
+
+    xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+    xml += '        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"\n'
+    xml += '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
+    for a in articles:
+        a = dict(a)
+        eid = rag.execute("SELECT event_id FROM meetings WHERE id = ?", (a["id"],)).fetchone()
+        eid_val = eid["event_id"] if eid and eid["event_id"] else ""
+        og_img = f"https://croton.news/photos/{eid_val}_t60_og.jpg" if eid_val else "https://croton.news/photos/placeholder_og.jpg"
+        xml += '  <url>\n'
+        xml += f'    <loc>https://croton.news/article/{a["id"]}</loc>\n'
+        xml += '    <news:news>\n'
+        xml += '      <news:publication>\n'
+        xml += '        <news:name>croton.news</news:name>\n'
+        xml += '        <news:language>en</news:language>\n'
+        xml += '      </news:publication>\n'
+        xml += f'      <news:publication_date>{a["date"]}T19:00:00-05:00</news:publication_date>\n'
+        xml += f'      <news:title>{a["headline"] or a["quick_summary"] or ""}</news:title>\n'
+        xml += '    </news:news>\n'
+        xml += '    <image:image>\n'
+        xml += f'      <image:loc>{og_img}</image:loc>\n'
+        xml += f'      <image:caption>{a["headline"] or ""}</image:caption>\n'
+        xml += '    </image:image>\n'
+        xml += '  </url>\n'
+    xml += '</urlset>'
+    return Response(xml, mimetype="application/xml")
 
 
 @app.route("/sitemap.xml")
 def sitemap():
-    articles = query_articles(limit=500)
-    xml = ['<?xml version="1.0" encoding="UTF-8"?>']
-    xml.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
-    xml.append(f'  <url><loc>https://croton.news/</loc><changefreq>hourly</changefreq><priority>1.0</priority></url>')
-    for cat in CATEGORIES:
-        xml.append(f'  <url><loc>https://croton.news/category/{cat}</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>')
-    for art in articles:
-        xml.append(f'  <url><loc>https://croton.news/article/{art["id"]}</loc><priority>0.6</priority></url>')
-    xml.append('</urlset>')
-    return Response("\n".join(xml), mimetype="application/xml")
+    rag = get_rag_db()
+    meetings = rag.execute("""
+        SELECT id, date, article_model FROM meetings
+        WHERE article IS NOT NULL AND article != ''
+        ORDER BY date DESC
+    """).fetchall()
+
+    # Also pull legacy summaries that aren't in meetings table
+    try:
+        db = get_summaries_db()
+        legacy = db.execute("SELECT doc_id, date FROM summaries ORDER BY date DESC").fetchall()
+    except Exception:
+        legacy = []
+
+    # Meeting hub pages (all meetings, not just those with articles)
+    all_meetings = rag.execute("""
+        SELECT id, date, event_id, has_transcript FROM meetings ORDER BY date DESC
+    """).fetchall()
+
+    # Topics and entities for full coverage
+    topics = rag.execute("SELECT slug FROM topic_threads WHERE status = 'active'").fetchall()
+    entities = rag.execute("SELECT slug FROM entities WHERE mention_count >= 3 ORDER BY mention_count DESC LIMIT 200").fetchall()
+
+    return Response(
+        render_template("sitemap.xml",
+            meetings=meetings, legacy=legacy, all_meetings=all_meetings,
+            topics=topics, entities=entities),
+        mimetype="application/xml",
+    )
 
 
-# ---------------------------------------------------------------------------
-# Startup
-# ---------------------------------------------------------------------------
+# ── Main ──────────────────────────────────────────────────────────
+
+
+
+# -- Status Page -------------------------------------------------------
+
+@app.route("/status")
+def status_page():
+    import subprocess
+    import urllib.request as _urllib_req
+    from datetime import datetime, timedelta
+
+    rag = get_rag_db()
+    today = datetime.now().date()
+
+    # Stats
+    total = rag.execute("SELECT COUNT(*) FROM meetings").fetchone()[0]
+    with_articles = rag.execute("SELECT COUNT(*) FROM meetings WHERE article IS NOT NULL AND article != ''").fetchone()[0]
+    last_row = rag.execute("SELECT date, committee FROM meetings ORDER BY date DESC LIMIT 1").fetchone()
+    last_meeting_date = last_row["date"] if last_row else "None"
+    last_meeting_committee = last_row["committee"] if last_row else ""
+    try:
+        days_since_last = (today - datetime.strptime(last_meeting_date, "%Y-%m-%d").date()).days
+    except Exception:
+        days_since_last = -1
+
+    max_ev = rag.execute(
+        "SELECT MAX(CAST(event_id AS INTEGER)) as eid, date FROM meetings WHERE event_id IS NOT NULL AND event_id NOT LIKE 'yt-%'"
+    ).fetchone()
+    max_event_id = max_ev["eid"] or 0
+    max_event_date = max_ev["date"] or ""
+
+    stats = dict(total_meetings=total, with_articles=with_articles,
+                 last_meeting_date=last_meeting_date, last_meeting_committee=last_meeting_committee,
+                 days_since_last=days_since_last, max_event_id=max_event_id, max_event_date=max_event_date)
+
+    # ChampDS check
+    champds = {"api_live": False, "portal_live": False, "next_event_exists": False, "scan_ceiling": max_event_id + 20}
+    try:
+        with _urllib_req.urlopen(f"https://playapi.champds.com/crotononhudsonny/event/{max_event_id}", timeout=8) as r:
+            champds["api_live"] = "Event" in json.loads(r.read())
+    except Exception:
+        pass
+    try:
+        req = _urllib_req.Request("https://play.champds.com/crotononhudsonny", method="HEAD")
+        with _urllib_req.urlopen(req, timeout=8) as r:
+            champds["portal_live"] = r.status < 400
+    except Exception:
+        pass
+
+    # Cron jobs
+    cron_jobs = []
+    job_defs = [
+        {"name": "Pipeline (discover+process)", "script": "pipeline.py process-new", "schedule": "Daily 7:00 AM",
+         "log": "/var/log/croton-pipeline.log", "cron_pattern": "pipeline.py"},
+        {"name": "BOE YouTube Poller", "script": "poll_boe.py --write", "schedule": "Daily 7:30 AM",
+         "log": "/var/log/croton-boe.log", "cron_pattern": "poll_boe.py"},
+        {"name": "BoardDocs Sync", "script": "boarddocs.py sync", "schedule": "Daily 7:15 AM",
+         "log": "/var/log/croton-boarddocs.log", "cron_pattern": "boarddocs.py"},
+        {"name": "Story Miner", "script": "story_miner.py scan --email", "schedule": "Daily 8:00 AM",
+         "log": "/var/log/croton-stories.log", "cron_pattern": "story_miner.py"},
+        {"name": "Auto Pipeline (upcoming+previews)", "script": "auto_pipeline.py", "schedule": "Hourly",
+         "log": "/var/log/auto_pipeline.log", "cron_pattern": "auto_pipeline.py"},
+    ]
+    try:
+        crontab_output = subprocess.run(["crontab", "-l"], capture_output=True, text=True, timeout=5).stdout
+    except Exception:
+        crontab_output = ""
+
+    for jd in job_defs:
+        in_crontab = jd["cron_pattern"] in crontab_output
+        last_run = None
+        last_output = ""
+        try:
+            mtime = os.path.getmtime(jd["log"])
+            last_run = datetime.fromtimestamp(mtime).strftime("%Y-%m-%d %H:%M")
+            hours_ago = (datetime.now() - datetime.fromtimestamp(mtime)).total_seconds() / 3600
+        except Exception:
+            hours_ago = 9999
+        try:
+            result = subprocess.run(["tail", "-3", jd["log"]], capture_output=True, text=True, timeout=5)
+            last_output = result.stdout.strip()
+        except Exception:
+            last_output = ""
+        if not in_crontab:
+            status = "dead"
+        elif hours_ago > 48:
+            status = "error"
+        elif "ERR" in last_output or "failed" in last_output.lower() or "error" in last_output.lower():
+            status = "warn"
+        else:
+            status = "ok"
+        cron_jobs.append(dict(name=jd["name"], script=jd["script"],
+            schedule=jd["schedule"] if in_crontab else jd["schedule"] + " -- NOT IN CRONTAB",
+            last_run=last_run, status=status, last_output=last_output))
+
+    # Logs
+    log_files = [("/var/log/croton-pipeline.log", "Pipeline"), ("/var/log/croton-boe.log", "BOE Poller"),
+                 ("/var/log/croton-boarddocs.log", "BoardDocs"), ("/var/log/croton-stories.log", "Story Miner"),
+                 ("/var/log/auto_pipeline.log", "Auto Pipeline")]
+    logs = []
+    for lpath, lname in log_files:
+        try:
+            mtime = datetime.fromtimestamp(os.path.getmtime(lpath)).strftime("%Y-%m-%d %H:%M")
+            result = subprocess.run(["tail", "-20", lpath], capture_output=True, text=True, timeout=5)
+            logs.append(dict(name=lname, modified=mtime, tail=result.stdout.strip()))
+        except Exception:
+            logs.append(dict(name=lname, modified="N/A", tail="Log file not found"))
+
+    # Expected schedule (confirmed from village calendar + BoardDocs)
+    confirmed_schedule = [
+        ("2026-04-01", "Board Of Trustees"),
+        ("2026-04-08", "Board Of Trustees"),
+        ("2026-04-14", "Planning Board Meeting"),
+        ("2026-04-15", "Board Of Trustees"),
+        ("2026-04-21", "Zoning Board of Appeals"),
+        ("2026-04-22", "Board Of Trustees"),
+        ("2026-05-05", "Board Of Trustees"),
+        ("2026-05-06", "Board Of Trustees"),
+        ("2026-05-07", "Board of Education"),
+        ("2026-05-19", "Zoning Board of Appeals"),
+        ("2026-05-19", "Board of Education"),
+        ("2026-05-20", "Board Of Trustees"),
+        ("2026-05-26", "Planning Board"),
+        ("2026-05-27", "Conservation Advisory Council"),
+        ("2026-06-03", "Board Of Trustees"),
+        ("2026-06-04", "Board of Education"),
+        ("2026-06-17", "Zoning Board of Appeals"),
+        ("2026-06-18", "Board Of Trustees"),
+        ("2026-06-23", "Planning Board"),
+    ]
+    expected_meetings = []
+    known_dates = {(r[0], r[1]) for r in rag.execute("SELECT date, committee FROM meetings").fetchall()}
+    for date_str, committee in confirmed_schedule:
+        try:
+            date_val = datetime.strptime(date_str, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if date_val < today - timedelta(days=45) or date_val > today + timedelta(days=60):
+            continue
+        if (date_str, committee) in known_dates:
+            st = "covered"
+        elif date_val > today:
+            st = "upcoming"
+        else:
+            st = "missing"
+        expected_meetings.append(dict(date=date_str, committee=committee, status=st))
+    expected_meetings.sort(key=lambda x: x["date"])
+
+    # Phone relay actions
+    relay_actions = []
+    try:
+        import xml.etree.ElementTree as _ET
+        _rss_req = _urllib_req.Request(
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UC8PPKYkTdJs0GJ10k-lABXQ",
+            headers={"User-Agent": "Mozilla/5.0 (compatible; croton.news/1.0)"})
+        with _urllib_req.urlopen(_rss_req, timeout=10) as _resp:
+            _rss_root = _ET.fromstring(_resp.read())
+        _rss_ns = {"atom": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
+        _yt_known = {row["event_id"].replace("yt-", "") for row in
+                     rag.execute("SELECT event_id FROM meetings WHERE event_id LIKE 'yt-%'").fetchall()}
+        _today_str = today.strftime("%Y-%m-%d")
+        for _entry in _rss_root.findall("atom:entry", _rss_ns):
+            _vid = _entry.find("yt:videoId", _rss_ns).text
+            _title = _entry.find("atom:title", _rss_ns).text
+            _pub = _entry.find("atom:published", _rss_ns).text[:10]
+            import re as _re
+            _dm = _re.search(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", _title)
+            if _dm:
+                _m, _d, _y = int(_dm.group(1)), int(_dm.group(2)), int(_dm.group(3))
+                if _y < 100: _y += 2000
+                if f"{_y}-{_m:02d}-{_d:02d}" > _today_str:
+                    continue
+            if _vid not in _yt_known and _pub <= _today_str:
+                relay_actions.append(dict(action="boe-fetch", description="New YouTube video: " + _title,
+                                         command="boe-fetch " + _vid, priority="medium"))
+    except Exception:
+        pass
+
+    bd_missing = rag.execute(
+        "SELECT date, committee, boarddocs_id, has_minutes, "
+        "agenda_json IS NOT NULL AND agenda_json != '' as has_agenda "
+        "FROM meetings WHERE committee LIKE '%Education%' "
+        "AND date >= date('now', '-45 days') AND date < date('now') "
+        "AND (article_model IS NULL OR article_model != 'skipped')"
+    ).fetchall()
+    for m in bd_missing:
+        needs = []
+        if not m["has_agenda"]: needs.append("agenda")
+        if not m["has_minutes"]: needs.append("minutes")
+        if needs:
+            relay_actions.append(dict(action="boarddocs-fetch",
+                description="BOE " + m["date"] + " -- needs " + " + ".join(needs),
+                command="boarddocs-fetch " + m["date"] + " " + (m["boarddocs_id"] or "unknown"),
+                priority="high" if "minutes" in needs else "medium"))
+
+    if days_since_last > 7:
+        relay_actions.append(dict(action="investigate",
+            description="ChampDS has not posted new events in " + str(days_since_last) + " days",
+            command="# Check if Village has switched platforms or is just delayed",
+            priority="high"))
+
+    return render_template("status.html",
+        stats=stats, champds=champds, cron_jobs=cron_jobs, logs=logs,
+        expected_meetings=expected_meetings, relay_actions=relay_actions)
+
+
+
+
+# -- Review Page -------------------------------------------------------
+
+@app.route("/review")
+@app.route("/review/<slug>")
+def review_page(slug=None):
+    """Editorial review page for draft articles before publication."""
+    review_dir = os.path.join(os.path.dirname(__file__), "rag", "saved_articles")
+    if not os.path.isdir(review_dir):
+        return "No articles in review", 404
+
+    review_files = sorted(
+        [f for f in os.listdir(review_dir) if f.endswith("-verified.json")],
+        reverse=True
+    )
+
+    if not slug:
+        articles = []
+        for fname in review_files:
+            try:
+                with open(os.path.join(review_dir, fname)) as f:
+                    data = json.load(f)
+                articles.append({
+                    "slug": fname.replace(".json", ""),
+                    "headline": data.get("headline", fname),
+                    "model": data.get("model", "unknown"),
+                    "generated_at": data.get("generated_at", ""),
+                    "verification": data.get("verification", ""),
+                })
+            except Exception:
+                pass
+
+        return render_template_string(REVIEW_INDEX_HTML, articles=articles)
+
+    fpath = os.path.join(review_dir, slug + ".json")
+    if not os.path.exists(fpath):
+        return "Article not found", 404
+
+    with open(fpath) as f:
+        data = json.load(f)
+
+    article_md = data.get("article", "")
+    headline = data.get("headline", "")
+
+    # Markdown to HTML
+    import re as _re
+    h = article_md
+    h = _re.sub(r'^#{3}\s+(.+)$', r'<h3>\1</h3>', h, flags=_re.MULTILINE)
+    h = _re.sub(r'^#{2}\s+(.+)$', r'<h2>\1</h2>', h, flags=_re.MULTILINE)
+    h = _re.sub(r'^#{1}\s+(.+)$', r'<h1>\1</h1>', h, flags=_re.MULTILINE)
+    h = _re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', h)
+    h = _re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', h)
+    h = _re.sub(r'\n\n+', '</p>\n<p>', h)
+    h = '<p>' + h + '</p>'
+    article_html = h
+
+    meta_html = (
+        f"Model: {data.get('model','')} | "
+        f"Source: {data.get('source_transcript','')} | "
+        f"Verification: {data.get('verification','')} | "
+        f"Generated: {data.get('generated_at','')}"
+    )
+
+    return render_template_string(
+        REVIEW_ARTICLE_HTML,
+        headline=headline,
+        meta=meta_html,
+        article_html=article_html,
+        video_url="https://www.youtube.com/watch?v=_3mId9iaSps",
+    )
+
+
+REVIEW_INDEX_HTML = """
+{% extends "base.html" %}
+{% block title %}Editorial Review{% endblock %}
+{% block content %}
+<div style="max-width:800px;margin:2rem auto;padding:0 1rem;">
+  <h1 style="font-family:var(--serif-display);">Editorial Review</h1>
+  <p style="color:var(--ink-muted);margin-bottom:2rem;">Draft articles pending human review before publication.</p>
+  {% for a in articles %}
+  <div style="border:1px solid var(--rule);padding:1rem;margin-bottom:1rem;border-radius:4px;">
+    <h3><a href="/review/{{ a.slug }}">{{ a.headline }}</a></h3>
+    <p style="font-size:0.85rem;color:var(--ink-muted);">
+      Model: {{ a.model }} | Generated: {{ a.generated_at }} | Verification: {{ a.verification }}
+    </p>
+  </div>
+  {% endfor %}
+  {% if not articles %}
+  <p>No articles pending review.</p>
+  {% endif %}
+</div>
+{% endblock %}
+"""
+
+REVIEW_ARTICLE_HTML = """
+{% extends "base.html" %}
+{% block title %}REVIEW: {{ headline }}{% endblock %}
+{% block content %}
+<div style="max-width:800px;margin:2rem auto;padding:0 1rem;">
+  <div style="background:#fff3cd;border:1px solid #ffc107;padding:1rem;border-radius:4px;margin-bottom:2rem;">
+    <strong>EDITORIAL REVIEW</strong> &mdash; This article has not been published.
+    Every quote must be verified by a human editor before publication.
+    <br><small>{{ meta }}</small>
+  </div>
+
+  <article style="font-family:var(--serif-body);line-height:1.8;">
+    {{ article_html | safe }}
+  </article>
+
+  <div style="margin-top:3rem;padding:1rem;background:var(--paper-warm);border-radius:4px;">
+    <h3>Review Checklist</h3>
+    <ul style="list-style:none;padding:0;">
+      <li>&#9744; Every direct quote verified against source recording</li>
+      <li>&#9744; Speaker attributions correct</li>
+      <li>&#9744; Names spelled correctly</li>
+      <li>&#9744; Dates and facts accurate</li>
+      <li>&#9744; No fabricated content</li>
+      <li>&#9744; Timestamps match quotes</li>
+    </ul>
+    <p><a href="{{ video_url }}" target="_blank">Source video</a></p>
+  </div>
+</div>
+{% endblock %}
+"""
+
 
 if __name__ == "__main__":
-    init_db()
-    # Run initial scrape in background
-    t = threading.Thread(target=scrape_loop, daemon=True)
-    t.start()
     port = int(os.environ.get("PORT", 3260))
     app.run(host="0.0.0.0", port=port, debug=False)

@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block title %}Transcript: {{ transcript.title }} — {{ transcript.date }}{% endblock %}
+{% block meta_desc %}Full transcript of {{ transcript.title }}, {{ transcript.date }}{% endblock %}
+
+{% block content %}
+<div class="article-wrap">
+
+  <div class="article-head">
+    <span class="lead-badge" style="background:var(--blue-civic)">Full Transcript</span>
+    <h1>{{ transcript.title }}</h1>
+    <div class="deck">{{ transcript.date }} &mdash; {{ transcript.word_count|default('') }} words, {{ transcript.speaker_count|default('') }} speakers identified</div>
+    <div class="article-head-meta">
+      <span>{{ transcript.date }}</span>
+      <span>&middot;</span>
+      <span>Transcribed by Deepgram Nova-3</span>
+      <span>&middot;</span>
+      <a href="/videos/{{ transcript.event_id }}.mp4" target="_blank">Watch Video &nearr;</a>
+      <span>&middot;</span>
+      <a href="/audio/{{ transcript.event_id }}.mp3">Listen to Audio &nearr;</a>
+    </div>
+  </div>
+
+  <div style="background:var(--paper-warm);border-left:3px solid var(--accent);padding:14px 18px;margin:20px 0;font-family:var(--sans);font-size:13px;color:var(--ink-secondary)">
+    Automatically transcribed from the meeting video. Speaker names are identified where possible.
+    Jump to a moment by clicking a timestamp, or use the audio player on any section.
+  </div>
+
+  <div style="font-family:var(--sans);font-size:15px;line-height:1.8;color:var(--ink)">
+    {% set speaker_map = transcript.get('speaker_map', {}) if transcript.get is defined else {} %}
+    {% set prev_speaker = namespace(val='') %}
+    {% for u in transcript.utterances %}
+      {% set raw_speaker = u.speaker|default('Unknown') %}
+      {% set num = raw_speaker.replace('Speaker ', '') %}
+      {% set speaker_name = speaker_map.get(num, raw_speaker) if speaker_map else raw_speaker %}
+      {% set ts = u.start|default(0) %}
+      {% set ts_int = ts|int %}
+      {% set ts_min = (ts // 60)|int %}
+      {% set ts_sec = (ts % 60)|int %}
+
+      {% if speaker_name != prev_speaker.val %}
+        {% set prev_speaker.val = speaker_name %}
+        <div id="t={{ ts_int }}" style="margin-top:24px;padding-top:14px;border-top:1px solid var(--rule);scroll-margin-top:60px">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+            <a href="#t={{ ts_int }}" style="font-size:11px;font-family:var(--sans);color:var(--ink-faint);text-decoration:none;min-width:45px"
+               title="Link to this moment">{{ '%d:%02d'|format(ts_min, ts_sec) }}</a>
+            <span style="font-size:13px;font-weight:700;color:var(--accent);letter-spacing:0.02em">{{ speaker_name }}</span>
+            <a href="/audio/{{ transcript.event_id }}.mp3#t={{ ts_int }}" style="font-size:10px;color:var(--ink-faint);text-decoration:none" title="Listen from here">&#9654;</a>
+            <a href="/videos/{{ transcript.event_id }}.mp4#t={{ ts_int }}" target="_blank" style="font-size:10px;color:var(--ink-faint);text-decoration:none" title="Watch video from here">&#127909;</a>
+          </div>
+          <p style="margin:0 0 0 55px">{{ u.text|default('') }}</p>
+        </div>
+      {% else %}
+        <div id="t={{ ts_int }}" style="scroll-margin-top:60px">
+          <p style="margin:2px 0 2px 55px">
+            <a href="#t={{ ts_int }}" style="font-size:10px;color:var(--ink-faint);text-decoration:none;margin-right:4px"
+               title="{{ '%d:%02d'|format(ts_min, ts_sec) }}">&#8226;</a>
+            {{ u.text|default('') }}
+          </p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</div>
+
+<script>
+// Jump to timestamp from URL hash (e.g., #t=125)
+// Finds exact match or closest earlier anchor
+if (location.hash && location.hash.startsWith('#t=')) {
+  const target = parseInt(location.hash.slice(3));
+  let el = document.getElementById('t=' + target);
+  if (!el) {
+    // Find closest anchor at or before target time
+    let best = null, bestDiff = Infinity;
+    document.querySelectorAll('[id^="t="]').forEach(function(node) {
+      const t = parseInt(node.id.slice(2));
+      const diff = target - t;
+      if (diff >= 0 && diff < bestDiff) { bestDiff = diff; best = node; }
+    });
+    el = best;
+  }
+  if (el) setTimeout(function() { el.scrollIntoView({behavior: 'smooth', block: 'start'}); }, 100);
+}
+</script>
+{% endblock %}
