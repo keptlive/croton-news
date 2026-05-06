@@ -79,12 +79,19 @@
   </div>
 
   {# ═══ Minutes Verification Warning ═══ #}
-  {% if not article.minutes_verified %}
+  {% if not article.minutes_verified and (not article.article_model or "minutes" not in article.article_model) %}
   <div style="background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:12px 16px;margin:16px 0;font-size:13px;color:#6d4c00;display:flex;align-items:center;gap:10px">
     <span style="font-size:18px">&#9888;</span>
     <span>This article has not yet been verified against the official meeting minutes. Details may contain errors. See our <a href="/editorial-policy" style="color:#6d4c00;font-weight:600">corrections log</a> for more information.</span>
   </div>
   {% elif article.minutes_verified %}
+  {% endif %}
+  {# ═══ Minutes Source Banner ═══ #}
+  {% if article.article_model and "minutes" in article.article_model and article.boarddocs_id %}
+  <div style="background:#e8f5e9;border:1px solid #c8e6c9;border-radius:8px;padding:12px 16px;margin:16px 0;font-size:13px;color:#2d6a4f;display:flex;align-items:center;gap:10px">
+    <span style="font-size:16px">&#128196;</span>
+    <span>This article was generated from the <a href="https://go.boarddocs.com/ny/chufsd/Board.nsf/goto?open&amp;id={{ article.boarddocs_id }}" target="_blank" rel="noopener" style="color:#2d6a4f;font-weight:600">official meeting minutes</a>. All facts are footnoted to their source in the minutes.</span>
+  </div>
   {% endif %}
   {# ═══ Key Actions & Decisions (collapsed by default) ═══ #}
   {% set summary = article.complete_summary or article.executive_summary %}
@@ -113,7 +120,7 @@
   {% set eid = article.event_id or '' %}
   {% if body %}
   <div class="article-body" id="article-body" data-eid="{{ eid }}">
-    {{ body|safe }}
+    {{ body|process_footnotes|safe }}
   </div>
   {% raw %}
   <script>
@@ -136,9 +143,9 @@
         videoHref = '/videos/' + qEid + '.mp4#t=' + ts;
         videoLabel = '&#9654; ' + mins + ':' + secs;
       }
-      var links = '<span class="quote-links" style="display:inline-flex;gap:8px;margin-left:4px">' +
-        '<a href="/transcript/' + qEid + '#t=' + ts + '" style="font-size:11px;color:var(--ink-muted);text-decoration:none" title="Read in transcript">&#128196; transcript</a>' +
-        '<a href="' + videoHref + '" target="_blank" style="font-size:11px;color:var(--accent);text-decoration:none" title="Watch at ' + mins + ':' + secs + '">' + videoLabel + '</a>' +
+      var links = '<span class="quote-links" style="display:inline-flex;gap:4px;margin-left:2px;vertical-align:super;font-size:11px;line-height:0">' +
+        '<a href="/transcript/' + qEid + '#t=' + ts + '" style="text-decoration:none;opacity:0.5" title="Transcript at ' + mins + ':' + secs + '">&#128196;</a>' +
+        '<a href="' + videoHref + '" target="_blank" style="text-decoration:none;opacity:0.5" title="Watch at ' + mins + ':' + secs + '">&#9654;&#65039;</a>' +
         '</span>';
       return links;
     }
@@ -225,7 +232,7 @@
     if (!el.innerHTML.match(/<p[\s>]/i)) {
       el.innerHTML = el.innerHTML.split(/\n\n+/).filter(function(p) { return p.trim(); }).map(function(p) {
         var t = p.trim();
-        if (t.match(/^<(figure|div|video|table|blockquote|h[1-6]|hr)/i)) return t;
+        if (t.match(/^<(figure|div|video|table|blockquote|h[1-6]|hr|aside|section)/i)) return t;
         return '<p>' + t + '</p>';
       }).join('');
     }
@@ -253,6 +260,22 @@
   })();
   </script>
   {% endraw %}
+  
+<script>
+/* Footnote smooth scrolling */
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('.fn-ref a, .fn-backref');
+  if (link) {
+    e.preventDefault();
+    var target = document.querySelector(link.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      history.replaceState(null, '', link.getAttribute('href'));
+    }
+  }
+});
+</script>
+
   {% endif %}
 
   {# ═══ Meeting Index (legacy, from summaries) ═══ #}

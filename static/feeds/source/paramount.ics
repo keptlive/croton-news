@@ -8,51 +8,6 @@ X-WR-TIMEZONE:America/New_York
 X-WR-CALDESC:Events from Paramount Hudson Valley
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 BEGIN:VEVENT
-UID:7c8d21bb4fb2@croton.news
-DTSTART;TZID=America/New_York:20260409T200000
-SUMMARY:The Outlaws
-LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
-URL:
-CATEGORIES:events
-DESCRIPTION:Source: Paramount Hudson Valley\nWith Opening Guest-The Cosmic American Derelicts On April 9, Southern Rock legends The Outlaws return for a very special live performance celebrating [..]
-END:VEVENT
-BEGIN:VEVENT
-UID:d6f597b4c66b@croton.news
-DTSTART;TZID=America/New_York:20260410T200000
-SUMMARY:An Evening with David Sedaris
-LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
-URL:
-CATEGORIES:events
-DESCRIPTION:Source: Paramount Hudson Valley\nThere will be a book signing in the lobby before and following the event. With an Opening reading by Cindy House. "Sedaris.]
-END:VEVENT
-BEGIN:VEVENT
-UID:b33124b7d996@croton.news
-DTSTART;TZID=America/New_York:20260411T190000
-SUMMARY:Reverend Horton Heat with Special Guests Black Joe Lewis and Piñata Protest
-LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
-URL:
-CATEGORIES:events
-DESCRIPTION:Source: Paramount Hudson Valley\nSpecial Guests Black Joe Lewis and Piffata Protest Get ready for a high-octane night of psychobilly fire as Reverend Horton Heat brings his [..]
-END:VEVENT
-BEGIN:VEVENT
-UID:bb1a5cf8200a@croton.news
-DTSTART;TZID=America/New_York:20260412T140000
-SUMMARY:That Motown Band
-LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
-URL:
-CATEGORIES:events
-DESCRIPTION:Source: Paramount Hudson Valley\nPresented by EastEnd Bands Are you a fan of classic hits like "Heat Wave" "Ain't Too Proud to Beg" "Baby Love" "What's [..]
-END:VEVENT
-BEGIN:VEVENT
-UID:6d31edaaa2b9@croton.news
-DTSTART;TZID=America/New_York:20260418T200000
-SUMMARY:An Evening with Audra McDonald
-LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
-URL:
-CATEGORIES:events
-DESCRIPTION:Source: Paramount Hudson Valley\nThe photographing or sound recording of this concert or possession of any device for such photographing or sound recording is prohibited. Prepare for [..]
-END:VEVENT
-BEGIN:VEVENT
 UID:3678d1b5f74f@croton.news
 DTSTART;TZID=America/New_York:20260419T150000
 SUMMARY:The Amazing Bubble Factory
@@ -95,7 +50,7 @@ SUMMARY:Adam Ray: WHO IS ME Tour
 LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
 URL:
 CATEGORIES:events
-DESCRIPTION:Source: Paramount Hudson Valley\nVIP Tickets Include a Post-Show Meet and Greet! 18+/Mature Audience Adam Ray is a multifaceted comedian, actor, and director from Seattle,[.]
+DESCRIPTION:Source: Paramount Hudson Valley\nVIP Tickets Include a Post-Show Meet and Greet! 18+/Mature Audience Adam Ray is a multifaceted comedian, actor, and director from Seattle, [...]
 END:VEVENT
 BEGIN:VEVENT
 UID:b8e170dedeb3@croton.news
@@ -122,7 +77,7 @@ SUMMARY:Laurie Berkner: The Greatest Hits Solo Tour!- Sensory Friendly Performan
 LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
 URL:
 CATEGORIES:events
-DESCRIPTION:Source: Paramount Hudson Valley\nShe's Back - with a Sensory Friendly performance on Sunday, May 3 at 11AME PEOPLE MAGAZINE calls Laurie Berkner "the queen of kids[.]
+DESCRIPTION:Source: Paramount Hudson Valley\nShe's Back - with a Sensory Friendly performance on Sunday, May 3 at 11AM! PEOPLE MAGAZINE calls Laurie Berkner "the queen of kids[.]
 END:VEVENT
 BEGIN:VEVENT
 UID:16ed1e35c26f@croton.news
@@ -131,6 +86,51 @@ SUMMARY:Laurie Berkner: The Greatest Hits Solo Tour!
 LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
 URL:
 CATEGORIES:events
-DESCRIPTION:Source: Paramount Hudson Valley\nShe's Back - performing live on Sunday, May 3, 2026 at 3PM! PEOPLE MAGAZINE calls Laurie Berkner "the queen of kids' music," USA [..]
+DESCRIPTION:Source: Paramount Hudson Valley\nShe's Back - performing live on Sunday, May 3, 2026 at 3PM! PEOPLE MAGAZINE calls Laurie Berkner "the queen of kids' music," USA [...]
+END:VEVENT
+BEGIN:VEVENT
+UID:2479b28165e4@croton.news
+DTSTART;TZID=America/New_York:20260506T123000
+SUMMARY:Red Cross Blood Drive
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nTo Schedule an appointment please visit RedCrossBlood.org! Use Sponsor Code: PeekskilINY
+END:VEVENT
+BEGIN:VEVENT
+UID:182ab93774b2@croton.news
+DTSTART;TZID=America/New_York:20260508T200000
+SUMMARY:Start Making Sense & The Ocean Avenue Stompers Horns Present: An Evening of Music by Talking Heads\, David Byrne\, and More!
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nStart Making Sense & The Ocean Avenue Stompers Horns present: the music of Talking
+END:VEVENT
+BEGIN:VEVENT
+UID:1c3393360b11@croton.news
+DTSTART;TZID=America/New_York:20260509T200000
+SUMMARY:Ben Folds & A Piano
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nWith Special Guest Lindsay Kraft. Ben Folds is widely regarded as one of the major music influencers of our generation. The Emmy-nominated singer-songwriter-composer [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:add670f8421b@croton.news
+DTSTART;TZID=America/New_York:20260529T200000
+SUMMARY:The Righteous Brothers: Bill Medley & Bucky Heard
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nGet ready for an unforgettable night as the legendary Righteous Brothers: Bill Medley & Bucky Heard bring their Lovin' Feelin' Farewell Tour to [..]
+END:VEVENT
+BEGIN:VEVENT
+UID:13f7f7c74e19@croton.news
+DTSTART;TZID=America/New_York:20260530T200000
+SUMMARY:An Evening with Darren Criss
+LOCATION:Paramount Hudson Valley\, 1008 Brown St\, Peekskill
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Paramount Hudson Valley\nEmmy and Golden Globe winner Darren Criss brings An Evening with Darren Criss to Paramount Hudson Valley on May 30, 2026, for an [...]
 END:VEVENT
 END:VCALENDAR

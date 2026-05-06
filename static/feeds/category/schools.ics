@@ -8,6 +8,24 @@ X-WR-TIMEZONE:America/New_York
 X-WR-CALDESC:Schools & Education in Croton-on-Hudson area
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 BEGIN:VEVENT
+UID:6958624dfcf3@croton.news
+DTSTART;VALUE=DATE:20260330
+SUMMARY:Spring Recess - SCHOOLS CLOSED
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0e560a5e042e@croton.news
+DTSTART;VALUE=DATE:20260331
+SUMMARY:Spring Recess - SCHOOLS CLOSED
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
 UID:4fdab789d544@croton.news
 DTSTART;VALUE=DATE:20260401
 SUMMARY:Passover Begins April 1 Ends April 9
@@ -89,9 +107,9 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:0c99a06ab98f@croton.news
+UID:713d3e800414@croton.news
 DTSTART;VALUE=DATE:20260408
-SUMMARY:BOE Communications Committee Meeting CHANGED: This event has been changed.
+SUMMARY:BOE Communications Committee Meeting
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
@@ -134,9 +152,9 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:c376e9e4f1fd@croton.news
-DTSTART;VALUE=DATE:20260409
-SUMMARY:PVC Building Planning Council\, 3:15 p.m.
+UID:dcab6feeeb7a@croton.news
+DTSTART;TZID=America/New_York:20260409T151500
+SUMMARY:PVC Building Planning Council
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
@@ -152,9 +170,9 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:c96496ed1ff4@croton.news
-DTSTART;VALUE=DATE:20260409
-SUMMARY:BOE Regular Meeting\, 7:30 pm
+UID:6d7fe117d587@croton.news
+DTSTART;TZID=America/New_York:20260409T193000
+SUMMARY:BOE Regular Meeting
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
@@ -179,15 +197,6 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:0be9f2e6be4a@croton.news
-DTSTART;VALUE=DATE:20260413
-SUMMARY:F Day
-LOCATION:Croton-Harmon School District
-URL:
-CATEGORIES:schools
-DESCRIPTION:Source: Croton-Harmon Schools\n
-END:VEVENT
-BEGIN:VEVENT
 UID:2079b87adf70@croton.news
 DTSTART;VALUE=DATE:20260413
 SUMMARY:NYSESLAT Speaking Exam
@@ -197,18 +206,9 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:032bda519226@croton.news
-DTSTART;VALUE=DATE:20260414
-SUMMARY:Booster Club Meeting\, 7:30 p.m.
-LOCATION:Croton-Harmon School District
-URL:
-CATEGORIES:schools
-DESCRIPTION:Source: Croton-Harmon Schools\n
-END:VEVENT
-BEGIN:VEVENT
-UID:16b001dc4930@croton.news
-DTSTART;VALUE=DATE:20260414
-SUMMARY:F Day
+UID:7dbfd0a5f857@croton.news
+DTSTART;TZID=America/New_York:20260414T193000
+SUMMARY:Booster Club Meeting
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
@@ -242,6 +242,15 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
+UID:c1afaa059be4@croton.news
+DTSTART;VALUE=DATE:20260414
+SUMMARY:BOE Special Meeting (Executive Session Only)
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
 UID:45ad697049eb@croton.news
 DTSTART;VALUE=DATE:20260415
 SUMMARY:NYS English Language Arts Assessment Computer Based Grades 5-8
@@ -260,9 +269,9 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:a58050c2deb5@croton.news
-DTSTART;VALUE=DATE:20260416
-SUMMARY:CET Parent/Teacher Day Conferences\, Early Dismissal 10:45 AM
+UID:a91c618516a0@croton.news
+DTSTART;TZID=America/New_York:20260416T104500
+SUMMARY:CET Parent/Teacher Day Conferences\, Early Dismissal
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
@@ -278,24 +287,6 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:d94002936971@croton.news
-DTSTART;VALUE=DATE:20260417
-SUMMARY:C Day (Zero Period)
-LOCATION:Croton-Harmon School District
-URL:
-CATEGORIES:schools
-DESCRIPTION:Source: Croton-Harmon Schools\n
-END:VEVENT
-BEGIN:VEVENT
-UID:8868ed8d8178@croton.news
-DTSTART;VALUE=DATE:20260417
-SUMMARY:CHHS Spring Musical
-LOCATION:Croton-Harmon School District
-URL:
-CATEGORIES:schools
-DESCRIPTION:Source: Croton-Harmon Schools\n
-END:VEVENT
-BEGIN:VEVENT
 UID:d2cbbda3a175@croton.news
 DTSTART;VALUE=DATE:20260417
 SUMMARY:NYSESLAT Speaking Exam
@@ -305,27 +296,36 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:1a10b9f7089a@croton.news
+UID:4f3b5f90d8bc@croton.news
 DTSTART;VALUE=DATE:20260417
-SUMMARY:BOE Policy Committee Meeting   CHANGED: This event has been changed.
+SUMMARY:BOE Policy Committee Meeting
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:60f9e0973155@croton.news
+UID:da4907a05273@croton.news
+DTSTART;VALUE=DATE:20260417
+SUMMARY:CHHS Spring Musical The Fantasticks (7PM)
+LOCATION:Croton-Harmon School District
+URL:
+CATEGORIES:schools
+DESCRIPTION:Source: Croton-Harmon Schools\n
+END:VEVENT
+BEGIN:VEVENT
+UID:74649fd0fb70@croton.news
 DTSTART;VALUE=DATE:20260418
-SUMMARY:CHHS Spring Musical
+SUMMARY:CHHS Spring Musical: The Fantasticks (2PM & 7PM)
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:86a2aa8e673a@croton.news
+UID:6a4026658b98@croton.news
 DTSTART;VALUE=DATE:20260419
-SUMMARY:CHHS Spring Musical
+SUMMARY:CHHS Spring Musical (7PM)
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
@@ -335,15 +335,6 @@ BEGIN:VEVENT
 UID:41a824f77066@croton.news
 DTSTART;VALUE=DATE:20260420
 SUMMARY:NYSESLAT Speaking Exam
-LOCATION:Croton-Harmon School District
-URL:
-CATEGORIES:schools
-DESCRIPTION:Source: Croton-Harmon Schools\n
-END:VEVENT
-BEGIN:VEVENT
-UID:3d9fcb91d3ce@croton.news
-DTSTART;VALUE=DATE:20260421
-SUMMARY:F Day
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
@@ -368,27 +359,18 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:9143f60bc902@croton.news
-DTSTART;VALUE=DATE:20260421
-SUMMARY:Hidden Transitions - 6th Grade Parents\, 7:00 p.m.
+UID:bd2180d3c30e@croton.news
+DTSTART;TZID=America/New_York:20260421T190000
+SUMMARY:Hidden Transitions - 6th Grade Parents
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:daa1cca406eb@croton.news
-DTSTART;VALUE=DATE:20260421
-SUMMARY:BOE Work Session & Special Meeting:  BOCES Budget Vote\, 7:30 pm
-LOCATION:Croton-Harmon School District
-URL:
-CATEGORIES:schools
-DESCRIPTION:Source: Croton-Harmon Schools\n
-END:VEVENT
-BEGIN:VEVENT
-UID:341177766cdd@croton.news
-DTSTART;VALUE=DATE:20260422
-SUMMARY:F Day
+UID:9ba15a14911a@croton.news
+DTSTART;TZID=America/New_York:20260421T193000
+SUMMARY:BOE Work Session & Special Meeting: BOCES Budget Vote
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
@@ -413,18 +395,9 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:3f472cb6c9b0@croton.news
-DTSTART;VALUE=DATE:20260423
-SUMMARY:A * Day (Advisory)
-LOCATION:Croton-Harmon School District
-URL:
-CATEGORIES:schools
-DESCRIPTION:Source: Croton-Harmon Schools\n
-END:VEVENT
-BEGIN:VEVENT
-UID:f074595dd494@croton.news
-DTSTART;VALUE=DATE:20260423
-SUMMARY:CET Parent/Teacher Day Conferences\, Early Dismissal 10:45 a.m.
+UID:6d1672507607@croton.news
+DTSTART;TZID=America/New_York:20260423T104500
+SUMMARY:CET Parent/Teacher Day Conferences\, Early Dismissal
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
@@ -440,9 +413,9 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:961d2c018cd6@croton.news
-DTSTART;VALUE=DATE:20260423
-SUMMARY:CET Parent/Teacher Evening Conferences\, 4:00 - 7:00 p.m.
+UID:15215c28b0da@croton.news
+DTSTART;TZID=America/New_York:20260423T190000
+SUMMARY:CET Parent/Teacher Evening Conferences\, 4:00 -
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
@@ -476,15 +449,6 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:1ec7825ffc5e@croton.news
-DTSTART;VALUE=DATE:20260428
-SUMMARY:Tiger Tuesday
-LOCATION:Croton-Harmon School District
-URL:
-CATEGORIES:schools
-DESCRIPTION:Source: Croton-Harmon Schools\n
-END:VEVENT
-BEGIN:VEVENT
 UID:fe6f38c99591@croton.news
 DTSTART;VALUE=DATE:20260428
 SUMMARY:NYSESLAT Speaking Exam
@@ -494,9 +458,9 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:752b4d8c3a78@croton.news
-DTSTART;VALUE=DATE:20260428
-SUMMARY:PTSA Meeting @6:30pm
+UID:7cb39c3e4833@croton.news
+DTSTART;TZID=America/New_York:20260428T183000
+SUMMARY:PTSA Meeting @
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools
@@ -512,27 +476,9 @@ CATEGORIES:schools
 DESCRIPTION:Source: Croton-Harmon Schools\n
 END:VEVENT
 BEGIN:VEVENT
-UID:b1aca2916302@croton.news
-DTSTART;VALUE=DATE:20260429
-SUMMARY:F Day
-LOCATION:Croton-Harmon School District
-URL:
-CATEGORIES:schools
-DESCRIPTION:Source: Croton-Harmon Schools\n
-END:VEVENT
-BEGIN:VEVENT
 UID:834041a4cda2@croton.news
 DTSTART;VALUE=DATE:20260429
 SUMMARY:NYSESLAT Speaking Exam
-LOCATION:Croton-Harmon School District
-URL:
-CATEGORIES:schools
-DESCRIPTION:Source: Croton-Harmon Schools\n
-END:VEVENT
-BEGIN:VEVENT
-UID:4b94d5fb3813@croton.news
-DTSTART;VALUE=DATE:20260430
-SUMMARY:F Day (Zero Period)
 LOCATION:Croton-Harmon School District
 URL:
 CATEGORIES:schools

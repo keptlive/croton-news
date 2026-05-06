@@ -22,42 +22,75 @@
   {% set today = now.strftime('%Y-%m-%d') %}
   {% set ns = namespace(upcoming=[], past=[]) %}
   {% for meeting in meetings %}
-    {% if meeting.date >= today and not meeting.has_article %}
+    {% if meeting.date >= today %}
       {% if ns.upcoming.append(meeting) %}{% endif %}
     {% else %}
       {% if ns.past.append(meeting) %}{% endif %}
     {% endif %}
   {% endfor %}
 
-  {# ═══ UPCOMING MEETINGS ═══ #}
+  {# ═══ UPCOMING MEETINGS — Option E: Featured + Strip ═══ #}
   {% if ns.upcoming %}
-  <div style="margin-bottom:32px">
-    <div class="section-rule"><span class="section-label">Upcoming Meetings</span></div>
-    {% for meeting in ns.upcoming %}
-    <div class="meeting-row" style="border-left:4px solid var(--accent);background:var(--paper-warm);margin-bottom:8px;border-radius:0 6px 6px 0">
-      <div class="meeting-date-block">
-        {% set parts = meeting.date.split('-') %}
-        {% set months = {'01':'Jan','02':'Feb','03':'Mar','04':'Apr','05':'May','06':'Jun','07':'Jul','08':'Aug','09':'Sep','10':'Oct','11':'Nov','12':'Dec'} %}
-        <div class="m">{{ months.get(parts[1], parts[1]) }}</div>
-        <div class="d">{{ parts[2]|int }}</div>
-      </div>
-      <div class="meeting-info">
-        <span class="story-badge" style="background:{{ committees.get(meeting.committee, {}).get('color', '#8b2500') }}">
-          {{ meeting.committee }}
-        </span>
-        <h3><a href="/meeting/{{ meeting.id }}">{{ meeting.headline or meeting.committee }} &mdash; {{ meeting.date }}</a></h3>
-        {% if meeting.quick_summary %}
-        <div style="font-size:13px;color:var(--ink-secondary);margin-top:2px">{{ meeting.quick_summary[:150] }}</div>
-        {% endif %}
-        <div style="margin-top:4px;display:flex;gap:8px;flex-wrap:wrap">
-          <span style="font-size:11px;padding:2px 8px;background:var(--accent);color:#fff;border-radius:10px;font-weight:600">Upcoming</span>
-          {% if meeting.agenda_json %}<span style="font-size:11px;padding:2px 8px;background:var(--paper-card);border:1px solid var(--rule);border-radius:10px;font-weight:600;color:var(--ink-secondary)">Agenda Available</span>{% endif %}
-          {% if meeting.has_video %}<span style="font-size:11px;color:var(--blue-link);font-weight:600">Video</span>{% endif %}
-        </div>
-      </div>
+  {% set upcoming_sorted = ns.upcoming|sort(attribute='date') %}
+  {% set featured = upcoming_sorted[0] %}
+  {% set rest = upcoming_sorted[1:4] %}
+
+  {# Featured Next Meeting — Hero Card #}
+  <div style="margin-bottom:28px;background:linear-gradient(135deg, #f8fdf8 0%, #eef7ee 100%);border:1px solid #c8e6c9;border-left:5px solid #2d6a4f;border-radius:0 8px 8px 0;padding:24px 28px;box-shadow:0 2px 8px rgba(0,0,0,0.04)">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap">
+      <span style="font-size:12px;padding:3px 10px;background:#2d6a4f;color:#fff;border-radius:12px;font-weight:700;letter-spacing:0.02em">NEXT MEETING</span>
+      <span style="font-size:12px;padding:3px 10px;background:{{ committees.get(featured.committee, {}).get('color', '#8b2500') }};color:#fff;border-radius:12px;font-weight:600">{{ featured.committee }}</span>
+      {% set parts = featured.date.split('-') %}
+      {% set days = {'0':'Sunday','1':'Monday','2':'Tuesday','3':'Wednesday','4':'Thursday','5':'Friday','6':'Saturday'} %}
+      {% set months_full = {'01':'January','02':'February','03':'March','04':'April','05':'May','06':'June','07':'July','08':'August','09':'September','10':'October','11':'November','12':'December'} %}
+      <span style="font-size:13px;color:#2d6a4f;font-weight:600">{{ months_full.get(parts[1], '') }} {{ parts[2]|int }}, {{ parts[0] }}</span>
+      {% if featured.agenda_json %}
+      {% set agenda_items = featured.agenda_json|from_json %}
+      <span style="font-size:11px;padding:2px 8px;background:#e8f5e9;border:1px solid #c8e6c9;border-radius:10px;color:#2d6a4f;font-weight:600">{{ agenda_items|length }} agenda items</span>
+      {% endif %}
     </div>
+
+    <h2 style="font-family:var(--serif-display);font-size:22px;font-weight:700;margin:0 0 10px;line-height:1.3">
+      <a href="/meeting/{{ featured.id }}" style="color:var(--ink);text-decoration:none">{{ featured.headline or featured.committee }}</a>
+    </h2>
+
+    {% if featured.article %}
+    {% set excerpt = featured.article.split('\n\n')[1] if '\n\n' in featured.article else featured.article[:200] %}
+    <p style="font-family:var(--serif-body);font-size:15px;line-height:1.6;color:var(--ink-secondary);margin:0 0 14px;max-width:680px">
+      {{ excerpt[:250] }}{% if excerpt|length > 250 %}...{% endif %}
+    </p>
+    <a href="/meeting/{{ featured.id }}" style="font-size:13px;font-weight:600;color:#2d6a4f;text-decoration:none;border-bottom:1px solid #2d6a4f;padding-bottom:1px">Read full preview &rarr;</a>
+    {% elif featured.quick_summary %}
+    <p style="font-family:var(--serif-body);font-size:15px;line-height:1.6;color:var(--ink-secondary);margin:0">
+      {{ featured.quick_summary }}
+    </p>
+    {% endif %}
+  </div>
+
+  {# Remaining Upcoming — Compact Ticket Strip #}
+  {% if rest %}
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px">
+    {% for meeting in rest %}
+    <a href="/meeting/{{ meeting.id }}" style="flex:1;min-width:220px;max-width:360px;text-decoration:none;display:block;background:var(--paper-card);border:1px solid var(--rule);border-top:3px solid {{ committees.get(meeting.committee, {}).get('color', '#8b2500') }};border-radius:0 0 6px 6px;padding:14px 16px;transition:box-shadow 0.15s;box-shadow:0 1px 3px rgba(0,0,0,0.04)">
+      {% set parts = meeting.date.split('-') %}
+      {% set months = {'01':'Jan','02':'Feb','03':'Mar','04':'Apr','05':'May','06':'Jun','07':'Jul','08':'Aug','09':'Sep','10':'Oct','11':'Nov','12':'Dec'} %}
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+        <span style="font-size:12px;font-weight:700;color:var(--ink-muted);letter-spacing:0.03em">{{ months.get(parts[1], parts[1]) }} {{ parts[2]|int }}</span>
+        <span style="font-size:10px;padding:2px 6px;background:{{ committees.get(meeting.committee, {}).get('color', '#8b2500') }};color:#fff;border-radius:8px;font-weight:600">{{ meeting.committee|truncate(20, True, '...') }}</span>
+      </div>
+      <div style="font-family:var(--serif-display);font-size:14px;font-weight:600;color:var(--ink);line-height:1.3">
+        {{ (meeting.headline or meeting.committee)|truncate(65, True, '...') }}
+      </div>
+      {% if meeting.article %}
+      <div style="font-size:11px;color:#2d6a4f;font-weight:600;margin-top:6px">Preview available</div>
+      {% elif meeting.agenda_json %}
+      <div style="font-size:11px;color:var(--ink-muted);margin-top:6px">Agenda published</div>
+      {% endif %}
+    </a>
     {% endfor %}
   </div>
+  {% endif %}
+
   {% endif %}
 
   {# ═══ PAST COVERAGE ═══ #}

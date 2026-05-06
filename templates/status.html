@@ -133,6 +133,104 @@
   </div>
   {% endif %}
 
+
+
+
+  <!-- Photo Enhancement Pipeline -->
+  <div class="status-section">
+    <h2>Photo Enhancement Pipeline</h2>
+    <p style="font-size:0.85rem; color:var(--ink-secondary); margin-bottom:1rem;">Extracts video frames, crops, upscales via Replicate, and inserts into articles.</p>
+    <div class="champds-status" style="background: {% if photo_pipeline.ffmpeg == 'ok' and photo_pipeline.pillow and photo_pipeline.frame_extract and photo_pipeline.replicate_token %}#d4edda{% else %}#fff3cd{% endif %};">
+      <strong>ffmpeg:</strong> {% if photo_pipeline.ffmpeg == 'ok' %}<span class="badge badge-ok">Installed</span>{% else %}<span class="badge badge-error">Missing</span>{% endif %}
+      &nbsp;&nbsp;
+      <strong>Pillow:</strong> {% if photo_pipeline.pillow %}<span class="badge badge-ok">OK</span>{% else %}<span class="badge badge-error">Missing</span>{% endif %}
+      &nbsp;&nbsp;
+      <strong>frame_extract:</strong> {% if photo_pipeline.frame_extract %}<span class="badge badge-ok">OK</span>{% else %}<span class="badge badge-error">Missing</span>{% endif %}
+      &nbsp;&nbsp;
+      <strong>Replicate API:</strong> {% if photo_pipeline.replicate_token %}<span class="badge badge-ok">Token Set</span>{% else %}<span class="badge badge-error">No Token</span>{% endif %}
+    </div>
+    <div style="margin-top:1rem;">
+      <strong>Coverage:</strong> {{ photo_pipeline.with_photos }}/{{ photo_pipeline.total_articles }} articles have photos
+      ({{ ((photo_pipeline.with_photos / photo_pipeline.total_articles) * 100)|round(0)|int if photo_pipeline.total_articles else 0 }}%)
+    </div>
+    {% if photo_pipeline.missing_photos %}
+    <details style="margin-top:0.8rem;">
+      <summary style="cursor:pointer; font-weight:600; font-size:0.9rem;">{{ photo_pipeline.missing_photos|length }} recent articles missing photos</summary>
+      <table class="cron-table" style="margin-top:0.5rem;">
+        <thead><tr><th>Date</th><th>Committee</th><th>Event ID</th></tr></thead>
+        <tbody>
+          {% for m in photo_pipeline.missing_photos %}
+          <tr>
+            <td>{{ m.date }}</td>
+            <td>{{ m.committee }}</td>
+            <td>{{ m.event_id or "—" }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </details>
+    {% endif %}
+  </div>
+
+
+  <!-- Minutes-to-Article Pipeline -->
+  <div class="status-section">
+    <h2>Minutes-to-Article Pipeline</h2>
+    <p style="font-size:0.85rem; color:var(--ink-secondary); margin-bottom:1rem;">Generates footnoted articles from BoardDocs meeting minutes when video/transcript is unavailable.</p>
+    <div class="champds-status" style="background: {% if minutes_pipeline.script_exists and minutes_pipeline.openrouter_key %}#d4edda{% else %}#fff3cd{% endif %};">
+      <strong>Script:</strong> {% if minutes_pipeline.script_exists %}<span class="badge badge-ok">Installed</span>{% else %}<span class="badge badge-error">Missing</span>{% endif %}
+      &nbsp;&nbsp;
+      <strong>OpenRouter API:</strong> {% if minutes_pipeline.openrouter_key %}<span class="badge badge-ok">Key Set</span>{% else %}<span class="badge badge-error">No Key</span>{% endif %}
+      &nbsp;&nbsp;
+      <strong>Articles from minutes:</strong> <span class="badge badge-ok">{{ minutes_pipeline.articles_generated }}</span>
+      &nbsp;&nbsp;
+      <strong>Total with minutes:</strong> {{ minutes_pipeline.total_with_minutes }}
+    </div>
+    {% if minutes_pipeline.pending %}
+    <details style="margin-top:0.8rem;" open>
+      <summary style="cursor:pointer; font-weight:600; font-size:0.9rem;">{{ minutes_pipeline.pending|length }} meeting(s) with minutes awaiting article</summary>
+      <table class="cron-table" style="margin-top:0.5rem;">
+        <thead><tr><th>Date</th><th>Committee</th><th>Minutes Size</th><th>Action</th></tr></thead>
+        <tbody>
+          {% for m in minutes_pipeline.pending %}
+          <tr>
+            <td>{{ m.date }}</td>
+            <td>{{ m.committee }}</td>
+            <td>{{ m.min_len|int }} chars</td>
+            <td><code style="font-size:0.75rem;">write_from_minutes.py {{ m.id }}</code></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </details>
+    {% else %}
+    <div style="margin-top:0.8rem;font-size:0.85rem;color:var(--ink-secondary);">All meetings with minutes have articles.</div>
+    {% endif %}
+  </div>
+
+  <!-- Dependencies Health -->
+  <div class="status-section">
+    <h2>Python Dependencies</h2>
+    <p style="font-size:0.85rem; color:var(--ink-secondary); margin-bottom:1rem;">Critical packages in /opt/croton-news/venv. A missing package will silently break pipeline stages.</p>
+    <table class="cron-table">
+      <thead><tr><th>Package</th><th>Purpose</th><th>Status</th><th>Version</th></tr></thead>
+      <tbody>
+        {% for dep in dep_checks %}
+        <tr>
+          <td><strong>{{ dep.name }}</strong></td>
+          <td>{{ dep.purpose }}</td>
+          <td>
+            {% if dep.status == "ok" %}<span class="badge badge-ok">Installed</span>
+            {% else %}<span class="badge badge-error">Missing</span>
+            {% endif %}
+          </td>
+          <td style="font-family:monospace; font-size:0.8rem;">{{ dep.version }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
   <div class="status-section">
     <h2>Expected Meeting Schedule</h2>
     <p style="font-size:0.85rem; color:var(--ink-secondary); margin-bottom:1rem;">Based on known recurring patterns. Meetings that should have occurred but have no DB entry are flagged.</p>

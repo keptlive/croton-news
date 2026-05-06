@@ -172,3 +172,79 @@ curl -s -o /dev/null -w "%{http_code}" http://localhost:3260/status
 | BoardDocs | Board of Education | POST API via IPRoyal proxy |
 | YouTube (CHUFSD) | Board of Education | RSS feed + caption/audio download |
 | Village calendar | All | Tavily search API (Cloudflare blocks direct access) |
+
+
+## Status Page (`/status`)
+
+Live health dashboard at `croton.news/status`. Checks run on each page load.
+
+### Sections
+
+| Section | What It Monitors |
+|---------|-----------------|
+| Summary Stats | Total meetings, articles, days since last ingestion |
+| ChampDS API | API reachability, portal access, new event detection |
+| Cron Jobs | Schedule, last run time, error detection in log output |
+| Photo Enhancement Pipeline | ffmpeg, Pillow, frame_extract, Replicate token, coverage % |
+| Python Dependencies | Critical venv packages: pymupdf, deepgram, google.generativeai, openai, bs4, requests |
+| Expected Meeting Schedule | Known upcoming meetings vs. DB coverage (flags missing) |
+| Phone Relay Actions | Items requiring residential IP (YouTube, BoardDocs) |
+| Recent Logs | Tail of each pipeline log file |
+
+### Adding New Checks
+
+1. Add data gathering in `app.py` `status_page()` route (before `render_template`)
+2. Pass new variable to template
+3. Add HTML section in `templates/status.html` (before `{% endblock %}`)
+4. Use badge classes: `badge-ok`, `badge-warn`, `badge-error`, `badge-dead`
+
+## Photo Enhancement Pipeline
+
+Runs as Step 8 of `pipeline.py process-new` after article generation.
+
+**Flow:** Video -> ffmpeg frame extract -> layout detection (quad/podium/wide) -> auto-crop -> Replicate upscale (Real-ESRGAN + face enhance) -> sharpen -> save to `/photos/` -> insert `{{photo:EVENT:SECONDS:CAPTION}}` tags in article
+
+**Key files:**
+- `rag/insert_photos.py` — Orchestrator (picks moments via LLM, runs pipeline)
+- `rag/frame_extract.py` — Frame extraction, layout detection, cropping, upscaling
+
+**Dependencies:** ffmpeg, Pillow, Replicate API token (in `rag/.env`)
+
+**Manual run:**
+```bash
+cd /opt/croton-news/rag
+/opt/croton-news/venv/bin/python insert_photos.py EVENT_ID
+/opt/croton-news/venv/bin/python insert_photos.py --pending  # all missing
+```
+
+## Agenda Packet Pipeline
+
+Upcoming meetings get preview articles from PDF agenda packets.
+
+**Flow:** ChampDS API -> extract agenda items + attachments -> download PDFs -> pymupdf text extraction -> cache in `packet_pdfs` table -> dispatch packet-writer agent on WireClaw -> GLM 5.0 Turbo writes forward-looking preview article
+
+**Key dependency:** `pymupdf` — if missing, PDFs download but extraction silently fails (all `pdf_error` results).
+
+**Manual test:**
+```bash
+cd /opt/croton-news/rag
+/opt/croton-news/venv/bin/python rag_tool.py fetch_agenda_packet EVENT_ID
+```
+
+## Jinja Filters
+
+Registered in `app.py` after `app = Flask(...)`:
+
+| Filter | Purpose |
+|--------|---------|
+| `from_json` | Parse JSON string in templates (used in `meeting.html` for `agenda_json`) |
+
+## Service Management
+
+```bash
+systemctl restart croton-news   # Restart app
+systemctl status croton-news    # Check status
+journalctl -u croton-news -n 50 # View logs
+```
+
+App runs on port 3260, nginx proxies from 443.

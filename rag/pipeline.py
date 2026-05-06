@@ -121,6 +121,8 @@ def extract_agenda(data):
     if not items:
         return None
 
+    CHAMPDS_ATT_BASE = "https://play.champds.com/ATT/crotononhudsonny"
+
     def walk(item_list):
         result = []
         for item in item_list:
@@ -128,12 +130,19 @@ def extract_agenda(data):
             if not title:
                 continue
             desc = (item.get("Description") or "").strip()
-            # Extract attachment names
+            # Extract attachments with download URLs
             attachments = []
             for att in item.get("Attachments", []):
-                att_name = att.get("MediaTitle") or att.get("FileName") or ""
-                if att_name:
-                    attachments.append({"name": att_name.strip()})
+                nick = (att.get("MediaNickName") or "").strip()
+                mfile = att.get("MediaFileName") or ""
+                mloc = att.get("MediaFileLocation") or ""
+                mtype = att.get("MediaTypeID")
+                if not nick:
+                    continue
+                if mtype == 2 or mfile.startswith("http"):
+                    attachments.append({"name": nick, "url": mfile})
+                elif mfile and mloc:
+                    attachments.append({"name": nick, "url": f"{CHAMPDS_ATT_BASE}/{mloc}/{mfile}"})
             children = walk(item.get("Children", []))
             result.append({
                 "title": title,

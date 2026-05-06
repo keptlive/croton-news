@@ -67,6 +67,9 @@ COMMENTS_DB = os.path.join(BASE_DIR, "comments.db")
 
 app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)
 
+
+# Jinja filters
+app.jinja_env.filters["from_json"] = lambda s: __import__("json").loads(s) if s else None
 # ── History Blueprint ─────────────────────────────────────────────
 from history_bp import history_bp
 app.register_blueprint(history_bp, url_prefix='/history')
@@ -146,6 +149,95 @@ def md_bold_filter(text):
         return text
     return re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', text)
 
+
+@app.template_filter("process_footnotes")
+def process_footnotes_filter(text):
+    """Transform [N] footnote markers and Footnotes section into styled HTML.
+
+    Inline [1] becomes <sup> anchor links.
+    The Footnotes section becomes a styled <aside> with numbered list.
+    Articles without footnotes pass through unchanged.
+    """
+    if not text:
+        return text
+
+    # Quick check: does this text contain footnote markers?
+    if not re.search(r'\[\d+\]', text):
+        return text
+
+    # Detect footnotes section separator
+    separator_re = re.compile(
+        r'\n\s*\*{0,2}(?:Footnotes|Source documents)\s*:?\s*\*{0,2}\s*\n',
+        re.IGNORECASE
+    )
+    match = separator_re.search(text)
+    if match:
+        body = text[:match.start()]
+        footnotes_raw = text[match.end():]
+    else:
+        # No separator found — don't process (might be false positives)
+        return text
+
+    # Parse footnotes: [N] at start of line followed by text
+    footnotes = {}
+    fn_pattern = re.compile(r'^\s*\[(\d+)\]\s*', re.MULTILINE)
+    parts = fn_pattern.split(footnotes_raw)
+    # parts: [preamble, num, text, num, text, ...]
+    i = 1
+    while i < len(parts) - 1:
+        num = int(parts[i])
+        fn_text = parts[i + 1].strip()
+        # Convert markdown bold
+        fn_text = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', fn_text)
+        footnotes[num] = fn_text
+        i += 2
+
+    # Convert markdown links [text](url) in footnotes to HTML links
+    for num in list(footnotes.keys()):
+        fn = footnotes[num]
+        fn = re.sub(
+            r'\[([^\]]+)\]\((https?://[^)]+)\)',
+            r'<a href="\2" class="fn-doc-link" target="_blank" rel="noopener">\1</a>',
+            fn
+        )
+        footnotes[num] = fn
+
+    # Replace inline [N] markers with superscript anchor links
+    def replace_marker(m):
+        num = m.group(1)
+        return (
+            f'<sup class="fn-ref">'
+            f'<a href="#fn-{num}" id="fn-ref-{num}">{num}</a>'
+            f'</sup>'
+        )
+    body = re.sub(r'\[(\d+)\]', replace_marker, body)
+
+    # Build footnotes HTML
+    if footnotes:
+        fn_items = []
+        for num in sorted(footnotes.keys()):
+            fn_text = footnotes[num]
+            fn_items.append(
+                f'    <li id="fn-{num}" value="{num}">'
+                f'<span class="fn-text">{fn_text}</span> '
+                f'<a href="#fn-ref-{num}" class="fn-backref" '
+                f'aria-label="Back to reference {num}" '
+                f'title="Back to text">\u21a9</a></li>'
+            )
+
+        fn_html = (
+            '\n<aside class="article-footnotes" role="note">\n'
+            '  <h4 class="fn-heading">Sources</h4>\n'
+            '  <ol class="fn-list">\n'
+            + '\n'.join(fn_items) + '\n'
+            '  </ol>\n'
+            '</aside>\n'
+        )
+        return body + fn_html
+
+    return body
+
+
 @app.context_processor
 def inject_globals():
     return {
@@ -163,7 +255,7 @@ def index():
     # Latest articles from meetings table
     articles = rag.execute("""
         SELECT id, committee, date, quick_summary, article, headline,
-               event_id, has_transcript, has_video
+               event_id, has_transcript, has_video, article_model, agenda_json
         FROM meetings
         WHERE article IS NOT NULL AND article != ''
         ORDER BY date DESC LIMIT 20
@@ -208,8 +300,39 @@ def index():
     except Exception:
         pass
 
+    # Split: preview articles (upcoming) vs real coverage (past)
+    coverage = []
+    previews = []
+    today = datetime.now().strftime('%Y-%m-%d')
+    for a in articles:
+        model = a["article_model"] or ""
+        if "packet" in model or "agenda" in model:
+            previews.append(a)
+        else:
+            coverage.append(a)
+
+    # Also grab upcoming meetings without articles (for the strip)
+    upcoming_no_article = rag.execute("""
+        SELECT id, committee, date, quick_summary, headline, agenda_json
+        FROM meetings
+        WHERE date >= ? AND agenda_json IS NOT NULL AND agenda_json != ''
+        ORDER BY date ASC LIMIT 5
+    """, (today,)).fetchall()
+
+    # Combine previews + upcoming-no-article, only FUTURE dates, limit 2
+    coming_up = []
+    for p in previews:
+        if p["date"] >= today and p["agenda_json"]:
+            coming_up.append(dict(p))
+    for u in upcoming_no_article:
+        if not any(c["id"] == u["id"] for c in coming_up):
+            coming_up.append(dict(u))
+    coming_up.sort(key=lambda x: x["date"])
+    coming_up = coming_up[:4]
+
     return render_template("index.html",
-        articles=articles,
+        articles=coverage,
+        coming_up=coming_up,
         fire_articles=fire_articles,
         committee_counts=committee_counts,
     )
@@ -452,7 +575,7 @@ def meetings_index():
         full_name = SLUG_TO_COMMITTEE.get(committee_filter, committee_filter)
         mtgs = rag.execute("""
             SELECT id, committee, date, quick_summary, headline, event_id,
-                   has_transcript, has_video
+                   has_transcript, has_video, article, agenda_json, article_model
             FROM meetings
             WHERE committee = ?
             ORDER BY date DESC
@@ -460,7 +583,7 @@ def meetings_index():
     else:
         mtgs = rag.execute("""
             SELECT id, committee, date, quick_summary, headline, event_id,
-                   has_transcript, has_video
+                   has_transcript, has_video, article, agenda_json, article_model
             FROM meetings
             ORDER BY date DESC
         """).fetchall()
@@ -576,11 +699,23 @@ def meeting_page(meeting_id):
     """, (meeting["committee"], meeting_id, meeting["date"])).fetchall()
     related = [dict(r) for r in related]
 
+    # Get all source documents (packet PDFs) for this meeting
+    source_docs = []
+    if meeting.get("boarddocs_id"):
+        source_docs = rag.execute("""
+            SELECT nickname, source_url, pages, char_count, agenda_item_title
+            FROM packet_pdfs
+            WHERE event_id = ? AND source_url IS NOT NULL AND source_url != ''
+            ORDER BY agenda_item_title, nickname
+        """, (meeting["boarddocs_id"],)).fetchall()
+        source_docs = [dict(d) for d in source_docs]
+
     return render_template("meeting.html",
         meeting=meeting,
         topics=topics,
         people=people,
         related=related,
+        source_docs=source_docs,
     )
 
 
@@ -1854,6 +1989,8 @@ def status_page():
          "log": "/var/log/croton-boarddocs.log", "cron_pattern": "boarddocs.py"},
         {"name": "Story Miner", "script": "story_miner.py scan --email", "schedule": "Daily 8:00 AM",
          "log": "/var/log/croton-stories.log", "cron_pattern": "story_miner.py"},
+        {"name": "Minutes-to-Article", "script": "write_from_minutes.py", "schedule": "Daily 7:30 AM",
+         "log": "/var/log/croton-minutes-articles.log", "cron_pattern": "write_from_minutes.py"},
         {"name": "Auto Pipeline (upcoming+previews)", "script": "auto_pipeline.py", "schedule": "Hourly",
          "log": "/var/log/auto_pipeline.log", "cron_pattern": "auto_pipeline.py"},
     ]
@@ -1995,9 +2132,134 @@ def status_page():
             command="# Check if Village has switched platforms or is just delayed",
             priority="high"))
 
+
+
+    # Photo enhancement pipeline check
+    photo_pipeline = {}
+    # Check ffmpeg
+    try:
+        ffmpeg_result = subprocess.run(["ffmpeg", "-version"], capture_output=True, text=True, timeout=5)
+        photo_pipeline["ffmpeg"] = "ok" if ffmpeg_result.returncode == 0 else "missing"
+        photo_pipeline["ffmpeg_version"] = ffmpeg_result.stdout.split("\n")[0][:60] if ffmpeg_result.returncode == 0 else ""
+    except Exception:
+        photo_pipeline["ffmpeg"] = "missing"
+        photo_pipeline["ffmpeg_version"] = ""
+
+    # Check Replicate token
+    # Check .env file for Replicate token (pipeline reads it at runtime)
+    _replicate_set = bool(os.environ.get("REPLICATE_API_TOKEN", ""))
+    if not _replicate_set:
+        try:
+            with open("/opt/croton-news/rag/.env") as _ef:
+                _replicate_set = "REPLICATE_API_TOKEN=" in _ef.read()
+        except Exception:
+            pass
+    photo_pipeline["replicate_token"] = _replicate_set
+
+    # Check Pillow
+    try:
+        result = subprocess.run(
+            ["/opt/croton-news/venv/bin/python", "-c", "from PIL import Image; print('ok')"],
+            capture_output=True, text=True, timeout=5, cwd="/opt/croton-news/rag"
+        )
+        photo_pipeline["pillow"] = result.returncode == 0
+    except Exception:
+        photo_pipeline["pillow"] = False
+
+    # Check frame_extract module
+    try:
+        result = subprocess.run(
+            ["/opt/croton-news/venv/bin/python", "-c", "from frame_extract import extract_frame; print('ok')"],
+            capture_output=True, text=True, timeout=5, cwd="/opt/croton-news/rag"
+        )
+        photo_pipeline["frame_extract"] = result.returncode == 0
+    except Exception:
+        photo_pipeline["frame_extract"] = False
+
+    # Articles with/without photos
+    total_articles = rag.execute("SELECT COUNT(*) FROM meetings WHERE article IS NOT NULL AND article != ''").fetchone()[0]
+    articles_with_photos = rag.execute("SELECT COUNT(*) FROM meetings WHERE article LIKE '%{{photo:%'").fetchone()[0]
+    photo_pipeline["total_articles"] = total_articles
+    photo_pipeline["with_photos"] = articles_with_photos
+
+    # Recent articles missing photos (last 30 days, has video)
+    missing_photos = rag.execute("""
+        SELECT id, event_id, date, committee FROM meetings
+        WHERE article IS NOT NULL AND article != ''
+        AND article NOT LIKE '%{{photo:%'
+        AND has_video = 1
+        AND date >= date('now', '-30 days')
+        ORDER BY date DESC
+    """).fetchall()
+    photo_pipeline["missing_photos"] = [dict(r) for r in missing_photos]
+
+
+    # Minutes-to-article pipeline check
+    minutes_pipeline = {}
+    # Meetings with minutes but no article
+    minutes_pending = rag.execute("""
+        SELECT id, date, committee, length(minutes_text) as min_len
+        FROM meetings
+        WHERE has_minutes = 1 AND minutes_text IS NOT NULL AND length(minutes_text) > 1000
+        AND (article IS NULL OR article = '')
+        AND date < date('now')
+        ORDER BY date DESC
+    """).fetchall()
+    minutes_pipeline["pending"] = [dict(r) for r in minutes_pending]
+
+    # Articles generated from minutes
+    minutes_articles = rag.execute("""
+        SELECT COUNT(*) FROM meetings WHERE article_model = 'claude-sonnet-4-minutes'
+    """).fetchone()[0]
+    minutes_pipeline["articles_generated"] = minutes_articles
+
+    # Total meetings with minutes
+    total_with_minutes = rag.execute("""
+        SELECT COUNT(*) FROM meetings WHERE has_minutes = 1
+    """).fetchone()[0]
+    minutes_pipeline["total_with_minutes"] = total_with_minutes
+
+    # Check if script exists
+    minutes_pipeline["script_exists"] = os.path.exists("/opt/croton-news/rag/write_from_minutes.py")
+
+    # Check OpenRouter key
+    _or_key = bool(os.environ.get("OPENROUTER_API_KEY", ""))
+    if not _or_key:
+        try:
+            with open("/opt/croton-news/rag/.env") as _ef:
+                _or_key = "OPENROUTER_API_KEY=" in _ef.read()
+        except Exception:
+            pass
+    minutes_pipeline["openrouter_key"] = _or_key
+
+    # Dependency health check
+    dep_checks = []
+    critical_deps = [
+        ("pymupdf", "PDF text extraction for agenda packets"),
+        ("deepgram", "Audio transcription"),
+        ("google.generativeai", "Gemini API (calendar, embeddings)"),
+        ("openai", "OpenAI/OpenRouter API (article writing)"),
+        ("bs4", "HTML scraping (BeautifulSoup)"),
+        ("requests", "HTTP requests"),
+    ]
+    for mod_name, purpose in critical_deps:
+        try:
+            result = subprocess.run(
+                ["/opt/croton-news/venv/bin/python", "-c", f"import {mod_name}; print(getattr({mod_name}, '__version__', 'installed'))"],
+                capture_output=True, text=True, timeout=5,
+            )
+            if result.returncode == 0:
+                dep_checks.append(dict(name=mod_name, purpose=purpose, status="ok", version=result.stdout.strip()))
+            else:
+                dep_checks.append(dict(name=mod_name, purpose=purpose, status="error", version="NOT INSTALLED"))
+        except Exception as e:
+            dep_checks.append(dict(name=mod_name, purpose=purpose, status="error", version=str(e)[:50]))
+
     return render_template("status.html",
         stats=stats, champds=champds, cron_jobs=cron_jobs, logs=logs,
-        expected_meetings=expected_meetings, relay_actions=relay_actions)
+        expected_meetings=expected_meetings, relay_actions=relay_actions,
+        dep_checks=dep_checks, photo_pipeline=photo_pipeline,
+        minutes_pipeline=minutes_pipeline)
 
 
 
@@ -2055,6 +2317,15 @@ def review_page(slug=None):
     h = _re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', h)
     h = _re.sub(r'\n\n+', '</p>\n<p>', h)
     h = '<p>' + h + '</p>'
+    # Convert (at MM:SS) timestamps to clickable video links
+    def _ts_to_link(m):
+        mm, ss = int(m.group(1)), int(m.group(2))
+        secs = mm * 60 + ss
+        vid = data.get('source_transcript', '').replace('transcript-yt-', '').replace('.json', '')
+        if vid:
+            return f'(<a href="https://www.youtube.com/watch?v={vid}&t={secs}s" target="_blank" style="color:var(--blue-link);font-size:0.82em;">at {mm}:{ss:02d}</a>)'
+        return m.group(0)
+    h = _re.sub(r'\(at (\d+):(\d+)\)', _ts_to_link, h)
     article_html = h
 
     meta_html = (
@@ -2070,6 +2341,7 @@ def review_page(slug=None):
         meta=meta_html,
         article_html=article_html,
         video_url="https://www.youtube.com/watch?v=_3mId9iaSps",
+        check=data.get("editorial_check"),
     )
 
 
@@ -2111,7 +2383,28 @@ REVIEW_ARTICLE_HTML = """
   </article>
 
   <div style="margin-top:3rem;padding:1rem;background:var(--paper-warm);border-radius:4px;">
-    <h3>Review Checklist</h3>
+    <h3>Editorial Verification Results</h3>
+    {% if check %}
+    <table style="width:100%;border-collapse:collapse;font-size:0.88rem;margin-bottom:1rem;">
+      <tr><td style="padding:4px 8px;">Quotes verified</td><td><strong>{{ check.verified_quotes }}/{{ check.total_quotes }}</strong></td></tr>
+      <tr><td style="padding:4px 8px;">Name issues</td><td><strong>{{ check.name_issues }}</strong></td></tr>
+      <tr><td style="padding:4px 8px;">Facts checked</td><td><strong>{{ check.factual_claims_checked }}</strong></td></tr>
+      <tr><td style="padding:4px 8px;">Status</td><td><strong>{{ check.status }}</strong></td></tr>
+    </table>
+    {% if check.failed_quote_timestamps %}
+    <details><summary style="cursor:pointer;font-weight:600;">{{ check.failed_quotes }} quotes need fixing</summary>
+    <ul style="font-size:0.82rem;margin-top:0.5rem;">
+    {% for fq in check.failed_quote_timestamps %}
+      <li><strong>[{{ fq.ts }}]</strong> {{ fq.issue }}</li>
+    {% endfor %}
+    </ul>
+    </details>
+    {% endif %}
+    {% if check.notes %}<p style="font-size:0.82rem;color:var(--ink-secondary);margin-top:0.5rem;">{{ check.notes }}</p>{% endif %}
+    {% else %}
+    <p style="color:var(--ink-muted);">No editorial check has been run yet.</p>
+    {% endif %}
+    <h4 style="margin-top:1rem;">Manual Checklist</h4>
     <ul style="list-style:none;padding:0;">
       <li>&#9744; Every direct quote verified against source recording</li>
       <li>&#9744; Speaker attributions correct</li>

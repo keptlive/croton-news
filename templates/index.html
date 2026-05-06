@@ -71,10 +71,51 @@
   <span class="lead-badge" style="background:{{ committees.get(lead.committee, {}).get('color', '#8b2500') }}">
     {{ committees.get(lead.committee, {}).get('icon', '') }} {{ lead.committee }}
   </span>
-  <h2><a href="/article/{{ lead.id or lead.doc_id }}">{% if lead.article_model and 'claude' in (lead.article_model or '') %}&#11088; {% endif %}{{ lead.headline or lead.quick_summary or lead.short_summary }}</a></h2>
+  <h2><a href="/article/{{ lead.id or lead.doc_id }}">{{ lead.headline or lead.quick_summary or lead.short_summary }}</a></h2>
   <div class="lead-excerpt">{{ lead.quick_summary or lead.short_summary }}</div>
   <div class="lead-meta">{{ lead.date }} &nbsp;&middot;&nbsp; <a href="/article/{{ lead.id or lead.doc_id }}">Read full coverage &rarr;</a></div>
 </article>
+
+{# ═══ COMING UP ═══ #}
+{% if coming_up %}
+<div class="coming-up">
+  <div class="coming-up-header">
+    <div class="coming-up-label">
+      <span class="coming-up-badge">COMING UP</span>
+      {% if coming_up|length > 1 %}<span class="coming-up-hint">swipe &rarr;</span>{% endif %}
+    </div>
+    <a href="/meetings" class="coming-up-all">All meetings &rarr;</a>
+  </div>
+  <div class="coming-up-scroll">
+    {% for m in coming_up %}
+    {% set parts = m.date.split('-') %}
+    {% set months = {'01':'Jan','02':'Feb','03':'Mar','04':'Apr','05':'May','06':'Jun','07':'Jul','08':'Aug','09':'Sep','10':'Oct','11':'Nov','12':'Dec'} %}
+    <a href="/meeting/{{ m.id }}" class="coming-up-card" style="border-top-color:{{ committees.get(m.committee, {}).get('color', '#2d6a4f') }}">
+      <div class="coming-up-card-top">
+        <span class="coming-up-date">{{ months.get(parts[1], parts[1]) }} {{ parts[2]|int }}</span>
+        <span class="coming-up-committee" style="background:{{ committees.get(m.committee, {}).get('color', '#8b2500') }}">{{ m.committee }}</span>
+      </div>
+      <div class="coming-up-title">{{ m.headline or m.committee }}</div>
+      {% if m.quick_summary %}
+      <div class="coming-up-summary">{{ m.quick_summary[:120] }}{% if m.quick_summary|length > 120 %}...{% endif %}</div>
+      {% endif %}
+      {% if m.article %}
+      <span class="coming-up-cta">Read preview &rarr;</span>
+      {% elif m.agenda_json %}
+      <span class="coming-up-cta coming-up-cta-muted">Agenda available</span>
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+  {% if coming_up|length > 1 %}
+  <div class="coming-up-dots">
+    {% for m in coming_up %}
+    <div class="coming-up-dot{% if loop.first %} active{% endif %}"></div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% endif %}
 
 {# ═══ STORY GRID ═══ #}
 <div class="section-rule"><span class="section-label">Latest Coverage</span></div>
@@ -85,41 +126,12 @@
   <span class="story-badge" style="background:{{ committees.get(article.committee, {}).get('color', '#8b2500') }}">
     {{ article.committee }}
   </span>
-  <h3><a href="/article/{{ article.id or article.doc_id }}">{% if article.article_model and 'claude' in (article.article_model or '') %}&#11088; {% endif %}{{ article.headline or article.quick_summary or article.short_summary }}</a></h3>
+  <h3><a href="/article/{{ article.id or article.doc_id }}">{{ article.headline or article.quick_summary or article.short_summary }}</a></h3>
   <div class="story-text">{{ article.quick_summary or article.short_summary }}</div>
   <div class="story-meta">{{ article.date }} &nbsp;&middot;&nbsp; <a href="/article/{{ article.id or article.doc_id }}">Read more</a></div>
 </article>
 {% endfor %}
 </div>
-
-{# ═══ UPCOMING MEETINGS ═══ #}
-{% if upcoming_meetings %}
-<div style="margin-top:28px">
-  <div class="section-rule"><span class="section-label">Upcoming Meetings</span></div>
-  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:16px">
-    {% for m in upcoming_meetings %}
-    <div style="border-left:4px solid var(--accent);padding:14px 18px;background:var(--paper-warm);border-radius:0 6px 6px 0">
-      <span class="story-badge" style="background:{{ committees.get(m.committee, {}).get('color', '#8b2500') }};font-size:10px">
-        {{ m.committee }}
-      </span>
-      {% set parts = m.date.split('-') %}
-      {% set months = {'01':'Jan','02':'Feb','03':'Mar','04':'Apr','05':'May','06':'Jun','07':'Jul','08':'Aug','09':'Sep','10':'Oct','11':'Nov','12':'Dec'} %}
-      <div style="font-family:var(--serif-display);font-size:15px;font-weight:700;margin:8px 0 4px;color:var(--ink)">
-        <a href="/meeting/{{ m.id }}" style="color:inherit;text-decoration:none">{{ months.get(parts[1], parts[1]) }} {{ parts[2]|int }}, {{ parts[0] }}</a>
-      </div>
-      {% if m.quick_summary %}
-      <div style="font-size:13px;color:var(--ink-secondary);line-height:1.4">{{ m.quick_summary[:150] }}</div>
-      {% endif %}
-      <div style="margin-top:8px;display:flex;gap:8px;align-items:center">
-        {% if m.agenda_json %}<span style="font-size:11px;padding:2px 8px;background:var(--accent);color:#fff;border-radius:10px;font-weight:600">Agenda</span>{% endif %}
-        {% if m.has_video %}<span style="font-size:11px;color:var(--blue-link);font-weight:600">Video Available</span>{% endif %}
-        <a href="/meeting/{{ m.id }}" style="font-size:11px;font-weight:600;color:var(--accent);margin-left:auto">View &rarr;</a>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
-{% endif %}
 
 {# ═══ MORE STORIES ═══ #}
 {% if articles|length > 7 %}
@@ -138,7 +150,7 @@
     </div>
     <div class="meeting-info">
       <span class="story-badge" style="background:{{ committees.get(article.committee, {}).get('color', '#8b2500') }}">{{ article.committee }}</span>
-      <h3><a href="/article/{{ article.id or article.doc_id }}">{% if article.article_model and 'claude' in (article.article_model or '') %}&#11088; {% endif %}{{ article.headline or article.quick_summary or article.short_summary }}</a></h3>
+      <h3><a href="/article/{{ article.id or article.doc_id }}">{{ article.headline or article.quick_summary or article.short_summary }}</a></h3>
     </div>
   </div>
   {% endfor %}

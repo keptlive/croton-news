@@ -80,6 +80,15 @@ CATEGORIES:events
 DESCRIPTION:Source: Town of Cortlandt\n
 END:VEVENT
 BEGIN:VEVENT
+UID:52e2e495b6c9@croton.news
+DTSTART;TZID=America/New_York:20260424T100000
+SUMMARY:Mobile Shredder
+LOCATION:Town of Cortlandt
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt\n
+END:VEVENT
+BEGIN:VEVENT
 UID:7dc760864ab2@croton.news
 DTSTART;VALUE=DATE:20260425
 SUMMARY:National Prescription Drug Take Back Day

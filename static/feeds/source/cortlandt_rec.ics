@@ -8,15 +8,6 @@ X-WR-TIMEZONE:America/New_York
 X-WR-CALDESC:Events from Town of Cortlandt Recreation
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 BEGIN:VEVENT
-UID:58c98530c583@croton.news
-DTSTART;TZID=America/New_York:20260419T100000
-SUMMARY:Town of Cortlandt Earth Day Hike
-LOCATION:Town of Cortlandt\, NY
-URL:
-CATEGORIES:events
-DESCRIPTION:Source: Town of Cortlandt Recreation\n
-END:VEVENT
-BEGIN:VEVENT
 UID:b2d37adb0d00@croton.news
 DTSTART;TZID=America/New_York:20260509T100000
 SUMMARY:Town Wide Yard Sale
@@ -33,5 +24,14 @@ LOCATION:Town of Cortlandt\, NY
 URL:
 CATEGORIES:events
 DESCRIPTION:Source: Town of Cortlandt Recreation\nTease Your Brain & Win A Prize!
+END:VEVENT
+BEGIN:VEVENT
+UID:ad7274fb0140@croton.news
+DTSTART;TZID=America/New_York:20260918T183000
+SUMMARY:Hamilton & Hops
+LOCATION:Town of Cortlandt\, NY
+URL:
+CATEGORIES:events
+DESCRIPTION:Source: Town of Cortlandt Recreation\n
 END:VEVENT
 END:VCALENDAR

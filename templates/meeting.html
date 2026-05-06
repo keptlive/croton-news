@@ -48,25 +48,33 @@
           {% else %}
           <span style="color:var(--ink-muted);flex-shrink:0;font-size:12px">&#8226;</span>
           {% endif %}
-          <span style="font-family:var(--serif-body);font-size:{% if depth == 0 %}15{% else %}14{% endif %}px;line-height:1.4;color:var(--ink){% if depth > 0 %}-secondary{% endif %}">
+          <div style="font-family:var(--serif-body);font-size:{% if depth == 0 %}15{% else %}14{% endif %}px;line-height:1.4;color:var(--ink){% if depth > 0 %}-secondary{% endif %}">
             {{ item.title }}
             {% if item.attachments %}
-            <span style="font-size:11px;color:var(--ink-faint)">({{ item.attachments|length }} doc{{ 's' if item.attachments|length > 1 }})</span>
+            <div style="margin-top:4px;padding-left:2px;">
+              {% for att in item.attachments %}
+              <a href="{{ att.url }}" target="_blank" rel="noopener" style="display:inline-block;font-size:12px;color:#2d6a4f;text-decoration:none;margin-right:12px;margin-bottom:3px;padding:2px 6px;background:#e8f5e9;border-radius:3px;border:1px solid #c8e6c9;">
+                <span style="font-size:10px;">&#128196;</span> {{ att.name }}
+              </a>
+              {% endfor %}
+            </div>
             {% endif %}
-          </span>
+          </div>
         </div>
         {% if item.children %}{{ render_agenda(item.children, depth + 1) }}{% endif %}
       </li>
       {% endfor %}
     </ol>
   {% endmacro %}
-  <div style="background:var(--paper-warm);border:1px solid var(--rule);border-left:4px solid #2d6a4f;padding:20px 24px;margin:24px 0;border-radius:0 6px 6px 0">
-    <h3 style="font-family:var(--serif-display);font-size:18px;font-weight:700;color:#2d6a4f;margin-bottom:14px">
-      Meeting Agenda
-      <span style="font-size:12px;font-weight:400;color:var(--ink-muted);margin-left:8px">{{ agenda|length }} items</span>
-    </h3>
+  <details style="background:var(--paper-warm);border:1px solid var(--rule);border-left:4px solid #2d6a4f;padding:20px 24px;margin:24px 0;border-radius:0 6px 6px 0" {% if meeting.has_transcript or not meeting.article %}open{% endif %}>
+    <summary style="font-family:var(--serif-display);font-size:18px;font-weight:700;color:#2d6a4f;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">
+      <span>Meeting Agenda <span style="font-size:12px;font-weight:400;color:var(--ink-muted);margin-left:8px">{{ agenda|length }} items</span></span>
+      <span style="font-size:12px;color:var(--ink-muted);font-weight:400">&#9660;</span>
+    </summary>
+    <div style="margin-top:14px">
     {{ render_agenda(agenda) }}
-  </div>
+    </div>
+  </details>
   {% endif %}
   {% endif %}
 
@@ -89,7 +97,48 @@
   {% endif %}
 
   {# ═══ QUICK SUMMARY ═══ #}
-  {% if meeting.quick_summary %}
+  {% if meeting.quick_summary and not meeting.article %}
+  <p style="font-family:var(--serif-body);font-size:17px;line-height:1.6;color:var(--ink-secondary);margin:20px 0;padding:16px 0;border-bottom:1px solid var(--rule)">
+    {{ meeting.quick_summary }}
+  </p>
+  {% endif %}
+
+  {# ═══ ARTICLE BODY ═══ #}
+  {% if meeting.article %}
+  {% if meeting.article_model is defined and meeting.article_model and "minutes" in meeting.article_model and meeting.boarddocs_id is defined and meeting.boarddocs_id %}
+  <div style="background:#e8f5e9;border:1px solid #c8e6c9;border-radius:8px;padding:12px 16px;margin:0 0 16px;font-size:13px;color:#2d6a4f;display:flex;align-items:center;gap:10px">
+    <span style="font-size:16px">&#128196;</span>
+    <span>This article was generated from the <a href="https://go.boarddocs.com/ny/chufsd/Board.nsf/goto?open&amp;id={{ meeting.boarddocs_id }}" target="_blank" rel="noopener" style="color:#2d6a4f;font-weight:600">official meeting minutes</a>. All facts are footnoted to their source in the minutes.</span>
+  </div>
+  {% endif %}
+  <div class="article-body">
+    {{ meeting.article|process_footnotes|safe }}
+  </div>
+  <script>
+  /* Paragraph wrapping for meeting article body */
+  (function() {
+    var el = document.querySelector('.article-body');
+    if (!el || el.innerHTML.match(/<p[\s>]/i)) return;
+    el.innerHTML = el.innerHTML.split(/\n\n+/).filter(function(p) { return p.trim(); }).map(function(p) {
+      var t = p.trim();
+      if (t.match(/^<(figure|div|video|table|blockquote|h[1-6]|hr|aside|section)/i)) return t;
+      return '<p>' + t + '</p>';
+    }).join('');
+  })();
+  /* Footnote smooth scrolling */
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('.fn-ref a, .fn-backref');
+    if (link) {
+      e.preventDefault();
+      var target = document.querySelector(link.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        history.replaceState(null, '', link.getAttribute('href'));
+      }
+    }
+  });
+  </script>
+  {% elif meeting.quick_summary %}
   <p style="font-family:var(--serif-body);font-size:17px;line-height:1.6;color:var(--ink-secondary);margin:20px 0;padding:16px 0;border-bottom:1px solid var(--rule)">
     {{ meeting.quick_summary }}
   </p>
@@ -115,6 +164,34 @@
       {% for p in people %}
       <a href="/entity/{{ p.slug }}" style="padding:4px 12px;background:var(--paper-card);border:1px solid var(--rule);border-radius:16px;font-size:12px;color:var(--ink-secondary);text-decoration:none">{{ p.name }}{% if p.role %} <span style="color:var(--ink-faint)">({{ p.role }})</span>{% endif %}</a>
       {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {# ═══ SOURCE DOCUMENTS ═══ #}
+  {% if source_docs %}
+  <div style="margin-top:32px">
+    <div class="section-rule"><span class="section-label">Source Documents</span></div>
+    <div class="source-docs-list">
+      {% set ns = namespace(current_item='') %}
+      {% for doc in source_docs %}
+        {% if doc.agenda_item_title != ns.current_item %}
+          {% if ns.current_item %}
+          </ul>
+          {% endif %}
+          {% set ns.current_item = doc.agenda_item_title %}
+          <p class="source-docs-item-title">{{ doc.agenda_item_title }}</p>
+          <ul class="source-docs-files">
+        {% endif %}
+        <li>
+          <a href="{{ doc.source_url }}" target="_blank" rel="noopener" class="source-doc-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            {{ doc.nickname }}
+          </a>
+          <span class="source-doc-meta">{{ doc.pages }}p{% if doc.char_count > 0 %}, {{ (doc.char_count / 1000)|round(1) }}k chars{% endif %}</span>
+        </li>
+      {% endfor %}
+      {% if ns.current_item %}</ul>{% endif %}
     </div>
   </div>
   {% endif %}
