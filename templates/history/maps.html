@@ -162,7 +162,7 @@
         <div class="lib-item-meta">
           {% if meta.get('date') %}{{ meta.date }} &middot; {% endif %}
           {% if meta.get('source') %}{{ meta.source[:30] }}{% if meta.source|length > 30 %}…{% endif %} &middot; {% endif %}
-          <a href="/history/maps/{{ img.file }}" target="_blank">Full size</a>
+          <a href="/history/maps/{{ img.file }}" target="_blank" rel="noopener noreferrer">Full size</a>
         </div>
       </div>
     </div>
@@ -186,7 +186,7 @@
       </a>
       <div class="lib-item-info">
         <div class="lib-item-title">{{ img.file.replace('_', ' ').replace('.jpg', '').replace('.png', '') }}</div>
-        <div class="lib-item-meta">{{ (img.size / 1024)|int }}KB &middot; <a href="/history/maps/{{ img.file }}" target="_blank">Full size</a></div>
+        <div class="lib-item-meta">{{ (img.size / 1024)|int }}KB &middot; <a href="/history/maps/{{ img.file }}" target="_blank" rel="noopener noreferrer">Full size</a></div>
       </div>
     </div>
     {% endfor %}

@@ -1,0 +1,793 @@
+"""
+Article-writing agent for croton.news.
+
+Writes journalism articles with access to:
+1. Full meeting transcript/minutes (source material)
+2. RAG search (cross-meeting context on same topics)
+3. Web search via contextwire.dev (NY standards, comparisons)
+
+Usage:
+    python3 write_article.py <event_id>              # Write article for a meeting
+    python3 write_article.py <event_id> --dry-run     # Print without saving
+    python3 write_article.py <event_id> --model opus  # Choose model
+    python3 write_article.py topic <topic_slug>       # Write topic wrap-up article
+"""
+
+import json
+import os
+import sqlite3
+import sys
+import urllib.request
+import urllib.error
+
+RAG_DB = os.path.join(os.path.dirname(__file__), "rag.db")
+TRANSCRIPTS_DIR = os.path.join(os.path.dirname(__file__), "transcripts")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
+def load_canonical_names():
+    """Load confirmed name spellings from minutes, entity DB, and BoardDocs."""
+    names = {}
+    try:
+        sys.path.insert(0, BASE_DIR)
+        from enrich_transcript import _load_canonical_names
+        all_names, minutes_names = _load_canonical_names()
+        names.update({n: r for n, r in minutes_names.items()})
+        names.update({n: r for n, r in all_names.items()})
+    except Exception:
+        pass
+    try:
+        from boarddocs import get_all_canonical_names
+        bd_names = get_all_canonical_names()
+        for name, info in bd_names.items():
+            if name not in names:
+                names[name] = info.get("role", "")
+    except Exception:
+        pass
+    return names
+
+# LLM endpoints
+ZAI_KEY = os.environ.get("ZAI_KEY", "")
+ZAI_URL = "https://api.z.ai/api/anthropic/v1/messages"
+
+# ===================================================================
+# OFFICIAL ROSTER - Authoritative list of current officeholders.
+# Updated: 2026-05-12
+# The article writer MUST use these names. No other officials exist.
+# ===================================================================
+
+VILLAGE_OFFICIALS = {
+    # Board of Trustees (5 members)
+    "Brian Pugh": "Mayor",
+    "Len Simon": "Deputy Mayor",
+    "Nora Nicholson": "Trustee",
+    "Maria Slippen": "Trustee",
+    "Stacey Nachtaler": "Trustee",
+    # Key Village Staff
+    "Bryan Healy": "Village Manager",
+    "Vincent Salanitro": "Village Engineer/Building Inspector",
+    "Paula DiSanto": "Village Clerk",
+    "John Nikitopoulos": "Police Chief",
+    "Frank Balbi": "Superintendent of Public Works",
+    "Joshua Subin": "Village Attorney (McCarthyFingar)",
+    "Genette Toone": "Village Treasurer",
+    "Rachel Sibrizzi": "Deputy Village Treasurer",
+    "Ron Wegner": "Assistant Village Engineer",
+    "Karen Stapleton": "Secretary to the Planning Board",
+}
+
+BOE_OFFICIALS = {
+    "Ana Teague": "Board President",
+    "Anamika Bhatnagar": "Board Vice President",
+    "Sarah Carrier": "Board Trustee",
+    "Neal Haber": "Board Trustee",
+    "Omar Mayyasi": "Board Trustee",
+    "Theo Oshiro": "Board Trustee",
+    "Allison Samuels": "Board Trustee",
+    "Filomena DiMarco": "Student Ex Officio",
+    # Key District Staff
+    "Brendan Walker": "Superintendent of Schools",
+}
+
+ZBA_OFFICIALS = {
+    "James Tuman": "ZBA Chair",
+    "Geoffrey Haynes": "ZBA Member",
+    "Stefanie Correale": "ZBA Member",
+    "Ron Weitzner": "Building Inspector",
+}
+
+PLANNING_BOARD_OFFICIALS = {
+    "Steve Krisky": "Planning Board Member",
+    "John Ghegan": "Planning Board Member",
+    "Rob Luntz": "Planning Board Member",
+    "Karen Stapleton": "Secretary to the Planning Board",
+}
+
+
+# Search API for external research
+SEARCH_API_URL = "https://search.ourweb.ink/api/search"
+SEARCH_API_KEY = "2e0a3ba74a3ea90c894fd23233d3592d53e491b287a6a62e"
+
+# RAG search
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_BASE_URL = os.environ.get("GEMINI_BASE_URL", "https://generativelanguage.googleapis.com/v1beta")
+
+
+def web_search(query, max_results=5):
+    """Search the web via contextwire.dev/search API."""
+    try:
+        url = f"{SEARCH_API_URL}?q={urllib.request.quote(query)}&profile=web&max_results={max_results}&format=json"
+        req = urllib.request.Request(url, headers={
+            "Authorization": f"Bearer {SEARCH_API_KEY}",
+        })
+        resp = urllib.request.urlopen(req, timeout=15)
+        data = json.loads(resp.read())
+        results = []
+        for r in data.get("results", []):
+            results.append({
+                "title": r.get("title", ""),
+                "url": r.get("url", ""),
+                "snippet": r.get("content", r.get("snippet", ""))[:300],
+            })
+        return results
+    except Exception as e:
+        return [{"error": str(e)}]
+
+
+def rag_search(query, limit=10):
+    """Search our RAG database for cross-meeting context."""
+    try:
+        from search import rag_search as _rag_search
+        results = _rag_search(query, limit=limit)
+        return [{
+            "date": r["date"],
+            "committee": r["committee"],
+            "speaker": r.get("speaker"),
+            "content": r["content"][:400],
+            "doc_type": r["doc_type"],
+        } for r in results]
+    except Exception as e:
+        return [{"error": str(e)}]
+
+
+def load_transcript(event_id):
+    """Load full transcript for a meeting."""
+    path = os.path.join(TRANSCRIPTS_DIR, f"transcript-{event_id}.json")
+    if not os.path.exists(path):
+        return None
+    with open(path) as f:
+        return json.load(f)
+
+
+def load_meeting(db, event_id=None, date=None, committee=None):
+    """Load meeting record from rag.db."""
+    if event_id:
+        return db.execute(
+            "SELECT * FROM meetings WHERE event_id = ?", (event_id,)
+        ).fetchone()
+    elif date and committee:
+        return db.execute(
+            "SELECT * FROM meetings WHERE date = ? AND committee = ?", (date, committee)
+        ).fetchone()
+    return None
+
+
+def call_llm(system_prompt, user_prompt, model="claude-sonnet-4-20250514", max_tokens=6000):
+    """Call LLM via z.ai (Anthropic-compatible API)."""
+    payload = json.dumps({
+        "model": model,
+        "max_tokens": max_tokens,
+        "system": system_prompt,
+        "messages": [{"role": "user", "content": user_prompt}],
+    }).encode()
+
+    req = urllib.request.Request(ZAI_URL, data=payload, headers={
+        "Content-Type": "application/json",
+        "x-api-key": ZAI_KEY,
+        "anthropic-version": "2023-06-01",
+    }, method="POST")
+
+    resp = urllib.request.urlopen(req, timeout=300)
+    data = json.loads(resp.read())
+    return data["content"][0]["text"]
+
+
+def gather_context(transcript, topics):
+    """Gather cross-meeting and external context for article writing."""
+    context = {"rag_results": [], "web_results": []}
+
+    # Extract key topics from transcript for research
+    if not topics:
+        # Simple extraction: most discussed subjects
+        topics = []
+        if transcript:
+            text = transcript.get("full_text", "")[:2000]
+            # Will be extracted by the LLM itself via tool calls
+
+    # RAG: find related coverage from other meetings
+    for topic in topics[:3]:
+        results = rag_search(topic, limit=5)
+        context["rag_results"].extend(results)
+
+    # Web: search for external context/comparisons
+    for topic in topics[:2]:
+        query = f"{topic} New York village municipality"
+        results = web_search(query, max_results=3)
+        context["web_results"].extend(results)
+
+    return context
+
+
+def write_meeting_article(event_id, model="claude-sonnet-4-20250514", dry_run=False):
+    """Write an article for a specific meeting."""
+    db = sqlite3.connect(RAG_DB)
+    db.row_factory = sqlite3.Row
+
+    # Load transcript
+    transcript = load_transcript(event_id)
+    if not transcript:
+        print(f"No transcript found for event {event_id}")
+        return
+
+    # Load existing meeting record
+    meeting = load_meeting(db, event_id=event_id)
+    date = transcript.get("date", "")
+    committee = transcript.get("title", "")
+
+    # Get full text (with speaker names)
+    full_text = transcript.get("full_text", "")
+    speaker_map = transcript.get("speaker_map", {})
+
+    # Extract top topics from existing topic_threads
+    topic_chunks = db.execute("""
+        SELECT DISTINCT t.name FROM topic_threads t
+        JOIN topic_mentions tm ON tm.topic_id = t.id
+        JOIN chunks c ON c.id = tm.chunk_id
+        WHERE c.doc_id = ?
+    """, (str(event_id),)).fetchall()
+    topics = [r[0] for r in topic_chunks]
+
+    print(f"Meeting: {committee} ({date}), event {event_id}")
+    print(f"Transcript: {transcript.get('word_count', 0)} words, {len(transcript.get('utterances', []))} utterances")
+    print(f"Topics: {', '.join(topics) if topics else 'none identified'}")
+    print(f"Gathering context...")
+
+    # Gather cross-meeting and external context
+    context = gather_context(transcript, topics)
+    print(f"  RAG results: {len(context['rag_results'])}")
+    print(f"  Web results: {len(context['web_results'])}")
+
+    # Build a timestamp index so the LLM can reference quotes by time
+    utterance_index = []
+    for u in transcript.get("utterances", []):
+        speaker = u.get("speaker", "Unknown")
+        if speaker_map:
+            num = speaker.replace("Speaker ", "")
+            if num in speaker_map:
+                speaker = speaker_map[num]
+        ts = int(u.get("start", 0))
+        text_preview = u.get("text", "")[:80]
+        utterance_index.append(f"[{ts}s] {speaker}: {text_preview}")
+
+    # Build the article prompt — adjust for committee type
+    is_boe = "Board of Education" in (committee or "")
+
+    if is_boe:
+        system = """You are a local news journalist covering the Croton-Harmon school district (CHUFSD) in Croton-on-Hudson, NY.
+You write clear, engaging education journalism that makes school board decisions accessible to parents and residents.
+
+Style guidelines:
+- Lead with what matters most to families and taxpayers, not procedural details
+- Use direct quotes from the meeting when they're compelling
+- Provide context: why does this matter, what's the history, what happens next
+- Name speakers by their role and name (e.g., "Superintendent Brendan Walker")
+- Mention specific dollar amounts, vote counts, enrollment figures, and dates
+- Write 1200-1800 words for a full meeting, 600-800 for short/special meetings
+- Write a compelling headline (not clickbait, but interesting)
+- No AI disclaimers, no "this article was generated" notices
+- Write in past tense for events, present tense for ongoing situations
+
+CRITICAL — Speaker attribution:
+Many speakers in this transcript are labeled "Unknown Speaker" because the source
+is YouTube auto-captions without speaker identification.
+- When quoting an Unknown Speaker, attribute as "a board member said," "one speaker noted,"
+  "an audience member commented," "a parent asked," etc. based on context.
+- NEVER fabricate or guess a speaker's name. Only use proper names that appear in the
+  transcript's speaker labels or are explicitly mentioned in the text.
+- If the transcript says "Superintendent Walker" or "President Chaudhuri," you may use those names.
+
+IMPORTANT — Quote timestamps:
+When you use a direct quote, tag it with the timestamp from the transcript like this:
+  "Quote text here," said Speaker Name. {{quote:SECONDS}}
+where SECONDS is the start time in seconds from the timestamp index provided.
+Only include quotes that have a matching timestamp. This lets us link to the source video."""
+    else:
+        system = """You are a local news journalist covering Croton-on-Hudson, NY village government.
+You write clear, engaging civic journalism that makes local government accessible to residents.
+
+Style guidelines:
+- Lead with what matters most to residents, not procedural details
+- Use direct quotes from the meeting when they're compelling
+- Provide context: why does this matter, what's the history, what happens next
+- Name speakers by their role and name (e.g., "Village Manager Bryan Healy")
+- Mention specific dollar amounts, vote counts, and dates
+- Write 1200-1800 words for a full meeting, 600-800 for short/special meetings
+- Write a compelling headline (not clickbait, but interesting)
+- No AI disclaimers, no "this article was generated" notices
+- Write in past tense for events, present tense for ongoing situations
+
+IMPORTANT — Quote timestamps:
+When you use a direct quote, tag it with the timestamp from the transcript like this:
+  "Quote text here," said Speaker Name. {{quote:SECONDS}}
+where SECONDS is the start time in seconds from the timestamp index provided.
+This lets us embed a video clip of the speaker at that moment."""
+
+    user_parts = []
+    # Inject official roster into prompt (authoritative, not fuzzy-matched)
+    is_boe_meeting = "Board of Education" in (committee or "")
+    is_zba_meeting = "Zoning Board" in (committee or "")
+    is_planning_meeting = "Planning Board" in (committee or "")
+
+    roster = VILLAGE_OFFICIALS.copy()
+    if is_boe_meeting:
+        roster = BOE_OFFICIALS.copy()
+    elif is_zba_meeting:
+        roster.update(ZBA_OFFICIALS)
+    elif is_planning_meeting:
+        roster.update(PLANNING_BOARD_OFFICIALS)
+
+    roster_lines = []
+    for rname, rrole in roster.items():
+        roster_lines.append(f"  {rname} -- {rrole}")
+    user_parts.append("## OFFICIAL ROSTER (use ONLY these names)\n")
+    user_parts.append("The following people hold office. Do NOT invent, guess, or fabricate")
+    user_parts.append("any other names. If you cannot identify a speaker, attribute the quote")
+    user_parts.append('generically (e.g. "a trustee said," "one board member noted").\n')
+    user_parts.append("\n".join(roster_lines))
+    user_parts.append("\nVIOLATION: Using any name not on this list for an elected official is a factual error.\n")
+
+    # Load canonical names for accuracy
+    canonical = load_canonical_names()
+    if canonical:
+        name_list = []
+        for name, role in sorted(canonical.items()):
+            if role:
+                name_list.append(f"  {name} ({role})")
+            else:
+                name_list.append(f"  {name}")
+        user_parts.append("## Confirmed Name Spellings (use these exact spellings)\n")
+        user_parts.append("\n".join(name_list[:80]))
+        user_parts.append("\nIMPORTANT: Use ONLY these confirmed spellings. Do not guess or 'correct' unusual names.\n")
+
+    # Load canonical names for accuracy
+    canonical = load_canonical_names()
+    if canonical:
+        name_lines = []
+        for name in sorted(canonical)[:80]:
+            role = canonical[name]
+            name_lines.append(f"  {name} ({role})" if role else f"  {name}")
+        user_parts.append("## Confirmed Name Spellings (use these exact spellings)\n")
+        user_parts.append("\n".join(name_lines))
+        user_parts.append("\nIMPORTANT: Use ONLY these confirmed spellings. Do not guess or correct unusual names.\n")
+
+    user_parts.append(f"Write a news article about the {committee} meeting on {date}.\n")
+
+    # Include official meeting agenda if available
+    agenda_json = None
+    if meeting:
+        agenda_json = meeting.get("agenda_json") if isinstance(meeting, dict) else meeting["agenda_json"] if "agenda_json" in meeting.keys() else None
+    if agenda_json:
+        try:
+            agenda_items = json.loads(agenda_json) if isinstance(agenda_json, str) else agenda_json
+            if agenda_items:
+                agenda_lines = []
+                def _walk(items, depth=0):
+                    for item in items:
+                        prefix = "  " * depth + "- "
+                        agenda_lines.append(f"{prefix}{item.get('title', '')}")
+                        _walk(item.get("children", []), depth + 1)
+                _walk(agenda_items)
+                user_parts.append("## Official Meeting Agenda\n")
+                user_parts.append("\n".join(agenda_lines[:50]))
+                user_parts.append("\nUse this agenda to structure your article and ensure all key items are covered.\n")
+        except (json.JSONDecodeError, TypeError):
+            pass
+
+    # Source transcript (truncated if too long)
+    # Truncate long transcripts to fit API limits (~120k chars max)
+    max_chars = 120000
+    transcript_text = full_text[:max_chars]
+    if len(full_text) > max_chars:
+        remaining = len(full_text) - max_chars
+        transcript_text += f"\n\n[TRANSCRIPT TRUNCATED - remaining {remaining} chars omitted]"
+    user_parts.append(f"## Full Meeting Transcript\n\n{transcript_text}\n")
+
+    # Timestamp index for quote referencing
+    if utterance_index:
+        # Sample every few utterances to keep it manageable
+        sampled = utterance_index[::3][:200]
+        user_parts.append("## Timestamp Index (for quote references)\n")
+        user_parts.append("\n".join(sampled))
+        user_parts.append("")
+
+    # Cross-meeting context
+    if context["rag_results"]:
+        user_parts.append("## Related Coverage From Other Meetings\n")
+        for r in context["rag_results"][:8]:
+            if "error" not in r:
+                speaker = f" ({r['speaker']})" if r.get("speaker") else ""
+                user_parts.append(f"- [{r['date']}] {r['committee']}{speaker}: {r['content'][:200]}")
+        user_parts.append("")
+
+    # External context
+    if context["web_results"]:
+        user_parts.append("## External Context (from web research)\n")
+        for r in context["web_results"]:
+            if "error" not in r:
+                user_parts.append(f"- {r['title']}: {r['snippet'][:200]}")
+                user_parts.append(f"  Source: {r['url']}")
+        user_parts.append("")
+
+    user_parts.append("""
+## Output Format
+
+HEADLINE: <your headline>
+QUICK_SUMMARY: <1-2 sentence summary for search results>
+KEY_ACTIONS:
+- Action or decision 1 (include vote counts, dollar amounts)
+- Action or decision 2
+- ...up to 8 key items, most important first
+
+ARTICLE:
+<your full article, with {{quote:SECONDS}} after each direct quote>""")
+
+    user_prompt = "\n".join(user_parts)
+
+    print(f"Calling {model} ({len(user_prompt)} chars input)...")
+    response = call_llm(system, user_prompt, model=model)
+
+    # Parse response
+    headline = ""
+    quick_summary = ""
+    key_actions = ""
+    article = ""
+
+    lines = response.split("\n")
+    section = None
+    for line in lines:
+        if line.startswith("HEADLINE:"):
+            headline = line[9:].strip()
+            section = None
+        elif line.startswith("QUICK_SUMMARY:"):
+            quick_summary = line[14:].strip()
+            section = None
+        elif line.startswith("KEY_ACTIONS:"):
+            section = "key_actions"
+        elif line.startswith("ARTICLE:"):
+            section = "article"
+        elif section == "key_actions":
+            key_actions += line + "\n"
+        elif section == "article":
+            article += line + "\n"
+
+    key_actions = key_actions.strip()
+    article = article.strip()
+
+    print(f"\n{'='*60}")
+    print(f"HEADLINE: {headline}")
+    print(f"QUICK_SUMMARY: {quick_summary}")
+    print(f"KEY_ACTIONS:\n{key_actions}")
+    print(f"ARTICLE ({len(article)} chars):")
+    print(article[:500] + "..." if len(article) > 500 else article)
+    print(f"{'='*60}")
+
+    # Name verification: check all names in article against canonical list
+    if article:
+        canonical = load_canonical_names()
+        if canonical:
+            import re as _re
+            # Find all capitalized multi-word names in article
+            article_names = set(_re.findall(r'[A-Z][a-z]+ [A-Z][a-z]+(?:\s[A-Z][a-z]+)?', article))
+            canonical_lower = {n.lower(): n for n in canonical}
+            fixes = {}
+            for aname in article_names:
+                aname_lower = aname.lower()
+                if aname_lower in canonical_lower and canonical_lower[aname_lower] != aname:
+                    fixes[aname] = canonical_lower[aname_lower]
+                else:
+                    # Fuzzy match
+                    from difflib import SequenceMatcher
+                    for cname in canonical:
+                        score = SequenceMatcher(None, aname_lower, cname.lower()).ratio()
+                        if score >= 0.85 and cname != aname:
+                            fixes[aname] = cname
+                            break
+            if fixes:
+                print(f"  Name corrections: {fixes}")
+                for wrong, right in fixes.items():
+                    article = article.replace(wrong, right)
+
+    # Name verification: check article names against canonical list
+    if article:
+        canonical = load_canonical_names()
+        if canonical:
+            import re as _re
+            from difflib import SequenceMatcher
+            article_names = set(_re.findall(r'[A-Z][a-z]+ [A-Z][a-z]+', article))
+            canonical_lower = {n.lower(): n for n in canonical}
+            fixes = {}
+            for aname in article_names:
+                al = aname.lower()
+                if al in canonical_lower and canonical_lower[al] != aname:
+                    fixes[aname] = canonical_lower[al]
+                else:
+                    for cname in canonical:
+                        if SequenceMatcher(None, al, cname.lower()).ratio() >= 0.85 and cname != aname:
+                            fixes[aname] = cname
+                            break
+            if fixes:
+                print(f"  Name corrections: {fixes}")
+                for wrong, right in fixes.items():
+                    article = article.replace(wrong, right)
+
+    # Editor review: fact-check, remove hyperbole, verify quotes
+    if article and not dry_run:
+        print("\nRunning editor review...")
+        article = editor_review(article, full_text, headline, committee, date)
+
+    # Verify and fix quote timestamps against transcript
+    if article and not dry_run and transcript:
+        article = verify_timestamps(article, transcript)
+
+    # Insert links to source documents from agenda attachments
+    if article and not dry_run:
+        article = insert_document_links(article, meeting, db)
+
+    if dry_run:
+        print("\n[DRY RUN — not saved]")
+    else:
+        # Save to meetings table
+        if meeting:
+            db.execute("""
+                UPDATE meetings SET
+                    headline = ?, quick_summary = ?, complete_summary = ?,
+                    article = ?,
+                    article_model = ?, article_generated_at = datetime('now')
+                WHERE event_id = ?
+            """, (headline, quick_summary, key_actions, article, model, event_id))
+        else:
+            db.execute("""
+                INSERT OR REPLACE INTO meetings
+                    (date, committee, event_id, headline, quick_summary, article,
+                     has_transcript, has_video, has_audio,
+                     article_model, article_generated_at,
+                     word_count, speaker_count)
+                VALUES (?, ?, ?, ?, ?, ?, 1, 1, 1, ?, datetime('now'), ?, ?)
+            """, (date, committee, event_id, headline, quick_summary, article,
+                  model, transcript.get("word_count"), transcript.get("speaker_count")))
+        db.commit()
+        print(f"\nSaved to meetings table.")
+
+    db.close()
+
+
+
+
+
+def verify_timestamps(article, transcript):
+    """Verify and fix {{quote:SECONDS}} timestamps against transcript utterances.
+
+    For each quote in the article, finds the matching utterance in the transcript
+    and corrects the timestamp if it's wrong. This catches cases where the LLM
+    generates plausible but incorrect timestamps.
+    """
+    import re as _re
+    from difflib import SequenceMatcher as SM
+
+    utterances = transcript.get("utterances", [])
+    if not utterances:
+        return article
+
+    # Extract all quotes with timestamps: "quote text" ... {{quote:SECONDS}}
+    # Match the last quoted string before each {{quote:N}} tag
+    pattern = _re.compile(r'"([^"]{15,})"[^{]*\{\{quote:(\d+)\}\}')
+    matches = list(pattern.finditer(article))
+
+    if not matches:
+        return article
+
+    fixes = 0
+    for m in matches:
+        quote_text = m.group(1)
+        claimed_ts = int(m.group(2))
+
+        # Get first 6 words of the quote for matching
+        words = quote_text.lower().split()[:6]
+        if len(words) < 3:
+            continue
+        snippet = " ".join(words)
+
+        # Search utterances for this text
+        best_ts = None
+        best_score = 0
+
+        for u in utterances:
+            u_text = u.get("text", "").lower()
+            u_start = u.get("start", 0)
+
+            # Try exact substring match first
+            if snippet in u_text:
+                best_ts = int(u_start)
+                best_score = 1.0
+                break
+
+            # Try first 4 words
+            short_snippet = " ".join(words[:4])
+            if short_snippet in u_text:
+                if best_score < 0.9:
+                    best_ts = int(u_start)
+                    best_score = 0.9
+
+            # Fuzzy match for close variants
+            if len(u_text) >= 10:
+                # Compare against start of utterance
+                u_words = u_text.split()[:6]
+                u_snippet = " ".join(u_words)
+                score = SM(None, snippet, u_snippet).ratio()
+                if score > best_score and score >= 0.7:
+                    best_ts = int(u_start)
+                    best_score = score
+
+        if best_ts is not None and abs(best_ts - claimed_ts) > 30:
+            # Timestamp is off by more than 30 seconds — fix it
+            old_tag = "{{" + f"quote:{claimed_ts}" + "}}"
+            new_tag = "{{" + f"quote:{best_ts}" + "}}"
+            # Only replace this specific occurrence (in case of duplicate timestamps)
+            article = article[:m.start(2)] + str(best_ts) + article[m.end(2):]
+            # Recompute matches since we modified the string
+            # (simple approach: just note the fix, actual replacement is positional)
+            fixes += 1
+            print(f"    Timestamp fix: quote:{claimed_ts} -> quote:{best_ts} "
+                  f"(score={best_score:.2f})")
+
+    if fixes:
+        # Re-extract and replace since positional editing is tricky
+        # Simpler approach: do a second pass with regex replacement
+        article_fixed = article  # positional edits already applied above
+        print(f"  Timestamp verification: {fixes} fix(es) applied")
+    else:
+        print(f"  Timestamp verification: all {len(matches)} timestamps OK")
+
+    return article
+
+
+def insert_document_links(article, meeting, db):
+    """Insert links to source documents from the meeting agenda.
+
+    Scans agenda_json for attachments (ChampDS PDFs) and BoardDocs links,
+    then appends a 'Source Documents' section to the article.
+    """
+    if not meeting:
+        return article
+
+    agenda_json = None
+    try:
+        agenda_json = meeting["agenda_json"] if "agenda_json" in meeting.keys() else None
+    except (TypeError, KeyError):
+        return article
+
+    if not agenda_json:
+        return article
+
+    try:
+        agenda = json.loads(agenda_json) if isinstance(agenda_json, str) else agenda_json
+    except (json.JSONDecodeError, TypeError):
+        return article
+
+    # Collect all attachments from the agenda tree
+    attachments = []
+    def _walk(items):
+        for item in items:
+            for att in item.get("attachments", []):
+                name = att.get("name", "")
+                url = att.get("url", "")
+                if name and url:
+                    # Clean up filename for display
+                    display = name.replace(".pdf", "").replace("_", " ").strip()
+                    attachments.append({"name": display, "url": url, "agenda_item": item.get("title", "")})
+            _walk(item.get("children", []))
+    _walk(agenda)
+
+    if not attachments:
+        return article
+
+    # Build the source documents section
+    lines = ["", "---", "", "**Source documents:**"]
+    for att in attachments:
+        lines.append(f"- [{att['name']}]({att['url']})")
+
+    article += "\n".join(lines)
+    print(f"  Added {len(attachments)} source document links")
+    return article
+
+
+def editor_review(article, transcript_text, headline, committee, date):
+    """Editor pass: check facts, remove hyperbole, verify quote accuracy."""
+    system = """You are a strict newspaper editor reviewing an AI-generated article before publication.
+Your job is to catch and fix:
+
+1. FACTUAL ERRORS: Wrong names, numbers, dates, vote counts. Cross-check every claim against the transcript.
+2. HYPERBOLE: Remove sensationalized language. Replace "historic", "landmark", "unprecedented" etc. with neutral terms unless truly warranted.
+3. QUOTE ACCURACY: Every direct quote must appear verbatim in the transcript. If a quote is paraphrased or fabricated, either fix it to match the transcript or convert to indirect speech.
+4. MISSING CONTEXT: If the article omits important discussion, dissenting views, or public comments from the transcript, add them.
+5. ATTRIBUTION: Every claim must be attributable to someone in the transcript or a document. No unsourced assertions.
+6. TENSE: Past tense for what happened at the meeting. Present for ongoing situations.
+7. DAY OF WEEK: Verify the day matches the date.
+
+Return the CORRECTED article only. No commentary, no "here are my changes" — just the fixed article text.
+If the article is clean, return it unchanged.
+
+CRITICAL: Preserve ALL {{quote:SECONDS}} tags after direct quotes. These link to source video timestamps.
+Do NOT remove, modify, or relocate {{quote:...}} tags. They must stay immediately after the quote they reference.
+Also preserve {{photo:...}} tags if present."""
+
+    user = f"""HEADLINE: {headline}
+COMMITTEE: {committee}
+DATE: {date}
+
+ARTICLE TO REVIEW:
+{article}
+
+TRANSCRIPT (source of truth):
+{transcript_text[:30000]}"""
+
+    try:
+        edited = call_llm(system, user, max_tokens=6000)
+        # Check if editor returned something reasonable
+        if edited and len(edited) > len(article) * 0.5:
+            # Strip any preamble the editor echoed back (HEADLINE:, ARTICLE TO REVIEW:, etc.)
+            import re as _re
+            # Remove leading metadata lines
+            cleaned = _re.sub(r'^(?:HEADLINE|COMMITTEE|DATE|ARTICLE TO REVIEW|ARTICLE):.*\n', '', edited, flags=_re.MULTILINE)
+            cleaned = cleaned.strip()
+            # If cleaning removed too much, fall back to raw
+            if len(cleaned) > len(article) * 0.4:
+                edited = cleaned
+            print(f"  Editor review: {len(article)} → {len(edited)} chars")
+            return edited
+        else:
+            print(f"  Editor review returned too-short result, keeping original")
+            return article
+    except Exception as e:
+        print(f"  Editor review failed: {e}, keeping original")
+        return article
+
+
+def main():
+    if len(sys.argv) < 2:
+        print(__doc__)
+        sys.exit(1)
+
+    event_id = sys.argv[1]
+    dry_run = "--dry-run" in sys.argv
+    model = "claude-sonnet-4-20250514"
+    if "--model" in sys.argv:
+        idx = sys.argv.index("--model")
+        model_name = sys.argv[idx + 1]
+        model_map = {
+            "opus": "claude-opus-4-20250514",
+            "sonnet": "claude-sonnet-4-20250514",
+            "glm": "glm-5-turbo",
+        }
+        model = model_map.get(model_name, model_name)
+
+    if event_id == "topic":
+        topic_slug = sys.argv[2]
+        print(f"Topic article writing not yet implemented for: {topic_slug}")
+        # TODO: write_topic_article(topic_slug, model, dry_run)
+    else:
+        write_meeting_article(event_id, model=model, dry_run=dry_run)
+
+
+if __name__ == "__main__":
+    main()

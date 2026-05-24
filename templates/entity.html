@@ -2,9 +2,42 @@
 {% block title %}{{ entity.name }}{% endblock %}
 {% block meta_desc %}Everything about {{ entity.name }} in Croton-on-Hudson village government{% endblock %}
 
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "name": "{{ entity.name }} — croton.news",
+  "description": "Everything about {{ entity.name }} in Croton-on-Hudson village government",
+  "url": "https://croton.news/entity/{{ entity.slug }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "croton.news",
+    "url": "https://croton.news"
+  },
+  "mainEntity": {
+    {% if entity.type == 'person' %}"@type": "Person"{% elif entity.type == 'organization' %}"@type": "Organization"{% else %}"@type": "Place"{% endif %},
+    "name": "{{ entity.name }}"{% if entity.metadata and entity.metadata.role %},
+    "description": "{{ entity.metadata.role|e }}"{% endif %}
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://croton.news/"},
+    {"@type": "ListItem", "position": 2, "name": "Entities", "item": "https://croton.news/entities"},
+    {"@type": "ListItem", "position": 3, "name": "{{ entity.name }}", "item": "https://croton.news/entity/{{ entity.slug }}"}
+  ]
+}
+</script>
+{% endblock %}
+
 {% block content %}
 <div class="section-head" style="margin-bottom:8px">
-  <h2 class="section-title">{{ entity.name }}</h2>
+  <h1 class="section-title">{{ entity.name }}</h1>
 </div>
 
 <div style="display:flex;gap:12px;align-items:center;margin-bottom:24px;flex-wrap:wrap">
@@ -69,7 +102,7 @@
     <audio preload="none" style="height:24px;width:100%;max-width:320px" controls>
       <source src="/audio/{{ m.doc_id }}.mp3#t={{ m.start_time|int }}" type="audio/mpeg">
     </audio>
-    <a href="/videos/{{ m.doc_id }}.mp4#t={{ m.start_time|int }}" target="_blank"
+    <a href="/videos/{{ m.doc_id }}.mp4#t={{ m.start_time|int }}" target="_blank" rel="noopener noreferrer"
        style="font-size:11px;color:var(--accent);font-weight:600;white-space:nowrap;text-decoration:none"
        title="Open video at {{ '%d:%02d'|format(m.start_time // 60, m.start_time % 60) }}">&#9654; Video</a>
   </div>

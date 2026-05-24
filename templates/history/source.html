@@ -9,7 +9,7 @@
 <div class="doc-meta">
   <span>{{ chunks|length }} passages</span>
   <span>{{ "{:,}".format(total_words) }} words</span>
-  {% if src in source_urls %}<span><a href="{{ source_urls[src] }}" target="_blank">View on Internet Archive &rarr;</a></span>{% endif %}
+  {% if src in source_urls %}<span><a href="{{ source_urls[src] }}" target="_blank" rel="noopener noreferrer">View on Internet Archive &rarr;</a></span>{% endif %}
 </div>
 
 {% for chunk in chunks %}

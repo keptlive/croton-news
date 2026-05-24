@@ -1,12 +1,33 @@
 {% extends "history/base.html" %}
 {% block title %}{{ story.title }}{% endblock %}
-{% block meta_desc %}{{ story.subtitle or story.body[:160] }}{% endblock %}
+{% block meta_desc %}{{ (story.subtitle or story.body[:160])|strip_md }}{% endblock %}
 
+{% block og_title %}{{ story.title }}{% endblock %}
+{% block og_desc %}{{ (story.subtitle or story.body[:160])|strip_md }}{% endblock %}
+{% block twitter_title %}{{ story.title }}{% endblock %}
+{% block twitter_desc %}{{ (story.subtitle or story.body[:160])|strip_md }}{% endblock %}
+{% if story.photo %}{% block twitter_image %}https://croton.news/history/maps/{{ story.photo }}{% endblock %}{% endif %}
+{% block og_type %}article{% endblock %}
+{% block og_url %}https://croton.news/history/story/{{ story.slug }}{% endblock %}
 {% block head %}
-<meta property="og:title" content="{{ story.title }}">
-<meta property="og:description" content="{{ story.subtitle or story.body[:160] }}">
-{% if story.photo %}<meta property="og:image" content="https://history.croton.news/maps/{{ story.photo }}">{% endif %}
-<meta property="og:type" content="article">
+{% if story.photo %}<meta property="og:image" content="https://croton.news/history/maps/{{ story.photo }}">{% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ story.title|tojson }},
+  "description": {{ (story.subtitle or story.body[:160])|strip_md|tojson }},
+  {% if story.photo %}"image": "https://croton.news/history/maps/{{ story.photo }}",{% endif %}
+  "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "croton.news",
+    "url": "https://croton.news",
+    "logo": {"@type": "ImageObject", "url": "https://croton.news/static/icon-192.png"}
+  },
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://croton.news/history/story/{{ story.slug }}"},
+  "isPartOf": {"@type": "WebSite", "name": "Croton Historical Archive", "url": "https://croton.news/history"}
+}
+</script>
 <style>
 /* ── Article wrap ── */
 .story-wrap { max-width: 740px; margin: 0 auto; }
@@ -343,7 +364,7 @@
 
   <div class="story-actions">
     <a href="/history/search?q={{ story.title.split(':')[0]|urlencode }}">Search related documents</a>
-    <a href="/history/api/report?q={{ story.title.split(':')[0]|urlencode }}" target="_blank">AI research report</a>
+    <a href="/history/api/report?q={{ story.title.split(':')[0]|urlencode }}" target="_blank" rel="noopener noreferrer">AI research report</a>
     <a href="/history/timeline">Timeline</a>
     <a href="/history/stories">All stories</a>
   </div>

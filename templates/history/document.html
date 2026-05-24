@@ -13,14 +13,14 @@
 <div class="doc-meta">
   {% if doc.source %}<span>{{ doc.source }}</span>{% endif %}
   <span>{{ doc.word_count }} words</span>
-  {% if doc.source in source_urls %}<span><a href="{{ source_urls[doc.source] }}" target="_blank">View original &rarr;</a></span>{% endif %}
+  {% if doc.source in source_urls %}<span><a href="{{ source_urls[doc.source] }}" target="_blank" rel="noopener noreferrer">View original &rarr;</a></span>{% endif %}
 </div>
 
 {% if doc.source == 'Historical Map' %}
 {% set ext = doc.source_file.rsplit('.', 1)[-1] %}
 {% if ext in ('jpg', 'jpeg', 'png') %}
 <div style="margin: 20px 0;">
-  <a href="/history/maps/{{ doc.source_file }}" target="_blank">
+  <a href="/history/maps/{{ doc.source_file }}" target="_blank" rel="noopener noreferrer">
     <img src="/history/maps/{{ doc.source_file }}" alt="{{ doc.title }}" style="max-width:100%; border:1px solid var(--border); border-radius:var(--radius);">
   </a>
   <p style="font:13px var(--sans); color:var(--ink-4); margin-top:8px;">Click to view full size. Public domain.</p>

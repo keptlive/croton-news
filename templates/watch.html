@@ -2,7 +2,7 @@
 {% block title %}{{ meeting.headline or meeting.quick_summary or 'Meeting Video' }}{% endblock %}
 {% block meta_desc %}Watch the full {{ meeting.committee }} meeting from {{ meeting.date }}. {{ meeting.quick_summary or '' }}{% endblock %}
 
-{% block head %}
+{% block og_meta %}
 {% set vid_title = meeting.headline or meeting.quick_summary or (meeting.committee ~ ' Meeting — ' ~ meeting.date) %}
 {% set vid_desc = meeting.quick_summary or ('Full video of the ' ~ meeting.committee ~ ' meeting held on ' ~ meeting.date ~ ', Village of Croton-on-Hudson, NY.') %}
 {% set eid = meeting.event_id or '' %}
@@ -31,7 +31,20 @@
 <meta name="twitter:title" content="{{ vid_title }}">
 <meta name="twitter:description" content="{{ vid_desc }}">
 <meta name="twitter:image" content="{{ thumb_url }}">
-
+{% endblock %}
+{% block head %}
+{% set vid_title = meeting.headline or meeting.quick_summary or (meeting.committee ~ ' Meeting — ' ~ meeting.date) %}
+{% set vid_desc = meeting.quick_summary or ('Full video of the ' ~ meeting.committee ~ ' meeting held on ' ~ meeting.date ~ ', Village of Croton-on-Hudson, NY.') %}
+{% set eid = meeting.event_id or '' %}
+{% set is_yt = eid.startswith('yt-') %}
+{% set yt_id = eid[3:] if is_yt else '' %}
+{% set vid_url = 'https://croton.news/videos/' ~ eid ~ '.mp4' %}
+{% set thumb_url = 'https://croton.news/photos/' ~ eid ~ '_t60_og.jpg' %}
+{% set dur_secs = meeting.duration_seconds|default(0)|int %}
+{% set dur_h = dur_secs // 3600 %}
+{% set dur_m = (dur_secs % 3600) // 60 %}
+{% set dur_s = dur_secs % 60 %}
+{% set iso_dur = 'PT' ~ (('%dH' % dur_h) if dur_h else '') ~ '%dM%dS' % (dur_m, dur_s) %}
 <!-- Schema.org VideoObject -->
 <script type="application/ld+json">
 {

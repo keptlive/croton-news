@@ -36,7 +36,7 @@
   <div class="res-title"><a href="/history/document/{{ r.id }}">{{ r.title or r.source_file }}</a></div>
   <div class="res-src">
     {{ r.source or r.source_file }}
-    {% if r.source in source_urls %} — <a href="{{ source_urls[r.source] }}" target="_blank">source</a>{% endif %}
+    {% if r.source in source_urls %} — <a href="{{ source_urls[r.source] }}" target="_blank" rel="noopener noreferrer">source</a>{% endif %}
   </div>
   <div class="res-snip">{{ r.snippet|safe }}</div>
   <div class="res-meta">{{ r.word_count }} words</div>

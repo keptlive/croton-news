@@ -17,19 +17,42 @@
   {% for a in legacy %}
   <url><loc>https://croton.news/article/{{ a.doc_id }}</loc><lastmod>{{ a.date }}</lastmod><priority>0.5</priority></url>
   {% endfor %}
+  {% set seen_transcripts = [] %}
+  {% set seen_watch = [] %}
   {% for m in all_meetings %}
   <url><loc>https://croton.news/meeting/{{ m.id }}</loc><lastmod>{{ m.date }}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  {% if m.has_transcript and m.event_id %}
+  {% if m.has_transcript and m.event_id and m.event_id not in seen_transcripts %}
   <url><loc>https://croton.news/transcript/{{ m.event_id }}</loc><lastmod>{{ m.date }}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  {% if seen_transcripts.append(m.event_id) %}{% endif %}
   {% endif %}
-  {% if m.event_id and (m.has_transcript or m.id) %}
+  {% if m.event_id and (m.has_transcript or m.id) and m.event_id in video_event_ids and m.event_id not in seen_watch %}
   <url><loc>https://croton.news/watch/{{ m.event_id }}</loc><lastmod>{{ m.date }}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  {% if seen_watch.append(m.event_id) %}{% endif %}
   {% endif %}
   {% endfor %}
   {% for t in topics %}
-  <url><loc>https://croton.news/topic/{{ t.slug }}</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://croton.news/topic/{{ t.slug }}</loc>{% if t.last_date %}<lastmod>{{ t.last_date }}</lastmod>{% endif %}<changefreq>weekly</changefreq><priority>0.7</priority></url>
   {% endfor %}
   {% for e in entities %}
-  <url><loc>https://croton.news/entity/{{ e.slug }}</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://croton.news/entity/{{ e.slug }}</loc>{% if e.last_seen_date %}<lastmod>{{ e.last_seen_date }}</lastmod>{% endif %}<changefreq>monthly</changefreq><priority>0.5</priority></url>
+  {% endfor %}
+  <!-- History section -->
+  <url><loc>https://croton.news/history</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://croton.news/history/timeline</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://croton.news/history/maps</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://croton.news/history/documents</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://croton.news/history/stories</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://croton.news/history/search</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://croton.news/history/mcdonald</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://croton.news/history/collection/colonial</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://croton.news/history/collection/county</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://croton.news/history/collection/government</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://croton.news/history/collection/indigenous</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://croton.news/history/collection/local</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  {% for slug in history_stories %}
+  <url><loc>https://croton.news/history/story/{{ slug }}</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  {% endfor %}
+  {% for slug in mcdonald_slugs %}
+  <url><loc>https://croton.news/history/mcdonald/{{ slug }}</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
   {% endfor %}
 </urlset>

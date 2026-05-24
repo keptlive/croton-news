@@ -1,10 +1,45 @@
 {% extends "base.html" %}
 {% block title %}People &amp; Places{% endblock %}
 {% block meta_desc %}Browse all people, places, organizations, and topics mentioned in Croton-on-Hudson village meetings{% endblock %}
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "People & Organizations",
+  "description": "Key people and organizations mentioned in Croton-on-Hudson government meetings and local news coverage",
+  "url": "https://croton.news/entities",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "croton.news",
+    "url": "https://croton.news"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://croton.news/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "People & Organizations"
+    }
+  ]
+}
+</script>
+{% endblock %}
 
 {% block content %}
 <div class="section-head">
-  <h2 class="section-title">People &amp; Places</h2>
+  <h1 class="section-title">People &amp; Places</h1>
 </div>
 
 <p style="color:var(--ink-secondary);margin-bottom:24px;font-family:var(--serif-body);font-size:15px">

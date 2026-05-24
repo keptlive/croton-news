@@ -17,6 +17,9 @@ Usage:
     python3 pipeline.py ingest EVENT_ID   # Chunk and embed a transcript into rag.db
     python3 pipeline.py full EVENT_ID     # Download + transcribe + enrich + ingest
     python3 pipeline.py status            # Show pipeline status for all meetings
+    python3 pipeline.py refresh-agendas   # Re-check recent meetings for agenda/video updates
+    python3 pipeline.py match-orphans     # Link calendar-only meetings to ChampDS events
+    python3 pipeline.py extract-minutes   # Extract minutes text from agenda approval PDFs
 
 Requires:
     - ffmpeg (for video download)
@@ -71,11 +74,12 @@ COMMITTEE_MAP = {
     "Board of Trustees Meeting": "Board Of Trustees",
     "Board of Trustees Organizational Meeting": "Board Of Trustees",
     "Planning Board": "Planning Board",
-    "Planning Board Meeting": "Planning Board Meeting",
+    "Planning Board Meeting": "Planning Board",
     "Zoning Board of Appeals": "Zoning Board of Appeals",
     "Zoning Board of Appeals Meeting": "Zoning Board of Appeals",
+    "Water Control Commission Meeting": "Water Control Commission",
     "Waterfront Advisory Committee": "Waterfront Advisory Committee",
-    "Waterfront Advisory Committee Meeting (WAC)": "Waterfront Advisory Committee Meeting (WAC)",
+    "Waterfront Advisory Committee Meeting (WAC)": "Waterfront Advisory Committee",
     "Conservation Advisory Council": "Conservation Advisory Council",
     "Advisory Board on the Visual Environment": "Advisory Board on the Visual Environment (VEB)",
     "Advisory Board on the Visual Environment (VEB)": "Advisory Board on the Visual Environment (VEB)",
@@ -156,46 +160,144 @@ def extract_agenda(data):
 
 
 def summarize_agenda(agenda_items):
-    """Generate a quick_summary from agenda items for display before article exists."""
+    """Generate a human-readable quick_summary from agenda items for the Coming Up section."""
     if not agenda_items:
         return None
 
-    # Collect substantive items (skip procedural: call to order, adjournment, pledge)
-    skip_terms = {"call to order", "adjournment", "pledge of allegiance", "roll call"}
-    substantive = []
-    def collect(items):
+    import re as _re
+
+    # Skip procedural and boilerplate items
+    skip_terms = {
+        "call to order", "adjournment", "pledge of allegiance", "roll call",
+        "approval of vouchers", "consent agenda", "correspondence to the board",
+        "approval of minutes", "public comment", "reports from the mayor",
+        "report from the village manager", "new business", "old business",
+        "executive session", "responses to questions",
+    }
+
+    def is_procedural(title):
+        tl = title.lower().strip()
+        return any(skip in tl for skip in skip_terms) or tl.endswith("p.m.") or tl.endswith("pm")
+
+    def clean_title(title):
+        """Extract the human-readable essence from a legal agenda item title."""
+        t = title.strip()
+        # Strip tax map references: "Section XX.XX Block X Lot X.X"
+        t = _re.sub(r'\s*[-—]\s*Located in a .*$', '', t, flags=_re.IGNORECASE)
+        t = _re.sub(r'\s*designated on the Tax Maps.*$', '', t, flags=_re.IGNORECASE)
+        t = _re.sub(r'\s*Section \d+\.\d+ Block \d+.*$', '', t, flags=_re.IGNORECASE)
+        # Strip "Consider authorizing the Village Manager to" → just the action
+        t = _re.sub(r'^Consider (authorizing the Village Manager to |determining that |adopting |scheduling )',
+                     '', t, flags=_re.IGNORECASE)
+        # Strip "Request for a ... variance from Village Zoning Code" → simplify
+        t = _re.sub(r'Request for (?:a |an )?(.+?) (?:variance|variances) from Village Zoning Code.*',
+                     r'seeking \1 variance', t, flags=_re.IGNORECASE)
+        # Clean up owner/applicant format: "Name, owner---Address" → "Address (Name)"
+        m = _re.match(r'^(.+?),\s*(?:owners?|applicants?)\s*[-—]+\s*(.+?)(?:\s*[-—]|$)', t, _re.IGNORECASE)
+        if m:
+            t = f"{m.group(2).strip()} ({m.group(1).strip()})"
+        # Strip architect/representative prefix
+        t = _re.sub(r'^[\w\s]+,\s*(?:architect|representative)\s*(?:for\s+)?', '', t, flags=_re.IGNORECASE)
+        # Extract dollar amounts for prominence
+        dollar = _re.search(r'\$[\d,]+(?:\.\d{2})?', t)
+        # Extract address for prominence
+        addr = _re.search(r'\d+\s+(?:Croton Point|South Riverside|[A-Z]\w+)\s+(?:Ave|Road|Street|Drive|Way|Lane|Blvd)\w*', t, _re.IGNORECASE)
+        # Cap length
+        if len(t) > 120:
+            t = t[:117] + "..."
+        return t.strip()
+
+    # Collect substantive items with cleaned titles, scored by importance
+    scored_items = []
+    def collect(items, depth=0):
         for item in items:
-            title_lower = item["title"].lower()
-            if not any(skip in title_lower for skip in skip_terms):
-                substantive.append(item["title"])
-            collect(item.get("children", []))
+            if not isinstance(item, dict):
+                continue
+            title = item.get("title", "")
+            if not title or is_procedural(title):
+                children = item.get("children", [])
+                if children:
+                    collect(children, depth + 1)
+                continue
+            cleaned = clean_title(title)
+            if cleaned and len(cleaned) > 5:
+                # Score by importance: dollar amounts, policy items, hearings rank higher
+                score = 0
+                tl = title.lower()
+                if "$" in title:
+                    score += 3
+                if any(w in tl for w in ["hearing", "public hearing", "seqra", "seqr"]):
+                    score += 3
+                if any(w in tl for w in ["resolution", "local law", "home rule", "ordinance"]):
+                    score += 2
+                if any(w in tl for w in ["authorize", "accept", "adopt", "approve"]):
+                    score += 1
+                if any(w in tl for w in ["variance", "permit", "site plan", "subdivision"]):
+                    score += 2
+                if any(w in tl for w in ["correspondence", "letter", "email", "membership"]):
+                    score -= 1  # Lower priority for correspondence
+                if any(w in tl for w in ["resignation", "voucher"]):
+                    score -= 1
+                scored_items.append((score, cleaned))
+            # Also check children for substantive items
+            collect(item.get("children", []), depth + 1)
     collect(agenda_items)
 
-    total = len(agenda_items)
-    # Count all items including children
-    def count_all(items):
-        n = 0
-        for item in items:
-            n += 1
-            n += count_all(item.get("children", []))
-        return n
-    total_all = count_all(agenda_items)
+    # Sort by score descending, take top items
+    scored_items.sort(key=lambda x: -x[0])
+    substantive = [item for _, item in scored_items]
 
     if not substantive:
+        total = len(agenda_items)
         return f"{total} agenda items scheduled."
 
-    # Pick up to 3 key items for the summary
+    # Extract key facts from the full agenda: dollar amounts, addresses, project names
+    all_text = " ".join(item.get("title", "") for item in _flatten_agenda(agenda_items))
+    dollars = _re.findall(r'\$[\d,]+(?:\.\d{2})?', all_text)
+    # Find resolution names from attachment titles
+    att_names = []
+    def get_atts(items):
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            for att in item.get("attachments", []):
+                name = att.get("name", "")
+                # Extract meaningful resolution/project names
+                m = _re.match(r'Resolution \d+-\d+ _(.+?)_\.pdf', name)
+                if m:
+                    att_names.append(m.group(1).replace("_", " "))
+            get_atts(item.get("children", []))
+    get_atts(agenda_items)
+
+    # Build a readable summary from top highlights
     highlights = substantive[:3]
-    summary = f"{total_all} agenda items including {highlights[0]}"
-    if len(highlights) > 1:
-        summary += f", {highlights[1]}"
-    if len(highlights) > 2:
-        summary += f", and {highlights[2]}"
-    summary += "."
+    if len(highlights) == 1:
+        summary = highlights[0]
+    elif len(highlights) == 2:
+        summary = f"{highlights[0]}; {highlights[1]}"
+    else:
+        summary = f"{highlights[0]}; {highlights[1]}; {highlights[2]}"
+
+    # Add count if there are more items
+    remaining = len(substantive) - len(highlights)
+    if remaining > 0:
+        summary += f" — plus {remaining} more items"
+
     # Cap length
     if len(summary) > 300:
         summary = summary[:297] + "..."
     return summary
+
+
+def _flatten_agenda(items):
+    """Flatten nested agenda items into a single list."""
+    result = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        result.append(item)
+        result.extend(_flatten_agenda(item.get("children", [])))
+    return result
 
 
 def discover_new_meetings(start_id=None, end_id=None):
@@ -296,15 +398,21 @@ def discover_new_meetings(start_id=None, end_id=None):
 
 
 def recheck_pending():
-    """Re-check meetings that have no video yet — video may have been posted since discovery."""
+    """Re-check recent meetings for newly available video, agendas, and minutes.
+
+    Checks ALL recent meetings with event_ids (not just those without video).
+    Updates: video availability, agenda content, minutes attachments.
+    """
     db = get_db()
+    # Check all recent meetings with event_ids — not just those without video
     pending = db.execute("""
-        SELECT id, event_id FROM meetings
-        WHERE has_video = 0 AND event_id IS NOT NULL AND event_id NOT LIKE 'yt-%'
-        AND date >= date('now', '-30 days')
+        SELECT id, event_id, has_video, agenda_json, has_minutes FROM meetings
+        WHERE event_id IS NOT NULL AND event_id NOT LIKE 'yt-%'
+        AND date >= date('now', '-60 days')
     """).fetchall()
 
-    updated = 0
+    video_updated = 0
+    agenda_updated = 0
     for row in pending:
         eid = row["event_id"]
         data = get_champds_event(int(eid))
@@ -312,35 +420,421 @@ def recheck_pending():
         if not data:
             continue
 
-        media = data.get("MediaInfo", {})
-        media_type = media.get("MediaType", "")
-        media_path = media.get("MediaPath", "")
-
-        if media_path and media_type != "DISABLED":
-            db.execute("""
-                UPDATE meetings SET has_video = 1, media_path = ? WHERE id = ?
-            """, (media_path, row["id"]))
-            updated += 1
-            print(f"  Event {eid}: video now available")
-
-        # Also update agenda if it was missing
-        existing = db.execute("SELECT agenda_json FROM meetings WHERE id = ?", (row["id"],)).fetchone()
-        if not existing["agenda_json"]:
-            agenda = extract_agenda(data)
-            if agenda:
-                agenda_json_str = json.dumps(agenda)
-                quick_summary = summarize_agenda(agenda)
+        # Check for video
+        if not row["has_video"]:
+            media = data.get("MediaInfo", {})
+            media_type = media.get("MediaType", "")
+            media_path = media.get("MediaPath", "")
+            if media_path and media_type != "DISABLED":
                 db.execute("""
-                    UPDATE meetings SET agenda_json = ?, quick_summary = COALESCE(quick_summary, ?)
+                    UPDATE meetings SET has_video = 1, media_path = ? WHERE id = ?
+                """, (media_path, row["id"]))
+                video_updated += 1
+                print(f"  Event {eid}: video now available")
+
+        # Always refresh agenda — it may have been posted or updated since discovery
+        agenda = extract_agenda(data)
+        if agenda:
+            new_agenda_json = json.dumps(agenda)
+            old_agenda_json = row["agenda_json"] or ""
+            if new_agenda_json != old_agenda_json:
+                quick_summary = summarize_agenda(agenda)
+                # Only update quick_summary if no article exists yet
+                db.execute("""
+                    UPDATE meetings SET agenda_json = ?
                     WHERE id = ?
-                """, (agenda_json_str, quick_summary, row["id"]))
-                print(f"  Event {eid}: agenda updated ({len(agenda)} items)")
+                """, (new_agenda_json, row["id"]))
+                # Update quick_summary only if article hasn't been written
+                db.execute("""
+                    UPDATE meetings SET quick_summary = ?
+                    WHERE id = ? AND (article IS NULL OR article = '')
+                """, (quick_summary, row["id"]))
+                agenda_updated += 1
+                label = "updated" if old_agenda_json else "added"
+                print(f"  Event {eid}: agenda {label} ({len(agenda)} items)")
 
     db.commit()
     db.close()
-    if updated:
-        print(f"  {updated} meetings now have video available")
+    if video_updated:
+        print(f"  {video_updated} meetings now have video available")
+    if agenda_updated:
+        print(f"  {agenda_updated} meetings had agenda updates")
+    return video_updated + agenda_updated
+
+
+def match_orphan_meetings():
+    """Match meetings that have no event_id to ChampDS events by date + committee.
+
+    Meetings from calendar feeds or manual entry often lack event_ids.
+    This scans ChampDS to find matching events and links them.
+    """
+    db = get_db()
+    orphans = db.execute("""
+        SELECT id, committee, date FROM meetings
+        WHERE event_id IS NULL
+        AND date >= date('now', '-60 days')
+    """).fetchall()
+
+    if not orphans:
+        db.close()
+        return 0
+
+    # Build a lookup of what we need to find
+    needed = {}
+    for row in orphans:
+        key = (row["date"], row["committee"])
+        needed[key] = row["id"]
+
+    # Scan ChampDS event IDs around the range we expect
+    # Get the max known event_id as starting point
+    max_row = db.execute("""
+        SELECT MAX(CAST(event_id AS INTEGER)) as max_eid
+        FROM meetings WHERE event_id IS NOT NULL AND event_id NOT LIKE 'yt-%'
+    """).fetchone()
+    scan_start = max((max_row["max_eid"] or 1079) - 50, 1)
+    scan_end = (max_row["max_eid"] or 1079) + 100
+
+    # Also check which event_ids are already claimed
+    claimed = {row["event_id"] for row in
+               db.execute("SELECT event_id FROM meetings WHERE event_id IS NOT NULL").fetchall()}
+
+    matched = 0
+    print(f"  Scanning ChampDS {scan_start}-{scan_end} for {len(orphans)} orphan meetings...")
+    for eid in range(scan_start, scan_end + 1):
+        if str(eid) in claimed:
+            continue
+
+        data = get_champds_event(eid)
+        time.sleep(0.2)
+        if not data or "Event" not in data:
+            continue
+
+        ev = data["Event"]
+        title = ev.get("EventTitle", "")
+        if not title:
+            continue
+
+        date_raw = ev.get("EventDateTimeCustomerLocal",
+                          ev.get("EventDateTimeUTC", ""))
+        date = date_raw[:10] if date_raw else ""
+
+        board = data.get("Board", {})
+        raw_board_name = board.get("BoardName", "")
+        committee = COMMITTEE_MAP.get(title, COMMITTEE_MAP.get(raw_board_name, title or raw_board_name))
+
+        key = (date, committee)
+        if key in needed:
+            meeting_id = needed[key]
+            # Link the event_id and pull in any data
+            media = data.get("MediaInfo", {})
+            media_type = media.get("MediaType", "")
+            media_path = media.get("MediaPath", "") if media_type != "DISABLED" else ""
+            has_video = 1 if media_path else 0
+
+            agenda = extract_agenda(data)
+            agenda_json_str = json.dumps(agenda) if agenda else None
+            quick_summary = summarize_agenda(agenda) if agenda else None
+
+            db.execute("""
+                UPDATE meetings SET event_id = ?, has_video = MAX(has_video, ?),
+                    media_path = COALESCE(media_path, ?), board_name = COALESCE(board_name, ?),
+                    agenda_json = COALESCE(?, agenda_json),
+                    quick_summary = CASE WHEN article IS NULL OR article = '' THEN COALESCE(?, quick_summary) ELSE quick_summary END
+                WHERE id = ?
+            """, (str(eid), has_video, media_path, raw_board_name,
+                  agenda_json_str, quick_summary, meeting_id))
+            matched += 1
+            claimed.add(str(eid))
+            del needed[key]
+            n_agenda = len(agenda) if agenda else 0
+            print(f"  Matched: {committee} ({date}) → event {eid} [{'VIDEO' if has_video else 'no video'}, {n_agenda} agenda items]")
+
+        if not needed:
+            break
+
+    db.commit()
+    db.close()
+    if matched:
+        print(f"  {matched} orphan meetings linked to ChampDS events")
+    return matched
+
+
+# ── Minutes Extraction from Agenda Approvals ──────────────────────
+
+def ocr_pdf(pdf_path):
+    """OCR a scanned PDF using pymupdf to render pages + tesseract for text.
+
+    Returns extracted text or empty string on failure.
+    """
+    try:
+        import fitz
+        import tempfile
+
+        doc = fitz.open(pdf_path)
+        all_text = []
+
+        for page_num in range(len(doc)):
+            page = doc[page_num]
+            # Render page at 300 DPI for good OCR quality
+            mat = fitz.Matrix(300 / 72, 300 / 72)
+            pix = page.get_pixmap(matrix=mat)
+
+            # Save as temporary PNG
+            with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as img_tmp:
+                pix.save(img_tmp.name)
+                img_path = img_tmp.name
+
+            # Run tesseract
+            result = subprocess.run(
+                ["tesseract", img_path, "stdout", "-l", "eng", "--psm", "6"],
+                capture_output=True, text=True, timeout=60
+            )
+            if result.stdout.strip():
+                all_text.append(result.stdout.strip())
+
+            os.unlink(img_path)
+
+        num_pages = len(doc)
+        doc.close()
+        text = "\n\n".join(all_text)
+        if text:
+            print(f"    OCR extracted {len(text.split())} words from {num_pages} pages")
+        return text
+
+    except Exception as e:
+        print(f"    OCR failed: {e}")
+        return ""
+
+
+def extract_minutes_from_agendas():
+    """Scan agendas for 'Approval of Minutes' items, download PDFs, and link to past meetings.
+
+    When a committee approves minutes from a previous meeting, the draft minutes PDF
+    is typically attached. This function:
+    1. Finds agenda items referencing minutes approval
+    2. Downloads the attached PDF
+    3. Extracts text with pdftotext
+    4. Matches to the referenced past meeting by committee + date
+    5. Updates that meeting's has_minutes and minutes_text
+    """
+    import re
+    import tempfile
+
+    db = get_db()
+    # Get all meetings with agendas (look back 90 days for recent approvals)
+    meetings = db.execute("""
+        SELECT id, committee, date, event_id, agenda_json, board_name FROM meetings
+        WHERE agenda_json IS NOT NULL
+        AND date >= date('now', '-90 days')
+        ORDER BY date DESC
+    """).fetchall()
+
+    updated = 0
+    for meeting in meetings:
+        agenda = json.loads(meeting["agenda_json"])
+        board_name = meeting["board_name"] or ""
+        committee = meeting["committee"]
+
+        # Find minutes approval items recursively
+        minutes_refs = []
+        def find_minutes_items(items):
+            for item in items:
+                title = item.get("title", "")
+                tl = title.lower()
+                # Match various patterns: "Approval of Minutes", "APPROVAL OF MINUTES",
+                # children like "Minutes of March 17, 2026" or "May 6th Regular Meeting"
+                if "minute" in tl:
+                    children = item.get("children", [])
+                    if children:
+                        for child in children:
+                            if not isinstance(child, dict):
+                                continue
+                            atts = child.get("attachments", [])
+                            if atts:
+                                minutes_refs.append({
+                                    "title": child.get("title", ""),
+                                    "attachments": atts,
+                                    "parent_committee": committee,
+                                })
+                    else:
+                        atts = item.get("attachments", [])
+                        if atts and "approval" not in tl.replace("approval of minutes", ""):
+                            minutes_refs.append({
+                                "title": title,
+                                "attachments": atts,
+                                "parent_committee": committee,
+                            })
+                children = item.get("children", [])
+                if isinstance(children, list):
+                    find_minutes_items([c for c in children if isinstance(c, dict)])
+        find_minutes_items([item for item in agenda if isinstance(item, dict)])
+
+        for ref in minutes_refs:
+            # Parse the date from the title
+            ref_title = ref["title"]
+            ref_date = parse_minutes_date(ref_title, meeting["date"])
+            if not ref_date:
+                print(f"  Could not parse date from: {ref_title}")
+                continue
+
+            # Determine which committee these minutes belong to
+            # Usually same committee as the meeting approving them
+            ref_committee = ref["parent_committee"]
+
+            # Check if the referenced meeting already has minutes
+            target = db.execute("""
+                SELECT id, has_minutes, committee FROM meetings
+                WHERE committee = ? AND date = ?
+            """, (ref_committee, ref_date)).fetchone()
+
+            if not target:
+                # Try fuzzy match — strip "(WAC)", "Meeting", etc. and match first two words
+                base_name = ref_committee.split("(")[0].replace("Meeting", "").strip()
+                words = base_name.split()
+                if len(words) >= 2:
+                    pattern = f"%{words[0]}%{words[1]}%"
+                else:
+                    pattern = f"%{words[0]}%"
+                target = db.execute("""
+                    SELECT id, has_minutes, committee FROM meetings
+                    WHERE date = ? AND committee LIKE ?
+                """, (ref_date, pattern)).fetchone()
+
+            if not target:
+                # Try nearby dates (±3 days) for date mismatches in titles
+                target = db.execute("""
+                    SELECT id, has_minutes, committee FROM meetings
+                    WHERE committee = ? AND date BETWEEN date(?, '-3 days') AND date(?, '+3 days')
+                    AND has_minutes = 0
+                    ORDER BY ABS(julianday(date) - julianday(?))
+                    LIMIT 1
+                """, (ref_committee, ref_date, ref_date, ref_date)).fetchone()
+
+            if not target:
+                print(f"  No matching meeting for {ref_committee} on {ref_date} (from: {ref_title})")
+                continue
+
+            if target["has_minutes"]:
+                continue  # Already has minutes
+
+            # Download the PDF and extract text
+            for att in ref["attachments"]:
+                url = att.get("url", "")
+                name = att.get("name", "")
+                if not url or not name.lower().endswith(".pdf"):
+                    continue
+                if "draft" not in name.lower() and "minute" not in name.lower():
+                    continue  # Skip non-minutes attachments
+
+                try:
+                    print(f"  Downloading minutes: {name}")
+                    req = urllib.request.Request(url, headers={
+                        "User-Agent": "Mozilla/5.0",
+                        "Referer": "https://play.champds.com/"
+                    })
+                    resp = urllib.request.urlopen(req, timeout=30)
+                    pdf_data = resp.read()
+
+                    # Save to temp file and extract text
+                    with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
+                        tmp.write(pdf_data)
+                        tmp_path = tmp.name
+
+                    # Try pdftotext first (better layout preservation)
+                    result = subprocess.run(
+                        ["pdftotext", "-layout", tmp_path, "-"],
+                        capture_output=True, text=True, timeout=30
+                    )
+                    minutes_text = result.stdout.strip()
+
+                    # Fallback to pymupdf text extraction
+                    if not minutes_text or len(minutes_text) < 50:
+                        try:
+                            import fitz
+                            doc = fitz.open(tmp_path)
+                            minutes_text = "\n".join(page.get_text() for page in doc)
+                            doc.close()
+                        except Exception:
+                            pass
+
+                    # Fallback to OCR for scanned PDFs
+                    if not minutes_text or len(minutes_text) < 50:
+                        print(f"    Text extraction failed, trying OCR...")
+                        minutes_text = ocr_pdf(tmp_path)
+
+                    os.unlink(tmp_path)
+
+                    if not minutes_text or len(minutes_text) < 50:
+                        print(f"    WARNING: Could not extract text from {name} (even with OCR)")
+                        continue
+
+                    # Update the target meeting
+                    db.execute("""
+                        UPDATE meetings SET has_minutes = 1, minutes_text = ?
+                        WHERE id = ?
+                    """, (minutes_text, target["id"]))
+                    db.commit()
+                    updated += 1
+                    word_count = len(minutes_text.split())
+                    print(f"    Updated meeting {target['id']} ({ref_committee} {ref_date}): {word_count} words")
+                    break  # Only need one PDF per minutes reference
+
+                except Exception as e:
+                    print(f"    ERROR downloading {name}: {e}")
+                    continue
+
+    db.close()
+    print(f"  {updated} meetings updated with minutes text from agenda PDFs")
     return updated
+
+
+def parse_minutes_date(title, approving_meeting_date):
+    """Parse a date from a minutes approval title like 'Minutes of March 17, 2026'
+    or 'May 6th Regular Meeting' or 'April 14, 2026'."""
+    import re
+    from datetime import datetime
+
+    title_clean = title.strip()
+
+    # Extract year from the approving meeting as fallback
+    approving_year = approving_meeting_date[:4] if approving_meeting_date else "2026"
+
+    # Month names
+    months = {
+        "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+        "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12
+    }
+
+    # Pattern: "Month DD, YYYY" or "Month DDth, YYYY" or "Month DD YYYY"
+    m = re.search(r'(\w+)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s*(\d{4})?', title_clean, re.IGNORECASE)
+    if m:
+        month_name = m.group(1).lower()
+        day = int(m.group(2))
+        year = int(m.group(3)) if m.group(3) else int(approving_year)
+
+        if month_name in months:
+            month = months[month_name]
+            # If referenced month is after the approving meeting month, it's probably previous year
+            approving_month = int(approving_meeting_date[5:7]) if approving_meeting_date else 12
+            if month > approving_month and not m.group(3):
+                year = int(approving_year) - 1
+            try:
+                return datetime(year, month, day).strftime("%Y-%m-%d")
+            except ValueError:
+                pass
+
+    # Pattern: "MM/DD/YYYY" or "MM.DD.YYYY"
+    m = re.search(r'(\d{1,2})[/.](\d{1,2})[/.](\d{2,4})', title_clean)
+    if m:
+        month, day, year = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        if year < 100:
+            year += 2000
+        try:
+            return datetime(year, month, day).strftime("%Y-%m-%d")
+        except ValueError:
+            pass
+
+    return None
 
 
 # ── Video Download ─────────────────────────────────────────────────
@@ -634,16 +1128,24 @@ def process_new():
     print(f"{'='*60}")
 
     # Step 1: Discover new meetings
-    print("\n[1/8] Discovering new meetings from ChampDS...")
+    print("\n[1/9] Discovering new meetings from ChampDS...")
     new_ids = discover_new_meetings()
     print(f"  → {len(new_ids)} new meetings registered")
 
-    # Step 2: Re-check pending meetings for newly available video
-    print("\n[2/8] Re-checking pending meetings for video...")
+    # Step 2: Match orphan meetings (from calendar feed) to ChampDS events
+    print("\n[2/9] Matching orphan meetings to ChampDS events...")
+    match_orphan_meetings()
+
+    # Step 3: Re-check recent meetings for video + agenda updates
+    print("\n[3/10] Re-checking recent meetings for video and agenda updates...")
     recheck_pending()
 
-    # Step 3: Download videos
-    print("\n[3/8] Downloading missing videos...")
+    # Step 4: Extract minutes from agenda approval PDFs
+    print("\n[4/10] Extracting minutes from agenda approval PDFs...")
+    extract_minutes_from_agendas()
+
+    # Step 5: Download videos
+    print("\n[5/10] Downloading missing videos...")
     db = get_db()
     to_download = db.execute("""
         SELECT event_id, media_path FROM meetings
@@ -662,8 +1164,8 @@ def process_new():
                 downloaded += 1
     print(f"  → {downloaded} videos downloaded")
 
-    # Step 4: Transcribe
-    print("\n[4/8] Transcribing new videos...")
+    # Step 6: Transcribe
+    print("\n[6/10] Transcribing new videos...")
     db = get_db()
     to_transcribe = db.execute("""
         SELECT event_id FROM meetings
@@ -682,8 +1184,8 @@ def process_new():
                 transcribed += 1
     print(f"  → {transcribed} videos transcribed")
 
-    # Step 5: Enrich
-    print("\n[5/8] Enriching transcripts...")
+    # Step 7: Enrich
+    print("\n[7/10] Enriching transcripts...")
     db = get_db()
     # Find meetings with transcripts that haven't been enriched
     # Enrichment modifies the transcript JSON in-place, adding "enriched": true
@@ -705,8 +1207,8 @@ def process_new():
                 enriched += 1
     print(f"  → {enriched} transcripts enriched")
 
-    # Step 6: Ingest
-    print("\n[6/8] Ingesting into RAG database...")
+    # Step 8: Ingest
+    print("\n[8/10] Ingesting into RAG database...")
     db = get_db()
     to_ingest = db.execute("""
         SELECT event_id FROM meetings
@@ -728,35 +1230,24 @@ def process_new():
                 ingested += 1
     print(f"  → {ingested} transcripts ingested")
 
-    # Step 7: Write articles
-    print("\n[7/8] Generating articles for meetings without coverage...")
-    db = get_db()
-    to_write = db.execute("""
-        SELECT id, event_id, committee, date FROM meetings
-        WHERE has_transcript = 1
-        AND (article IS NULL OR article = '')
-        AND event_id IS NOT NULL
-    """).fetchall()
-    db.close()
+    # Step 9: Write articles + fact-check (MUST go through write_and_check.py)
+    # NEVER use write_article.py directly — it bypasses the editor/fact-checker.
+    # write_and_check.py: writer drafts → editor verifies every name, quote, vote → publish
+    print("\n[9/10] Writing and fact-checking articles...")
+    wac_script = os.path.join(BASE_DIR, "write_and_check.py")
+    if os.path.exists(wac_script):
+        result = subprocess.run(
+            [sys.executable, wac_script],
+            capture_output=True, text=True, timeout=1800  # 30 min for multiple articles
+        )
+        print(result.stdout[-500:] if result.stdout else "  No output")
+        if result.returncode != 0:
+            print(f"  WARNING: write_and_check failed: {result.stderr[:300]}")
+    else:
+        print("  ERROR: write_and_check.py not found — articles will NOT be written")
 
-    written = 0
-    write_script = os.path.join(BASE_DIR, "write_article.py")
-    if os.path.exists(write_script):
-        for row in to_write:
-            eid = row["event_id"]
-            print(f"  Writing article for {row['committee']} ({row['date']})...")
-            result = subprocess.run(
-                [sys.executable, write_script, eid],
-                capture_output=True, text=True, timeout=300
-            )
-            if result.returncode == 0:
-                written += 1
-            else:
-                print(f"    WARNING: Article generation failed: {result.stderr[:200]}")
-    print(f"  → {written} articles generated")
-
-    # Step 8: Insert photos into articles
-    print("\n[8/8] Inserting photos into articles...")
+    # Step 10: Insert photos into articles
+    print("\n[10/10] Inserting photos into articles...")
     photo_script = os.path.join(BASE_DIR, "insert_photos.py")
     photos_inserted = 0
     if os.path.exists(photo_script):
@@ -857,7 +1348,7 @@ if __name__ == "__main__":
         db = get_db()
         rows = db.execute("""
             SELECT event_id FROM meetings
-            WHERE has_video = 1 AND event_id IS NOT NULL
+            WHERE has_video = 1 AND event_id IS NOT NULL AND event_id NOT LIKE 'yt-%'
         """).fetchall()
         db.close()
         for row in rows:
@@ -908,6 +1399,18 @@ if __name__ == "__main__":
 
     elif cmd == "status":
         show_status()
+
+    elif cmd == "refresh-agendas":
+        print("Refreshing agendas for recent meetings...")
+        recheck_pending()
+
+    elif cmd == "extract-minutes":
+        print("Extracting minutes from agenda approval PDFs...")
+        extract_minutes_from_agendas()
+
+    elif cmd == "match-orphans":
+        print("Matching orphan meetings to ChampDS events...")
+        match_orphan_meetings()
 
     else:
         print(f"Unknown command: {cmd}")

@@ -1,5 +1,36 @@
 {% extends "base.html" %}
-{% block title %}Photo Library{% endblock %}
+{% block title %}Photo Library
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Photo Library — croton.news",
+  "description": "Browse openly licensed photos of Croton-on-Hudson — searchable by category, sortable by quality, with full attribution and licensing info.",
+  "url": "https://croton.news/gallery",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "croton.news",
+    "url": "https://croton.news"
+  },
+  "mainEntity": {
+    "@type": "ImageGallery",
+    "name": "Croton-on-Hudson Photo Library",
+    "numberOfItems": {{ total_photos }}
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://croton.news/"},
+    {"@type": "ListItem", "position": 2, "name": "Photo Library", "item": "https://croton.news/gallery"}
+  ]
+}
+</script>
+{% endblock %}
+{% block meta_desc %}Browse openly licensed photos of Croton-on-Hudson — searchable by category, sortable by quality, with full attribution and licensing info.{% endblock %}
 
 {% block head %}
 <style>
@@ -197,7 +228,7 @@
 
 {% block content %}
 
-<div class="section-rule"><span class="section-label">Photo Library</span></div>
+<h1 class="section-rule" style="margin:0"><span class="section-label">Photo Library</span></h1>
 <p style="font-family:var(--serif-body);font-size:15px;color:var(--ink-secondary);margin-bottom:24px;line-height:1.7">
   Creative Commons licensed photos of Croton-on-Hudson. Click to preview, tag to organize, delete to remove.
   All images sourced from Openverse (Flickr, Wikimedia, etc.) under open licenses.
@@ -336,7 +367,7 @@ function showLightboxPhoto() {
     (p.creator ? 'by ' + p.creator + ' &middot; ' : '') +
     p.license + ' ' + p.license_version +
     (p.width ? ' &middot; ' + p.width + '&times;' + p.height : '') +
-    ' &middot; <a href="' + p.foreign_landing_url + '" target="_blank">view source</a>';
+    ' &middot; <a href="' + p.foreign_landing_url + '" target="_blank" rel="noopener noreferrer">view source</a>';
 }
 
 document.addEventListener('keydown', e => {

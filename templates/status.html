@@ -1,6 +1,33 @@
 {% extends "base.html" %}
 {% block title %}Pipeline Status{% endblock %}
 
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pipeline Status — croton.news",
+  "description": "System health dashboard for the croton.news data pipeline",
+  "url": "https://croton.news/status",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "croton.news",
+    "url": "https://croton.news"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://croton.news/"},
+    {"@type": "ListItem", "position": 2, "name": "Pipeline Status", "item": "https://croton.news/status"}
+  ]
+}
+</script>
+{% endblock %}
+
 {% block content %}
 <style>
 .status-page { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
@@ -205,6 +232,72 @@
     </details>
     {% else %}
     <div style="margin-top:0.8rem;font-size:0.85rem;color:var(--ink-secondary);">All meetings with minutes have articles.</div>
+    {% endif %}
+  </div>
+
+
+  <!-- Article Quality Pipeline -->
+  <div class="status-section">
+    <h2>Article Quality Pipeline</h2>
+    {% if article_quality %}
+    <div class="status-grid">
+      <div class="status-card">
+        <div class="status-value">{{ article_quality.canonical_names }}</div>
+        <div class="status-label">Canonical Names</div>
+      </div>
+      <div class="status-card">
+        <div class="status-value">{{ article_quality.with_quotes }}</div>
+        <div class="status-label">With Quote Links</div>
+      </div>
+      <div class="status-card">
+        <div class="status-value">{{ article_quality.with_photos }}</div>
+        <div class="status-label">With Photos</div>
+      </div>
+      <div class="status-card">
+        <div class="status-value">{{ article_quality.with_footnotes }}</div>
+        <div class="status-label">With Footnotes</div>
+      </div>
+      <div class="status-card">
+        <div class="status-value">{{ article_quality.pending_upgrades }}</div>
+        <div class="status-label">Pending Upgrades</div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:18px">Pipeline Steps</h3>
+    <table class="status-table">
+      <tr><th>Step</th><th>Description</th><th>Status</th></tr>
+      <tr><td>1. Canonical Names</td><td>{{ article_quality.canonical_names }} confirmed spellings from BoardDocs + minutes</td><td><span class="status-ok">Active</span></td></tr>
+      <tr><td>2. Full Transcript</td><td>No truncation — complete transcript sent to LLM</td><td><span class="status-ok">Active</span></td></tr>
+      <tr><td>3. Article Generation</td><td>1200-1800 words target, quote timestamps, structured format</td><td><span class="status-ok">Active</span></td></tr>
+      <tr><td>4. Name Verification</td><td>Fuzzy match all names against canonical DB, auto-correct</td><td><span class="status-ok">Active</span></td></tr>
+      <tr><td>5. Editor Review</td><td>Second LLM pass: facts, hyperbole, quote accuracy vs transcript</td><td><span class="status-ok">Active</span></td></tr>
+      <tr><td>6. Photo Insertion</td><td>Video frame captures at key moments, upscaled</td><td><span class="status-ok">Active</span></td></tr>
+      <tr><td>7. Preview Upgrade</td><td>Packet/agenda previews auto-replaced when transcript arrives</td><td><span class="status-ok">Active</span></td></tr>
+    </table>
+
+    <h3 style="margin-top:18px">Articles by Model</h3>
+    <table class="status-table">
+      <tr><th>Model</th><th>Count</th></tr>
+      {% for m in article_quality.model_counts %}
+      <tr><td>{{ m.article_model or '(none)' }}</td><td>{{ m.c }}</td></tr>
+      {% endfor %}
+    </table>
+
+    <h3 style="margin-top:18px">Recent Articles</h3>
+    <table class="status-table">
+      <tr><th>Date</th><th>Committee</th><th>Chars</th><th>Quotes</th><th>Photos</th><th>Footnotes</th><th>Model</th></tr>
+      {% for a in article_quality.recent %}
+      <tr>
+        <td><a href="/meeting/{{ a.id }}">{{ a.date }}</a></td>
+        <td>{{ a.committee }}</td>
+        <td>{{ a.chars }}</td>
+        <td>{% if a.has_quotes %}<span class="status-ok">Yes</span>{% else %}<span class="status-warn">No</span>{% endif %}</td>
+        <td>{% if a.has_photos %}<span class="status-ok">Yes</span>{% else %}<span class="status-warn">No</span>{% endif %}</td>
+        <td>{% if a.has_footnotes %}<span class="status-ok">Yes</span>{% else %}<span class="status-warn">No</span>{% endif %}</td>
+        <td>{{ a.article_model or '-' }}</td>
+      </tr>
+      {% endfor %}
+    </table>
     {% endif %}
   </div>
 

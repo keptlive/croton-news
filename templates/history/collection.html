@@ -21,7 +21,7 @@
       <td><a href="/history/source/{{ s.source_file }}" style="color:var(--ink)">{{ s.source or s.source_file }}</a></td>
       <td class="r">{{ s.chunks }}</td>
       <td class="r">{{ "{:,}".format(s.words) }}</td>
-      <td>{% if s.source in source_urls %}<a href="{{ source_urls[s.source] }}" target="_blank" style="font-size:12px;">Original &rarr;</a>{% endif %}</td>
+      <td>{% if s.source in source_urls %}<a href="{{ source_urls[s.source] }}" target="_blank" rel="noopener noreferrer" style="font-size:12px;">Original &rarr;</a>{% endif %}</td>
     </tr>
     {% endfor %}
   </tbody>

@@ -3,6 +3,45 @@
 {% block title %}{{ doc.committee }} Minutes — {{ doc.date }}{% endblock %}
 {% block meta_desc %}{{ doc.committee }} meeting minutes from {{ doc.date }} in Croton-on-Hudson, NY. AI summary and full text.{% endblock %}
 
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DigitalDocument",
+  "name": "{{ doc.committee }} Minutes — {{ doc.date }}",
+  "description": "{{ doc.committee }} meeting minutes from {{ doc.date }} in Croton-on-Hudson, NY. AI summary and full text.",
+  "url": "https://croton.news/document/{{ doc.doc_id }}",
+  "datePublished": "{{ doc.date }}",
+  "publisher": {
+    "@type": "GovernmentOrganization",
+    "name": "{{ doc.committee }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Croton-on-Hudson",
+      "addressRegion": "NY",
+      "postalCode": "10520"
+    }
+  },
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "croton.news",
+    "url": "https://croton.news"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://croton.news/"},
+    {"@type": "ListItem", "position": 2, "name": "Documents", "item": "https://croton.news/documents"},
+    {"@type": "ListItem", "position": 3, "name": "{{ doc.committee }} — {{ doc.date }}", "item": "https://croton.news/document/{{ doc.doc_id }}"}
+  ]
+}
+</script>
+{% endblock %}
+
 {% block content %}
 <div style="margin-bottom: 1.5rem;">
     <a href="/documents" style="font-size: 0.85rem; color: var(--primary-light); text-decoration: none;">&larr; Back to Documents</a>
@@ -15,7 +54,7 @@
         <span style="font-size: 0.9rem; color: var(--text-muted);">{{ doc.date or 'Unknown date' }}</span>
         {% if doc.type %}<span style="font-size: 0.8rem; color: var(--text-muted); text-transform: capitalize;">{{ doc.type }}</span>{% endif %}
     </div>
-    <h2 style="margin: 0 0 0.75rem 0; font-size: 1.3rem;">{{ doc.committee }} Minutes — {{ doc.date }}</h2>
+    <h1 style="margin: 0 0 0.75rem 0; font-size: 1.3rem;">{{ doc.committee }} Minutes — {{ doc.date }}</h1>
     <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
         <a href="{{ source_url }}" target="_blank" rel="noopener"
            style="display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.9rem; padding: 0.5rem 1rem; background: var(--primary-light); color: #fff; border-radius: var(--radius); text-decoration: none; font-weight: 600;">

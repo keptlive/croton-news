@@ -19,7 +19,7 @@
         <tr style="background:var(--bg-warm);">
           <td colspan="4" style="font-weight:700;padding-top:14px;border-bottom:2px solid var(--border);">
             {{ s.source or 'Other' }}
-            {% if s.source in source_urls %}<a href="{{ source_urls[s.source] }}" target="_blank" style="font-size:12px;font-weight:400;margin-left:8px;">Original &rarr;</a>{% endif %}
+            {% if s.source in source_urls %}<a href="{{ source_urls[s.source] }}" target="_blank" rel="noopener noreferrer" style="font-size:12px;font-weight:400;margin-left:8px;">Original &rarr;</a>{% endif %}
           </td>
         </tr>
       {% endif %}

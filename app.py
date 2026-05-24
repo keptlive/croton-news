@@ -17,6 +17,7 @@ from datetime import datetime
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from werkzeug.middleware.proxy_fix import ProxyFix
 from flask import (
     Flask, Response, abort, g, jsonify, render_template, render_template_string, request,
     redirect, send_from_directory,
@@ -66,6 +67,7 @@ SLUG_TO_COMMITTEE = {v["slug"]: k for k, v in COMMITTEES.items()}
 COMMENTS_DB = os.path.join(BASE_DIR, "comments.db")
 
 app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)
+app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1)
 
 
 # Jinja filters
@@ -147,8 +149,68 @@ def md_bold_filter(text):
     """Convert **text** to <strong>text</strong>."""
     if not text:
         return text
-    return re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', text)
 
+
+@app.template_filter("strip_md")
+def strip_md_filter(text):
+    """Strip markdown formatting for use in meta descriptions."""
+    if not text:
+        return text
+    t = text
+    t = re.sub(r'\*\*([^*]+)\*\*', r'\1', t)
+    t = re.sub(r'(?<!\w)\*([^*\n]+)\*(?!\w)', r'\1', t)
+    t = re.sub(r'^#{1,6}\s+', '', t, flags=re.MULTILINE)
+    t = re.sub(r'^>\s?', '', t, flags=re.MULTILINE)
+    t = re.sub(r'^\*\s+', '', t, flags=re.MULTILINE)
+    t = re.sub(r'^-\s+', '', t, flags=re.MULTILINE)
+    t = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', t)
+    t = re.sub(r'\{\{[^}]+\}\}', '', t)
+    t = re.sub(r'^\*(?!\s)', '', t)  # lone leading asterisk (unclosed italic/bold)
+    t = re.sub(r'\s+', ' ', t).strip()
+    return t[:160]
+
+
+@app.template_filter("process_photos")
+def process_photos_filter(text):
+    """Convert {{photo:EVENT_ID:SECONDS:CAPTION}} shortcodes to <img> tags.
+
+    Also handles {{photo_static:FILENAME:CAPTION}} for non-video photos.
+    """
+    if not text or "{{photo" not in text:
+        return text
+
+    import re
+
+    def replace_photo(m):
+        event_id = m.group(1)
+        seconds = m.group(2)
+        caption = m.group(3) or ""
+        src = f"/photos/{event_id}_t{seconds}.jpg"
+        enhanced = f"/photos/{event_id}_t{seconds}_enhanced.jpg"
+        return (
+            f'<figure class="article-photo">'
+            f'<img src="{enhanced}" alt="{caption}" loading="lazy" '
+            f'onerror="this.src=\'{src}\'">'
+            f'<figcaption>{caption}</figcaption>'
+            f'</figure>'
+        )
+
+    def replace_static(m):
+        filename = m.group(1)
+        caption = m.group(2) or ""
+        return (
+            f'<figure class="article-photo">'
+            f'<img src="/photos/{filename}" alt="{caption}" loading="lazy">'
+            f'<figcaption>{caption}</figcaption>'
+            f'</figure>'
+        )
+
+    text = re.sub(r"\{\{photo:(\w+):(\d+):([^}]*)\}\}", replace_photo, text)
+    text = re.sub(r"\{\{photo_static:([^:}]+):([^}]*)\}\}", replace_static, text)
+    # Also clean up any documentation/template examples left in articles
+    text = re.sub(r"\{\{photo:EVENT:SECONDS:CAPTION\}\}", "", text)
+    text = re.sub(r"\{\{photo_static:FILENAME:CAPTION\}\}", "", text)
+    return text
 
 @app.template_filter("process_footnotes")
 def process_footnotes_filter(text):
@@ -1807,6 +1869,10 @@ def feeds(filename):
 
 INDEXNOW_KEY = "d0b7fffbe494bf18af45048af4bddaef"
 
+@app.route("/site.webmanifest")
+def webmanifest():
+    return send_from_directory("static", "site.webmanifest", mimetype="application/manifest+json")
+
 @app.route("/robots.txt")
 def robots():
     return Response(
@@ -1815,9 +1881,84 @@ def robots():
         "User-agent: Googlebot-News\n"
         "Allow: /\n\n"
         "Sitemap: https://croton.news/sitemap.xml\n"
-        "Sitemap: https://croton.news/news-sitemap.xml\n",
+        "Sitemap: https://croton.news/news-sitemap.xml\n\n"
+        "# LLM-friendly site description\n"
+        "# https://croton.news/llms.txt\n"
+        "\n"
+        "# See https://llmstxt.org/\n"
+        "llms.txt: https://croton.news/llms.txt\n",
         mimetype="text/plain",
     )
+
+@app.route("/llms.txt")
+def llms_txt():
+    db = get_rag_db()
+    article_count = db.execute(
+        "SELECT COUNT(*) FROM meetings WHERE article IS NOT NULL"
+    ).fetchone()[0]
+    meeting_count = db.execute("SELECT COUNT(*) FROM meetings").fetchone()[0]
+    committees = [r[0] for r in db.execute(
+        "SELECT DISTINCT committee FROM meetings ORDER BY committee"
+    ).fetchall()]
+    recent = db.execute(
+        "SELECT id, committee, date, headline FROM meetings "
+        "WHERE article IS NOT NULL AND headline IS NOT NULL "
+        "ORDER BY date DESC LIMIT 10"
+    ).fetchall()
+
+    lines = [
+        "# croton.news \u2014 Croton-on-Hudson, NY Local News",
+        "",
+        "## About",
+        "croton.news is an independent, AI-assisted civic information project",
+        "covering the Village of Croton-on-Hudson, New York. We publish news",
+        "articles and meeting coverage drawn from public records, official",
+        f"meeting transcripts, and government documents. {article_count} articles",
+        f"generated from {meeting_count} public meetings.",
+        "",
+        "## Pages",
+        "- Homepage: https://croton.news/",
+        "- Meetings: https://croton.news/meetings",
+        "- Editorials: https://croton.news/editorials",
+        "- Calendar: https://croton.news/calendar",
+        "- Topics: https://croton.news/topics",
+        "- Entities: https://croton.news/entities",
+        "- Documents: https://croton.news/documents",
+        "- Search: https://croton.news/search",
+        "- About: https://croton.news/about",
+        "",
+        "## Committees Covered",
+    ]
+    for c in committees:
+        if c != "Topics":
+            lines.append(f"- {c}")
+    lines.append("")
+    lines.append("## Recent Articles")
+    for r in recent:
+        title = r["headline"] or f"{r['committee']} \u2014 {r['date']}"
+        lines.append(f"- {title}: https://croton.news/article/{r['id']}")
+    lines.append("")
+    lines.append("## History Archive")
+    lines.append("- History Home: https://croton.news/history")
+    lines.append("- Timeline: https://croton.news/history/timeline")
+    lines.append("- Historical Maps: https://croton.news/history/maps")
+    lines.append("- Historical Documents: https://croton.news/history/documents")
+    lines.append("- Stories: https://croton.news/history/stories")
+    lines.append("- McDonald Interviews (232 transcripts): https://croton.news/history/mcdonald")
+    lines.append("")
+    lines.append("## APIs")
+    lines.append("- GET https://croton.news/api/articles?limit=20 \u2014 Recent articles (JSON)")
+    lines.append("- GET https://croton.news/api/articles?committee=board-of-trustees \u2014 Filter by committee")
+    lines.append("- GET https://croton.news/api/search?q=QUERY \u2014 Full-text search")
+    lines.append("- GET https://croton.news/feed \u2014 RSS feed")
+    lines.append("")
+    lines.append("## Data")
+    lines.append("- Sitemap: https://croton.news/sitemap.xml")
+    lines.append("- News Sitemap: https://croton.news/news-sitemap.xml")
+    lines.append("- Robots: https://croton.news/robots.txt")
+
+    return Response("\n".join(lines) + "\n", mimetype="text/plain")
+
 
 @app.route(f"/{INDEXNOW_KEY}.txt")
 def indexnow_key():
@@ -1917,13 +2058,53 @@ def sitemap():
     """).fetchall()
 
     # Topics and entities for full coverage
-    topics = rag.execute("SELECT slug FROM topic_threads WHERE status = 'active'").fetchall()
-    entities = rag.execute("SELECT slug FROM entities WHERE mention_count >= 3 ORDER BY mention_count DESC LIMIT 200").fetchall()
+    topics = rag.execute("SELECT slug, last_date FROM topic_threads WHERE status = 'active' ORDER BY last_date DESC").fetchall()
+    entities = rag.execute("SELECT slug, last_seen_date FROM entities WHERE mention_count >= 3 ORDER BY mention_count DESC LIMIT 200").fetchall()
+
+    # Build set of event_ids that have video files on disk
+    video_dir = os.path.join(os.path.dirname(BASE_DIR), "videos")
+    if not os.path.isdir(video_dir):
+        video_dir = os.path.join(BASE_DIR, "videos")
+    video_event_ids = set()
+    if os.path.isdir(video_dir):
+        for fname in os.listdir(video_dir):
+            if fname.endswith(".mp4"):
+                video_event_ids.add(fname[:-4])  # e.g. "1109"
+        boe_dir = os.path.join(video_dir, "boe")
+        if os.path.isdir(boe_dir):
+            for fname in os.listdir(boe_dir):
+                if fname.endswith(".mp4"):
+                    video_event_ids.add("yt-" + fname[:-4])  # e.g. "yt-abc123"
+
+    # History section — stories and McDonald interviews
+    history_stories = []
+    stories_dir = os.path.join(os.path.dirname(BASE_DIR), "rag", "history", "stories")
+    if not os.path.isdir(stories_dir):
+        stories_dir = os.path.join(BASE_DIR, "rag", "history", "stories")
+    if os.path.isdir(stories_dir):
+        for fname in sorted(os.listdir(stories_dir)):
+            if fname.endswith(".md") and not fname.endswith("_long.md"):
+                slug = fname.replace(".md", "")
+                history_stories.append(slug)
+
+    mcdonald_slugs = []
+    mcdonald_db_path = os.path.join(os.path.dirname(BASE_DIR), "rag", "history", "mcdonald.db")
+    if not os.path.exists(mcdonald_db_path):
+        mcdonald_db_path = os.path.join(BASE_DIR, "rag", "history", "mcdonald.db")
+    if os.path.exists(mcdonald_db_path):
+        try:
+            mdb = sqlite3.connect(mcdonald_db_path)
+            mdb.row_factory = sqlite3.Row
+            mcdonald_slugs = [r["slug"] for r in mdb.execute("SELECT slug FROM interviews ORDER BY slug").fetchall()]
+            mdb.close()
+        except Exception:
+            pass
 
     return Response(
         render_template("sitemap.xml",
             meetings=meetings, legacy=legacy, all_meetings=all_meetings,
-            topics=topics, entities=entities),
+            topics=topics, entities=entities, video_event_ids=video_event_ids,
+            history_stories=history_stories, mcdonald_slugs=mcdonald_slugs),
         mimetype="application/xml",
     )
 
@@ -2255,11 +2436,65 @@ def status_page():
         except Exception as e:
             dep_checks.append(dict(name=mod_name, purpose=purpose, status="error", version=str(e)[:50]))
 
+    # Article Quality Pipeline stats
+    article_quality = {}
+    # Count articles by model type
+    model_counts = rag.execute("""
+        SELECT article_model, COUNT(*) as c FROM meetings
+        WHERE article IS NOT NULL AND article != ''
+        GROUP BY article_model ORDER BY c DESC
+    """).fetchall()
+    article_quality["model_counts"] = [dict(r) for r in model_counts]
+
+    # Count articles with quote tags
+    article_quality["with_quotes"] = rag.execute(
+        "SELECT COUNT(*) FROM meetings WHERE article LIKE '%{{quote:%'"
+    ).fetchone()[0]
+
+    # Count articles with photo tags
+    article_quality["with_photos"] = rag.execute(
+        "SELECT COUNT(*) FROM meetings WHERE article LIKE '%{{photo:%'"
+    ).fetchone()[0]
+
+    # Count articles with footnotes
+    article_quality["with_footnotes"] = rag.execute(
+        "SELECT COUNT(*) FROM meetings WHERE article LIKE '%**Footnotes:**%'"
+    ).fetchone()[0]
+
+    # Preview articles still needing upgrade
+    article_quality["pending_upgrades"] = rag.execute("""
+        SELECT COUNT(*) FROM meetings
+        WHERE has_transcript = 1
+        AND (article_model LIKE '%packet%' OR article_model LIKE '%agenda%' OR article_model LIKE '%preview%')
+    """).fetchone()[0]
+
+    # Recent articles for spot check
+    recent_articles = rag.execute("""
+        SELECT id, date, committee, headline, article_model, length(article) as chars,
+               CASE WHEN article LIKE '%{{quote:%' THEN 1 ELSE 0 END as has_quotes,
+               CASE WHEN article LIKE '%{{photo:%' THEN 1 ELSE 0 END as has_photos,
+               CASE WHEN article LIKE '%**Footnotes:**%' THEN 1 ELSE 0 END as has_footnotes
+        FROM meetings
+        WHERE article IS NOT NULL AND article != ''
+        ORDER BY article_generated_at DESC LIMIT 10
+    """).fetchall()
+    article_quality["recent"] = [dict(r) for r in recent_articles]
+
+    # Canonical names count
+    try:
+        import sys as _sys
+        _sys.path.insert(0, os.path.join(os.path.dirname(__file__), "rag"))
+        from enrich_transcript import _load_canonical_names
+        all_names, _ = _load_canonical_names()
+        article_quality["canonical_names"] = len(all_names)
+    except Exception:
+        article_quality["canonical_names"] = 0
+
     return render_template("status.html",
         stats=stats, champds=champds, cron_jobs=cron_jobs, logs=logs,
         expected_meetings=expected_meetings, relay_actions=relay_actions,
         dep_checks=dep_checks, photo_pipeline=photo_pipeline,
-        minutes_pipeline=minutes_pipeline)
+        minutes_pipeline=minutes_pipeline, article_quality=article_quality)
 
 
 

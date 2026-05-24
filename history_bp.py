@@ -656,7 +656,7 @@ SUB_TIMELINE_META = {
 
 # ─── Routes ───────────────────────────────────────────────────────
 
-@history_bp.route("/")
+@history_bp.route("/", strict_slashes=False)
 def index():
     db = get_history_db()
 
@@ -1027,10 +1027,12 @@ def mcdonald_index():
 
 @history_bp.route("/mcdonald/<slug>")
 def mcdonald_interview_page(slug):
-    if not slug.startswith("mcdonald_"):
-        slug = f"mcdonald_{slug}"
     db = get_mcdonald_db()
+    # Try slug as-is first, then with mcdonald_ prefix
     iv = db.execute("SELECT * FROM interviews WHERE slug = ?", (slug,)).fetchone()
+    if not iv and not slug.startswith("mcdonald_"):
+        slug = f"mcdonald_{slug}"
+        iv = db.execute("SELECT * FROM interviews WHERE slug = ?", (slug,)).fetchone()
     if not iv:
         abort(404)
     pages = db.execute("""

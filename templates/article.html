@@ -1,10 +1,10 @@
 {% extends "base.html" %}
-{% block title %}{{ article.headline or article.quick_summary or article.short_summary }}{% endblock %}
-{% block meta_desc %}{{ article.quick_summary or article.short_summary or '' }}{% endblock %}
+{% block title %}{{ (article.headline or article.quick_summary or article.short_summary)|trim }}{% endblock %}
+{% block meta_desc %}{{ (article.quick_summary or article.short_summary or '')|trim }}{% endblock %}
 
-{% block head %}
-{% set og_title = article.headline or article.quick_summary or article.short_summary %}
-{% set og_desc = article.quick_summary or article.short_summary or '' %}
+{% block og_meta %}
+{% set og_title = (article.headline or article.quick_summary or article.short_summary)|trim %}
+{% set og_desc = (article.quick_summary or article.short_summary or '')|trim %}
 {% set og_url = 'https://croton.news/article/' ~ (article.id or article.doc_id) %}
 {% set eid = article.event_id or '' %}
 {% if eid %}
@@ -28,7 +28,17 @@
 <meta name="twitter:title" content="{{ og_title }}">
 <meta name="twitter:description" content="{{ og_desc }}">
 <meta name="twitter:image" content="{{ og_image }}">
-
+{% endblock %}
+{% block head %}
+{% set og_title = (article.headline or article.quick_summary or article.short_summary)|trim %}
+{% set og_desc = (article.quick_summary or article.short_summary or '')|trim %}
+{% set og_url = 'https://croton.news/article/' ~ (article.id or article.doc_id) %}
+{% set eid = article.event_id or '' %}
+{% if eid %}
+{% set og_image = 'https://croton.news/photos/' ~ eid ~ '_t60_og.jpg' %}
+{% else %}
+{% set og_image = 'https://croton.news/photos/placeholder_og.jpg' %}
+{% endif %}
 <!-- Schema.org NewsArticle -->
 <script type="application/ld+json">
 {
@@ -40,11 +50,51 @@
   ],
   "datePublished": "{{ article.date }}T19:00:00-05:00",
   "dateModified": "{{ article.article_generated_at[:19] if article.article_generated_at and article.article_generated_at|length >= 10 else article.date ~ 'T19:00:00' }}-05:00",
+  "description": {{ og_desc | default("", true) | tojson }},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ og_url }}"
+  },
+  "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "croton.news",
+    "url": "https://croton.news",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://croton.news/static/icon-192.png"
+    }
+  },
   "author": [{
     "@type": "Person",
     "name": "Matthew Broudy",
     "url": "https://croton.news/about"
   }]
+}
+</script>
+<!-- Schema.org BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://croton.news/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ article.committee }}",
+      "item": "https://croton.news/search?committee={{ article.committee | urlencode }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ og_title }}"
+    }
+  ]
 }
 </script>
 {% endblock %}
@@ -120,7 +170,7 @@
   {% set eid = article.event_id or '' %}
   {% if body %}
   <div class="article-body" id="article-body" data-eid="{{ eid }}">
-    {{ body|process_footnotes|safe }}
+    {{ body|process_photos|process_footnotes|safe }}
   </div>
   {% raw %}
   <script>
@@ -145,7 +195,7 @@
       }
       var links = '<span class="quote-links" style="display:inline-flex;gap:4px;margin-left:2px;vertical-align:super;font-size:11px;line-height:0">' +
         '<a href="/transcript/' + qEid + '#t=' + ts + '" style="text-decoration:none;opacity:0.5" title="Transcript at ' + mins + ':' + secs + '">&#128196;</a>' +
-        '<a href="' + videoHref + '" target="_blank" style="text-decoration:none;opacity:0.5" title="Watch at ' + mins + ':' + secs + '">&#9654;&#65039;</a>' +
+        '<a href="' + videoHref + '" target="_blank" rel="noopener noreferrer" style="text-decoration:none;opacity:0.5" title="Watch at ' + mins + ':' + secs + '">&#9654;&#65039;</a>' +
         '</span>';
       return links;
     }
@@ -250,7 +300,7 @@
         if (eid) {
           inner += '<div class="quote-sources" style="margin-top:8px;display:flex;gap:12px">' +
             '<a href="/transcript/' + eid + '" style="font-size:11px;color:var(--ink-muted);text-decoration:none">&#128196; View in transcript</a>' +
-            '<a href="/videos/' + eid + '.mp4" target="_blank" style="font-size:11px;color:var(--accent);text-decoration:none">&#9654; Watch meeting</a>' +
+            '<a href="/videos/' + eid + '.mp4" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:var(--accent);text-decoration:none">&#9654; Watch meeting</a>' +
             '</div>';
         }
         bq.innerHTML = inner;
@@ -346,7 +396,7 @@ document.addEventListener('click', function(e) {
   <div style="margin-top:4px;padding:16px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font-family:var(--sans);font-size:13px;color:var(--ink-muted)">
     <p>Coverage of the <strong>{{ article.committee }}</strong> meeting on {{ article.date }},
     Village of Croton-on-Hudson, NY.
-    {% if pdf_url %}<a href="{{ pdf_url }}" target="_blank">View original document &nearr;</a>{% endif %}
+    {% if pdf_url %}<a href="{{ pdf_url }}" target="_blank" rel="noopener noreferrer">View original document &nearr;</a>{% endif %}
     {% if eid %} &middot; <a href="/transcript/{{ eid }}">Read full transcript</a>{% endif %}
     </p>
     {% if article.article_model %}
@@ -394,13 +444,13 @@ document.addEventListener('click', function(e) {
         {% endif %}
         <div style="margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap">
           {% if r.minutes_url %}
-          <a href="{{ r.minutes_url }}" target="_blank" style="font-size:11px;font-weight:600;color:var(--ink-secondary);text-decoration:none;padding:3px 10px;border:1px solid var(--rule);border-radius:12px">Minutes &nearr;</a>
+          <a href="{{ r.minutes_url }}" target="_blank" rel="noopener noreferrer" style="font-size:11px;font-weight:600;color:var(--ink-secondary);text-decoration:none;padding:3px 10px;border:1px solid var(--rule);border-radius:12px">Minutes &nearr;</a>
           {% endif %}
           {% if r.has_transcript and r.event_id %}
           <a href="/transcript/{{ r.event_id }}" style="font-size:11px;font-weight:600;color:var(--accent);text-decoration:none;padding:3px 10px;border:1px solid var(--accent);border-radius:12px">Transcript</a>
           {% endif %}
           {% if r.has_video and r.event_id %}
-          <a href="/videos/{{ r.event_id }}.mp4" target="_blank" style="font-size:11px;font-weight:600;color:var(--accent);text-decoration:none;padding:3px 10px;border:1px solid var(--accent);border-radius:12px">&#9654; Video</a>
+          <a href="/videos/{{ r.event_id }}.mp4" target="_blank" rel="noopener noreferrer" style="font-size:11px;font-weight:600;color:var(--accent);text-decoration:none;padding:3px 10px;border:1px solid var(--accent);border-radius:12px">&#9654; Video</a>
           {% endif %}
           <a href="/article/{{ r.id }}" style="font-size:11px;font-weight:600;color:var(--ink-secondary);text-decoration:none;padding:3px 10px;border:1px solid var(--rule);border-radius:12px">Read &rarr;</a>
         </div>

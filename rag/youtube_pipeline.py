@@ -150,7 +150,7 @@ def list_channel_videos():
     """Get all videos from the channel with metadata."""
     print("Fetching video list from YouTube...")
     result = subprocess.run(
-        ["yt-dlp", "--flat-playlist",
+        ["yt-dlp", "--js-runtimes", "node", "--flat-playlist",
          "--print", "%(id)s|%(title)s|%(upload_date)s|%(duration_string)s",
          YOUTUBE_CHANNEL],
         capture_output=True, text=True, timeout=120
@@ -258,7 +258,7 @@ def download_captions(video_id):
 
     print(f"  Downloading captions for {video_id}...")
     result = subprocess.run(
-        ["yt-dlp", "--write-auto-sub", "--sub-lang", "en", "--sub-format", "srt",
+        ["yt-dlp", "--js-runtimes", "node", "--write-auto-sub", "--sub-lang", "en", "--sub-format", "srt",
          "--skip-download", "-o", out_path,
          f"https://www.youtube.com/watch?v={video_id}"],
         capture_output=True, text=True, timeout=60
@@ -287,7 +287,7 @@ def download_video(video_id, title=""):
     else:
         print(f"  Downloading video {video_id}...")
         result = subprocess.run(
-            ["yt-dlp", "-f", "bestvideo[height<=720]+bestaudio/best[height<=720]",
+            ["yt-dlp", "--js-runtimes", "node", "-f", "bestvideo[height<=720]+bestaudio/best[height<=720]",
              "--merge-output-format", "mp4",
              "-o", video_path,
              f"https://www.youtube.com/watch?v={video_id}"],
@@ -302,7 +302,7 @@ def download_video(video_id, title=""):
     else:
         print(f"  Extracting audio...")
         result = subprocess.run(
-            ["yt-dlp", "-x", "--audio-format", "mp3", "--audio-quality", "3",
+            ["yt-dlp", "--js-runtimes", "node", "-x", "--audio-format", "mp3", "--audio-quality", "3",
              "-o", audio_path,
              f"https://www.youtube.com/watch?v={video_id}"],
             capture_output=True, text=True, timeout=600
