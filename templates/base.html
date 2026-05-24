@@ -3,13 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#faf8f5">
 <title>{% block title %}croton.news{% endblock %} — Croton-on-Hudson, NY</title>
 <meta name="description" content="{% block meta_desc %}Local news, meeting coverage, and community events for Croton-on-Hudson, NY{% endblock %}">
 <link rel="alternate" type="application/rss+xml" title="croton.news RSS" href="/feed">
 <link rel="canonical" href="https://croton.news{{ request.path }}">
 <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
 <link rel="icon" type="image/x-icon" href="/static/favicon.svg">
-<link rel="apple-touch-icon" href="/static/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 <meta name="robots" content="max-image-preview:large">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -272,6 +274,9 @@ mark { background: var(--gold-highlight); padding: 0 3px; border-radius: 1px; }
 }
 .article-body p { margin-bottom: 1.3em; text-indent: 0; }
 .article-body p + p { text-indent: 1.5em; }
+.article-photo { margin: 20px 0; text-align: center; }
+.article-photo img { max-width: 100%; height: auto; border-radius: 6px; }
+.article-photo figcaption { font-size: 13px; color: var(--ink-faint); margin-top: 6px; font-style: italic; }
 .article-body p:first-child::first-letter {
   font-family: var(--serif-display);
   font-size: 3.2em; float: left;
@@ -762,6 +767,21 @@ button.share-btn { width: auto; border-radius: var(--radius); padding: 0 14px; }
   #wx-strip .wx-forecast { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
 }
 </style>
+{% block og_meta %}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ self.title() }} — Croton-on-Hudson, NY">
+<meta property="og:description" content="{{ self.meta_desc() }}">
+<meta property="og:url" content="https://croton.news{{ request.path }}">
+<meta property="og:site_name" content="croton.news">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://croton.news/static/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ self.title() }} — Croton-on-Hudson, NY">
+<meta name="twitter:description" content="{{ self.meta_desc() }}">
+<meta name="twitter:image" content="https://croton.news/static/og-image.png">
+{% endblock %}
 {% block head %}{% endblock %}
 </head>
 <body>
@@ -778,7 +798,7 @@ button.share-btn { width: auto; border-radius: var(--radius); padding: 0 14px; }
 </div>
 
 <header class="masthead">
-  <div class="masthead-title"><a href="/">croton.news</a></div>
+  {% block masthead_title %}<div class="masthead-title"><a href="/">croton.news</a></div>{% endblock %}
   <div class="masthead-sub">Croton-on-Hudson, New York</div>
   <div class="masthead-rule"></div>
 </header>

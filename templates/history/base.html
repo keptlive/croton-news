@@ -5,7 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}Historical Archive{% endblock %} — Croton-on-Hudson</title>
 <meta name="description" content="{% block meta_desc %}Searchable archive of 1.5 million words of primary source documents on Croton-on-Hudson history, from Kitchawank settlements to modern governance.{% endblock %}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% block twitter_title %}{% block og_title %}Historical Archive — Croton-on-Hudson{% endblock %}{% endblock %}">
+<meta name="twitter:description" content="{% block twitter_desc %}{% block og_desc %}Searchable archive of 1.5 million words of primary source documents on Croton-on-Hudson history{% endblock %}{% endblock %}">
+<meta name="twitter:image" content="{% block twitter_image %}https://croton.news/static/og-image.png{% endblock %}">
+<meta property="og:type" content="{% block og_type %}website{% endblock %}">
+<meta property="og:url" content="{% block og_url %}https://croton.news/history{% endblock %}">
+<meta property="og:site_name" content="croton.news">
+<meta property="og:locale" content="en_US">
+<link rel="canonical" href="https://croton.news{{ request.path }}">
+<meta property="og:image" content="{% block og_image %}https://croton.news/static/og-image.png{% endblock %}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -272,9 +285,9 @@ h2.sec { font: 700 13px/1 var(--sans); text-transform: uppercase; letter-spacing
     </div>
     <div class="ftr-col">
       <h4>Sources</h4>
-      <a href="https://archive.org" target="_blank">Internet Archive</a>
-      <a href="https://nysarchaeology.org" target="_blank">NYSAA</a>
-      <a href="https://loc.gov" target="_blank">Library of Congress</a>
+      <a href="https://archive.org" target="_blank" rel="noopener noreferrer">Internet Archive</a>
+      <a href="https://nysarchaeology.org" target="_blank" rel="noopener noreferrer">NYSAA</a>
+      <a href="https://loc.gov" target="_blank" rel="noopener noreferrer">Library of Congress</a>
       <a href="/">croton.news</a>
     </div>
   </div>

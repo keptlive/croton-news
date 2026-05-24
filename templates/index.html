@@ -2,13 +2,23 @@
 
 {% block meta_desc %}Local news and meeting coverage for Croton-on-Hudson, NY — AI-assisted civic journalism from public records{% endblock %}
 
-{% block head %}
+{% block og_meta %}
 <meta property="og:type" content="website">
 <meta property="og:title" content="croton.news — Croton-on-Hudson, NY">
 <meta property="og:description" content="Local news and meeting coverage for Croton-on-Hudson, NY">
 <meta property="og:url" content="https://croton.news/">
 <meta property="og:site_name" content="croton.news">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://croton.news/static/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="croton.news — Croton-on-Hudson, NY">
+<meta name="twitter:description" content="Local news and meeting coverage for Croton-on-Hudson, NY">
+<meta name="twitter:image" content="https://croton.news/static/og-image.png">
+{% endblock %}
+{% block masthead_title %}<h1 class="masthead-title" style="margin:0;padding:0"><a href="/">croton.news</a></h1>{% endblock %}
+{% block head %}
 
 <script type="application/ld+json">
 {
@@ -114,6 +124,40 @@
     {% endfor %}
   </div>
   {% endif %}
+  <script>
+  (function(){
+    var scroll = document.querySelector('.coming-up-scroll');
+    var dots = document.querySelectorAll('.coming-up-dot');
+    if (!scroll || dots.length < 2) return;
+
+    // Click dot → scroll to card
+    dots.forEach(function(dot, i){
+      dot.style.cursor = 'pointer';
+      dot.addEventListener('click', function(){
+        var cards = scroll.querySelectorAll('.coming-up-card');
+        if (cards[i]) cards[i].scrollIntoView({behavior:'smooth', inline:'start', block:'nearest'});
+      });
+    });
+
+    // Scroll → update active dot
+    var ticking = false;
+    scroll.addEventListener('scroll', function(){
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function(){
+        var cards = scroll.querySelectorAll('.coming-up-card');
+        var scrollLeft = scroll.scrollLeft;
+        var best = 0, bestDist = Infinity;
+        cards.forEach(function(card, i){
+          var dist = Math.abs(card.offsetLeft - scroll.offsetLeft - scrollLeft);
+          if (dist < bestDist) { bestDist = dist; best = i; }
+        });
+        dots.forEach(function(d, i){ d.classList.toggle('active', i === best); });
+        ticking = false;
+      });
+    });
+  })();
+  </script>
 </div>
 {% endif %}
 
@@ -186,7 +230,7 @@
     <h4>Fire Department</h4>
     {% for f in fire_articles %}
     <div style="padding:7px 0;border-bottom:1px dotted var(--rule)">
-      <a href="{{ f.url }}" target="_blank" style="font-size:13px;font-weight:500;color:var(--ink);display:block;line-height:1.35">{{ f.headline }}</a>
+      <a href="{{ f.url }}" target="_blank" rel="noopener noreferrer" style="font-size:13px;font-weight:500;color:var(--ink);display:block;line-height:1.35">{{ f.headline }}</a>
       <span style="font-size:11px;color:var(--ink-faint)">{{ f.date }}</span>
     </div>
     {% endfor %}
