@@ -83,6 +83,9 @@
   </div>
 
   <form method="POST" action="/tips" style="display:flex;flex-direction:column;gap:20px">
+    {# Honeypot — hidden from humans; bots that fill it get silently dropped #}
+    <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"
+           style="position:absolute;left:-9999px;height:0;width:0;opacity:0">
 
     <div>
       <label style="font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);display:block;margin-bottom:6px">

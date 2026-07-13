@@ -35,17 +35,17 @@ def publish(json_path, meeting_id, article_model):
     row = db.execute("SELECT event_id FROM meetings WHERE id = ?", (meeting_id,)).fetchone()
     if row and not row["event_id"]:
         import re
-        orphan_tags = re.findall(r{{quote:d+}}, article)
+        orphan_tags = re.findall(r"\{\{quote:\d+\}\}", article)
         if orphan_tags:
             print(f"WARNING: {len(orphan_tags)} {{{{quote}}}} tags but no event_id — stripping", file=sys.stderr)
-            article = re.sub(r{{quote:d+}}, , article)
+            article = re.sub(r"\{\{quote:\d+\}\}", "", article)
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 
     db.execute("""UPDATE meetings SET
         headline = ?,
-        quick_summary = CASE WHEN ? !=  THEN ? ELSE quick_summary END,
-        complete_summary = CASE WHEN ? !=  THEN ? ELSE complete_summary END,
+        quick_summary = CASE WHEN ? != '' THEN ? ELSE quick_summary END,
+        complete_summary = CASE WHEN ? != '' THEN ? ELSE complete_summary END,
         article = ?,
         article_model = ?,
         article_generated_at = ?

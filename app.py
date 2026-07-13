@@ -8,12 +8,14 @@ Serves:
   - Meeting index by committee
 """
 
+import hmac
 import json
 import os
 import sys
 import sqlite3
 import threading
 from datetime import datetime
+from functools import wraps
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -45,6 +47,44 @@ _rag_child = os.path.join(BASE_DIR, "rag")
 RAG_DIR = _rag_child if os.path.isdir(_rag_child) else _rag_sibling
 STATIC_DIR = os.path.join(BASE_DIR, "static")
 TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
+
+# Admin auth for mutating/admin routes (photos, comments, indexnow, /status, /review).
+# Token lives in .env (mode 600). If unset, admin routes are locked entirely.
+ADMIN_TOKEN = os.environ.get("ADMIN_TOKEN", "")
+
+
+def _is_admin():
+    if not ADMIN_TOKEN:
+        return False
+    supplied = (
+        request.headers.get("X-Admin-Token")
+        or request.args.get("token")
+        or request.cookies.get("admin_token")
+        or ""
+    )
+    return hmac.compare_digest(supplied, ADMIN_TOKEN)
+
+
+def require_admin(f):
+    """Gate a route behind ADMIN_TOKEN (header, ?token=, or cookie).
+
+    Browser flow: visit /status?token=... once — a session cookie is set so
+    subsequent visits work without the query param.
+    """
+    @wraps(f)
+    def wrapper(*args, **kwargs):
+        if not _is_admin():
+            abort(403)
+        from flask import make_response
+        resp = make_response(f(*args, **kwargs))
+        if request.args.get("token"):
+            resp.set_cookie(
+                "admin_token", ADMIN_TOKEN,
+                httponly=True, secure=True, samesite="Lax",
+                max_age=30 * 24 * 3600,
+            )
+        return resp
+    return wrapper
 
 COMMITTEES = {
     "Board Of Trustees": {"slug": "board-of-trustees", "icon": "🏛️", "color": "#1e40af"},
@@ -236,6 +276,64 @@ def process_photos_filter(text):
     # Also clean up any documentation/template examples left in articles
     text = re.sub(r"\{\{photo:EVENT:SECONDS:CAPTION\}\}", "", text)
     text = re.sub(r"\{\{photo_static:FILENAME:CAPTION\}\}", "", text)
+    return text
+
+
+@app.template_filter("process_quotes")
+def process_quotes_filter(text, event_id=""):
+    """Convert {{quote:...}} shortcodes to [source]/[M:SS] link spans.
+
+    Server-side mirror of the JS renderer in article.html (which stays as a
+    no-op fallback for anything this misses). Forms:
+      {{quote:SECONDS}}            — uses the article's event_id
+      {{quote:EVENT:SECONDS}}      — explicit ChampDS event ID (4+ digits)
+      {{quote:yt-VIDEO_ID:SECONDS}} — YouTube cross-meeting quotes
+    Without server-side rendering, crawlers/RSS/no-JS clients saw raw tags
+    (and Safari <16.4 choked on the JS entirely). See AUDIT-2026-07-13.md C4.
+    """
+    if not text or "{{quote" not in text:
+        return text
+
+    import re
+
+    # Collapse accidental consecutive duplicate tags ({{quote:743}}{{quote:743}})
+    text = re.sub(r"(\{\{quote:[^}]+\}\})(\s*\1)+", r"\1", text)
+
+    link_style = (
+        "text-decoration:none;color:var(--accent,#8b2500);opacity:0.65;"
+        "border-bottom:1px dotted currentColor"
+    )
+
+    def render(qeid, ts):
+        mins = ts // 60
+        secs = str(ts % 60).zfill(2)
+        if qeid.startswith("yt-"):
+            video_href = f"https://www.youtube.com/watch?v={qeid[3:]}&t={ts}s"
+        else:
+            video_href = f"/videos/{qeid}.mp4#t={ts}"
+        return (
+            '<span class="quote-links" style="display:inline-flex;gap:6px;'
+            'margin-left:4px;vertical-align:super;font-size:10px;line-height:1;'
+            'font-family:var(--sans,sans-serif)">'
+            f'<a href="/transcript/{qeid}#t={ts}" style="{link_style}" '
+            f'title="View in transcript at {mins}:{secs}">[source]</a>'
+            f'<a href="{video_href}" target="_blank" rel="noopener noreferrer" '
+            f'style="{link_style}" title="Watch video at {mins}:{secs}">[{mins}:{secs}]</a>'
+            "</span>"
+        )
+
+    text = re.sub(
+        r"\{\{quote:(yt-[\w-]+):(\d+)\}\}",
+        lambda m: render(m.group(1), int(m.group(2))), text)
+    text = re.sub(
+        r"\{\{quote:(\d{4,}):(\d+)\}\}",
+        lambda m: render(m.group(1), int(m.group(2))), text)
+    if event_id:
+        text = re.sub(
+            r"\{\{quote:(\d+)\}\}",
+            lambda m: render(str(event_id), int(m.group(1))), text)
+    else:
+        text = re.sub(r"\{\{quote:\d+\}\}", "", text)
     return text
 
 @app.template_filter("process_footnotes")
@@ -718,11 +816,13 @@ def documents_page():
       except Exception:
         rows = []
 
-        seen = set()
-        for row in rows:
-            if row["doc_id"] not in seen:
-                seen.add(row["doc_id"])
-                results.append(dict(row))
+      # NOTE: was indented under `except` — /documents search returned
+      # zero results for every query (audit H5, fixed 2026-07-13)
+      seen = set()
+      for row in rows:
+          if row["doc_id"] not in seen:
+              seen.add(row["doc_id"])
+              results.append(dict(row))
 
     # Committee list for browsing
     committees = db.execute("""
@@ -1365,12 +1465,30 @@ def tips_page():
             status TEXT DEFAULT 'new',
             notes TEXT
         )""")
-        topic = request.form.get("topic", "").strip()
-        message = request.form.get("message", "").strip()
-        name = request.form.get("name", "").strip()
-        email = request.form.get("email", "").strip()
-        phone = request.form.get("phone", "").strip()
+        # Honeypot — bots fill the hidden "website" field; pretend success
+        if request.form.get("website"):
+            db.close()
+            return render_template("tips.html", submitted=True)
+
+        # Rate limit: max 5 tips per IP per hour
+        ip = request.remote_addr or ""
+        db.execute("CREATE TABLE IF NOT EXISTS tip_ips (ip TEXT, created_at TEXT DEFAULT (datetime('now')))")
+        recent = db.execute(
+            "SELECT COUNT(*) FROM tip_ips WHERE ip = ? AND created_at > datetime('now', '-1 hour')",
+            (ip,)
+        ).fetchone()[0]
+        if recent >= 5:
+            db.close()
+            return render_template("tips.html", submitted=False,
+                error="Too many submissions. Please wait a bit and try again.")
+
+        topic = request.form.get("topic", "").strip()[:200]
+        message = request.form.get("message", "").strip()[:5000]
+        name = request.form.get("name", "").strip()[:80]
+        email = request.form.get("email", "").strip()[:120]
+        phone = request.form.get("phone", "").strip()[:40]
         if message and len(message) >= 10:
+            db.execute("INSERT INTO tip_ips (ip) VALUES (?)", (ip,))
             db.execute("INSERT INTO tips (topic, message, name, email, phone) VALUES (?,?,?,?,?)",
                        (topic, message, name or None, email or None, phone or None))
             db.commit()
@@ -1544,7 +1662,7 @@ def api_ask():
 @app.route("/api/search")
 def api_search():
     query = request.args.get("q", "").strip()
-    limit = min(int(request.args.get("limit", 20)), 50)
+    limit = min(request.args.get("limit", 20, type=int) or 20, 50)
     doc_type = request.args.get("type")
     committee = request.args.get("committee")
 
@@ -1809,8 +1927,8 @@ def api_openverse():
 @app.route("/api/articles")
 def api_articles():
     db = get_rag_db()
-    limit = min(int(request.args.get("limit", 20)), 100)
-    offset = int(request.args.get("offset", 0))
+    limit = min(request.args.get("limit", 20, type=int) or 20, 100)
+    offset = request.args.get("offset", 0, type=int) or 0
     committee = request.args.get("committee", "")
 
     if committee:
@@ -1880,6 +1998,7 @@ def api_health():
 
 
 @app.route("/api/indexnow", methods=["POST"])
+@require_admin
 def api_indexnow():
     """Submit all article URLs to IndexNow for Bing/Yandex indexing."""
     db = get_rag_db()
@@ -1997,6 +2116,7 @@ def gallery():
 
 
 @app.route("/api/photos/<int:photo_id>", methods=["DELETE"])
+@require_admin
 def api_delete_photo(photo_id):
     db = get_photos_db()
     photo = db.execute(
@@ -2015,6 +2135,7 @@ def api_delete_photo(photo_id):
 
 
 @app.route("/api/photos/<int:photo_id>/feature", methods=["POST"])
+@require_admin
 def api_feature_photo(photo_id):
     db = get_photos_db()
     data = request.get_json()
@@ -2025,6 +2146,7 @@ def api_feature_photo(photo_id):
 
 
 @app.route("/api/photos/<int:photo_id>/tags", methods=["POST"])
+@require_admin
 def api_toggle_tag(photo_id):
     db = get_photos_db()
     data = request.get_json()
@@ -2092,6 +2214,7 @@ def api_post_comment():
 
 
 @app.route("/api/comments/<int:comment_id>", methods=["DELETE"])
+@require_admin
 def api_delete_comment(comment_id):
     cdb = get_comments_db()
     cdb.execute("DELETE FROM comments WHERE id = ?", (comment_id,))
@@ -2453,6 +2576,7 @@ def sitemap():
 # -- Status Page -------------------------------------------------------
 
 @app.route("/status")
+@require_admin
 def status_page():
     import subprocess
     import urllib.request as _urllib_req
@@ -2840,6 +2964,7 @@ def status_page():
 
 @app.route("/review")
 @app.route("/review/<slug>")
+@require_admin
 def review_page(slug=None):
     """Editorial review page for draft articles before publication."""
     review_dir = os.path.join(os.path.dirname(__file__), "rag", "saved_articles")
