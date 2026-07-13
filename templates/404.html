@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Page Not Found{% endblock %}
+{% block meta_desc %}The page you requested could not be found on croton.news{% endblock %}
+{% block head %}
+<meta name="robots" content="noindex">
+{% endblock %}
+{% block content %}
+<div style="max-width:680px;text-align:center;padding:60px 20px">
+
+<div style="font-family:var(--serif-display);font-size:72px;font-weight:900;color:var(--accent);margin-bottom:12px">404</div>
+
+<h1 style="font-family:var(--serif-display);font-size:28px;color:var(--ink);margin:0 0 16px">Page Not Found</h1>
+
+<p style="font-family:var(--serif-body);font-size:16px;line-height:1.7;color:var(--ink-secondary);margin-bottom:32px">The page you're looking for doesn't exist or may have been moved. Try one of the links below to find what you need.</p>
+
+<div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-bottom:40px">
+  <a href="/" style="display:inline-block;padding:10px 24px;background:var(--accent);color:#fff;font-family:var(--sans);font-size:14px;font-weight:600;text-decoration:none;border-radius:6px">Latest News</a>
+  <a href="/meetings" style="display:inline-block;padding:10px 24px;background:var(--bg-warm);color:var(--ink);font-family:var(--sans);font-size:14px;font-weight:600;text-decoration:none;border-radius:6px;border:1px solid var(--border)">Meetings</a>
+  <a href="/search" style="display:inline-block;padding:10px 24px;background:var(--bg-warm);color:var(--ink);font-family:var(--sans);font-size:14px;font-weight:600;text-decoration:none;border-radius:6px;border:1px solid var(--border)">Search</a>
+  <a href="/topics" style="display:inline-block;padding:10px 24px;background:var(--bg-warm);color:var(--ink);font-family:var(--sans);font-size:14px;font-weight:600;text-decoration:none;border-radius:6px;border:1px solid var(--border)">Topics</a>
+</div>
+
+</div>
+{% endblock %}

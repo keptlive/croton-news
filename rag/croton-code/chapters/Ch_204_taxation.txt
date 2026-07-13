@@ -1,0 +1,1042 @@
+---
+title: "Chapter 204: Taxation"
+chapter: 204
+name: "Taxation"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 0
+---
+
+ARTICLE I                                                 ARTICLE V
+                             Utility Tax                                      Collection of Property Taxes
+
+     § 204-1.             Tax imposed.                            § 204-22.         Collection of taxes.
+     § 204-2.             Definitions.                            § 204-23.         Filing of copies.
+     § 204-3.             Records.
+     § 204-4.             Utilities to file returns.                                 ARTICLE VI
+     § 204-5.             Tax payable with return.                         Disabled Persons Tax Exemption
+     § 204-6.             Failure to submit acceptable
+                          return.                                 § 204-24.         Exemption granted.
+     § 204-7.             Service of notice.                      § 204-25.         Percent of exemption allowed.
+     § 204-8.             Penalties.                              § 204-26.         Application for exemption; late
+                                                                                    renewal.
+     § 204-9.             Refunds.
+     § 204-10.            Source of tax moneys.
+                                                                                   ARTICLE VII
+     § 204-11.            Action to enforce payment.
+                                                                          Cold War Veterans Tax Exemption
+     § 204-12.            Powers of Village Treasurer.
+     § 204-13.            Confidentiality of records and          § 204-27.         Purpose.
+                          returns; penalties for offenses.        § 204-28.         Exemption granted; limitations.
+     § 204-14.            Disposition of moneys collected.
+                                                                                  ARTICLE VIII
+                         ARTICLE II                               Tax Abatement for Rent-Controlled and Rent-
+                Senior Citizens Tax Exemption                     Regulated Property Occupied by Certain Senior
+                                                                       Citizens or Persons with Disabilities
+     § 204-15.            Exemption granted.
+     § 204-16.            Income eligibility.                     § 204-29.         Definitions.
+     § 204-17.            Application for exemption.              § 204-30.         Statutory provisions adopted;
+                                                                                    application of provisions.
+                        ARTICLE III                               § 204-31.         through § 204-40. (Reserved)
+             Business Investment Tax Exemption
+                                                                                   ARTICLE IX
+     § 204-18.            Reduction of statutory                  Volunteer Firefighters and Ambulance Workers
+                          exemption.                                                Exemption
+     § 204-19.            Existing exemptions not
+                          affected.                               § 204-41.         Exemption granted.
+                                                                  § 204-42.         Eligibility requirements.
+                        ARTICLE IV                                § 204-43.         Application for exemption.
+            Alternative Veterans Tax Exemption                    § 204-44.         Certification.
+                                                                  § 204-45.         No diminution of benefits.
+     § 204-20.            Purpose.
+                                                                  § 204-46.         Grant of lifetime exemption.
+     § 204-21.            Exemption granted; limitations.
+
+
+                                                 CROTON-ON-HUDSON CODE
+
+     § 204-47.            Unremarried spouse of enrolled    § 204-61.      Leasing of single-family home
+                          member killed in the line of                     prohibited; discontinuance of
+                          duty.                                            exemption.
+     § 204-48.            Unremarried spouse of             § 204-62.      Application for exemption.
+                          deceased enrolled member.         § 204-63.      Sunset.
+
+                        ARTICLE X                                           ARTICLE XIII
+          Exemption of Capital Improvements to              Exemption for Improvements to Property Made
+          Residential Property for the Creation of          Pursuant to the Americans with Disabilities Act
+                 Accessory Dwelling Units                                     of 1990
+
+     § 204-49.            Exemption granted.                § 204-64.      Exemption granted.
+     § 204-50.            Limitations.                      § 204-65.      Exemption schedule.
+     § 204-51.            Application for exemption.        § 204-66.      Limitations.
+                                                            § 204-67.      Application for exemption.
+                     ARTICLE XI
+     Exemption for Construction of Living Quarters                         ARTICLE XIV
+              for Parent or Grandparent                        Exemption for Physically Disabled Crime
+                                                                              Victims
+     § 204-52.            Exemption granted.
+     § 204-53.            Limitations.                      § 204-68.      Exemption granted.
+     § 204-54.            Application for exemption.        § 204-69.      Qualification; application for
+     § 204-55.            Penalties for false statements.                  exemption.
+
+                     ARTICLE XII                                           ARTICLE XV
+     Exemption for First-Time Homebuyers of Newly           Exemption for Improvements to Real Property
+                  Constructed Homes                          Meeting Certification Standards for Green
+                                                                             Buildings
+     § 204-56.            Exemption granted.
+     § 204-57.            Definitions.                      § 204-70.      Exemption granted.
+     § 204-58.            Application of exemption.         § 204-71.      Extent of exemption.
+     § 204-59.            Eligibility.                      § 204-72.      Maximum exemption amount.
+     § 204-60.            Maximum household income.         § 204-73.      Criteria for eligibility.
+                                                            § 204-74.      Application for exemption.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson as indicated in
+     article histories. Amendments noted where applicable.]
+
+
+                                                        ARTICLE I
+                                                         Utility Tax
+                                            [Adopted 3-6-1958 by L.L. No. 3-1958]
+
+     § 204-1. Tax imposed.
+
+     Pursuant to the authority granted by § 5-530 of the Village Law of the State of New York, a tax equal to 1%
+     of its gross income from and after the first day of January 1958, is hereby imposed upon every utility doing
+     business in the Village of Croton-on-Hudson which is subject to the supervision of the State Department of
+     Public Service, which has a gross income, for the 12 months ending December 31 of the year immediately
+     prior to the tax year, in excess of $500, except motor carriers or brokers subject to such supervision under
+     Article 7 of the Transportation Law, and a tax equal to 1% of its gross operating income from and after
+     the first day of January 1958, is hereby imposed upon every other utility doing business in the Village
+     of Croton-on-Hudson which has a gross operating income for the 12 months ending said December 31
+     in excess of $500, which taxes shall have application only within the territorial limits of the Village of
+     Croton-on-Hudson and shall be in addition to any and all other taxes and fees imposed by any other
+     provision of law. Such taxes shall not be imposed on any transaction originating or consummated outside
+     of the territorial limits of the Village of Croton-on-Hudson, notwithstanding that some act is necessarily
+     performed with respect to such transaction within such limits.
+
+     § 204-2. Definitions.
+
+     As used in this article, the following terms shall have the meanings indicated:
+     GROSS INCOME — Includes receipts received in or by reason of any sale, conditional or otherwise
+     (except sales hereinafter referred to with respect to which it is provided that profits from the sale shall be
+     included in gross income), made or service rendered for ultimate consumption or use by the purchaser in
+     the Village of Croton-on-Hudson, including cash, credits and property of any kind or nature (whether or
+     not such sale is made or such service is rendered for profit), without any deduction therefrom on account
+     of the cost of the property sold, the cost of the materials used, labor or services whatsoever; also profits
+     from the sale of securities; also profits from the sale of real property growing out of the ownership or use
+     of or interest in such property; also profit from the sale of personal property (other than property of a kind
+     which would properly be included in the inventory of the taxpayer if on hand at the close of the period
+     for which a return is made); also receipts from interest, dividends, and royalties, derived from sources
+     within the Village of Croton-on-Hudson other than such as are received from a corporation a majority of
+     whose voting stock is owned by the taxpaying utility, without any deduction therefrom for any expenses
+     whatsoever incurred in connection with the receipt thereof; and also profits from any transaction (except
+     sales for resale and rentals) within the Village of Croton-on-Hudson whatsoever; provided, however, that
+     the words "gross income" shall include, in the case of a utility engaged in selling telephone or telephone
+     service, only receipts from local exchange service wholly consummated within the Village of Croton-on-
+     Hudson, and in the case of a utility engaged in selling telegraphy or telegraph service, only receipts from
+     transactions wholly consummated within the Village of Croton-on-Hudson.
+     GROSS OPERATING INCOME — Includes receipts received in or by reason of any sale, conditional
+     or otherwise, made for ultimate consumption or use by the purchaser of gas, electricity, steam, water,
+     refrigeration or telephony or telegraphy or in or by reason of the furnishing for such consumption or use
+     of gas, electric, steam, water, refrigerator or telephone or telegraph service in the Village of Croton-on-
+     Hudson, including cash, credits and property of any kind or nature, without any deduction therefrom on
+     account of the cost of the property sold, the cost of materials used, labor or services or other costs, interest
+     or discount paid or any other expenses whatsoever.
+
+
+     PERSON — Persons, corporations, companies, associations, joint-stock associations, copartnerships,
+     estates, assignees of rents, any person acting in a fiduciary capacity or any other entity and persons, their
+     assignees, lessees, trustees or receivers appointed by any court whatsoever or by any other means, except
+     the state, municipalities, political and civil subdivisions of the state or municipality, public districts and
+     corporations and associations organized and operated exclusively for religious, charitable or educational
+     purposes, no part of the net earnings of which inures to the benefit of any private shareholder or individual.
+     UTILITY — Includes every person subject to the supervision of the State Department of Public Service,
+     except omnibus corporations subject to the supervision of the State Department of Public Service under
+     Article 7 of the Transportation Law and persons engaged in the business of operating or leasing sleeping
+     and parlor railroad cars or of operating railroads other than street surface, rapid transit, subway and elevated
+     railroads, and also includes every person, whether or not such person is subject to such supervision, who
+     sells gas, electricity, steam, water, refrigeration, telephony or telegraphy delivered through mains, pipes
+     or wires or furnishes gas, electric, steam, water, refrigerator, telephony or telegraph service by means of
+     mains, pipes or wires, regardless of whether such activities are the main business of such person or only
+     incidental thereto or of whether use is made of the public interests.
+
+     § 204-3. Records.
+
+     Every utility subject to tax under this article shall keep such records of its business and in such form as
+     the Treasurer of the Village may require, and such records shall be preserved for a period of three years,
+     except that the Treasurer may consent to their destruction within that period or may require that they be
+     kept longer.
+
+     § 204-4. Utilities to file returns.
+
+     Every utility subject to tax hereunder shall file, on or before April 25, July 25, October 25 and January 25,
+     a return for the three calendar months preceding each such return date, including any period for which the
+     tax imposed hereby or by any amendment hereof is effective, each of which returns shall state the gross
+     income or gross operating income for the period covered by each such return. Returns shall be filed with
+     the Treasurer of the Village on a form to be furnished by him for such purpose and which shall contain such
+     other data, information or matter as he may require to be included therein. Notwithstanding the foregoing
+     provisions of this section, any utility whose average gross income or average gross operating income, as
+     the case may be, for the aforesaid three months' period is less than $1,500 may file a return annually on
+     January 25 for the 12 preceding calendar months, and the Treasurer of the Village may require any utility
+     to file an annual return, which shall contain any data specified by him, regardless of whether the utility is
+     subject to tax under this section. The Treasurer, in order to ensure payment of the tax imposed, may require
+     at any time a further or supplemental return, which shall contain any data that may be specified by him.
+     Every return shall have annexed thereto a certification by the head of the utility making the same, or of the
+     owner or of a copartner thereof, or of a principal officer of the corporation, if such business is conducted
+     by a corporation, to the effect that the statements contained therein are true.
+
+     § 204-5. Tax payable with return.
+
+     At the time of filing a return as required by this article, each utility shall pay to the Treasurer of the Village
+     the tax imposed by this article for the period covered by such return. Such tax shall be due and payable
+     at the time of filing the return or, if a return is not filed when due, on the last day on which the return is
+     required to be filed.
+
+     § 204-6. Failure to submit acceptable return.
+
+
+     A.    In case any return filed pursuant to this article shall be insufficient or unsatisfactory to the Treasurer
+           of the Village and if a corrected or sufficient return is not filed within 20 days after the same is
+           required by notice from him or if no return is made for any period, the Treasurer shall determine the
+           amount of tax due from such information as he is able to obtain and, if necessary, may estimate the
+           tax on the basis of external indices or otherwise. He shall give notice of such determination to the
+           person liable for such tax. Such determination shall finally and irrevocably fix such tax, unless the
+           person against whom it is assessed shall, within 30 days after the giving of notice of such
+           determination, apply to the Treasurer for a hearing or unless the Treasurer, of his own motion, shall
+           reduce the same. After such hearing, the Treasurer shall give notice of his decision to the person liable
+           for the tax. Any final determination of the amount of any tax payable hereunder shall be reviewable
+           for error, illegality or unconstitutionality or any other reason whatsoever by a proceeding under
+           Article 78 of the Civil Practice Law and Rules if application therefor is made to the Supreme Court
+           within 90 days after the giving of the notice of such final determination; provided, however, that any
+           such proceeding under said Article 78 shall not be instituted unless the amount of any tax sought to
+           be reviewed, with such interest and penalties thereon as may be provided for by local law, ordinances
+           or resolution, shall be first deposited and an undertaking filed, in such amount and with such sureties
+           as a Justice of the Supreme Court shall approve, to the effect that if such proceeding is dismissed or
+           the tax confirmed, the petitioner will pay all costs and charges which may accrue in the prosecution
+           of such proceeding.
+
+     B.    Except in the case of a willfully false or fraudulent return with intent to evade the tax, no assessment
+           of additional tax shall be made after the expiration of more than three years from the date of the filing
+           of a return; provided, however, that where no return has been filed as required by this article, the tax
+           may be assessed at any time.
+
+     § 204-7. Service of notice.
+
+     Any notice authorized or required under the provisions of this article may be given by mailing the same to
+     the person for whom it is intended in a postpaid envelope, addressed to such person at the address given by
+     him in the last return filed by him under this article or, if no return has been filed, then to such address as
+     may be obtainable. The mailing of such notice shall be presumptive evidence of the receipt of the same by
+     the person to whom addressed. Any period of time which is determined according to the provisions of this
+     article by the giving of notice shall commence to run from the date of mailing of such notice.
+
+     § 204-8. Penalties.
+
+     Any person failing to file a return or corrected return or to pay any tax or any portion thereof within the
+     time required by this article shall be subject to a penalty of 5% of the amount of tax due, plus 1% of such
+     tax for each month of delay or fraction thereof, excepting the first month, after such return was required to
+     be filed or such tax became due; but the Treasurer of the Village, for cause shown, may extend the time for
+     filing any return and, if satisfied that the delay was excusable, may remit all or any portion of the penalty
+     fixed by the foregoing provisions of this section.
+
+     § 204-9. Refunds.
+
+     If, within one year from the giving of notice of any determination or assessment of any tax or penalty, the
+     person liable for the tax shall make application for a refund thereof and the Treasurer of the Village or the
+     court shall determine that such tax or penalty or any portion thereof was erroneously or illegally collected,
+     the Treasurer shall refund the amount so determined. For like cause and within the same period, a refund
+     may be so made on the initiative of the Treasurer. However, no refund shall be made of a tax or penalty
+
+
+     paid pursuant to a determination of the Treasurer as hereinbefore provided unless the Treasurer, after a
+     hearing as hereinbefore provided or of his own motion, shall have reduced the tax or penalty or it shall
+     have been established in a proceeding under Article 78 of the Civil Practice Law and Rules of the State
+     of New York that such determination was erroneous or illegal. All refunds shall be made out of money
+     collected under this article. An application for a refund, made as hereinbefore provided, shall be deemed an
+     application for the revision of any tax or penalty complained of, and the Treasurer may receive additional
+     evidence with respect thereto. After making his determination, the Treasurer shall give notice thereof to
+     the person interested, and he shall be entitled to an order to review such determination under said Article
+     78, subject to the provisions hereinbefore contained relating to the granting of such an order.
+
+     § 204-10. Source of tax moneys.
+
+     The tax imposed by this article shall be charged against and be paid by the utility and shall not be added
+     as a separate item to bills rendered by the utility to customers or others but shall constitute a part of the
+     operating costs of such utility.
+
+     § 204-11. Action to enforce payment.
+
+     Whenever any person shall fail to pay any tax or penalty imposed by this article, the Village Attorney
+     shall, upon the request of the Treasurer of the Village, bring an action to enforce payment of the same. The
+     proceeds of any judgment obtained in any such action shall be paid to the Treasurer. Each such tax and
+     penalty shall be a lien upon the property of the person liable to pay the same, in the same manner and to
+     the same extent that the tax and penalty imposed by § 186-a of the Tax Law is made a lien.
+
+     § 204-12. Powers of Village Treasurer.
+
+     In the administration of this article, the Treasurer of the Village shall have power to make such reasonable
+     rules and regulations, not inconsistent with law, as may be necessary for the exercise of his powers and
+     the performance of his duties and to prescribe the form of blanks, reports and other records relating to the
+     administration and enforcement of the tax, to take testimony and proofs, under oath, with reference to any
+     matter within the line of his official duty under this article and to subpoena and require the attendance of
+     witnesses and the production of books, papers and documents.
+
+     § 204-13. Confidentiality of records and returns; penalties for offenses.
+     A.    Except in accordance with proper judicial order or as otherwise provided by law, it shall be unlawful
+           for the Treasurer of the Village or any agent, clerk or employee of the Village of Croton-on-Hudson
+           to divulge or make known in any manner the amount of gross income or gross operating income or
+           any particulars set forth or disclosed in any return under this article. The officer charged with the
+           custody of such returns shall not be required to produce any of them or evidence of anything
+           contained in them in any action or proceeding in any court, except on behalf of the Village of Croton-
+           on-Hudson in an action or proceeding under the provisions of this article or on behalf of the State Tax
+           Commissioner in an action or proceeding under the provisions of the Tax Law of the State of New
+           York or on behalf of any party to any action or proceeding under the provisions of this article when
+           the returns or facts shown thereby are directly involved in such action or proceeding, in either of
+           which events the court may require the production of and may admit in evidence so much of said
+           returns or of the facts shown thereby as are pertinent to the action or proceeding and no more.
+
+     B.    Nothing herein shall be construed to prohibit the delivery to a person or his duly authorized
+           representative of a copy of any return filed by him nor to prohibit the publication of statistics so
+           classified as to prevent the identification of particular returns and the items thereof or the publication
+
+
+           of delinquent lists showing the names of persons who have failed to pay their taxes at the time and in
+           the manner provided for by this article, together with any relevant information which, in the opinion
+           of the Treasurer, may assist in the collection of such delinquent taxes or the inspection by the Village
+           Attorney or other legal representatives of the Village of Croton-on-Hudson of the return of any person
+           who shall bring action to set aside or review the tax based thereon or against whom an action has been
+           instituted in accordance with the provisions of this article.
+
+     C.    Any offense against the foregoing secrecy provisions shall be punishable by a fine not exceeding
+           $1,000 or by imprisonment not exceeding one year, or both; and if the offender is an officer, agent,
+           clerk or employee of the Village of Croton-on-Hudson, he shall be dismissed from office and shall be
+           incapable of holding any office or employment in the Village of Croton-on-Hudson for a period of
+           five years thereafter. Notwithstanding any provisions of this article, the Treasurer may exchange with
+           the chief fiscal officer of any city or any other Village in the State of New York information contained
+           by returns filed under this article, provided that such city or other Village grants similar privileges to
+           the Village of Croton-on-Hudson, and provided that such information is to be used for tax purposes
+           only, and the Treasurer shall, upon request, furnish the State Tax Commission with any information
+           contained in such returns.
+
+     § 204-14. Disposition of moneys collected.
+
+     All taxes and penalties received by the Treasurer of the Village under this article shall be paid into the
+     treasury of the Village and shall be credited to and deposited in the general fund of the Village.
+
+
+                                                       ARTICLE II
+                                              Senior Citizens Tax Exemption
+                                           [Adopted 10-6-1986 by L.L. No. 3-1986]
+
+     § 204-15. Exemption granted. [Amended 6-4-1990 by L.L. No. 3-1990; 9-4-2001 by L.L. No. 12-2001;
+     4-22-2002 by L.L. No. 3-2002; 10-17-2022 by L.L. No. 11-2022]
+
+     Pursuant to § 467 of the Real Property Tax Law, real property owned by one or more persons, each of
+     whom is 65 years of age or over, or real property owned by spouses one of whom is 65 years of age or over,
+     who are eligible as set forth below, shall be exempt from taxation by the Village of Croton-on-Hudson
+     for Village general taxes to the extent of 50% of the assessed valuation thereof. Such exemption shall be
+     computed after all other partial exemptions allowed by law have been subtracted from the total amount
+     assessed. Said exemption is allowed to otherwise eligible senior citizens who become 65 after the taxable
+     status date, but before December 31 of the calendar year.
+
+     § 204-16. Income eligibility. [Last amended 11-13-2023 by L.L. No. 19-2023]
+
+     In order to be eligible to apply for a partial exemption in the amount of 50% of the assessed valuation,
+     the income of the owner or the combined income of the owners must not exceed $50,000 from all sources
+     as set forth in such § 467, as amended, for the second-latest calendar year prior to the date that the
+     application is filed. Where title is vested in one spouse, the combined income may not exceed such sum.
+     Any such income shall be offset by all medical and prescription drug expenses actually paid which were
+     not reimbursed or paid for by insurance.
+
+     § 204-17. Application for exemption.
+
+     A.    The application for exemption in accordance with the above shall be governed by the provisions of
+           § 467 of the Real Property Tax Law, including those statutory provisions prescribing qualifications
+           for and limitations on such exemptions, the application and processing procedures and the penalties
+           for willful false statements.
+
+     B.    Pursuant to the provisions of Subdivision 8 of § 467 of the Real Property Tax Law, the Village
+           Assessor is hereby authorized to accept applications for renewal of exemptions granted under this
+           article after the taxable status date. In the event that the owner or all of the owners of property which
+           has received an exemption pursuant to this article on the preceding assessment roll shall fail to file an
+           application for renewal on or before the taxable status date, such owner or owners may file the
+           application, executed as if such application had been filed on or before the taxable status date, with
+           the Assessor on or before the date set for the hearing of complaints. [Added 5-7-1990 by L.L. No.
+           2-1990]
+
+
+                                                        ARTICLE III
+                                             Business Investment Tax Exemption
+                                           [Adopted 3-19-1984 by L.L. No. 1-1984]
+
+     § 204-18. Reduction of statutory exemption.
+
+     The tax exemption allowed by § 485-b of the Real Property Tax Law shall be reduced to zero with respect
+     to the assessment of real property regarding the levy of real property taxes and service charges of the
+     Village of Croton-on-Hudson.
+
+     § 204-19. Existing exemptions not affected.
+
+     This article shall take effect immediately after its adoption; provided, however, that exemptions under Real
+     Property Tax Law § 485-b existing prior in time to the effective date of this article shall not be subject to
+     the reduction effected by this article.
+
+
+                                                        ARTICLE IV
+                                             Alternative Veterans Tax Exemption
+                                            [Adopted 2-4-1985 by L.L. No. 2-1985]
+
+     § 204-20. Purpose. [Amended 12-20-2021 by L.L. No. 14-2021]
+
+     The purpose of this article is to adopt the maximum veterans' exemption allowable pursuant to § 458-a of
+     the Real Property Tax Law of the State of New York.
+
+     § 204-21. Exemption granted; limitations. [Amended 1-5-2009 by L.L. No. 1-2009; 12-20-2021 by
+     L.L. No. 14-2021]
+
+     A.    Qualifying residential real property shall be exempt from taxation to the extent of 15% of the assessed
+           value of such property; provided, however, that such exemption shall not exceed the lesser of $75,000
+           or $75,000 multiplied by the latest state equalization rate of the Village of Croton-on-Hudson.
+
+     B.    In addition to the exemption provided by Subsection A of this section, where the veteran served in a
+           combat theater or combat zone of operations, as documented by the award of a United States
+           campaign ribbon or service medal, qualifying residential real property also shall be exempt from
+           taxation to the extent of 10% of the assessed value of such property; provided, however, that such
+           exemption shall not exceed the lesser of $50,000 or $50,000 multiplied by the latest state equalization
+           rate of the Village of Croton-on-Hudson.
+
+     C.    In addition to the exemptions provided by Subsections A and B of this section, where the veteran
+           received a compensation rating from the United States Veterans' Administration because of a service-
+           connected disability, qualifying residential real property shall be exempt from taxation to the extent
+           of the product of the assessed value of such property multiplied by 50% of the veteran's disability
+           rating; provided, however, that such exemption shall not exceed the lesser of $250,000 or $250,000
+           multiplied by the latest state equalization rate for the Village of Croton-on-Hudson.
+
+     D.    For purposes of this article, a Gold Star Parent shall mean the parent or parents of a child who died in
+           the line of duty while serving in the United States armed forces during a period of war, or as otherwise
+           defined in Real Property Tax Law § 458-a(7)(a), as amended. As set forth in § 458-a of the Real
+           Property Tax Law, the residential real property owned by a Gold Star Parent shall be eligible to
+           receive the maximum real property tax exemption allowable pursuant to Subsections A and B of this
+           section, provided that such real property is the primary residence of the Gold Star Parent. [Added
+           2-28-2024 by L.L. No. 3-2024]
+
+
+                                                            ARTICLE V
+                                                    Collection of Property Taxes
+                                               [Adopted 8-8-1994 by L.L. No. 6-199484]
+
+     § 204-22. Collection of taxes.
+
+     Pursuant to § 6 of Chapter 602 of the Laws of 1993, as amended by a chapter of the Laws of 1994, as
+     proposed in Legislative Bill Number S.8560-A,85 the Village of Croton-on-Hudson hereby acts by local
+     law, not subject to referendum, to provide that the collection of property taxes shall continue to be enforced
+     pursuant to Title 3 of Article14 of the Real Property Tax Law, as is in effect on December 31, 1994.
+
+     § 204-23. Filing of copies.
+
+     Upon adoption, and no later than October 1, 1994, a copy of this article shall be filed with the New York
+     State Board of Equalization and Assessment.
+
+
+     84. Editor's Note: This local law also provided that it shall take effect on the same day as a chapter of the Laws of 1994 takes effect as
+         proposed in Legislative Bill Number S.8560-A, except that if S.8560-A shall become a law prior to adoption of this local law, this
+         local law shall take effect immediately.
+     85. Editor's Note: See now Chapter 532 of the Laws of 1994, adopted August 26, 1994.
+
+
+                                                          ARTICLE VI
+                                                 Disabled Persons Tax Exemption
+                                              [Adopted 9-21-1999 by L.L. No. 8-199986]
+
+     § 204-24. Exemption granted.
+
+     Pursuant to § 459-c of the Real Property Tax Law, and subject to all the conditions set forth in § 459-c,
+     real property owned by one or more persons with disabilities, or real property owned by a husband, wife,
+     or both, or by siblings, at least one of whom has a disability, and whose income, as hereinafter defined,
+     is limited by reason of such disability, shall be exempt from taxation by the Village of Croton-on-Hudson
+     for Village general taxes, as hereinafter provided. Such exemption shall be computed after all other partial
+     exemptions allowed by law have been subtracted from the total amount assessed.
+
+     § 204-25. Percent of exemption allowed. [Amended 11-21-2022 by L.L. No. 15-2022]
+
+     For assessment rolls prepared on the basis of a taxable status date occurring on or after January 1, 2023,
+     the exemption shall be as follows:
+
+      Annual Income                                              Percentage of Assessed Value Exempt from Taxation
+      $0 to $50,000                                                                    50%
+      $50,001 to $55,699                                                               20%
+      $55,700 to $57,499                                                               10%
+      $57,500 to $58,399                                                                5%
+
+     § 204-26. Application for exemption; late renewal.
+
+     A.     The application for exemption in accordance with the above shall be governed by the provisions of
+            § 459-c of the Real Property Tax Law, including those statutory provisions prescribing qualifications
+            for and limitations on such exemptions, the application and processing procedures and the penalties
+            for willful false statements.
+
+     B.     Pursuant to the provisions of § 459-c of the Real Property Tax Law, the Village Assessor is hereby
+            authorized to accept applications for renewal of exemptions granted under this article after the taxable
+            status date. In the event that the owner or all of the owners of property, which has received an
+            exemption pursuant to this article on the preceding assessment roll, shall fail to file an application for
+            renewal on or before the taxable status date, such owner or owners may file the application, executed
+            as if such application had been filed on or before the taxable status date, with the Assessor on or
+            before the date set for the hearing of complaints.
+
+
+     86. Editor's Note: This local law provided an effective date of 1-1-2000.
+
+
+                                                      ARTICLE VII
+                                            Cold War Veterans Tax Exemption
+                                          [Adopted 11-15-2010 by L.L. No. 4-2010]
+
+     § 204-27. Purpose. [Amended 12-20-2021 by L.L. No. 14-2021]
+
+     The purpose of this article is make available to veterans who have served during Cold War periods an
+     exemption in their assessments to reduce their taxes because of their service, pursuant to §458-b of the
+     Real Property Tax Law of the State of New York.
+
+     § 204-28. Exemption granted; limitations. [Amended 2-28-2024 by L.L. No. 3-2024]
+
+     Qualifying residential real property shall be exempt from taxation up to a maximum of $75,000 of assessed
+     value for the basic exemption and $250,000 of assessed value for the disability exemption. The applicable
+     maximum assessment shall be multiplied by the current equalization rate each year to determine the
+     assessment exemption amount.
+
+
+                                                ARTICLE VIII
+          Tax Abatement for Rent-Controlled and Rent-Regulated Property Occupied by Certain Senior
+                                      Citizens or Persons with Disabilities
+          [Adopted 10-19-2015 by L.L. No. 10-2015; amended in its entirety 5-8-2023 by L.L. No. 8-2023]
+
+     § 204-29. Definitions.
+
+     As used in this article, the following words shall have the meanings indicated:
+     DISABLED PERSON — A person currently receiving: i) social security disability insurance (SSDI)
+     benefits, ii) supplemental security income (SSI) benefits, iii) disability pension or disability compensation
+     benefits provided by the United States Department of Veterans Affairs, iv) disability pension or disability
+     compensation benefits provided by the United States Postal Service, or v) a person who previously
+     received SSI or SSDI disability benefits and is currently receiving medical assistance benefits based on a
+     determination of disability pursuant to Social Services Law § 366.
+
+     § 204-30. Statutory provisions adopted; application of provisions.
+
+     A.     The Village of Croton-on-Hudson hereby adopts the provisions of § 467-b, as amended, of the Real
+            Property Tax Law of the State of New York. Hereinafter, there shall be provided a tax abatement in
+            rent-regulated apartments where the combined income of members of the household containing
+            senior citizens (62 years of age or older) or disabled persons does not exceed $50,000, and provided
+            that, pursuant to § 467-b of the Real Property Tax Law of the State of New York, the benefits of such
+            abatement are passed on to such senior citizens or disabled persons.
+
+     B.     Notwithstanding the foregoing in Subsection A, in the event the maximum allowable incomes
+            established under Real Property Tax Law § 467-b for dwelling units where the head of the household
+            is a person 62 years of age or older or a qualified disabled person is increased or reduced, by operation
+            of law or by action of the State Legislature, to an amount more or less than $50,000, the maximum
+            allowable income under Subsection A shall automatically adjust to said statutorily allowable incomes.
+
+     § 204-31. through § 204-40. (Reserved)
+
+
+                                                         ARTICLE IX
+                                  Volunteer Firefighters and Ambulance Workers Exemption
+                                           [Adopted 3-20-2023 by L.L. No. 2-2023]
+
+     § 204-41. Exemption granted.
+
+     An exemption of 10% of assessed value of property owned by an enrolled member as set forth below, or
+     such enrolled member and their spouse, is hereby granted from taxation with respect to the real property
+     taxes of the Village of Croton-on-Hudson as long as eligibility requirements are met.
+
+     § 204-42. Eligibility requirements.
+
+     Such exemption shall be granted to an enrolled member of an incorporated volunteer fire company, fire
+     department, or incorporated voluntary ambulance service, provided that:
+
+     A.    The property is owned by the volunteer firefighter or volunteer ambulance worker;
+
+     B.    The property is the primary residence of the volunteer firefighter or volunteer ambulance worker;
+
+     C.    The property is used exclusively for residential purposes;
+
+     D.    The volunteer firefighter or volunteer ambulance worker resides in the Village of Croton-on-Hudson
+           and the Village of Croton-on-Hudson is served by such incorporated volunteer fire company or fire
+           department or incorporated voluntary ambulance service;
+
+     E.    The volunteer firefighter or volunteer ambulance worker is certified by the authority having
+           jurisdiction as an enrolled member of such an incorporated volunteer fire company, fire department,
+           or incorporated voluntary ambulance service; and
+
+     F.    The volunteer firefighter or volunteer ambulance worker meets the minimum service requirement
+           established by the Village of Croton-on-Hudson, which is hereby established as two years.
+
+     § 204-43. Application for exemption.
+
+     A volunteer firefighter or volunteer ambulance worker must annually, on or before the applicable taxable
+     status date, file an application for such property tax exemption with the Assessor responsible for preparing
+     the assessment roll for the Village of Croton-on-Hudson, on a form as prescribed by the New York
+     State Commissioner of Taxation and Finance. The Village of Croton-on-Hudson must maintain written
+     guidelines, available upon request, as to the requirements of an enrolled volunteer member relating to this
+     exemption.
+
+     § 204-44. Certification.
+
+     The Croton-on-Hudson Fire Department and Croton Emergency Medical Services, Inc., must annually
+     file with the Assessor, prior to the applicable taxable status date, a list of the active volunteer members
+     who are certified to meet the minimum service requirement. Such list must provide, as of the applicable
+     taxable status date, the number of years of service served by each such enrolled member and such enrolled
+     member's address of residence.
+
+     § 204-45. No diminution of benefits.
+
+     An applicant who is receiving any benefit pursuant to Article4 of the Real Property Tax Law as of the
+
+
+     effective date of this article shall not have any of those benefits diminished because of this article.
+
+     § 204-46. Grant of lifetime exemption.
+
+     Any eligible enrolled member who accrues more than 20 years of active volunteer service (as certified by
+     the authority having jurisdiction) shall be granted the 10% exemption as authorized by this article for the
+     remainder of his or her life as long as his or her primary residence is located within the Village of Croton-
+     on-Hudson.
+
+     § 204-47. Unremarried spouse of enrolled member killed in the line of duty.
+
+     The unremarried surviving spouse of a deceased enrolled member killed in the line of duty, as certified by
+     the authority having jurisdiction, is qualified to continue to receive an exemption, as long as the deceased
+     volunteer had been an enrolled member for at least five years and had been receiving the exemption at the
+     time of his or her death.
+
+     § 204-48. Unremarried spouse of deceased enrolled member.
+
+     The unremarried surviving spouse of a deceased enrolled member, as certified by the authority having
+     jurisdiction, is qualified to continue to receive an exemption, as long as the deceased volunteer had been
+     an enrolled member for at least 20 years and the deceased volunteer and unremarried spouse had been
+     receiving the exemption at the time of his or her death.
+
+
+                                               ARTICLE X
+           Exemption of Capital Improvements to Residential Property for the Creation of Accessory
+                                              Dwelling Units
+                                  [Adopted 6-26-2024 by L.L. No. 10-2024]
+
+     § 204-49. Exemption granted.
+
+     Pursuant to § 421-p of the Real Property Tax Law and subject to all the conditions set forth therein,
+     residential buildings that are reconstructed, altered, improved or newly constructed in order to create one
+     or more additional residential dwelling units on the same parcel as a preexisting residential building to
+     provide independent living facilities for one or more persons shall be partially exempt from taxation and
+     special ad valorem levies as provided herein and in Real Property Tax Laws § 421-p. Such exemption may
+     only be granted for an accessory apartment permitted pursuant to § 230-41 of the Village of Croton-on-
+     Hudson Zoning Code.
+
+     § 204-50. Limitations.
+
+     A.    Such exemption shall be for a period of five years to the extent of 100% of the increase in assessed
+           value thereof attributable to such reconstruction, alteration, improvement, or new construction for
+           such additional residential unit or units, and for an additional period of five years, subject to the
+           following:
+
+           (1)    The extent of such exemption shall be decreased by 25% of the "exemption base" for each of
+                  the first three years during such additional period and shall be decreased by a further 10% of the
+                  exemption base during each of the final two years of such additional period. The exemption
+                  shall expire at the end of the extended period. The "exemption base" shall be the increase in
+                  assessed value as determined in the initial year of the term of the exemption, or as otherwise set
+                  forth in § 421-p2(a)(ii) of the Real Property Tax Law.
+
+           (2)    In any year in which a change in level of assessment of 15% or more is certified for a final
+                  assessment roll pursuant to the rules of the Commissioner of Taxation and Finance, the
+                  exemption base shall be multiplied by a fraction, the numerator of which shall be the total
+                  assessed value of the parcel on such final assessment roll (after accounting for any physical or
+                  quantity changes to the parcel since the immediately preceding assessment roll), and the
+                  denominator of which shall be the total assessed value of the parcel on the immediately
+                  preceding final assessment roll. The result shall be the new exemption base. The exemption
+                  shall thereupon be recomputed to take into account the new exemption base, notwithstanding
+                  the fact that the assessor receives certification of the change in level of assessment after the
+                  completion, verification and filing of the final assessment roll. In the event the assessor does not
+                  have custody of the roll when such certification is received, the assessor shall certify the
+                  recomputed exemption to the local officers having custody and control of the roll, and such local
+                  officers are hereby directed and authorized to enter the recomputed exemption certified by the
+                  assessor on the roll. The assessor shall give written notice of such recomputed exemption to the
+                  property owner, who may, if such property owner believes that the exemption was recomputed
+                  incorrectly, apply for a correction in the manner provided by Title 3 of Article 5 of the Real
+                  Property Tax Law for the correction of clerical errors.
+
+           (3)    Such exemption shall be limited to $200,000 in increased market value of the property
+                  attributable to such reconstruction, alteration, improvement or new construction and any
+                  increase in market value greater than such amount shall not be eligible for the exemption
+
+
+                  pursuant to this article. The market value of the reconstruction, alteration, improvement or new
+                  construction shall be calculated as set forth in § 421-p2(a)(iii) of the Real Property Tax Law.
+
+     B.    No such exemption shall be granted for reconstruction, alterations, improvements or new construction
+           unless:
+
+           (1)    Such reconstruction, alteration, improvement or new construction was commenced subsequent
+                  to the effective date of this article; and
+
+           (2)    The value of such reconstruction, alteration, improvement or new construction exceeds $3,000;
+                  and
+
+           (3)    Such reconstruction, alteration, improvement or new construction created one or more
+                  additional residential dwelling units on the same parcel as the preexisting building to provide
+                  independent living facilities for one or more persons as permitted by § 230-41 of the Village of
+                  Croton-on-Hudson Zoning Code.
+
+     C.    For the purposes of this article, reconstruction, alteration, improvement or new construction shall not
+           include ordinary maintenance or repairs.
+
+     D.    If a building granted an exemption pursuant to this article ceases to be used primarily for residential
+           purposes, or title thereto is transferred to other than the heirs or distributees of the owner, the
+           exemption granted pursuant to this article shall cease.
+
+     § 204-51. Application for exemption.
+
+     Such exemption shall be granted only upon application by the owner of such building on a form prescribed
+     by the Commissioner of Taxation and Finance. The application shall be filed with the Assessor of the
+     Village of Croton-on-Hudson on or before the taxable status date of January 1 to be eligible for an
+     exemption to be entered on the assessment roll prepared on the basis of said taxable status date.
+
+
+                                                  ARTICLE XI
+                     Exemption for Construction of Living Quarters for Parent or Grandparent
+                                    [Adopted 6-26-2024 by L.L. No. 10-2024]
+
+     § 204-52. Exemption granted.
+
+     Pursuant to § 469 of the Real Property Tax Law and subject to all the conditions set forth in therein, the
+     Village of Croton-on-Hudson does hereby provide for an exemption from taxation to the extent of any
+     increase in assessed value of residential property resulting from the construction or reconstruction of such
+     property for the purpose of providing living quarters for a parent or grandparent, who is 62 years of age
+     or older. For the purposes of this article, a parent or grandparent shall be deemed to include the birth or
+     adoptive parents and grandparents of the owner of the real property or of the owner's spouse.
+
+     § 204-53. Limitations.
+
+     A.    The exemption set forth in § 204-53 above shall not exceed:
+
+           (1)    The increase in assessed value resulting from construction or reconstruction of such property
+                  for such purpose;
+
+           (2)    Twenty percent of the total assessed value of such property as improved; or
+
+           (3)    Twenty percent of the median sale price of residential property as reported in the most recent
+                  sales statistical summary published by the Commissioner of Taxation and Finance for the
+                  county in which the property is located, whichever is less.
+
+     B.    No such exemption shall be granted unless:
+
+           (1)    The property is within the geographical area in which such construction or reconstruction is
+                  permitted; and
+
+           (2)    The residential property so constructed or reconstructed is the principal place of residence of the
+                  owner.
+
+     C.    Such exemptions shall be applicable only to construction or reconstruction which occurred
+           subsequent to the effective date of this article and shall only apply during taxable years during which
+           at least one such parent or grandparent maintains a primary place of residence in such living quarters.
+
+     § 204-54. Application for exemption.
+
+     Such exemption from taxation shall be granted upon an application made annually, upon a form to be
+     promulgated by the commissioner of taxation and finance, by the owner of such property to the Assessor
+     of the Village of Croton-on-Hudson on or before the taxable status date of January 1. If the Assessor
+     is satisfied that the property is entitled to an exemption pursuant to this article, they shall approve the
+     application and such residential improvements shall be exempt from taxation and special ad velorem levies
+     as set forth herein and in Real Property Tax Laws § 469.
+
+     § 204-55. Penalties for false statements.
+
+     Any conviction of having made any willful false statement in the application for such exemption shall
+     result in the revocation thereof, be punishable by a civil penalty of not more than $100 and shall disqualify
+     the applicant or applicants from further exemption for a period of five years.
+
+
+                                                  ARTICLE XII
+                         Exemption for First-Time Homebuyers of Newly Constructed Homes
+                                     [Adopted 10-23-2024 by L.L. No. 14-2024]
+
+     § 204-56. Exemption granted.
+
+     Pursuant to § 457 of the Real Property Tax Law and subject to all the conditions set forth therein, the
+     Village of Croton-on-Hudson does hereby provide for a real property tax exemption for qualified first-time
+     homebuyers, as set forth herein.
+
+     § 204-57. Definitions.
+
+     As used in this article, the following terms shall have the meanings indicated:
+     FIRST-TIME HOMEBUYER — A person who has not owned a primary residential property and is not
+     married to a person who has owned a residential property during the three-year period prior to their
+     purchase of the primary residential property, and who does not own a vacation or investment home.
+     NEWLY CONSTRUCTED — An improvement to real property which was constructed as a primary
+     residential property, and which has never been occupied and was constructed after the effective date of this
+     section. "Newly constructed" shall also mean that portion of a primary residential property that is altered,
+     improved, or constructed.
+     PRIMARY RESIDENTIAL PROPERTY — Any one- or two-family house, townhouse or condominium
+     located in the state of New York which is owned-occupied by such first-time homebuyer.
+
+     § 204-58. Application of exemption.
+
+     A.    Newly constructed primary residential property purchased by one or more persons, each of whom is
+           a first-time homebuyer, shall be exempt from taxation levied by or on behalf of the Village of Croton-
+           on-Hudson for a period of five years.
+
+     B.    Such exemption shall be computed as follows:
+
+                                                                  Percentage Assessed Valuation Exempt from
+                              Year of Exemption                                      Tax
+                                         1                                             50%
+                                         2                                             40%
+                                         3                                             30%
+                                         4                                             20%
+                                         5                                             10%
+                                    6 or more                                          0%
+
+     § 204-59. Eligibility.
+
+     A.    Any newly constructed primary residential real property within the purchase price limits defined by
+           the state of New York mortgage agency low-interest-rate mortgage program in the nontarget, one-
+           family new category for Westchester County, and in effect on the contract date for the purchase and
+           sale of such property, increased by 25%, shall be eligible for the exemption allowed pursuant to this
+
+
+           article.
+
+     B.    A first-time homebuyer who either as part of the written contract for sale of the primary residential
+           property, or who enters into a written contract within 90 days after closing of the sale of the primary
+           residence for reconstruction, alteration, or improvements, the value of which exceeds $3,000, to the
+           primary residential property shall be exempt from taxation to the extent provided by this article. Such
+           exemption shall apply solely to the increase in assessed value thereof attributable to such
+           reconstruction, alteration or improvement, provided that the market value of the assessment after
+           reconstruction, alteration, or improvement does not exceed 15% more than the purchase price limits
+           as defined in Subsection A above. For the purposes of this article, the terms "reconstruction,"
+           "alteration" and "improvement" shall not include ordinary maintenance and repairs.
+
+     C.    Newly constructed primary residential property purchased by first-time homebuyers at a sales price
+           greater than the maximum eligible sales price set forth in Subsection A above shall qualify for the
+           exemption allowed pursuant to this article for that portion of the sale price of such newly constructed
+           primary residential property equal to the maximum eligible sales price; provided, however, that any
+           newly constructed primary residential property purchased at a sales price greater than 15% above the
+           maximum eligible sales price shall not be allowed any exemption.
+
+     § 204-60. Maximum household income.
+
+     A first-time homebuyer shall not qualify for the exemption authorized pursuant to this section if the
+     household income exceeds income limits defined by the State of New York mortgage agency low-interest-
+     rate mortgage program in the nontarget, one- and two-person household category for Westchester County
+     and in effect on the contract date for the purchase and sale of such property.
+
+     A.    The term "household income" as used herein shall mean the total combined income of all the owners,
+           and of any owners' spouses residing on the premises, for the income tax year preceding the date of
+           making application for the exemption.
+
+     B.    The term "income" as used herein shall mean the "adjusted gross income" for federal income tax
+           purposes as reported on the applicant's latest available federal or state income tax return, subject to
+           any subsequent amendments or revisions, reduced by distributions, to the extent included in federal
+           adjusted gross income, received from an individual retirement account and an individual retirement
+           annuity; provided that if no such return was filed within the one-year period preceding taxable status
+           date, "income" shall mean the adjusted gross income that would have been so reported if such a return
+           had been filed. For purposes of this section, "latest available return" shall mean the federal or state
+           income tax return for the year immediately preceding the date of making application; provided,
+           however, that if the tax return for such tax year has not been filed, then the income tax return for the
+           tax year two years preceding the date of making application shall be considered the latest available.
+
+     § 204-61. Leasing of single-family home prohibited; discontinuance of exemption.
+
+     A.    No portion of a single-family newly constructed primary residential property shall be leased during
+           the period of time when the first-time homeowner exemption shall apply to the residence. If any
+           portion of the single-family newly constructed primary residential property is found to be the subject
+           of a lease agreement, the Assessor shall discontinue any exemption granted pursuant to this article.
+
+     B.    In the event that a primary residential property granted an exemption pursuant to this article ceases to
+           be used primarily for residential purposes or title thereto is transferred to other than the heirs or
+           distributees of the owner, the exemption granted pursuant to this article shall be discontinued.
+
+
+     C.    Upon determining that an exemption granted pursuant to this article should be discontinued, the
+           Assessor shall mail a notice so stating to the owner or owners thereof at the time and in the manner
+           provided by § 510-a of the Real Property Tax Law. Such owner or owners shall be entitled to seek
+           administrative and judicial review of such action in the manner provided by law, provided that the
+           burden shall be on such owner or owners to establish eligibility for the exemption.
+
+     § 204-62. Application for exemption.
+
+     Such first-time homebuyer exemption shall be granted only upon application by the owner of such primary
+     residential property on a form prescribed by the Commissioner of Taxation and Finance. The application
+     shall be filed with the Assessor of the Village of Croton-on-Hudson on or before the taxable status date of
+     January 1 to be eligible for an exemption to be entered on the assessment roll prepared on the basis of said
+     taxable status date.
+
+     § 204-63. Sunset.
+
+     No exemption shall be allowed pursuant to this article for any newly constructed primary residential
+     property purchased by a first-time homebuyer on or after December 31, 2028, unless such purchase is
+     pursuant to a binding written contract entered into prior to December 31, 2028; provided, however, that any
+     first-time homebuyer who is allowed an exemption pursuant to this article prior to such date shall continue
+     to be allowed further exemptions pursuant to § 204-58B of this article.
+
+
+                                           ARTICLE XIII
+     Exemption for Improvements to Property Made Pursuant to the Americans with Disabilities Act of
+                                               1990
+                              [Adopted 10-23-2024 by L.L. No. 14-2024]
+
+     § 204-64. Exemption granted.
+
+     Pursuant to § 459-a of the Real Property Tax Law and subject to all the conditions set forth therein, real
+     property altered, installed or improved subsequent to the Americans with Disabilities Act of 199087 for
+     the purposes of removal of architectural barriers for persons with disabilities in existing property shall be
+     exempt from taxation and special ad valorem levies by the Village of Croton-on-Hudson as hereinafter
+     provided.
+
+     § 204-65. Exemption schedule.
+
+     Improvements to such real property shall be exempt pursuant to the following exemption schedule:
+
+                                                                Percentage of Assessed Valuation Exempt From
+                          Year of Exemption                                        Taxation
+                                       1                                             50%
+                                       2                                             45%
+                                       3                                             40%
+                                       4                                             35%
+                                       5                                             30%
+                                       6                                             25%
+                                       7                                             20%
+                                       8                                             15%
+                                       9                                             10%
+                                      10                                              5%
+
+     § 204-66. Limitations.
+
+     No exemption shall be granted unless such alterations, installations or improvements were commenced
+     subsequent to the effective date of this article. Notwithstanding the foregoing provision, such alterations,
+     installations or improvements commenced prior to the effective date of this article may receive an
+     exemption pursuant to § 204-65 above for the remainder of the authorized exemption period as if such
+     alterations, installations or improvements had been commenced on or after such effective date; however,
+     the property shall not be eligible for refunds of property taxes or special ad valorem levies paid prior to the
+     effective date of this article.
+
+     § 204-67. Application for exemption.
+
+     Such exemption shall be granted only upon application by the owner or all the owners of such building
+
+     87. Editor's Note: See 42 U.S.C.A. § 12101 et seq.
+
+
+     on a form prescribed by the State Board of Real Property Services. The application shall be filed with the
+     Assessor of the Village of Croton-on-Hudson on or before the taxable status date of January 1 to be eligible
+     for an exemption to be entered on the assessment roll prepared on the basis of said taxable status date.
+
+
+                                                    ARTICLE XIV
+                                     Exemption for Physically Disabled Crime Victims
+                                        [Adopted 10-23-2024 by L.L. No. 14-2024]
+
+     § 204-68. Exemption granted.
+
+     Pursuant to § 459-b of the Real Property Tax Law and subject to all the conditions set forth therein, where
+     the resident owner of real property used solely for residential purposes as a one-, two- or three-family
+     residence, a member of a resident owner's household or a resident of such property is a victim of a crime
+     or a good samaritan, as defined in § 621 of the Executive Law, and was physically disabled as a result of
+     such crime, any improvement to real property shall be exempt from taxation by the Village of Croton-on-
+     Hudson to the extent of any increase in value attributable to such improvement if such improvement is used
+     primarily for the purpose of facilitating and accommodating the use and accessibility of such real property
+     by such individuals.
+
+     § 204-69. Qualification; application for exemption.
+
+     A.    To qualify as a physically disabled crime victim or good samaritan for the purposes of this article, an
+           individual shall submit to the Assessor a certified statement from a physician licensed to practice in
+           the State of New York on a form prescribed and made available by the Commissioner of Taxation
+           and Finance which states that the individual has a permanent physical impairment which substantially
+           limits one or more of such individual's major life activities, except that an individual who has
+           obtained a certificate from the state commission for the blind stating that such individual is legally
+           blind may submit such certificate in lieu of a physician's certified statement. In addition, a copy of a
+           police report pertaining to the crime from which the injury resulted, a report from the office of victim
+           services or other evidence or documentation which would tend to substantiate that a physical
+           disability was inflicted upon an individual as the result of a crime shall also be submitted to the
+           Assessor.
+
+     B.    Such exemption shall be granted only upon application by the owner or all the owners of the real
+           property on a form prescribed and made available by the Commissioner of Taxation and Finance. The
+           application shall be filed together with the appropriate certified statement of physical disability or
+           certificate of blindness and police report, crime victim's board report or other substantiating
+           documentation set forth in Subsection A above with the Assessor of the Village of Croton-on-Hudson
+           on or before the taxable status date of January 1 to be eligible for an exemption to be entered on the
+           assessment roll prepared on the basis of said taxable status date. If granted, the exemption shall
+           continue until the improvement ceases to be necessary to facilitate and accommodate the use and
+           accessibility of the property by the resident crime victim or good samaritan who is physically
+           disabled.
+
+
+                                             ARTICLE XV
+           Exemption for Improvements to Real Property Meeting Certification Standards for Green
+                                                Buildings
+                                [Adopted 10-23-2024 by L.L. No. 14-2024]
+
+     § 204-70. Exemption granted.
+
+     Pursuant to § 470 of the Real Property Tax Law and subject to all the conditions set forth therein, the
+     Board of Trustees of the Village of Croton-on-Hudson hereby grants a real property tax exemption for
+     improvements to real property meeting LEED certification standards for green buildings.
+
+     § 204-71. Extent of exemption.
+
+     Construction of improvements to real property initiated on or after January 1, 2013, meeting certification
+     standards for green buildings as provided in this section, including LEED, the green building initiative's
+     green globes rating system, the national green building standards as approved by the American National
+     Standards Institute, or substantially equivalent standards for certification using a similar program for green
+     buildings as determined by the Village, using a certification standard which is equivalent to the categories
+     of certified, silver, gold or platinum as meeting green building standards, as certified by an accredited
+     professional and approved by the assessor, shall be exempt as provided below. Such exemption shall
+     be to the extent of any increase in assessed value resulting from the construction or reconstruction of a
+     property meeting LEED, green globes rating system, national green building standards or similar program
+     certification.
+
+                                  LEED or Similar Exemption Based on Certification Level
+               Year                          Silver                    Gold                   Platinum
+                  1                          100%                      100%                     100%
+                  2                          100%                      100%                     100%
+                  3                          100%                      100%                     100%
+                  4                           80%                      100%                     100%
+                  5                           60%                      80%                      100%
+                  6                           40%                      60%                      100%
+                  7                           20%                      40%                       80%
+                  8                           0%                       20%                       60%
+                  9                           0%                       0%                        40%
+                 10                           0%                       0%                        20%
+
+     § 204-72. Maximum exemption amount.
+
+     The maximum exemption amount for the exemption provided by this article shall be $200,000 of increased
+     market value of the qualifying construction improvements.
+
+     § 204-73. Criteria for eligibility.
+
+
+     A.    No such exemption shall be granted unless:
+
+           (1)    The construction of improvements to real property was commenced on or after January 1, 2013;
+
+           (2)    The value of such construction exceeds the sum of $10,000; and
+
+           (3)    Such construction is documented by a building permit and certificate of occupancy.
+
+     B.    For the purposes of this article, the term "construction of improvements" shall not include any
+           ordinary maintenance and repairs.
+
+     § 204-74. Application for exemption.
+
+     Application for an exemption pursuant to this article shall be made to the Assessor on or before the taxable
+     status date of January 1 to be eligible for an exemption to be entered on the assessment roll prepared
+     on the basis of said taxable status date. Any such application shall include documentation from a LEED-
+     accredited professional certifying that the improvements meet green building standards for the categories
+     of certified silver, gold or platinum.
+
+
+     § 204-74                                    CROTON-ON-HUDSON CODE
+
+
+                                       TELECOMMUNICATIONS FRANCHISING AND                                                           § 205-2

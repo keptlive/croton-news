@@ -38,6 +38,7 @@ import sqlite3
 import subprocess
 import sys
 import urllib.request
+import urllib.parse
 import urllib.error
 import time
 
@@ -904,11 +905,51 @@ def transcribe_video(event_id):
 
     # Upload to Deepgram — full analysis: sentiment, topics, detect_language
     print(f"  Transcribing with Deepgram Nova 3 (full analysis)...")
-    params = "&".join([
-        "model=nova-3", "diarize=true", "utterances=true", "smart_format=true",
+    # Build keyterm list from entities DB for proper noun recognition
+    import sqlite3 as _sql
+    _rag_path = os.path.join(os.path.dirname(__file__), "rag.db")
+    _keyterms = []
+    try:
+        _edb = _sql.connect(_rag_path)
+        _rows = _edb.execute(
+            "SELECT DISTINCT name FROM entities WHERE type='person' ORDER BY name"
+        ).fetchall()
+        _keyterms = [r[0] for r in _rows if len(r[0]) > 3]
+        _edb.close()
+    except Exception:
+        pass
+
+    # Add Croton-specific terms
+    _keyterms += [
+        "Croton-on-Hudson", "Croton-Harmon", "Croton Point",
+        "Senasqua", "Gouvea", "Harckham", "Luposello",
+        "Cortlandt", "Truesdale", "Scenic Drive",
+    ]
+
+    # Known Deepgram mishearings → corrections (applied server-side before output)
+    _replacements = [
+        ("Courtland Harmony", "Croton-Harmon"), ("Cortland Harmony", "Croton-Harmon"),
+        ("Nach Taylor", "Nachtaler"), ("Nachteller", "Nachtaler"),
+        ("Thalby", "Balbi"), ("Balby", "Balbi"),
+        ("Sabrizi", "Sibrizzi"), ("Jeanette Choon", "Genette Toone"),
+        ("Cronin Point", "Croton Point"), ("Quotum Point", "Croton Point"),
+        ("Sonosqua", "Senasqua"), ("Prakademic", "Pracademic"),
+    ]
+
+    base_params = [
+        "model=nova-3", "diarize_model=latest",
+        "utterances=true", "smart_format=true",
         "language=en", "sentiment=true", "topics=true", "detect_language=true",
         "paragraphs=true", "summarize=v2",
-    ])
+    ]
+    # Add keyterms (up to 100 to stay within URL limits)
+    for kt in _keyterms[:100]:
+        base_params.append(f"keyterm={urllib.parse.quote(kt)}")
+    # Add find-and-replace
+    for wrong, correct in _replacements:
+        base_params.append(f"replace={urllib.parse.quote(wrong)}:{urllib.parse.quote(correct)}")
+
+    params = "&".join(base_params)
     url = f"{DEEPGRAM_URL}?{params}"
 
     with open(audio_path, "rb") as f:

@@ -1,0 +1,151 @@
+---
+title: "Chapter 113: Electrical Standards"
+chapter: 113
+name: "Electrical Standards"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 1
+---
+
+§ 113-1.               Title.                                § 113-6.             Electrical inspectors.
+     § 113-2.               Scope.                                § 113-7.             Inspections and certifications.
+     § 113-3.               Purpose.                              § 113-8.             Connections to electrical
+     § 113-4.               Compliance with standards                                  service.
+                            required.                             § 113-9.             Penalties for offenses.
+     § 113-5.               Application for electrical work.      § 113-10.            Liability.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson 4-5-1971.
+     Sections 113-5A, 113-6A, 113-7A(1) and B, 113-9 and 113-10 amended at time of adoption of Code;
+     see Ch. 1, General Provisions, Art. I. Other amendments noted where applicable.]
+
+                                                        GENERAL REFERENCES
+
+     Penalties for offenses — See Ch. 1, § 1-12.                  Building construction — See Ch. 86.
+
+     Alarm systems — See Ch. 70.                                  Fire prevention — See Ch. 125.
+
+
+     § 113-1. Title.
+
+     The following provisions shall constitute and be known as the "Electrical Standards of the Village of
+     Croton-on-Hudson" and be cited as such.
+
+     § 113-2. Scope.
+
+     This chapter shall apply to all real property within the Village of Croton-on-Hudson.
+
+     § 113-3. Purpose.
+     The purpose of this chapter is the practical safeguarding of persons and of buildings and their contents
+     from hazards arising from the use of electricity.
+
+     § 113-4. Compliance with standards required.
+
+     A.     All electrical installations shall be made in conformity with the provisions of the latest edition of the
+            National Electrical Code (NFPA No. 70), as adopted by the National Fire Protection Association and
+            as approved and adopted by the American Standards Association.
+
+     B.     This chapter will be automatically amended whenever the National Electrical Code is amended.
+
+     C.     All new construction over which the Village of Croton-on-Hudson has jurisdiction must be made to
+            conform to the requirements of this chapter.
+
+     D.     All new electrical wiring within the limits of the Village of Croton-on-Hudson must be done in
+            accordance with the requirements of this chapter.
+
+
+     § 113-5. Application for electrical work.
+
+     A.    No writing, device or equipment for the transmission, distribution or utilization of electrical energy
+           or light, power and/or heat shall be installed in or on any building or structure, nor shall any alteration
+           or addition be made to any such existing wiring, devices or equipment, without first submitting an
+           application for such work to an authorized agency. [Amended 5-7-1990 as L.L. No. 2-1990;
+           3-6-2023 by L.L. No. 1-2023]
+
+     B.    Exceptions. No application shall be required for replacing fuses or for connecting portable devices to
+           suitable receptacles which have previously been permanently installed.
+
+     § 113-6. Electrical inspectors.
+
+     A.    Any agency duly authorized by Westchester County is hereby empowered to provide one or more
+           electrical inspectors, as required, to make inspections and reinspections of all new installations and
+           of all existing installations as provided for in this chapter. All such agencies will be subject to
+           approval by the Village Engineer prior to conducting any inspections as authorized by this chapter.
+           [Amended 5-7-1990 as L.L. No. 2-1990; 3-6-2023 by L.L. No. 1-2023]
+
+     B.    It shall be unlawful for electrical inspectors to engage in the business or the sale, installation or
+           maintenance of electrical wiring, electrical devices or electrical equipment, either directly or
+           indirectly, and they shall have no financial interest in any concern engaged in any such business in
+           the Village of Croton-on-Hudson or elsewhere.
+
+     C.    Authority granted to electrical inspector. The inspector or his authorized deputy shall have the right
+           during reasonable hours to enter any building in the discharge of his official duties or for the purpose
+           of making any inspection or test of the installation of electrical wiring, electrical material or
+           apparatus, fixtures or appliances, contained therein.
+
+     D.    In no event will the cost or expense of such inspections and reinspections be a charge against the
+           Village of Croton-on-Hudson.
+
+     § 113-7. Inspections and certifications.
+
+     A.    Certification following inspection. [Amended 5-7-1990 as L.L. No. 2-1990; 3-6-2023 by L.L. No.
+           1-2023]
+
+           (1)    Upon the completion of the installation of the electrical wiring, devices and equipment, it shall
+                  be the duty of the person, firm or corporation installing the same to notify an authorized agency,
+                  whose inspector shall inspect the installation promptly after such notice is given. If it is found
+                  to be fully in compliance with the provisions of this chapter, he shall issue the certificate of the
+                  authorized agency to such person, firm or corporation as a final approval authorizing connection
+                  to the electrical service and/or the turning on of the current and the use of the installation. He
+                  shall send written notice of the authorization to the public utility corporation furnishing the
+                  electrical service. When a certificate is issued authorizing the connection and the use of
+                  temporary work, such a certificate shall be issued to expire at a stated time and shall be
+                  revocable by the inspector at his discretion.
+
+           (2)    If, upon the inspection of the installation, it is not found to be fully in compliance with this
+                  chapter, the inspector shall at once forward to the person, firm or corporation installing the
+                  wiring a written notice stating the defects which have been found to exist.
+
+
+     § 113-7                                       CROTON-ON-HUDSON CODE
+
+            (3)    When any part of a wiring installation is to be concealed from view by the permanent placement
+                   of parts of the building, the person, firm or corporation installing the wiring shall notify the
+                   inspector. Such parts of the wiring installation shall not be concealed until they have been
+                   inspected.
+
+     B.     No certificate of occupancy shall be issued until a copy of the certificate of the inspection agency has
+            been filed with the Village Engineer.44
+
+     § 113-8. Connections to electrical service.
+
+     A.     It shall be unlawful for any person, firm or corporation to make connection from a source of electrical
+            energy to any electrical wiring, devices or equipment for the installation of which an application is
+            required until a certificate of approval has been issued by the inspector authorizing such connection
+            and/or the use of such wiring, devices or equipment.
+
+     B.     It shall be unlawful for any person, firm or corporation to make connection from a source of electrical
+            energy to any electrical devices, wiring or equipment which has been disconnected or ordered to be
+            disconnected by the inspector until a certificate of approval has been issued by him authorizing the
+            reconnection and use of such wiring, devices or equipment.
+
+     § 113-9. Penalties for offenses.45
+
+     Any person, firm or corporation who shall fail to comply with any of these provisions hereof shall, upon
+     conviction thereof of each offense, be subject to the penalties provided by § 1-12 of Chapter 1, General
+     Provisions. Each and every day that such violation continues shall constitute a separate offense.
+
+     § 113-10. Liability. [Amended 5-7-1990 as L.L. No. 2-1990; 3-6-2023 by L.L. No. 1-2023]
+
+     This chapter shall not be construed to relieve from or lessen the responsibility of any person owning,
+     operating, controlling or installing any electrical wiring, devices, appliances or equipment for loss of life
+     or damage to person or property caused by any defect therein, nor shall the Village of Croton-on-Hudson
+     or other authorized agency be deemed to have assumed any such liability by reason of any inspection made
+     pursuant to this chapter.
+
+
+     44. Editor's Note: Amended at time of adoption of Code; see Ch. 1, General Provisions, Art. I.
+     45. Editor's Note: Amended at time of adoption of Code; see Ch. 1, General Provisions, Art. I.
+
+
+                                                   ENERGY CONSERVATION

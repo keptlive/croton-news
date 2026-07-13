@@ -1,0 +1,640 @@
+---
+title: "LL 1-1998: "
+source: Village of Croton-on-Hudson Local Law
+date: 1998-01-20
+chapters: 
+status: current
+---
+
+LL 1-1998
+Filed: 1998-01-20
+Amends: 
+
+
+---
+title: "Local Law 1-1998: "
+source: Village of Croton-on-Hudson Local Law
+date: 1998-01-20
+---
+
+Local Law 1-1998
+Filed: 1998-01-20
+
+
+T X ^ ^ J I"
+LIOCUL LIUW
+
+I7;/;*irr
+r Ulflg
+
+NEWYORKSTATEDEPARTMENTOFSTATE
+162 WASHINGTON AVENUE, ALBANY, NY 12231
+
+(Use this form to flle a local law with the Secretary of State.)
+Text of law should be given as aniended. Do not include matler being eUminated and
+italics or underlining lo indicate new matler.
+eityx
+
+^Of^f^f^
+^ *^
+^ \ ^
+_
+
+Croton on Hudson
+
+,
+
+Village
+Local Law No.
+Alocallaw
+
+-
+
+of the year 19--—
+
+regulate telecommunications towers.
+
+-^.^^^^^
+- •"'
+
+•Insert Tille)
+
+Be It enacted by the
+
+^^^L^.J?!.'^^^^^!^.
+
+of the
+
+(Neme oflegiiletive Body)
+
+^
+
+of
+
+^L9?.?l.?.']..[^.4f!?^^^^^
+
+as follows:
+
+VlUage
+
+Section 1. Purpose and Intent:
+The purpose ofthis law is to establish predictable and balanced regulations for the siting
+and screening of personal wireless services antennas, towers, and accessory structures in
+order to accommodate the growUi of such systems within the ViUage while protecting the
+public against any adverse impacts on aesthetic resources, avoiding potential damage to
+adjacent propertiesfiromtower failure through structural standards and setback
+requirements, and reduce the number of towers needed to serve the community by
+maximizing the use of existing towers and buildings.
+Section 2: Definitions:
+Personal Wireless Services (PWS) - commercial mobile services, cellular services, PCS
+services, unlicensed wireless services, and common carrier wireless exchange access
+services as defmed by Section 704 of the Federal Telecommunications Act.
+Antenna - a device used to U-ansmit and/or receive radio or electromagnetic waves,
+including but not limited to directional antennas, such as panels and microwave dishes
+and omni-directional antennas, such as whip antennas.
+
+(If addUional space is needed, attach pages the same size as this sheet, and nQlniKlS^«B!eb))
+(1)
+P'^^'
+DOS-239 (Rev. 7/91)
+
+Tower - any ground, building or roof mounted pole, spire, structure, or combination
+thereof taller than 15 feet, including supporting lines, cables, wires, braces, and masts,
+built for the purpose of mounting an antenna, meteorological device, or similar apparatus
+above grade.
+Accessorv Structures - accessory buildings and structures, including base stations
+designed and used to shelter equipment and/or to support PWS. The term accessory
+structures does not include offices, long-term storage of vehicles or other equipment
+storage, or broadcast studios.
+Board ofTrustees - the Board ofTrustees of the Village of Croton-on-Hudson.
+Section 3: Review Authority:
+A.
+
+This local law is enacted pursuant to the provisions of Section 10 of the Municipal
+Home Rule Law.
+
+B.
+
+No anterma or tower shall hereafter be used, erected, changed or altered except
+after obtaining a special use permit in conformity with this law.
+
+C.
+
+The Board ofTrustees is hereby authorized to review and approve, approve with
+modifications or disapprove special use permits pursuant to this law. The Board
+ofTrustees sliall have the authority to impose such reasonable conditions and
+restrictions as are directly related to and incidental to the proposed anterma, tower,
+or accessory structures.
+
+Section 4: Location and Colocation Requirements:
+Colocation Requirements - All towers erected, constructed, or located within the Village
+shall comply with the following requirements:
+A.
+
+A proposal for a tower shall not be approved unless the Board ofTrustees finds
+that the anteima platmed for the proposed tower cannot be accommodated on an
+existing or approved tower or building within a two-mile radius (one mile search
+radius for towers under 80 feet in height) of the proposed tower due to one or
+more of the following reasons;
+I
+
+The antenna would exceed the structural capacity of the existing or
+approved tower or building, as documented by a qualified professional
+engineer, and the existing or approved tower caimot be reinforced,
+modified, or replaced to accommodate the planned or equivalent antenna
+at a reasonable cost.
+
+2.
+
+The antenna would cause interference materially impacting the usability of
+other existing or planned antenna at the tower or building as documented
+Celltwrlaw97.doc
+page 2
+
+by a qualified engineer and the interference cannot be prevented at a
+reasonable cost.
+3.
+
+Existing or approved towers and buildings within the search radius cannot
+accommodate the antenna at a height necessary to function reasonably as
+documented by a qualified engineer.
+
+4.
+
+Other foreseen reasons that make it not feasible to locate the antenna upon
+an existing or approved tower or building.
+
+The applicant shall have the burden of proof to establish the existence of any of
+the reasons set forth in " I " through "4" above.
+B.
+
+Any proposed tower shall be designed, structurally, electrically, and in all
+respects, to accommodate both the applicant's antennas and comparable antennas,
+whether using the same or different technologies, for at least three additional users
+ifthe tower is over 100 feet in height or for at least one additional user ifthe
+tower is over 60 feet in height. Towers must be designed to allow for future
+rearrangement of antennas upon the tower and to accept anteimas mounted at
+varying heights.
+The applicant shall submit to the Board ofTrustees a letter of intent committing
+the applicant, and his/her successors in interest, to negotiate in good faith for
+shared use ofthe proposed tower by other PWS providers in the future. The
+issuance of a permit (assuming the tower is approved according to this section),
+shall commit the new tower owner and his/her successors in interest to:
+1.
+
+Respond in a timely comprehensive manner to a request for information
+fi'om a potential shared-use applicant and to provide information at the
+request of any public body or authority that has received, or is exercising
+jurisdiction over, an applicationfiroma potential shared-use party.
+
+2.
+
+Negotiate in good faith concerning future requests for shared use of the
+new tower, by other PWS providers.
+
+3.
+
+Allow shared use of the new tower if another PWS provider agrees in
+writing to pay charges.
+
+4.
+
+Make no more than a reasonable charge for shared use, based on generally
+accepted accounting principles, no greater than prevailing charges for
+similar shared uses in Westchester County. The charge may include but is
+not limited to a pro rata share of the cost of site selection, planning, project
+administration, land costs, site design, construction and maintenance
+financing, retum on equity, and depreciation, and all of the costs of
+
+Cclltwrlaw97.doc
+page 3
+
+adapting the tower or equipment to accommodate a shared user without
+causing electromagnetic interference.
+C.
+
+In order to keep neighboring municipalities informed, and to facilitate the
+possibility of directing that an existing tall structure or existing tower in a
+neighboring municipality be considered for shared use, the Board ofTrustees shall
+require that:
+1.
+
+An applicant who proposes a new tower shall notify in writing the
+legislative body of each municipality that borders the Village and the
+County Planning Board. Notification shall include the exact location of
+the proposed tower, and a general description ofthe project including, but
+not limited to the height of the tower and its capacity for future shared use.
+
+2.
+
+Documentation of this notification shall be submitted to the Board of
+Trustees at the time of application.
+
+D.
+
+The Board ofTrustees may designate a preferred area or areas for the
+siting of towers within the Village, and if no existing tower or tall building
+in a neighboring community will obviate the need for a tower within the
+Village and a designated preferred area is functionally and financially
+adequate for applicant's service requirements and will not result in a
+violation of Section 5-F-3 of this local law, then the applicant must use its
+best efforts to locate its tower in such area.
+
+£.
+
+The applicant must establish that there is no other available area functionally andfinanciallyadequate for a tower location that will have less
+visual or aesthetic impact.
+
+Section 5: Performance Standards:
+A. Proof of Non-interference from Antenna
+Each application for installation of an antenna shall include either a preliminary or a
+certified statement that the installation of the antenna, including reception and
+transmission functions, will not interfere with the radio or television service enjoyed by
+residential and nonresidential properties or with public safety telecommunications. In the
+event only a preliminary statement is submitted with the application, afinalcertified
+statement of non-interference will be provided and approved by the Village prior to the
+issuance of a permit The statement shall be prepared by a professional engineer. In the
+event thefimctioningof an antenna causes interference with such radio or television
+service or pubUc safety telecommunications and continues for a period of thirty days after
+notice to the owner ofthe tower and user of the antenna, the special pemiit shall become
+null and void.
+
+Ce I ltwrlaw97.doc
+pagc 4
+
+B. Antenna Safety
+Antennas shall be subject to state and federal regulafions pertaining to non-ionizing
+radiation and other health hazards related to such facilities. The owner ofthe antenna
+shall submit to the Board ofTrustees evidence of compliance with the FCC standards on
+a yearly basis. If new, more restrictive standards are adopted, the antennas shall be made
+to comply or continued operations may be restricted or prohibited by the Board of
+Trustees. The cost of verification of compliance shall be bome by the owner and operator
+of the tower.
+C. Tower Lighfing
+Towers shall not be illuminated by artificial means and shall not display any lights imless
+such lighting is specifically required by the Federal Aviation Administrafion or other
+i ederal or state authority for a particular tower. When incorporated into the approved
+design ofthe tower, light fixtures used to illuminate ballfields,parking lots, or similar
+areas may be attached to the tower.
+D. Signs and Advertising on Towers
+The use of any portions ofa tower for signs other than waming or equipment information
+signs is prohibited. Any signs must be approved as to size and location by the Board of
+Trustees.
+E. Tower Height Limitations
+No tower shall be higher than the minimum height necessary to achieve its objective.
+Maximum height of a tower is limited to 150' above the ground upon which the antenna
+is placed. The Board ofTrustees may allow towers up to 200' high if the applicant can
+demonstrate that based upon the topography ofthe site and surrounding area, siting ofthe
+antenna, antenna design, surrounding tree cover and structures and/or through the use of
+screening, that off-site views ofthe tower will be minimized. The height limitation may
+be waived by the Board ofTrustees when the antenna is mounted on an existing building
+or structure or to accommodate colocafion.
+F. Tower Building Requirements
+1.
+
+The use of guyed towers is prohibited. Towers must be self-supporting
+without the use of wires, cables, beams or other means. The design should
+ufilize an open framework or monopole configurafion. Permanent
+platforms or structures exclusive of antennas that serve to increase off-site
+visibility are prohibited.
+
+Cclltwriaw97.doc
+page 5
+
+2.
+
+The base of the tower shall occupy no more than 500 square feet and the
+top dfthe tower shall be no larger than the base.
+
+3.
+
+In instances in which colocation cannot be accomplished, the minimum
+spacing between tower locations is VA mile.
+
+G. Access to Toweirs
+A road and parking must be provided to assure adequate emergency and service access.
+Maximimi uses of existing roads, public or private, shall be made.
+H. Setbacks for Towers and Accessory Structures
+Towers and all accessory structures shall conform with each of the following minimum
+setback requirements:
+1.
+
+The minimum setbacks of the underlying zoning districts shall be met with
+the exception of industrial zoning districts, where towers and accessory
+structures may encroach into the rear setback area, provided that the rear
+property line abuts another industrially zoned property and the tower does
+not encroach upon any easements.
+
+2.
+
+Towers and accessory structures shall be set backfiromthe planned public
+rights ofway as shown on the most recently adopted plan or map ofthe
+Village showing such rights of way, by a minimum distance equal to one
+half of the height of the tower including all antennas and attachments.
+
+3.
+
+A tower's setback may be reduced in the sole discretion of the Board of
+Trustees to allow the integration of a tower into an existing or proposed
+structure such as a church steeple, light pole, power line, or similar
+structure.
+
+I. Compliance with Subdivision Regulafions
+Towers can be erected only on property that complies with the Village's subdivision
+regulations.
+J. Screening and Security of Towers and Accessory Structures
+1.
+
+Existing on-site vegetafion shall be preserved to the maximum extent
+pracficable.
+
+2.
+
+The base ofthe tower and any accessory structures shall be landscaped.
+
+Cdltwrlaw97.doc
+page 6
+
+3.
+
+Towers and accessory stmctures shall be provided with security fencing to
+prevent unauthorized entry.
+
+4.
+
+Lighting of accessory buildings and base areas of antennas may be
+restricted by the Board ofTrustees.
+
+K. Design of Antennas, Towers, and Accessory Structures
+Towers and antennas shall be designed to blend into the surrounding environment
+through the use of color and camouflaging architectural treatment, except in instances
+where the color is dictated by federal or state authorities such as the Federal Aviation
+Administration. Every antenna and tower shall be of neutral colors that are harmonious
+with, and that blend with, the natural features, buildings and structures surrounding such
+antenna and structure and, where appropriate, with the sky, provided however, that
+directional or panel antenna and omni-directional or whip antennas located on the exterior
+of a building that will also serve as an antenna tower shall be of colors that match, and
+cause the antenna to blend with, the exterior of the building. Accessory structures will be
+designed to be architecturally compatible with principal structures on the site.
+L. Compliance with Other Laws:
+Prior to issuance ofa special use permit to the tower owner and in the case of
+subsequently added £intennas prior to their installation, the operator of every PWS
+antenna shall submit to the Village Manager copies of all licenses and pennits required by
+other agencies and governments with jurisdiction over the design, construction, location
+and operation of such antenna and shall maintain such licenses and permits and provide
+evidence of renewal or extension thereof when granted.
+M. Assignment of Permit:
+Every permit granting approval of an antenna or tower shall state that any assignment or
+transfer of the permit or any rights thereunder may be made only with the approval ofthe
+Board ofTrustees.
+N. Review:
+The permit shall be subject to review by the Board ofTrustees at five year intervals, to
+determine whether the technology in the provision of PWS has changed such that the
+necessity for the permit at the time ofits approval has been eliminated or modified, and
+whether the permit should be modified or terminated as a result of any such change.
+
+C:elUwT!iiw97.do\;
+page 7
+
+O. Fees:
+The applicant for a special use permit under this local law shall pay to the Village a fee of
+$250.00 with the filing of this application.
+P. Escrow Account
+The applicant shall provide funds to an escrow account, in an amount determined by the
+Board ofTrustees, to allow the Village to retain such technical experts as may be
+necessary to review the proposal, including, but not limited to, the review offinancialand
+technical aspects of the proposal and of thefinancialand technical practicability of
+altematives that may be available to the applicant; provided that nofimdsshall be
+deposited until the scope of work is agreed upon among die applicant, the expert(s) and
+the Board ofTrustees.
+Q. Abandoned or Unused Towers:
+Abandoned or unused towers or portions of towers shall be removed as follows:
+1.
+
+All abandoned or unused towers and associated facilities shall be removed
+within 90 days ofthe cessation of operations at the site unless a time
+extension is approved by the Board ofTrustees. A copy of the
+relevant portions ofa signed lease which requires the applicant to
+remove the tower and associated facilities upon cessation of operations at
+the site shall be submitted at the time of application; and any renewal or
+substitute lease must contain such a provision which shall be submitted to
+the Board ofTrustees.
+
+2.
+
+As a condifion of granfing any special use permit, the Board of Trustees
+shall require the applicant to post a bond, in the amount determined by the
+Board ofTrustees based on engineering estimates, to cover the costs of
+removing and disposing of the tower, antenna and associated facilities. In
+the event that a tower is not removed within 90 days of the cessation of
+operations at a site, the tower and associated facilities may be removed by
+the Village and the costs of removal assessed against the property, the
+bond, or both.
+
+3.
+
+The owner of the tower shall, within 30 days of the event, notify the Board
+ofTrustees in writing of the cessation of operafions at the site or the
+removal or cessation of operations of any antenna located on the tower.
+
+4.
+
+Unused portions of towers above a manufactured coimection shall be
+removed within 90 days of the time of antenna relocation. The
+replacement of portions of a tower previously removed requires the
+issuance of a new special use permit.
+
+Celltwrlaw97.doc
+page 8
+
+R. Effect of Law on Existing Towers and Antennas:
+Anteimas and towers in existence which do not conform to or comply with this law are
+subject to the following provisions:
+1.
+
+Antennas and towers may continue in use for the purpose now used and as
+now existing but may not be replaced or structurally altered without
+complying in all respects with this law.
+
+2.
+
+If such antennas or towers are hereafter damaged or destroyed due to any
+reason or cause whatsoever, the antenna or tower may be repaired and
+restored to its former use, location, and physical dimensions, without
+complying with this law, provided, however, that if the cost of repairing
+the tower to the former use, physical dimensions, and location would be
+ten percent or more of the cost of a new tower of like kind and quality,
+then the tower may not be repaired or restored except in full compliance
+with this law.
+
+S. Procedural Requirements:
+The Board ofTrustees shall conduct a public hearing within 62 days from the day an
+application, with supporting material as required by this local law or olher applicable
+law, is received. The Board shall issue a decision within 30 days after the hearing, except
+that the time may be extended with the consent of the applicant or if necessary to complete the SEQRA process. Any denial for a permit under this law shall be in writing and
+supported by substantial evidence.
+Prior to or concurrent with the filing of a formal application for a special use permit, the
+applicant shall submit information needed to meet the requirements of the New York
+State Environmental Quality Review Act (SEQRA).
+T. Severability:
+If any word, phrase, or part of this local law shall be declared unconstitufional, the same
+shall be severed and separated from the remainder of this local law, and said remainder
+shall continue in fiill force and effect.
+U. Inconsistency:
+Pursuant to New York Municipal Home Rule Law 22, the provisions of this local law are
+intended to supersede any inconsistent provision of law.
+V. Effective Date:
+This law shall become effective immediately upon filing with the Secretary of State.
+Celltwrlaw97.doc
+page 9
+
+(Complete the certiflcation In the paragraph that applies to the flUng of this local law and
+strike out that which is not applicable.)
+1. (Final adoption by local legislative body only.)
+1
+QR
+I hereby certify that lhe local law annexed herelo, designated as local law No.
+----of 19 ^°
+oflhe (6Si3(MKx)0Oity)(Tbwai)(V^^^
+of ...CJCnton-onrJHlJdsnn
+was duly passed by the
+. BpArg.. of.Truste.e.S.
+on —OaauarX-5. 199B:, in accordance with the applicable provisions of law.
+{Name of Legislative Bodvi
+
+2. (Passage by local legislative body with approval, no disapproval or repassage after disapproval
+by the Elective ChiefExecutive Officer*.)
+1 hereby certify ihal the local law annexed hereto, designaled as local law No.
+--of 19
+of lhe (Counly)(Cily)(Town)(Village) of
+-was duly passed by the
+—
+on
+—
+19 — , and was (approved)(not approved)(repassed after
+(Name of Legislaiive Body)
+
+disapproval) by the
+
+---
+
+and was deemed duly adopted on
+
+19----,
+
+(Elective Chief Execuave Officer*)
+
+in accordance wilh the applicable provisions of law.
+
+3. (Final adoption by referendum.)
+I hereby certify thai the local law annexed hereto, designaled as local law No.
+of 19
+of the (Counly)(Cily)(Town)(Village) of
+-was duly passed by the
+on
+19----, and was (approved)(nol approved)(repassed after
+IName ofLegulative Sody)
+
+disapproval) by the
+
+:
+
+--
+
+on
+
+-
+
+19----. Such local law was submitted
+
+{Elective ChiefExecutive Officer*)
+
+to the people by reason of a (manda tory)(permiss ive) referendum, and received the affirmalive vote ofa majorily of
+the qualified electors voting ihereon at the (general)(special)(annual) election held on
+—19---- , in
+accordance with the applicable provisions of law.
+
+4. (Subject to permissive referendum andflnaladoption because no valid petition was flled requesting
+referendum.)
+1 hereby certify that the local law annexed hereto, designated as local law No.
+- of 19
+of lhe (Counly)(City)(Town)(Village) of was duly passed by the
+—
+— on
+19— , and was (approved)(nol approved)(repassed after
+IName of Legislative Bodv)
+
+disapproval) by the
+
+- on --
+
+1 9 - - . Such local law was subjeci lo
+
+(Elective Chief Executive Officer*!
+
+permissive referendum and no valid petition requesting such referendum was filed as of
+accordance with the applicable provisions of law.
+
+19L..- , in
+
+* Elective Chief Executive Offlcer means or Includes the chief executive offlcer of a county elected on a countywide basis or, If there be none, the chairperson of the county legislative body, the mayor of a city or village, or
+the supervisor of a town where such offlcer Is vested with the power to approve or veto local laws or ordinances.
+(2)
+
+5. (City local law conceming Charter revision proposed by petition.)
+I hereby certify that the local law annexed hereto, designated as local law No
+-of 19
+of the City of—
+- having been submitled to referendum pureuant to lhe provisions of
+section (36)(37) of the Municipal Home Rule Law, and having received the affirmative vole of a majority of the
+qualified electore of such city voiing thereon at the (special)(general) election held on
+19-—,
+became operative.
+
+6. (County local law conceming adoption of Charter.)
+I hereby certify that the local law annexed herelo, designated as local law No
+-of 19
+of the County of
+—
+Slale of New York, having been submitted lo the electore
+at the General Election of November - - 19----, pursuant to subdivisions 5 and 7 of seclion 33 of the
+Municipal Home Rule Law, and having received the affirmafive vote of a majority of the qualified eleclore of the cities of said counly as a unit and a majority of the qualified electore of the towns of said counly considered as a unil
+voting at said general election, became operative.
+(If any other authorized form offlnal adoption has been followed, please provide an appropriate certiflcation.)
+I further certify that I have compared the preceding local law with the original on file in this office and that the same
+is a correct transcript therefrom and of the whole of such original local law, and was gnally adopted in the manner indicated in paragraph-.-^n?—above.
+Oerk of the County legislative body. City, Town or Village Clerk
+or officer designated by local legislative body
+
+,o
+(Seal)
+
+Dale:
+
+January 6, 1998
+1 !
+
+(Certiflcation to be executed by County Attomey, Corporation Counsel, Ibwn Attomey, Village Attorney or
+other authorized attomey of locality.)
+STATE OF NEW YOI
+COUNTYOF
+^^stchester
+I, the undereigned, hereby certify thai the foregoing local law contains the correct lext and that all proper proceedings
+have been had or taken for the enactment of lhe local law annexed herelo.
+Signature
+
+^
+
+V i l l a a e Attorney ._
+
+City
+
+.
+
+Village
+Date
+(3)
+
+Croton-on-Hudson
+
+

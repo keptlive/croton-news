@@ -1,6 +1,20 @@
 {% extends "history/base.html" %}
 {% block title %}Stories — Deep Dives into Croton History{% endblock %}
 
+{% block breadcrumb_schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://croton.news/"},
+    {"@type": "ListItem", "position": 2, "name": "Historical Archive", "item": "https://croton.news/history"},
+    {"@type": "ListItem", "position": 3, "name": "Stories"}
+  ]
+}
+</script>
+{% endblock %}
+
 {% block head %}
 <style>
 .stories-hero {

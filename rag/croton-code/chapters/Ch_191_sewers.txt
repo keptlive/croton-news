@@ -1,0 +1,601 @@
+---
+title: "Chapter 191: Sewers"
+chapter: 191
+name: "Sewers"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 0
+---
+
+ARTICLE I                              § 191-18.     Prohibited wastes.
+                       Purpose; Definitions                       § 191-19.     Rejection or pretreatment of
+                                                                                certain wastes.
+     § 191-1.             Purpose.                                § 191-20.     Determination factors.
+     § 191-2.             Definitions.                            § 191-21.     Pretreatment sampling
+                                                                                facilities, inspections.
+                        ARTICLE II                                § 191-22.     Restrictions on use of storm
+                Construction and Maintenance                                    sewers.
+                                                                  § 191-23.     Tests and manholes.
+     § 191-3.             Supervision.                            § 191-24.     Industrial exceptions.
+     § 191-4.             Permit required.                        § 191-25.     Discharge of effluents from
+     § 191-5.             Application for permit.                               private systems prohibited.
+     § 191-6.             Materials and work.
+     § 191-7.             Tampering with sewers                                   ARTICLE V
+                          prohibited.                                         Sanitary Sewer Rents
+     § 191-8.             Regulations and restrictions.
+     § 191-9.             Street openings.                        § 191-26.     Purpose.
+     § 191-10.            Fees.                                   § 191-27.     Definitions.
+                                                                  § 191-28.     Establishment of sanitary sewer
+                          ARTICLE III                                           rents.
+                     Use of Sewers Required                       § 191-29.     Determination of costs.
+                                                                  § 191-30.     Calculation of rents.
+     § 191-11.            Deposit of wastes restricted.           § 191-31.     Billing and payments.
+     § 191-12.            Discharge to outlets and storm          § 191-32.     Late payments, penalties, liens
+                          sewers restricted.                                    and collection.
+     § 191-13.            Connections to sewers required.         § 191-33.     Collected sanitary sewer rents;
+                                                                                sewer rent fund.
+                         ARTICLE IV                               § 191-34.     Consistency with General
+                  Discharges to Public Sewers                                   Municipal Law.
+                                                                  § 191-35.     Severability.
+     § 191-14.            Conformance with county
+                          regulations.
+                                                                                  ARTICLE VI
+     § 191-15.            Only designated uses permitted.                          Penalties
+     § 191-16.            Certain waters prohibited.
+     § 191-17.            Use of storm sewers or natural          § 191-36.     Notice of violation.
+                          outlets.                                § 191-37.     Penalties for offenses.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson 2-7-1966.
+     Amendments noted where applicable.]
+
+
+                                                            SEWERS
+
+
+                                                        GENERAL REFERENCES
+
+     Penalties for offenses — See Ch. 1, § 1-12.                  Streets and sidewalks — See Ch. 197.
+
+     Assessments for sewer improvements — See Ch. 7.              Water supply protection — See Ch. 223.
+
+     Plumbing — See Ch. 175.
+
+
+                                                           ARTICLE I
+                                                        Purpose; Definitions
+
+     § 191-1. Purpose. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+     In order to assure the proper disposal of sewage and wastewaters and the proper operation and maintenance
+     of the public sewers, sewage treatment plant and other sewage works within the Village of Croton-on-
+     Hudson, the following regulations are enacted by the Village of Croton-on-Hudson, under the authority of
+     the Village Law of the State of New York.
+
+     § 191-2. Definitions.
+
+     A.    Unless the context specifically indicates otherwise, the meanings of the terms used in these
+           regulations shall be as follows:
+           BOD ("denoting biochemical oxygen demand") — The quantity of oxygen utilized in the biochemical
+           oxidation of organic matter under standard laboratory procedure in five days at twenty degrees
+           centigrade, expressed in milligrams per liter (mg/l) by weight.
+           CHLORINE DEMAND — The amount of chlorine which must be added to water or waste to produce
+           a residual chlorine content of at least one-tenth mg/l after a minimum contact time of 10 minutes.
+           GENERAL FOREMAN — The General Foreman of the Department of Public Works of the Village
+           of Croton-on-Hudson or his authorized deputy, agent or representative.
+           NATURAL OUTLET — Any outlet into a watercourse, pond, ditch, lake or other body of surface or
+           ground water.
+           PERSON — Any individual, firm, company, association, society, corporation or group.
+           pH — The logarithm of the reciprocal of the weight of hydrogen ions in grams per liter of solution.
+           SEWAGE — Wastewater or water-carried wastes from residences, business buildings, institutions
+           and industrial establishments. "Sewage" shall be further classified as follows:
+
+           (1)    DOMESTIC OR SANITARY SEWAGE — The solid and liquid wastes from toilet and lavatory
+                  fixtures, kitchens, laundries, bathtubs, shower baths or equivalent plumbing fixtures as
+                  discharged from dwellings and business and industrial buildings.
+
+           (2)    INDUSTRIAL SEWAGE OR WASTES — Includes the liquid-carried wastes of any industrial
+                  process as distinct from domestic or sanitary sewage. All substances carried in industrial wastes,
+                  whether dissolved, in suspension or mechanically carried by liquid, shall be considered as
+                  industrial wastes.
+
+           (3)    STORMWATER — Includes the runoff or discharge of rain and melted snow or other water
+                  from roofs, surfaces of public or private lands or elsewhere. "Stormwater" also shall include
+                  subsoil drainage, as defined below.
+
+           (4)    SUBSOIL DRAINAGE — Includes water from the soil percolating into subsoil drains and
+                  through foundation walls, basement floors or underground pipes.
+
+           (5)    COOLING WATER — Includes the wastewater from air-conditioning, industrial cooling,
+                  condensing and hydraulically powered equipment or similar apparatus.
+
+           (6)    GARBAGE — Solid wastes from the preparation, cooking and dispensing of food and from
+
+
+                  the handling, storage and sale of produce. "Properly shredded garbage" shall mean garbage
+                  which has been shredded so that no garbage particles will be greater than one-half inch in any
+                  dimension.
+           SEWAGE TREATMENT PLANT — Any arrangement of devices and structures used for treating
+           sewage.
+           SEWAGE WORKS — All facilities for collecting, pumping, treating and disposing of sewage or
+           wastewater.
+           SEWER or DRAIN — The pipe or conduit, together with manholes and other structures or equipment
+           appurtenant thereto, provided to carry sewage waste liquids, stormwater or other waters. "Sewers"
+           shall be further classified as follows:
+
+           (1)    PUBLIC SEWER — A trunk, main or lateral sewer up to and including the Y-branch or tee
+                  provided for connection thereto and to which all owners of abutting properties have equal rights
+                  and which is controlled by public authority. The "public sewer" does not include the building or
+                  house sewer or the building connection lateral after it is connected with a building sewer.
+
+           (2)    SANITARY SEWER — A sewer which carries only sanitary sewage and to which stormwater,
+                  subsoil drainage and cooling water are not intentionally admitted.
+
+           (3)    COMBINED SEWER — A sewer receiving both stormwater and domestic sewage, including
+                  acceptable discharge of industrial wastes, subsoil drainage and cooling water.
+
+           (4)    STORM SEWER or STORM DRAIN — A pipeline carrying stormwater, subsoil drainage,
+                  acceptable cooling water or other reasonably clean waters, but excluding domestic and polluted
+                  industrial waste.
+           SLUG — Any discharge of water, sewage or industrial waste which, in concentration of any given
+           constituent or in quantity of flow, exceeds for any period of duration longer than 15 minutes more
+           than five times the average twenty-four-hour concentration or flow during normal operation.
+           SUSPENDED SOLIDS — Solids that either float on the surface of or are in suspension in water,
+           sewage or other liquids and which are removable by filtering as prescribed in Standard Methods for
+           the Examination of Water, Sewage and Industrial Waste of the American Public Health Association.
+           VILLAGE — The Village of Croton-on-Hudson or the village's duly authorized representatives,
+           including but not limited to the General Foreman, as defined herein.
+           WATERCOURSE — A channel in which a flow of water occurs, either continuously or
+           intermittently.
+
+     B.    As used herein, the word "shall" is mandatory; "may' is permissive.
+
+
+                                                         ARTICLE II
+                                                 Construction and Maintenance
+
+     § 191-3. Supervision. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+     The construction, repair and maintenance of all sewers, drains, cesspools, sewer connections and
+     appurtenances, public, private or municipal, are and, for all purposes herein specified, shall be under the
+     supervision and control of the General Foreman or his duly authorized agents and employees.
+
+     § 191-4. Permit required.
+
+     Before commencing the repair, modification or construction of any connection with any public or
+     municipal sewer, a permit therefor must be obtained from the General Foreman, which permit shall be
+     upon the grounds at all times during the progress of the work above referred to and which permit must be
+     shown to any official of said Village of Croton-on-Hudson, New York, on demand. Such permit shall state
+     the place where such connection is to be laid, the points where any public street or highway is to be opened
+     up and the size, manner and material of which said connection is to be constructed, altered or repaired. No
+     connection shall be made, modified or repaired as aforesaid except in the manner stated in such permit.
+     No opening shall be made in any public street or highway nor any work executed on or under the same by
+     other than Village forces, unless specifically permitted and agreed to by the General Foreman.
+
+     § 191-5. Application for permit.
+
+     All applications for permits shall be made in writing in triplicate on blanks furnished by the village for such
+     purpose, shall be signed by the owner or his authorized agent and shall state with sufficient exactness the
+     sewer line to which connection is sought to be made, the point or place of connection, the material of which
+     the connection is to be constructed and such other information as may be required. No private sewer lines
+     or drains or connections in public streets or highways and no private lines serving more than one residence
+     may be connected with any public or municipal sewers in said village without the express permission of
+     the General Foreman, and then only upon such terms as shall appear adequate to him for the protection of
+     said village and its inhabitants.
+
+     § 191-6. Materials and work. [Amended 3-19-1984 by L.L. No. 2-1984]
+
+     All work of installing sewer connections and all materials used must conform to the standard regulations
+     and requirements of Article 9 of the New York State Uniform Fire Prevention and Building Code.67 Use of
+     bituminized fiber sewer pipe in the sewer system is prohibited.
+
+     § 191-7. Tampering with sewers prohibited.
+
+     Entrance into manholes or opening the same for any purpose whatsoever, except by the persons duly
+     authorized by the proper official of said village, is hereby prohibited. The unauthorized cutting, chipping,
+     opening, moving or other tampering with any public or municipal sewer or the connection therewith of any
+     drain, soil or other pipe without a permit, as set forth in § 191-4 above, is strictly prohibited.
+
+     § 191-8. Regulations and restrictions.
+
+     A.    No privy vault or cesspool shall hereafter be constructed in the Village of Croton-on-Hudson.
+           Nothing herein contained shall be construed to prohibit the use of chemical toilets where a special
+
+     67. Editor's Note: See Ch. 175, Plumbing.
+
+
+            permit has been issued on a temporary basis by the Village Engineer.
+
+     B.     Where septic tank systems are used, the plumbing and drainage of any buildings having connections
+            with them will be governed by the rules and regulations of the Westchester County Board of Health.
+            No building permit will be issued until the approval of this Board has been obtained.
+
+     C.     As soon as it is possible to connect with a public sewer, the owner must have any cesspool, septic
+            tank or privy vault emptied, cleaned and disinfected and filled with fresh earth and have a sewer
+            connection made in the manner herewith prescribed.
+
+     D.     Where there is a sewer in the street, every house and building must be separately and independently
+            connected with it. When possible, such connection must be made directly in front of the house. When
+            a number of dwellings are built in a continuous row, under one roof, not more than two of them will
+            be allowed to one connection, except as hereinbefore prescribed in § 191-5.
+
+     E.     Where there is no sewer in the street and it is necessary to construct a private sewer to connect with a
+            sewer in an adjacent street or avenue, it must be laid outside the front property line and at least two
+            feet therefrom and not through the yards or under the houses.
+
+     F.     Any house drain or house sewer installed and covered without due notice to the General Foreman
+            must be uncovered for inspection at his direction.
+
+     G.     An iron running trap must be placed on the house drain near the wall of the house and on the sewer
+            side of all connections. If placed outside the house or below the cellar floor, it must be made
+            accessible by a manhole, with an iron or flagstone cover. When outside the house, it must never be
+            less than two feet below the surface of the ground.
+
+     § 191-9. Street openings.
+
+     All street openings for the purpose of connecting with any sewer or for any other purpose herein specified
+     shall be subject to any and all rules, regulations and laws of said Village of Croton-on-Hudson, New York,
+     and its proper boards and officials, relating to streets and highways.68
+
+     § 191-10. Fees. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+     The Village of Croton-on-Hudson shall charge and receive fees for permits and other services under this
+     chapter in an amount set by resolution of the Board of Trustees.69
+
+
+     68. Editor's Note: See Ch. 197, Streets and Sidewalks, Art. I.
+     69. Editor's Note: The current fee resolution is on file in the office of the Village Clerk.
+
+
+                                                          ARTICLE III
+                                                     Use of Sewers Required
+
+     § 191-11. Deposit of wastes restricted.
+
+     It shall be unlawful for any person to place, deposit or permit to be deposited in any unsanitary manner
+     upon public or private property within the Village of Croton-on-Hudson or in any area under the
+     jurisdiction of said village any human or animal excrement, garbage or other objectionable waste.
+
+     § 191-12. Discharge to outlets and storm sewers restricted.
+
+     It shall be unlawful to discharge to any natural outlet or storm sewer within the Village of Croton-on-
+     Hudson or in any area under the jurisdiction of said village any sanitary sewage, industrial wastes or
+     other polluted waters, except where suitable treatment has been provided in accordance with subsequent
+     provisions of this chapter.
+
+     § 191-13. Connections to sewers required.
+
+     The owners of all houses, buildings or properties used for human occupancy, employment, recreation or
+     other purpose, situated within the village and abutting on any street, alley or right-of-way in which there
+     is now located or may in the future be located a public sanitary or combined sewer, are hereby required,
+     at their expense, to install suitable toilet facilities therein and to connect such facilities directly with the
+     proper public sewer in accordance with the provisions of this chapter within 10 days after date of official
+     notice to do so.
+
+
+                                                         ARTICLE IV
+                                                   Discharges to Public Sewers
+
+     § 191-14. Conformance with county regulations. [Added 9-23-1980 by L.L. No. 7-1985]
+
+     The Village of Croton-on-Hudson and all users of the village's sanitary sewer system shall be subject to all
+     applicable rules and regulations contained in Chapter 824 of the Laws of Westchester County.
+
+     § 191-15. Only designated uses permitted.
+
+     No person shall discharge into any public sewer of the Village of Croton-on-Hudson any waste, substance
+     or waters other than such kinds or types of waters or water-carried wastes for the conveyance of which the
+     particular public sewer is intended, designed or provided.
+
+     § 191-16. Certain waters prohibited.
+
+     No person shall discharge or cause to be discharged any stormwater, surface water, drainage water,
+     swimming pool drain water, cooling water, airconditioning and refrigerating wastewaters or unpolluted
+     industrial process waters to any sanitary sewer.
+
+     § 191-17. Use of storm sewers or natural outlets.
+
+     Stormwater and all other unpolluted drainage or uncontaminated process water in excessive quantities shall
+     be discharged to storm sewers or to a natural outlet. Such waters shall be discharged only after approval of
+     any local, county or state regulatory agency having jurisdiction.
+
+     § 191-18. Prohibited wastes.
+
+     Except as hereinafter provided, no person shall discharge or cause to be discharged any of the following
+     described waters or wastes to any public sewer:
+
+     A.    Any liquid or vapor having a temperature higher than 150º F.
+
+     B.    Any water or waste which may contain more than 100 mg/l by weight of fat, oil, wax or grease or
+           containing other substances which may solidify or become viscous at temperatures between 32º F.
+           and 150º F.
+
+     C.    Any gasoline, benzene, naphtha, alcohol, tar, fuel oil or other flammable or explosive liquid, solid,
+           gas or vapor.
+
+     D.    Any garbage except properly shredded garbage. The installation and operation of any garbage grinder
+           equipped with a motor of 3/4 horsepower or greater shall be subject to the review and approval of the
+           Superintendent.
+
+     E.    Any ashes, cinders, stones, sand, mud, straw, shavings or sawdust, metal, sticks, coarse rubbish, glass,
+           rags, tar, feathers, plastics, waste rubber, animal guts or tissues, entrails, blood, hair, hides, wood,
+           paunch manure or any other substance likely to damage, destroy or cause an obstruction to the flow
+           in any sewer or which may interfere with the proper operation of the sewage works.
+
+     F.    Any waters or wastes containing a toxic, poisonous or radioactive substance in sufficient quantity to
+           injure or interfere with any sewage treatment process or to constitute a hazard to humans, animals or
+           marine life or create any hazard in the receiving waters. Radioactive wastes or materials may be
+
+
+           discharged into a public sewer if Conditions I and II below are met and if either Condition III or IV is
+           also met, provided that such discharges are in compliance with applicable state or federal regulations.
+
+           (1)    Condition I: Such wastes must be readily soluble or dispersible in water.
+
+           (2)    Condition II: The gross quantity of all radioactive materials so discharged must not exceed one
+                  curie per year.
+
+           (3)    Condition III: The daily quantity of any radioactive material, if diluted by the average daily
+                  volume of sewage discharged into the system from the installation, must not exceed the
+                  maximum concentrations allowed by regulations of the United States Atomic Energy
+                  Commission.
+
+           (4)    Condition IV: Daily quantities of radioactive materials up to the maximum permitted by the
+                  United States Atomic Energy Commission may be so discharged, provided that the total
+                  monthly quantities, if diluted by the average monthly volume of sewage discharged from the
+                  installation, do not exceed the concentrations permissible under Condition III above.
+
+     G.    Any waters, sewage or wastes having a pH lower than 5.0 or higher than 9.5 or having any other
+           corrosive or detrimental property capable of causing damage or hazard to the sewage works or
+           personnel.
+
+     H.    Any noxious, malodorous or taste-producing gas, vapor or substance, such as phenols, capable of
+           creating a public or private nuisance or which may prove toxic to sewage treatment processes or
+           which may exceed acceptable limits for discharge to receiving waters.
+
+           (1)    Any waters containing strong acid iron-pickling wastes or concentrated plating solutions,
+                  whether neutralized or not.
+
+           (2)    Any water containing iron, copper, chromium, zinc and similar objectionable toxic substances.
+
+     I.    Materials which exert or cause:
+
+           (1)    Unusual concentrations of inert suspended solids (such as, but not limited to, fuller's earth, lime
+                  slurries and lime residues) or of dissolved solids (such as, but not limited to, sodium chloride
+                  and sodium sulfate).
+
+           (2)    Excessive discoloration (such as, but not limited to, dye wastes and vegetable tanning solutions).
+
+           (3)    Unusual BOD, suspended solids, chemical oxygen demand or chlorine requirements in such
+                  quantities as to constitute a significant load on the sewage treatment works.
+
+           (4)    Unusual volume of flow or concentration of wastes constituting slugs, as defined herein.
+
+     J.    Waters or wastes containing substances which are not amenable to treatment or reduction by the
+           sewage treatment processes employed or are amenable to treatment only to such degree that the
+           sewage treatment plant effluent cannot meet the requirements of other agencies having jurisdiction
+           over discharge to the receiving waters.
+
+     § 191-19. Rejection or pretreatment of certain wastes.
+
+     A.    If any waters or wastes are discharged or are proposed to be discharged to the public sewers, which
+           waters contain the substances or possess the characteristics enumerated in § 191-18 and which may
+           have a deleterious effect upon the sewage works, processes, equipment or receiving waters or which
+
+
+           otherwise create a hazard to life or constitute a public nuisance, the village may:
+
+           (1)    Reject the wastes;
+
+           (2)    Require pretreatment to an acceptable condition for discharge to the public sewers;
+
+           (3)    Require control over the quantities and rates of discharge; and/or
+
+           (4)    Require payment to cover the added cost of handling and treating the wastes not covered by
+                  existing taxes or sewer charges.
+
+     B.    If the village permits the pretreatment or equalization of waste flows, the design and installation of
+           the plants and equipment shall be subject to the review and approval of the village and of any or all
+           state regulatory agencies having jurisdiction, and no construction of such facilities shall be
+           commenced until said approvals are obtained in writing.
+
+     § 191-20. Determination factors.
+
+     In determining whether any waste discharged or proposed to be discharged into any public sewer is to be
+     excluded, consideration will be given to the quantity, time or times, rate and manner of discharge, dilution
+     and character of the waste in question, the size of the sewer into which the waste is to be discharged, the
+     probable quantity of sewage or other wastes likely in said sewer and other pertinent facts. Minute quantities
+     of a waste which would be objectionable in larger quantity may be accepted if sufficiently diluted when
+     and as discharged or if the quantity discharged is small as compared with the flow in the receiving sewer,
+     but any permission to discharge minute quantities of an otherwise excluded waste shall be revocable at any
+     time by the village.
+
+     § 191-21. Pretreatment sampling facilities, inspections.
+
+     A.    At all premises where wastes or substances specified to be excluded from public sewers by these
+           regulations are present and likely to be discharged directly or indirectly into said sewers, suitable and
+           sufficient piping layouts, oil, grease, sand, flammable waste traps or separators, screens, setting tanks,
+           diluting devices, storage or regulating chambers, treatment, cooling or other equipment and devices
+           shall be provided. These shall be maintained and properly operated by the owner of the premises or
+           his agent at his expense to ensure that no waste or substance is discharged in violation of the
+           requirements of these regulations.
+
+     B.    On premises where wastes or substances specified to be excluded from public sewers are present, the
+           village may require the owner to provide, operate and maintain, at his expense, a sampling well or
+           wells, flow-measuring devices, manholes or other appurtenances, all readily accessible, on the
+           building sewer or drain from said premises near the point where said sewer or drain connects to the
+           public sewer. By means of said sampling well or wells, flow-measuring devices or other
+           appurtenances, the village or any public officer having legal jurisdiction may secure samples of or
+           examine the wastes being discharged into the public sewer for the purpose of determining compliance
+           or noncompliance with the requirements of these regulations.
+
+     C.    The village shall have the right to enter and inspect any part of the premises served by public sewers
+           upon which there may be reason to believe that violations of the requirements of these regulations
+           have occurred or are likely to occur for the purpose of ascertaining the facts as to such violation or
+           suspected violation or of obtaining samples of wastes or of inspecting flow-measuring devices or
+           treatment facilities provided to prevent prohibited discharges.
+
+
+     § 191-22. Restrictions on use of storm sewers.
+
+     No wastewaters or substances which are excluded from sanitary sewers shall be discharged into any storm
+     sewer.
+
+     § 191-23. Tests and manholes.
+
+     All measurements, tests and analyses of the characteristics of waters and wastes to which reference is made
+     in this section shall be determined in accordance with Standard Methods for the Examination of Water and
+     Sewage. In the event that no special manhole has been required, the control manhole shall be considered
+     to be the nearest downstream manhole in the public sewer to the point at which the building sewer is
+     connected.
+
+     § 191-24. Industrial exceptions.
+
+     No statement contained on this section shall be construed as preventing any special agreement or
+     arrangement between the village and any industrial concern whereby an industrial waste of unusual
+     strength of character may be accepted by the village for treatment, subject to payment therefor by the
+     industrial concern.
+
+     § 191-25. Discharge of effluents from private systems prohibited.
+
+     No person shall discharge or cause to be discharged into any public sewer, either directly or indirectly,
+     any overflow or effluent from a septic tank, cesspool, subsurface drainage trench, bed or filter or other
+     receptacle storing organic waste.
+
+
+                                                           ARTICLE V
+                                                       Sanitary Sewer Rents
+                                               [Added 11-7-2005 by L.L. No. 3-200570]
+
+     § 191-26. Purpose.
+
+     The purpose of this article is to establish a separate sanitary sewer rent fund and impose sanitary sewer
+     rents in the Village of Croton-on-Hudson in accordance with Article 14-F of the General Municipal Law,
+     to ensure a proportional distribution of operation and maintenance costs, and to use the sewer rents as the
+     principal source of revenue for the operation and maintenance of the sanitary sewer system.
+
+     § 191-27. Definitions.
+
+     As used in this article, the following terms shall have the following meanings:
+     OWNER — The owner of the premises, a mortgagee or vendee in possession, assignee of rents, receiver,
+     executor, trustee, lessee or other person, firm or corporation in control of a building or premises.
+     PREMISES — A lot, plot or parcel of land, including any building or structure.
+     SANITARY SEWER SYSTEM — All sewer pipes and other appurtenances that are used or useful in
+     whole or in part in connection with the collection, treatment, or disposal of sewage, industrial waste, and
+     other wastes, that are owned, operated or maintained by the Village of Croton-on-Hudson and that connect
+     to the Ossining sanitary sewage treatment facility or are within the Ossining Sanitary Sewer District.
+     VILLAGE — The Village of Croton-on-Hudson, New York.
+
+     § 191-28. Establishment of sanitary sewer rents.
+
+     The owner of all premises within the Croton portion of the Ossining Sanitary Sewer District or using the
+     sanitary sewer system or any part thereof shall be required to pay sanitary sewer rents for the payment of
+     the costs of operating, maintaining, repairing, and replacing the sanitary sewer system.
+
+     § 191-29. Determination of costs.
+
+     In April of each year, the Village of Croton-on-Hudson shall determine the total annual costs of operation
+     and maintenance of the sanitary sewer system that are necessary to maintain the capacity and performance
+     during the life of the sanitary sewer system for which such works were designed and constructed. The
+     total annual costs of operation and maintenance shall include, but need not be limited to, labor, repairs,
+     replacement, equipment replacement, maintenance, necessary modifications, power, sampling, laboratory
+     tests and a reasonable contingency fund. This determination of costs shall serve as the basis for the
+     calculation of rents.
+
+     § 191-30. Calculation of rents.
+
+     A.     All sanitary sewer rents and penalties shall be established by the Board of Trustees of the Village of
+            Croton-on-Hudson by resolution approved after a public hearing held on at least five days' notice.
+
+     B.     For premises that use Village water and are within the Ossining Sanitary Sewer District or are using
+            the sanitary sewer system, the sewer rent shall be calculated as a certain percentage of the Village
+
+
+     70. Editor's Note: This local law provided that former Art. V, Penalties, be redesignated as Art. VI and that former §§ 191-26 and
+         191-27 be renumbered as 191-36 and 191-37, respectively. This legislation also provided that it shall become effective 12-1-2005.
+
+
+           water bill for those premises. The percentage to be applied shall be the percentage of the Village's
+           total water bills for premises within the Croton portion of the Ossining Sanitary Sewer District that is
+           equal to the annual costs of operation and maintenance of the sanitary sewer system.
+
+     C.    For those premises that do not use Village water but are connected to or served by the sanitary sewer
+           system, the sewer rent shall be a flat fee based upon the volume of water measured by meter at
+           comparable premises or, if there are no comparable premises, upon such other equitable method as
+           the Village deems appropriate.
+
+     § 191-31. Billing and payments. [Amended 6-1-2020 by L.L. No. 7-2020]
+
+     A.    Sanitary sewer rent charges may be obtained at the Village's administrative offices. The Village
+           Treasurer may send bills via U.S. mail or email for sewer rents as an accommodation to the premises
+           owner, but the failure to send any such statement via U.S. mail or email, or the failure of the addressee
+           to receive the same, shall not in any manner affect the validity of the sewer rent charges or the interest
+           imposed for late payment. If the premises owner does not receive a bill, it is his or her responsibility
+           to contact the Village Treasurer to obtain one.
+
+     B.    Sanitary sewer rent bills shall cover the same billing period as covered by the Village water bill.
+
+     C.    All bills for sanitary sewer rents are due and payable to the Village-of Croton-on-Hudson.
+
+     § 191-32. Late payments, penalties, liens and collection. [Amended 12-7-2020 by L.L. No. 10-2020]
+
+     A.    Penalties for nonpayment of sewer rent charges. The following penalties are prescribed for failure to
+           pay sewer rent charges:
+
+           (1)    No penalty shall be assessed if sewer rent charges are paid by the due date set forth on the bill.
+
+           (2)    If the sewer rent charge is not paid by the due date set forth on the bill, a penalty of 5% of the
+                  account due shall be assessed, and a further penalty of 1% shall be added for each succeeding
+                  month or any portion of a month in which the sewer rents are not paid. The Village Treasurer
+                  shall cause, on the next succeeding April 15, any unpaid sewer rents charges and penalties in
+                  excess of 60 days to be added to the Village tax bills.
+
+     B.    In accordance with General Municipal Law § 452, sanitary sewer rents shall constitute a lien upon
+           the premises served by the sanitary sewer system. This lien shall have priority and be senior to every
+           other lien with the exception of the lien of an existing tax, assessment, or other lawful charge imposed
+           by the state or of a political subdivision or district thereof.
+
+     C.    Delinquent accounts, including sanitary sewer rents and penalties, shall be collected in a manner
+           provided for in General Municipal Law § 452, Subsection 4.
+
+     § 191-33. Collected sanitary sewer rents; sewer rent fund.
+
+     All revenues generated from sanitary sewer rents, including penalties, shall be kept in a separate bank
+     account to be denominated as the "sewer rent fund." All such funds, together with the interest thereon, shall
+     be used in accordance with General Municipal Law § 453.
+
+     § 191-34. Consistency with General Municipal Law.
+
+     This article shall be construed in a manner consistent with the provisions of Article 14-F of the General
+     Municipal Law.
+
+
+     § 191-35. Severability.
+
+     If any provision of this article or its application to any person or circumstance is adjudged invalid by a
+     court of competent jurisdiction, such judgment shall not affect or impair the validity of the other provisions
+     of this article or its application thereof to other persons and circumstances.
+
+
+                                                            ARTICLE VI
+                                                              Penalties
+
+     § 191-36. Notice of violation.
+
+     Any person found to be violating any provision of this chapter shall be served by the Village of Croton-
+     on-Hudson with written notice stating the nature of the violation and providing a reasonable time limit
+     for the satisfactory correction thereof. The offender shall, within the period of time stated in such notice,
+     permanently cease all violations.
+
+     § 191-37. Penalties for offenses. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+     Any person violating any provision of this chapter shall be punished as provided in § 1-12 of Chapter
+     1, General Provisions. Each day that any violation of these regulations continues and each day that any
+     person continues to discharge prohibited wastes or substances into any public sewer shall be deemed to be
+     a separate offense for the purpose of applying the penalty provided in this section.
+
+
+     § 191-37                                               SEWERS
+
+
+                                                 CROTON-ON-HUDSON CODE                                           § 193-2

@@ -1,0 +1,228 @@
+---
+title: "Local Law 5-2000: "
+source: Village of Croton-on-Hudson Local Law
+date: 2001-01-05
+---
+
+Local Law 5-2000
+Filed: 2001-01-05
+
+L o c a l L a w F i l i n g
+
+NEW YORK STATE DEPARTMENT OF STATE
+41 STATE STREET, ALBANY, NY 12231
+
+(Use this form to file a local law with the Secretary of State.)
+Text of law should be given as amended. Do not include matter
+being eliminated and do not use italics or underlining to indicate new matter.
+
+Village
+Local Law No. of the year 2000
+
+A local law adding a new chapter to the Code of the Village of Croton-on-Hudson entitled "Telecommunications Franchising and Licensing" to provide for the granting of one or more nonexclusive franchises and revocable licenses for telecommunications services within the municipal boundaries of the Village and to provide for the process under which the granting of franchises and revocable licenses shall take place.
+
+Be it enacted by the Board of Trustees of the Village of Croton-on-Hudson as follows:
+
+SECTION 1. A new Chapter 310 entitled "Telecommunications Franchising and Licensing" is hereby added to the Code of the Village of Croton-on-Hudson, which shall read as follows:
+
+TELECOMMUNICATIONS FRANCHISING AND LICENSING
+§1. Legislative intent.
+The Village of Croton-on-Hudson has the authority to grant franchises and other authorizations for the use and occupancy of its streets and has determined that its streets are a valuable public resource that has required, and will continue to require, substantial investment by the Village. The Village desires to structure and implement a fair and orderly process for the grant of franchises and other authorizations (and renewals of such franchises and authorizations) to occupy and use its streets to provide telecommunications services (as hereinafter defined) in the Village, including the negotiation of terms and conditions to protect the public interest consistent with applicable law. In addition, consistent with applicable law, the Village desires to manage its streets and obtain fair and reasonable compensation from telecommunications providers on a competitively neutral and nondiscriminatory basis for the use of its streets on a nondiscriminatory basis. The Village also desires to minimize inconvenience and disruption to the public, provide for the orderly and efficient use of its streets now and in the future, and preserve adequate capacity for existing and future uses of its streets; and the Village intends to exercise, to the fullest extent permitted by applicable law, its authority with respect to the regulation of the occupation and use of its streets in connection with the provision of telecommunications services.
+
+§2. Definitions.
+For purposes of this chapter, the following terms, phrases, words and their derivations shall have the meanings set forth in this section, unless the context clearly indicates that another meaning is intended. When not inconsistent with the context, words used in the present tense include the future, words used in the plural number include the singular number and words used in the singular number include the plural number.
+
+AFFILIATED PERSON - Each person who falls into one or more of the following categories: (i) each person having, directly or indirectly, a controlling interest in the applicant; (ii) each person in which the applicant has, directly or indirectly, a controlling interest; (iii) each officer, director, joint venturer or joint venture partner, of the applicant; and (iv) each person, directly or indirectly, controlling, controlled by, or under common control with the applicant; provided that "Affiliated Person" shall in no event mean the Village or any creditor of the applicant solely by virtue of its status as a creditor and which is not otherwise an affiliated person by reason of owning a controlling interest in, being under common ownership, common management or common control with, the applicant.
+BOARD OF TRUSTEES - The Board of Trustees of the Village of Croton-on-Hudson and its designee or any successor thereto.
+CABLE SERVICES - As defined in the Communications Act of 1934, as amended by the Cable Communications Policy Act of 1984, the Cable Television Consumer Protection and Competition Act of 1992, and the Telecommunications Act of 1996, and as may be further amended from time to time (the "Cable Act"). In the event that "Cable Services" is no longer defined in the Cable Act or the definition in the Cable Act otherwise becomes inapplicable, "Cable Services" shall mean "Cable Services" as defined in the Cable Act immediately prior to such term no longer being defined in the Cable Act or such definition otherwise becoming inapplicable.
+CHAPTER - This chapter and all modifications and amendments thereto.
+CONTROL or CONTROLLING INTEREST - Actual working control in whatever manner exercised, including, without limitation, working control through ownership, management, debt instruments or negative control, as the case may be, of the applicant or the equipment in the street. A rebuttable presumption of the existence of control or a controlling interest shall arise from the beneficial ownership, directly or indirectly, by any person, or group of persons acting in concert, of more than twenty percent (20%), of any person (which person or group of persons is hereinafter referred to as "Controlling Person"). "Control" or "Controlling Interest" as used herein may be held simultaneously by more than one person or group of persons.
+EQUIPMENT - The poles, wires, electrical conductors, cables, conduits, subways, manholes, fixtures, appliances and appurtenances that are used to provide telecommunications services.
+FRANCHISE - An initial authorization, or renewal thereof, issued by the Village in accordance with the provisions of this chapter, which authorizes the occupation and use of the Streets to provide telecommunications services.
+MAY - Being permissive.
+
+PERSON - Any individual or any association, firm, partnership, joint venture, corporation or other legally recognized entity, whether for profit or not for profit, but shall not mean the Village of Croton-on-Hudson.
+REVOCABLE LICENSE - An initial authorization or renewal thereof, issued by the Village in accordance with the provisions of this chapter, which authorizes the limited occupation and use of specifically identified streets, provided that a revocable license shall be issued only in the limited circumstances set forth in Section 310-3, Subsections B and G, of this chapter.
+SHALL - Being mandatory, not merely directive.
+STREETS - The surface of, as well as the spaces above and below, any and all streets, alleyways, avenues, highways, boulevards, driveways, bridges, tunnels, parks, parkways, public grounds or waters, and other public rights-of-way within or belonging to the Village.
+TELECOMMUNICATIONS - All transmissions, between or among points specified by the user, of information of the user's choosing without change in the form or content of the information as sent and received.
+TELECOMMUNICATIONS PROVIDER - Any person who:
+(A) owns, constructs, operates or maintains equipment in the streets used to provide telecommunications services, regardless of whether such telecommunications services originate or terminate in the Village; or
+(B) provides telecommunications services that originate or terminate in the Village by means of: (i) specifically identifiable equipment in the streets, which equipment is owned by such person or made available to such person under a lease or any other arrangement for a period longer than 120 days; or (ii) equipment in the streets, if the use of such equipment is continuing and substantial, and the Village has determined that it is necessary and appropriate to impose the requirements of this chapter in order to preserve the application of this chapter on a competitively neutral and nondiscriminatory basis consistent with applicable law.
+
+TELECOMMUNICATIONS SERVICES - The offering of telecommunications for a fee directly to the public, or to such classes of users as to be effectively available directly to the public, regardless of the facilities used. The term "Telecommunications Services" shall not include cable services.
+TELECOMMUNICATIONS SYSTEM - The plant, equipment, real property (including interests in real property), tangible and intangible personal property, buildings, offices, furniture, customer lists, cable, wires, optical fibers, amplifier, antenna, and all other electronic devices, equipment and facilities used to provide telecommunications services.
+VILLAGE - The Village of Croton-on-Hudson, New York.
+
+§3. Granting authority.
+A. No person shall use or occupy the streets as a telecommunications provider, or construct, operate or maintain equipment in the streets used to provide telecommunications, without a franchise or revocable license granted by the Village. A franchise or revocable license granted in accordance with the provisions of this chapter shall not be construed to grant any rights or authorization to provide cable services in the Village, and any person seeking to provide cable services in the Village shall first obtain a separate franchise in accordance with applicable law.
+B. Any person seeking to use the streets to construct, operate or maintain equipment to provide telecommunications for or in connection with the internal operations of such person's business, residence or employment and not for or in connection with the provision or offering of telecommunications services for sale or resale to any person in the Village, shall first obtain a revocable license in accordance with the provisions of this chapter.
+C. The Board of Trustees may grant one or more franchises and revocable licenses in accordance with this chapter, provided that the Board of Trustees reserves the right to modify any provision of this chapter by amendment hereof.
+D. The grant of any franchise or revocable license shall be made by adoption of a separate resolution by the Board of Trustees and shall be on such terms and conditions as shall be specified in said separate resolution and/or a franchise or license agreement between the Village and the franchisee or licensee.
+E. Any franchise or revocable license granted shall be nonexclusive. The Village specifically reserves the right to grant, at any time, such additional franchises, revocable licenses or other authorizations for use of the streets by any means, as the Village deems appropriate.
+F. A franchise may be granted for all or any defined portion of the Village.
+G. A revocable license is intended to be a limited grant of authority to use and occupy specifically identified streets to provide telecommunications services and shall be granted only if:
+(1) the use or occupation of such streets, together with all revocable licenses previously granted to such person and affiliated persons, shall not exceed 2,500 linear feet; or
+(2) the use or occupation of such streets does not involve the offering or provision of telecommunications services to any person within the Village.
+In the event an application for a revocable license would cause a telecommunications provider to exceed or fail to comply with the limits specified in clause (1) and/or (2) of this subsection, then such telecommunications provider must apply for a franchise in accordance with the provisions of this chapter, and the use of specifically identified streets pursuant to all previously granted revocable licenses shall thereafter be pursuant to and in accordance with any such franchise that may be granted.
+
+§4. Compliance with rules; permits required.
+A. Subject to the provisions of this chapter, the Village may adopt rules, policies and requirements to carry out the purposes and provisions of this chapter. Each applicant, franchisee and licensee shall comply with such rules, policies and requirements.
+B. No person shall construct or install any equipment in the streets used to provide telecommunications services without first obtaining such permits or other authorizations as may be required by the Village. No permits or other authorizations for such construction or installation shall be issued prior to the granting of a franchise or a revocable license pursuant to this chapter or such other authorization as may be required by applicable law.
+
+§5. Submission of application.
+A. Applications for franchises and revocable licenses shall be submitted to the Village Manager, with a copy also to be submitted to the Village Attorney.
+B. An application shall contain the following information with respect to the proposed franchise or revocable license and such other information with respect to the proposed franchise or revocable license as the Village may deem necessary or appropriate, consistent with applicable law:
+(1) the name, address and telephone number of the applicant and the person the Village may contact concerning the application;
+(2) a description of the telecommunications services proposed to be provided, including, without limitation, a description of facilities and equipment within the Village;
+(3) a description of the proposed franchise area or, in the case of a revocable license, the specifically identified streets and/or portions thereof proposed to be used;
+(4) a proposed construction schedule and sequence;
+(5) a map showing the proposed location of the applicant's telecommunications system;
+(6) proposed financing plans for the construction and operation of the telecommunications system by which the proposed telecommunications services would be provided;
+
+(7) a description of the legal, financial, technical and other appropriate qualifications of the applicant to hold the franchise or revocable license; and
+(8) ownership of the applicant and identification of all affiliated persons.
+
+§6. Responsibilities of applicants.
+It shall be the responsibility of each applicant for a franchise or revocable license to comply with all applicable laws, ordinances, resolutions, rules, regulations and other directives of the Village and any federal, state or local governmental authority having jurisdiction.
+
+§7. Negotiation of agreement.
+If an application is complete and otherwise complies with applicable law, ordinances, resolutions, rules, regulations and other directives of the Village, including the provisions of this chapter, the Village shall enter into negotiations with the applicant to determine whether such applicant and the Village are able to reach agreement on the terms of the proposed franchise or revocable license in accordance with Sections 310-10 and 310-11 of this chapter. The Village may reject any application which is incomplete or otherwise fails to comply with applicable law, ordinances, resolutions, rules, regulations and other directives of the Village and any federal, state or local authority having jurisdiction.
+
+§8. Factors for review of application.
+A. In making any determination hereunder as to any application for a franchise or revocable license, the Board of Trustees may consider such factors as it deems appropriate and in the public interest, provided such factors are consistent with applicable law, including without limitation:
+(1) the adequacy of the proposed compensation to be paid to the Village, including the value of any facilities and telecommunications services offered by the applicant to the Village;
+(2) the legal, financial, technical and other appropriate qualifications of the applicant;
+(3) the ability of the applicant to maintain the property of the Village in good condition throughout the term of the franchise or the revocable license;
+(4) any services or uses of the streets that may be precluded by the grant of the franchise or revocable license; and the adverse impact of the proposed franchise or revocable license on the efficient use of the streets or utilities at present and in the future;
+
+(5) the willingness and ability of the applicant to meet construction and physical requirements and to abide by all lawful conditions, limitations, requirements and policies with respect to the franchise or the revocable license;
+(6) the adequacy of the terms and conditions of the proposed franchise or revocable license agreement to protect the public interest, consistent with applicable law; and
+(7) any other public interest factors or considerations that the Village has a lawful right to consider and that are deemed pertinent by the Village for safeguarding the interests of the Village and the public.
+B. Consistent with applicable law, the Village may develop and implement policies and requirements to ensure that the streets have sufficient capacity reasonably to accommodate existing and future uses in a rational and efficient manner. In evaluating an applicant for a franchise or revocable license, the Village may consider an applicant's proposals for addressing capacity needs and compliance with Village policies and requirements.
+
+§9. Procedure for consideration of and action on applications.
+A. The Board of Trustees may make such investigations and take or authorize the taking of such other steps as the Board of Trustees deems necessary or appropriate to consider and act on applications for franchises and revocable licenses and to determine whether a franchise or revocable license should be granted to an applicant, and may require the applicant to furnish additional information and data for this purpose. In considering applications, the Board of Trustees may seek advice from Village officials, departments, agencies, boards, commissions or bodies, from such other advisory bodies as it may establish or determine appropriate, or from the public, and may request the preparation of one or more reports to be submitted to the Board of Trustees, which may include recommendations with respect to such applications.
+B. Consistent with applicable law, upon completion of the steps deemed appropriate by the Board of Trustees, the Board of Trustees may grant or deny the franchise or revocable license, and may specify the conditions under which the franchise or revocable license is granted.
+
+§10. Terms and conditions of franchise.
+The terms and conditions applicable to any franchise granted pursuant to this chapter shall be set forth in the separate resolution granting the franchise and/or in a separate written agreement. A franchise granted pursuant to this chapter shall not become effective until said separate resolution becomes effective and any separate agreement is executed by both parties. Such separate resolution or written agreement, among other things, shall address the following subjects:
+
+(1) the term of the franchise;
+(2) the franchise area and the telecommunications services to be offered;
+(3) the compensation to be paid to the Village, which shall include the payment of fees and/or the provision of facilities or services;
+(4) the circumstances upon which the franchise may be terminated or cancelled;
+(5) the mechanisms, such as performance bonds, security funds or letters of credit, to be put in place to ensure the performance of the franchisee's obligations under the franchise;
+(6) the Village's right to inspect the facilities and records of the franchisee;
+(7) insurance and indemnification requirements applicable to the franchisee;
+(8) the obligation of the franchisee to maintain complete and accurate books of account and records, and the Village's inspection rights with respect thereto;
+(9) provisions to ensure quality workmanship and construction methods;
+(10) provisions to ensure that the franchisee will comply with all applicable Village, state and federal laws, regulations, rules and policies;
+(11) the obligation of the franchisee to supply an engineering site plan showing the proposed location of the applicant's telecommunications system within the Village, including the connection to any portion of applicant's telecommunications system outside the Village, any manholes or overhead poles, the size, type and proposed depth of any conduit or other enclosures, and the relationship of the system to all existing poles, utilities, sidewalks, pavement, telecommunications systems, and other improvements in the streets, all of which shall be subject to approval by the appropriate Village departments;
+(12) provisions to place reasonable limitations upon the assignment or other transfer of the franchise;
+(13) remedies available to the Village to protect the Village's interest in the event of the franchisee's failure to comply with terms and conditions of the franchise;
+(14) provisions to ensure that the franchisee will obtain all necessary licenses and permits from, and comply with, all laws, regulations, rules and policies of any governmental body having jurisdiction over the franchisee, including the Federal Communications Commission;
+(15) provisions to ensure that the franchisee will protect the property of the Village and the delivery of public services from damage or interruption of operations resulting from the construction, operation, maintenance, repair or removal of improvements related to the franchise;
+
+(16) provisions designed to minimize the extent to which the public use of the streets of the Village are disrupted in connection with the construction of improvements relating to the franchise; and
+(17) such other provisions as the Village determines are necessary or appropriate in furtherance of the public interest consistent with applicable law.
+
+§11. Terms and conditions of revocable license.
+The terms and conditions applicable to any revocable license granted pursuant to this chapter shall be set forth in the separate resolution granting the revocable license and/or in a separate written agreement. A revocable license granted pursuant to this chapter shall not become effective until the separate resolution granting the license becomes effective and any separate written agreement is executed by both parties. Such separate resolution and/or written agreement shall address the same subjects listed in Section 310-10 of this chapter subject to the following limitations:
+(1) the revocable license shall be for a term not to exceed ten (10) years from the date that the resolution granting the revocable license becomes effective;
+(2) the revocable license shall be revocable at any time by the Village for cause or for the Village's purposes; and
+(3) the revocable license, together with all revocable licenses previously granted to the applicant or affiliated persons, shall not authorize the occupation and use of more than 2,500 linear feet of specifically identified streets, unless the use or occupation of the streets does not involve the offering or provision of telecommunications services to any person in the Village.
+In the event an application for a revocable license would cause a telecommunications provider to exceed or fail to comply with the limits specified in clause (3) of this section, then such telecommunications provider must apply for a franchise in accordance with the provisions of this chapter, and the use of specifically identified streets pursuant to all previously granted revocable licenses shall thereafter be pursuant to and in accordance with any such franchise that may be granted.
+
+§12. Severability.
+If any section, subsection, sentence, clause, phrase or other portion of this chapter is, for any reason, declared invalid, in whole or in part, by any court, agency, commission, legislative body or other authority of competent jurisdiction, such portion shall be deemed a separate, distinct and independent portion. Such declaration shall not affect the validity of the remaining portions hereof, which other portions shall continue in full force and effect.
+
+§13. Delegation.
+The Board of Trustees shall have the right to delegate and redelegate, and to revoke any such delegation or redelegation, from time to time, any of its rights or obligations under this chapter to any body, organization or official of the Village. Any such delegation, redelegation or revocation, no matter how often made, shall not be deemed an amendment to this chapter or to require the consent of any applicant for a franchise or revocable license or franchisee or licensee.
+SECTION 2. To the extent permitted by law, the Village may determine to apply all or certain provisions of this Local Law to telecommunications providers and franchises and other right-of-way authorizations existing on the effective date of this Local Law.
+SECTION 3. This Local Law shall become effective immediately upon filing in the office of the Secretary of State.
+
+(Complete the certification in the paragraph that applies to the filing of this local law and
+strike out that which is not applicable.)
+1. (Final adoption by local legislative body only.)
+I hereby certify that the local law annexed hereto, designated as local law No. 5 of
+2000 of the (County)(City)(Town)(Village) of Croton-on-Hudson was duly passed by the Board of Trustees on December 18, 2000 in accordance with the applicable provisions of law.
+
+2. (Passage by local legislative body with approval, no disapproval or repassage after disapproval
+by the Elective Chief Executive Officer*.)
+I hereby certify that the local law annexed hereto, designated as local law No. of 19
+of the (County)(City)(Town)(Village) of was duly passed by the
+on , 19 , and was (approved)(not approved)(repassed after
+(Name of Legislative Body)
+
+disapproval) by the and was deemed duly adopted on
+(Elective Chief Executive Officer*)
+
+19—,
+
+in accordance with the applicable provisions of law.
+
+3. (Final adoption by referendum.)
+I hereby certify that the local law annexed hereto, designated as local law No of 19
+of the (County)(City)(Town)(Village) of was duly passed by the
+on 19— , and was (approved)(not approved)(repassed after
+(Name of Legislative Body)
+
+disapproval) by the on 19—. Such local law was submitted
+(Elective Chief Executive Officer*)
+
+to the people by reason of a (mandatory)(permissive) referendum, and received the affirmative vote of a majority of
+the qualified electors voting thereon at the (general)(special)(annual) election held on 19— , in
+accordance with the applicable provisions of law.
+
+4. (Subject to permissive referendum and final adoption because no valid petition was filed requesting
+referendum.)
+I hereby certify that the local law annexed hereto, designated as local law No of 19
+of the (County)(City)(Town)(Village) of was duly passed by the
+on 19— , and was (approved)(not approved)(repassed after
+(Name of Legislative Body)
+
+disapproval) by the on 19—. Such local law was subject to
+(Elective Chief Executive Officer*)
+
+permissive referendum and no valid petition requesting such referendum was filed as of 19— , in
+accordance with the applicable provisions of law.
+
+* Elective Chief Executive Officer means or includes the chief executive officer of a county elected on a countywide basis or, if there be none, the chairperson of the county legislative body, the mayor of a city or village, or
+the supervisor of a town where such officer is vested with the power to approve or veto local laws or ordinances.
+(2)
+
+5, (City local law concerning Charter revision proposed by petition.)
+I hereby certify that the local law annexed hereto, designated as local law No. of 19
+of the City of having been submitted to referendum pursuant to the provisions of
+section (36)(37) of the Municipal Home Rule Law, and having received the affirmative vote of a majority of the
+qualified electors of such city voting thereon at the (special)(general) election held on 19—-,
+became operative.
+
+6. (County local law concerning adoption of Charter.)
+I hereby certify that the local law annexed hereto, designated as local law No of 19
+of the County of State of New York, having been submitted to the electors
+at the General Election of November 19—, pursuant to subdivisions 5 and 7 of section 33 of the
+Municipal Home Rule Law, and having received the affirmative vote of a majority of the qualified electors of the cities of said county as a unit and a majority of the qualified electors of the towns of said county considered as a unit
+voting at said general election, became operative.
+(If any other authorized form of final adoption has been followed, please provide an appropriate certification.)
+I further certify that I have compared the preceding local law with the original on file in this office and that the same
+is a correct transcript therefrom and of the whole of such original local law, and was finally adopted in the manner indicated in paragraph 1, above.
+
+Date: 1/5/2001
+
+(Certification to be executed by County Attorney, Corporation Counsel, Town Attorney, Village Attorney or
+other authorized attorney of locality.)
+STATE OF NEW YORK
+COUNTY OF WESTCHESTER
+
+I, the undersigned, hereby certify that the foregoing local law contains the correct text and that all proper proceedings
+have been had or taken for the enactment of the local law annexed hereto.
+
+Signature
+Village Attorney
+
+Date: 1/5/2001
+Village
+Croton on Hudson
+(3)

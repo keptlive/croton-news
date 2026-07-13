@@ -87,21 +87,20 @@ CROTON_CONTEXT_PATTERNS = [
 # ═══════════════════════════════════════════════════════════════════
 KNOWN_PEOPLE = {
     # Current board (2025-2026)
-    "Anamica Chaudhuri": "Board President",
-    "Sarah Carrier": "Board Vice President",
-    "Iris Grink": "Board Member",
-    "Josh Nathan": "Board Member",
-    "Gael Sullivan-Davis": "Board Member",
-    "Andrea Fuentes": "Board Member",
-    "Ting-Yi Oei": "Board Member",
+    "Ana Teague": "Board President",
+    "Anamika Bhatnagar": "Board Vice President",
+    "Sarah Carrier": "Board Trustee",
+    "Neal Haber": "Board Trustee",
+    "Omar Mayyasi": "Board Trustee",
+    "Theo Oshiro": "Board Trustee",
+    "Allison Samuels": "Board Trustee",
+    "Filomena DiMarco": "Student Ex Officio",
     # Administration
-    "Brendan Walker": "Superintendent",
-    "Omar Faruk": "Assistant Superintendent for Business",
-    "Laura Fjeld": "Assistant Superintendent for Curriculum & Instruction",
+    "Stephen Walker": "Superintendent",
     # Common references
     "Walker": "Superintendent",
-    "Faruk": "Assistant Superintendent",
-    "Fjeld": "Assistant Superintendent",
+    "Teague": "Board President",
+    "Bhatnagar": "Board Vice President",
 }
 
 # Title patterns that signal a named speaker

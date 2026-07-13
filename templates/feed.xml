@@ -19,7 +19,7 @@
     <title>{{ a.headline or a.quick_summary or a.short_summary }}</title>
     <link>https://croton.news/article/{{ a.id or a.doc_id }}</link>
     <guid isPermaLink="true">https://croton.news/article/{{ a.id or a.doc_id }}</guid>
-    <pubDate>{{ a.date }}T19:00:00-05:00</pubDate>
+    <pubDate>{{ a.date }}T19:00:00{{ a.date|tz_offset }}</pubDate>
     <dc:creator>Andy Ciordia</dc:creator>
     <category>{{ a.committee }}</category>
     <description><![CDATA[{{ a.quick_summary or a.short_summary }}]]></description>

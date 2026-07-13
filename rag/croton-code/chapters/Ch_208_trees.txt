@@ -1,0 +1,588 @@
+---
+title: "Chapter 208: Trees"
+chapter: 208
+name: "Trees"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 0
+---
+
+ARTICLE I                                                              ARTICLE II
+                              Street Trees                                                         Tree Preservation
+
+     § 208-1.               Purpose.                                         § 208-14.              Purpose.
+     § 208-1.1.             Definitions.                                     § 208-15.              Definitions.
+     § 208-2.               Designation of official                          § 208-16.              Tree removal permit required;
+                            custodian; duties.                                                      approving authority.
+     § 208-3.               Duties and responsibilities of                   § 208-17.              Permit application.
+                            Department.                                      § 208-18.              Conditions for granting permit.
+     § 208-4.               Spacing of trees planted.                        § 208-19.              Bond.
+     § 208-5.               Distance from curbs and                          § 208-20.              Permit fee.
+                            sidewalks.                                       § 208-21.              Inspection; indemnification.
+     § 208-6.               Distance from street corners                     § 208-22.              Term.
+                            and hydrants.
+                                                                             § 208-23.              Action upon completion of
+     § 208-7.               Distance from utilities.                                                work.
+     § 208-8.               Rights of Village.                               § 208-24.              Suspension or revocation of
+     § 208-9.               Pruning of trees prohibited.                                            permit.
+     § 208-10.              Responsibilities of property
+                            owners.                                                             ARTICLE III
+     § 208-11.              Removal of stumps.                                   Penalties; Appeals; Dead or Diseased Trees
+     § 208-12.              Removal of healthy trees
+                            prohibited.                                      § 208-25.              Penalties for offenses.
+     § 208-13.              Consent required for                             § 208-26.              Appeals.
+                            deviations.                                      § 208-27.              Removal of dead or diseased
+                                                                                                    trees; dangerous trees or tree
+                                                                                                    limbs.
+                                                                             § 208-28.              Severability.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson 3-20-2006 by
+     L.L. No. 6-2006.90 Amendments noted where applicable.]
+
+
+     90. Editor's Note: This local law also repealed former Ch. 208, Trees, which consisted of the following articles: Art. I, Street Trees,
+         adopted 7-23-1984 by L.L. No. 4-1984; Art. II, Tree Preservation, adopted 9-21-1987 by L.L. No. 5-1987, as amended.
+
+
+                                                   CROTON-ON-HUDSON CODE
+
+
+                                                              GENERAL REFERENCES
+
+     Building construction — See Ch. 86.                                Professional fees — See Ch. 178.
+
+     Environmental compliance — See Ch. 115.                            Steep slopes — See Ch. 195.
+
+     Environmental review — See Ch. 116.                                Waterfront revitalization — See Ch. 225.
+
+     Excavation, filling and topsoil removal — See Ch. 120.             Wetlands and watercourses — See Ch. 227.
+
+     Flood damage prevention — See Ch. 129.                             Zoning — See Ch. 230.
+
+
+                                                            ARTICLE I
+                                                            Street Trees
+
+     § 208-1. Purpose.
+
+     The Village of Croton-on-Hudson has a vital interest in the planting and preservation of trees within its
+     borders. The preservation of trees as defined herein within the Village is necessary to protect the health,
+     safety and general welfare of the Village because trees provide shade, impede soil erosion, aid water
+     absorption and retention, inhibit excess runoff and flooding, enhance air quality, offer a natural barrier to
+     noise, provide a natural habitat for wildlife, provide screening, enhance property values and add to the
+     aesthetic quality of the community.
+
+     § 208-1.1. Definitions.
+
+     As used in this article, the following term shall have the meaning indicated:
+     STREET TREES — Trees, shrubs, bushes and all other woody vegetation on land lying between property
+     lines on either side of all streets, avenues and rights-of-way within the Village.
+
+     § 208-2. Designation of official custodian; duties.
+
+     The Superintendent of the Department of Public Works, hereinafter also referred to as the "Department,"
+     shall serve as the official custodian of all street trees and develop, in consultation with the Conservation
+     Advisory Council, an annual street tree program.
+
+     § 208-3. Duties and responsibilities of Department.
+
+     The duties and responsibilities of the Department shall be to:
+
+     A.    Study the problems and determine the needs of the Village of Croton-on-Hudson in connection with
+           its street tree program.
+
+     B.    In consultation with the Conservation Advisory Council, determine the type and kind of trees to be
+           planted upon Village streets or parts of Village streets or as designated.
+
+     C.    Work in conjunction with the Conservation Advisory Council in the dissemination of news and
+           information regarding selection, planting and maintenance of trees within Village limits.
+
+     § 208-4. Spacing of trees planted.
+
+     The spacing of street trees will be in accordance with the following size classes, and the preferred
+     distances between trees are: small trees, 30 feet; medium trees, 40 feet; and large trees, 50 feet; except in
+     special plantings designed or approved by the Department in consultation with the Conservation Advisory
+     Council. Small trees are defined as having an ultimate height equal to or greater than 13 feet but less than
+     26 feet; medium trees are defined as having an ultimate height equal to or greater than 26 feet but less than
+     52 feet; and large trees are defined as having an ultimate height equal to or greater than 52 feet.
+
+     § 208-5. Distance from curbs and sidewalks.
+
+     The distance trees may be planted from curbs or curblines and sidewalks will be in accordance with the
+     species size, with final determination made by the Department.
+
+
+     § 208-6. Distance from street corners and hydrants.
+
+     No street tree shall generally be planted closer than 35 feet to any street corner, measured from the point
+     of the nearest intersection curbs or curblines. No street tree shall be planted closer than 10 feet to any fire
+     hydrant.
+
+     § 208-7. Distance from utilities.
+
+     No street trees may be planted over or within three lateral feet (small or medium) or five lateral feet (large)
+     of any underground waterline, sewer line, transmission line or other utility.
+
+     § 208-8. Rights of Village.
+
+     A.    The Village shall have the right to plant, prune, maintain and remove street trees within the lines of
+           all streets, alleys, avenues, lanes, squares, sidewalks and public grounds, as may be necessary to
+           ensure public safety or convenience or to preserve or enhance the symmetry and beauty of such public
+           grounds. The Department may remove or cause or order to be removed any tree or part thereof which
+           is in an unsafe condition or which, by reason by its nature, is injurious to sewers, electric power lines,
+           gas lines, waterlines or other public improvements or is affected with any injurious fungus, insect or
+           other pest.
+
+     B.    This section does not prohibit the planting of street trees by adjacent property owners, provided that
+           departmental review has been made and approval granted.
+
+     § 208-9. Pruning of trees prohibited.
+
+     It shall be unlawful for any person, firm or Village department to prune any street tree or other trees on
+     public property without written approval from the Department. "Pruning" is defined as the severe cutting
+     back of limbs to stubs larger than three inches in diameter to such a degree as to remove the normal canopy
+     and/or disfigure the tree. Trees severely damaged by storm or other causes or certain trees under utility
+     wires or other obstructions where other pruning practices are impractical may be exempted from this article
+     at the determination of the Department.
+
+     § 208-10. Responsibilities of property owners.
+     Every owner of any tree or shrub on private property overhanging any right-of-way within the Village shall
+     prune the branches so that such branches shall not obstruct the light from any street lamp or obstruct the
+     view of any street intersection or any traffic control device and so that there shall be a clear space of eight
+     feet above the surface of the street or sidewalk. Said owners shall remove all dead, diseased or dangerous
+     trees or broken or decayed limbs which constitute a menace to the safety of the public. The Department
+     shall have the right to prune any tree or shrub on private property when it interferes with the proper spread
+     of light along the street from a streetlight or interferes with visibility of any traffic control device or sign
+     or interferes with visibility at an intersection.
+
+     § 208-11. Removal of stumps.
+
+     All stumps of street trees shall be removed below the surface of the ground so that the top of the stump
+     shall not project above the surface of the ground.
+
+
+     § 208-12. Removal of healthy trees prohibited.
+
+     In order to protect the Village's investment in time and resources in the street tree program, it shall
+     be unlawful to remove or cause the destruction of any healthy street tree without prior approval of the
+     Department.
+
+     § 208-13. Consent required for deviations.
+
+     Any deviation from this article shall be unlawful without the express written consent of the Superintendent
+     of the Department.
+
+
+                                                              ARTICLE II
+                                                            Tree Preservation
+
+     § 208-14. Purpose.
+
+     A.    The Board of Trustees finds that it has been established that trees stabilize the soil and control water
+           pollution by preventing soil erosion and flooding, reduce air pollution, provide oxygen, yield
+           advantageous microclimatic effects, temper noise and, further, that unusual, large and old trees have
+           unique aesthetic and historic values. Indiscriminate removal of trees causes deprivation of these
+           benefits and disrupts the Village's ecological systems. It is, therefore, the purpose of this article to
+           prevent the indiscriminate or unnecessary destruction of trees within the Village of Croton-on-
+           Hudson.
+
+     B.    The Village, furthermore, takes note of the findings of the New York State Environmental Quality
+           Review Act,91 among them being the obligation of the Village to serve as a steward of air, water, land
+           and living resources and the obligation to protect the environment for the use of this and further
+           generations. It is the intent of the Village to recognize these responsibilities in part by providing these
+           procedures as well as to preserve the health and welfare and rural character of the community which
+           is reflected in the woodlands of the Village of Croton-on-Hudson.
+
+     § 208-15. Definitions.
+
+     As used in this article, the following terms shall have the meanings indicated:
+     APPLICANT — Any individual or individuals, firm, partnership, association, corporation, company,
+     organization or other legal entity of any kind, including a municipal corporation, governmental agency or
+     subdivision thereof, filing an application pursuant to this chapter.
+     APPROVING AUTHORITY — The Village Engineer or his or her designee or the Planning Board as
+     applicable, as specified in § 208-16C hereof.[Amended 12-20-2021 by L.L. No. 13-2021]
+     CLEAR CUTTING — The cutting of more than 10 trees with a DBH of four inches or greater on a lot,
+     within any twelve-month period.
+     DIAMETER AT BREAST HEIGHT (DBH) — The diameter of a tree measured at a point 4 1/2 feet above
+     the ground, or at the highest measurable point of the remaining stump if less than 4 1/2 feet, on the uphill
+     side of the tree.
+     LANDMARK TREES — A tree as defined on a list of trees which may be promulgated and established by
+     the Board of Trustees of the Village of Croton-on-Hudson, which list is on file in the office of the Village
+     Manager.
+     LOT — Any parcel of land, not necessarily coincident with a lot or lots shown on a map of record, which
+     is occupied or which is to be occupied by a building and its accessory buildings, if any, or by a group of
+     buildings having any land in common and the buildings accessory thereto, if any, together with the required
+     open spaces appurtenant to such building or group of buildings.
+     REGULATED BUFFER ZONE — Any area of vegetative screening as established by an approved site
+     plan, minor site plan, special permit or subdivision plat, or any area of a residentially zoned property
+     as measured from each perimeter property line of the property towards the interior of such property as
+     follows:
+
+
+     91. Editor's Note: See Art. 8 of the Environmental Conservation Law.
+
+
+                                                                          Width of Regulated Buffer Zone
+             Zoning District                                                          (feet)
+             RA-40                                                                         15
+             RA-25                                                                         10
+             RA-9                                                                           5
+             RA-5                                                                           3
+             RB (One-Family Residence)                                                      3
+             RB (Two-Family Residence)                                                      5
+             RC (One-Family Residence)                                                      5
+             RC (Multiple Residence)                                                       12
+
+     TREE — A living woody plant with an erect perennial trunk which is four inches or more in DBH.
+
+     § 208-16. Tree removal permit required; approving authority.
+
+     A.    General regulations. A tree removal permit will be required before removing:
+
+           (1)    Any tree eight inches or more in DBH on any parcel of land capable of being subdivided under
+                  the zoning provisions applicable to the district in which the parcel is situated or on any parcel of
+                  land without a residential structure or on any property which would require site plan approval
+                  to be developed.
+
+           (2)    Any tree four inches or more in DBH growing on slopes of over 20%.
+
+           (3)    Any threatened or endangered species of tree, regardless of size, as defined by the New York
+                  State Department of Environmental Conservation.
+
+           (4)    Landmark trees as herein defined, regardless of size.
+
+           (5)    Any tree four inches or more in DBH, the trunk of which is wholly or partially located in a
+                  regulated buffer zone as herein defined.
+
+           (6)    More than 10 trees with a DBH of four inches or greater on a lot, within any twelve-month
+                  period.
+
+     B.    Exceptions.
+
+           (1)    No tree removal permit shall be required for work to be done by or on behalf of the Village of
+                  Croton-on-Hudson.
+
+           (2)    Trees may be removed by the appropriate agency or authority as may be necessary to maintain
+                  Village, county, state or utility right-of-way, as a control measure to fight forest or other fires or
+                  under such other actual or ongoing emergency condition when such tree removal is essential for
+                  the protection and preservation of life or property.
+
+     C.    Approving authority. The approving authority for all applications shall be the Village Engineer or his
+           or her designee, except that the Planning Board, as applicable, shall be the approving authority for
+           any application that is also the subject of a pending site plan, minor site plan, subdivision approval,
+           wetlands permit, or steep slopes permit in accordance with the requirements of the Code of the
+           Village of Croton-on-Hudson. Except as otherwise required in connection with the review of
+
+
+           subdivision and site plan applications and steep slope applications by the Planning Board, the
+           application for a tree removal permit shall not be subject to a public hearing, and notification of
+           adjoining or other property owners is not required. [Amended 12-20-2021 by L.L. No. 13-2021]
+
+     D.    Standards for the granting of permits. A tree removal permit shall normally be issued if any of the
+           following conditions are met:
+
+           (1)    The location of the tree(s) clearly endangers the health, safety, welfare or property of the general
+                  public, the property owner or an adjoining property owner.
+
+           (2)    The location of the designated tree(s) prevents compliance with state, county or local standards
+                  for sight lines, driveways or intersections.
+
+           (3)    The location of the tree(s) prevents the property owner from undertaking otherwise approved
+                  construction or alteration because the location of the designated tree(s) substantially interferes
+                  with a permitted use of the property and the construction or alteration cannot be reasonably
+                  modified to accommodate the designated tree(s); written explanation may be required
+                  describing how the designated tree(s) interferes with construction or alteration and why the
+                  construction or alteration cannot be modified reasonably to accommodate the designated tree(s).
+
+           (4)    The designated tree(s), due to death, disease, blight, infestation, storm damage, accident or other
+                  condition, causes undue hardship for the property owner to maintain.
+
+           (5)    The tree is dead, or so substantially diseased that it constitutes a danger to persons, property or
+                  other trees.
+
+           (6)    The removal of the tree is not inconsistent with good silvicultural, horticultural or vegetation
+                  management and will not have an adverse visual or ecological impact.
+
+     E.    Planning Board action which is deemed approval of tree removal. Where tree removal is proposed in
+           connection with any site plan, minor site plan, subdivision plat, wetlands permit or steep slope permit
+           application submitted or to be submitted to the Planning Board, as applicable, trees shall be removed
+           from the affected property only in conjunction with an approved final subdivision plat, final site plan,
+           minor site plan, wetlands or steep slope permit application. A tree removal permit is not required in
+           these cases. [Amended 12-20-2021 by L.L. No. 13-2021]
+
+     § 208-17. Permit application.
+
+     A.    Any person proposing to conduct or cause to be conducted a regulated activity specified in § 208-16
+           hereof shall file an application for a permit with the approving authority as hereinafter provided. Such
+           application shall include the following information:
+
+           (1)    The name and address of the applicant.
+
+           (2)    The address and Village Tax Map designation of the property on which the tree(s) is/are located.
+
+           (3)    The total land area involved in cutting operations.
+
+           (4)    The number and size in DBH of trees to be removed.
+
+           (5)    The purpose of the tree removal.
+
+           (6)    A survey of that section to be disturbed, showing location of any regulated buffer zone as herein
+                  defined as well as all trees, indicating those trees to be removed and those trees to be preserved,
+
+
+                  their species and their diameter. In the case of site plans, including minor site plans, and
+                  subdivision plats, the tree survey shall be submitted to the Planning Board or Village Board as
+                  applicable as a part of the site plan, subdivision plat, wetlands or steep slopes applications. Trees
+                  shall have numbering and tagging. The numbering and tagging shall be both in the field as well
+                  as illustrated on the plan.
+
+           (7)    Methods of removal.
+
+           (8)    A stormwater pollution prevention plan (SWPPP) consistent with the requirements of Chapter
+                  196, Article I, Stormwater Management and Erosion and Sediment Control, shall be required
+                  for any tree removal permit that qualifies as or authorizes a land development activity as defined
+                  in Chapter 196, Article I. The SWPPP shall meet the performance and design criteria and
+                  standards in Chapter 196, Article I. The approved tree removal permit shall be consistent with
+                  the provisions of Chapter 196, Article I. [Added 7-16-2007 by L.L. No. 3-2007]
+
+     B.    Where no subdivision, site plan, minor site plan, wetlands permit or steep slope permit application is
+           involved, the survey requirement may be eliminated, and a plan drawn to scale showing the property
+           lines and tree locations with the tree diameters noted by the applicant may be substituted for
+           Subsection A(6) above.
+
+     C.    In cases where the Planning Board has received or will receive a site plan, minor site plan, or
+           subdivision application involving the disturbance of 100 or more acres and where an acceptable
+           erosion and sedimentation control plan has been or will be prepared for such project and where an
+           environmental impact statement has been or will be prepared for such project, a sampling technique
+           may be used to estimate the number, species and diameter of trees on the site and the number of trees
+           proposed to be removed. The specifics of the sampling technique shall be subject to the approval of
+           the Planning Board. Notwithstanding the above, all trees 22 inches in diameter at breast height and
+           greater in any areas proposed to be disturbed shall be individually identified and marked in
+           accordance with §§ 208-17A and 208-18C, respectively, of this article.
+
+     § 208-18. Conditions for granting permit.
+
+     The approving authority may, as a condition of granting a permit:
+
+     A.    Require the reasonable relocation of proposed foundation walls, driveways, grading, surface and
+           subsurface improvements or drainage systems to preserve specific trees.
+
+     B.    Regulate the days and hours of operations.
+
+     C.    Require that each tree to be cut or removed be marked at one point low enough on the trunk to be
+           visible after removal of the tree so as to permit subsequent inspection. Notwithstanding the above,
+           where the use of a sampling technique has been approved, trees less than 22 inches in diameter at
+           breast height need not be marked.
+
+     D.    Require such safeguards as appropriate to minimize the environmental impact of such removal
+           operations.
+
+     E.    Require additional information, if the tree removal involves clear cutting, including but not limited
+           to:
+
+           (1)    Complete plans for the restoration of the site after tree removal, which shall be certified by a
+                  recognized tree expert, drawn to a scale of not less than one inch equals 50 feet, and including
+                  the following:
+
+
+                  (a)    Description of the proposed vegetative cover of the tree removal area, including dominant
+                         species before and after the tree removal.
+
+                  (b)    The location of the tree removal in relation to property lines, roads, buildings and wetlands
+                         within 100 feet thereof.
+
+           (2)    Additional information as needed or deemed necessary by the approval authority to evaluate the
+                  proposed tree removal in terms of the goals and standards of this chapter.
+
+     F.    Require that the tree trunk, limbs, stump and any roots remaining above grade be removed to
+           approximately two feet or less.
+
+     G.    Require that the disturbed area be backfilled, replanted and/or reseeded.
+
+     H.    Require that in the case of a tree destroyed or removed illegally, another tree or trees of comparable
+           size, species and/or value be replanted at the expense of the property owner, for each tree removed.
+
+     I.    Require the planting of a replacement tree or trees.
+
+     J.    Impose such additional conditions as the approving authority deems necessary to ensure compliance
+           with the policies and provisions of this chapter.
+
+     § 208-19. Bond.
+
+     A.    Before issuing a tree removal permit, the approving authority may require the applicant to file with
+           the Village a suitable bond or other security, payable to the Village, in an amount fixed by the
+           approving authority and in a form approved by said approving authority and conditioned upon the
+           faithful performance of the requirements of this article, the observance of all municipal laws and
+           compliance with conditions imposed in connection with the granting of the permit, to indemnify the
+           Village for completing the work in accordance with this article.
+
+     B.    Any bond or other security filed in accordance with the foregoing shall not be released until the
+           Village Engineer has determined that, in all respects, the work proposed under the approval has been
+           satisfactorily completed in full compliance with all provisions of this article. Failure to timely
+           complete the work in accordance with the terms and conditions of an approved plan and/or permit
+           and to obtain a certificate of completion as provided in § 208-23 may result in the forfeiture of the
+           bond or other security and the Village shall be entitled to the full amount of said bond or other security
+           for the purpose of complying with the provisions of this article.
+
+     § 208-20. Permit fee.
+
+     A tree removal permit application shall be accompanied by a fee in an amount set by resolution of the
+     Board of Trustees.
+
+     § 208-21. Inspection; indemnification.
+
+     Any site for which an application for a tree removal permit has been submitted shall be subject to
+     inspection by the approving authority or its designated representatives upon notice to the property owner
+     and applicant at any reasonable time, including weekends and holidays. The applicant, by making
+     application for such permit, shall be deemed to have given its consent to such inspection. The applicant
+     shall indemnify and hold the Village harmless against any damage or injury that may be caused by or
+     arise out of any entry onto the subject property in connection with the processing of the application, during
+     construction or performance of the work or within one year after the completion of the work.
+
+
+     § 208-22. Term.
+
+     No permit shall be valid for more than one year after approval of an application by the approving authority
+     unless otherwise specified by the approving authority. All permits shall expire upon completion of the
+     work specified therein. The validity of any work duly completed pursuant to an existing permit shall not
+     be affected by the expiration date. Permits may be renewed by the approving authority upon application
+     submitted at least 20 days before the expiration of the permit. Standards for issuance of renewals shall be
+     the same for the issuance of permits.
+
+     § 208-23. Action upon completion of work.
+
+     A.    Within 30 days after completion of all tree removals authorized under a permit issued in accordance
+           with this chapter, the applicant shall notify the Village Engineer of such completion.
+
+     B.    Within 30 days of such notification of completion of work, the Village Engineer shall inspect or cause
+           to be inspected the tree removal site for compliance with all conditions of the permit.
+
+           (1)    When all tree removal(s) authorized under a permit is deemed to be completed in an acceptable
+                  fashion, the approving authority shall issue a certificate of completion, which shall be
+                  accompanied by cancellation or return of any bond collected for such permit.
+
+           (2)    When tree removals authorized under permit are deemed not acceptable, the approving authority
+                  shall so notify the applicant. The notification of noncompliance shall include a list of all
+                  conditions in violation of the terms of the permit and shall specify a time limit for the correction
+                  of all items so listed.
+
+     § 208-24. Suspension or revocation of permit.
+
+     A.    The approving authority after notice to the permit holder and an opportunity to be heard may revoke
+           or suspend a tree removal permit if it finds that the applicant has not complied with any or all of the
+           terms of such permit, has exceeded the authority granted in the permit or has failed to undertake the
+           project in the manner set forth in the approved application. [Amended 7-21-2008 by L.L. No.
+           2-2008]
+
+     B.    Issuance of a stop-work order by the Village Engineer shall be as provided in § 86-14 of the Village
+           Code. A stop-work order may be appealed by filing a written notice of appeal with the Planning Board
+           not later than 30 days after service of the stop-work order upon the applicant. A hearing shall be
+           scheduled by the Planning Board within 20 days of receipt of request for a hearing. After the close of
+           the hearing, the Planning Board may confirm, modify or cancel the stop-work order.
+
+     C.    The approving authority shall set forth in writing its findings and reasons for revoking or suspending
+           a permit pursuant to this section and keep a copy in the permit application file.
+
+
+                                                       ARTICLE III
+                                         Penalties; Appeals; Dead or Diseased Trees
+
+     § 208-25. Penalties for offenses.
+
+     A.    Any person, firm, corporation, or other entity who or which undertakes any regulated activity without
+           a tree removal permit required by this chapter or who violates any condition attached to a tree removal
+           permit, or who otherwise violates any of the provisions of this chapter shall be guilty of an offense
+           punishable by a fine of not more than $250. Each tree removed without a tree removal permit required
+           by this chapter or in violation of any condition attached to a tree removal permit or otherwise in
+           violation of this chapter shall constitute a separate offense. For a second and each subsequent
+           violation within a one-year period, the violator shall be guilty of an offense punishable by a fine of
+           not more than $1,000 or a term of imprisonment of not more than 15 days, or both. Notwithstanding
+           the foregoing, a violation of § 208-16A(6) shall be punishable by a fine of not more than $5,000 or a
+           term of imprisonment of not more than 15 days, or both. Each violation of the provisions of this
+           chapter shall be a separate and distinct offense, and, in the case of a continuing offense, each day's
+           continuance thereof shall be deemed a separate and distinct offense. In addition, the court may order
+           or direct a violator to replace any or all trees removed illegally, with a size and type selected by the
+           Superintendent of the Department. The court shall specify a reasonable time for the completion of
+           such restoration, which shall be effected under the supervision of the Village Engineer.
+
+     B.    In addition to the criminal penalties provided in § 208-25A any person, firm, corporation, or other
+           entity who or which undertakes any regulated activity without a tree removal permit required by this
+           chapter, or who violates any condition attached to a tree removal permit, or who otherwise violates
+           any provision of this chapter shall also be liable for a civil penalty not to exceed $3,000 for each such
+           violation. Each consecutive day of the violation shall be considered a separate offense. Before
+           assessment of the civil penalty, the alleged violator shall be afforded a hearing or opportunity to be
+           heard before the Planning Board upon due notice and with right to specification of the charges and
+           representation by counsel. Such civil penalty may be recovered in an action brought by the Village in
+           any court of competent jurisdiction. Such civil penalty may be released or compromised by the
+           Village and any action commenced to recover the same may be settled and discontinued by the
+           Village.
+
+     C.    The Planning Board also shall have the power, following a hearing, to direct a violator to cease
+           violation of this chapter and, under the Board's supervision, to replace illegally removed trees and to
+           restore satisfactorily the affected land to its condition prior to the violation, insofar as that is possible,
+           within a reasonable time. Exercising of this power may be with or without the imposition of a fine or
+           civil penalty under Subsections A and B hereof.
+
+     D.    Any civil penalty or order issued by the Planning Board shall be reviewable pursuant to Article 78 of
+           the Civil Practice Law and Rules.
+
+     E.    The Village also shall have the right to seek equitable relief to restrain any violation or threatened
+           violation of any provision of this chapter and to compel the replacement of any or all trees removed
+           illegally and the restoration of the land affected to its condition prior to the violation of the provisions
+           of this chapter.
+
+     F.    The Village shall not issue a building permit, temporary certificate of occupancy or certificate of
+           occupancy for any property for which a violation of this chapter has been served, or for which an
+           administrative or judicial proceeding has been commenced under this section, until said violation or
+           proceeding is dismissed or resolved to the satisfaction of the approving authority or court, as is
+
+
+           appropriate.
+
+     G.    The Village Engineer and Code Enforcement Officer(s) are hereby authorized to issue appearance
+           tickets for violation of this chapter.
+
+     § 208-26. Appeals.
+
+     A.    A determination by the Planning Board to grant or deny a tree removal permit may be reviewed by
+           the applicant or any other aggrieved person by the commencement of an action pursuant to the
+           provisions of Article 78 of the Civil Practice Law and Rules.
+
+     B.    In the case of an application decided by the Village Engineer or the Village Engineer's designee, the
+           applicant or any other party aggrieved by such determination may seek review by appealing to the
+           Planning Board, in which case the Planning Board shall become the approving authority for such
+           application. Such review shall be requested not later than 20 days after the filing of the subject
+           decision by the approving authority.
+
+     § 208-27. Removal of dead or diseased trees; dangerous trees or tree limbs. [Amended 11-19-2018
+     by L.L. No. 10-2018]
+
+     A.    The Department shall have the right to cause the removal of any dead or diseased trees on private
+           property within the Village when such trees constitute a hazard to life and property or harbor insects
+           or diseases which constitute a potential threat to other trees within the Village. The Department shall
+           notify, in writing, the owners of such trees. Removal shall be done by said owners, at their own
+           expense, within 30 days after the date of service of notice.
+
+     B.    The Department shall have the right to cause the removal of any trees or tree limbs on private property
+           within the Village that it has determined are dangerous because they are likely to constitute an
+           imminent hazard to life and/or property. The Department shall notify, in writing, the owners of such
+           trees or limbs. Removal shall be done by said owners, at their own expense, within three days after
+           the date of service of notice.
+
+     C.    In the event of an owner's failure to comply with Subsection A or B hereunder, the Department shall
+           have the authority to remove such tree(s) or limb(s), as the case may be, and charge the cost of
+           removal to the owner. If the charge is not paid within 30 days from the date of the bill, the Village
+           Manager shall cause, on the next succeeding April 15, any said unpaid removal charges to be added
+           to the Village tax bills. Said charges shall constitute a lien on the real property so affected.
+
+     § 208-28. Severability.
+
+     If any provision of this chapter shall be held for any reason to be invalid, such determination shall not
+     invalidate any other provision hereof.
+
+
+     § 208-28                                    CROTON-ON-HUDSON CODE
+
+
+                                                    VEHICLES, ABANDONED                                          § 212-4

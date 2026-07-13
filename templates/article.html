@@ -3,7 +3,7 @@
 {% block meta_desc %}{{ (article.quick_summary or article.short_summary or '')|trim }}{% endblock %}
 
 {% block og_meta %}
-{% set og_title = (article.headline or article.quick_summary or article.short_summary)|trim %}
+{% set og_title = (article.headline or article.quick_summary or article.short_summary or "")|trim %}
 {% set og_desc = (article.quick_summary or article.short_summary or '')|trim %}
 {% set og_url = 'https://croton.news/article/' ~ (article.id or article.doc_id) %}
 {% set eid = article.event_id or '' %}
@@ -21,7 +21,11 @@
 <meta property="og:image" content="{{ og_image }}">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:site_name" content="croton.news">
-<meta property="article:published_time" content="{{ article.date }}T19:00:00-05:00">
+<meta property="article:published_time" content="{{ article.date }}T19:00:00{{ article.date|tz_offset }}">
+{% if article.article_generated_at and article.article_generated_at|length >= 19 %}
+<meta property="article:modified_time" content="{{ article.article_generated_at[:10] }}T{{ article.article_generated_at[11:19] }}{{ article.date|tz_offset }}">
+{% endif %}
+<meta property="article:section" content="{{ article.committee }}">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
@@ -30,7 +34,7 @@
 <meta name="twitter:image" content="{{ og_image }}">
 {% endblock %}
 {% block head %}
-{% set og_title = (article.headline or article.quick_summary or article.short_summary)|trim %}
+{% set og_title = (article.headline or article.quick_summary or article.short_summary or "")|trim %}
 {% set og_desc = (article.quick_summary or article.short_summary or '')|trim %}
 {% set og_url = 'https://croton.news/article/' ~ (article.id or article.doc_id) %}
 {% set eid = article.event_id or '' %}
@@ -48,8 +52,8 @@
   "image": [
     "{{ og_image }}"
   ],
-  "datePublished": "{{ article.date }}T19:00:00-05:00",
-  "dateModified": "{{ article.article_generated_at[:19] if article.article_generated_at and article.article_generated_at|length >= 10 else article.date ~ 'T19:00:00' }}-05:00",
+  "datePublished": "{{ article.date }}T19:00:00{{ article.date|tz_offset }}",
+  "dateModified": "{{ article.article_generated_at[:19] if article.article_generated_at and article.article_generated_at|length >= 10 else article.date ~ 'T19:00:00' }}{{ article.date|tz_offset }}",
   "description": {{ og_desc | default("", true) | tojson }},
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -109,7 +113,7 @@
     <h1>{{ article.headline or article.quick_summary or article.short_summary }}</h1>
     <div class="deck">{{ article.quick_summary or article.short_summary }}</div>
     <div class="article-head-meta">
-      <span>{{ article.date }}</span>
+      <time datetime="{{ article.date }}">{{ article.date }}</time>
       {% if author %}
       <span>&middot;</span>
       <a href="/author/{{ author.slug }}">{{ author.name }}</a>
@@ -193,9 +197,9 @@
         videoHref = '/videos/' + qEid + '.mp4#t=' + ts;
         videoLabel = '&#9654; ' + mins + ':' + secs;
       }
-      var links = '<span class="quote-links" style="display:inline-flex;gap:4px;margin-left:2px;vertical-align:super;font-size:11px;line-height:0">' +
-        '<a href="/transcript/' + qEid + '#t=' + ts + '" style="text-decoration:none;opacity:0.5" title="Transcript at ' + mins + ':' + secs + '">&#128196;</a>' +
-        '<a href="' + videoHref + '" target="_blank" rel="noopener noreferrer" style="text-decoration:none;opacity:0.5" title="Watch at ' + mins + ':' + secs + '">&#9654;&#65039;</a>' +
+      var links = '<span class="quote-links" style="display:inline-flex;gap:6px;margin-left:4px;vertical-align:super;font-size:10px;line-height:1;font-family:var(--sans,sans-serif)">' +
+        '<a href="/transcript/' + qEid + '#t=' + ts + '" style="text-decoration:none;color:var(--accent,#8b2500);opacity:0.65;border-bottom:1px dotted currentColor" title="View in transcript at ' + mins + ':' + secs + '">[source]</a>' +
+        '<a href="' + videoHref + '" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:var(--accent,#8b2500);opacity:0.65;border-bottom:1px dotted currentColor" title="Watch video at ' + mins + ':' + secs + '">[' + mins + ':' + secs + ']</a>' +
         '</span>';
       return links;
     }
@@ -436,7 +440,7 @@ document.addEventListener('click', function(e) {
     <div style="margin-bottom:20px;border:1px solid var(--rule);border-radius:8px;overflow:hidden">
       {# Meeting header #}
       <div style="padding:14px 20px;background:var(--paper-card);border-bottom:1px solid var(--rule);display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-        <span style="font-family:var(--sans);font-size:13px;font-weight:700;color:var(--ink)">{{ r.date }}</span>
+        <time datetime="{{ r.date }}" style="font-family:var(--sans);font-size:13px;font-weight:700;color:var(--ink)">{{ r.date }}</time>
         {% if r.headline %}
         <span style="font-family:var(--serif-body);font-size:14px;color:var(--ink-secondary)">{{ r.headline }}</span>
         {% elif r.quick_summary %}
@@ -449,7 +453,7 @@ document.addEventListener('click', function(e) {
           {% if r.has_transcript and r.event_id %}
           <a href="/transcript/{{ r.event_id }}" style="font-size:11px;font-weight:600;color:var(--accent);text-decoration:none;padding:3px 10px;border:1px solid var(--accent);border-radius:12px">Transcript</a>
           {% endif %}
-          {% if r.has_video and r.event_id %}
+          {% if r.has_audio and r.event_id and not r.event_id.startswith("yt-") %}
           <a href="/videos/{{ r.event_id }}.mp4" target="_blank" rel="noopener noreferrer" style="font-size:11px;font-weight:600;color:var(--accent);text-decoration:none;padding:3px 10px;border:1px solid var(--accent);border-radius:12px">&#9654; Video</a>
           {% endif %}
           <a href="/article/{{ r.id }}" style="font-size:11px;font-weight:600;color:var(--ink-secondary);text-decoration:none;padding:3px 10px;border:1px solid var(--rule);border-radius:12px">Read &rarr;</a>
@@ -478,7 +482,7 @@ document.addEventListener('click', function(e) {
       {% endif %}
 
       {# Audio player if available #}
-      {% if r.has_video and r.event_id %}
+      {% if r.has_audio and r.event_id and not r.event_id.startswith("yt-") %}
       <div style="padding:8px 20px 14px;border-top:1px solid color-mix(in srgb, var(--rule) 50%, transparent)">
         <audio preload="none" style="height:28px;width:100%;max-width:400px" controls>
           <source src="/audio/{{ r.event_id }}.mp3" type="audio/mpeg">

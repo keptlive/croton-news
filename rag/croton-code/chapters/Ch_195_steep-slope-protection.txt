@@ -1,0 +1,629 @@
+---
+title: "Chapter 195: Steep Slope Protection"
+chapter: 195
+name: "Steep Slope Protection"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 0
+---
+
+ARTICLE I                                     § 195-6.               Application requirements.
+                         General Provisions                               § 195-7.               Fees.
+                                                                          § 195-8.               Procedures for review and
+     § 195-1.              Legislative findings.                                                 decision making.
+     § 195-2.              Definitions.                                   § 195-9.               Appeals.
+                                                                          § 195-10.              Completion of work.
+                       ARTICLE II
+        Regulated Activities and Review Standards                                                 ARTICLE IV
+                                                                                                  Enforcement
+     § 195-3.              Applicability.
+     § 195-4.              Review standards.                              § 195-11.              Inspection.
+                                                                          § 195-12.              Penalties for offenses.
+                           ARTICLE III                                    § 195-13.              Pre-existing approvals and
+                      Application Procedures                                                     permits.
+                                                                          § 195-14.              Severability.
+     § 195-5.              Approving authority.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson 7-21-2008 by
+     L.L. No. 3-2008.73 Amendments noted where applicable.]
+
+                                                              GENERAL REFERENCES
+
+     Building construction — See Ch. 86.                                  Stormwater, drainage, erosion and water pollution control — See
+                                                                          Ch. 196.
+     Environmental quality review — See Ch. 116.
+                                                                          Subdivision of land — See Ch. 200.
+     Erosion and sediment control — See Ch. 118.
+                                                                          Tree preservation — See Ch. 208.
+     Excavation, filling and topsoil removal — See Ch. 120.
+                                                                          Water supply protection — See Ch. 223.
+     Flood damage prevention — See Ch. 129.
+                                                                          Zoning — See Ch. 230.
+
+
+     73. Editor's Note: This local law also repealed former Ch. 195, Steep Slopes, adopted 7-24-1989 by L.L. No. 6-1989, as amended.
+
+
+                                                          ARTICLE I
+                                                        General Provisions
+
+     § 195-1. Legislative findings.
+
+     The Village Board of the Village of Croton-on-Hudson finds and declares it to be the public policy of the
+     Village to preserve, protect and conserve its steep slopes so as to maintain and protect the natural terrain
+     and its vegetative features, preserve wetlands, water bodies and watercourses, prevent flooding, protect
+     important scenic views and vistas, preserve areas of wildlife habitat, provide safe building sites and protect
+     adjoining property by preventing surface erosion, creep and sudden slope failure. In this connection, the
+     Village Board finds as follows:
+
+     A.    Protection of steep slopes is a matter of concern to the entire Village. The establishment of regulatory
+           and conservation practices to prevent disturbance of steep slopes is needed to protect the public
+           health, safety and general welfare. Experience has demonstrated a need for effective protection of
+           steep slopes, including careful review and regulation and the implementation of stringent mitigation
+           measures where, in the opinion of the approving authority, no practicable alternative to such
+           disturbance exists. However, in all cases where the approving authority determines that total
+           avoidance of steep slopes is not practicable, such disturbance should constitute the minimum
+           disturbance necessary to ensure the property owner a reasonable use of his property.
+
+     B.    The improperly managed disturbance of steep slopes can aggravate erosion and sedimentation beyond
+           rates experienced in natural geomorphological processes. Erosion and sedimentation often include
+           the loss of topsoil, a valuable natural resource, and can result in the disturbance of habitats,
+           degradation of the quality of surface water, alteration of drainage patterns, the gullying of land,
+           obstruction of drainage structures and intensification of flooding both on and off the subject site.
+
+     C.    The inadequately controlled disturbance of steep slopes can lead to the failure of slopes and the mass
+           movement of earth, danger to the natural environment, man-made structures and the safety of persons,
+           and the degradation of aesthetics.
+
+     D.    Steep slopes, including vegetation and rock outcroppings located thereon, are important
+           environmental features that contribute significantly to the visual impression one forms while traveling
+           through Croton-on-Hudson. Areas that are highly visible from the roadways are particularly
+           important in maintaining the Village's semirural character. Overdevelopment of or improperly
+           managed disturbance to these areas are detrimental to the visual character of the Village.
+
+     E.    Regulation of disturbance to steep slopes is consistent with the legitimate interests of landowners to
+           make reasonable use of their land. Regulation can prohibit the degradation of these important
+           environmental features and allow the reasonable use of private property by encouraging flexible
+           development design so as to avoid disturbance of steep slopes. Regulation can also permit
+           environmentally sound disturbance of steep slopes, conducted in accordance with acceptable
+           engineering practices, to permit reasonable use of private property.
+
+     F.    To mitigate the potential adverse impacts of development on steep slopes, the approving authority
+           should seek the permanent preservation of such areas by such means as the use of imaginative and
+           innovative site design, including the application of § 7-738, Subdivision review; approval of cluster
+           development, of the New York State Village Law, and the establishment of conservation easements
+           and other land preservation techniques.
+
+
+     § 195-2. Definitions.
+
+     As used in this chapter, the following terms shall have the meanings indicated:
+     ANGLE OF REPOSE — The maximum angle at which the exposed face of various soil and rock materials
+     can deviate from the horizontal without incurring the likelihood of a slope failure.
+     APPLICANT — Any individual or individuals, firm, partnership, association, corporation, company,
+     organization or other legal entity of any kind, including municipal corporations, governmental agencies or
+     subdivisions thereof, filing an application pursuant to this chapter.
+     APPROVING AUTHORITY — The Village agency or public official empowered to administer the permit
+     procedures of this chapter, as specified in § 195-5 hereof.
+     BUILDING INSPECTOR — The Building Inspector of the Village of Croton-on-Hudson, New York, or
+     his or her authorized representative.
+     DISTURBANCE — The removal of vegetation, except as specifically permitted in § 195-3B herein, or the
+     filling, excavation, regrading or removal of soil, rock or retaining structures in areas of steep slope, whether
+     by manual labor, machine or explosive. The condition of disturbance will be deemed to continue until the
+     area of disturbance is revegetated and/or permanently stabilized.
+     DISTURBED AREA — Any steep slope area for which a disturbance is proposed or is ongoing.
+     PERSON — Any individual or individuals, firm, partnership, association, corporation, company,
+     organization or other legal entity of any kind, including municipal corporations, governmental agencies or
+     subdivisions thereof.
+     PLANNING BOARD — The Planning Board of the Village of Croton-on-Hudson.
+     STEEP SLOPE — Any geographical area, whether on a single lot or not, having a topographical gradient
+     of 15% or greater (ratio of vertical distance to horizontal distance), with a minimum horizontal dimension
+     of 10 feet, whether man-made or natural, and whether created by a retaining structure or not. Steep slopes
+     are further categorized as:
+
+     A.    MODERATELY STEEP SLOPE — A slope equal to or greater than 15% but less than 25%.
+
+     B.    VERY STEEP SLOPE — A slope equal to or greater than 25% but less than 35%.
+
+     C.    EXTREMELY STEEP SLOPE — A slope equal to or greater than 35%.
+     STEEP SLOPE PERMIT — The written form of Village approval granted by the approving authority and
+     required by this chapter for the issuance of a work permit and the conduct of any steep slope regulated
+     activity.
+     VILLAGE ENGINEER — The person employed as a Village Engineer of the Village of Croton-on-
+     Hudson, or his or her designee.
+     WORK PERMIT — The written approval issued by the Building Inspector permitting the actual
+     commencement and continuation of work within a steep slope regulated area, consistent with the
+     conditions, terms and requirements of the steep slope permit issued by the approving authority.
+
+
+                                                       ARTICLE II
+                                         Regulated Activities and Review Standards
+
+     § 195-3. Applicability.
+
+     A.    Regulated activities. Other than an exempt activity as defined in § 195-3B hereof, it shall be unlawful
+           to create a new steep slope or create a disturbance to an existing steep slope in an amount equal to or
+           greater than the areas described in Subsections A(1) through (4) below or in an amount equal to or
+           greater than 50% of any existing individual lot area, in the absence of a steep slope permit issued by
+           the approving authority and a work permit issued by the Building Inspector.
+
+           (1)    Steep slope areas.
+
+                  (a)    Moderately steep slope: proposed new steep slope and/or disturbance covering a minimum
+                         horizontal area of 3/10 of an acre or 13,068 square feet.
+
+                  (b)    Very steep slope: proposed new steep slope and/or disturbance covering a minimum
+                         horizontal area of 2/10 of an acre or 8,712 square feet.
+
+                  (c)    Extremely steep slope: proposed new steep slope and/or disturbance covering a minimum
+                         horizontal area of 1/10 of an acre or 4,356 square feet.
+
+           (2)    The most steeply sloped area that meets the minimum area threshold, as specified above, shall
+                  determine approving authority jurisdiction and review procedures.
+
+           (3)    If the areas of proposed disturbance within each of the three categories of steep slope are
+                  individually less than the minimum areas defined above, then the area of all contiguous steeply
+                  sloped areas proposed for disturbance shall be merged as specified herein. A steep slope area
+                  shall be regulated pursuant to the provisions of this chapter if the total of all such steeply sloped
+                  areas proposed for disturbance, as adjusted according to the weighting factors identified below,
+                  exceeds a sum of 3/10 of an acre or 13,068 square feet.
+
+                   Moderately steep slope area X 1.0 + Very steep slope area X 1.5 + Extremely steep slope area
+                                                   X 3.0 = Total weighted area
+
+           (4)    If no category of steep slope meets or exceeds the minimum area requirement for a steep slope,
+                  but the total weighted area of two or more slope categories exceeds 13,068 square feet (3/10
+                  acre), then the single slope category that has the largest area after the application of the relevant
+                  weighting factor shall determine approving authority jurisdiction and review procedures.
+
+     B.    Exempt activities. The following activities on steep slopes do not require the issuance of a permit:
+
+           (1)    Normal ground maintenance, including mowing, trimming and pruning of vegetation and
+                  removal of dead or diseased vegetation, provided that such activity does not involve regrading
+                  and further provided that such activity conforms with all other applicable ordinances, laws and
+                  regulations.
+
+           (2)    The disturbance to steep slopes under temporary emergency conditions, as determined by the
+                  Village Engineer, where such disturbance is necessary to protect persons or property from
+                  present and imminent danger.
+
+     § 195-4. Review standards.
+
+
+     A.    In granting a steep slope permit under this chapter, the approving authority shall apply the following
+           standards:
+
+           (1)    That the proposed activity and the manner in which it is to be accomplished are in accordance
+                  with the purpose and findings set forth in § 195-1 of this chapter.
+
+           (2)    That the proposed activity and the manner in which it is to be accomplished can be completed
+                  without increasing the possibility of creep or sudden slope failure and will minimize additional
+                  erosion to the maximum extent practicable.
+
+           (3)    That the proposed activity and the manner in which it is to be accomplished will not adversely
+                  affect the preservation and protection of existing wetlands, water bodies, watercourses,
+                  floodplains, or any endangered species of flora or fauna.
+
+           (4)    That the proposed activity and the manner in which it is to be accomplished can be completed
+                  in such a way so as not to adversely affect existing, proposed or potential future wells or sewage
+                  disposal systems.
+
+           (5)    That the proposed activity and the manner in which it is to be accomplished are consistent with
+                  the principles and recommendation of the Village Comprehensive Plan adopted by the Village
+                  Board.
+
+           (6)    Lot layouts shall be designed so that sanitary sewage disposal systems entirely avoid areas of
+                  very steep slope and extremely steep slope and are in compliance with all standards and
+                  regulations of the Westchester County Health Department.
+
+           (7)    The padding or terracing of building sites shall be evaluated on a site-by-site basis for
+                  appropriateness. The mounding of septic tile fields shall be minimized to the maximum extent
+                  practicable.
+
+           (8)    The alignment of roads and driveways shall follow the natural topography, minimize regrading
+                  and, in the case of roads, shall comply with design standards for maximum grades set forth in
+                  the Village Code.
+
+           (9)    The natural elevations and vegetative cover of ridgelines shall be protected from disturbance to
+                  the maximum extent possible.
+
+           (10) All regrading shall blend in with the natural contours and undulations of the land.
+
+           (11) Cuts and fills shall be rounded off to eliminate sharp angles at the top, bottom and side of
+                regraded slopes.
+
+           (12) The angle of cut and fill slopes shall not exceed the natural angle of repose of the soil or rock
+                materials in the cut or fill, except where retaining walls or other structural stabilization is used.
+                Generally for soils, cut and fill slopes should be not steeper than two horizontal to one vertical
+                (fifty-percent slope).
+
+           (13) Fill slopes shall avoid all slopes of two horizontal to one vertical (fifty-percent slope) or steeper.
+                The toe of the fill slope shall not be located within 12 feet horizontally of the top of an existing
+                or proposed cut slope.
+
+           (14) Tops and bottoms of cut and fill slopes shall be set back from existing and proposed property
+                lines a distance at least equal to the lesser of three feet plus 1/5 of the height of the cut or fill or
+                10 feet.
+
+
+           (15) Tops and bottoms of cut and fill slopes shall be set back from structures a distance that will
+                ensure the safety of the structure in the event of the collapse of the cut or fill slopes. Generally,
+                such distance will be considered to be six feet plus 1/5 the height of the cut or fill but need not
+                exceed 10 feet. Nevertheless, a structure may be built on a slope or at the toe of a slope if it is
+                designed to retain the slope and to withstand the forces exerted on it by the retained slope.
+
+           (16) Measures for the control of erosion and sedimentation shall be undertaken in accordance with
+                the New York Standards and Specifications for Erosion and Sediment Control (Empire State
+                Chapter of the Soil and Water Conservation Society, 2005, most recent version including
+                applicable updates or its successors) or its equivalent satisfactory to the approving authority.
+
+     B.    The applicant shall have the burden of proof to demonstrate compliance with this chapter.
+
+
+                                                          ARTICLE III
+                                                      Application Procedures
+
+     § 195-5. Approving authority.
+
+     The approving authority for all applications for steep slope permits shall be as follows:
+
+     A.    For any application that involves a regulated disturbance in an area of very steep slope or extremely
+           steep slope, the Planning Board shall be the approving authority for the steep slope permit.
+
+     B.    The Planning Board shall be the approving authority for any application involving property that is
+           also the subject of a pending site plan, minor site plan, subdivision or special permit application, or
+           fill or excavation permit in accordance with the Code of the Village of Croton-on-Hudson, and for
+           any application that also involves the construction or establishment of a principal building or use.
+
+     C.    Except as noted above in § 195-5A and B, the Village Engineer shall be the approving authority for
+           all steep slope permit applications.
+
+     § 195-6. Application requirements.
+
+     A.    Required documentation. An application for a steep slope permit shall be made on forms furnished
+           by the Building Department.
+
+     B.    Any application for a steep slope permit shall also contain the following:
+
+           (1)    A written narrative explaining the nature of the proposal, including any future development
+                  proposals for the property and whether alternative locations exist for the proposed activity.
+
+           (2)    A site plan, which shall be drawn at a scale of not less than one inch equals 50 feet and prepared
+                  by a landscape architect, architect, professional engineer or other qualified person and showing
+                  the following information for all lots on the subject site that contain steep slopes:
+
+                  (a)    The location of proposed structures, septic systems, wells and driveways.
+
+                  (b)    The location of the proposed area of disturbance and its relation to neighboring properties,
+                         together with structures, roads, and affected wetlands as defined in Chapter 227, Wetlands,
+                         of the Village Code, if any, within 50 feet of the boundaries of the disturbed area.
+
+                  (c)    The existing topography in the proposed area of disturbance at a contour interval of not
+                         more than two feet. Contours shall be shown for a distance of 50 feet or greater beyond the
+                         limits of the proposed area of disturbance.
+
+                  (d)    The location and size of areas of extremely steep slope, very steep slope and moderately
+                         steep slope under existing and proposed conditions, in the area of proposed disturbance
+                         and within a distance of 50 feet thereof.
+
+                  (e)    The proposed final contours of the disturbed area at a maximum contour interval of two
+                         feet and proposed surface materials or treatment.
+
+                  (f)    An erosion and sedimentation control plan.
+
+                  (g)    The details of any surface or subsurface drainage system proposed to be installed,
+                         including special erosion control measures designed to provide for proper surface or
+                         subsurface drainage, both during the performance of the work and after its completion.
+
+
+           (3)    A list of all applicable county, state or federal permits that are required for such work or
+                  improvement.
+
+           (4)    Payment of all applicable fees.
+
+     C.    The following information and materials shall be supplied if requested by the approving authority or
+           its representative:
+
+           (1)    If required, the following items shall be provided on a site plan or site plans drawn at a scale of
+                  not less than one inch equals 50 feet, prepared by a landscape architect, architect, professional
+                  engineer or other qualified person:
+
+                  (a)    Cross sections of all disturbed steep slope areas.
+
+                  (b)    Existing soils within 50 feet of the proposed disturbed area, taken from field investigations
+                         by a soils scientist and classified into hydrologic soil groups. The depth to bedrock and
+                         depth to water table, K-factor, and soil and rock strata in all areas of disturbance shall be
+                         identified.
+
+                  (c)    A cut-fill map delineating proposed areas of disturbance at affected depths in feet of zero
+                         feet to three feet, three feet to six feet, six feet to 10 feet, and 10 feet and over, and the
+                         estimated material quantities of cut/fill.
+
+                  (d)    A slope map showing existing and proposed slopes within the disturbed area for each of
+                         the soil types described in Subsection C(1)(b) above.
+
+                  (e)    Other information, including specific reports by qualified professionals on soils, geology
+                         and hydrology, as may be determined to be necessary by the approving authority.
+
+           (2)    A plan with the existing topography of the watershed tributary to the disturbed area presented at
+                  a scale of not more than one inch equals 100 feet. This map shall show existing and, if required
+                  by the approving authority, proposed controls and diversions of upland water.
+
+     D.    Number of copies. Ten copies of the application and all supporting materials shall be submitted if the
+           Planning Board is the approving authority. Four copies of the application and all supporting materials
+           shall be submitted if the Village Engineer is the approving authority.
+
+     E.    A stormwater pollution prevention plan consistent with the requirements of Chapter 196, Article I,
+           Stormwater Management and Erosion and Sediment Control, shall be required for any steep slope
+           permit approval that qualifies as or authorizes a land development activity as defined in Chapter 196.
+           The SWPPP shall meet the performance and design criteria and standards in Chapter 196. The
+           approved steep slope permit shall be consistent with the provisions of that chapter.
+
+     § 195-7. Fees.
+
+     A.    An application fee and any inspection fee as set forth by resolution of the Board of Trustees shall be
+           submitted with the application.
+
+     B.    The applicant shall pay for professional review fees as provided for in Chapters 115, Environmental
+           Compliance, and 178, Professional Fees, of the Village Code.
+
+     § 195-8. Procedures for review and decision making.
+
+     A.    It is the intent of this chapter to incorporate the consideration of steep slope protection into the
+
+
+           Village's existing land use and development approval procedures in conjunction with the procedures
+           of the New York State Environmental Quality Review Act. To the maximum extent possible,
+           the review, hearings and decisions upon any application processed under this chapter will run
+           concurrently with similar procedures that the approving authority may undertake in connection with
+           other applications that are directly related.
+
+     B.    A preliminary informal consultation with the approving authority may be requested by the applicant
+           so as to present his preliminary proposal and receive comments on such proposal.
+
+     C.    During its review of the application, the approving authority will:
+
+           (1)    Determine when an application is complete.
+
+           (2)    Hold a public hearing, if required, in accordance with § 195-8D hereof.
+
+           (3)    Review the application to determine that the requirements of this chapter have been satisfied.
+
+           (4)    Require posting of a performance, guaranty and/or erosion control bond(s) or other security as
+                  a condition of approval, the amount and surety of such bonds to be approved by the Village
+                  Board of Trustees and the form of such security to be approved by Village Counsel. The
+                  performance and/guaranty bond is intended to ensure the proper completion of the proposed
+                  activity in accordance with the approved plans, the restoration of the area to its natural condition
+                  as far as practicable and protection of adjoining property owners from damage resulting
+                  therefrom. The erosion control bond is intended to ensure the proper installation and
+                  maintenance of the erosion control measures. Prior to any bond reduction or release application,
+                  the Village Engineer may require the applicant to provide a certificate of construction
+                  compliance from a New York licensed engineer. The bond(s) shall remain in effect until the
+                  Village Engineer certifies that the work has been completed in compliance with the terms of the
+                  permit, the approved building plans, any certificate of construction compliance from a New
+                  York licensed engineer required by the Village Engineer, and any required restoration of the
+                  area or other required measures to protect adjoining property owners from damage, whereupon
+                  the bond shall be released or reduced after authorization of the Village Board of Trustees
+                  following public notice and hearing. A substitute bond may be provided as approved by the
+                  Village Board of Trustees.
+
+           (5)    Approve, approve with conditions, or deny the application, in accordance with the requirements
+                  of this chapter within 60 days after the receipt of a complete application, as specified in § 195-6
+                  of this chapter, or after the close of a public hearing on the application, whichever is later.
+                  Nothing in this section is to be construed as authorization for a default approval in the event that
+                  these periods are exceeded.
+
+           (6)    Establish conditions of approval deemed necessary by the approving authority to satisfy the
+                  goals, objectives and review standards set forth in §§ 195-1 and 195-4 of this chapter, including
+                  but not limited to the following:
+
+                  (a)    The use of explosives shall be avoided to the maximum extent practicable. Generally,
+                         disturbance of rock outcrops shall be by means of explosives only if manual labor and
+                         machines are not effective and only if rock blasting is conducted in accordance with the
+                         Code of the Village of Croton-on-Hudson and all other applicable regulations by a person
+                         holding a current Class A or Class B certificate of competence from the New York State
+                         Department of Labor.
+
+
+                  (b)    Any disturbance of steep slopes shall be completed within one construction season, and
+                         disturbed areas shall not be left bare and exposed during the winter and spring thaw
+                         periods.
+
+                  (c)    The disturbance of existing vegetative ground cover shall not take place more than 15 days
+                         prior to commencing grading and construction.
+
+                  (d)    Temporary soil stabilization shall be applied to all areas of disturbance and all adjoining
+                         areas within 50 feet thereof within two days after establishing of the final grade, and
+                         permanent stabilization and revegetation shall be undertaken within 15 days thereafter.
+                         Upon good cause shown and based upon consideration of the slopes, soils and
+                         environmental sensitivity of the area involved, the Village Engineer may modify these
+                         specified time periods.
+
+                  (e)    Temporary soil stabilization shall be applied within two days after the disturbance is
+                         completed or when no additional disturbance is to be performed for a period of seven days.
+                         Upon good cause shown and based upon consideration of the slopes, soils and
+                         environmental sensitivity of the area involved, the Village Engineer may modify these
+                         specified time periods.
+
+                  (f)    Topsoil that will be stripped from all areas of disturbance shall be stockpiled in a manner
+                         so as to minimize erosion and sedimentation, and shall be replaced on the site at the time
+                         of final grading.
+
+                  (g)    Fill material shall be composed only of nonorganic material, including rock with a
+                         diameter that will allow for appropriate compaction and cover by topsoil.
+
+                  (h)    Compaction of fill materials in fill areas shall be such that it ensures support of proposed
+                         structures and stabilization for intended uses.
+
+     D.    Public hearings.
+
+           (1)    For any application in which the approving authority is the Village Engineer, no public hearing
+                  will be required. For any application where the Planning Board is the approving authority, the
+                  Planning Board shall have the option of holding a public hearing.
+
+           (2)    In all cases where a public hearing will be held on the application for a steep slope permit, said
+                  public hearing will be held no later than 60 days after the receipt of such complete application.
+                  The approving authority will cause notice of such hearing to be published in the Village's
+                  official newspaper at least five days prior to the date set for such hearing. All application
+                  materials, maps and documents relating thereto shall be open for public inspection at the office
+                  of the Village Building and Engineering Department. Nothing in this section is to be construed
+                  as authorization for a default approval in the event that these periods are exceeded.
+
+     E.    Any approval, conditional approval or denial of a steep slope permit will be in writing. The written
+           decision of the approving authority shall be considered the steep slope permit.
+
+           (1)    In the case of a denial or conditional approval, such written decision will state the reasons for
+                  the denial and/or the conditions of approval.
+
+           (2)    Where the Planning Board is the approving authority, such decision will be in the form of a
+                  resolution.
+
+
+     § 195-9. Appeals.
+
+     A.    An applicant or any other aggrieved person may seek a review of a determination by the Planning
+           Board to grant or deny a steep slope permit by the commencement of an action pursuant to the
+           provisions of Article 78 of the Civil Practice Law and Rules.
+
+     B.    In the case of an application decided by the Village Engineer, the applicant or any other aggrieved
+           person may seek a review by appealing to the Planning Board, in which case the Planning Board shall
+           become the approving authority for such application. Such review shall be requested not later than 20
+           days after the filing of the subject decision by the approving authority. If such appeal is not filed
+           within said period, the determination of the Village Engineer shall be final and binding.
+
+     § 195-10. Completion of work.
+
+     A.    A steep slope permit, issued by the approving authority, will be valid for a period of three years,
+           except that all permits shall expire on completion of the work specified. The approving authority may
+           grant one six-month extension to this three-year period, provided that an application for an extension
+           is submitted at least 60 days before the expiration of the steep slope permit. Standards for the issuance
+           of renewals will be the same as those applied to the initial issuance of steep slope permits. Permits,
+           including all of their conditions, shall be binding on successors and assignees of the applicant. Upon
+           receipt of a steep slope permit, the applicant may apply for a work permit from the Building Inspector
+           to commence the actual work within the steep slope area. The work permit will be valid for a period
+           of one year or until expiration of the steep slope permit, whichever occurs first.
+
+     B.    Following completion of the work, the applicant shall submit a certification by a landscape architect,
+           architect or professional engineer that the completed work meets the requirements of the steep slope
+           permit. The Village Engineer will verify that the work has been completed in accordance with such
+           permit. Submission of an as-built survey may be required by the approving authority or the Village
+           Engineer.
+
+     C.    The Building Inspector shall not issue a certificate of occupancy or use until the Village Engineer has
+           verified that all work has been completed in accordance with the steep slope permit.
+
+     D.    Any proposed revision to work covered by a steep slope permit shall be reviewed by the Village
+           Engineer. Where the Village Engineer determines that a substantial revision is proposed, the
+           submission of a new application to the approving authority shall be required.
+
+     E.    The approving authority, after notice to the permit holder and an opportunity to be heard, may revoke
+           or suspend a steep slope permit if it finds that the applicant has not complied with any or all of the
+           terms of such permit, has exceeded the authority granted in the steep slope permit or has failed to
+           undertake the project in the manner set forth in such steep slope permit.
+
+     F.    Issuance of a stop-work order by the Village Engineer shall be as provided in § 86-14 of the Village
+           Code. A stop-work order may be appealed by filing a written notice of appeal with the Planning Board
+           not later than 30 days after service of the stop-work order upon the applicant. A hearing shall be
+           scheduled by the Planning Board within 20 days of receipt of request for a hearing. After the close of
+           the hearing, the Planning Board may confirm, modify or cancel the stop-work order.
+
+     G.    The approving authority shall set forth, in writing, in the permit application file it keeps, its findings
+           and reasons for revoking or suspending a permit pursuant to this section.
+
+
+                                                            ARTICLE IV
+                                                            Enforcement
+
+     § 195-11. Inspection.
+
+     Any site for which an application has been submitted shall be subject to inspection at any reasonable
+     time, including weekends and holidays, by the members of the approving authority or its designated
+     representatives. Notice will be provided to applicants of any site inspection that is to be performed on a
+     weekend, a legal holiday or between the hours of 6:30 p.m. and 8:00 a.m. The applicant shall indemnify
+     and hold the Village, its officers, employees and agents harmless against any damage or injury which
+     may be caused by or arise out of any entry onto the subject site in connection with the processing of the
+     application or inspection of the site to determine compliance with any conditions of permit approval during
+     the pendency of the application, during the effective period of any steep slope permit or work permit issued
+     for the site and for up to one year after completion of the work.
+
+     § 195-12. Penalties for offenses.
+
+     A.    Any person who undertakes any regulated activity without a steep slope permit required by this
+           chapter or who violates any condition attached to a steep slope permit or who otherwise violates any
+           provision of this chapter shall be guilty of an offense, punishable by a fine of not less than $500 nor
+           more than $1,000. For a second and each subsequent offense, the violator shall be guilty of an offense
+           punishable by a fine of not less than $1,000 nor more than $2,000 or a term of imprisonment of not
+           more than 15 days, or both. Each violation of the provisions of this chapter shall be a separate and
+           distinct offense and, in the case of a continuing offense, each day's continuance thereof shall be
+           deemed a separate and distinct offense. In addition, any court having jurisdiction may order or direct
+           a violator to restore the affected steep slope area to its condition prior to the offense, insofar as that is
+           possible. The court shall specify a reasonable time for the completion of such restoration, which shall
+           be effected under the supervision of the Village Engineer.
+
+     B.    In addition to the criminal penalties provided under § 195-12A, any person who undertakes any
+           regulated activity within a steep slope area without both a steep slope permit and a work permit or
+           who violates any condition attached to a steep slope permit or who otherwise violates any provision
+           of this chapter shall be liable for a civil penalty not to exceed $3,000 for each such violation. Each
+           consecutive day of the violation shall be considered a separate offense. Before assessment of the civil
+           penalty, the alleged violator shall be afforded a hearing or opportunity to be heard before the Planning
+           Board upon due notice, and with rights to specification of the charges and representation by counsel.
+           Such civil penalty may be recovered in an action brought by the Village in any court of competent
+           jurisdiction. Such civil penalty may be released or compromised by the Village, and any action
+           commenced to recover the same may be settled and discontinued by the Village.
+
+     C.    The Planning Board also shall have the power, following a hearing, to direct a violator to cease
+           violation of this chapter and, under the Board's supervision, to restore satisfactorily the affected steep
+           slope area to its condition prior to the violation, insofar as that is possible, within a reasonable time.
+           Exercising of such power may be with or without the imposition of a fine or civil penalty under
+           Subsections A and B hereof.
+
+     D.    Any civil penalty or order issued by the Planning Board shall be reviewable pursuant to Article 78 of
+           the Civil Practice Law and Rules.
+
+     E.    The Village shall have the right to seek equitable relief to restrain any violation or threatened
+           violation of any provision of this chapter and to compel the restoration of the affected steep slope area
+
+
+           to its condition prior to the violation of the provisions of this chapter.
+
+     F.    The Village shall not issue a building permit, temporary certificate of occupancy or certificate of
+           occupancy for any property for which a violation of this chapter has been served, or for which an
+           administrative or judicial proceeding has been commenced under this section, until said violation or
+           proceeding is dismissed or resolved to the satisfaction of the approving authority or court, as is
+           appropriate.
+
+     G.    The Village Engineer and Code Enforcement Officer(s) are hereby authorized to issue appearance
+           tickets for violations of this chapter.
+
+     § 195-13. Pre-existing approvals and permits.
+
+     A.    The provisions of this chapter shall not apply to any development, alteration or improvement of
+           property for which final approval has been obtained and not expired and for which the approved work
+           has not been completed prior to the effective date of this chapter.
+
+     B.    As used in this section, the term "final approval" shall mean:
+
+           (1)    In the case of an application for the subdivision of land not requiring further site plan approval,
+                  adoption by the Planning Board of a resolution granting approval or conditional approval of a
+                  final plat.
+
+           (2)    In the case of an application for a site plan approval, adoption by the Planning Board of a
+                  resolution granting approval or conditional approval.
+
+           (3)    In those cases not covered by Subsection A or B above, the prior issuance of a building permit,
+                  driveway permit or other authorization for the commencement of the development, alteration or
+                  improvement of property; or for those developments, alterations or improvements for which the
+                  Village of Croton-on-Hudson does not require such permits, the actual commencement of the
+                  development, alteration or improvement of property.
+
+     § 195-14. Severability.
+
+     If any provision of this chapter shall be held for any reason to be invalid, such determination shall not
+     invalidate any other provision hereof.
+
+
+     § 195-14                                     STEEP SLOPE PROTECTION
+
+
+                                                 CROTON-ON-HUDSON CODE

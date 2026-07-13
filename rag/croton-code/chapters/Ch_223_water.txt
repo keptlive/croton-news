@@ -1,0 +1,1389 @@
+---
+title: "Chapter 223: Water"
+chapter: 223
+name: "Water"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 0
+---
+
+ARTICLE I                                                  ARTICLE II
+                    Water Service Regulations                                    Water Supply Protection
+
+     § 223-1.               Title.                                § 223-15.           Contents.
+     § 223-2.               Definitions.                          § 223-16.           Purpose.
+     § 223-3.               Purpose.                              § 223-17.           Groundwater zones.
+     § 223-4.               Application for water service,        § 223-18.           Sources of contamination.
+                            fees.                                 § 223-19.           Scope.
+     § 223-5.               Service connections and               § 223-20.           Definitions.
+                            charges.                              § 223-21.           General provisions.
+     § 223-6.               Meter installation and charges.       § 223-22.           Regulations for specific
+     § 223-7.               Water main extensions.                                    groundwater protection zones.
+     § 223-8.               Building water charges.
+     § 223-9.               Fire sprinklers and charges;                              ARTICLE III
+                            hydrants.                                          Cross-Connection Program
+     § 223-10.              Miscellaneous regulations.
+     § 223-11.              Use of water during emergency.        § 223-23.           Purpose.
+     § 223-12.              Fees, charges and payments;           § 223-24.           Cross-connection control
+                            water bills.                                              devices.
+     § 223-13.              Penalties for offenses.               § 223-25.           Upgrade of preexisting systems.
+     § 223-14.              (Reserved)                            § 223-26.           Testing; owner liability for
+                                                                                      costs.
+                                                                  § 223-27.           Manual adopted.
+                                                                  § 223-28.           Penalties for offenses.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson: Art. I,
+     9-19-1988 as L.L. No. 9-1988; Art. II, 7-24-1989 as L.L. No. 5-1989; Art. III, 6-21-1993 as L.L. No.
+     3-1993. Sections 223-14, 223-17A and C, 223-18B and C, 223-20, 223-21A, C, F and G and
+     223-22C(1)(a), C(1)(b), C(1)(g), C(10)(d), C(12)(b), C(13)(b), C(18), C(21), D(1)(a), D(1)(b), D(8)(d),
+     D(12)(d) and D(18)(a) amended at time of adoption of Code; see Ch. 1, General Provisions, Art. I.
+     Other amendments noted where applicable.]
+
+                                                        GENERAL REFERENCES
+
+     Penalties for offenses — See Ch. 1, § 1-12.                  Plumbing — See Ch. 175.
+
+     Flood damage prevention — See Ch. 129.                       Sewers — See Ch. 191.
+
+     Housing standards — See Ch. 141.                             Wetlands and watercourses — See Ch. 227.
+
+
+                                                          ARTICLE I
+                                                   Water Service Regulations
+                                             [Adopted 5-1-2017 by L.L. No. 2-2017110]
+
+     § 223-1. Title.
+
+     This article shall be known and may be cited as the "Water Department Regulations Law of the Village of
+     Croton-on-Hudson."
+
+     § 223-2. Definitions.
+
+     As used in this article, the following terms, phrases, words and their derivations shall have the meanings
+     given herein:
+     BOARD — The Board of Trustees of the Village of Croton-on-Hudson, New York.
+     DEPARTMENT — The Water Department of the Village of Croton-on-Hudson, New York.
+     MANAGER — The Village Manager of the Village of Croton-on-Hudson, New York.
+     OWNER — The owner of the premises, a mortgagee or vendee in possession, assignee of rents, receiver,
+     executor, trustee, lessee or other person, firm or corporation in control of a building or premises.
+     PREMISES — A lot, plot or parcel of land, including the buildings or structures thereon.
+     VILLAGE — The Village of Croton-on-Hudson, New York.
+
+     § 223-3. Purpose.
+
+     The purpose of this article is to provide for the health and safety of Village residents by regulating the
+     installation and alteration of all water mains and conduits in the Village and by prescribing rules and
+     regulations for the distribution and metering of water and for the conservation of water during emergencies.
+
+     § 223-4. Application for water service, fees.
+
+     A.     Application.
+
+            (1)    Application for water service must be made at the office of the Village Engineer on forms
+                   furnished for that purpose and must be signed either by the property owner, contractor or the
+                   plumber who is to perform the work. The location of the property to be served must be shown
+                   on the Tax Maps of the Village, as well as the street name and house number, if assigned.
+                   Applications must be returned to the office of the Village Engineer, properly completed, at least
+                   72 hours before the work is to be commenced. All work to be done must be inspected and
+                   approved by the Superintendent of the Department of Public Works or his representative prior
+                   to acceptance. In the case of service connections which are larger than one inch, applications
+                   must be returned to the Village Engineer, properly completed, at least 15 days prior to the
+                   commencement of work (excluding Saturdays, Sundays and holidays).
+
+            (2)    The application constitutes a binding obligation on the part of the applicant, and each applicant
+                   agrees to be bound by all rules, regulations and laws of the Village and the Department now in
+                   force and/or which may from time to time be adopted.
+
+
+     110. Editor’s Note: This local law also repealed former Art. I, Water Service Regulations, adopted 9-19-5-1988 by L.L. No. 9-1988, as
+          amended.
+
+
+     B.    All fees for water service connections must be paid in advance. The fee amounts shall be set from
+           time to time by resolution of the Board of Trustees. Prior to any work being performed in the street
+           right-of-way, all other required permits shall be obtained from the appropriate agency. [Amended
+           6-6-2022 by L.L. No. 6-2022]
+
+     § 223-5. Service connections and charges.
+
+     A.    Each premises in single ownership must be provided with a water service connection with no more
+           than one water service connection per premises. Each water service connection must be metered.
+
+     B.    Work in connection with the tapping of mains and/or water lines of the Village water district (up to
+           two inches in size) must in all cases be performed by employees of the Department. Work in
+           connection with the installation of water service connections between the mains and the street (lot)
+           lines must in all cases be performed under the supervision of employees of the Department. For
+           service connections greater than two inches, the property owner shall assume the entire cost of the
+           water service, including but not limited to, the wet tap, tapping sleeve, valve and valve box, piping,
+           hydrants and all other appurtenances from the Village main to the building and hydrants, with all
+           work to be performed under the supervision of the employees of the Department. In all cases, the
+           owner of the property is responsible for all work outside the street lines. Tapping of all Village mains
+           is the domain of the Water Department. Upon request, the Department may authorize an independent
+           contractor to conduct a tap larger than two inches. Such independent contractor must file an
+           application on forms provided by the Department and containing information and documentation as
+           may reasonably be required by the Superintendent of the Department of Public Works or his
+           designated representative. For all work performed inside the building, the owner must secure a
+           qualified licensed plumber. The curb box shall be located no farther than three feet from the edge of
+           pavement (or curb where curbs are in place). In the case where the water main is located between the
+           edge of pavement (or curb where curbs are in place) and the property line, the curb box shall be
+           located as close to the main as practicable, but in any case, between the main and the property line.
+           In all cases where a curb box is improperly located on private property, the Water Department shall
+           not be responsible for the repair and maintenance of the service line, curb valve and/or curb valve box
+           beyond the proper curb box location, even though no curb box may be in place at the proper location.
+           Upon completion of designated work and prior to backfilling of trenches, all work must be inspected
+           and approved by the Superintendent of the Department of Public Works or his designated
+           representative. [Amended 10-16-2023 by L.L. No. 18-2023]
+
+     C.    The service line from the curb stop to the buildings shall be installed and maintained entirely by the
+           owner at a depth of not less than 42 inches but not greater than 48 inches. All pipe that is installed
+           from the curb stop to the water main must be of Type K copper in conformance with the Department-
+           installed standards. Such service line shall be not less than 3/4 inch in inside diameter. Each service
+           line must be installed in accordance with the Department's water service installation diagram.
+
+     D.    Whenever an existing water service connection is to be replaced or abandoned, the existing water
+           service connection is to be removed in its entirety and the connection to the main shut off by the
+           Department, with all work being at the owner's expense.
+
+     E.    All owners, contractors or plumbers are required to notify the Department, in writing, whenever they
+           are renewing or repairing a customer's service line. After due notification of a leak in that portion of
+           the service line for which the owner is responsible, such leak shall be repaired within 72 hours, or the
+           owner will be subject to the penalties prescribed under § 223-13 hereof.
+
+     F.    Fire-protection systems must be designed, installed and maintained in conformity with National Fire
+
+
+           Protection Association (NFPA) regulations and other applicable regulations.
+
+     § 223-6. Meter installation and charges.
+
+     A.    All water must be supplied by meter measurement except for private fire hydrants and/or fire
+           sprinkler service except if required by the Department. If a meter is required for a private hydrant
+           and/or fire sprinkler service, then the owner must furnish, install and maintain such meter at no cost
+           to the Village or Department. Property owners with unmetered private fire hydrants on their property
+           shall be required to pay an annual fee. Said fee shall be established by resolution of the Board of
+           Trustees. [Amended 6-6-2022 by L.L. No. 6-2022]
+
+     B.    Meters up to a maximum size of 1 1/2 inches shall be furnished by and shall remain the property of
+           the Village. Approved meters over the prescribed maximum size shall be furnished, installed and
+           maintained by the owner at the owner's expense.
+
+     C.    All meters must be installed by the owner or licensed plumber at his or her own expense. Replacement
+           meters up to a maximum size of 1 1/2 inches will be furnished by and installed by the Department
+           after the payment of a fee which shall be set from time to time by resolution of the Board of Trustees.
+           Replacement meters above the prescribed maximum size shall be furnished, installed and maintained
+           by the owner at the owner's expense. Replacement radio interface modules which have failed through
+           no fault of the property owner will be furnished by and installed by the Department at no cost. Those
+           modules which have failed through negligence or damage shall be furnished and installed by the
+           Department, and the property owner shall pay a replacement fee which has been established by
+           resolution of the Board of Trustees. Shutoff valves must be placed on the outlet side and on the inlet
+           side of all water meters. These valves must be installed within two feet of the water meter. Meters
+           shall be installed and located where they are not subject to freezing and are readily accessible for
+           removal by Department personnel. All meters shall be installed in accordance with the Department's
+           water service installation diagram or plan approved by the Village Engineer. In no case shall any
+           branch line or any form of outlet be connected to the service at any point between the main and the
+           meter. [Amended 6-6-2022 by L.L. No. 6-2022]
+
+     D.    Meters must be accessible to and subject to the control of the Department at all times. No one other
+           than employees of the Department shall move or interfere with the operation of the meter except by
+           permission of the Department. When meters are sealed, the seal may be broken only by an employee
+           of the Department. Should the seal be broken other than by an employee of the Department, the owner
+           will be held fully responsible, and the Department reserves the right to order the meter removed for
+           testing at the expense of the owner. The charge for this test shall be that which is in force at the time
+           of test.
+
+     E.    Where the building to be served is located more than 50 feet from the curb stop, the Department may
+           require the meter to be placed at an approved point outside the building in a meter vault approved by
+           the Department. It is the responsibility of the owner to maintain the meter vault in a condition of good
+           repair and free from all debris so that the meter can be easily read. The meter vault must be approved
+           by the Superintendent of the Department of Public Works or his designee prior to the installation of
+           the meter.
+
+     F.    All work in connection with the maintenance of meters up to a maximum size of 1 1/2 inches will be
+           performed by the Department; all other must be maintained by the owner. If a meter is out of order or
+           fails to register the water consumption properly, it will be changed or repaired as heretofore
+           stipulated. Damage to meters caused by negligence of the consumer or owner will be charged to the
+           owner; this includes frozen meters and meters damaged by hot water. All water that passes through
+
+
+            the meter will be charged to the owner, whether the water is legitimately used or wasted through
+            leakage.
+
+     G.     In the case of a disputed account involving the accuracy of a meter, such meter shall be tested, if
+            within the Department's jurisdiction, upon a request of the owner or consumer. All meter testing shall
+            be paid for by the owner/consumer and payment shall be made at the time the request for the testing
+            is made. In the event that the meter so tested upon a request of the owner/consumer is found to have
+            an error in registration (more than 1.5%, plus or minus), the bill will be increased or decreased
+            accordingly, but no retroactive reimbursement shall be made to the owner/consumer for previous
+            billing period(s). If the meter is found to be over-registering by more than the aforesaid allowable
+            rate, then the cost of the test shall be borne by the Department, and the amount paid for the test shall
+            be returned to the owner or consumer. If the meter so tested shall be found to have no error in
+            registration (less than 1.5%, plus or minus) the payment shall be retained by the Department as
+            compensation for such test. The fee for testing of meters shall be set by resolution by the Board of
+            Trustees.111 [Amended 6-6-2022 by L.L. No. 6-2022]
+
+     H.     In any case where an individual, corporation, or business has requested an appointment for a water
+            meter reading but cannot keep said appointment for any reason, 24 hours' advance notice of the
+            cancellation must be provided to the Department of Public Works. If no such notice or less than 24
+            hours' notice is provided, then the Department may charge a meter reading fee. Said fee shall be
+            established by resolution of the Board of Trustees.112
+
+     I.     The owner or consumer shall notify the Department of any damage to or any cessation in registration
+            of the meter as soon as it comes to his knowledge.
+
+     J.     All new and replacement meter installations must be compatible with the Village's current meter
+            reading system and be approved by the Village prior to the installation of the meter. The location of
+            all meters is subject to approval by the Superintendent of the Department of Public Works or his
+            designated representative.
+
+     K.     Any person molesting or tampering or interfering with the proper registration of a meter or utilizing
+            a bypass around the meter shall be subject to penalties prescribed under § 223-13 hereof.
+
+     L.     All unmetered premises shall have meters installed within 30 days after notification or be subject to a
+            penalty as provided for in § 223-13 hereof.
+
+     § 223-7. Water main extensions.
+
+     A.     The Department shall extend water mains only when they are within the corporate limits of the
+            Village and when such extensions will improve the distribution system. All other extensions will be
+            installed by the applicant for a water connection, with no expense to the Village, and in accordance
+            with all applicable rules and regulations. The office of the Village Engineer reserves the right to
+            employ an inspector at the owner's expense to ensure that installation is in accordance with
+            specifications and regulations governing the installation.
+
+     B.     A plan of the proposed water main extensions, showing all hydrants and valves, must be submitted to
+            the office of the Village Engineer for approval. This plan must be approved prior to the installation
+            of the main.
+
+
+     111. Editor's Note: The current fee resolution is on file in the office of the Village Clerk.
+     112. Editor's Note: The current fee resolution is on file in the office of the Village Clerk.
+
+
+     C.     Upon dedication and acceptance by the Board of Trustees after receiving the Village Engineer's
+            recommendation, all main extensions within the corporate limits of the Village become the
+            responsibility of the Department.
+
+     D.     All main extensions installed by a water district outside of the corporate limits of the Village remain
+            the property of that water district. Regardless of who constructed the main extension, if the extension
+            services customers located in the Village, applicable laws of the Village and the rules and regulations
+            of the Water Department shall apply.
+
+     E.     The minimum size of main extensions shall be eight inches, unless approved otherwise.
+
+     F.     When main extensions are proposed on private property, it is the responsibility of the applicant to
+            procure and deliver to the Village Manager all necessary easement instruments, maps and
+            descriptions. The applicant will also be required to pay for the necessary title search of all easements,
+            insurance as to title, when required, and the costs of recordation.
+
+     G.     The applicant shall guarantee the entire installation for a period of 12 months following the official
+            acceptance of the extension, and shall make all necessary repairs that might be necessitated during
+            this twelve-month period. In the case of any emergency where Department personnel perform repair
+            work, the applicant shall repay the Village for said work.
+
+     H.     Prior to the acceptance of the extension, the Village must be furnished with an as-built plan, together
+            with an acceptable maintenance bond in an amount to be determined by the Village Manager and in
+            a form approved by the Village Attorney.
+
+     § 223-8. Building water charges.
+
+     A.     All services, new and old, must have a water meter installed before water service can be initiated.
+
+     B.     Once issued, the owner must assume responsibility for the water meter under all circumstances, with
+            the exception of mechanical failure. If mechanical failure occurs, the owner will be held liable if the
+            mechanical failure was precipitated by any external influence on the water meter.
+
+     C.     Prior to the issuance of a certificate of occupancy, a meter and approved reader or transmitter must
+            be installed and the curb box must be plumb and accessible.
+
+     § 223-9. Fire sprinklers and charges; hydrants.
+
+     A.     Each building containing a sprinkler system shall be charged an installation fee as set by resolution
+            of the Board of Trustees.113
+
+     B.     No person other than one properly authorized to do so under the rules, regulations and procedures of
+            the Department shall take water from any public or private fire hydrant, except for firefighting and
+            fire-training purposes, without first obtaining a written permit from the Department. Upon issuing a
+            single-use permit, the Superintendent of the Department of Public Works shall designate the exact
+            hydrant to be used and stipulate the dates and times within which water may be drawn. A deposit, in
+            an amount set by resolution of the Board of Trustees, will be required before such permit will be
+            issued. In addition to the deposit, a fee in an amount set by resolution of the Board of Trustees shall
+            be paid in advance for the estimated quantity of water to be drawn from the hydrant. After the
+            applicant has withdrawn the water, the deposit will be returned to the applicant if, after examination,
+
+
+     113. Editor's Note: The current fee resolution is on file in the office of the Village Clerk.
+
+
+           the hydrant is found not to have been damaged and is in good working order. If the hydrant is found
+           to have been damaged, the expense of repairing the hydrant will be deducted from the deposit. If
+           damage exceeds the amount of deposit, the amount will be assessed in addition to cover cost of
+           repairs. Permits may be revoked at any time at the discretion of the Department.
+
+     C.    Any person opening or operating any public or private hydrant without proper authorization shall be
+           subject to the penalties under § 223-13 hereof.
+
+     § 223-10. Miscellaneous regulations.
+
+     A.    Shutoff of water for violation of rules. The water may be shut off to an owner or consumer failing to
+           comply with this article and/or the rules and regulations of the Department adopted in implementation
+           thereof and will not be turned on again until satisfactory assurance is given that the article and/or
+           rules and regulations will be complied with and all proper and necessary expense incurred in shutting
+           off and turning on of the water is paid in full. If the Department determines that a shutoff is warranted,
+           the Department will send the owner or consumer notice outlining the outstanding rates and penalties
+           that are due and notifying him or her that water service will be shut off if all outstanding charges are
+           not paid within 5 days of receiving the notice. Within that five-day period, the owner or consumer
+           will be afforded the opportunity to contest the Department's grounds for the shutoff.
+
+     B.    Temporary shutoff. If the Water Department determines that service must be temporarily shut off for
+           any reason, the Department will provide affected owners and consumers with at least 24 hours'
+           advance notice, except in emergencies. In such cases, there shall be a fee for such service, in an
+           amount set by resolution of the Board of Trustees.
+
+     C.    Emergency shutoff of water. Should it become necessary to shut off the water supply due to a break
+           in the water main or for other reasons of an emergency nature, the Department shall have the right to
+           temporarily shut off the water supply for the duration of the emergency until the repairs are made or
+           the emergency is over without providing advance notice to affected consumers; however, the
+           Department will use all reasonable and practicable measures to notify the consumers in advance of
+           such discontinuation of service. When an emergency shutoff is required, the Department shall not be
+           liable for any damage or inconvenience suffered by the consumer as a result of the shutoff.
+
+     D.    Liability of Village.
+
+           (1)    The Village (including its employees and agents) shall not be liable for any claim against it at
+                  any time for the interruption of service, lessening of supply, inadequate pressure, poor quality
+                  of water or any other consequences beyond its control.
+
+           (2)    The Village (including its employees and agents) shall not be liable for any damages which may
+                  result to an owner's or consumer's pipes, appliances, etc., from the shutting off of water mains
+                  or service pipes for any purpose whatever, whether previous notice has been given or not. No
+                  deductions from water bills will be made for periods when the service is shut off.
+
+     E.    Cross-connections. No connection from any other sources of water supply to any system of piping
+           supplied by the Department shall be made or maintained at any time and all rules of Section 5-1.3.1
+           of Part 5 of the New York State Sanitary Code (as it may be amended or supplemented from time to
+           time) shall apply with regard to backflow valves. Consumers having independent or auxiliary systems
+           shall maintain that system completely independent of the municipal supply at all times. No
+           interconnection of the water supply of this Department is permitted with any pipe or structure which
+           contains liquids, chemicals, unsafe or otherwise unsatisfactory water or any other contaminating
+           substances except when such interconnection is installed and protected in a manner satisfactory to the
+
+
+           Department.
+
+     F.    Access to property. The Superintendent of the Department of Public Works and all employees under
+           his jurisdiction shall have free access at reasonable hours to all parts of every building or place in
+           which meters are located and where water is or may be delivered or consumed. Employees will carry
+           with them proper identification denoting their employment by the Department.
+
+     G.    Damage caused by breaks. The Department shall in no event be responsible for maintenance of or for
+           damage done by water escaping from the service pipe or any other pipe or fixture on the outlet side
+           of the curb stop. The consumer shall at all times comply with state and municipal regulations in
+           reference to these pipes and shall make any change thereon required on account of change of grade,
+           relocation of mains or otherwise.
+
+     H.    Operation of valves. No person other than an employee of the Department shall operate or close any
+           valves or corporation stops within the system or molest or interfere with any valve or valve box cover.
+           Any person, other than an employee of the Department, who operates or closes any valves or
+           corporation stops within the system, molests or interferes with any valve or valve box cover or
+           otherwise tampers with the water system of the Village shall be subject to the penalties prescribed
+           under § 223-13 hereof.
+
+     I.    Liability of owner. The owner of the property will in all cases be held liable for all charges for water
+           supplied to the premises. All charges, penalties and fines shall become a charge and lien upon the
+           premises where the water was consumed and/or supplied.
+
+     J.    Waste of water. A consumer shall maintain his faucets, toilets and service lines and all appurtenances
+           in good working order and condition and free of all leaks at his own expense in order to conserve
+           water. All water that passes through the meter will be charged to the owner, whether the water is
+           legitimately used or wasted through leakage.
+
+     K.    Illegal use of water. No person shall use any water from the water system of the Village for any
+           purpose other than that contemplated at the time that the approval for a connection was given. No
+           person shall use any water from the water system of the Village for bottling purposes, where the water
+           so bottled is to be sold outside of the limits of said Village, for irrigation purposes, for commercial
+           icemaking or to fill any pond, pool, lake or other body of water without the permission of the
+           Department.
+
+     L.    Service of notice. Service of any notice authorized or directed by or on behalf of the Water
+           Department may be made upon the owner or consumer personally or by leaving the same at the
+           premises where water is supplied or by sending the same by mail to such party at the last address
+           provided.
+
+     § 223-11. Use of water during emergency.
+
+     A.    The Department shall have the right to reserve a sufficient supply of water at all times in its reservoir
+           and storage tanks to provide for fire or any other emergencies and may restrict or regulate the quantity
+           of water used by consumers in case of scarcity or whenever the public welfare may require it.
+
+     B.    Whenever it shall be determined by the Village Manager that a state of emergency exists by reason
+           of drought or damage to the public water supply system, or that there is an insufficient supply of
+           water or that the water supply system is endangered by any other cause, then he or she shall be
+           empowered to make it unlawful to use water from the Village water supply system for any or all of
+           the following uses as determined by the Village Manager. The Village Manager shall also have the
+
+
+           authority to relieve the restrictions when necessary. For time periods after regular board meetings, the
+           Village Board shall consider the restrictions going forward:
+
+           (1)    Lawn sprinkling and sprinkling of shrubs, flower gardens and vegetable gardens with a hose or
+                  sprinkler.
+
+           (2)    The washing of automobiles in any form, with the exception that windshields and glasses
+                  necessary for the proper operation of the vehicle may be washed or cleansed only.
+
+           (3)    The maintenance of water supply lines with bleeds on any dock or structure or in any building
+                  for the purpose of maintaining a constant flow to prevent freezing.
+
+           (4)    The filling of pools of all sizes and the operation of pools of all sizes not recirculating water.
+
+           (5)    The operation or maintenance of automatic plumbing flush fixtures or apparatus using a
+                  constant or fixed periodic flow. The flow from such apparatus shall only be by manual operation
+                  when the fixture or apparatus is in actual use.
+
+           (6)    The cleaning or washing of the outside of buildings or any structures involving the use of water
+                  or steam in any form.
+
+           (7)    The use of hoses, spouts and similar pressure-bathing apparatus, and no constant flow from
+                  showers or similar apparatus shall be maintained. Operation of such apparatus shall be manual
+                  and only when the apparatus is in actual use.
+
+           (8)    Any system of refrigeration or air conditioning having an individual or collective capacity of six
+                  tons or greater, unless it shall be equipped with a water-conserving device such as an
+                  economizer, evaporative condenser, water-cooling tower or similar apparatus, which device
+                  shall not consume for makeup purposes in excess of 5% of the consumption that would normally
+                  be used without such device.
+
+     C.    In cases of extreme emergency, the Village Manager or his/her designated representative shall have
+           the power to declare a temporary water emergency and to enact such restrictions and measures as are
+           reasonably necessary to protect the water supply.
+
+     D.    Any person or corporation violating this section shall be subject to the prescribed penalties under
+           § 223-13 hereof.
+
+     § 223-12. Fees, charges and payments; water bills.
+
+     A.    All fees, charges and rates, the amount of which is not specifically provided for in this article, shall
+           be the rates in force at the time. A schedule of such fees, charges and rates shall be maintained by the
+           Village Manager and be available for examination in his office. The Village Manager reserves the
+           right to amend rates from time to time by resolution of the Village Board.
+
+     B.    The Department will cause each water meter of persons using water from the water system of the
+           Village to be read four times per year.
+
+     C.    Upon completion of the readings referred to in § 223-12B, the Village Manager will cause to be sent
+           to each user of water a statement showing the amount, in dollars and cents, owed to the Village and,
+           further, a statement showing the computation thereof.
+
+     D.    Bills will be rendered quarterly, unless the Village Manager, in his discretion, fixes a different
+           payment schedule with respect to any owner or consumer.
+
+
+     E.    The Department will transmit bills via United States Mail or email, but delivery of such bills to the
+           proper person is not guaranteed. If the property owner does not receive a bill via United States Mail
+           or email, the property owner is still obligated to pay the bill by the due date. [Amended 2-19-2019
+           by L.L. No. 3-2019]
+
+     F.    Penalties for nonpayment of charges. [Amended 12-7-2020 by L.L. No. 11-2020]
+
+           (1)    The following penalties are prescribed for failure to pay water charges, after the levy thereof:
+
+                  (a)    No penalty shall be assessed if charges are paid by the due date set forth on the bill.
+
+           (2)    If the water charge is not paid by the due date set forth on the bill, a penalty of 5% of the amount
+                  due shall be assessed, and a further penalty of 1% shall be added for each succeeding month or
+                  any portion thereof in which the water rents are not paid. Thereafter, on the next succeeding
+                  April 15, the Village Treasurer shall cause any said unpaid water rents and penalties thereon
+                  more than 60 days overdue to be added to the Village tax bills. Said water rents and penalties
+                  shall constitute a lien on the real property so affected. Partial payments covering a portion of a
+                  bill will be accepted, provided that such payments shall be applied first to penalties, and the
+                  unpaid water charges will continue to accrue penalties at the rate of 1% per month until paid.
+
+     § 223-13. Penalties for offenses.
+
+     Any person, firm or corporation found violating any of the provisions of this article shall be subject to the
+     penalties provided in § 1-12 of Chapter 1, General Provisions, and, in addition, water service to violators
+     may be discontinued in accordance with § 223-10A.
+
+     § 223-14. (Reserved)
+
+
+                                                       ARTICLE II
+                                                 Water Supply Protection
+                                           [Adopted 7-24-1989 by L.L. No. 5-1989]
+
+     § 223-15. Contents.
+
+     The following constitutes the Water Supply Protection Rules and Regulations of the Village of Croton-on-
+     Hudson.
+
+     § 223-16. Purpose.
+
+     A.    The Village of Croton-on-Hudson's water supply is obtained from sand and gravel deposits laid down
+           in the Croton River Valley. This valley-fill aquifer is the primary source of drinking water for the
+           Village of Croton-on-Hudson and is located in the northern portion of the village. The area which
+           contributes water to this aquifer includes parts of both the Village of Croton-on-Hudson and the Town
+           of Cortlandt.
+
+     B.    River valley aquifers usually underlie the river and form a band on either side of the stream. These
+           bands extend for varying distances upstream of smaller tributaries. Groundwater flow in valley-fill
+           aquifers is generally toward the river which forms the discharge point. Groundwater flow patterns are
+           modified by pumping wells which create a cone of influence.
+
+     C.    Pollution of groundwater is more difficult to clean up than pollution of surface water. Groundwater is
+           afforded little dilution because of the laminar flow which resists mixing and because of the slow
+           movement. Where water is withdrawn from the ground and then returned for disposal, as with
+           subsurface sewage disposal, contaminants accumulate in the groundwater.
+
+     D.    Normal domestic activities, both residential and commercial, result in the discharge, on a widespread
+           basis, of small quantities of nondegradable metals, salts, hydrocarbons, nitrates and other toxic
+           substances. Even small quantities of soluble organic chemical substances, when discharged at or
+           below the land surface, can migrate to the water table and seriously contaminate the groundwater.
+           Limitations of future developmental density and strict management of the use of the land in the
+           Village of Croton-on-Hudson and the Town of Cortlandt, specifically in the areas adjacent to the
+           Croton River and the well field, are essential to control potential pollutants and prevent degradation
+           of drinking water quality.
+
+     E.    The purpose of this Article is to preserve, protect and maintain the existing purity and quality of the
+           groundwater within the Village of Croton-on-Hudson. It will establish protective land use regulations
+           for the watershed affecting the well field.
+
+     § 223-17. Groundwater zones.
+
+     A.    There are three zones affecting the quality of the aquifer, and a degree of regulation or management
+           for each is required if the water supply source is to be protected from contamination. The three zones
+           are defined as follows and are hereby established in the map entitled "Zones of Groundwater
+           Protection, Croton-on-Hudson Well Field," which is hereby made a part of this Article and is to be
+           kept on file in the Village Office of the Village of Croton-on-Hudson. [Amended 5-7-1990 by L.L.
+           No. 2-1990]
+
+           (1)    Zone 1: the wellhead protection area, including the cone of influence.
+
+           (2)    Zone 2: the recharge area of the aquifer.
+
+
+           (3)    Zone 3: the watershed area tributary to the recharge area.
+
+     B.    This three-zone system will be superimposed on existing land use zones. The requirements of the
+           underlying districts shall continue to apply. Permitted uses, except where prohibited by this Article,
+           shall also continue to apply. In the event of conflict between this Article and any other regulation, the
+           more restrictive requirements shall control.
+
+     C.    The wellhead protection area is defined to be Zone 1 in the map entitled "Zones of Groundwater
+           Protection, Croton-on-Hudson Well Field" and includes at a minimum the area within 200 feet of the
+           well and the cone of influence. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+     D.    The cone of influence is created when the drawdown caused by pumping of the groundwater creates
+           a pressure gradient which induces a flow of groundwater toward the well. Any contaminant that
+           reaches the groundwater within this cone of influence will be drawn to the well. This cone of
+           influence may cause a disruption of the normal groundwater flow patterns because water normally
+           flowing parallel to the well or downgradient from the well may be directed toward the well.
+
+     E.    Additional protection is needed for groundwater supplies, which are vulnerable to contaminant-
+           generating activities outside the wellhead protection area, such as area and river valley aquifers where
+           the waterbearing formations extend to the surface. Controls over the recharge area and the watershed
+           tributary (surface water) to the recharge area are needed.
+
+     F.    The recharge area is the area where precipitation rapidly infiltrates into the ground and into an aquifer
+           where it will flow towards the point(s) of withdrawal. Such aquifers are characterized by water-
+           bearing deposits of sand and gravel with high permeability and porosity. Any contaminant-producing
+           activity in this area will travel rapidly to the groundwater.
+
+     G.    River valley aquifers are replenished not only by direct infiltration of precipitation but also by runoff
+           from that portion of the watershed tributary to the recharge area, an area composed of relatively
+           impervious consolidated and unconsolidated material. Typically, runoff flows overland and in
+           defined stream beds until reaching the recharge area where it seeps underground. In large streams,
+           water may flow through the recharge area in times of high water tables and high flows. The large
+           stream will generally have a continuous flow of water. The exchange between surface and ground
+           water will take place either to the stream or to the aquifer, depending upon water conditions, the
+           location of withdrawal points and the relative size of withdrawals.
+
+     § 223-18. Sources of contamination.
+
+     A.    Water supply sources are subjected to contaminants from the following sources:
+
+           (1)    Wastewater discharges to surface and ground water.
+
+           (2)    Improper handling and disposal of waste material.
+
+           (3)    Improper handling, storage and use of materials which are or may be contaminating.
+
+           (4)    Accidental spills of contaminating material from storage, during transit or during use.
+
+           (5)    Water, land and air resource use which may adversely affect water quality.
+
+     B.    Public water supply sources have been contaminated in numerous instances because of systems,
+           facilities and activities which were not properly managed or were not appropriately located in relation
+           to public water supply sources. The people of the State of New York have a right to expect and the
+
+
+           New York State Commissioner of Health and Westchester County Commissioner of Health are
+           obligated to see that every reasonable precaution and measure is taken to protect water supply sources
+           from contamination and that safe drinking water is available from public water supply sources and
+           systems. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+     C.    The aquifer protection is hereby extended over the entire watershed as delineated in the map entitled
+           "Zones of Groundwater Protection, Croton-on-Hudson Well Field". The severest restrictions apply to
+           Zone 1, and the least severe restrictions apply to Zone 3. With additional research, the zone
+           boundaries may change. In this case, the criteria used to set up the boundaries shall control.
+           [Amended 5-7-1990 by L.L. No. 2-1990]
+
+     D.    In order to assure the adequate protection of sources of public water supply, the Village of Croton-
+           on-Hudson institutes the promulgation of the following regulations.
+
+     § 223-19. Scope.
+
+     Minimum requirements are hereby presented to protect public water supply sources from contamination.
+     All the activities detailed below may not presently occur in the watershed, however, this document will
+     provide guidance in the future with continued growth of the village.
+
+     § 223-20. Definitions.
+
+     As used in this Article, the following terms shall have the meanings indicated:
+     AQUIFER — The water-saturated subsurface geologic formations which are now or may subsequently
+     be developed for use as public water supply sources, including the Croton River aquifer from which the
+     village takes its supply.
+     AQUIFER RECHARGE AREA — The land area where precipitation, snow and rain, percolates directly
+     through the ground to an aquifer. The "aquifer recharge area" shall also be known as "Zone 2."
+     BEST MANAGEMENT PRACTICES — Those methods and practices which are developed and adopted
+     by the United States Environmental Protection Agency, the New York State Department of Environmental
+     Conservation and the County of Westchester to control nonpoint and point sources of pollution.
+     CHLORIDE SALT — The solid compounds or the solutions of potassium chloride (commonly used as
+     fertilizer), calcium chloride (commonly used for winter road maintenance) or sodium chloride (halite)
+     (commonly used for winter road maintenance and water softener regeneration).
+     COMMISSIONER OF HEALTH — Unless otherwise stated, the Westchester County Commissioner of
+     Health.[Added 5-7-1990 by L.L. No. 2-1990]
+     COMPOSTING TOILET or DRY TOILET — Any receptacle for human excreta and/or kitchen waste
+     which is a self-contained unit requiring periodic removal of composted material.
+     CONE OF INFLUENCE — The area where the drawdown of the groundwater, caused by water
+     withdrawal from the well, creates a pressure gradient which induces a flow of groundwater toward the
+     point of withdrawal.
+     DEPARTMENT OF ENVIRONMENTAL CONSERVATION — The New York State Department of
+     Environmental Conservation.[Added 5-7-1990 by L.L. No. 2-1990]
+     DEPARTMENT OF HEALTH — Unless otherwise specified, the Westchester County Department of
+     Health.[Added 5-7-1990 by L.L. No. 2-1990]
+     DEPARTMENT OF TRANSPORTATION — Unless otherwise specified, the New York State
+
+
+     Department of Transportation.[Added 5-7-1990 by L.L. No. 2-1990]
+     ENVIRONMENTAL CONSERVATION LAW — Unless otherwise specified, the New York State
+     Environmental Conservation Law.[Added 5-7-1990 by L.L. No. 2-1990]
+     ENVIRONMENTAL IMPACT ASSESSMENT — As defined in 6 New York Codes, Rules and
+     Regulations (NYCRR) Part 617: a written evaluation prepared by a permit applicant which provides
+     a description of a proposed project or development and a detailed analysis of its environmental
+     effects.[Amended 5-7-1990 by L.L. No. 2-1990]
+     FERTILIZERS — Any commercially produced mixture generally containing phosphorous, nitrogen and
+     potassium which is applied to the ground to increase nutrients to plants.
+     FLOODPLAIN — The one-hundred-year high-water level of streams, ponds, estuaries and lakes.
+     GROUNDWATER — Any water beneath the land surface in the saturated zone that is under atmospheric
+     or artesian pressure and that enters wells and springs.
+     HERBICIDE — Any substance used to destroy or inhibit plant growth.
+     HUMAN EXCRETA — Human feces and urine.
+     JUNKYARD — An area where two or more unregistered, old or secondhand motor vehicles are being
+     accumulated for purposes of disposal, resale of used parts or reclaiming certain materials, such as metal,
+     glass, fabric and/or the like.
+     LAND APPLICATION OF WASTEWATER — The distribution of municipal or industrial wastewater,
+     by spray irrigation or direct flow, over the land surface with or without an underdrain system and point
+     discharge(s).
+     LINEAR DISTANCE — The shortest horizontal distance from the nearest point of a structure or object to
+     the high-water mark of a reservoir or to the edge, margin or steep bank forming the ordinary high-water
+     line of a watercourse.
+     NEW YORK CITY RESERVOIR — The reservoirs used by the City of New York, including the Croton
+     reservoir system.
+     NONPOINT POLLUTION — Pollutants resulting from facilities, systems and activities which are not
+     specifically covered by effluent permits issued under Title 8, § 17-0803, of the New York State
+     Environmental Conservation Law.
+     PESTICIDE — Any substance used to destroy or inhibit pests, such as rodents and insects.
+     POINT SOURCE POLLUTION — Pollutants resulting from facilities, systems and activities which
+     are covered and operate under a permit issued pursuant to Title 8, § 17-0803, of the New York State
+     Environmental Conservation Law.
+     POLLUTANT — Dredge, spoil, solid waste, incinerator residue, sewage, garbage, sewage sludge,
+     chemical waste, biological materials, radioactive materials, heat, wrecked or discarded equipment, rock,
+     sand, cellar dirt and industrial, municipal and agricultural waste discharged into water.
+     RADIOACTIVE MATERIAL — Any material in any form that emits radiation spontaneously.
+     "Radiation" shall mean ionizing radiation, that is, any alpha particle, beta particle, gamma ray, x-ray,
+     neutron, high-speed proton and any other atomic particle producing ionization, but shall not mean any
+     sound or radio wave or visible, infrared or ultraviolet light.
+     REFUSE — All putrescible and nonputrescible solid wastes, including garbage, manure, rubbish, ashes,
+     incinerator residue, street cleanings, dead animals, offal and solid commercial and industrial wastes.
+
+
+     REFUSE DISPOSAL AREA — Land used for the depositing of refuse, except that it shall not include the
+     land used for the depositing of refuse from a single family, a member of which is the owner, occupant or
+     lessee of said land, or any part of a farm on which only animal wastes resulting from the operation of such
+     farm are deposited.
+     RESERVOIR — Any natural or artificial lake or pond which is tributary to or serves as a source of the
+     community water supply.
+     SEPTAGE — That residue removed from on-site wastewater disposal systems.
+     SEWAGE — Any liquid or solid waste matter from a domestic, commercial, private or industrial
+     establishment which is normally carried off in sewers or waste pipes.
+     SEWAGE DISPOSAL SYSTEM — Any system used for disposing of sewage, including an on-site
+     disposal system and its seepage unit.
+     SEWAGE SYSTEM CLEANER OR ADDITIVE — As defined in Article 39 of the New York State
+     Environmental Conservation Law.
+     SINGLE-USE LAKES AND IMPOUNDMENTS — Any and all natural lakes or man-made lakes created
+     by impounding a free-flowing watercourse which have the provision of potable water as their sole intended
+     use.
+     SLUDGE — The solid residue resulting from a municipal or industrial process or wastewater or water
+     treatment which also produces a liquid stream of effluent.
+     SMALL LAKES AND PONDS — Water bodies with a surface area of 2.5 square miles or less.
+     SURVEILLANCE ZONE — A groundwater management zone as delineated herein. They shall be
+     designated "Zone 1," "Zone 2" and "Zone 3" for groundwater.
+     TOXIC CHEMICAL — Any organic or inorganic substance, including but not limited to petroleum
+     derivatives; any metallic elements, including the transition series; and any hazardous wastes which pose a
+     substantial present or potential threat of producing injury or disease upon exposure, ingestion, inhalation
+     or assimilation by a living organism.
+     TREATMENT WORKS — Any treatment plant, sewer, disposal field, lagoon, pumping station, septic
+     system, constructed drainage ditch or surface water intercepting ditch, incinerator, area devoted to sanitary
+     landfill or other works not specifically mentioned in this definition installed for the purpose of treating,
+     neutralizing, stabilizing or disposing of sewage.
+     VILLAGE — The Village of Croton-on-Hudson, New York.[Added 5-7-1990 by L.L. No. 2-1990]
+     WATERCOURSE — Every spring, stream, marsh or channel of water of any kind which flows or may
+     flow into the community water supply.
+     WATERSHED — That land area which contributes surface water to a specific stream or lake or a
+     delineated portion thereof.
+     WATERSHED TRIBUTARY TO AQUIFER RECHARGE AREA — That land area which is the tributary
+     surface from which the aquifer is replenished by runoff to the aquifer recharge area. The "watershed
+     tributary to the aquifer recharge area" shall also be known as "Zone 3."
+     WATER SUPPLY — The public water supply of the community.
+     WELL — Any present and future artificial excavation used as a source of public water supply which
+     derives water from the intersticies of the rocks or soils which it penetrates, including bored wells, drilled
+     wells and driven wells, and excluding ditches or tunnels that lead ground water to the surface by gravity.
+
+
+     WELLHEAD PROTECTION AREA — The area of the well field itself with a protective perimeter around
+     each of the wells. This shall be known also as "Zone 1."
+     ZONE 1 — The wellhead protection area as designated on the map entitled "Zones of Groundwater
+     Protection, Croton-on-Hudson Well Field."[Amended 5-7-1990 by L.L. No. 2-1990]
+     ZONE 2 — The aquifer recharge area as designated on the map entitled "Zones of Groundwater Protection,
+     Croton-on-Hudson Well Field."[Amended 5-7-1990 by L.L. No. 2-1990]
+     ZONE 3 — The watershed tributary to the aquifer recharge area as designated on the map entitled "Zones
+     of Groundwater Protection, Croton-on-Hudson Well Field."[Amended 5-7-1990 by L.L. No. 2-1990]
+
+     § 223-21. General provisions.
+
+     A.    Surveillance zones shall be designated as Zones 1, 2 and 3 as indicated on the map entitled "Zones of
+           Groundwater Protection, Croton-on-Hudson Well Field." [Amended 5-7-1990 by L.L. No. 2-1990]
+
+     B.    Inspections shall be made by the Department of Health and the water supply owner in accordance
+           with the Part 5 regulations of the New York State Sanitary Code.
+
+     C.    Permits and approvals by state agencies or political subdivisions shall not be issued for the
+           manufacture, use, storage, disposal or discharge of any products, materials or by-products, such as
+           liquid or solid wastes within the zones which might adversely affect water supply sources, including
+           but not limited to a State Pollutant Discharge and Elimination System (SPDES) permit; on-site
+           disposal systems; land application of wastewater; disposal wells; recharge basins; landfills; septage
+           and sludge disposal: hazardous materials and toxic manufacture, storage, transportation, use and
+           disposal; radiological material; wastewater lagoons and pits; and pesticide storage and use. All
+           permits must be in conformance with this Article and ensure that the standards for raw water quality
+           as contained in 10 NYCRR 170 and 6 NYCRR 703 are met. No systems, facilities or activities which
+           would significantly degrade existing water quality are to be permitted. All water suppliers in the area,
+           regional health offices, the Department of Health and the Commissioner of Health, the Water
+           Maintenance Foreman and/or the General Foreman for the village, the Planning Board and Zoning
+           Board of Appeals of the village and the Village Engineer shall be afforded an opportunity to comment
+           on the permit applications for systems, facilities and activities in the zones before action is taken, and
+           copies of all permits issued shall be sent to these agencies. Permit applications shall be sent to the
+           water supply interests within 10 days of receipt; 30 days shall be allowed for review and comment by
+           the interested agencies. No response shall be considered as having no objections. Copies of permits
+           issued shall be sent to the interested agencies on the date of issuance. [Amended 5-7-1990 by L.L.
+           No. 2-1990]
+
+     D.    Monitoring of water quality in the surveillance zones shall be the responsibility of the village's Water
+           Department. A monitoring schedule shall be established that will develop an information base to
+           demonstrate both acute and chronic changes in water quality over time. This requirement is in
+           addition to monitoring intake raw water.
+
+     E.    Exceptions to the rules and regulations may be granted by the Commissioner of Health after
+           appropriate study and review, based on prior usage or unique local conditions, if, in his judgment, the
+           health and safety of the consuming public will be protected because of treatment provided or other
+           remedial action taken. Such exceptions shall be given in writing and only given after a hearing on the
+           question has been held.
+
+     F.    Environmental assessments shall be prepared by all state and local agencies, covering all continuing
+           program activities and special projects within the surveillance zones that may adversely affect water
+
+
+           quality. The Commissioner of Health may require a full environmental impact statement in accord
+           with 6 NYCRR 617 if the environmental review warrants. Any significant change in program
+           activities requires an environmental assessment. All program environmental assessments shall be
+           revised and updated every five years. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+     G.    Potential water supply sources not yet developed and utilized may have surveillance zones designated
+           by the Commissioner of Health to allow management of water bodies, watersheds and groundwater
+           recharge areas and to preserve water quality for water supply purposes, provided that the New York
+           State Commissioner of Environmental Conservation has designated the specific water resources as a
+           public water supply reserve. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+     H.    An inventory and census shall be initiated and updated on a regular basis by the supplier of all
+           systems, facilities and activities in the surveillance zones that may contribute to water supply source
+           contamination, including but not limited to the following:
+
+           (1)    Land use.
+
+           (2)    Population.
+
+           (3)    On-site disposal systems.
+
+           (4)    Dwelling units.
+
+           (5)    Domestic animals.
+
+           (6)    Pesticide and herbicide storage and use.
+
+           (7)    Deicing salt storage and application.
+
+           (8)    Landfills and dumps.
+
+           (9)    Wastewater storage pits and lagoons.
+
+           (10) Animal waste storage.
+
+           (11) Land application of wastewater, sludge and septage disposal.
+
+           (12) Disposal wells.
+
+           (13) Recharge basins.
+
+           (14) Toxic waste manufacture, storage, transportation and use.
+
+           (15) Fertilizer storage and application.
+
+           (16) Surface and underground storage of gasoline, oil or other contaminating materials.
+
+           (17) Commercial and industrial activity.
+
+           (18) Point source discharges.
+
+           (19) Storm sewer discharges.
+
+           (20) Junkyards.
+
+           (21) Agricultural activity.
+
+
+           (22) Accidental spills.
+
+           (23) Sediment generation and control practices.
+
+           (24) Permits issued to regulate systems, facilities and activities.
+
+     § 223-22. Regulations for specific groundwater protection zones.
+
+     A.    Surveillance zones for groundwater sources. Zone 1 is the wellhead protection area. Zone 2 is the
+           aquifer recharge area. Zone 3 is the watershed area tributary to the recharge area.
+
+     B.    Specific regulations for Zone 1.
+
+           (1)    All land shall be protected and controlled through direct ownership of the land or through the
+                  acquisition of protective easements or other appropriate measures by the owner of the water
+                  supply in order to prevent pollution of the ground or groundwater.
+
+           (2)    All systems, facilities and activities are prohibited except for physical pumping and treatment
+                  facilities and controls. The area shall not be used for any purpose other than public water supply.
+
+           (3)    All wellheads and containment buildings must be in conformance with federal, state and local
+                  floodplain management or similar regulations or ordinances to prevent their contamination by
+                  floodwaters. This area shall further be protected from pollution by surface waters originating
+                  outside thereof by the construction of suitable diversion ditches or embankments. The
+                  development of the water sources shall be so carried out that there shall be no opportunity for
+                  pollution to enter the water sources.
+
+           (4)    The physical pumping facilities and controls shall be protected against damage from tampering
+                  by fencing or other suitable enclosures or by their manner of construction and installation.
+
+           (5)    The area will be posted prohibiting trespass for any purpose other than fishing as provided by
+                  the New York State Environmental Conservation Law.
+
+     C.    Specific regulations for Zone 2.
+
+           (1)    On-site disposal systems.
+
+                  (a)    All on-site disposal systems serving single-family residences of 10 persons or less or with
+                         flows of less than 1,000 gallons per day shall be designed, installed and maintained in
+                         accordance with the Sanitary Code and the standards promulgated in 10 NYCRR 75.
+                         Westchester County Sanitary Codes and village laws shall also apply if they contain more
+                         stringent standards. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+                  (b)    A permit is required prior to the installation of any subsurface disposal system. This permit
+                         must be obtained from the Department of Health. Conditions for a permit shall be reviewed
+                         and approved by the village and shall include an approved engineering plan, verification
+                         of the percolation rate by a disinterested party and inspection of the installation prior to
+                         backfilling. Permits are renewable on a five-year basis. All septic tanks shall be pumped
+                         clean every five years or more often if conditions warrant. [Amended 5-7-1990 by L.L.
+                         No. 2-1990]
+
+                  (c)    The applicable standards and permit requirements of the Department of Environmental
+                         Conservation shall apply to systems with flows in excess of 1,000 gallons per day or those
+                         which contain industrial wastewater.
+
+
+                  (d)    The use of sewage system cleaners or additives is prohibited.
+
+                  (e)    Where conditions warrant, water conservation plumbing fixtures may be required, and
+                         nonessential water-using appliances, such as garbage disposals, dishwashers and clothes
+                         washers, may be prohibited.
+
+                  (f)    Where there is evidence that chlorides and/or nitrates are increasing at an undesirable rate,
+                         the density of subsurface seepage systems may be prohibited or limited by requiring
+                         minimum lot sizes or sewers for future development.
+
+                  (g)    All composting toilets of the type that dispose of human excreta, washwaters and sink
+                         wastes require a permit from the Department of Health. [Amended 5-7-1990 by L.L. No.
+                         2-1990]
+
+           (2)    Land application of wastewater. Land application of wastewater is prohibited.
+
+           (3)    Disposal wells. Disposal wells are prohibited.
+
+           (4)    Stormwater runoff recharge basins. Use of recharge basins is prohibited.
+
+           (5)    Snow disposal. The stockpiling of snow removed from urban areas onto the ground surface is
+                  prohibited.
+
+           (6)    Refuse disposal areas and junkyards.
+
+                  (a)    The establishment of refuse disposal areas and junkyards is prohibited. The continued
+                         operation of existing refuse disposal areas is prohibited after January 1, 1989.
+
+                  (b)    A comprehensive monitoring program for existing and abandoned refuse disposal areas, in
+                         accordance with 6 NYCRR 360, is required.
+
+           (7)    Animal wastes.
+
+                  (a)    Farm animal wastes shall not be concentrated except where provision has been made to
+                         prevent seepage to the groundwater. Suitable storage facilities are required when it is not
+                         possible to spread or dispense waste on a daily basis.
+
+                  (b)    In urban areas, pet owners are required to provide for animal waste disposal on an
+                         individual basis.
+
+           (8)    Land application of septage and municipal sludges. Land application of septage and municipal
+                  sludges is prohibited.
+
+           (9)    Leaking sewers.
+
+                  (a)    All sewers installed shall be as tight as the state of the art allows.
+
+                  (b)    Remedial measures shall be taken by the owner if evidence indicates excessive infiltration
+                         or exfiltration is occurring.
+
+                  (c)    New sewers shall meet the tightness specifications for water mains as a minimum.
+
+           (10) Industrial sludge and toxic chemicals.
+
+                  (a)    No toxic chemical identified by the United States Environmental Protection Agency or the
+                         Department of Environmental Conservation shall be stored except under permit from those
+
+
+                         agencies and from the village.
+
+                  (b)    Disposal of toxic chemicals and industrial sludge is prohibited.
+
+                  (c)    Toxic chemicals shall not be buried in the soil, spread upon the surface on the ground or
+                         allowed to enter groundwaters.
+
+                  (d)    Transportation of toxic chemicals is prohibited, except under permit of the New York State
+                         Department of Transportation pursuant to Article 2, Sections 14A through 14F, of the
+                         Transportation Law. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+           (11) Wastewater lagoons and pits. Use of wastewater lagoons and pits for temporary storage of
+                wastewater is prohibited. All storage facilities shall be watertight and aboveground and under
+                permit by the Department of Environmental Conservation.
+
+           (12) Radioactive material.
+
+                  (a)    Disposal of radioactive material is prohibited.
+
+                  (b)    Transportation of radioactive material is prohibited, except under permit of the New York
+                         State Department of Transportation pursuant to Article 2, Sections 14A through 14F, of
+                         the Transportation Law. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+           (13) Fertilizer use.
+
+                  (a)    Open storage of artificial fertilizers for commercial use is prohibited.
+
+                  (b)    Agricultural use of fertilizers shall be in conformance with best management practices as
+                         developed by the New York State Soil and Water Conservation Committee and as
+                         implemented by the preparation and use of farm plans as required by the New York State
+                         Soil and Water Conservation District Law, Article 2, § 9, Subdivision (7-a). [Amended
+                         5-7-1990 by L.L. No. 2-1990]
+
+                  (c)    Fertilizer use for nonfarm and nonresidential application shall be in accordance with best
+                         management practices as developed under Subsection B 13(b) above.
+
+           (14) Pesticide and herbicide use.
+
+                  (a)    No pesticides or herbicides shall be used until an environmental assessment is made
+                         specifically addressing the question of groundwater contamination.
+
+                  (b)    All pesticide and herbicide storage, use and application shall be under permit as provided
+                         in Environmental Conservation Law Article 33.
+
+                  (c)    Use of streams for make-up water or washing of equipment is prohibited.
+
+                  (d)    Disposal of containers and washing of equipment used in conjunction with pesticides and
+                         herbicides is prohibited.
+
+           (15) Accidental spills.
+
+                  (a)    Oil spills shall be reported and cleaned up pursuant to the New York State Navigation Law
+                         §§ 170 through 197.
+
+                  (b)    Spills of any other material stored in bulk shall be reported as required by the
+
+
+                         Environmental Conservation Law § 17-1743. Cleanup of spills is the responsibility of the
+                         owner, in case of material in transit, cleanup is the responsibility of the carrier.
+
+                  (c)    The Commissioner of Health shall be advised of any accidental spills within 48 hours.
+
+           (16) Stockpiles.
+
+                  (a)    Storage of chloride salts is prohibited except in waterproof buildings or in watertight
+                         vessels.
+
+                  (b)    Storage of coal is prohibited except in watertight buildings or on a watertight surface
+                         which prevents seepage and runoff.
+
+           (17) Deicing salt application.
+
+                  (a)    Deicing salt use is restricted to a minimum amount needed for public safety in accordance
+                         with best management practices as developed by the New York State Department of
+                         Transportation.
+
+                  (b)    Calcium chloride shall be used instead of sodium chloride where necessary to limit sodium
+                         input to waters.
+
+           (18) Cemeteries. All cemeteries shall be operated in accordance with New York State Department of
+                Health rules and regulations. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+           (19) Underground storage tanks and pipelines.
+
+                  (a)    Underground storage of petroleum products or any other toxic chemicals or radioactive
+                         material is prohibited unless measures have been taken to ensure that leakage will not
+                         occur.
+
+                  (b)    Any spills or leaks shall be reported as provided for in Subsection B(15).
+
+                  (c)    The owner of any underground storage tank or pipeline is responsible for prompt reporting
+                         of any spills or leaks and for the costs of cleanup.
+
+           (20) Atmospheric fallout. Appropriate monitoring of the constituents of precipitation shall be
+                undertaken by the Village Water Department, the Department of Health and the Department of
+                Environmental Conservation, and, where data indicate, appropriate action shall be taken.
+
+           (21) Land use management.
+
+                  (a)    Where groundwater deterioration is likely to be caused by land development, village
+                         officials shall ensure that appropriate zoning is implemented and, along with the
+                         Department of Health, they shall ensure that other controls are implemented to protect the
+                         groundwater, including, where appropriate, the designation of the aquifer as "sole source"
+                         as permitted in § 1442(e) of the New York State Safe Drinking Water Act. [Amended
+                         5-7-1990 by L.L. No. 2-1990]
+
+                  (b)    Environmental assessments must be prepared for the following and submitted to the
+                         Department of Health for review and comment before any permits are issued:
+
+                         [1]      Excavations or cut-ins which expose groundwater permanently or during maximum
+                                  elevation of the water table or which significantly reduce the thickness of the soil
+                                  cover and thereby ease the entrance of contaminants into groundwaters.
+
+
+                         [2]      The establishment of sand and gravel mining operations.
+
+                         [3]      The construction of overhead transmission lines, liquefied natural gas lines or other
+                                  pipelines for materials which can impair water quality.
+
+                         [4]      Major surface transportation corridors.
+
+           (22) Improperly constructed or abandoned wells.
+
+                  (a)    All oil and gas wells shall be constructed in accordance with the requirements of the
+                         Department of Environmental Conservation.
+
+                  (b)    All water supply wells shall be constructed in accordance with the requirements of the
+                         Department of Health.
+
+                  (c)    All abandoned wells shall be sealed in accordance with requirements for oil and gas wells
+                         and requirements for water supply wells.
+
+     D.    Specific regulations for Zone 3.
+
+           (1)    On-site disposal systems.
+
+                  (a)    All on-site disposal systems serving single-family residences of 10 persons or less or with
+                         flows of less than 1,000 gallons per day shall be designed, installed and maintained in
+                         accordance with Westchester County Sanitary Code and the standards promulgated in such
+                         code. Village laws shall also apply if they contain more stringent standards. [Amended
+                         5-7-1990 by L.L. No. 2-1990]
+
+                  (b)    A permit is required prior to the installation of any subsurface disposal systems. This
+                         permit must be obtained from the Department of Health. Conditions for a permit shall be
+                         reviewed and approved by the village and shall include an approved engineering plan,
+                         verification of the percolation rate by a disinterested party and inspection of the installation
+                         prior to backfilling. Permits are renewable on a five-year basis. All septic tanks shall be
+                         pumped clean every five years or more often if conditions warrant. [Amended 5-7-1990
+                         by L.L. No. 2-1990]
+
+                  (c)    The applicable standards and permit requirements of the Department of Environmental
+                         Conservation shall apply to systems with flows in excess of 1,000 gallons per day or those
+                         which contain industrial wastewater.
+
+                  (d)    The use of sewage system or septic system cleaners or additives are prohibited.
+
+                  (e)    Where conditions warrant, water conservation plumbing fixtures may be required, and
+                         nonessential water-using appliances, such as garbage disposals, dishwashers and
+                         clotheswashers, may be prohibited.
+
+                  (f)    No portion of the seepage unit shall be constructed, placed or rebuilt within a fifty-foot
+                         linear distance of the recharge area or tributary watercourses.
+
+                  (g)    Where rapid percolation is indicated, such as in rock fissures, the use of subsurface
+                         disposal systems may be prohibited.
+
+           (2)    Point discharge. Point source discharges to tributary streams are prohibited unless treatment
+                  equivalent to sand filtration and disinfection is provided for domestic wastewater and equivalent
+
+
+                  treatment for industrial wastewaters. All effluents will meet drinking water standards.
+
+           (3)    Storm sewer outlets. Storm sewer outlets shall not discharge directly to streams and
+                  watercourses. Provision shall be made to discharge to the surface of the ground 100 feet from a
+                  watercourse and a recharge area.
+
+           (4)    Snow disposal. The dumping of snow removed from streets, roads and parking areas directly
+                  into streams is prohibited.
+
+           (5)    Refuse disposal areas and junkyards.
+
+                  (a)    No refuse shall be deposited on or beneath the surface of the ground within a two-hundred-
+                         fifty-foot linear distance of any watercourse or Zone 2.
+
+                  (b)    Solid waste disposal facilities shall conform to 6 NYCRR 360 and be under permit.
+
+                  (c)    Abandoned refuse disposal areas should be investigated, monitored when warranted and
+                         remedial action undertaken if undesirable conditions are present.
+
+                  (d)    No junkyards shall be located within a two-hundred-fifty-foot linear distance of any
+                         watercourse or Zone 2.
+
+           (6)    Animal wastes.
+
+                  (a)    No concentrations of animal wastes from an agricultural operation, including but not
+                         limited to manure piles, feedlots, barnyards and yarding areas, shall be located within a
+                         one-hundred-foot linear distance from any watercourse or Zone 2.
+
+                  (b)    Barnyards, feedlots, yarding areas and manure piles shall be separated from streams by
+                         ditches or surface grading to prevent their runoff from entering streams.
+
+                  (c)    Drainage from barnyards, feedlots, yarding areas or manure piles shall not be be
+                         discharged directly to any watercourse or to Zone 2. Such drainage shall be dispersed over
+                         the surface of the ground at a minimum distance of a two-hundred-fifty-foot linear distance
+                         from any watercourse or Zone 2.
+
+                  (d)    Provision shall be made for satisfactory disposal of milk house waste either by surface or
+                         subsurface irrigation that prevents any discharge to any watercourse or Zone 2. Such
+                         facilities shall be located at least a one-hundred-foot linear distance from any watercourse
+                         or Zone 2.
+
+                  (e)    Manure shall not be spread on frozen ground if there is any likelihood that surface runoff
+                         will be carried into streams.
+
+                  (f)    Pet owners in urban areas must provide for animal waste disposal on an individual basis.
+
+           (7)    Septage and sludge disposal.
+
+                  (a)    No septage, municipal sludge or human excreta shall be disposed of unless deposited in
+                         trenches or pits at a linear distance of not less than two-hundred-fifty-feet from any
+                         watercourse or Zone 2 and covered with not less than one foot of soil in such manner
+                         effectively to prevent it from being carried into any watercourse or into Zone 2 by surface
+                         runoff.
+
+                  (b)    All disposal of septage, municipal sludge or human excreta shall be done only under
+
+
+                         permit issued by the Department of Environmental Conservation or the Department of
+                         Health, as appropriate.
+
+           (8)    Industrial sludges and toxic chemicals.
+
+                  (a)    No industrial sludges and toxic chemicals shall be stored except under permit by the
+                         United States Environmental Protection Agency and the Department of Environmental
+                         Conservation.
+
+                  (b)    Disposal of industrial sludges and toxic chemicals is prohibited.
+
+                  (c)    Toxic chemicals shall not be buried in the soil, spread upon the surface of the ground or
+                         allowed to enter groundwaters.
+
+                  (d)    Transportation of toxic chemicals is prohibited, except under permit of the New York State
+                         Department of Transportation pursuant to Article 2, Sections 14A through 14F, of the
+                         Transportation Law. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+           (9)    Radioactive material. Disposal of radioactive material is prohibited.
+
+           (10) Fertilizer use.
+
+                  (a)    Open storage of artificial fertilizers for commercial use is prohibited.
+
+                  (b)    Agricultural use of fertilizers shall be in conformance with best management practices as
+                         developed by the New York State Soil and Water Conservation Committee and
+                         implemented by the preparation and use of farm plans as required by the New York State
+                         Soil and Water Conservation Districts Law § 9, Subdivision (7-a).
+
+                  (c)    Fertilizer use for nonfarm and nonresidential application shall be in accordance with best
+                         management practices as developed under Subsection D(10)(b) above.
+
+           (11) Pesticide and herbicide use.
+
+                  (a)    All pesticide and herbicide storage, use and application shall be under permit as provided
+                         in Environmental Conservation Law Article 33.
+
+                  (b)    Disposal of containers of unused pesticides and herbicides is prohibited except in
+                         accordance with the permit issued as indicated under Subsection D(11)(a).
+
+                  (c)    Use of streams for make-up water or washing of equipment is prohibited.
+
+           (12) Accidental spills.
+
+                  (a)    Oil spills shall be reported and cleaned up pursuant to the New York State Navigation Law
+                         §§ 170 through 197.
+
+                  (b)    Spills of any material stored in bulk shall be reported as required by Environmental
+                         Conservation Law § 17-1743. Cleanup of spills is the responsibility of the carrier.
+
+                  (c)    The Commissioner of Health shall be advised of any accidental spills within 48 hours.
+
+                  (d)    Underground storage of petroleum products or any other contaminating material is
+                         prohibited unless measures have been taken to ensure that leakage will not occur.
+                         Underground tanks at facilities where over one thousand one hundred gallons of material
+
+
+                         are stored must be tested in accordance with New York State Department of
+                         Environmental Conservation bulk storage petroleum and chemical regulations. Bare steel
+                         or painted steel tanks must be tested, in accordance with accepted testing procedures,
+                         initially when the tank is 10 years old and every five years thereafter. State-of-the-art,
+                         corrosion-resistant underground tanks must be initially tested when they are 15 years old
+                         and every five years thereafter. Underground tanks that are not regulated by the bulk
+                         storage requirements must be tested when they are 10 years old and every five years
+                         thereafter. All results of tank testing must be reported to the village. [Amended 5-7-1990
+                         by L.L. No. 2-1990]
+
+           (13) Stockpiles.
+
+                  (a)    Storage of chloride salts is prohibited within a five-hundred-foot linear distance of any
+                         watercourse or Zone 2 except in weatherproof buildings or watertight vessels.
+
+                  (b)    Storage of coal is prohibited except in watertight buildings or on a watertight surface
+                         which prevents seepage and runoff.
+
+           (14) Deicing salt application.
+
+                  (a)    Deicing salt use is restricted to the minimum amount needed for public safety in
+                         accordance with best management practices as developed by the New York State
+                         Department of Transportation.
+
+                  (b)    Calcium chloride shall be used instead of sodium chloride where possible to limit sodium
+                         input to area waters.
+
+           (15) Cemeteries. No internment of a human body shall be made within a two-hundred-fifty-foot
+                linear distance of a watercourse or Zone 2.
+
+           (16) Sediment generation.
+
+                  (a)    Farm tillage practices shall be in conformance with best management practices as
+                         developed by the New York State Soil and Water Conservation Committee and
+                         implemented by the preparation and use of farm plans as required by the New York State
+                         Soil and Water Conservation Districts Law § 9, Subdivision (7-a).
+
+                  (b)    All farms shall have an operational farm plan pursuant to Subsection D(16)(a) above in
+                         place.
+
+                  (c)    Soil erosion and sediment production by stream and road bank erosion shall be evaluated
+                         by the Westchester County Soil and Water Conservation District and appropriate remedial
+                         action taken where necessary.
+
+                  (d)    All land-disturbing activity, including general construction, highway construction, access
+                         road construction and maintenance, is prohibited except where remedial measures have
+                         been put in place to minimize erosion and sediment production as specified in local laws
+                         and regulations.
+
+           (17) Atmospheric fallout. Appropriate monitoring of the constituents of precipitation shall be
+                undertaken by the Village Water Department, the Department of Health and the Department of
+                Environmental Conservation and where data indicate appropriate action be taken.
+
+           (18) Land use management.
+
+
+                   (a)    Where groundwater deterioration is likely to be caused by land development or use, village
+                          officials shall ensure that appropriate zoning is implemented and, along with the
+                          Department of Health, they shall ensure that other controls are implemented to protect the
+                          groundwater. [Amended 5-7-1990 by L.L. No. 2-1990]
+
+                   (b)    All lands or tributary streams draining to public water supply aquifers shall be so identified
+                          on land use maps and in zoning regulations.114
+
+
+     114. Editor's Note: See Ch. 230, Zoning.
+
+
+                                                       ARTICLE III
+                                                Cross-Connection Program
+                                           [Adopted 6-21-1993 by L.L. No. 3-1993]
+
+     § 223-23. Purpose.
+
+     The purpose of this Article is to safeguard potable water supplies from potential contamination by
+     preventing backflow from a water user's system into the public water supply system and to comply with
+     the requirements of the New York State Sanitary Code, Part 5, Section 5-1.31.
+
+     § 223-24. Cross-connection control devices.
+
+     A.    Cross-connection control devices conforming to the current requirements of the New York State
+           Department of Health and the Westchester County Department of Health shall be installed by a
+           qualified licensed plumber (person or contractor licensed by the village) hired by the owner of those
+           systems, upon application to and approval by the village and the Westchester County Department of
+           Health pursuant to the rules of those Departments in force at the time of the application.
+
+     B.    Certificates of occupancy shall not be issued for new or modified/renovated/rehabilitated structures
+           without a letter from the general foreman of the Department of Public Works or his/her designee
+           stating that the cross-connection control devices have been properly installed and tested.
+
+     C.    The cost to install the cross-connection control devices shall be borne by the owner of the property.
+
+     § 223-25. Upgrade of preexisting systems.
+
+     The village, through such persons as are designated by the Village Manager, shall, by certified mail, notify
+     those property owners or occupants whose water systems require cross-connection control devices pursuant
+     to the requirements of the New York State Sanitary Code and the Westchester County Department of
+     Health. Property owners or occupants so notified shall, within 60 days following the service of such notice,
+     install cross-connection control devices in accordance with the provisions of this Article.
+
+     § 223-26. Testing; owner liability for costs.
+
+     The testing of cross-connection control devices shall be performed by a state-certified tester on an annual
+     basis or at such other intervals as required by New York State and Westchester County regulations, and the
+     cost of such testing shall be borne by the owner of the system.
+
+     § 223-27. Manual adopted.
+
+     The Cross-Connection Control Manual published by New York State Department of Health, Bureau of
+     Public Water Supply, dated January 1981, or latest revisions thereto, is hereby adopted by reference.
+     Compliance with the provisions of this manual shall constitute compliance with this Article.
+
+     § 223-28. Penalties for offenses.
+
+     In addition to the penalties provided for in Chapter 1, Article 1, § 1-12 of the Village Code, the service
+     of water to any premises may be discontinued by the water supplier if cross-connection control devices
+     required by this Article and regulations adopted pursuant thereto are not installed, tested and maintained,
+     if any defect is found in an installed cross-connected control device, if it is found that a cross-connected
+     control device has been removed or bypassed or if unprotected cross-connections exist on the premises,
+
+
+     and service will not be restored until such conditions or defects are corrected.
+
+
+     § 223-28                                               WATER
+
+
+                                                   CROTON-ON-HUDSON CODE                                               § 225-2

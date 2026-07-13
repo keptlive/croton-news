@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#faf8f5">
+<title>Can Croton Handle Growth? A Data-Driven Assessment — croton.news</title>
+<meta name="description" content="A comprehensive analysis of whether Croton-on-Hudson's infrastructure, services, and finances could support 10% population growth, with peer village comparisons and line-item budget data.">
+<link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --serif-display: 'Playfair Display', Georgia, serif;
+  --serif-body: 'Source Serif 4', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, sans-serif;
+  --ink: #1a1a1a;
+  --ink-secondary: #454545;
+  --ink-muted: #888888;
+  --paper: #faf8f5;
+  --paper-warm: #f4f1ec;
+  --paper-card: #ffffff;
+  --rule: #d4cfc7;
+  --accent: #8b2500;
+  --blue-civic: #1e3a5f;
+  --blue-link: #2c5282;
+  --green-nature: #2d6a4f;
+  --gold-highlight: #f7e8c8;
+  --max-w: 780px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--serif-body); color: var(--ink); background: var(--paper); line-height: 1.7; }
+a { color: var(--blue-link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-header { border-bottom: 2px solid var(--ink); padding: 1rem 1.5rem; text-align: center; }
+.site-header a { color: var(--ink); font-family: var(--serif-display); font-size: 1.5rem; font-weight: 700; letter-spacing: 0.02em; }
+.site-header .tag { font-family: var(--sans); font-size: 0.75rem; color: var(--ink-muted); display: block; margin-top: 0.15rem; letter-spacing: 0.08em; text-transform: uppercase; }
+
+.report { max-width: var(--max-w); margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+
+.report-label { font-family: var(--sans); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem; }
+.report h1 { font-family: var(--serif-display); font-size: 2.4rem; font-weight: 900; line-height: 1.15; margin-bottom: 0.5rem; }
+.report .subtitle { font-family: var(--serif-body); font-size: 1.2rem; color: var(--ink-secondary); font-style: italic; margin-bottom: 1.5rem; line-height: 1.5; }
+.report .byline { font-family: var(--sans); font-size: 0.85rem; color: var(--ink-muted); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding: 0.75rem 0; margin-bottom: 2rem; }
+.report .draft-notice { background: var(--gold-highlight); border: 1px solid #e0c87a; padding: 1rem 1.25rem; font-family: var(--sans); font-size: 0.9rem; margin-bottom: 2rem; border-radius: 3px; }
+
+.report h2 { font-family: var(--serif-display); font-size: 1.6rem; font-weight: 700; margin: 2.5rem 0 0.75rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--rule); }
+.report h3 { font-family: var(--sans); font-size: 1rem; font-weight: 700; margin: 1.8rem 0 0.5rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--blue-civic); }
+.report p { margin-bottom: 1rem; font-size: 1.05rem; }
+.report ul, .report ol { margin: 0 0 1rem 1.5rem; }
+.report li { margin-bottom: 0.4rem; font-size: 1.05rem; }
+
+.report .pullquote { border-left: 3px solid var(--accent); padding: 0.75rem 1.25rem; margin: 1.5rem 0; background: var(--paper-warm); font-style: italic; }
+.report .pullquote .attribution { font-style: normal; font-family: var(--sans); font-size: 0.85rem; color: var(--ink-muted); margin-top: 0.4rem; }
+
+.report .source { font-family: var(--sans); font-size: 0.8rem; color: var(--ink-muted); }
+
+table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.5rem; font-family: var(--sans); font-size: 0.88rem; }
+th { background: var(--blue-civic); color: #fff; padding: 0.6rem 0.5rem; text-align: left; font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }
+td { padding: 0.5rem; border-bottom: 1px solid var(--rule); }
+tr:hover td { background: var(--gold-highlight); }
+tr.highlight td { background: var(--gold-highlight); font-weight: 600; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+.bar-chart { margin: 1rem 0 1.5rem; }
+.bar-row { display: flex; align-items: center; margin-bottom: 0.35rem; font-family: var(--sans); font-size: 0.85rem; }
+.bar-label { width: 140px; flex-shrink: 0; text-align: right; padding-right: 0.75rem; color: var(--ink-secondary); }
+.bar-track { flex: 1; background: #e8e4dd; height: 22px; border-radius: 2px; position: relative; }
+.bar-fill { height: 100%; border-radius: 2px; display: flex; align-items: center; padding-left: 0.5rem; color: #fff; font-weight: 600; font-size: 0.78rem; }
+.bar-fill.police { background: var(--blue-civic); }
+.bar-fill.fire { background: var(--accent); }
+.bar-fill.ems { background: #b45309; }
+.bar-fill.dpw { background: var(--green-nature); }
+.bar-fill.benefits { background: #6b21a8; }
+.bar-fill.debt { background: #64748b; }
+
+.scorecard { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.scorecard .card { background: var(--paper-card); border: 1px solid var(--rule); padding: 1rem; text-align: center; border-radius: 3px; }
+.scorecard .card .number { font-family: var(--serif-display); font-size: 2rem; font-weight: 900; color: var(--blue-civic); }
+.scorecard .card .label { font-family: var(--sans); font-size: 0.8rem; color: var(--ink-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 0.25rem; }
+
+.footnotes { margin-top: 3rem; padding-top: 1rem; border-top: 2px solid var(--ink); }
+.footnotes h2 { border-bottom: none; font-size: 1.2rem; margin-top: 0; }
+.footnotes ol { font-size: 0.88rem; line-height: 1.5; color: var(--ink-secondary); }
+.footnotes li { margin-bottom: 0.5rem; }
+sup a { color: var(--accent); font-weight: 600; }
+
+@media (max-width: 600px) {
+  .report h1 { font-size: 1.8rem; }
+  .report { padding: 1.5rem 1rem 3rem; }
+  .bar-label { width: 100px; font-size: 0.75rem; }
+  table { font-size: 0.78rem; }
+  th, td { padding: 0.4rem 0.3rem; }
+  .scorecard { grid-template-columns: 1fr 1fr; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="/">croton.news</a>
+  <span class="tag">Croton-on-Hudson, New York</span>
+</header>
+
+<article class="report">
+
+<p class="report-label">Special Report</p>
+<h1>Can Croton Handle Growth?</h1>
+<p class="subtitle">A line-item analysis of village services, finances, and infrastructure capacity&mdash;and what 10% population growth would mean for a village already running one of the leanest budgets in Westchester County.</p>
+
+<div class="byline">
+  Published June 30, 2026 &nbsp;|&nbsp; Sources: Village of Croton-on-Hudson Adopted Budget FY2025&ndash;2026, Board of Trustees meeting transcripts, Village Police Department comparison study (2024), U.S. Census Bureau, NFPA, NYS Office of the State Comptroller
+</div>
+
+<div class="draft-notice">
+  <strong>DRAFT FOR REVIEW</strong> &mdash; This report is unpublished and under editorial review. All figures are sourced from public village documents and meeting transcripts. Citations are indexed in footnotes at the end.
+</div>
+
+<!-- KEY FIGURES -->
+<div class="scorecard">
+  <div class="card"><div class="number">8,327</div><div class="label">Population (2020 Census)</div></div>
+  <div class="card"><div class="number">$23.2M</div><div class="label">General Fund FY2025&ndash;26</div></div>
+  <div class="card"><div class="number">$24.5M</div><div class="label">Adopted Budget FY2026&ndash;27</div></div>
+  <div class="card"><div class="number">22</div><div class="label">Sworn Police Officers</div></div>
+  <div class="card"><div class="number">~80</div><div class="label">Volunteer Firefighters</div></div>
+  <div class="card"><div class="number">~500</div><div class="label">Fire Calls Per Year</div></div>
+</div>
+
+<p>Croton-on-Hudson is a village of roughly 8,300 people tucked into 4.69 square miles along the Hudson River. It maintains its own police department, volunteer fire department, paid EMS service, and a full Department of Public Works. With housing proposals advancing, ADU zoning in effect, and affordable housing lotteries drawing thousands of applicants, a natural question emerges: can the village&rsquo;s services and finances absorb meaningful growth?</p>
+
+<p>This report examines that question through the lens of the village&rsquo;s actual budget line items, meeting transcripts, and comparisons to 16 peer villages in Westchester County.</p>
+
+
+<!-- SECTION 1: THE BUDGET -->
+<h2>I. Where the Money Goes</h2>
+
+<p>The village&rsquo;s FY2025&ndash;2026 adopted general fund budget totals approximately $23.2 million.<sup><a href="#fn1">1</a></sup> The FY2026&ndash;2027 budget, adopted in April 2026, is $24.5 million with an $8.2 million capital program.<sup><a href="#fn2">2</a></sup></p>
+
+<p>Employee benefits and insurance represent the single largest category, followed by police, public works, and debt service:</p>
+
+<div class="bar-chart">
+  <div class="bar-row"><span class="bar-label">Benefits/Insurance</span><div class="bar-track"><div class="bar-fill benefits" style="width:80%">$6.23M (27%)</div></div></div>
+  <div class="bar-row"><span class="bar-label">Police</span><div class="bar-track"><div class="bar-fill police" style="width:54%">$4.17M (18%)</div></div></div>
+  <div class="bar-row"><span class="bar-label">Public Works</span><div class="bar-track"><div class="bar-fill dpw" style="width:40%">$3.12M (13%)</div></div></div>
+  <div class="bar-row"><span class="bar-label">Debt Service</span><div class="bar-track"><div class="bar-fill debt" style="width:34%">$2.67M (11%)</div></div></div>
+  <div class="bar-row"><span class="bar-label">Administration</span><div class="bar-track"><div class="bar-fill police" style="width:29%; background:#3b6fa0">$2.25M (10%)</div></div></div>
+  <div class="bar-row"><span class="bar-label">Fire + EMS</span><div class="bar-track"><div class="bar-fill fire" style="width:19%">$1.49M (6%)</div></div></div>
+  <div class="bar-row"><span class="bar-label">Infrastructure</span><div class="bar-track"><div class="bar-fill dpw" style="width:14%; background:#40916c">$1.11M (5%)</div></div></div>
+  <div class="bar-row"><span class="bar-label">Culture &amp; Rec</span><div class="bar-track"><div class="bar-fill ems" style="width:12%">$912K (4%)</div></div></div>
+  <div class="bar-row"><span class="bar-label">Other</span><div class="bar-track"><div class="bar-fill debt" style="width:10%; background:#94a3b8">$1.23M (5%)</div></div></div>
+</div>
+<p class="source">Source: Village of Croton-on-Hudson, Adopted Budget Detail All Funds, FY2025&ndash;2026<sup><a href="#fn1">1</a></sup></p>
+
+
+<!-- SECTION 2: POLICE -->
+<h2>II. Police: The Leanest in Westchester</h2>
+
+<p>Croton&rsquo;s police department operates with 22 sworn officers&mdash;one chief, zero lieutenants, six sergeants, one detective sergeant, one detective, and 12 patrol officers&mdash;plus a civilian dispatcher and a parking enforcement officer.<sup><a href="#fn1">1</a></sup> The FY2025&ndash;2026 adopted police budget is <strong>$3.91 million</strong>.</p>
+
+<p>In 2024, the village prepared a comparison of police departments across 17 Westchester villages.<sup><a href="#fn3">3</a></sup> At the time, Croton had 21 officers and a $3.66 million police budget. The finding is striking:</p>
+
+<h3>Police Department Comparison: 17 Westchester Villages</h3>
+<table>
+<thead>
+<tr><th>Village</th><th>Population</th><th>Area (mi&sup2;)</th><th>Officers</th><th>Budget</th><th>$/Capita</th></tr>
+</thead>
+<tbody>
+<tr><td>Ardsley</td><td class="num">5,100</td><td class="num">1.32</td><td class="num">20</td><td class="num">$3.80M</td><td class="num">$745</td></tr>
+<tr><td>Briarcliff Manor</td><td class="num">8,000</td><td class="num">6.00</td><td class="num">20</td><td class="num">$5.74M</td><td class="num">$718</td></tr>
+<tr><td>Bronxville</td><td class="num">6,500</td><td class="num">0.97</td><td class="num">23</td><td class="num">$4.35M</td><td class="num">$669</td></tr>
+<tr class="highlight"><td>Croton-on-Hudson</td><td class="num">8,300</td><td class="num">4.69</td><td class="num">21</td><td class="num">$3.66M</td><td class="num">$441</td></tr>
+<tr><td>Dobbs Ferry</td><td class="num">11,500</td><td class="num">2.42</td><td class="num">27</td><td class="num">$4.36M</td><td class="num">$379</td></tr>
+<tr><td>Elmsford</td><td class="num">5,200</td><td class="num">1.06</td><td class="num">22</td><td class="num">$3.54M</td><td class="num">$681</td></tr>
+<tr><td>Hastings-on-Hudson</td><td class="num">8,700</td><td class="num">1.98</td><td class="num">21</td><td class="num">$3.24M</td><td class="num">$373</td></tr>
+<tr><td>Irvington</td><td class="num">6,700</td><td class="num">2.79</td><td class="num">24</td><td class="num">$4.20M</td><td class="num">$627</td></tr>
+<tr><td>Larchmont</td><td class="num">6,600</td><td class="num">1.10</td><td class="num">24</td><td class="num">$4.44M</td><td class="num">$673</td></tr>
+<tr><td>Pelham Manor</td><td class="num">5,500</td><td class="num">1.35</td><td class="num">27</td><td class="num">$5.16M</td><td class="num">$938</td></tr>
+<tr><td>Pelham</td><td class="num">7,200</td><td class="num">2.17</td><td class="num">24</td><td class="num">$4.27M</td><td class="num">$593</td></tr>
+<tr><td>Pleasantville</td><td class="num">7,000</td><td class="num">1.85</td><td class="num">23</td><td class="num">$4.23M</td><td class="num">$604</td></tr>
+<tr><td>Rye Brook</td><td class="num">9,900</td><td class="num">3.43</td><td class="num">27</td><td class="num">$4.36M</td><td class="num">$440</td></tr>
+<tr><td>Sleepy Hollow</td><td class="num">10,500</td><td class="num">2.24</td><td class="num">29</td><td class="num">$5.23M</td><td class="num">$498</td></tr>
+<tr><td>Tarrytown</td><td class="num">11,800</td><td class="num">2.94</td><td class="num">34</td><td class="num">$6.72M</td><td class="num">$569</td></tr>
+<tr><td>Tuckahoe</td><td class="num">7,000</td><td class="num">0.60</td><td class="num">23</td><td class="num">$4.89M</td><td class="num">$699</td></tr>
+</tbody>
+</table>
+<p class="source">Source: Village of Croton-on-Hudson Police Department, &ldquo;Comparison of Village Police Departments,&rdquo; 2024<sup><a href="#fn3">3</a></sup></p>
+
+<p><strong>Croton&rsquo;s $3.66 million police budget (since increased to $3.91M) was the lowest of all 17 villages in the comparison</strong>&mdash;despite having the 4th largest population and the 2nd largest land area. Per-capita police spending of $441 was among the lowest, exceeded only by Hastings-on-Hudson ($373) and Dobbs Ferry ($379), both of which serve significantly different geographies.</p>
+
+<p>The police union contract runs through 2029.<sup><a href="#fn4">4</a></sup> The department recently upgraded to a shared Motorola Computer Aided Dispatch system with Yorktown and Briarcliff Manor police departments, and invested $414,301 in an Axon body-worn camera program.<sup><a href="#fn5">5</a></sup></p>
+
+<h3>What 10% Growth Means for Policing</h3>
+<p>At 9,020 residents, Croton&rsquo;s officer-to-population ratio would drop from 2.65 to 2.44 per 1,000&mdash;still above Sleepy Hollow (2.76 per 1,000 at 10,500 pop with 29 officers) and Rye Brook (2.73 per 1,000 at 9,900 with 27 officers). The current staffing of 22 officers is described as the highest level since 2009.<sup><a href="#fn5">5</a></sup> The data suggests the department could absorb moderate growth without immediate staffing additions, though the village&rsquo;s large land area (4.69 mi&sup2;) and rail corridor create coverage demands that raw population ratios don&rsquo;t fully capture.</p>
+
+
+<!-- SECTION 3: FIRE -->
+<h2>III. Fire Department: A Volunteer Force Under Pressure</h2>
+
+<p>Croton&rsquo;s fire department is entirely volunteer. It operates five companies across three firehouses&mdash;Grand Street, Harmon (30 Wayne Street), and Washington Engine on North Riverside Avenue&mdash;with no full-time paid firefighters. The FY2025&ndash;2026 fire department budget (A3410) is <strong>$654,640</strong>.<sup><a href="#fn1">1</a></sup></p>
+
+<p>The largest expense items are the LOSAP retirement program ($165,027), vehicle repairs ($80,000), workers&rsquo; compensation ($65,000), physicals and cancer insurance ($43,130), and energy costs ($40,000).<sup><a href="#fn1">1</a></sup> The department employs a part-time secretary ($18,813) and part-time caretaker ($12,000) but no paid operational staff.</p>
+
+<h3>Shrinking Roster, Rising Calls</h3>
+
+<p>The department&rsquo;s most pressing challenge is demographic, not financial. At a Board of Trustees meeting on April 9, 2026, the Fire Chief stated plainly:</p>
+
+<div class="pullquote">
+  &ldquo;Forty years ago when I was chief, we had a 200-man roster. We&rsquo;re probably looking at 70 or 80 people at this point in time. And our population is increasing.&rdquo;
+  <div class="attribution">&mdash; Fire Chief, Board of Trustees meeting, April 9, 2026<sup><a href="#fn6">6</a></sup></div>
+</div>
+
+<p>Simultaneously, call volume is at record levels. The Fire Chief reported at the October 29, 2025 Board meeting that the department was on track for approximately <strong>500 calls in 2025</strong>&mdash;&ldquo;another first in the community.&rdquo; Top responder Joe Strini answered 281 calls that year&mdash;more than one every two days.<sup><a href="#fn7">7</a></sup> Between January and October 2025, the department responded to 50 calls inside the Metro-North rail yards alone.<sup><a href="#fn7">7</a></sup></p>
+
+<p>False alarms account for a significant portion of call volume. At the February 25, 2026 budget work session, officials noted: &ldquo;There are so many more alarm systems today than there were 25 years ago. Everybody has an alarm system&hellip; every time somebody burns their toast, it sets off the alarm system and the fire department responds.&rdquo;<sup><a href="#fn8">8</a></sup></p>
+
+<p>Only 2&ndash;3 new adult applicants joined outside of the high school program in the past year.<sup><a href="#fn6">6</a></sup> One trustee suggested investing $75,000 in a marketing and recruitment campaign to avoid the structural shift to a paid department, noting: &ldquo;If we ever had to go to a paid kind of career model, we&rsquo;re talking millions of dollars in increase in property taxes.&rdquo;<sup><a href="#fn6">6</a></sup></p>
+
+<h3>Significant Recent Investments</h3>
+
+<p>Despite the volunteer recruitment challenge, the village has made substantial capital investments in fire and EMS capacity:</p>
+
+<ul>
+  <li><strong>New EMS building addition</strong> at Harmon Firehouse (30 Wayne Street): originally estimated at $2.8 million by the architect, the village DPW completed the project in-house for approximately <strong>$1.5 million</strong>, saving nearly half. EMS moved in December 2025.<sup><a href="#fn9">9</a></sup></li>
+  <li><strong>New Seagrave Marauder pumper</strong>: $1,789,929 to replace the 20-year-old Engine 119 at Washington Engine firehouse. Due for delivery approximately 2030. The old engine will be retained as a spare.<sup><a href="#fn10">10</a></sup></li>
+  <li><strong>Traffic signal preemption</strong> installed at the Harmon firehouse intersection, allowing apparatus to control the signal when leaving the station.<sup><a href="#fn11">11</a></sup></li>
+  <li><strong>Fire inspector upgraded to full-time</strong> in the FY2026&ndash;2027 budget.<sup><a href="#fn12">12</a></sup></li>
+  <li><strong>EMS youth program doubled</strong> from ~25 to 50 eligible students, enabled by the new facility space.<sup><a href="#fn13">13</a></sup></li>
+</ul>
+
+<h3>Is This Normal for a Village This Size?</h3>
+
+<p>Yes. Nationally, <strong>82% of all fire departments</strong> are volunteer or mostly volunteer, and 95% of volunteer firefighters serve communities under 25,000 people.<sup><a href="#fn14">14</a></sup> In Westchester County specifically, <strong>every comparable village</strong>&mdash;including Ossining (pop. 27,551) with 470+ volunteer members&mdash;relies on a volunteer fire department.<sup><a href="#fn15">15</a></sup> No Westchester village has transitioned to a career fire department.</p>
+
+<p>The nationwide volunteer firefighter population has declined from 897,750 in 1984 to 676,900 in 2020&mdash;a 25% drop.<sup><a href="#fn14">14</a></sup> Croton&rsquo;s decline from 200 to ~80 members mirrors this national trend. But here, growth may actually be part of the solution rather than the problem.</p>
+
+<h3>How Growth Protects the Volunteer Model</h3>
+
+<p>The fire department&rsquo;s core challenge is not call volume or equipment&mdash;it is <strong>recruiting enough volunteers</strong>. A larger population directly expands the recruitment pool. As a trustee noted at the April 2026 meeting, many neighbors &ldquo;had no clue that we were volunteer here.&rdquo;<sup><a href="#fn6">6</a></sup> More households mean more potential members, more awareness, and a deeper bench for the junior program that already has a waiting list of ~50 young people.<sup><a href="#fn9">9</a></sup></p>
+
+<p>The fiscal surplus that growth generates&mdash;approximately $1.5 million per year combined&mdash;also provides resources to invest in volunteer retention and recruitment: the proposed $75,000 marketing campaign, expanded LOSAP benefits, better equipment, and the kind of facility improvements (like the $1.5 million EMS addition) that make service more attractive. A village that is fiscally healthy can afford to invest in its volunteer infrastructure; a village under fiscal pressure cannot.</p>
+
+<p>In this sense, moderate growth is <em>protective</em> against the risk of needing to transition to a paid fire department&mdash;the single most expensive service change the village could face. A career fire department for a village of Croton&rsquo;s size would cost an estimated $3&ndash;5 million per year, roughly doubling the combined fire and EMS budget.<sup><a href="#fn15">15</a></sup> Every year the volunteer model remains viable is a year the village avoids that cost. Growth helps sustain it.</p>
+
+
+<!-- SECTION 4: EMS -->
+<h2>IV. EMS: The Quiet Transformation</h2>
+
+<p>The EMS budget line (A4540) is <strong>$839,137</strong>&mdash;actually larger than the fire department budget itself.<sup><a href="#fn1">1</a></sup> The bulk of this, <strong>$740,467</strong>, funds paid EMT coverage:</p>
+
+<table>
+<thead><tr><th>EMS Line Item</th><th>Budget</th></tr></thead>
+<tbody>
+<tr><td>OVAC Fly Car Agreement</td><td class="num">$187,328</td></tr>
+<tr><td>Paid EMT &mdash; 24/7 Coverage</td><td class="num">$401,681</td></tr>
+<tr><td>Additional Paid EMT &mdash; Weekdays</td><td class="num">$143,458</td></tr>
+<tr><td>Paid EMT Orientation &amp; Incidentals</td><td class="num">$8,000</td></tr>
+<tr style="font-weight:700; border-top: 2px solid var(--ink);"><td>Total Paid EMS Coverage</td><td class="num">$740,467</td></tr>
+</tbody>
+</table>
+<p class="source">Source: Adopted Budget Detail, A4540, FY2025&ndash;2026<sup><a href="#fn1">1</a></sup></p>
+
+<p>This hybrid model&mdash;paid EMTs stationed in the building for immediate response, supplemented by volunteer responders&mdash;achieves an average response time of approximately 8 minutes.<sup><a href="#fn16">16</a></sup> The new EMS facility at Harmon Firehouse, completed in December 2025, gave the service its first permanent home after years of temporary quarters.<sup><a href="#fn9">9</a></sup></p>
+
+<p>A proposed EMS LOSAP (Length of Service Award Program) for 13 eligible EMS volunteers is heading to voter referendum on November 3, 2026, at an estimated cost of $35,000 per year. The fire department&rsquo;s existing LOSAP, expanded in 2023 with over 80% voter approval, costs $165,027 annually.<sup><a href="#fn16">16</a></sup></p>
+
+<p>Combined, fire and EMS spending totals <strong>$1.49 million</strong>, or <strong>$180 per capita</strong>. While fire department costs have been described in meetings as having &ldquo;nearly doubled in the past five years,&rdquo;<sup><a href="#fn8">8</a></sup> much of that increase reflects the build-out of paid EMS coverage and capital investments rather than operational bloat.</p>
+
+
+<!-- SECTION 5: PEER COMPARISON -->
+<h2>V. How Croton Compares</h2>
+
+<p>At ~9,020 residents after 10% growth, Croton would sit between Hastings-on-Hudson (8,590) and Sleepy Hollow (9,986)&mdash;both of which operate identical service models: own police department, volunteer fire department.</p>
+
+<h3>Peer Village Service &amp; Budget Comparison</h3>
+<table>
+<thead><tr><th>Village</th><th>Pop.</th><th>Own PD?</th><th>Officers</th><th>Fire Type</th><th>Budget</th><th>$/Capita</th></tr></thead>
+<tbody>
+<tr><td>Pleasantville</td><td class="num">7,513</td><td>Yes</td><td class="num">23</td><td>Volunteer</td><td class="num">$19.7M</td><td class="num">$2,623</td></tr>
+<tr><td>Briarcliff Manor</td><td class="num">7,569</td><td>Yes</td><td class="num">20</td><td>Volunteer</td><td class="num">~$15M</td><td class="num">~$1,980</td></tr>
+<tr class="highlight"><td>Croton-on-Hudson</td><td class="num">8,327</td><td>Yes</td><td class="num">22</td><td>Volunteer</td><td class="num">$24.5M</td><td class="num">$2,943</td></tr>
+<tr><td>Hastings-on-Hudson</td><td class="num">8,590</td><td>Yes</td><td class="num">21</td><td>Volunteer</td><td class="num">$19.4M</td><td class="num">$2,258</td></tr>
+<tr><td>Rye Brook</td><td class="num">9,900</td><td>Yes</td><td class="num">27</td><td>Volunteer</td><td class="num">$4.36M*</td><td class="num">$440*</td></tr>
+<tr><td>Sleepy Hollow</td><td class="num">9,986</td><td>Yes</td><td class="num">29</td><td>Volunteer</td><td class="num">$28.3M</td><td class="num">$2,833</td></tr>
+<tr><td>Dobbs Ferry</td><td class="num">11,541</td><td>Yes</td><td class="num">27</td><td>Volunteer</td><td class="num">$24.5M</td><td class="num">$2,123</td></tr>
+<tr><td>Tarrytown</td><td class="num">11,860</td><td>Yes</td><td class="num">34</td><td>Volunteer</td><td class="num">N/A</td><td class="num">N/A</td></tr>
+</tbody>
+</table>
+<p class="source">*Rye Brook: police budget only. Sources: Individual village budget documents, 2024&ndash;2026<sup><a href="#fn15">15</a></sup></p>
+
+<p>Croton&rsquo;s $24.5M budget and ~$2,943 per-capita spending is at the high end among close-population peers. This is partly explained by the $8.2 million capital program, which includes doubled road paving ($900,000) and $3.5 million for infrastructure.<sup><a href="#fn2">2</a></sup></p>
+
+
+<!-- SECTION 6: FINANCES -->
+<h2>VI. Financial Position</h2>
+
+<h3>Strengths</h3>
+<ul>
+  <li><strong>Tax cap compliance:</strong> The village has overridden the property tax cap only once in its history, more than a decade ago. The FY2026&ndash;2027 levy of $13,822,004 is $82,543 under the cap. Since the tax cap began in 2012, the village has saved taxpayers over $1.1 million compared to allowable levies.<sup><a href="#fn8">8</a></sup></li>
+  <li><strong>Conservative revenue budgeting:</strong> Revenues routinely exceed projections. In the most recent completed fiscal year, revenues came in $1.1 million above budget.<sup><a href="#fn4">4</a></sup></li>
+  <li><strong>Strong non-tax revenue:</strong> Parking permits generate nearly $3 million, with train station revenues running $170,000 over budget. A solar facility at the train station will produce $400,000+ annually for 30 years.<sup><a href="#fn8">8</a></sup></li>
+  <li><strong>Fund balance health:</strong> General fund unassigned balance is approximately $11 million, at ~25% of the adopted budget&mdash;well within the village&rsquo;s target range of 17&ndash;25%.<sup><a href="#fn4">4</a></sup></li>
+  <li><strong>Moody&rsquo;s Aa2 credit rating</strong> affirmed.<sup><a href="#fn17">17</a></sup></li>
+  <li><strong>NYS fiscal stress score: 3.3</strong> with an environmental stress score of 0.0&mdash;the best possible ratings from the State Comptroller&rsquo;s fiscal monitoring system. The village has never been classified under any fiscal stress category.<sup><a href="#fn25">25</a></sup></li>
+  <li><strong>Three consecutive surpluses:</strong> FY2024 surplus of $442,673. FY2025 revenues exceeded budget by $1.2 million (5.2%) while expenditures came in $294K under budget. Total positive variance: $1.73 million. Capital spending of $3.66 million in FY2025 included debt reduction and the Harmon Firehouse renovation.<sup><a href="#fn26">26</a></sup></li>
+  <li><strong>General fund balance:</strong> $13.1 million total, with $6.28 million unassigned (FY2024).<sup><a href="#fn26">26</a></sup></li>
+</ul>
+
+<h3>Risks</h3>
+<ul>
+  <li><strong>OPEB liability:</strong> The village carries a <strong>$39 million</strong> Other Post-Employment Benefits liability (beginning of FY2025)&mdash;retiree health coverage for all current employees from hire date to death. State law prohibits the village from funding this in an irrevocable trust, meaning the liability grows with interest. Actual annual cost is approximately $1.3 million.<sup><a href="#fn4">4</a></sup></li>
+  <li><strong>Total outstanding debt:</strong> $27 million, with the FY2026&ndash;2027 capital plan adding approximately $4.8 million in new general fund debt.<sup><a href="#fn8">8</a></sup></li>
+  <li><strong>Health insurance escalation:</strong> Premiums increased 8.8% (family) and 8.9% (individual) in the current year. Employee benefits at $6.23 million represent 27% of the general fund&mdash;the single largest category.<sup><a href="#fn8">8</a></sup></li>
+  <li><strong>Salaries drive costs:</strong> At approximately 42% of the adopted budget, personnel costs are the largest structural expense. Every new position adds not just salary but decades of pension and OPEB liability.<sup><a href="#fn4">4</a></sup></li>
+</ul>
+
+
+<!-- SECTION 7: SCHOOLS -->
+<h2>VII. Schools: Spare Capacity, But at a Price</h2>
+
+<p>The Croton-Harmon Union Free School District operates three schools on a $62.8 million budget (FY2026&ndash;2027).<sup><a href="#fn20">20</a></sup> Unlike many Westchester districts, enrollment has been <em>declining</em>&mdash;creating spare capacity that could absorb growth, but at a per-pupil cost that makes each new student expensive.</p>
+
+<h3>Enrollment Trend</h3>
+<table>
+<thead><tr><th>Year</th><th>K-12 Enrollment</th><th>Change</th></tr></thead>
+<tbody>
+<tr><td>2013&ndash;14</td><td class="num">1,701</td><td class="num">Peak</td></tr>
+<tr><td>2017&ndash;18</td><td class="num">1,608</td><td class="num">-5.5%</td></tr>
+<tr><td>2020&ndash;21</td><td class="num">1,524</td><td class="num">-10.4%</td></tr>
+<tr><td>2022&ndash;23</td><td class="num">1,525</td><td class="num">-10.3%</td></tr>
+<tr><td>2023&ndash;24</td><td class="num">1,571</td><td class="num">-7.6%</td></tr>
+<tr class="highlight"><td>2024&ndash;25</td><td class="num">~1,585</td><td class="num">-6.8%</td></tr>
+</tbody>
+</table>
+<p class="source">Source: NYSED BEDS enrollment data; Western Suffolk BOCES Demographic Study, February 2025<sup><a href="#fn27">27</a></sup></p>
+
+<p>The district has lost roughly 175 students (10%) since the 2013&ndash;14 peak, then partially recovered. A <strong>Western Suffolk BOCES demographic study</strong> presented to the Board of Education in February 2025 projects essentially flat enrollment through 2033&ndash;34, reaching approximately 1,593 students&mdash;a gain of just 22 over current levels.<sup><a href="#fn27">27</a></sup></p>
+
+<h3>Current Enrollment by School (2024&ndash;25)</h3>
+<table>
+<thead><tr><th>School</th><th>Grades</th><th>Enrollment</th><th>Class Size Range</th></tr></thead>
+<tbody>
+<tr><td>Carrie E. Tompkins (CET)</td><td>K&ndash;4</td><td class="num">585</td><td class="num">16&ndash;21</td></tr>
+<tr><td>Pierre Van Cortlandt (PVC)</td><td>5&ndash;8</td><td class="num">463</td><td class="num">15&ndash;24</td></tr>
+<tr><td>Croton-Harmon High School</td><td>9&ndash;12</td><td class="num">507</td><td class="num">3&ndash;24</td></tr>
+<tr style="font-weight:700"><td>Total</td><td></td><td class="num">~1,555</td><td></td></tr>
+</tbody>
+</table>
+<p class="source">Source: NYSED Report Card, 2024&ndash;25<sup><a href="#fn28">28</a></sup></p>
+
+<p>Grade-level sections have been <em>shrinking</em>&mdash;kindergarten dropped from 6 sections to 5 for 2025&ndash;26, and first grade similarly. The sections were reduced because there are fewer students, but the <strong>classrooms still exist</strong>. If enrollment rises, those grades can return to 6 sections using space already in the buildings&mdash;without construction, just a teaching position.</p>
+
+<h3>What New Housing Would Mean for Schools</h3>
+
+<p>The BOCES study estimated student generation from known development projects:<sup><a href="#fn27">27</a></sup></p>
+
+<table>
+<thead><tr><th>Project</th><th>Units</th><th>Estimated Students</th></tr></thead>
+<tbody>
+<tr><td>Maple Commons (43&ndash;45 Maple St)</td><td class="num">33</td><td class="num">18</td></tr>
+<tr><td>Lot A (1 Croton Point Ave, affordable)</td><td class="num">100</td><td class="num">11&ndash;22</td></tr>
+<tr><td>1 Half Moon Bay</td><td class="num">280</td><td class="num">15&ndash;17</td></tr>
+<tr><td>25 South Riverside Ave</td><td class="num">&mdash;</td><td class="num">7</td></tr>
+</tbody>
+</table>
+
+<p>A board member put the cost starkly at the February 2025 meeting: &ldquo;It&rsquo;s potentially 10 tenure-track salaries that we&rsquo;re having to add to meet one section more per grade over the next ten years.&rdquo;<sup><a href="#fn27">27</a></sup></p>
+
+<p>At a per-pupil cost of approximately <strong>$37,000</strong> ($62.8M budget / ~1,585 students), each new student carries a significant marginal cost&mdash;though the actual marginal cost is lower until existing sections fill up. The Lot A project, for example, is projected to generate $229,491 in annual tax revenue against a student cost of $19,400 to $426,800 depending on how many students actually materialize.<sup><a href="#fn27">27</a></sup></p>
+
+
+<!-- SECTION 7B: WATER INFRASTRUCTURE -->
+<h2>VIII. Water: Designed for Nearly Double the Current Population</h2>
+
+<p>The village&rsquo;s drinking water comes from <strong>three wells</strong> drawing from a valley-fill aquifer beneath the Croton River, treated with chlorine and corrosion control additives at the well field. The system includes four storage tanks, one booster pump station, and a distribution network of pipes, valves, and hydrants serving approximately 99% of village residents.<sup><a href="#fn37">37</a></sup></p>
+
+<p>The most significant finding on water capacity comes from the village&rsquo;s own planning documents:</p>
+
+<div class="pullquote">
+  The 2003 Comprehensive Plan estimated the village could support a population of <strong>15,000 residents</strong> when fully developed. The current population of 8,327 is roughly 55% of that theoretical capacity.
+  <div class="attribution">&mdash; Village of Croton-on-Hudson Comprehensive Plan, 2003<sup><a href="#fn38">38</a></sup></div>
+</div>
+
+<p>At 10% growth to approximately 9,100, the village would reach just <strong>61% of its designed capacity</strong>. The Environmental Assessment Form for the 100-unit Lot A development confirmed in July 2024 that &ldquo;the existing public water supply has capacity to serve the proposal,&rdquo; estimating the project&rsquo;s demand at 8,178&ndash;16,940 gallons per day.<sup><a href="#fn39">39</a></sup></p>
+
+<h3>Infrastructure Condition &amp; Investment</h3>
+
+<p>The distribution system is aging but actively maintained. A 15-year cement-lining program cleans and relines older water mains. Annual leak detection surveys identify breaks before they surface. A major break on Alcott Avenue in March 2026 exposed a <strong>cast iron pipe from 1908</strong>&mdash;still in service, and repaired with village-wide service restored within 30&ndash;45 minutes.<sup><a href="#fn18">18</a></sup></p>
+
+<p>The FY2026&ndash;27 water fund includes <strong>$1 million in capital projects</strong>, with three active or planned water main projects:</p>
+<ul>
+  <li><strong>Lounsbury Road</strong> &mdash; water main cleaning and relining (in design/approvals)</li>
+  <li><strong>Harrison Street &amp; Sunset Trail</strong> &mdash; water main reconstruction (estimated $1.2M, federal grant applications submitted)</li>
+  <li><strong>Route 129 to DPW</strong> &mdash; water main extension, funded from PFAS lawsuit settlement payments</li>
+</ul>
+
+<p>Water rates have been held flat for two consecutive years, and consumption has been <em>increasing</em>&mdash;suggesting the system is neither financially nor operationally strained at current demand levels.<sup><a href="#fn18">18</a></sup></p>
+
+<p>The village participates in the <strong>Indian Brook-Croton Gorge Inter-Municipal Watershed Protection Overlay District</strong>, a five-municipality coalition with 200-foot wellhead buffers, 150-foot wetland buffers, and development density limitations to protect the aquifer.<sup><a href="#fn37">37</a></sup></p>
+
+<p><strong>Risk factor:</strong> The aquifer-based system is sensitive to drought. A state of emergency was declared in November 2024 due to drought conditions. Long-term climate resilience of the groundwater supply warrants monitoring.</p>
+
+<h3>Remaining Infrastructure Questions</h3>
+
+<ul>
+  <li><strong>Sewer coverage:</strong> Some areas of the village are served by private wastewater treatment plants with uncertain ownership. Some properties are forced onto septic systems. The Planning Board requires applicants to demonstrate that private plants have &ldquo;sufficient capacity&rdquo; for new development.<sup><a href="#fn19">19</a></sup></li>
+  <li><strong>Traffic:</strong> The most recent traffic study (Old Post Road, January 2026) found no speeding issues and no crashes at the studied intersections. The Planning Board recently added authority to require traffic impact studies during site plan review.<sup><a href="#fn21">21</a></sup></li>
+</ul>
+
+
+<!-- SECTION 9: GROWTH DRIVERS -->
+<h2>IX. Where Growth Would Come From</h2>
+
+<p>Active growth vectors in Croton include:</p>
+
+<ul>
+  <li><strong>ADUs:</strong> A rezoning to allow 50 accessory dwelling units was identified at the November 4, 2025 Planning Board meeting as the cause of &ldquo;projected growth and anticipated future needs.&rdquo;<sup><a href="#fn22">22</a></sup></li>
+  <li><strong>Maple Commons:</strong> An affordable housing development with a <strong>6,000-person waiting list</strong>, subject to lottery requirements.<sup><a href="#fn23">23</a></sup></li>
+  <li><strong>Lot A (Croton Point Avenue):</strong> Selected developer WBP LLC, funded by Westchester County&rsquo;s Housing Implementation Fund&mdash;not village tax dollars.<sup><a href="#fn23">23</a></sup></li>
+  <li><strong>Occupational housing preferences:</strong> The village adopted local law giving affordable housing preference to emergency service workers, medical workers, and veterans.<sup><a href="#fn23">23</a></sup></li>
+</ul>
+
+<p>At the January 14, 2026 Board of Trustees meeting, a trustee asked how the &ldquo;resident income ratio&rdquo; metric would be impacted &ldquo;if our population growth in the future starts shifting as we build more affordable housing&rdquo; with potentially less income flexibility to absorb tax increases.<sup><a href="#fn24">24</a></sup></p>
+
+
+<!-- SECTION 10: FISCAL MATH -->
+<h2>X. Does the Math Work? Revenue vs. Cost of Growth</h2>
+
+<p>The central question is whether 350 new households would generate enough tax revenue to cover the employees and services needed to support them&mdash;and critically, whether that math holds over time as benefit costs compound.</p>
+
+<h3>Projected New Revenue</h3>
+
+<p>Using the village&rsquo;s effective tax rate of approximately 0.557% of market value (back-calculated from the $13.37M levy and ~3,200 parcels), and assuming an average market value of $600,000 per new unit:<sup><a href="#fn29">29</a></sup></p>
+
+<table>
+<thead><tr><th>Revenue Source</th><th>Low</th><th>Central</th><th>High</th></tr></thead>
+<tbody>
+<tr><td>Property tax (350 units)</td><td class="num">$975,000</td><td class="num">$1,170,000</td><td class="num">$1,365,000</td></tr>
+<tr><td>County sales tax share</td><td class="num">$175,000</td><td class="num">$200,000</td><td class="num">$225,000</td></tr>
+<tr><td>Parking revenue</td><td class="num">$120,000</td><td class="num">$160,000</td><td class="num">$200,000</td></tr>
+<tr><td>Other fees &amp; permits</td><td class="num">$60,000</td><td class="num">$90,000</td><td class="num">$120,000</td></tr>
+<tr style="font-weight:700; border-top: 2px solid var(--ink);"><td>Total Annual Revenue</td><td class="num">$1,330,000</td><td class="num">$1,620,000</td><td class="num">$1,910,000</td></tr>
+</tbody>
+</table>
+
+<p>Notably, new construction is <em>exempt</em> from the NYS 2% tax cap&mdash;the initial revenue boost sits outside the levy limit. But future rate increases on those same properties are capped, limiting revenue growth after Year 1.<sup><a href="#fn29">29</a></sup></p>
+
+<h3>How Many New Employees Would Growth Require?</h3>
+
+<p>Croton&rsquo;s operating structure is built to scale without proportional staffing increases:</p>
+
+<ul>
+  <li><strong>Police (0&ndash;1 new officers):</strong> The department already operates at the lowest budget of 17 comparable Westchester villages, with 22 officers at its highest level since 2009. At 9,020 residents, the officer-to-population ratio drops to 2.44 per 1,000&mdash;still comparable to Rye Brook (2.73 at 9,900) and above Dobbs Ferry (2.34 at 11,500). The shared Motorola CAD system with Yorktown and Briarcliff adds dispatch efficiency without headcount.<sup><a href="#fn3">3</a></sup></li>
+  <li><strong>Fire (0 new hires):</strong> Entirely volunteer. Growth does not add to village payroll.<sup><a href="#fn6">6</a></sup></li>
+  <li><strong>EMS (0 new hires):</strong> Paid coverage operates through the <strong>OVAC contract</strong> ($740,467/year), not village employees. Scaling means renegotiating a contract, not creating permanent positions with pension and OPEB obligations.<sup><a href="#fn1">1</a></sup></li>
+  <li><strong>DPW (0&ndash;1 new workers):</strong> The 22-person crew serves existing roads and infrastructure. Infill development&mdash;ADUs, Maple Commons, Lot A&mdash;adds units to existing streets, not new roads to plow or water mains to maintain.</li>
+  <li><strong>Administration (0&ndash;1 new staff):</strong> The fire inspector was already upgraded to full-time in FY2026&ndash;27. Permit volume increases incrementally.</li>
+</ul>
+
+<p><strong>Estimated new hires to maintain current service levels: 1&ndash;3 full-time employees</strong>&mdash;most likely one police officer and one DPW or building worker.</p>
+
+<h3>The Cost of Each New Hire</h3>
+
+<p>Each new employee carries not just salary but pension contributions, health insurance, and a growing OPEB liability. Current NYS pension employer contribution rates are 16.5% of payroll for general employees (ERS) and 33.7% for police/fire (PFRS), rising to 36.5% in SFY 2026&ndash;27.<sup><a href="#fn30">30</a></sup></p>
+
+<table>
+<thead><tr><th>Cost Component</th><th>Police Officer (avg)</th><th>General Employee</th></tr></thead>
+<tbody>
+<tr><td>Base salary</td><td class="num">$142,489</td><td class="num">$62,500</td></tr>
+<tr><td>Overtime</td><td class="num">$20,000</td><td class="num">$3,000</td></tr>
+<tr><td>Health insurance (family)</td><td class="num">$40,000</td><td class="num">$40,000</td></tr>
+<tr><td>Pension contribution</td><td class="num">$48,019</td><td class="num">$10,313</td></tr>
+<tr><td>Social Security + Medicare</td><td class="num">$10,900</td><td class="num">$4,781</td></tr>
+<tr><td>Workers&rsquo; comp, dental, other</td><td class="num">$6,500</td><td class="num">$5,500</td></tr>
+<tr><td>OPEB liability accrual</td><td class="num">$15,600</td><td class="num">$15,600</td></tr>
+<tr style="font-weight:700; border-top: 2px solid var(--ink);"><td>Total Annual Cost</td><td class="num">~$280,000</td><td class="num">~$140,000</td></tr>
+</tbody>
+</table>
+<p class="source">Sources: Empire Center salary data; NYS Comptroller NYSLRS employer contribution rates 2025&ndash;26 and 2026&ndash;27; village OPEB actuarial report<sup><a href="#fn30">30</a></sup></p>
+
+<h3>The Fiscal Math</h3>
+
+<p>With 1&ndash;3 new employees to maintain current service levels, the village budget math is straightforward:</p>
+
+<table>
+<thead><tr><th></th><th>Year 1</th><th>Year 5</th><th>Year 10</th></tr></thead>
+<tbody>
+<tr><td>New annual revenue</td><td class="num">$1,620,000</td><td class="num">$1,720,000</td><td class="num">$1,830,000</td></tr>
+<tr><td>New employee costs (2 FTEs)</td><td class="num">$420,000</td><td class="num">$510,000</td><td class="num">$640,000</td></tr>
+<tr><td>Infrastructure &amp; other costs</td><td class="num">$150,000</td><td class="num">$175,000</td><td class="num">$200,000</td></tr>
+<tr style="font-weight:700; border-top: 2px solid var(--ink);"><td>Village net surplus</td><td class="num" style="color: var(--green-nature);">+$1,050,000</td><td class="num" style="color: var(--green-nature);">+$1,035,000</td><td class="num" style="color: var(--green-nature);">+$990,000</td></tr>
+</tbody>
+</table>
+
+<p>Even accounting for health insurance compounding at 8.9%/year on two employees, revenue exceeds costs by roughly <strong>$1 million per year for at least a decade</strong>. That surplus could be directed toward the $39 million unfunded OPEB liability, accelerated infrastructure investment, or tax rate stabilization.</p>
+
+<div class="pullquote">
+  Croton&rsquo;s volunteer fire department, contract-based EMS, and lean police force mean the village can absorb 10% population growth while adding only 1&ndash;3 new employees&mdash;generating approximately $1 million per year in net new revenue. That structural advantage is uncommon among Westchester villages.
+</div>
+
+<h3>The School District Side: A Separate Budget, the Same Taxpayers</h3>
+
+<p>The village fiscal analysis tells only half the story. The Croton-Harmon school district operates on a <strong>separate $62.8 million budget</strong> funded primarily by property taxes levied on the same homeowners.<sup><a href="#fn20">20</a></sup> New housing generates school tax revenue, but also sends new students who cost approximately <strong>$37,000 per pupil</strong>.</p>
+
+<p>Using the Lot A fiscal analysis as a baseline, each new housing unit generates roughly <strong>$2,295/year in school taxes</strong> (the 100-unit Lot A project was projected to produce $229,491 in school tax revenue).<sup><a href="#fn27">27</a></sup></p>
+
+<table>
+<thead><tr><th></th><th>Low</th><th>Central</th><th>High</th></tr></thead>
+<tbody>
+<tr><td>New school tax revenue (350 units)</td><td class="num">$700,000</td><td class="num">$803,000</td><td class="num">$920,000</td></tr>
+<tr><td>New students (using local AKRF multiplier, 0.12&ndash;0.22/unit)</td><td class="num">42</td><td class="num">70</td><td class="num">77</td></tr>
+<tr><td>Full per-pupil cost ($37K &times; students)</td><td class="num">$1,554,000</td><td class="num">$2,590,000</td><td class="num">$2,849,000</td></tr>
+<tr style="font-weight:700; border-top: 2px solid var(--ink);"><td>Apparent gap</td><td class="num" style="color: var(--accent);">-$854,000</td><td class="num" style="color: var(--accent);">-$1,787,000</td><td class="num" style="color: var(--accent);">-$1,929,000</td></tr>
+</tbody>
+</table>
+
+<p>At face value, the school math looks dire. But the <strong>marginal cost per student is far below the average</strong>, and this is where Croton&rsquo;s declining enrollment becomes an asset:</p>
+
+<ul>
+  <li><strong>Spare capacity exists.</strong> Enrollment has dropped 175 students (10%) since the 2013&ndash;14 peak of 1,701. Grade-level sections have been shrinking from 6 to 5 at multiple levels. PVC middle school dropped from 539 to 463 students in five years&mdash;a 14% decline. These empty seats can absorb new students at <strong>near-zero marginal cost</strong> (no new teacher, no new classroom).<sup><a href="#fn27">27</a></sup></li>
+  <li><strong>Marginal vs. average cost.</strong> The $37,000 per-pupil figure includes fixed costs (administration, building maintenance, debt service, utilities) that don&rsquo;t increase with each new student. The district&rsquo;s own fiscal analysis for Lot A used an <strong>instructional per-pupil cost of $19,400</strong>&mdash;roughly half the average&mdash;to estimate the marginal impact of new students.<sup><a href="#fn27">27</a></sup></li>
+  <li><strong>The step function.</strong> Costs remain low until a grade level exceeds its section capacity and a new section must be added. At that point, the district hires a new teacher (~$80,000&ndash;$130,000 salary plus benefits). A board member stated in February 2025: &ldquo;It&rsquo;s potentially 10 tenure-track salaries that we&rsquo;re having to add to meet one section more per grade over the next ten years.&rdquo;<sup><a href="#fn27">27</a></sup></li>
+</ul>
+
+<h3>Would 10% Growth Require New School Sections?</h3>
+
+<p><strong>Almost certainly not.</strong> Seventy new students spread across 13 grades means approximately 5 additional students per grade. At every grade level, current sections can absorb that without triggering a new hire:</p>
+
+<table>
+<thead><tr><th>Grade Level</th><th>Current per Section</th><th>With +5 Students</th><th>New Section Needed?</th></tr></thead>
+<tbody>
+<tr><td>Kindergarten (5 sections)</td><td class="num">25.4</td><td class="num">26.4</td><td>No</td></tr>
+<tr><td>Grade 1 (5 sections)</td><td class="num">25.0</td><td class="num">26.0</td><td>No</td></tr>
+<tr><td>Grade 2 (6 sections)</td><td class="num">19.5</td><td class="num">20.9</td><td>No</td></tr>
+<tr><td>Grade 3 (6 sections)</td><td class="num">17.5</td><td class="num">18.3</td><td>No</td></tr>
+<tr><td>Grade 4 (5 sections)</td><td class="num">22.8</td><td class="num">24.2</td><td>No</td></tr>
+<tr><td>Grade 5 (class size 23&ndash;24)</td><td class="num">23&ndash;24</td><td class="num">25&ndash;26</td><td>No (tight)</td></tr>
+<tr><td>Grades 6&ndash;8 (class size 15&ndash;18)</td><td class="num">15&ndash;18</td><td class="num">18&ndash;20</td><td>No (ample room)</td></tr>
+<tr><td>Grades 9&ndash;12 (class size 3&ndash;24)</td><td class="num">varies</td><td class="num">varies</td><td>No</td></tr>
+</tbody>
+</table>
+<p class="source">Source: NYSED class size data, 2024&ndash;25; section counts from Board of Education, March 2025<sup><a href="#fn28">28</a></sup><sup><a href="#fn27">27</a></sup></p>
+
+<p>The grades that recently went from 6 sections down to 5 (kindergarten and first grade) would simply return to enrollment levels they handled just a few years ago&mdash;the classrooms still exist. PVC middle school, which lost 76 students (14%) in five years, has the most headroom. Even at the high school, where subject-specific class sizes range from 3 (Physics) to 24 (Algebra I), five additional students per grade are easily absorbed.</p>
+
+<p>The only scenario requiring new sections would be extreme clustering&mdash;all 70 students arriving in K&ndash;4, producing 14 per grade rather than 5. Even then, kindergarten and first grade would only return to the 6 sections they had recently, using classrooms already in the buildings. And total district enrollment at ~1,655 would still be 46 students <em>below</em> the 1,701 peak the district was fully staffed to handle in 2013&ndash;14.</p>
+
+<p>The realistic scenario is that three elementary grades (K, 1st, and 4th) return from 5 sections to 6&mdash;restoring them to levels they operated at just a few years ago, in classrooms that still exist. That means <strong>3 new teaching positions</strong>, not a wholesale staffing expansion. Combined with incremental supply and support costs:</p>
+
+<table>
+<thead><tr><th>School District Impact</th><th>Amount</th></tr></thead>
+<tbody>
+<tr><td>New school tax revenue (350 units)</td><td class="num">~$803,000/yr</td></tr>
+<tr><td>Additional NYS Foundation Aid (~$5,000 &times; 70 students)</td><td class="num">~$350,000/yr</td></tr>
+<tr style="font-weight:600;"><td>Total new school revenue</td><td class="num">~$1,153,000/yr</td></tr>
+<tr><td>3 new teachers (~$143,000 each, fully loaded)</td><td class="num">$428,000/yr</td></tr>
+<tr><td>Incremental supplies, support services</td><td class="num">$100,000/yr</td></tr>
+<tr style="font-weight:700; border-top: 2px solid var(--ink);"><td>Net school district surplus</td><td class="num" style="color: var(--green-nature);">+$625,000/yr</td></tr>
+</tbody>
+</table>
+
+<p>The $45.5 million capital project approved in December 2022 is adding further capacity&mdash;a new science classroom at PVC, STEAM center at CHHS, air conditioning across buildings, and a renovated gymnasium at CET&mdash;even as enrollment holds flat, expanding the absorption buffer still further.<sup><a href="#fn36">36</a></sup></p>
+
+<h3>Combined Taxpayer Impact: Village + Schools</h3>
+
+<table>
+<thead><tr><th></th><th>Year 1</th><th>Year 5</th><th>Year 10</th></tr></thead>
+<tbody>
+<tr><td>Village net surplus</td><td class="num" style="color: var(--green-nature); font-weight:600;">+$1,050,000</td><td class="num" style="color: var(--green-nature); font-weight:600;">+$1,035,000</td><td class="num" style="color: var(--green-nature); font-weight:600;">+$990,000</td></tr>
+<tr><td>School district net surplus</td><td class="num" style="color: var(--green-nature); font-weight:600;">+$625,000</td><td class="num" style="color: var(--green-nature); font-weight:600;">+$580,000</td><td class="num" style="color: var(--green-nature); font-weight:600;">+$500,000</td></tr>
+<tr style="font-weight:700; border-top: 2px solid var(--ink);"><td>Combined annual surplus</td><td class="num" style="color: var(--green-nature);">+$1,675,000</td><td class="num" style="color: var(--green-nature);">+$1,615,000</td><td class="num" style="color: var(--green-nature);">+$1,490,000</td></tr>
+</tbody>
+</table>
+
+<p>Ten percent growth produces a <strong>combined surplus of roughly $1.5 million per year</strong> across village and school budgets, sustained for at least a decade. On the village side, volunteer fire, contract EMS, and an already-lean police force mean only 1&ndash;3 new hires to maintain current service levels. On the school side, 70 new students restore three elementary grades to the 6-section structure they recently operated&mdash;using classrooms that already exist&mdash;while new tax revenue and state aid more than cover the cost of 3 additional teachers.</p>
+
+<p>This is not a coincidence. Croton&rsquo;s declining school enrollment and lean village operations have <em>simultaneously</em> created capacity on both sides of the taxpayer ledger. A combined surplus of $1.5&ndash;$1.7 million per year directed toward the village&rsquo;s $39 million OPEB liability would meaningfully bend that curve&mdash;reducing the unfunded obligation by nearly 4% annually. Alternatively, it could fund accelerated infrastructure investment, build reserves, or stabilize tax rates as health insurance and pension costs continue to climb.</p>
+
+
+<!-- SECTION 11: DEVELOPMENT REVIEW -->
+<h2>XI. How the Village Assesses New Development</h2>
+
+<p>Croton-on-Hudson has a multi-layered review process that applies environmental, infrastructure, and community impact scrutiny to new development. Recent examples illustrate the range of tools the village deploys:</p>
+
+<h3>Environmental Review</h3>
+<ul>
+  <li><strong>SEQRA (State Environmental Quality Review Act):</strong> All significant projects require Environmental Assessment Forms (EAF Parts 1&ndash;3). The <a href="https://croton.news/meetings/board-of-trustees-2026-04-08">Govea Park improvements</a> triggered full SEQRA review after DPW discovered an active bald eagle&rsquo;s nest during clearing work, requiring DEC consultation.<sup><a href="#fn31">31</a></sup></li>
+  <li><strong>LWRP coastal consistency:</strong> Projects in the waterfront zone must comply with the Local Waterfront Revitalization Program. The <a href="https://croton.news/meetings/board-of-trustees-2026-03-11">Half Moon Bay Bridge rehabilitation</a> was reviewed against 20+ LWRP policies by the Waterfront Advisory Committee.<sup><a href="#fn32">32</a></sup></li>
+  <li><strong>Wetland activity permits:</strong> The <a href="https://croton.news/meetings/planning-board-2026-05-26">129 Scenic Drive ADU</a> required Water Control Commission review, a rain garden built <em>before</em> construction, and proof of private wastewater plant capacity.<sup><a href="#fn33">33</a></sup></li>
+  <li><strong>Tree protection (Local Law 13):</strong> At <a href="https://croton.news/meetings/zoning-board-of-appeals-2026-03-17">52 Mount Airy Road</a>, the ZBA challenged the applicant&rsquo;s environmental classification and required replacement trees equal to 90% of removed trees&rsquo; environmental value, calculated using I-Tree methodology with native species.<sup><a href="#fn34">34</a></sup></li>
+</ul>
+
+<h3>Traffic &amp; Infrastructure</h3>
+<ul>
+  <li><strong>Traffic impact studies:</strong> The Planning Board recently added authority to <em>require</em> traffic impact studies during site plan review. The <a href="https://croton.news/meetings/board-of-trustees-2026-01-28">Old Post Road North corridor study</a> by AQRF collected turning movement counts, pedestrian volumes, speed data, and crash data.<sup><a href="#fn21">21</a></sup></li>
+  <li><strong>Stormwater coordination:</strong> The Lot A project on Croton Point Avenue required stormwater drainage plans coordinated among the village, WBP developer, Metro-North Railroad, and NYSDOT.<sup><a href="#fn35">35</a></sup></li>
+</ul>
+
+<h3>Fiscal &amp; Community Impact</h3>
+<ul>
+  <li><strong>Parkland reservation fees:</strong> New houses pay approximately $12,000 when no suitable parkland exists on-site. The Planning Board has debated whether to waive this for ADUs, with one member arguing they don&rsquo;t &ldquo;contribute to the growth of the village&rdquo; and another insisting on the fee.<sup><a href="#fn22">22</a></sup></li>
+  <li><strong>School district fiscal analysis:</strong> For Lot A, a fiscal impact study estimated $229,491 in annual tax revenue against a student cost range of $19,400 to $426,800, depending on how many students the 100-unit affordable development would generate (estimates ranged from 1 to 22).<sup><a href="#fn27">27</a></sup></li>
+  <li><strong>Project Labor Agreements:</strong> The Lot A RFP required a PLA covering publicly funded infrastructure (water main extension, sewer line) as a condition of developer selection.<sup><a href="#fn35">35</a></sup></li>
+</ul>
+
+<h3>Development Review Summary</h3>
+<table>
+<thead><tr><th>Review Type</th><th>Recent Examples</th></tr></thead>
+<tbody>
+<tr><td>SEQRA (EAF Parts 1&ndash;3)</td><td>Lot A, 52 Mount Airy, Govea Park, Local Law 3</td></tr>
+<tr><td>Wetland/Water Control Commission</td><td>Temple Israel (31 Glengarry), 129 Scenic Dr</td></tr>
+<tr><td>LWRP Coastal Consistency</td><td>Govea Park, Half Moon Bay Bridge, Lot A</td></tr>
+<tr><td>Traffic Study</td><td>Old Post Road North, 325 South Riverside</td></tr>
+<tr><td>Tree Replacement (Local Law 13)</td><td>52 Mount Airy (I-Tree methodology)</td></tr>
+<tr><td>Site Plan Review</td><td>All Planning Board applications</td></tr>
+<tr><td>Fiscal Impact Study</td><td>Lot A (school district analysis)</td></tr>
+</tbody>
+</table>
+<p class="source">Sources: Planning Board and Board of Trustees meeting transcripts, October 2025&ndash;June 2026<sup><a href="#fn31">31</a></sup><sup><a href="#fn34">34</a></sup></p>
+
+
+<!-- SECTION 12: BOTTOM LINE -->
+<h2>XII. The Bottom Line</h2>
+
+<p>A 10% population increase&mdash;from ~8,300 to ~9,100&mdash;would add roughly 300&ndash;350 households and place Croton between Hastings-on-Hudson and Sleepy Hollow in size. Both of those villages operate the same service model Croton uses today.</p>
+
+<h3>Service by Service</h3>
+<table>
+<thead><tr><th>Service</th><th>Current Capacity</th><th>After 10% Growth</th><th>Risk Level</th></tr></thead>
+<tbody>
+<tr><td>Police</td><td>22 officers, 2.65/1,000 &mdash; lowest budget among 17 peers</td><td>2.44/1,000 &mdash; still above several peer ratios</td><td style="color: var(--green-nature); font-weight:600;">Low</td></tr>
+<tr><td>Fire</td><td>~80 volunteers (down from 200), ~500 calls/yr at record high</td><td>Larger recruitment pool; surplus funds retention &amp; LOSAP</td><td style="color: var(--green-nature); font-weight:600;">Low (protective)</td></tr>
+<tr><td>EMS</td><td>$740K paid EMT coverage, new facility, ~8 min response</td><td>Higher call volume; paid model scales with funding</td><td style="color: var(--green-nature); font-weight:600;">Low</td></tr>
+<tr><td>Water</td><td>3 wells, 4 tanks; designed for 15,000 residents (55% utilized)</td><td>61% of designed capacity; rates flat, consumption rising</td><td style="color: var(--green-nature); font-weight:600;">Low</td></tr>
+<tr><td>Sewer</td><td>Mixed coverage; private systems with uncertain ownership</td><td>Constrains where growth can go physically</td><td style="color: #b45309; font-weight:600;">Medium</td></tr>
+<tr><td>Schools</td><td>~1,585 students, down 10% from peak; sections shrinking</td><td>Spare capacity exists; each new student costs ~$37K</td><td style="color: var(--green-nature); font-weight:600;">Low (short-term)</td></tr>
+<tr><td>Traffic</td><td>No congestion issues documented</td><td>Parking pressure at train station (revenue upside)</td><td style="color: var(--green-nature); font-weight:600;">Low</td></tr>
+<tr><td>Finances</td><td>Aa2 rated, under tax cap, 3 consecutive surpluses</td><td>~$1.5M combined annual surplus from 350 new units</td><td style="color: var(--green-nature); font-weight:600;">Low</td></tr>
+</tbody>
+</table>
+
+<p>Croton-on-Hudson runs the leanest police department of 17 comparable Westchester villages, relies entirely on volunteer firefighters, delivers professional EMS through a contract rather than permanent positions, and operates a school district with 175 empty seats below its 2013 enrollment peak. These are not abstract advantages. Together, they mean the village can absorb 10% population growth&mdash;roughly 350 new households and 70 new students&mdash;while adding only 1&ndash;3 new employees to maintain current service levels.</p>
+
+<p>The fiscal math is clear: 350 new housing units would generate approximately $1.6 million in new village revenue and $800,000 in new school tax revenue annually. Against that, maintaining existing service levels requires roughly $570,000 in new village costs and $300,000 in marginal school costs. The result is a <strong>combined surplus of approximately $1.5 million per year</strong>, sustained for at least a decade even as health insurance and pension costs compound.</p>
+
+<p>That surplus has immediate uses. Directed toward the village&rsquo;s $39 million unfunded OPEB liability, $1.5 million per year would reduce the obligation by nearly 4% annually&mdash;transforming a structural risk into a manageable trend. It could also fund accelerated infrastructure investment, build reserves against future cost shocks, or stabilize tax rates.</p>
+
+<p>The remaining unknowns are narrow: sewer coverage varies by neighborhood (some areas on private systems with uncertain ownership), and the long-term sustainability of the volunteer fire model depends on recruitment trends that affect every department in the state. The water system, designed for 15,000 residents, has ample capacity at 61% utilization after 10% growth.</p>
+
+<p>What the data shows: Croton has built an unusually efficient operating model compared to its Westchester peers. Its water system is designed for nearly double its current population. Its school district has 175 empty seats. Its police department runs the leanest budget of 17 comparable villages. Its fire and EMS services don&rsquo;t add to the village payroll. Moderate growth doesn&rsquo;t strain this system&mdash;it strengthens it, spreading fixed costs across more households, filling seats that are already paid for, and generating surplus to address the structural liabilities that exist regardless of whether the village grows or not.</p>
+
+
+<!-- FOOTNOTES -->
+<div class="footnotes">
+<h2>Sources &amp; Notes</h2>
+<ol>
+  <li id="fn1">Village of Croton-on-Hudson, <em>Adopted Budget Detail All Funds, FY2025&ndash;2026</em>. PDF available at <a href="https://www.crotononhudson-ny.gov/sites/g/files/vyhlif441/f/uploads/budget_detail_all_funds_0.pdf">crotononhudson-ny.gov</a>. Created April 22, 2025.</li>
+  <li id="fn2">Village of Croton-on-Hudson, &ldquo;2026&ndash;2027 Budget Adoption Message,&rdquo; April 2026. <a href="https://www.crotononhudson-ny.gov/home/news/2026-2027-budget-adoption-message">crotononhudson-ny.gov</a>.</li>
+  <li id="fn3">Village of Croton-on-Hudson Police Department, &ldquo;Comparison of Village Police Departments,&rdquo; 2024. PDF available at <a href="https://www.crotononhudson-ny.gov/sites/g/files/vyhlif441/f/uploads/comparison_of_pd_depts_2024.pdf">crotononhudson-ny.gov</a>.</li>
+  <li id="fn4">Board of Trustees meeting, January 14, 2026 (budget work session: fund balance policy, OPEB discussion, revenue budgeting). Transcript in croton.news RAG database.</li>
+  <li id="fn5">Board of Trustees meeting, January 21, 2026 (CAD system upgrade, recruitment) and January 28, 2026 (OPEB liability). Transcripts in croton.news RAG database.</li>
+  <li id="fn6">Board of Trustees meeting, April 9, 2026 (Fire Chief on roster decline, recruitment challenges, $75K marketing proposal). Transcript in croton.news RAG database.</li>
+  <li id="fn7">Board of Trustees meeting, October 29, 2025 (Fire responder recognition, ~500 calls, Metro-North rail yard responses). Transcript in croton.news RAG database.</li>
+  <li id="fn8">Board of Trustees work session, February 25, 2026 (budget overview: tax levy, cap compliance, health insurance increases, fire costs, false alarms, snow overtime). Transcript in croton.news RAG database.</li>
+  <li id="fn9">Board of Trustees meeting, October 15, 2025 (EMS addition construction update); December 1, 2025 article (EMS move-in); January 7, 2026 meeting (trustee visit description); February 4, 2026 meeting (permanent home). Transcripts and articles in croton.news RAG database.</li>
+  <li id="fn10">Board of Trustees meeting, March 11, 2026 (Seagrave Marauder approval, $1,789,929, cost escalation discussion, unanimous vote). Transcript in croton.news RAG database.</li>
+  <li id="fn11">Board of Trustees meeting, October 15, 2025 (traffic signal preemption for fire apparatus at Harmon Firehouse intersection). Transcript in croton.news RAG database.</li>
+  <li id="fn12">Board of Trustees work session, April 15, 2026 (fire inspector upgraded from part-time to full-time in FY2027 budget). Transcript in croton.news RAG database.</li>
+  <li id="fn13">Board of Trustees meeting, January 7, 2026 (Trustee Slipin: EMS youth volunteer program doubling from ~25 to 50 eligible students). Transcript in croton.news RAG database.</li>
+  <li id="fn14">National Fire Protection Association, <em>U.S. Fire Department Profile 2020</em> (September 2022); National Volunteer Fire Council, &ldquo;Volunteer Fire Service Fact Sheet,&rdquo; 2024. See <a href="https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/us-fire-department-profile">nfpa.org</a> and <a href="https://www.nvfc.org/wp-content/uploads/2024/03/fire-service-fact-sheet-updated-032024.pdf">nvfc.org</a>.</li>
+  <li id="fn15">Peer village data compiled from individual village budget documents and websites (FY2024&ndash;2026), Westchester County government records, and web research conducted June 2026. Specific sources vary by village.</li>
+  <li id="fn16">Board of Trustees meeting, November 19&ndash;20, 2025 (EMS LOSAP resolution, 13 eligible volunteers, $35K estimated cost, response time data, OVAC contract details). Transcript in croton.news RAG database.</li>
+  <li id="fn17">Village of Croton-on-Hudson, &ldquo;Moody&rsquo;s Affirms Village of Croton-on-Hudson Credit Rating at Aa2.&rdquo; <a href="https://www.crotononhudson-ny.gov/home/news/moodys-affirms-village-croton-hudson-credit-rating-aa2-0">crotononhudson-ny.gov</a>.</li>
+  <li id="fn18">Board of Trustees work session, March 26, 2026 (water fund budget, well field supply, no rate increase for second consecutive year). Transcript in croton.news RAG database.</li>
+  <li id="fn19">Planning Board meeting, May 26, 2026 (private wastewater treatment capacity requirements, sewer vs. septic challenges). Transcript in croton.news RAG database.</li>
+  <li id="fn20">Croton-Harmon Union Free School District, <em>2026&ndash;2027 Budget</em>: $62,762,808 total, 2.19% tax levy increase. <a href="https://www.chufsd.org/departments/business-office/budget-info/current-year">chufsd.org</a>.</li>
+  <li id="fn21">Board of Trustees meeting, January 28, 2026 (Old Post Road traffic study results); Planning Board, February 24, 2026 (traffic impact study authority added to site plan review). Transcripts in croton.news RAG database.</li>
+  <li id="fn22">Planning Board meeting, November 4, 2025 (&ldquo;projected growth and anticipated future needs is caused by the rezoning to allow 50 ADUs&rdquo;). Transcript in croton.news RAG database.</li>
+  <li id="fn23">Board of Trustees meeting, February 24, 2026 (Maple Commons, Lot A RFP, occupational housing preferences, Housing Action Council involvement). Transcript in croton.news RAG database.</li>
+  <li id="fn24">Board of Trustees meeting, January 14, 2026 (trustee question about income ratio impact of affordable housing growth). Transcript in croton.news RAG database.</li>
+  <li id="fn25">NYS Office of the State Comptroller, Fiscal Stress Monitoring System, 2024&ndash;2025. Village of Croton-on-Hudson fiscal stress score: 3.3; environmental score: 0.0. &ldquo;No Designation&rdquo; (best). See <a href="https://www.osc.ny.gov/files/local-government/fiscal-monitoring/2025/pdf/2025-munis-summary.pdf">osc.ny.gov</a>; also <a href="https://riverjournalonline.com/communities/croton-on-hudson/croton-on-hudson-receives-best-ever-scores-in-annual-nys-fiscal-stress-rankings/205081/">River Journal Online</a>.</li>
+  <li id="fn26">FY2025 audit results from PKF O&rsquo;Connor Davies (unmodified opinion). FY2024 surplus and fund balance data per <a href="https://riverjournalonline.com/communities/croton-on-hudson/annual-audit-of-village-of-croton-on-hudson-finances-released/287737/">River Journal Online</a> and <a href="https://patch.com/new-york/ossining/annual-audit-village-croton-hudson-finances-released">Patch</a>.</li>
+  <li id="fn27">Western Suffolk BOCES, &ldquo;Demographic Study for Croton-Harmon UFSD,&rdquo; presented to the Board of Education, February 2025. Discussion in BOE meeting transcripts, February&ndash;March 2025. Enrollment projections, student generation estimates for Lot A/Maple Commons/Half Moon Bay from the study and KSCJ/AKRF fiscal impact analyses referenced in BOE packet materials. Transcripts in croton.news RAG database.</li>
+  <li id="fn28">New York State Education Department, School Report Card data, 2024&ndash;25. Enrollment and class size data from <a href="https://data.nysed.gov">data.nysed.gov</a>.</li>
+  <li id="fn29">Village tax rate and assessment data from <a href="https://www.westchestergov.com/images/stories/tax/2025/2025-2026-village-tax-rates.pdf">Westchester County 2025&ndash;2026 Village Tax Rates</a>. Effective rate back-calculated from $13.37M levy across ~3,200 parcels. New construction tax cap exemption per <a href="https://www.osc.ny.gov/press/releases/2025/07/dinapoli-tax-cap-remains-2-2026">NYS Comptroller</a>. Median home prices from <a href="https://www.redfin.com/city/4961/NY/Croton-on-Hudson/housing-market">Redfin</a> and <a href="https://www.zillow.com/home-values/194103/croton-on-hudson-ny/">Zillow</a>.</li>
+  <li id="fn30">NYS Comptroller, <a href="https://www.osc.ny.gov/press/releases/2024/09/dinapoli-nyslrs-announces-employer-contribution-rates-2025-26">NYSLRS Employer Contribution Rates SFY 2025&ndash;26</a> (ERS 16.5%, PFRS 33.7%) and <a href="https://www.osc.ny.gov/press/releases/2025/09/nyslrs-announces-employer-contribution-rates-sfy-2026-27">SFY 2026&ndash;27</a> (PFRS rising to 36.5%). Salary data from <a href="https://www.empirecenter.org/publications/what-they-make-2025/">Empire Center &ldquo;What They Make&rdquo; 2025</a>. OPEB per-employee liability derived from $39M total / 83 FTEs. Health insurance escalation from Board of Trustees budget work session, February 25, 2026.</li>
+  <li id="fn31">Board of Trustees meeting, May 20, 2026 (Govea Park SEQRA review after bald eagle nest discovery). Transcript in croton.news RAG database.</li>
+  <li id="fn32">Board of Trustees meeting, March 11, 2026 (Half Moon Bay Bridge LWRP review by Waterfront Advisory Committee). Transcript in croton.news RAG database.</li>
+  <li id="fn33">Planning Board meeting, May 26, 2026 (129 Scenic Drive ADU: wetland permit, rain garden, wastewater capacity conditions). Transcript in croton.news RAG database.</li>
+  <li id="fn34">Zoning Board of Appeals meetings, February 17 and March 17, 2026 (52 Mount Airy Road: SEQRA classification dispute, Local Law 13 tree replacement, referral to Planning Board). Transcripts in croton.news RAG database.</li>
+  <li id="fn35">Board of Trustees meetings, February 18 and May 6, 2026 (Lot A: WBP developer selection, PLA authorization, stormwater coordination with Metro-North/NYSDOT). Transcripts in croton.news RAG database.</li>
+  <li id="fn36">Croton-Harmon UFSD, Future Facilities Capital Project ($45.5M), approved by voters December 2022 (808&ndash;215). Scope includes new science classroom (PVC), STEAM center (CHHS), air conditioning, Spencer Field complex. See <a href="https://www.chufsd.org/departments/buildings-grounds/future-facilities-capital-projects">chufsd.org</a>.</li>
+  <li id="fn37">Village of Croton-on-Hudson, Annual Water Quality Reports (Consumer Confidence Reports), 2013&ndash;2025. PWS ID: NY5903425. System data from <a href="https://www.health.ny.gov/environmental/water/drinking/">NYSDOH Drinking Water Program</a>. Watershed Protection Overlay District established by Local Law 11&ndash;2024. Village code Chapter 230, Article V, Section 230&ndash;18 (Water Supply Protection).</li>
+  <li id="fn38">Village of Croton-on-Hudson, <em>Comprehensive Plan</em>, 2003 (updated 2017). Full-buildout population estimate of 15,000 residents. Available at <a href="https://www.crotononhudson-ny.gov">crotononhudson-ny.gov</a> under public documents.</li>
+  <li id="fn39">Environmental Assessment Form (EAF) for 1 Croton Point Avenue (Lot A), July 2024. Water demand estimated at 8,178&ndash;16,940 gpd using AWWA and NYSDEC design flow standards. EAF confirmed existing water supply has capacity to serve the proposal.</li>
+</ol>
+</div>
+
+</article>
+
+<footer style="border-top: 1px solid var(--rule); padding: 1.5rem; text-align: center; font-family: var(--sans); font-size: 0.8rem; color: var(--ink-muted);">
+  &copy; 2026 croton.news &nbsp;|&nbsp; Croton-on-Hudson, New York
+</footer>
+
+</body>
+</html>

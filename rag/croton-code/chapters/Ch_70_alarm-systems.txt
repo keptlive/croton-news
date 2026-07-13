@@ -1,0 +1,326 @@
+---
+title: "Chapter 70: Alarm Systems"
+chapter: 70
+name: "Alarm Systems"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 0
+---
+
+ARTICLE I                                            ARTICLE V
+                        General Provisions                                      Restrictions
+
+     § 70-1.                Purpose.                              § 70-12.     Restrictions enumerated.
+     § 70-2.                Definitions.
+                                                                                ARTICLE VI
+                              ARTICLE II                                        False Alarms
+                            Permit Authority
+                                                                  § 70-13.     Intentional false alarms.
+     § 70-3.                Authorization to issue permits.       § 70-14.     Responsibility for malfunctions.
+                                                                  § 70-15.     Charges.
+                              ARTICLE III                         § 70-16.     Payment and contesting of
+                                Permits                                        charges.
+                                                                  § 70-17.     Fees for costs incurred.
+     § 70-4.                Application; renewal;
+                            certification; display.                            ARTICLE VII
+     § 70-5.                Fees.                                            General Regulations
+     § 70-6.                Permit Required.
+     § 70-7.                Denial, suspension or                 § 70-18.     Unlawful equipment.
+                            revocation of permit or               § 70-19.     Additional rules, regulations
+                            disconnection of alarm.                            and standards.
+     § 70-8.                Refund of fee.                        § 70-20.     Central alarm station.
+     § 70-9.                Contesting of denial,                 § 70-21.     Applicability.
+                            suspension, revocation or             § 70-22.     Penalties for offenses.
+                            charges.
+                                                                  § 70-23.     Unpaid fines, fees and charges.
+     § 70-10.               Payment of charges.
+                                                                  § 70-24.     Tampering with alarms.
+
+                          ARTICLE IV
+                     Responsibility of Village
+
+     § 70-11.               Liability.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson 9-4-1990 by
+     L.L. No. 6-1990; amended in its entirety 5-1-2017 by L.L. No. 3-2017. Subsequent amendments
+     noted where applicable.]
+
+                                                        GENERAL REFERENCES
+
+     Noise — See Ch. 160.
+
+
+                                                          ARTICLE I
+                                                        General Provisions
+
+     § 70-1. Purpose.
+
+     The purpose of this chapter is to provide regulations and standards applicable to alarm devices, alarm
+     businesses, alarm agents and alarm users as defined in this chapter.
+
+     § 70-2. Definitions.
+
+     For the purpose of this chapter, the following definitions shall apply:
+     ALARM — A signal transmitted to police or fire headquarters by a central alarm station which is intended
+     to notify the Police or Fire Department of a burglary, robbery or fire at a premises within the Village of
+     Croton-on-Hudson to which the Police or Fire Department is expected to respond.
+     ALARM AGENT — Any individual who is employed by any person conducting the business of owning,
+     operating, maintaining, installing, leasing or selling alarm devices whose duties include any of the
+     following: selling, maintaining, leasing, servicing, repairing, altering, replacing, moving or installing in
+     or on any building, place or premises any alarm device, as defined in this chapter, within the Village of
+     Croton-on-Hudson.
+     ALARM BUSINESS — Any person engaged in the business of owning, operating, maintaining, installing,
+     leasing or selling an alarm device or devices or system of alarm devices, which business is, as owner,
+     operator, provider of maintenance service, installer, lessor or seller of said device, devices or system of
+     devices.
+     ALARM DEVICE — Any device which, when activated, transmits a signal to a central alarm station and/
+     or produces an audible or visible signal to which the Police or Fire Department is expected to respond.
+     ALARM INSTALLATION — Any alarm device or aggregation of alarm devices installed on or within a
+     single building or on or within more than one building or area adjacently located on a common site, at a
+     specific location.
+     ALARM USER — Any person on whose premises an alarm device is owned, operated, used or maintained.
+     CENTRAL ALARM STATION —
+
+     A.    Any facility operated by a private firm that receives and verifies alarm signals and relays information
+           about such verified signals to the Police or Fire Department.
+
+     B.    A "central alarm station" shall include all alarm users whose alarm device or devices or system of
+           alarm devices is capable of transmitting an alarm directly to his/her computer, smartphone, or other
+           mobile device via a wireless signal.
+     FALSE ALARM — Any alarm resulting from the activation of an alarm device to which the Police or Fire
+     Department responds and which is not the result of a robbery, burglary or fire.
+     LESSEE — Any person applying for an alarm permit renting or using the premises who is not the property
+     owner.
+     LOCAL ALARM DEVICE — Any alarm device not connected to a central alarm station which, when
+     activated, causes an audible and/or visual signaling device to be activated at the premises on or within
+     which the device is installed.
+     MALFUNCTION — A mechanical deficiency or other fault or failure in an alarm device which results in
+
+
+     a false alarm.
+     MANUAL ALARM DEVICE — Any alarm device in which activation of the alarm signal is initiated by
+     the direct action of the alarm user.
+     PERMIT AUTHORITY — The Village of Croton-on-Hudson.
+     PERSON — Any natural person or any other entity.
+     RESPONDS — Acknowledgment that police and/or fire headquarters have received an alarm by an act
+     of answering a telephone call, noting information received and starting any process of response, such as
+     notifying vehicles of receipt of an alarm or any other act commencing the process of acting as a Police or
+     Fire Department on account of such notification.
+     VERIFICATION — Qualification of the legitimacy of an alarm signal by various means which may under
+     normal conditions include but shall not be limited to customer call-in, central station call-out, automatic
+     abort or built-in delay.
+
+
+                                                              ARTICLE II
+                                                            Permit Authority
+
+     § 70-3. Authorization to issue permits.
+
+     The Village of Croton-on-Hudson is hereby authorized to grant a revocable alarm user permit to any owner
+     of property located within the Village of Croton-on-Hudson or the lessee thereof to own or lease an alarm
+     device.
+
+
+                                                                   ARTICLE III
+                                                                     Permits
+
+     § 70-4. Application; renewal; certification; display.
+
+     A.     Application for an alarm user permit shall be made as follows: Any property owner or lessee of
+            property in the Village of Croton-on-Hudson having on such premises an alarm device or system of
+            alarm devices shall apply to the Village Manager or other Village agent for a permit to own or
+            otherwise have such a device. Each lessee must have written authorization from the property owner
+            acknowledging liability for any and all fines incurred by his or her lessee. No such device may be
+            installed on the premises of the owner or lessee prior to the issuance of a permit to such owner or
+            lessee. In addition, the Village will notify the landlord of any false alarm against the property and any
+            fines imposed by virtue of the tenant's alarm permit.
+
+     B.     Such permit shall be renewed on an annual basis starting in January of each year and ending in
+            December of the same year. All applications and renewals shall require certification, by an alarm
+            agent, that the device or system of devices is in good working order and meets all applicable code
+            requirements within 12 months prior to the application or renewal.
+
+     C.     The alarm user permit number will be displayed at the alarm user's premises in accordance with the
+            rules promulgated by the Village Manager.
+
+     § 70-5. Fees.
+
+     Permit fees shall be established by resolution of the Village Board of Trustees22, and no refund of permit
+     fees shall be made.
+
+     § 70-6. Permit Required.
+
+     It shall be unlawful for any property owner or lessee of property in the Village of Croton-on-Hudson to
+     have on his premises an alarm device or devices or system of alarm devices without first obtaining a permit
+     as provided in this chapter.
+
+     § 70-7. Denial, suspension or revocation of permit or disconnection of alarm.
+
+     The Village Manager or his agent may require the denial, suspension or revocation of any permit or the
+     disconnection of any alarm device in the Village of Croton-on-Hudson at any time that he deems necessary
+     for the violation of any standards or regulations promulgated by the Village Manager pursuant to this
+     chapter. Any permit or identification card issued under this chapter shall be surrendered upon a final
+     adverse determination as provided in this chapter.
+
+     § 70-8. Refund of fee.
+
+     No part of a permit fee shall be refunded when a permit is suspended or revoked.
+
+     § 70-9. Contesting of denial, suspension, revocation or charges. [Amended 6-7-2021 by L.L. No.
+     6-2021]
+
+     Any applicant whose application for a permit has been denied or any person whose permit has been
+     suspended or revoked by the Village Manager or who is charged for one or more false alarms may contest
+
+     22. Editor's Note: The current fee resolution is on file in the office of the Village Clerk.
+
+
+     such denial, suspension, revocation or charges, in writing, to the Village Manager within 10 days after the
+     date of the notice of denial, suspension, revocation or charges. Any letter of denial, suspension, revocation
+     or charges will set forth the process for the owner or occupant to appeal to the Village Manager. Any
+     appeal must be filed, in writing, with the Village Manager within 10 days and must set forth the reason
+     why the owner or occupant believes the denial, suspension, revocation or charges to be incorrect under the
+     provisions of this section. If requested, the owner or occupant will be given the opportunity to discuss their
+     position with the Village Manager. The decision of the Village Manager shall be made within 10 days after
+     receipt of the appeal or any such discussion and shall be final.
+
+     § 70-10. Payment of charges.
+
+     Charges for false alarms and/or other expenses incurred by the Village as a result of the installation and
+     operation of such alarm device or devices or system of alarm devices are payable within 30 days from
+     the date of notification without penalty. Penalties for each unpaid charge will be assessed monthly in
+     accordance with the rules promulgated by the Village Manager.
+
+
+                                                         ARTICLE IV
+                                                     Responsibility of Village
+
+     § 70-11. Liability.
+
+     A.    Notwithstanding the payment of any fee and/or the issuance of any permit as herein required, the
+           Police Department, Fire Department and the Village of Croton-on-Hudson shall be under no
+           obligation whatsoever concerning the adequacy, the operation or maintenance of any alarm device so
+           installed or of any central alarm station. The Village of Croton-on-Hudson and its authorized agents
+           assume no liability whatsoever for any failure of any such alarm device or of any central alarm system
+           or for failure to respond to any such alarms or for any act of omission or commission relating to any
+           alarm device or system.
+
+     B.    The alarm user or permittee, by acceptance of a permit, agrees to hold and save harmless the Village
+           of Croton-on-Hudson and its agents or employees from any liability whatsoever with respect to any
+           such alarm device or the operation thereof.
+
+
+                                                            ARTICLE V
+                                                            Restrictions
+
+     § 70-12. Restrictions enumerated.
+
+     A.    No person shall use or cause or permit to be used any alarm device that automatically selects a
+           telephone trunk line of the Police or Fire Department for the Village of Croton-on-Hudson and then
+           reproduces any prerecorded voice messages to report any robbery, burglary or fire.
+
+     B.    No person shall use or cause or permit to be used any alarm device which, when activated, causes an
+           audible and/or visual signaling device at the premises on or within which the device is installed unless
+           such device will automatically turn itself off after 10 minutes.
+
+
+                                                            ARTICLE VI
+                                                            False Alarms
+
+     § 70-13. Intentional false alarms.
+
+     It shall be a violation of this chapter to intentionally cause a false alarm, and any person who does
+     intentionally cause a false alarm shall be subject to the penalty provisions of this chapter.
+
+     § 70-14. Responsibility for malfunctions.
+
+     A.    The alarm user or lessee shall be responsible for the maintenance and service of the alarm device and
+           shall be responsible for all malfunctions of such device.
+
+     B.    A malfunction of an alarm user's system constitutes a false alarm.
+
+     § 70-15. Charges.
+
+     Any owner or lessee of property having an alarm device or system of devices on such premises shall pay
+     to the Village of Croton-on-Hudson a charge as may be set by the Village from time to time for each and
+     every false alarm occurring in any fiscal year beginning with January 1, 2003.
+
+     § 70-16. Payment and contesting of charges.
+
+     A.    All charges will be collected by the Village Treasurer. Failure to pay a charge shall subject such alarm
+           user or lessee to the penalty provisions of this chapter.
+
+     B.    Any alarm user or lessee charged with a false alarm must pay the amount charged within 30 days of
+           date of notice of the charge. Anyone charged with one or more false alarms may contest such charges
+           in the manner provided in Article III, § 70-9, of this chapter.
+
+     § 70-17. Fees for costs incurred.
+
+     The Village of Croton-on-Hudson may require that a fee or fees be paid by any alarm user for costs
+     incurred or which may be incurred by the Village on account of the installation and operation of such alarm
+     device.
+
+
+                                                          ARTICLE VII
+                                                        General Regulations
+
+     § 70-18. Unlawful equipment.
+
+     In addition to any other remedy provided by law, the Village Manager of the Village of Croton-on-
+     Hudson, or his agent, whenever he shall have knowledge of the use of any alarm device, which is not
+     operated or maintained in accordance with the provisions of this chapter or which is contrary to regulations
+     promulgated pursuant to this chapter, may order the disconnection of such device from the central alarm
+     station, and it shall be unlawful to disobey such order.
+
+     § 70-19. Additional rules, regulations and standards.
+
+     The Village Manager shall promulgate rules, regulations and standards applicable to alarm devices, alarm
+     businesses, alarm agents and alarm users which are necessary for the purpose of assuring the quality,
+     efficiency and effectiveness of alarm devices and alarm installations owned, operated, maintained, installed
+     or leased by an alarm user under this chapter. The rules, regulations and standards shall be set forth in
+     writing, and copies shall be available for applicants.
+
+     § 70-20. Central alarm station.
+
+     The Chief of Police is hereby authorized to prescribe the manner of communication and transmission of
+     information between a central alarm station and the Police Department.
+
+     § 70-21. Applicability.
+
+     None of the provisions of this chapter shall apply to an alarm device or devices installed in public-owned
+     buildings, local alarm devices, or an alarm device or devices installed in a motor vehicle or trailer or to
+     employees of a public utility company engaged in the business of providing communication, services or
+     facilities.
+
+     § 70-22. Penalties for offenses.
+
+     The failure of any person to obtain any permit as required by Articles II and III or to perform or obey
+     any provision of this chapter or to obey any order of the permit authority, the Village Manager or the
+     Croton-on-Hudson Police Department pursuant to this chapter constitutes a violation punishable by a fine
+     of not less than $100 but up to $250 for each violation. Each day that such violation continues after the
+     expiration of any period allowed for compliance under the provisions of this chapter shall constitute a
+     separate offense.
+
+     § 70-23. Unpaid fines, fees and charges.
+
+     Unpaid fines, false alarm fees, permit fees or other charges shall become a lien upon the property from
+     which the alarm resulting in a call to police or fire headquarters originated, resulting in such fine, fee or
+     charge and will be collected in the same manner as real estate taxes after the provisions of Article III,
+     § 70-9, are exhausted if initiated by the owner or lessee.
+
+     § 70-24. Tampering with alarms.
+
+     Any person who shall intentionally tamper with, destroy or compromise any alarm or alarm device or
+     equipment connected therewith, which alarm or alarm device is governed by the provisions of this chapter,
+
+
+     § 70-24                                            ALARM SYSTEMS   § 70-24
+
+     shall be guilty of a Class A misdemeanor.
+
+
+     § 70-24                                     CROTON-ON-HUDSON CODE
+
+
+                                                   ALCOHOLIC BEVERAGES

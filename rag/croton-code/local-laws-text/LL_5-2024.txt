@@ -1,0 +1,658 @@
+---
+title: "Local Law 5-2024: TO AMEND PROVISIONS OF CHAPTER 230 OF THE CODE OF THE VILLAGE OF CROTON-ON-HUDSO"
+source: Village of Croton-on-Hudson Local Law
+date: 2024-03-08
+---
+
+Local Law 5-2024
+Filed: 2024-03-08
+TO AMEND PROVISIONS OF CHAPTER 230 OF THE CODE OF THE VILLAGE OF CROTON-ON-HUDSON CONCERNING THE PROVISION OF SOLAR ENERGY SYSTEMS AND BATTERY ENERGY STORANGE SYSTEMS
+
+New York State Department of State
+Division of Corporations, State Records and Uniform Commercial Code
+One Commerce Plaza, 99 Washington Avenue
+
+Albany, NY 122310001
+
+www.dos.state.ny.us/corps
+
+(Use this form to file a local law with the Secretary of State.)
+Text of law should be given as amended. Do not include matter being eliminated and do not use
+italics or underlining to indicate new matter.
+
+•County DCity DTown ^Village
+(Select one:)
+of Croton-on-Hudson
+
+Local Law No.
+
+05
+
+of the year 2024
+
+A local law TO AMEND PROVISIONS OF CHAPTER 230 OF THE CODE OF THE VILLAGE OF
+(Insert Title)
+
+CROTON-ON-HUDSON CONCERNING THE PROVISION OF SOLAR ENERGY SYSTEM
+AND BATTERY ENERGY STORAGE SYSTEMS
+
+Be it enacted by the Village Board of Trustees
+
+the
+
+(Name of Legislative Body)
+
+•County
+
+DCity
+
+DTown
+
+[X]Village
+
+(Select one:)
+
+of Croton-on-Hudson
+
+as follows:
+
+see attached.
+
+(If additional space is needed, attach pages the same size as this sheet, and number each.)
+
+Page 2 of 4
+
+VILLAGE OF CROTON-ON-HUDSON
+BOARD OF TRUSTEES
+LOCAL LAW 05 of 2024
+A LOCAL LAW TO AMEND PROVISIONS OF CHAPTER 230 OF THE CODE OF THE
+VILLAGE OF CROTON-ON-HUDSON CONCERNING THE PROVISION OF SOLAR
+ENERGY SYSTEMS AND BATTERY ENERGY STORAGE SYSTEMS
+Be it enacted by the Board of Trustees of the Village of Croton-on-Hudson as follows:
+Section One. Section 230-4, Terms defined, of the Zoning Law of the Village of Croton-onHudson is hereby amended to add the following definitions:
+BATTERY ENERGY STORAGE SYSTEM
+One or more devices, assembled together, capable of storing energy in order to supply electrical
+energy at a future time (not to include a stand-alone 12-volt car battery or an electric motor
+vehicle). A battery energy storage system is classified as a Tier 1 or Tier 2 Battery Energy Storage
+System as follows:
+A. Tier 1 Battery Energy Storage Systems have an aggregate energy capacity less than
+or equal to 200kWh and, if in a room or enclosed area, consist of only a single
+energy storage system technology.
+B. Tier 2 Battery Energy Storage Systems have an aggregate energy capacity greater
+than 200kWh or are comprised of more than one storage battery technology in a
+room or enclosed area.
+CANOPY
+A permanent structure or architectural projection of rigid construction over which a covering is
+attached that provides weather protection, identity or decoration. A canopy is permitted to be
+structurally independent or supported by attachment to a building on one or more sides.
+FACILITY AREA
+The cumulative land area occupied during the commercial operation of the solar energy generating
+facility. This shall include all areas and equipment within the facility's perimeter boundary including the solar energy system, onsite interconnection equipment, onsite electrical energy
+storage equipment, and any other associated equipment - as well as any site improvements beyond
+the facility's perimeter boundary such as access roads, permanent parking areas, or other
+permanent improvements. The facility area shall not include site improvements established for
+impact mitigation purposes, including but not limited to vegetative buffers and landscaping
+features.
+KILOWATT (kW)
+A unit of power equal to 1,000 watts. The Nameplate Capacity of residential and commercial solar
+energy systems may be described in terms of kW.
+
+MEGAWATT (MW)
+A unit of power equal to 1,000 Kw. The Nameplate Capacity of larger solar energy systems may
+be described in terms of MW.
+NAMEPLATE CAPACITY
+A solar energy system's maximum electric power output under optimal operating conditions.
+Nameplate Capacity may be expressed in terms of Alternating Current (AC) or Direct Current
+(DC).
+NATIVE PERENNIAL VEGETATION
+Native wildflowers, forbs, and grasses that serve as habitat, forage, and migratory way stations for
+pollinators and shall not include any prohibited or regulated invasive species as determined by the
+New York State Department of Environmental Conservation.
+
+Section Two. Section 230-4, Terms defined, of the Zoning Law of the Village of Croton-onHudson is hereby amended to modify the following definitions as follows (see strike-through for
+deleted text and underline for added text):
+GROUND-MOUNTED SOLAR ENERGY SYSTEM
+A solar energy system that is anchored to the ground via a pole, ballast system or other mounting
+system, detached from any other structure, that generates electricity for on-site or off-site
+consumption.
+ROOF-MOUNTED SOLAR ENERGY SYSTEM
+A solar energy system located on the roof of any legally permitted building or structure, including
+those attached by a ballast system, that produces electricity for on-site or off-site consumption.
+SOLAR ENERGY SYSTEM
+The components and subsystems required to convert solar energy into electric energy suitable for
+use. The term includes, but is not limited to, solar panels and solar energy equipment. The area of
+a solar energy system includes all the land inside the perimeter of the solar energy system, which
+extends to any interconnection equipment. A solar energy system is classified as a Tier 1, Tier 2,
+or Tier 3, or Tier 4 solar energy system as follows:
+A.
+
+Tier 1 solar energy systems include the following:
+
+(1) Roof-mounted solar energy systems.
+(2) Building-integrated solar energy systems.
+(3) Canopy-mounted solar energy systems over parking areas.
+B.
+
+Tier 2 solar energy systems include ground-mounted solar energy systems where the Facility
+Area of all solar panels and associated equipment on the lot, including any related battery
+energy storage system, does not exceed 1,800 square feet.
+
+C. Tier 3 solar energy systems include ground-mounted solar energy systems where the total
+Facility Area of all solar panels and associated equipment on the lot, including any related
+battery energy storage system, falls between 1,801 square feet and one acre.
+D.
+
+Tier 4 solar energy systems are systems that are not included in the list for Tier 1, Tier 2 and
+Tier 3 solar energy systems.
+
+Section Three. Section 230-48.1, Solar energy systems, of the Zoning Law of the Village of
+Croton-on-Hudson is hereby amended as follows:
+§ 230-48.1 Solar energy systems.
+A. Authority. These provisions for solar energy systems are adopted pursuant to §§ 7-700
+through 7-704 of the Village Law and § 20 of the Municipal Home Rule Law of the State of
+New York, which authorize the Village to adopt zoning provisions that advance and protect
+the health, safety and welfare of the community, and, in accordance with the Village Law of
+New York State, "to make provision for, so far as conditions may permit, the accommodation
+of solar energy systems and equipment and access to sunlight necessary therefor."
+B.
+
+Purpose. This Solar Energy Local Law is adopted to advance and protect the public health,
+safety, and welfare of Village of Croton-on-Hudson, including:
+
+(1) Taking advantage of a safe, abundant, renewable, and nonpolluting energy resource;
+(2) Decreasing the cost of energy to the owners of commercial and residential properties,
+including single-family houses; and
+(3) Increasing employment and business development in the region by furthering the installation
+of solar energy systems;
+(4) Decreasing the use of fossil fuels, thereby reducing the carbon footprint of the Village of
+Croton-on-Hudson;
+(5) Diversifying energy resources to decrease dependence on the grid.
+C. Applicability.
+(1) The requirements of this section shall apply to all solar energy systems permitted, installed,
+or modified in the Village of Croton-on-Hudson after the effective date of this section,
+excluding general maintenance and repair.
+(2) Solar energy systems constructed or installed prior to the effective date of this section shall
+not be required to meet the requirements of this section.
+(3) Modifications to an existing solar energy system that increase the solar energy system area
+by more than 5% of the original area of the solar energy system (exclusive of moving any
+fencing) shall be subject to the provisions hereof.
+
+D.
+
+General requirements.
+
+(1) A building permit shall be required for installation of all solar energy systems.
+(2) Prior to the issuance of a building permit, construction and/or site plan documents, signed
+and stamped by a licensed professional engineer or registered architect shall be submitted to
+the Engineering Department.
+(3) All Village boards are encouraged to condition their approval of proposed developments on
+sites adjacent to solar energy systems so as to protect their access to sufficient sunlight to
+remain economically feasible over time.
+(4) For solar energy systems subject to site plan review, the Village shall require the applicant to
+establish an escrow account to recover expenses associated with engineering, environmental
+or legal services determined to be reasonably necessary in the processing of an application
+under this law.
+(5) All solar energy systems shall be designed, erected, and installed in accordance with all
+applicable codes, regulations, and industry standards as referenced in the New York State
+Uniform Fire Prevention and Building Code (Building Code), the New York State Energy
+Conservation Code (Energy Code), and the Village Code.
+E.
+
+Permitting requirements for Tier 1 solar energy systems. All Tier 1 solar energy systems shall
+be permitted in all zoning districts as an accessory use and shall be exempt from site plan
+review, subject to the following conditions for each type of solar energy system:
+
+(1) Roof-mounted solar energy systems.
+(a) Roof-mounted solar energy systems shall incorporate, when feasible, the following design
+requirements:
+[1] Roof-mounted solar panels must be attached or ballasted to a lawfully permitted building or
+structure, which may be an accessory structure.
+[2] All roof-mounted solar energy systems shall be subject to the maximum height regulations
+specified for principal and accessory buildings within the underlying zoning district, with the
+height exemptions as provided for building-mounted mechanical devices or equipment.
+[3] Glare. All solar panels shall have antireflective coating(s).
+(2) Building-integrated solar energy systems and canopy-mounted solar energy systems shall be
+shown on the plans submitted for the building permit application for the building or property
+containing the system. Applicants for canopy-mounted solar energy systems shall submit all
+studies as required by the Village Engineer or Building Inspector.
+F.
+
+Permitting requirements for Tier 2 solar energy systems. All Tier 2 solar energy systems shall
+be permitted on lots having a minimum lot area of no less than 9,000 square feet in all zoning
+districts as accessory structures and shall be exempt from site plan review, subject to the
+
+following conditions:
+(1) Glare. All solar panels shall have antireflective coating(s).
+(2) Setbacks. Tier 2 solar energy systems shall be subject to the setback regulations specified for
+the accessory structures within the underlying zoning district, except that they shall be set
+back no less than 10 feet from any property line. In RA and RB Zoning Districts all groundmounted solar energy systems shall only be installed in the side or rear yards.
+(3) Height. Tier 2 solar energy systems shall be subject to the height limitations specified for
+accessory structures within the underlying zoning district.
+(4) Screening and visibility.
+(a) All Tier 2 solar energy systems shall have views minimized from adjacent properties to the
+extent reasonably practicable.
+(b) Solar energy equipment shall be located in a manner to reasonably avoid and/or minimize
+blockage of views from surrounding properties and shading of property to the north, while
+still providing adequate solar access.
+(5) Lot size. Tier 2 solar energy systems shall comply with the existing lot size requirement
+specified for accessory structures within the underlying zoning district.
+(6) Lot coverage. The surface area covered by Tier 2 solar energy systems shall be included in
+the total lot coverage permitted within the underlying zoning district.
+G. Permitting requirements for Tier 3 solar energy systems. All Tier 3 solar energy systems are
+permitted, subject to a special permit by the Village Board of Trustees, within the RA-40,
+RA-60, C-2 and LI zoning districts, and subject to site plan application requirements set forth
+in this section.
+(1) Applications for the installation of Tier 3 solar energy systems shall be reviewed by the
+Building Inspector or Village Engineer for completeness. Applicants shall be advised of the
+completeness of their application or any deficiencies that must be addressed prior to
+substantive review.
+(2) Special permit application requirements. For a special permit application, the site plan
+application is to be used as supplemented by the following provisions:
+(a) If the property of the proposed project is to be leased, legal consent of all parties, specifying
+the use(s) of the land for the duration of the project, including easements and other
+agreements, shall be submitted.
+(b) Plans showing the layout of the solar energy system, including property lines and physical
+features, such as roads, signed by a professional engineer or registered architect.
+(c) Nameplate Capacity of the solar energy system (as expressed in MW).
+
+(d) A one- or three-line electrical diagram detailing the solar energy system layout, solar collector
+installation, associated components, and electrical interconnection methods, with all National
+Electrical Code compliant disconnects and over current devices. The diagram should describe
+the location and layout of all battery energy storage system components, if applicable, and
+should include applicable setback and other bulk and area standards.
+(e) Proposed changes to the landscape of the site, including site grading, vegetation clearing and
+planting, the removal of any large trees, access roads, exterior lighting, signage, fencing,
+landscaping and screening vegetation or structures.
+(f) A preliminary equipment specification sheet that documents all proposed solar panels,
+significant components, mounting systems, and inverters that are to be installed. A final
+equipment specification sheet shall be submitted prior to the issuance of building permit.
+(g) Property operation and maintenance plan. Such plan shall describe continuing photovoltaic
+maintenance, anticipated dual-use and property upkeep, such as mowing and trimming.
+(h) Erosion and sediment control and stormwater management plans prepared to NYS
+Department of Environmental Conservation standards, if applicable, and to such standards as
+may be established by the Planning Board.
+(i)
+
+Any application under this section shall meet any substantive provisions contained in the site
+plan and special permit sections of this Code as, in the judgment of the Planning Board, are
+applicable to the system being proposed.
+
+(j)
+
+The Planning Board or Board of Trustees may impose conditions on its approval of any site
+plan or special permit under this section in order to enforce the standards referred to in this
+section or in order to discharge its obligations under the State Environmental Quality Review
+Act (SEQRA).
+
+(k) Decommissioning plan. A decommissioning plan generally in a form to be provided by the
+Village and signed by the owner and/or operator of the solar energy system shall be submitted
+by the applicant as part of the special permit application, addressing the following:
+[1] The cost of decommissioning and removing the solar energy system, as well as all necessary
+site remediation or restoration.
+[2] The time required to decommission and remove the solar energy system and any ancillary
+structures.
+[3] The time required to repair any damage caused to the property by the installation and removal
+of the solar energy system.
+[4] A tree restoration plan, restoring the decommissioned area to a condition similar to the
+condition that existed prior to the installation. Recognizing that mature plantings cannot be
+easily relocated, the Planning Board may exercise discretion in determining the number,
+caliper, type and location of plantings in reviewing any such plan, but all plantings shall be
+native noninvasive species.
+
+(3) Special use permit standards.
+(a) Height and setback. Tier 3 solar energy systems shall adhere to the height and setback
+requirements of the underlying zoning district.
+(b) Lot size. Tier 3 solar energy systems shall be located on lots with a minimum lot size of four
+acres.
+(c) Lot coverage.
+[1] The following components of a Tier 3 solar energy system shall be considered included in
+the calculations for lot coverage requirements:
+[a] Foundation systems, typically consisting of driven piles or monopoles or helical screws with
+or without small concrete collars.
+[b] All mechanical equipment of the solar energy system, including any pad-mounted structure
+for batteries, switchboard, transformers, or storage cells.
+[c] Paved access roads servicing the solar energy system.
+[2] Lot coverage of the solar energy system, as defined above, shall not exceed the maximum lot
+coverage requirement of the underlying zoning district.
+(d) Fencing. All mechanical equipment, including any structure for storage batteries, shall be
+enclosed by a fence, as required by NEC, with a self-locking gate to prevent unauthorized
+access. Warning signs with the owner or operator's contact information shall be placed on the
+entrance and perimeter of the fencing. The type and height of fencing shall be determined as
+part of the site plan and special permit review. The fencing and the system may be further
+screened by any landscaping needed to avoid adverse aesthetic impacts.
+(e) Lighting. Lighting of the solar energy systems shall be limited to that minimally required for
+safety and operational purposes, shall be reasonably shielded and downcast from abutting
+properties and shall minimize impacts on nocturnal animals where practicable.
+(f) Tree cutting and landscaping.
+[1] Tree removal shall be subject to the permit requirements of Chapter 208.
+[2] Removal of existing trees larger than six (6) inches in diameter at breast height (DBH) shall
+be minimized to the extent possible.
+[3] Tier 3 Solar Energy System owners shall develop, implement, and maintain native vegetation
+to the extent practicable pursuant to a vegetation management plan by providing Native
+Perennial Vegetation and foraging habitat beneficial to game birds, songbirds, and
+Pollinators. To the extent practicable, when establishing perennial vegetation and beneficial
+foraging habitat, the owners shall use native plant species and seed mixes and seed all
+appropriate areas within the Facility Area.
+
+[4] Integrated pest management practices shall be used to refrain from or limit pesticide use
+(including herbicides) for long-term operation and site maintenance.
+(g)
+
+Underground requirements. All on-site utility lines shall be placed underground to the extent
+feasible and as permitted by the serving utility, with the exception of the main service
+connection at the utility company right-of-way and any new interconnection equipment,
+including without limitation any poles, with new easements and right-of-way.
+
+(h) Vehicular paths. Vehicular paths within the site shall be designed in compliance with Uniform
+Code requirements to ensure emergency access, while minimizing the extent of impervious
+materials and soil compaction.
+(i)
+
+Signage.
+
+[1] No signage or graphic content shall be displayed on the solar energy systems except the
+manufacturer's name, equipment specification information, safety information, and twentyfour-hour emergency contact information.
+[2] As required by the National Electric Code (NEC), disconnect and other emergency shutoff
+information shall be clearly displayed on a light-reflective surface. A clearly visible warning
+sign concerning voltage shall be placed at the base of all pad-mounted transformers and
+substations.
+(j)
+
+Glare. All solar panels shall have antireflective coating(s).
+
+(k)
+
+Screening and visibility.
+
+[1] Solar energy systems smaller than one acre shall have views minimized from adjacent
+properties to the extent reasonably practicable using architectural features, earth berms,
+landscaping, or other screening methods that will harmonize with the character of the property
+and surrounding area.
+[2] Solar energy systems larger than one acre shall be required to:
+[a]
+
+Conduct a visual assessment of the visual impacts of the solar energy system on public
+roadways and adjacent properties. At a minimum, a line-of-sight profile analysis shall be
+provided. Depending upon the scope and potential significance of the visual impacts,
+additional impact analyses, including, for example, a digital viewshed report, may be required
+to be submitted by the applicant.
+
+[b] Submit a screening and landscaping plan to show adequate measures to screen through
+landscaping, grading, or other means so that views of solar panels and solar energy equipment
+shall be minimized as reasonably practical from public roadways and adjacent properties to
+the extent feasible. The screening and landscaping plan shall specify the locations, elevations,
+height, plant species, and/or materials that will comprise the structures, landscaping, and/or
+grading used to screen and/or mitigate any adverse aesthetic effects of the system, following
+the applicable rules and standards established by the Village.
+
+(I)
+
+Steep slopes. Tier 3 solar energy systems shall not be permitted to be located on areas of steep
+slopes as defined in Chapter 195.
+
+(m) Conditions. The following shall be made conditions of all special permits issued for Tier 3
+solar energy systems.
+[1] Ownership changes. If the owner or operator of the solar energy system changes or the owner
+of the property changes, the special use permit shall remain in effect, provided that the
+successor owner or operator assumes in writing all of the obligations of the special use permit,
+site plan approval, and decommissioning plan. A new owner or operator of the solar energy
+system shall notify the Village Engineer or Building Inspector of such change in ownership
+or operator within 30 days of the ownership change.
+[2] Upon cessation of electricity generation of a solar energy system on a continuous basis for a
+period of one year, the Village may notify and instruct the owner or operator of the solar
+energy system to implement the decommissioning plan. The decommissioning plan must be
+completed within 12 months of notification.
+[3] Lien. In the event of default of the owner or operator in the performance of removal of a solar
+energy system and/or complying with the requirements of the decommissioning plan, after
+proper notice, the Village shall be entitled to arrange for removal or decommissioning and
+restoration of the property in accordance with the decommissioning plan, and the cost of same
+incurred by the Village shall constitute a lien on the owner's real property.
+H.
+
+Permitting requirements for Tier 4 solar energy systems. All Tier 4 solar energy systems are
+permitted through the issuance of a special use permit within RA-40, RA-60, C-2 and LI
+Zoning Districts, and are subject to site plan and special permit application requirements
+established for Tier 3 solar energy systems in Section G, in addition to the following
+requirements.
+
+(1) At least 60 days prior to the submission of an application, the Applicant shall conduct a preapplication meeting with the Village Manager to ensure all parties have clear expectations
+regarding any Village requirements applicable to the proposed Solar Energy System.
+Submission and review of the application shall not be delayed based on the failure of the
+Village Manager to respond in a timely manner to a properly filed meeting request. At the
+pre-application meeting, the Applicant must provide (1) a brief description of the proposed
+facility and its environmental setting, (2) a map of the proposed facility showing project
+components, (3) the proposed facility's anticipated impacts, (4) a designated contact person
+with telephone number, email address, and mailing address from whom information will be
+available going-forward basis, and (5) an anticipated application submission date.
+(2) Applications for the installation of Tier 4 solar energy systems shall be reviewed by the
+Building Inspector or Village Engineer for completeness. Applicants shall be advised within
+60 days of the completeness of their application or any deficiencies that must be addressed
+prior to substantive review.
+(3) Applications for a Tier 4 Solar Energy System shall include a Community Engagement Plan
+detailing the applicant's proposed plans and strategies for ensuring adequate public awareness
+
+and encouraging community participation. Applicants are highly encouraged to discuss the
+contents and details proposed in this plan with the Village Manager prior to the submission
+of a formal application.
+I.
+
+Safety.
+
+(1) Solar energy systems and solar energy equipment shall be certified under the applicable
+electrical and/or building codes as required.
+(2) Solar energy systems shall be maintained in good working order and in accordance with
+industry standards. Site access shall be maintained, including snow removal at a level
+acceptable to the local fire department and, if the Tier 3 solar energy system is located in an
+ambulance district, the local ambulance corps.
+(3) If a battery energy storage system is included as part of the solar energy system, they shall
+meet the requirements of any applicable fire prevention and building code when in use and,
+when no longer used, shall be disposed of in accordance with the laws and regulations of the
+Village and any applicable federal, state, or county laws or regulations.
+(4) Where deemed necessary by the Board of Trustees or Planning Board, emergency access to
+the site for local first responders shall be provided by the installation of an emergency lock
+box or a similar device, in a location subject to the approval of the Fire Chief
+
+Section Three. The Zoning Law of the Village of Croton-on-Hudson, Chapter 230, is hereby
+amended to add a new Section 230-48.2 entitled "Battery energy storage systems" to read as
+follows:
+§ 230-48.2. Battery energy storage systems.
+A.
+
+Authority. This section is adopted pursuant to §7-700 through §7-704 of the Village Law and
+§ 10 of the Municipal Home Rule Law of New York State (NYS), which authorize the Village
+to adopt zoning provisions that advance and protect the health, safety and welfare of the
+community.
+
+B.
+
+Statement of purpose. This Battery Energy Storage System Law is adopted to advance and
+protect the public health, safety, welfare, and quality of life of the Village by creating
+regulations for the installation and use of battery energy storage systems, with the following
+objectives:
+
+(1) To provide a regulatory scheme for the designation of properties suitable for the location,
+construction and operation of battery energy storage systems;
+(2) To ensure compatible land uses in the vicinity of the areas affected by battery energy storage
+systems;
+
+10
+
+(3) To mitigate the impacts of battery energy storage systems on environmental resources such
+as conservation areas, wildlife and other protected resources; and
+(4) To create synergy between battery energy storage system development and the goals of the
+Village's Comprehensive Plan.
+C. Applicability.
+(1) The requirements of this section shall apply to all battery energy storage systems permitted,
+installed, or modified in the Village after the effective date of this section, excluding general
+maintenance and repair.
+(2) Battery energy storage systems that have a valid building permit or have been constructed or
+installed prior to the effective date of this section shall not be required to meet the
+requirements of this section.
+(3) Modifications to, retrofits or replacements of an existing battery energy storage system that
+increase the total battery energy storage system designed discharge duration or power rating
+shall be subject to this section.
+D.
+
+General requirements.
+
+(1) A building permit shall be required for installation of all battery energy storage systems.
+(2) All battery energy storage systems, all dedicated-use buildings, and all other buildings or
+structures that 1) contain or are otherwise associated with a battery energy storage system and
+2) are subject to the Uniform Code and/or the Energy Code shall be designed, erected, and
+installed in accordance with all applicable provisions of the Uniform Code, all applicable
+provisions of the Energy Code, and all applicable provisions of the codes, regulations, and
+industry standards as referenced in the Uniform Code, the Energy Code, and the Village Code.
+(3) For battery energy systems subject to site plan review, the Village shall require the applicant
+to establish an escrow account to recover expenses associated with engineering,
+environmental or legal services determined to be reasonably necessary in the processing of
+an application under this law.
+(4) Any ground-mounted battery energy storage system shall be placed on a concrete pad having
+a minimum height of six (6) inches, or as otherwise prescribed by the Village Engineer.
+E.
+
+Tier 1 battery energy storage systems shall be permitted in all zoning districts, as an accessory
+use subject to the Uniform Code and the battery energy storage system permit and shall be
+shown on plans submitted for the building permit application for the building containing the
+system. Tier I battery energy storage systems are exempt from site plan review.
+
+(1) Battery energy storage systems for one- or two-family residential dwelling units shall not
+exceed an aggregate energy capacity of the following:
+(a) Forty kWh within utility closets and storage or utility spaces.
+11
+
+(b) Eighty kWh in attached or detached garages and detached accessory structures.
+(c) Eighty kWh on exterior walls.
+(d) Eighty kWh outdoors on the ground.
+(2) All outside Tier 1 battery energy storage systems shall only be installed in side or rear yards
+and meet the minimum lot size and standard setbacks in the zoning district for principal
+structures. Heights are limited to 6.5 feet for any external battery energy storage systems.
+(3) All outside Tier 1 battery energy storage systems shall provide a fire safety compliance plan.
+Such plan shall document and verify that the system and its associated controls and safety
+systems are in compliance with the Uniform Code.
+(4) All outside Tier 1 battery energy storage systems shall not have an area greater than 225
+square feet for a single energy storage system, and all systems in the aggregate shall not
+occupy more than 25% of the area of the required rear or side yard.
+F.
+
+Requirements for Tier 2 battery energy storage systems.
+
+(1) Tier 2 Battery Energy Storage Systems are permitted through the issuance of a special permit
+by the Village Board of Trustees within the RA-40, RA-60, C-2 and LI zoning districts, and
+shall be subject to the Uniform Code and the site plan application requirements set forth in
+this Section.
+(2) Applications for the installation of Tier 2 Battery Energy Storage System shall be reviewed
+by the Building Inspector or Village Engineer for completeness. Applicants shall be advised
+of the completeness of their application or any deficiencies that must be addressed prior to
+substantive review.
+(3) Site plan application. For the installation of Tier 2 battery energy storage systems, the
+following site plan requirements apply:
+(a) Property lines and physical features, including roads, for the project site.
+(b) Proposed changes to the landscape of the site, including site grading, vegetation clearing and
+planting, the removal of any large trees, access roads exterior lighting, signage, fencing,
+landscaping and screening vegetation or structures.
+(c) A screening and landscaping plan to show adequate measures to screen through landscaping,
+grading or other means so that views of the storage systems shall be minimized as reasonably
+practical and feasible from public roadways and adjacent properties.
+(d) Location of the battery energy storage system and setbacks from property lines.
+(e) A one- or three-line electrical diagram detailing the battery energy storage system layout,
+associated components, and electrical interconnection methods, with all National Electrical
+Code compliant disconnects and over current devices. The diagram should describe the
+12
+
+location and layout of all solar energy system components, if applicable, and should include
+applicable setback and other bulk and area standards.
+(f) A preliminary equipment specification sheet that documents the proposed battery energy
+storage system components, inverters and associated electrical equipment that are to be
+installed. A final equipment specification sheet shall be submitted prior to the issuance of a
+building permit.
+(g) Name, address, and contact information of the proposed or potential system installer and the
+owner and/or operator of the battery energy storage system. Such information of the final
+system installer shall be submitted prior to the issuance of a building permit.
+(h) Name, address, phone number, and signature of the project applicant, as well as all the
+property owners, demonstrating their consent to the application and the use of the property
+for the battery energy storage system.
+(i)
+
+Zoning district designation for the parcel(s) of land comprising the project site.
+
+(j)
+
+Commissioning plan. Such plan shall document and verify that the system and its associated
+controls and safety systems are in proper working condition per requirements set forth in the
+Uniform Code. Where commissioning is required by the Uniform Code, battery energy
+storage system commissioning shall be conducted by a New York State (NYS) licensed
+professional engineer after the installation is complete but prior to final inspection and
+approval. A corrective action plan shall be developed for any open or continuing issues that
+are allowed to be continued after commissioning. A report describing the results of the system
+commissioning and including the results of the initial acceptance testing required in the
+Uniform Code shall be provided to the Building Inspector prior to final inspection and
+approval and maintained at an approved on-site location.
+
+(k) Fire safety compliance plan. Such plan shall document and verify that the system and its
+associated controls and safety systems are in compliance with the Uniform Code.
+(1) Operation and maintenance manual. Such plan shall describe continuing battery energy
+storage system maintenance and property upkeep, as well as design, construction, installation,
+testing and commissioning information, and shall meet all requirements set forth in the
+Uniform Code.
+(m) Erosion and sediment control and stormwater management plans prepared to New York State
+Department of Environmental Conservation standards, if applicable, and to such standards as
+may be established by the Planning Board.
+(n) Prior to the issuance of the building permit or final approval by the Planning Board, but not
+required as part of the application, engineering documents must be signed and sealed by a
+NYS licensed professional engineer.
+(o) Emergency operations plan. A copy of the approved emergency operations plan shall be given
+to the system owner, the Fire Chief, and the Village Engineer or Building Inspector. A
+permanent copy shall also be placed in an approved location to be accessible to facility
+13
+
+personnel, fire code officials, and emergency responders. The emergency operations plan
+shall include the following information:
+[1] Procedures for safe shutdown, de-energizing, or isolation of equipment and systems under
+emergency conditions to reduce the risk of fire, electric shock, and personal injuries, and for
+safe start-up following cessation of emergency conditions.
+[2] Procedures for inspection and testing of associated alarms, interlocks, and controls.
+[3] Procedures to be followed in response to notifications from the battery energy storage
+management system, when provided, that could signify potentially dangerous conditions,
+including shutting down equipment, summoning service and repair personnel, and providing
+agreed upon notification to Fire Department personnel for potentially hazardous conditions
+in the event of a system failure.
+[4] Emergency procedures to be followed in case of fire, explosion, release of liquids or vapors,
+damage to critical moving parts, or other potentially dangerous conditions. Procedures can
+include sounding the alarm, notifying the Fire Department, evacuating personnel, deenergizing equipment, and controlling and extinguishing the fire.
+[5] Response considerations similar to a safety data sheet (SDS) that will address response safety
+concerns and extinguishment when a SDS is not required.
+[6] Procedures for dealing with battery energy storage system equipment damaged in a fire or
+other emergency event, including maintaining contact information for personnel qualified to
+safely remove damaged battery energy storage system equipment from the facility.
+[7] Other procedures as determined necessary by the Town to provide for the safety of occupants,
+neighboring properties, and emergency responders.
+[8] Procedures and schedules for conducting drills of these procedures and for training local first
+responders on the contents of the plan and appropriate response procedures.
+(4)
+
+Special permit standards. In addition to the other special permit standards in this chapter, the
+following special permit standards shall apply for Tier 2 battery energy storage systems:
+
+(a)
+
+Bulk requirements. Tier 2 Battery Energy Storage Systems shall comply with the lot size,
+setbacks and height requirements of the underlying zoning district for principal structures.
+
+(b)
+
+Fencing Requirements. Tier 2 Battery Energy Storage Systems, including all mechanical
+equipment, shall be enclosed by a 7-foot-high fence with a self-locking gate to prevent
+unauthorized access unless housed in a dedicated-use building and not interfering with
+ventilation or exhaust ports.
+
+(c)
+
+Screening and Visibility. Tier 2 Battery Energy Storage Systems shall have views minimized
+from adjacent properties to the extent reasonably practicable using architectural features,
+earth berms, landscaping, or other screening methods that will harmonize with the character
+of the property and surrounding area. The screening shall not, however, interfere with the
+14
+
+normal operation, ventilation or exhaust ports, or fire safety of the storage system. A covenant
+regarding the maintenance of any required screening shall be provided by the applicant.
+(5) Access. Vehicular access within the site shall be designed to minimize the

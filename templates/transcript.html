@@ -52,7 +52,7 @@
     <h1>{{ transcript.title }}</h1>
     <div class="deck">{{ transcript.date }} &mdash; {{ transcript.word_count|default('') }} words, {{ transcript.speaker_count|default('') }} speakers identified</div>
     <div class="article-head-meta">
-      <span>{{ transcript.date }}</span>
+      <time datetime="{{ transcript.date }}">{{ transcript.date }}</time>
       <span>&middot;</span>
       <span>Transcribed by Deepgram Nova-3</span>
       <span>&middot;</span>

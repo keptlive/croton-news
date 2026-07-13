@@ -1,0 +1,555 @@
+[
+  {
+    "num": 1,
+    "name": "General Provisions",
+    "file": "Ch_1_general-provisions.txt",
+    "words": 2044,
+    "sections": 0
+  },
+  {
+    "num": 4,
+    "name": "Appearance Tickets",
+    "file": "Ch_4_appearance-tickets.txt",
+    "words": 279,
+    "sections": 1
+  },
+  {
+    "num": 7,
+    "name": "Assessments For Improvements",
+    "file": "Ch_7_assessments-for-improvements.txt",
+    "words": 648,
+    "sections": 1
+  },
+  {
+    "num": 8,
+    "name": "Assessments, Real Property Tax",
+    "file": "Ch_8_assessments-real-property-tax.txt",
+    "words": 244,
+    "sections": 1
+  },
+  {
+    "num": 12,
+    "name": "Conservation Advisory Council",
+    "file": "Ch_12_conservation-advisory-council.txt",
+    "words": 1195,
+    "sections": 1
+  },
+  {
+    "num": 19,
+    "name": "Elections",
+    "file": "Ch_19_elections.txt",
+    "words": 404,
+    "sections": 0
+  },
+  {
+    "num": 20,
+    "name": "Ethics, Code Of",
+    "file": "Ch_20_ethics-code-of.txt",
+    "words": 3476,
+    "sections": 1
+  },
+  {
+    "num": 23,
+    "name": "Greenway Compact Plan",
+    "file": "Ch_23_greenway-compact-plan.txt",
+    "words": 474,
+    "sections": 1
+  },
+  {
+    "num": 29,
+    "name": "Local Laws, Adoption Of",
+    "file": "Ch_29_local-laws-adoption-of.txt",
+    "words": 336,
+    "sections": 1
+  },
+  {
+    "num": 31,
+    "name": "Manager, Village",
+    "file": "Ch_31_manager-village.txt",
+    "words": 627,
+    "sections": 1
+  },
+  {
+    "num": 33,
+    "name": "Meetings",
+    "file": "Ch_33_meetings.txt",
+    "words": 1426,
+    "sections": 1
+  },
+  {
+    "num": 36,
+    "name": "Newspaper, Official",
+    "file": "Ch_36_newspaper-official.txt",
+    "words": 173,
+    "sections": 1
+  },
+  {
+    "num": 40,
+    "name": "Planning Board",
+    "file": "Ch_40_planning-board.txt",
+    "words": 388,
+    "sections": 1
+  },
+  {
+    "num": 42,
+    "name": "Police Department",
+    "file": "Ch_42_police-department.txt",
+    "words": 940,
+    "sections": 0
+  },
+  {
+    "num": 50,
+    "name": "Residency Requirements",
+    "file": "Ch_50_residency-requirements.txt",
+    "words": 255,
+    "sections": 0
+  },
+  {
+    "num": 54,
+    "name": "Salaries And Compensation",
+    "file": "Ch_54_salaries-and-compensation.txt",
+    "words": 156,
+    "sections": 1
+  },
+  {
+    "num": 58,
+    "name": "Traffic Violations Bureau",
+    "file": "Ch_58_traffic-violations-bureau.txt",
+    "words": 652,
+    "sections": 1
+  },
+  {
+    "num": 59,
+    "name": "Videoconferencing By Public Bodies",
+    "file": "Ch_59_videoconferencing-by-public-bodies.txt",
+    "words": 811,
+    "sections": 1
+  },
+  {
+    "num": 60,
+    "name": "Visual Environment Advisory Board",
+    "file": "Ch_60_visual-environment-advisory-board.txt",
+    "words": 1049,
+    "sections": 1
+  },
+  {
+    "num": 61,
+    "name": "Public Officer Indemnification",
+    "file": "Ch_61_public-officer-indemnification.txt",
+    "words": 332,
+    "sections": 1
+  },
+  {
+    "num": 66,
+    "name": "(Reserved)",
+    "file": "Ch_66_reserved.txt",
+    "words": 35,
+    "sections": 0
+  },
+  {
+    "num": 67,
+    "name": "Advertising Materials",
+    "file": "Ch_67_advertising-materials.txt",
+    "words": 695,
+    "sections": 1
+  },
+  {
+    "num": 69,
+    "name": "Aircraft",
+    "file": "Ch_69_aircraft.txt",
+    "words": 268,
+    "sections": 0
+  },
+  {
+    "num": 70,
+    "name": "Alarm Systems",
+    "file": "Ch_70_alarm-systems.txt",
+    "words": 2529,
+    "sections": 0
+  },
+  {
+    "num": 72,
+    "name": "Alcoholic Beverages",
+    "file": "Ch_72_alcoholic-beverages.txt",
+    "words": 677,
+    "sections": 0
+  },
+  {
+    "num": 75,
+    "name": "Appeals",
+    "file": "Ch_75_appeals.txt",
+    "words": 653,
+    "sections": 1
+  },
+  {
+    "num": 77,
+    "name": "Assemblies, Mass Public",
+    "file": "Ch_77_assemblies-mass-public.txt",
+    "words": 1807,
+    "sections": 1
+  },
+  {
+    "num": 79,
+    "name": "Best Value Procurement",
+    "file": "Ch_79_best-value-procurement.txt",
+    "words": 275,
+    "sections": 1
+  },
+  {
+    "num": 81,
+    "name": "Blasting",
+    "file": "Ch_81_blasting.txt",
+    "words": 1112,
+    "sections": 1
+  },
+  {
+    "num": 83,
+    "name": "Boats And Boating",
+    "file": "Ch_83_boats-and-boating.txt",
+    "words": 312,
+    "sections": 1
+  },
+  {
+    "num": 86,
+    "name": "Building Construction",
+    "file": "Ch_86_building-construction.txt",
+    "words": 12108,
+    "sections": 0
+  },
+  {
+    "num": 88,
+    "name": "Buildings, Numbering Of",
+    "file": "Ch_88_buildings-numbering-of.txt",
+    "words": 629,
+    "sections": 1
+  },
+  {
+    "num": 90,
+    "name": "Buildings, Unsafe",
+    "file": "Ch_90_buildings-unsafe.txt",
+    "words": 1391,
+    "sections": 1
+  },
+  {
+    "num": 99,
+    "name": "Cannabis",
+    "file": "Ch_99_cannabis.txt",
+    "words": 251,
+    "sections": 0
+  },
+  {
+    "num": 108,
+    "name": "Dogs",
+    "file": "Ch_108_dogs.txt",
+    "words": 1808,
+    "sections": 1
+  },
+  {
+    "num": 113,
+    "name": "Electrical Standards",
+    "file": "Ch_113_electrical-standards.txt",
+    "words": 1196,
+    "sections": 1
+  },
+  {
+    "num": 114,
+    "name": "Energy Conservation",
+    "file": "Ch_114_energy-conservation.txt",
+    "words": 3465,
+    "sections": 0
+  },
+  {
+    "num": 115,
+    "name": "Environmental Compliance",
+    "file": "Ch_115_environmental-compliance.txt",
+    "words": 1218,
+    "sections": 1
+  },
+  {
+    "num": 116,
+    "name": "Environmental Review",
+    "file": "Ch_116_environmental-review.txt",
+    "words": 142,
+    "sections": 1
+  },
+  {
+    "num": 118,
+    "name": "(Reserved)",
+    "file": "Ch_118_reserved.txt",
+    "words": 38,
+    "sections": 0
+  },
+  {
+    "num": 120,
+    "name": "Excavation, Filling And Topsoil Removal",
+    "file": "Ch_120_excavation-filling-and-topsoil-removal.txt",
+    "words": 4456,
+    "sections": 0
+  },
+  {
+    "num": 122,
+    "name": "Fees",
+    "file": "Ch_122_fees.txt",
+    "words": 353,
+    "sections": 1
+  },
+  {
+    "num": 123,
+    "name": "Firearms",
+    "file": "Ch_123_firearms.txt",
+    "words": 481,
+    "sections": 1
+  },
+  {
+    "num": 125,
+    "name": "Fire Prevention",
+    "file": "Ch_125_fire-prevention.txt",
+    "words": 1638,
+    "sections": 0
+  },
+  {
+    "num": 127,
+    "name": "Fireworks",
+    "file": "Ch_127_fireworks.txt",
+    "words": 1596,
+    "sections": 1
+  },
+  {
+    "num": 129,
+    "name": "Flood Damage Prevention",
+    "file": "Ch_129_flood-damage-prevention.txt",
+    "words": 7374,
+    "sections": 1
+  },
+  {
+    "num": 132,
+    "name": "Games Of Chance",
+    "file": "Ch_132_games-of-chance.txt",
+    "words": 300,
+    "sections": 1
+  },
+  {
+    "num": 135,
+    "name": "Garbage, Rubbish And Littering",
+    "file": "Ch_135_garbage-rubbish-and-littering.txt",
+    "words": 1840,
+    "sections": 1
+  },
+  {
+    "num": 137,
+    "name": "Graffiti",
+    "file": "Ch_137_graffiti.txt",
+    "words": 487,
+    "sections": 1
+  },
+  {
+    "num": 141,
+    "name": "(Reserved)",
+    "file": "Ch_141_reserved.txt",
+    "words": 35,
+    "sections": 0
+  },
+  {
+    "num": 157,
+    "name": "Filming, Regulation Of",
+    "file": "Ch_157_filming-regulation-of.txt",
+    "words": 990,
+    "sections": 1
+  },
+  {
+    "num": 158,
+    "name": "Masks And Face Coverings",
+    "file": "Ch_158_masks-and-face-coverings.txt",
+    "words": 1283,
+    "sections": 1
+  },
+  {
+    "num": 160,
+    "name": "Noise",
+    "file": "Ch_160_noise.txt",
+    "words": 1711,
+    "sections": 1
+  },
+  {
+    "num": 167,
+    "name": "Open Fires",
+    "file": "Ch_167_open-fires.txt",
+    "words": 1229,
+    "sections": 1
+  },
+  {
+    "num": 168,
+    "name": "Parks And Recreation Areas",
+    "file": "Ch_168_parks-and-recreation-areas.txt",
+    "words": 1302,
+    "sections": 0
+  },
+  {
+    "num": 172,
+    "name": "Commercial Soliciting",
+    "file": "Ch_172_commercial-soliciting.txt",
+    "words": 2088,
+    "sections": 1
+  },
+  {
+    "num": 175,
+    "name": "Plumbing",
+    "file": "Ch_175_plumbing.txt",
+    "words": 1838,
+    "sections": 0
+  },
+  {
+    "num": 178,
+    "name": "Professional Fees",
+    "file": "Ch_178_professional-fees.txt",
+    "words": 716,
+    "sections": 1
+  },
+  {
+    "num": 179,
+    "name": "Property Maintenance",
+    "file": "Ch_179_property-maintenance.txt",
+    "words": 1841,
+    "sections": 0
+  },
+  {
+    "num": 185,
+    "name": "Recycling",
+    "file": "Ch_185_recycling.txt",
+    "words": 856,
+    "sections": 1
+  },
+  {
+    "num": 186,
+    "name": "Rental Housing",
+    "file": "Ch_186_rental-housing.txt",
+    "words": 254,
+    "sections": 0
+  },
+  {
+    "num": 191,
+    "name": "Sewers",
+    "file": "Ch_191_sewers.txt",
+    "words": 5173,
+    "sections": 0
+  },
+  {
+    "num": 193,
+    "name": "Sprinkler Systems",
+    "file": "Ch_193_sprinkler-systems.txt",
+    "words": 744,
+    "sections": 1
+  },
+  {
+    "num": 195,
+    "name": "Steep Slope Protection",
+    "file": "Ch_195_steep-slope-protection.txt",
+    "words": 5842,
+    "sections": 0
+  },
+  {
+    "num": 196,
+    "name": "Stormwater, Drainage, Erosion And Water Pollution Control",
+    "file": "Ch_196_stormwater-drainage-erosion-and-water-pollution-control.txt",
+    "words": 11345,
+    "sections": 0
+  },
+  {
+    "num": 197,
+    "name": "Streets And Sidewalks",
+    "file": "Ch_197_streets-and-sidewalks.txt",
+    "words": 11742,
+    "sections": 0
+  },
+  {
+    "num": 200,
+    "name": "(Reserved)",
+    "file": "Ch_200_reserved.txt",
+    "words": 36,
+    "sections": 0
+  },
+  {
+    "num": 202,
+    "name": "(Reserved)",
+    "file": "Ch_202_reserved.txt",
+    "words": 18,
+    "sections": 0
+  },
+  {
+    "num": 204,
+    "name": "Taxation",
+    "file": "Ch_204_taxation.txt",
+    "words": 9880,
+    "sections": 0
+  },
+  {
+    "num": 205,
+    "name": "Telecommunications Franchising And Licensing",
+    "file": "Ch_205_telecommunications-franchising-and-licensing.txt",
+    "words": 3815,
+    "sections": 1
+  },
+  {
+    "num": 206,
+    "name": "Telecommunications Towers",
+    "file": "Ch_206_telecommunications-towers.txt",
+    "words": 3080,
+    "sections": 1
+  },
+  {
+    "num": 208,
+    "name": "Trees",
+    "file": "Ch_208_trees.txt",
+    "words": 5293,
+    "sections": 0
+  },
+  {
+    "num": 212,
+    "name": "Vehicles, Abandoned",
+    "file": "Ch_212_vehicles-abandoned.txt",
+    "words": 775,
+    "sections": 1
+  },
+  {
+    "num": 215,
+    "name": "Vehicles And Traffic",
+    "file": "Ch_215_vehicles-and-traffic.txt",
+    "words": 14314,
+    "sections": 0
+  },
+  {
+    "num": 219,
+    "name": "Vehicles, Unlicensed Motor-Driven",
+    "file": "Ch_219_vehicles-unlicensed-motor-driven.txt",
+    "words": 816,
+    "sections": 1
+  },
+  {
+    "num": 223,
+    "name": "Water",
+    "file": "Ch_223_water.txt",
+    "words": 12451,
+    "sections": 0
+  },
+  {
+    "num": 225,
+    "name": "Waterfront Revitalization",
+    "file": "Ch_225_waterfront-revitalization.txt",
+    "words": 2270,
+    "sections": 1
+  },
+  {
+    "num": 227,
+    "name": "Wetlands",
+    "file": "Ch_227_wetlands.txt",
+    "words": 7366,
+    "sections": 1
+  },
+  {
+    "num": 230,
+    "name": "Zoning",
+    "file": "Ch_230_zoning.txt",
+    "words": 77670,
+    "sections": 0
+  }
+]

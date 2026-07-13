@@ -1,0 +1,1238 @@
+---
+title: "Chapter 196: Stormwater, Drainage, Erosion And Water Pollution Control"
+chapter: 196
+name: "Stormwater, Drainage, Erosion And Water Pollution Control"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 0
+---
+
+ARTICLE I                                                     ARTICLE II
+        Stormwater Management and Erosion and                       Illegal Discharges and Illicit Connections to
+                   Sediment Control                                         Separate Storm Sewer System
+
+     § 196-1.             Legislative findings.                   § 196-14.       Purpose and objectives.
+     § 196-2.             Purpose and objectives.                 § 196-15.       Definitions.
+     § 196-3.             Applicability.                          § 196-16.       Applicability.
+     § 196-4.             Exemptions.                             § 196-17.       Administration and
+     § 196-5.             Definitions.                                            enforcement.
+     § 196-6.             Stormwater pollution                    § 196-18.       Prohibition of illegal discharges
+                          prevention plans.                                       and illicit connections;
+     § 196-7.             Stormwater management and                               exceptions.
+                          erosion and sediment control            § 196-19.       Prohibition against activities
+                          for minor land disturbance                              contaminating stormwater.
+                          activities.                             § 196-20.       Use of best management
+     § 196-8.             Performance and design                                  practices required.
+                          criteria for stormwater                 § 196-21.       Suspension of access to MS4.
+                          management and erosion and              § 196-22.       Industrial or construction
+                          sediment control.                                       activity discharges.
+     § 196-9.             Maintenance, inspection and             § 196-23.       Access to property; inspection;
+                          repair of stormwater facilities.                        monitoring of discharges.
+     § 196-10.            Construction inspection,                § 196-24.       Notification of spills.
+                          administration and                      § 196-25.       Enforcement; penalties for
+                          maintenance.                                            offenses.
+     § 196-11.            Performance guarantee.                  § 196-26.       Injunctive relief.
+     § 196-12.            Enforcement; penalties for              § 196-27.       Violations deemed public
+                          offenses.                                               nuisance.
+     § 196-13.            Fees for services.                      § 196-28.       Remedies not exclusive.
+                                                                  § 196-29.       Severability.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson 7-16-2007 by
+     L.L. No. 3-2007. Amendments noted where applicable.]
+
+
+                                   STORMWATER, DRAINAGE, EROSION AND WATER
+
+
+                                                              GENERAL REFERENCES
+
+     Environmental compliance — See Ch. 115.                            Steep slopes — See Ch. 195.
+
+     Environmental quality review — See Ch. 116.                        Trees — See Ch. 208.
+
+     Excavation, filling and topsoil removal — See Ch. 120.             Wetlands — See Ch. 227.
+
+     Flood damage prevention — See Ch. 129.                             Zoning — See Ch. 230.
+
+     Professional fees — See Ch. 178.
+
+
+     § 196-1                      STORMWATER, DRAINAGE, EROSION AND WATER                                 § 196-2
+
+                                                  ARTICLE I
+                              Stormwater Management and Erosion and Sediment Control
+
+     § 196-1. Legislative findings.
+
+     It is hereby determined that:
+
+     A.    Land development activities and associated increases in site impervious cover often alter the
+           hydrologic response of local watersheds and increase stormwater runoff rates and volumes, flooding,
+           stream channel erosion, or sediment transport and deposition.
+
+     B.    This stormwater runoff contributes to increased quantities of water-borne pollutants, including
+           siltation of aquatic habitat for fish and other desirable species.
+
+     C.    Clearing, grading, excavating, soil disturbance or placement of fill during construction tends to
+           increase soil erosion and add to the loss of native vegetation necessary for terrestrial and aquatic
+           habitat.
+
+     D.    Improper design, maintenance and construction of stormwater management practices can increase the
+           velocity of stormwater runoff, thereby increasing stream bank erosion and sedimentation.
+
+     E.    Impervious surfaces allow less water to percolate into the soil, thereby decreasing groundwater
+           recharge and stream baseflow.
+
+     F.    Substantial economic losses can result from these adverse impacts on the waters of the Village.
+
+     G.    Stormwater runoff, soil erosion and nonpoint source pollution can be controlled and minimized
+           through the regulation of stormwater runoff from land development activities.
+
+     H.    The regulation of stormwater runoff discharges from land development activities in order to control
+           and minimize increases in stormwater runoff rates and volumes, soil erosion, stream channel erosion,
+           and nonpoint source pollution associated with stormwater runoff is in the public interest and will
+           minimize threats to public health and safety.
+
+     I.    Regulation of land development activities by means of performance standards governing stormwater
+           management and site design will produce development compatible with the natural functions of a
+           particular site or an entire watershed and thereby mitigate the adverse effects of erosion and
+           sedimentation from development.
+
+     § 196-2. Purpose and objectives.
+
+     The purpose of this article is to establish minimum stormwater management requirements and controls to
+     protect and safeguard the general health, safety, and welfare of the public residing within this jurisdiction
+     and to address the legislative findings in § 196-1 hereof. This article seeks to meet those purposes by
+     achieving the following objectives:
+
+     A.    Meet the requirements of minimum measures 4 and 5 of the SPDES General Permit for Stormwater
+           Discharges from Municipal Separate Stormwater Sewer Systems (MS4 SPDES No. NYR20A370),
+           Permit No. GP-02-02 or as amended or revised.
+
+     B.    Require land development activities to conform to the substantive requirements of the NYS
+           Department of Environmental Conservation State Pollutant Discharge Elimination System (SPDES)
+           General Permit for Construction Activities GP-02-01 or as amended or revised.
+
+
+     § 196-2                      STORMWATER, DRAINAGE, EROSION AND WATER                                    § 196-4
+
+     C.    Minimize increases in the rate of stormwater runoff from land development activities in order to
+           reduce flooding, siltation, increases in stream temperature, and streambank erosion and maintain the
+           integrity of stream channels.
+
+     D.    Minimize increases in pollution caused by stormwater runoff from land development activities which
+           would otherwise degrade local water quality.
+
+     E.    Minimize the total annual volume of stormwater runoff which flows from any specific site during and
+           following development to the maximum extent practicable.
+
+     F.    Reduce stormwater runoff rates and volumes, soil erosion and nonpoint source pollution, wherever
+           possible, through stormwater management practices and ensure that these management practices are
+           properly maintained and eliminate threats to public safety.
+
+     § 196-3. Applicability.
+
+     A.    All land development activities, including but not limited to land development activities subject to
+           review and approval by the Village Board, Planning Board, Zoning Board of Appeals, or Village
+           Engineer of the Village under subdivision, site plan, special permit, steep slope, wetland, tree removal
+           permit and/or other land use or environmental permit regulations, shall be reviewed subject to the
+           standards contained in this article.
+
+     B.    It shall be unlawful for any person to engage in a land development activity, other than an exempt
+           activity as defined in § 196-4, in the absence of a stormwater pollution prevention plan (SWPPP)
+           approved by the Stormwater Management Officer or other approving authority as specified in
+           § 196-3C.
+
+     C.    The Stormwater Management Officer shall accept, review and be the approving authority for all
+           stormwater pollution prevention plans, except as follows:
+
+           (1)    The Board of Trustees shall be the approving authority for any application involving property
+                  that is also the subject of a pending special permit or other land use or environmental permit
+                  application before that Board in accordance with the provisions of the Village Code.
+
+           (2)    The Planning Board shall be the approving authority for any application involving property that
+                  is also the subject of a pending site plan, subdivision, special permit, steep slope, wetland, tree
+                  removal or other land use or environmental permit application before that Board in accordance
+                  with the provisions of the Village Code.
+
+           (3)    The Zoning Board of Appeals shall be the approving authority for any application involving
+                  property that is also the subject of a pending special permit or other land use or environmental
+                  permit application before that Board in accordance with the provisions of the Village Code.
+
+     D.    The approving authority may:
+
+           (1)    Review the plans;
+
+           (2)    Upon approval by the Village Board, engage the services of a registered professional engineer
+                  to review the plans, specifications and related documents at a cost not to exceed a fee schedule
+                  established by said governing board; or
+
+           (3)    Accept the certification of a licensed professional that the plans conform to the requirements of
+                  this article.
+
+
+     § 196-4. Exemptions.
+
+     The following activities shall be exempt from review under this article:
+
+     A.    Agricultural activity as defined in this article.
+
+     B.    Silvicultural activity, except that landing areas and log haul roads are subject to this article.
+
+     C.    Repairs and routine property maintenance activities that disturb less than 5,000 square feet and
+           maintain the original line and grade.
+
+     D.    Repairs and routine maintenance to any stormwater management practice or facility deemed
+           necessary by the Stormwater Management Officer.
+
+     E.    Land development activities for which a building permit has been approved and is still in effect on or
+           before the effective date of this article.
+
+     F.    Cemetery graves.
+
+     G.    Installation of a fence, sign, telephone, and electric poles and other kinds of posts or poles.
+
+     H.    Emergency activity immediately necessary to protect life, property or natural resources.
+
+     I.    Activities of an individual engaging in home gardening by growing flowers, vegetables and other
+           plants primarily for use by that person and his or her family.
+
+     J.    Landscaping and horticultural activities that disturb less than 5,000 square feet in connection with an
+           existing noncommercial structure.
+
+     § 196-5. Definitions.
+
+     Whenever used in this article, the following terms will have meanings set forth below:
+     AGRICULTURAL ACTIVITY — The activity of an active farm, including grazing and watering
+     livestock, irrigating crops, harvesting crops, using land for growing agricultural products, and cutting
+     timber for sale, but shall not include the operation of a dude ranch or similar operation, or the construction
+     of new structures associated with agricultural activities.
+     APPLICANT — Any individual or individuals, firm, partnership, association, corporation, company,
+     organization or other legal entity of any kind, including municipal corporations, governmental agencies
+     or subdivisions thereof, filing an application for a land development activity or minor land disturbance
+     activity subject to the provisions of this article.
+     BUILDING — The term "building" as defined in § 230-4 of the Village Code now or as hereafter amended.
+     CHANNEL — A natural or artificial watercourse with a definite bed and banks that conducts continuously
+     or periodically flowing water.
+     CLEARING — Any activity that removes the vegetative surface cover.
+     DEDICATION — The deliberate appropriation of property by its owner for general public use.
+     DEPARTMENT or NYSDEC — The New York State Department of Environmental Conservation.
+     DESIGN MANUAL — The New York State Stormwater Management Design Manual, most recent
+     version, including applicable updates, that serves as the official guide for stormwater management
+     principles, methods and practices.
+
+
+     § 196-5                      STORMWATER, DRAINAGE, EROSION AND WATER                                  § 196-5
+
+     DEVELOPER — A person who undertakes land development activities.
+     EROSION CONTROL MANUAL — The most recent version of the New York Standards and
+     Specifications for Erosion and Sediment Control Manual, commonly known as the "Blue Book."
+     GRADING — Excavation or fill of material, including the resulting conditions therefrom.
+     IMPERVIOUS COVER — Those surfaces, improvements and structures that cannot effectively infiltrate
+     rainfall, snow melt and water (e.g., building rooftops, pavement, sidewalks, driveways, etc.).
+     INDUSTRIAL STORMWATER PERMIT — A State Pollutant Discharge Elimination System permit
+     issued to a commercial industry or group of industries which regulates the pollutant levels associated with
+     industrial stormwater discharges or specifies on-site pollution control strategies.
+     INFILTRATION — The process of percolating stormwater into the subsoil.
+     LAND DEVELOPMENT ACTIVITY — Any construction activity including clearing, grubbing, grading,
+     excavating, soil disturbance or placement of fill that results in land disturbance of equal to or greater than
+     5,000 square feet in area.
+     LANDOWNER — The legal or beneficial owner of land, including those holding the right to purchase or
+     lease the land, or any other person holding proprietary rights in the land.
+     MAINTENANCE AGREEMENT — A legally recorded document that acts as a property deed restriction,
+     and which provides for long-term maintenance of stormwater management practices.
+     NONPOINT SOURCE POLLUTION — Pollution from any source other than from any discernible,
+     confined, and discrete conveyances, and shall include, but not be limited to, pollutants from agricultural,
+     silvicultural, mining, construction, subsurface disposal and urban runoff sources.
+     PERSON — Any individual or individuals, firm, partnership, association, corporation, company,
+     organization or other legal entity of any kind, including municipal corporations, governmental agencies or
+     subdivisions thereof.
+     PHASING — Clearing a parcel of land in distinct pieces or parts, with the stabilization of each piece
+     completed before the clearing of the next.
+     POLLUTANT OF CONCERN — Sediment or a water quality measurement that addresses sediment (such
+     as total suspended solids, turbidity or siltation) and any other pollutant that has been identified as a cause
+     of impairment of any water body that will receive a discharge from the land development activity.
+     PROJECT — Land development activity or minor land disturbance activity as those terms are defined and/
+     or used in this article.
+     RAINFALL DRAINAGE CHANNELS — Those existing interconnected networks of depressed contours
+     and enlargements thereto which, by virtue of their location, convey surface water runoff from its source to
+     its ultimate points of discharge.
+     RECHARGE — The replenishment of underground water reserves.
+     SEDIMENT CONTROL — Measures that prevent eroded sediment from leaving the site.
+     SILVICULTURAL — Of or relating to the management and care of forests.
+     SPDES GENERAL PERMIT FOR CONSTRUCTION ACTIVITIES GP-02-01 — A permit under the
+     New York State Pollutant Discharge Elimination System (SPDES) issued to developers of construction
+     activities to regulate disturbance of one or more acres of land.
+     SPDES GENERAL PERMIT FOR STORMWATER DISCHARGES FROM MUNICIPAL SEPARATE
+     STORMWATER SEWER SYSTEMS GP-02-02 — A permit under the New York State Pollutant
+
+
+     Discharge Elimination System (SPDES) issued to municipalities to regulate discharges from municipal
+     separate storm sewers for compliance with EPA-established water quality standards and/or to specify
+     stormwater control standards.
+     STABILIZATION — The use of practices that prevent exposed soil from eroding.
+     STOP-WORK ORDER — An order issued by the duly authorized municipal authority which requires that
+     all land development activity and other construction activity on a site be stopped.
+     STORMWATER — Rainwater, surface runoff, snowmelt and drainage.
+     STORMWATER MANAGEMENT — The use of structural or nonstructural practices that are designed
+     to reduce stormwater runoff and mitigate its adverse impacts on property, natural resources and the
+     environment.
+     STORMWATER MANAGEMENT FACILITY — One or a series of stormwater management practices
+     installed, stabilized and operating for the purpose of controlling stormwater runoff.
+     STORMWATER MANAGEMENT OFFICER (SMO) — The Village Engineer and his or her designees,
+     and/or such other Village officers or employees as designated by the Village Manager.
+     STORMWATER MANAGEMENT PRACTICES (SMP) — Measures, either structural or nonstructural,
+     that are determined to be the most effective, practical means of preventing flood damage and preventing or
+     reducing point source or nonpoint source pollution inputs to stormwater runoff and water bodies.
+     STORMWATER POLLUTION PREVENTION PLAN (SWPPP) — A plan for controlling stormwater
+     runoff and pollutants from a site during and after construction activities.
+     STORMWATER RUNOFF — Flow on the surface of the ground, resulting from precipitation.
+     SURFACE WATERS OF THE STATE OF NEW YORK — Lakes, bays, sounds, ponds, impounding
+     reservoirs, springs, wells, rivers, streams, creeks, estuaries, marshes, inlets, canals, the Atlantic Ocean
+     within the territorial seas of the State of New York and all other bodies of surface water, natural or
+     artificial, inland or coastal, fresh or salt, public or private (except those private waters that do not combine
+     or effect a junction with natural surface or underground waters), which are wholly or partially within
+     or bordering the state or within its jurisdiction. Storm sewers and waste treatment systems, including
+     treatment ponds or lagoons which also meet the criteria of this definition, are not waters of the state. This
+     exclusion applies only to man-made bodies of water which neither were originally created in waters of the
+     state (such as a disposal area in wetlands) nor resulted from impoundment of waters of the state.
+     VILLAGE — The Village of Croton-on-Hudson, New York.
+     VILLAGE ENGINEER — The person employed as a Village Engineer of the Village of Croton-on-
+     Hudson, or his or her designee.
+     WATERCOURSE — The term "watercourse" as defined in § 227-3 of the Village Code now or as
+     hereafter amended.
+     WETLAND — The term "wetland" as defined in § 227-3 of the Village Code now or as hereafter amended.
+
+     § 196-6. Stormwater pollution prevention plans.
+
+     A.    No application for approval of a land development activity shall be reviewed until the appropriate
+           approving authority has received a stormwater pollution prevention plan (SWPPP) prepared in
+           accordance with the requirements of this article.
+
+     B.    All SWPPPs shall provide the following background information, erosion and sediment control, and
+
+
+     § 196-6                      STORMWATER, DRAINAGE, EROSION AND WATER                                   § 196-6
+
+           stormwater management measures relating to stormwater quantity:
+
+           (1)    Background information about the scope of the project, including location, type and size of
+                  project.
+
+           (2)    Site map/construction drawing(s) for the project, including a general location map. At a
+                  minimum, the site map shall show the total site area; all improvements; areas of disturbance;
+                  areas that will not be disturbed; existing vegetation; on-site and adjacent off-site surface
+                  water(s); wetlands and drainage patterns that could be affected by the construction activity;
+                  existing and final slopes; locations of off-site material, waste, borrow or equipment storage
+                  areas; and location(s) of the stormwater discharge(s). The site map shall be at a scale no smaller
+                  than one inch equals 50 feet.
+
+           (3)    Description of the soil(s) present at the site and soil test results, if requested.
+
+           (4)    Construction phasing plan describing the intended sequence of construction activities, including
+                  clearing and grubbing, excavation and grading, utility and infrastructure installation and any
+                  other activity at the site that results in soil disturbance. Not more than two acres shall be
+                  disturbed at any one time; provided, however, the approval authority may opt to increase the
+                  amount of land that may be exposed at any one time pursuant to an approved SWPPP.
+
+           (5)    Description of the pollution prevention measures that will be used to control construction
+                  materials, chemicals and debris from becoming a pollutant source in stormwater runoff.
+
+           (6)    Description of construction and waste materials expected to be stored on-site with updates as
+                  appropriate, and a description of controls to reduce pollutants from these materials, including
+                  storage practices to minimize exposure of the materials to stormwater, and spill-prevention and
+                  response.
+
+           (7)    Temporary and permanent structural and vegetative measures to be used for soil stabilization,
+                  runoff control and sediment control for each stage of the project from initial land clearing and
+                  grubbing to project close-out.
+
+           (8)    A site map/construction drawing(s) specifying the location(s), size(s) and length(s) of each
+                  erosion and sediment control practice.
+
+           (9)    Dimensions, material specifications and installation details for all erosion and sediment control
+                  practices, including the siting and sizing of any temporary sediment basins.
+
+           (10) Temporary practices that will be converted to permanent control measures.
+
+           (11) Implementation schedule for staging temporary erosion and sediment control practices,
+                including the timing of initial placement and duration that each practice will remain in place
+                until the site is stabilized.
+
+           (12) Maintenance schedule to ensure continuous and effective operation of the erosion and sediment
+                control practice.
+
+           (13) Name(s) of the receiving water(s) and NYSDEC classification(s), if applicable.
+
+           (14) Delineation of SWPPP implementation responsibilities for each part of the site.
+
+           (15) Description of structural practices designed to divert flows from exposed soils, store flows, or
+                otherwise limit runoff and the discharge of pollutants from exposed areas of the site to the
+
+
+                  degree attainable.
+
+           (16) Any existing data that describes the stormwater runoff at the site.
+
+           (17) An acknowledgement by the landowner granting to the Village and other agencies having
+                jurisdiction the right to enter the property at reasonable times and in a reasonable manner for the
+                purpose of inspection.
+
+           (18) Description of each postconstruction stormwater management practice, including but not
+                limited to dimensions, material specifications, and installation details for each postconstruction
+                stormwater management practice.
+
+           (19) Site map/construction drawing(s) showing the specific location(s) and size(s) of each
+                postconstruction stormwater management practice.
+
+           (20) Hydrologic and hydraulic analysis for all structural components of the stormwater management
+                system for the applicable design storms, as per the manual specified in § 196-8A(1) herein.
+
+           (21) Comparison of postdevelopment stormwater runoff conditions with pre-development
+                conditions.
+
+           (22) Maintenance schedule to ensure continuous and effective operation of each postconstruction
+                stormwater management practice.
+
+     C.    In addition to the information requirements of § 196-6B, SWPPPs for land development activities
+           disturbing one or more acres, whether or not these land development activities involve discharging a
+           pollutant of concern to either an impaired water identified on the Department's 303(d) list of impaired
+           waters or a total maximum daily load (TMDL) designated watershed for which pollutants in
+           stormwater have been identified as a source of the impairment, must provide the following water
+           quality controls (poststormwater construction controls):
+
+           (1)    Description of each postconstruction stormwater management quality practice.
+
+           (2)    Site map/construction drawing(s) showing the specific location(s) and size(s) of each
+                  postconstruction stormwater management quality practice.
+
+           (3)    Hydrologic and hydraulic analysis for all structural components of the stormwater management
+                  quality system for the applicable design storms, as per the manual specified in § 196-8A(1)
+                  herein.
+
+           (4)    Dimensions, material specifications and installation details for each postconstruction
+                  stormwater management quality practice.
+
+           (5)    Maintenance schedule to ensure continuous and effective operation of each postconstruction
+                  stormwater management quality practice.
+
+           (6)    Maintenance easement(s), where required, to ensure access to all stormwater management
+                  practices at the site for the purpose of inspection and repair. Easements shall be recorded and
+                  shall remain in effect with transfer of title to the property.
+
+           (7)    Inspection and maintenance agreement recorded and binding on all subsequent landowners
+                  served by the on-site stormwater management measures in accordance with § 196-9 of this
+                  article.
+
+
+     § 196-6                      STORMWATER, DRAINAGE, EROSION AND WATER                                 § 196-7
+
+     D.    The SWPPP shall be prepared by a landscape architect, certified professional in erosion and sediment
+           control, professional engineer, or other professional(s) deemed acceptable by the NYSDEC and must
+           be signed by the professional preparing the plan, who shall certify that the design of all stormwater
+           management practices meets the requirements in this article.
+
+     E.    The applicant shall assure that all other applicable environmental permits have been or will be
+           acquired for the land development activity prior to approval of the final stormwater design plan.
+
+     F.    Each contractor and subcontractor identified in the SWPPP and/or any successor or substitute
+           contractor or subcontractor who will be involved in soil disturbance and/or stormwater management
+           practice installation shall sign and date a copy of the following certification statement before
+           undertaking any land development activity: "I certify under penalty of law that I understand and agree
+           to comply with the terms and conditions of the stormwater pollution prevention plan. I also
+           understand that it is unlawful for any person to cause or contribute to a violation of water quality
+           standards." Copies of these statements shall be delivered to the SMO.
+
+           (1)    The certification must include the name and title of the person providing the signature, address
+                  and telephone number of the contracting firm; the address (or other identifying description) of
+                  the site; and the date the certification is made.
+
+           (2)    The certification statement(s) shall become part of the SWPPP for the land development
+                  activity.
+
+           (3)    The certification shall contain proof that each contractor who will be involved in a land
+                  development activity has obtained training and/or certification in proper erosion and
+                  sedimentation control practices. Such certification shall become part of the SWPPP for the land
+                  development activity and shall be retained on-site.
+
+     G.    A copy of the SWPPP shall be retained at the site of the land development activity during construction
+           from the date of initiation of construction activities to the date of final stabilization.
+
+     § 196-7. Stormwater management and erosion and sediment control for minor land disturbance
+     activities.
+
+     A.    All activities which require a building, land use or environmental permit and involve 400 square feet
+           or more of land disturbance but which do not meet the defined size threshold in § 196-5, Definitions,
+           for a land development activity, or any disturbance within 20 feet of a rainfall drainage channel, are
+           subject to the review and approval of the Stormwater Management Officer.
+
+     B.    An application for approval of such a minor land disturbance activity, as specified in Subsection A
+           above, shall include, except as may be waived by the SMO, the following background information,
+           erosion and sediment controls, and stormwater management practices. Such activity is subject to the
+           performance and design criteria in § 196-8A herein, and the application shall show that there will be
+           no net increase in the rate of runoff resulting from the project for the ten-year storm event.
+
+           (1)    Background information about the scope of the project, including location, type and size of
+                  project.
+
+           (2)    Site map/construction drawing(s) for the project, including a general location map. At a
+                  minimum, the site map shall show the total site area; all improvements; areas of disturbance;
+                  areas that will not be disturbed; existing vegetation; on-site and adjacent off-site surface
+                  water(s); wetlands and drainage patterns that could be affected by the construction activity;
+
+
+                  existing and final slopes; locations of off-site material, waste, borrow or equipment storage
+                  areas; and location(s) of the stormwater discharge(s). The site map shall be at a scale no smaller
+                  than one inch equals 50 feet.
+
+           (3)    Description of the soil(s) present at the site and soil test results, if requested.
+
+           (4)    Construction phasing plan describing the intended sequence of construction activities, including
+                  clearing and grubbing, excavation and grading, utility and infrastructure installation and any
+                  other activity at the site that results in soil disturbance.
+
+           (5)    Temporary and permanent structural and vegetative measures to be used for soil stabilization,
+                  runoff control and sediment control for the project from initial land clearing and grubbing to
+                  project close-out.
+
+           (6)    A site map/construction drawing(s) specifying the location(s), size(s) and length(s) of each
+                  erosion and sediment control practice.
+
+           (7)    Dimensions, material specifications and installation details for all erosion and sediment control
+                  practices.
+
+           (8)    Implementation schedule for staging temporary erosion and sediment control practices,
+                  including the timing of initial placement and duration that each practice will remain in place
+                  until the site is stabilized.
+
+           (9)    Maintenance schedule to ensure continuous and effective operation of the erosion and sediment
+                  control practice.
+
+           (10) Name(s) of the receiving water(s) and NYSDEC classification(s), if applicable.
+
+           (11) Any existing data that describes the stormwater runoff at the site.
+
+           (12) An acknowledgement by the landowner granting to the Village and other agencies having
+                jurisdiction the right to enter the property at reasonable times and in a reasonable manner for the
+                purpose of inspection.
+
+           (13) Description of each postconstruction stormwater management practice, including but not
+                limited to dimensions, material specifications and installation details for each postconstruction
+                stormwater management practice.
+
+           (14) Site map/construction drawing(s) showing the specific location(s) and size(s) of each
+                postconstruction stormwater management practice.
+
+           (15) Hydrologic and hydraulic analysis for all structural components of the stormwater management
+                system for the applicable design storm.
+
+           (16) Comparison of post-development stormwater runoff conditions with predevelopment
+                conditions.
+
+     § 196-8. Performance and design criteria for stormwater management and erosion and sediment
+     control.
+
+     All land development activities shall be subject to the following performance and design criteria:
+
+     A.    For the purpose of this article, the following documents shall serve as the official guides and
+
+
+     § 196-8                      STORMWATER, DRAINAGE, EROSION AND WATER                                  § 196-9
+
+           specifications for stormwater management. Stormwater management practices that are designed and
+           constructed in accordance with these technical documents shall be presumed to meet the standards
+           imposed by this article chapter. Copies of the two manuals are on file in the office of the Stormwater
+           Management Officer. (NOTE: The New York State technical guidance documents may be ordered
+           from The Department. An order form as well as downloadable versions of the Manuals are available
+           on the Internet at: http://www.dec.state.ny.us/website/dow/toolbox/escstandards/index.html or
+           http://www.dos.state.ny.us/lgss/stormwaterpub/index.html.)
+
+           (1)    The New York State Stormwater Management Design Manual (New York State Department of
+                  Environmental Conservation, most recent version including applicable updates or its successors,
+                  hereafter referred to as the "Design Manual").
+
+           (2)    New York Standards and Specifications for Erosion and Sediment Control (Empire State
+                  Chapter of the Soil and Water Conservation Society, 2005, most recent version, including
+                  applicable updates, or its successors, hereafter referred to as the "Erosion Control Manual").
+
+     B.    Where stormwater management practices are not in accordance with technical standards, the owner,
+           applicant or developer must demonstrate equivalence to the technical standards as set forth in § 196-8,
+           and the SWPPP shall be prepared by a certified professional in erosion and sediment control,
+           professional engineer or other professional(s) deemed acceptable by the NYSDEC.
+
+     C.    No land development activity shall cause an increase in turbidity that will result in substantial visible
+           contrast to natural conditions in surface waters of the State of New York.
+
+     § 196-9. Maintenance, inspection and repair of stormwater facilities.
+
+     A.    The owner, applicant or developer of the land development activity shall at all times properly operate
+           and maintain all facilities and systems of treatment and control (and related appurtenances) which are
+           installed or used by the owner, applicant or developer to achieve compliance with the conditions of
+           this article. Sediment shall be removed from sediment traps or sediment ponds whenever their design
+           capacity has been reduced by 50%, and placed in an acceptable location and properly stabilized.
+
+     B.    The owner, applicant, developer or its representative shall be on site at all times when construction or
+           grading activity takes place and shall maintain the effectiveness of all erosion and sediment control
+           practices. Inspections shall be conducted and inspection reports shall be completed by a landscape
+           architect, certified professional in erosion and sediment control, professional engineer or other
+           professional(s) deemed acceptable by the NYSDEC every seven days and within 24 hours of any
+           storm event producing 0.5 inch of precipitation or more. The reports shall be maintained in a site log
+           book and transmitted to the SMO within two business days of the date of the inspection.
+
+     C.    Prior to the issuance of any approval that has a permanent stormwater management facility as one of
+           the requirements, other than one serving an individual single-family residence, the owner, applicant
+           or developer must execute an easement that shall be binding on all subsequent landowners served by
+           the permanent stormwater management facility. The easement shall be in a form acceptable to the
+           Village Attorney and shall provide for access to the facility at reasonable times for periodic inspection
+           by the Village to ensure that the facility is maintained in proper working condition to meet design
+           standards and any other provisions established by this article. The easement shall be recorded by the
+           grantor in the office of the County Clerk after approval by the Village Attorney.
+
+     D.    The owner or operator of permanent stormwater management practices installed in accordance with
+           this article shall operate and maintain the stormwater management practices to achieve the goals of
+           this article. Proper operation and maintenance also includes, as a minimum, the following:
+
+
+           (1)    A preventive/corrective maintenance program for all facilities and systems of treatment and
+                  control (or related appurtenances) which are installed or used by the owner or operator to
+                  achieve the goals of this article.
+
+           (2)    Written procedures for operation and maintenance and training new maintenance personnel.
+
+           (3)    Discharges from the SMPs shall not exceed design criteria or cause or contribute to water
+                  quality standard violations in accordance with § 196-8C.
+
+           (4)    If required by the SMO, an annual report shall be submitted to the SMO within 30 calendar days
+                  of the end of the calendar year.
+
+     E.    Prior to the issuance of any final plan approval, the owner, applicant or developer must execute a
+           formal maintenance agreement for permanent stormwater management facilities, other than those
+           serving an individual single-family residence, binding on all subsequent landowners. The
+           maintenance agreement shall be in a form acceptable to the Village Attorney and shall be recorded in
+           the office of the County Clerk as a deed restriction on the property. The Village of Croton-on-Hudson,
+           in lieu of a maintenance agreement, at its sole discretion may accept dedication of any existing or
+           future permanent stormwater management facility, provided such facility meets all the requirements
+           of this article and includes adequate and perpetual access and sufficient area, by easement or
+           otherwise, for inspection and regular maintenance.
+
+     § 196-10. Construction inspection, administration and maintenance.
+
+     A.    The Stormwater Management Officer may require such inspections as are necessary to determine
+           compliance with this article and may either approve that portion of the work completed or notify the
+           applicant wherein the work fails to comply with the requirements of this article and the stormwater
+           pollution prevention plan (SWPPP) as approved.
+
+           (1)    To obtain inspections, the applicant shall notify Village enforcement officials at least 48 hours
+                  before any of the following as required by the Stormwater Management Officer:
+
+                  (a)    Start of construction;
+
+                  (b)    Installation of sediment and erosion control measures;
+
+                  (c)    Completion of site clearing;
+
+                  (d)    Completion of rough grading;
+
+                  (e)    Installation of constructed stormwater improvements;
+
+                  (f)    Completion of final grading;
+
+                  (g)    Close of the construction season;
+
+                  (h)    Completion of final landscaping; and
+
+                  (i)    Successful establishment of landscaping in public areas.
+
+           (2)    If any violations are found, the owner, applicant and/or developer shall be notified in writing of
+                  the nature of the violation and the required corrective actions. No further work shall be
+                  conducted except for site stabilization until any violations are corrected and all work previously
+                  completed has received approval by the Stormwater Management Officer.
+
+
+     § 196-10                     STORMWATER, DRAINAGE, EROSION AND WATER                                 § 196-11
+
+     B.    It shall be the primary responsibility of the property owner(s) and the successor property owner(s) to
+           perform all necessary inspections, maintenance, report submissions, adjustments, repair, replacement
+           and reconstruction of the stormwater management facilities. Required inspections shall be conducted
+           and reports prepared by a certified professional in erosion and sediment control, a professional
+           engineer or other professional(s) deemed acceptable by the NYSDEC. If, at any time, the Stormwater
+           Management Officer determines that necessary inspections, reports, maintenance, repairs,
+           adjustments, replacements or reconstructions have not been properly performed, notice of such
+           determination shall be given to the property owner(s) of the property or properties upon which the
+           stormwater facility or facilities are situated and shall provide a reasonable period under the
+           circumstances to cure such improper performance. If the property owner(s) fails to timely correct any
+           and all deficiencies as provided in the notice, the Village may undertake to perform any such work or
+           work that it finds, in its sole judgment, as necessary to preserve the stormwater management functions
+           or stormwater management practices (SMPs), at the cost and expense of the property owner(s) and
+           the successor property owner(s). Copies of all bills, statements and invoices substantiating such costs,
+           including costs of consultants, shall be included with written notice of same. In the event that all such
+           costs and expenses are not paid within 30 days of issuance of statements for this work, the total cost
+           of such work shall constitute a lien against the property or properties upon which the stormwater
+           management facilities are situated, which shall be levied and collected in the same manner as Village
+           real estate taxes or in such manner otherwise provided by law. The property owner(s) and the
+           successor property owner(s) shall be personally liable for the payment of all such costs, including
+           costs of collection and reasonable attorney's fees. Where multiple lots are involved, each lot shall
+           individually and separately bear its equal share of such costs.
+
+     C.    Except for activities regulated under § 196-7 herein, all applicants are required to submit "as built"
+           plans for any stormwater management practices located on-site after final construction is completed.
+           The plan must show the final design specifications for all stormwater management facilities and must
+           be certified by a New York State licensed land surveyor or professional engineer.
+
+     D.    Inspection programs may be established on any reasonable basis, including, but not limited to: routine
+           inspections; random inspections; inspections based upon complaints or other notice of possible
+           violations; inspection of drainage basins or areas identified as higher than typical sources of sediment
+           or other contaminants or pollutants; inspections of businesses or industries of a type associated with
+           higher than usual discharges of contaminants or pollutants or with discharges of a type which are
+           more likely than the typical discharge to cause violations of state or federal water or sediment quality
+           standards or the SPDES stormwater permit; and joint inspections with other agencies inspecting
+           under environmental or safety laws. Inspections may include, but are not limited to: reviewing
+           maintenance and repair records; sampling discharges, surface water, groundwater, and material or
+           water in drainage control facilities; and evaluating the condition of drainage control facilities and
+           other stormwater management practices.
+
+     E.    The Stormwater Management Officer may require monitoring and reporting from entities subject to
+           this article as are necessary to determine compliance with this article.
+
+     F.    When any new stormwater management facility is installed on private property or when any new
+           connection is made between private property and the public stormwater system, the landowner shall
+           grant to the Village and other agencies having jurisdiction the right to enter the property at reasonable
+           times and in a reasonable manner for the purpose of inspection.
+
+     § 196-11. Performance guarantee.
+
+     A.    In order to ensure the full and faithful completion of all land development activities related to
+
+
+           compliance with all conditions set forth by the Village in its approval of the stormwater pollution
+           prevention plan, the Village may require the owner, applicant or developer to provide, prior to
+           construction, a performance bond, cash escrow, or irrevocable letter of credit from an appropriate
+           financial or surety institution which guarantees satisfactory completion of the project and names the
+           Village as the beneficiary. The security shall be in an amount to be determined by the Village based
+           on submission of final design plans, with reference to actual construction and landscaping costs. The
+           performance guarantee shall remain in force until the surety is released from liability by the Village,
+           provided that such period shall not be less than one year from the date of final acceptance or such
+           other certification that the facility(ies) has been constructed in accordance with the approved plans
+           and specifications and that a one-year inspection has been conducted and the facilities have been
+           found to be acceptable to the Village. Per-annum interest on cash escrow deposits shall be reinvested
+           in the account until the surety is released from liability.
+
+     B.    Where stormwater management and erosion and sediment control facilities are to be operated and
+           maintained by the developer or by a corporation that owns or manages a commercial or industrial
+           facility, the developer, prior to construction, may be required to provide the Village with an
+           irrevocable letter of credit from an approved financial institution or surety to ensure proper operation
+           and maintenance of all stormwater management and erosion control facilities both during and after
+           construction based upon the advice of the SMO. If the developer or landowner fails to properly
+           operate and maintain stormwater management and erosion and sediment control facilities, the Village
+           may draw upon the account to cover the costs of proper operation and maintenance, including
+           engineering and inspection costs.
+
+     C.    Entities subject to this article shall maintain records demonstrating compliance with this article.
+
+     § 196-12. Enforcement; penalties for offenses.
+
+     A.    When the SMO determines that a land development activity is not being carried out in accordance
+           with any requirement of this article, or that any provision of this article is not being complied with,
+           the SMO may issue a written notice of violation to the landowner, applicant, contractor and/or
+           developer. The notice of violation shall contain:
+
+           (1)    The name and address of the landowner, contractor, developer or applicant;
+
+           (2)    The address, when available, or a description of the building, structure or land upon which the
+                  violation is occurring;
+
+           (3)    A statement specifying the nature of the violation;
+
+           (4)    A description of the remedial measures necessary to cure the violation and a time schedule for
+                  the completion of such remedial action; and
+
+           (5)    A statement of the penalty or penalties that shall or may be assessed against the person to whom
+                  the notice of violation is directed.
+
+     B.    If the notice of violation is not complied with within the time provided in the notice, the SMO may
+           request the Village Attorney to institute the appropriate proceedings at law or in equity to prosecute,
+           restrain, correct or abate such violation and for other attendant remedial measures.
+
+     C.    The SMO may issue a stop-work order for violations of this article. Persons receiving a stop-work
+           order shall be required to halt all land development activities and other construction activities on the
+           site, except those activities, approved by the SMO, that address the violations leading to the stop-
+
+
+     § 196-12                     STORMWATER, DRAINAGE, EROSION AND WATER                                 § 196-13
+
+           work order. The stop-work order shall be in effect until the SMO confirms that the violation has
+           been satisfactorily addressed. Failure to address a stop-work order in a timely manner may result in
+           civil, criminal, or monetary penalties in accordance with the enforcement measures authorized in this
+           article.
+
+     D.    Issuance of a stop-work order by the SMO shall be as provided in Chapter 86 of the Village Code. A
+           stop-work order may be appealed by filing a written notice of appeal with the Planning Board not
+           later than 30 days after service of the stop-work order upon the applicant. A hearing shall be
+           scheduled by the Planning Board within 20 days of receipt of request for a hearing. After the close of
+           the hearing, the Planning Board may confirm, modify or cancel the stop-work order.
+
+     E.    Any violation of this article may be restrained by injunction or otherwise abated in a manner provided
+           by this article.
+
+     F.    Any person who violates the provisions of this article shall be guilty of an offense punishable by a
+           fine not less than $500 nor more than $1,000 or imprisonment for a period not to exceed six months,
+           or both, for conviction of a first offense; for conviction of a second offense, both of which were
+           committed within a period of five years, punishable by a fine not less than $1,000 nor more than
+           $1,500 or imprisonment for a period not to exceed six months, or both; and upon conviction for a
+           third or subsequent offense, all of which were committed within a period of five years, punishable by
+           a fine not less than $1,500 nor more than $2,000 or imprisonment for a period not to exceed six
+           months, or both. However, for the purposes of conferring jurisdiction upon courts and judicial officers
+           generally, violations of this article shall be deemed misdemeanors, and for such purpose only all
+           provisions of law relating to misdemeanors shall apply to such violations. Each week's continued
+           violation shall constitute a separate additional violation.
+
+     G.    In addition to any penalty provided herein or by law, any person in violation of this article may be
+           required to restore land to its undisturbed condition and/or mitigate on-site and off-site damage from
+           stormwater runoff, sediment or pollutants resulting from the violator's activities. In the event that
+           restoration is not undertaken within a reasonable time after notice, the SMO may take necessary
+           corrective action, the cost of which shall become a lien upon the property until paid.
+
+     H.    Under exigent circumstances, if any building or land development activity, minor land disturbance
+           activity or permanent stormwater management facility is installed, conducted or operated in violation
+           of this article, the Stormwater Management Officer may prevent the occupancy of said building or
+           land, including the withholding of a certificate of occupancy. It shall be the obligation of the property
+           owner to remediate the violation, at which time the Stormwater Management Officer shall further
+           consider allowing occupancy of the building or land.
+
+     § 196-13. Fees for services.
+
+     Application fees established by resolution of the Village Board of Trustees shall be submitted with the
+     application. In addition, in accordance with the provisions of Chapter 178 of the Village Code, any person
+     undertaking land development activities regulated by this article shall reimburse the Village for the cost
+     of professional services incurred by the Village for the review of SWPPPs and for the performance of
+     inspections and/or maintenance activities as provided in this article. The Village may establish escrow
+     accounts for these purposes as provided in Chapter 178 of the Village Code.
+
+
+     § 196-14                     STORMWATER, DRAINAGE, EROSION AND WATER                                 § 196-15
+
+                                                     ARTICLE II
+                     Illegal Discharges and Illicit Connections to Separate Storm Sewer System
+
+     § 196-14. Purpose and objectives.
+
+     A.    The purpose of this article is to provide for the health, safety, and general welfare of the citizens of
+           the Village of Croton-on-Hudson through the regulation of nonstormwater discharges to the
+           municipal separate storm sewer system (MS4) to the maximum extent practicable as required by
+           federal and state law. This article establishes methods for controlling the introduction of pollutants or
+           excess flow into the MS4 in order to comply with requirements of the SPDES General Permit for
+           Municipal Separate Storm Sewer Systems.
+
+     B.    The objectives of this article are:
+
+           (1)    To meet the requirements of the SPDES General Permit for Stormwater Discharges from MS4s,
+                  Permit No. GP-02-02 or as amended or revised;
+
+           (2)    To regulate the contribution of pollutants to the MS4 since such systems are not designed to
+                  accept, process or discharge nonstormwater wastes;
+
+           (3)    To prohibit illegal discharges and illicit connections to the MS4;
+
+           (4)    To establish legal authority to carry out all inspection, surveillance and monitoring procedures
+                  necessary to ensure compliance with this article; and
+
+           (5)    To promote public awareness of the adverse environmental impacts involved in the improper
+                  discharge of trash, yard waste, lawn chemicals, pet waste, wastewater, grease, oil, petroleum
+                  products, cleaning products, paint products, hazardous waste, sediment and other pollutants into
+                  the MS4.
+
+     § 196-15. Definitions.
+
+     Whenever used in this article, the following terms will have meanings set forth below:
+     BEST MANAGEMENT PRACTICES (BMPs) — Schedules of activities, prohibitions of practices,
+     general good housekeeping practices, pollution prevention and educational practices, maintenance
+     procedures, and other management practices to prevent or reduce the discharge of pollutants directly
+     or indirectly to stormwater, receiving waters, or stormwater conveyance systems. BMPs also include
+     treatment practices, operating procedures, and practices to control site runoff, spillage or leaks, sludge or
+     water disposal, or drainage from raw materials storage.
+     CLEAN WATER ACT — The Federal Water Pollution Control Act (33 U.S.C. § 1251 et seq.), and any
+     subsequent amendments thereto.
+     DESIGN PROFESSIONAL — A New York State licensed professional engineer or architect.
+     EPA — The United States Environmental Protection Agency.
+     HAZARDOUS MATERIALS — Any material, including any substance, waste, or combination thereof,
+     which because of its quantity, concentration, or physical, chemical, or infectious characteristics may cause,
+     or significantly contribute to, a substantial present or potential hazard to human health, safety, property, or
+     the environment when improperly treated, stored, transported, disposed of, or otherwise managed.
+     ILLEGAL DISCHARGE — Any direct or indirect nonstormwater discharge to the MS4, except as
+     exempted in § 196-18A of this article.
+
+
+     § 196-15                     STORMWATER, DRAINAGE, EROSION AND WATER                                § 196-15
+
+     ILLICIT CONNECTIONS — Any drain or conveyance, whether on the surface or subsurface, which
+     allows an illegal discharge to enter the MS4, including, but not limited to:
+
+     A.    Any conveyances which allow any nonstormwater discharge, including but not limited to treated or
+           untreated sewage, process wastewater, and wash water, to enter the MS4 and any connections to the
+           storm drain system from indoor drains and sinks, regardless of whether said drain or connection had
+           been previously allowed, permitted or approved by an authorized enforcement agency; or
+
+     B.    Any drain or conveyance connected from a commercial or industrial land use to the MS4 which
+           has not been documented in plans, maps or equivalent records and approved by an authorized
+           enforcement agency.
+     INDIVIDUAL SEWAGE TREATMENT SYSTEM — A facility serving one or more parcels of land or
+     residential households, or a private, commercial or institutional facility, that treats sewage or other liquid
+     wastes for discharge into the groundwaters of New York State, except where a permit for such a facility is
+     required under the applicable provisions of Article 17 of the Environmental Conservation Law.
+     MS4 — The Municipal separate storm sewer system.
+     MUNICIPAL SEPARATE STORM SEWER SYSTEM — A conveyance or system of conveyances
+     (including roads with drainage systems, municipal streets, catch basins, curbs, gutters, ditches, man-made
+     channels, or storm drains):
+
+     A.    Owned or operated by the Village of Croton-on-Hudson;
+
+     B.    Designed or used for collecting or conveying stormwater;
+
+     C.    Which is not a combined sewer; and
+
+     D.    Which is not part of a publicly owned treatment works (POTW) as defined at 40 CFR 122.2.
+     NONSTORMWATER DISCHARGE — Any discharge to the MS4 that is not composed entirely of
+     stormwater.
+     NYSDEC — The New York State Department of Environmental Conservation.
+     PERSON — Any individual or individuals, firm, partnership, association, corporation, company,
+     organization or other legal entity of any kind, including municipal corporations, governmental agencies or
+     subdivisions thereof.
+     POLLUTANT — Dredged spoil, filter backwash, solid waste, incinerator residue, treated or untreated
+     sewage, garbage, sewage sludge, munitions, chemical wastes, biological materials, radioactive materials,
+     heat, wrecked or discarded equipment, rock, sand and industrial, municipal, agricultural waste and ballast
+     discharged into water, which may cause or might reasonably be expected to cause pollution of the waters
+     of the state in contravention of the standards.
+     POLLUTANT OF CONCERN — Sediment or a water quality measurement that addresses sediment (such
+     as total suspended solids, turbidity or siltation) and any other pollutant that has been identified as a cause
+     of impairment of any water body that will receive a discharge from the land development activity.
+     PREMISES — Any building, lot, parcel of land, or portion of land, whether improved or unimproved,
+     including adjacent sidewalks and parking strips.
+     SPECIAL CONDITIONS —
+
+     A.    DISCHARGE COMPLIANCE WITH WATER QUALITY STANDARDS — The condition that
+           applies where the Village has been notified by the NYSDEC that the discharge of stormwater
+
+
+           authorized under its MS4 permit may have caused or has the reasonable potential to cause or
+           contribute to the violation of an applicable water quality standard. Under this condition, the Village
+           must take all necessary actions to ensure future discharges do not cause or contribute to a violation of
+           water quality standards.
+
+     B.    LISTED WATERS — TERS — The condition in the Village's MS4 permit that applies where the
+           MS4 discharges to a 303(d) listed water. Under this condition, the stormwater management program
+           must ensure no increase of the listed pollutant of concern to the 303(d) listed water.
+
+     C.    TOTAL MAXIMUM DAILY LOAD (TMDL) STRATEGY — The condition in the Village's
+           MS4 permit where a TMDL including requirements for control of stormwater discharges has been
+           approved by the EPA for a water body or watershed into which the MS4 discharges. If the discharge
+           from the MS4 did not meet the TMDL stormwater allocations prior to September 10, 2003, the
+           Village was required to modify its stormwater management program to ensure that reduction of the
+           pollutant of concern specified in the TMDL is achieved.
+
+     D.    THE CONDITION IN THE VILLAGE'S MS4 PERMIT THAT APPLIES IF A TMDL IS
+           APPROVED IN THE FUTURE BY THE EPA FOR ANY WATER BODY OR WATERSHED
+           INTO WHICH AN MS4 DISCHARGES — Under this condition, the Village must review the
+           applicable TMDL to see if it includes requirements for control of stormwater discharges. If an MS4
+           is not meeting the TMDL stormwater allocations, the Village must, within six months of the TMDL's
+           approval, modify its stormwater management program to ensure that reduction of the pollutant of
+           concern specified in the TMDL is achieved.
+     STATE POLLUTANT DISCHARGE ELIMINATION SYSTEM (SPDES) STORMWATER
+     DISCHARGE PERMIT — A permit issued by the NYSDEC that authorizes the discharge of pollutants to
+     waters of the state.
+     STORMWATER — Rainwater, surface runoff, snowmelt and drainage.
+     STORMWATER MANAGEMENT OFFICER (SMO) — The Village Engineer and his or her designees,
+     and/or such other Village officers or employees as designated by the Village Manager. The Westchester
+     County Department of Health presently is and shall continue to be the enforcement authority for the design,
+     repair, replacement and operation of individual sewage treatment systems within the MS4.
+     303(d) LIST — A list of all surface waters in the state for which beneficial uses of the water (drinking,
+     recreation, aquatic habitat, and industrial use) are impaired by pollutants, prepared periodically by the DEC
+     as required by Section 303(d) of the Clean Water Act. 303(d) listed waters are estuaries, lakes and streams
+     that fall short of state surface water quality standards and are not expected to improve within the next two
+     years.
+     TOTAL MAXIMUM DAILY LOAD (TMDL) — The maximum amount of a pollutant to be allowed to
+     be released into a water body so as not to impair uses of the water, allocated among the sources of that
+     pollutant.
+     VILLAGE — The Village of Croton-on-Hudson, New York.
+     WASTEWATER — Water that is not stormwater, is contaminated with pollutants and is or will be
+     discarded.
+
+     § 196-16. Applicability.
+
+     This article shall apply to all water entering the MS4 generated on any developed and undeveloped lands
+     unless explicitly exempted by an authorized enforcement agency.
+
+
+     § 196-17                     STORMWATER, DRAINAGE, EROSION AND WATER                                  § 196-19
+
+     § 196-17. Administration and enforcement.
+
+     The Stormwater Management Officer(s) shall administer, implement and enforce the provisions of this
+     article. Such powers granted or duties imposed upon the SMO(s) may be delegated by the SMO(s) as may
+     be authorized by the Village Manager.
+
+     § 196-18. Prohibition of illegal discharges and illicit connections; exceptions.
+
+     A.    Prohibition of illegal discharges. No person shall discharge or cause to be discharged into the MS4
+           any materials other than stormwater except as provided in § 196-18A. The commencement, conduct
+           or continuance of any illegal discharge to the MS4 is prohibited except as described as follows:
+
+           (1)    The following discharges are exempt from discharge prohibitions established by this article,
+                  unless the NYSDEC or the Village Board of Trustees by resolution has determined them to be
+                  substantial contributors of pollutants: water line flushing or other potable water sources,
+                  landscape irrigation or lawn watering, existing diverted stream flows, rising groundwater,
+                  uncontaminated groundwater infiltration to storm drains, uncontaminated pumped groundwater,
+                  foundation or footing drains, crawl space or basement sump pumps, air conditioning
+                  condensate, irrigation water, springs, water from individual residential car washing, natural
+                  riparian habitat or wetland flows, dechlorinated swimming pool discharges, residential street
+                  wash water, water from fire-fighting activities, and any other water source not containing
+                  pollutants.
+
+           (2)    Discharges approved in writing by the SMO to protect life or property from imminent harm or
+                  damage, provided that such approval shall not be construed to constitute compliance with other
+                  applicable laws and requirements, and further provided that such discharges may be permitted
+                  for a specified time period and under such conditions as the SMO may deem appropriate to
+                  protect such life and property while reasonably maintaining the purpose and intent of this article.
+
+           (3)    Dye testing in compliance with applicable state and local laws is a allowable discharge, but
+                  requires a verbal notification to the SMO at least 24 hours prior to the time of the test.
+
+           (4)    The prohibition shall not apply to any discharge permitted under a SPDES permit, waiver, or
+                  waste discharge order issued to the discharger and administered under the authority of the
+                  NYSDEC, provided that the discharger is in full compliance with all requirements of the permit,
+                  waiver, or order and other applicable laws and regulations, and provided that written approval
+                  has been granted for any discharge to the MS4.
+
+     B.    Prohibition of illicit connections.
+
+           (1)    The construction, use, maintenance or continued existence of illicit connections to the MS4 is
+                  prohibited.
+
+           (2)    This prohibition expressly includes, without limitation, illicit connections made in the past,
+                  regardless of whether the connection was permissible under law or practices applicable or
+                  prevailing at the time of connection.
+
+           (3)    A person is considered to be in violation of this article if the person connects a line conveying
+                  sewage or any other wastewater discharge to the Village's MS4, or allows such a connection to
+                  continue.
+
+     § 196-19. Prohibition against activities contaminating stormwater.
+
+
+     A.    Activities that are subject to the requirements of this section include:
+
+           (1)    Activities that cause or contribute to a violation of the Village's MS4 SPDES permit.
+
+           (2)    Activities that cause or contribute to the Village being subject to the special conditions as
+                  defined in § 196-15, Definitions, of this article.
+
+     B.    Upon notification to a person that he or she is engaged in activities that cause or contribute to
+           violations of the Village's MS4 SPDES permit authorization, that person shall take all reasonable
+           actions to correct such activities such that he or she no longer causes or contributes to violations of
+           the Village's MS4 SPDES permit authorization.
+
+     § 196-20. Use of best management practices required.
+
+     A.    Where the SMO has identified illegal discharges as defined in § 196-15 or activities contaminating
+           stormwater as defined in § 196-19, the Village may require implementation of best management
+           practices (BMPs) to control those illegal discharges and activities.
+
+           (1)    The owner or operator of a commercial or industrial establishment shall provide, at its own
+                  expense, reasonable protection from accidental discharge of prohibited materials or other wastes
+                  into the MS4 through the use of structural and nonstructural BMPs.
+
+           (2)    Any person responsible for a property or premises, which is, or may be, the source of an illegal
+                  discharge as defined in § 196-15 or an activity contaminating stormwater as defined in § 196-19
+                  may be required to implement, at said person's expense, additional structural and nonstructural
+                  BMPs to reduce or eliminate the source of pollutant(s) to the MS4.
+
+           (3)    Compliance with all terms and conditions of a valid SPDES permit authorizing the discharge of
+                  stormwater associated with industrial activity, to the extent practicable, shall be deemed
+                  compliance with the provisions of this section.
+
+     B.    Every person owning property through which a watercourse passes, or such person's lessee, shall keep
+           and maintain that part of the watercourse within the property free of trash, debris and other obstacles
+           that would pollute, contaminate or significantly retard the flow of water through the watercourse. In
+           addition, the owner or lessee shall maintain existing privately owned structures within or adjacent to
+           a watercourse, so that such structures will not become a hazard to the use, function or physical
+           integrity of the watercourse.
+
+     § 196-21. Suspension of access to MS4.
+
+     A.    The SMO may, without prior notice, suspend MS4 discharge access to a person when such suspension
+           is necessary to stop an actual or threatened discharge which presents or may present imminent and
+           substantial danger to the environment, to the health or welfare of persons, or to the MS4. The SMO
+           shall notify the person of such suspension within a reasonable time thereafter, in writing, including
+           the reasons for the suspension. If the violator fails to comply with a suspension order issued in an
+           emergency, the SMO may take such steps as deemed necessary to prevent or minimize damage to the
+           MS4 or to minimize danger to persons.
+
+     B.    Suspension due to the detection of illegal discharge. Any person discharging to the Village's MS4 in
+           violation of this article may have his or her MS4 access terminated if such termination would abate
+           or reduce an illegal discharge. The SMO will notify a violator in writing of the proposed termination
+           of its MS4 access and the reasons therefor. The violator may petition the SMO for a reconsideration.
+
+
+     § 196-21                     STORMWATER, DRAINAGE, EROSION AND WATER                                    § 196-24
+
+           Access may be granted by the SMO, with or without conditions, if he/she finds that the illegal
+           discharge has ceased and the discharger has taken steps to prevent its recurrence. Access may be
+           denied if the SMO determines in writing that the illegal discharge has not ceased or is likely to recur.
+           A person commits an offense if the person reinstates MS4 access to premises terminated pursuant to
+           this section, without the prior approval of the SMO.
+
+     § 196-22. Industrial or construction activity discharges.
+
+     Any person subject to an industrial or construction activity SPDES stormwater discharge permit shall
+     comply with all provisions of such permit. Proof of compliance with said permit may be required in a
+     form acceptable to the Village prior to the allowing of discharges to the MS4. All reports submitted to the
+     NYSDEC as required by the SPDES permit shall also be contemporaneously transmitted to the SMO.
+
+     § 196-23. Access to property; inspection; monitoring of discharges.
+
+     A.    Applicability. This section applies to all facilities that the SMO must inspect to enforce any provision
+           of this article, or whenever the authorized enforcement agency has cause to believe that there exists,
+           or potentially exists, in or upon any premises any condition which constitutes a violation of this
+           article.
+
+     B.    Access to facilities.
+
+           (1)    The SMO shall be permitted to enter and inspect facilities subject to regulation under this article
+                  as often as may be necessary to determine compliance with this article. If a discharger has
+                  security measures in force which require proper identification and clearance before entry into
+                  its premises, the discharger shall make the necessary arrangements to allow access to the SMO.
+
+           (2)    Facility operators shall allow the SMO ready access to all parts of the premises for the purposes
+                  of inspection, sampling, examination and copying of records as may be required to implement
+                  this article.
+
+           (3)    The Village shall have the right to set up on any facility subject to this article such devices as
+                  are necessary in the opinion of the SMO to conduct monitoring and/or sampling of the facility's
+                  stormwater discharge or conduct other testing as deemed necessary by the SMO.
+
+           (4)    The Village has the right to require the facilities subject to this article to install monitoring
+                  equipment as is reasonably necessary to determine compliance with this article. The facility's
+                  sampling and monitoring equipment shall be maintained at all times in a safe and proper
+                  operating condition by the discharger at its own expense. All devices used to measure
+                  stormwater flow and quality shall be calibrated to ensure their accuracy.
+
+           (5)    Unreasonable delays in allowing the Village access to a facility subject to this article is a
+                  violation of this article. A person who is the operator of a facility subject to this article commits
+                  an offense if the person denies the Village reasonable access to the facility for the purpose of
+                  conducting any activity authorized or required by this article.
+
+           (6)    If the SMO has been refused access to any part of the premises from which stormwater is
+                  discharged, and he/she is able to demonstrate probable cause to believe that there may be a
+                  violation of this article, or that there is a need to inspect and/or sample as part of a routine
+                  inspection and sampling program designed to verify compliance with this article or any order
+                  issued hereunder, then the SMO may seek issuance of a search warrant from any court of
+                  competent jurisdiction.
+
+
+     § 196-24. Notification of spills.
+
+     Notwithstanding other requirements of this article, as soon as any person responsible for a facility or
+     operation, or responsible for emergency response for a facility or operation, has information of any known
+     or suspected release of materials which is resulting or may result in illegal discharges or pollutants
+     discharging into the MS4, said person shall take all necessary steps to ensure the discovery, containment,
+     and cleanup of such release. In the event of such a release of hazardous materials, said person shall
+     immediately notify emergency response agencies of the occurrence via emergency dispatch services. In the
+     event of a release of nonhazardous materials, said person shall notify the Village in person or by telephone
+     or facsimile no later than the next business day. Notifications in person or by telephone shall be confirmed
+     by written notice addressed and mailed to the Village within three business days of the telephone notice.
+     If the discharge of prohibited materials emanates from a commercial or industrial establishment, the owner
+     or operator of such establishment shall also retain an on-site written record of the discharge and the actions
+     taken to prevent its recurrence. Such records shall be retained for at least three years. Appropriate state and
+     federal agencies shall also be notified as per applicable regulations.
+
+     § 196-25. Enforcement; penalties for offenses.
+
+     A.    Notice of violation. When the SMO finds that a person has violated a prohibition or failed to meet a
+           requirement of this article, the SMO may order compliance by written notice of violation to the
+           responsible person. Such notice may require, without limitation:
+
+           (1)    The elimination of illicit connections or illegal discharges;
+
+           (2)    That violating discharges, practices, or operations shall cease and desist;
+
+           (3)    The abatement or remediation of stormwater pollution or contamination hazards and the
+                  restoration of any affected property;
+
+           (4)    The performance of monitoring, analyses, and reporting; and
+
+           (5)    The implementation of source control or treatment BMPs.
+
+     B.    If abatement of a violation and/or restoration of affected property is required, the notice shall set forth
+           a deadline within which such remediation or restoration must be completed. Said notice shall further
+           advise that, should the violator fail to remediate or restore within the established deadline, the work
+           will be done by the Village or a contractor designated by the Village and the expense thereof shall be
+           charged to the violator.
+
+     C.    If the violation has not been corrected pursuant to the requirements set forth in the notice of violation,
+           then the SMO shall request the owner's permission for access to the subject private property to take
+           any and all measures reasonably necessary to abate the violation and/or restore the property.
+
+     D.    If refused access to the subject private property, the SMO may seek a warrant in a court of competent
+           jurisdiction to be authorized to enter upon the property to determine whether a violation has occurred
+           and remains unabated. Upon determination that a violation has occurred and remains unabated, the
+           SMO may seek a court order to take any and all measures reasonably necessary to abate the violation
+           and/or restore the property. The cost of implementing and maintaining such measures shall be the
+           sole responsibility of the discharger.
+
+     E.    Within 30 days after abatement of the violation by or under authorization of the SMO, the owner of
+           the property will be notified of the cost of abatement, including administrative costs. The property
+           owner may file a written protest with the Village Board of Trustees objecting to the amount of the
+
+
+     § 196-25                     STORMWATER, DRAINAGE, EROSION AND WATER                                   § 196-29
+
+           assessment within 10 days of receipt of said notice. If the amount due is not paid within 30 days after
+           the disposition of any protests or the expiration of the time to file an appeal, whichever is earlier, the
+           charges shall become a lien on the property for the amount of the assessment to be collected in the
+           same manner as real estate taxes.
+
+     F.    Any person who violates the provisions of this article shall be guilty of a offense punishable by a fine
+           not less than $500 nor more than $1,000 or imprisonment for a period not to exceed six months, or
+           both; for conviction of a second offense, both of which were committed within a period of five years,
+           punishable by a fine not less than $1,000 nor more than $1,500 or imprisonment for a period not to
+           exceed six months, or both; and upon conviction for a third or subsequent offense, all of which were
+           committed within a period of five years, punishable by a fine not less than $1,500 nor more than
+           $2,000 or imprisonment for a period not to exceed six months, or both. However, for the purposes of
+           conferring jurisdiction upon courts and judicial officers generally, violations of this article shall be
+           deemed misdemeanors, and for such purpose only all provisions of law relating to misdemeanors
+           shall apply to such violations. Each week's continued violation shall constitute a separate additional
+           violation.
+
+     § 196-26. Injunctive relief.
+
+     It shall be unlawful for any person to violate any provision or fail to comply with any of the requirements
+     of this article. If a person has violated or continues to violate the provisions of this article, the SMO may
+     request the Village Attorney to petition for a preliminary or permanent injunction restraining the person
+     from activities which would create further violations or compelling the person to perform abatement or
+     remediation of the violation.
+
+     § 196-27. Violations deemed public nuisance.
+
+     In addition to the enforcement processes and penalties provided, any condition caused or permitted to exist
+     in violation of any of the provisions of this article is a threat to public health, safety, and welfare, and is
+     declared and deemed a nuisance, and may be summarily abated or restored at the violator's expense, and/
+     or a civil action to abate, enjoin, or otherwise compel the cessation of such nuisance may be taken.
+
+     § 196-28. Remedies not exclusive.
+
+     The remedies listed in this article are not exclusive of any other remedies available under any applicable
+     federal, state or local law and it is within the discretion of the authorized enforcement agency to seek
+     cumulative remedies.
+
+     § 196-29. Severability.
+
+     If any provision of this chapter or of any article, section, subsection, paragraph, subdivision or clause of this
+     chapter shall be judged invalid for any reason by a court of competent jurisdiction, such order or judgment
+     shall not affect or invalidate the remainder of any article, section, subsection, paragraph, subdivision or
+     clause of this chapter.
+
+
+     § 196-29                                    CROTON-ON-HUDSON CODE
+
+
+                                                  STREETS AND SIDEWALKS

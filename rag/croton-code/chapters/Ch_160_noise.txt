@@ -1,0 +1,217 @@
+---
+title: "Chapter 160: Noise"
+chapter: 160
+name: "Noise"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 1
+---
+
+§ 160-1.               Statement of policy.                          § 160-6.               Penalties for offenses.
+     § 160-2.               Definitions.                                  § 160-7.               Exceptions.
+     § 160-3.               Standards for determination.                  § 160-8.               Effect of other provisions.
+     § 160-4.               Enumeration of prohibited                     § 160-9.               Enforcement.
+                            noises.                                       § 160-10.              When effective.
+     § 160-5.               Methods of measurement.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson 9-26-1994 by
+     L.L. No. 9-1994.56 Amendments noted where applicable.]
+
+                                                           GENERAL REFERENCES
+
+     Penalties for offenses — See Ch. 1, § 1-12.                          Firearms — See Ch. 123.
+
+     Alarm systems — See Ch. 70.                                          Noise in parks — See Ch. 168.
+
+     Blasting — See Ch. 81.
+
+
+     § 160-1. Statement of policy.
+
+     It is hereby declared to be the policy of the Village of Croton-on-Hudson to prevent excessive, unnecessary
+     or unusually loud noise which may jeopardize the well-being, public health, comfort, convenience, safety
+     and welfare of its citizens and the peace and quiet of its inhabitants. The provisions and prohibitions
+     hereinafter contained shall not be utilized or construed in any manner so as to deny or limit any right or
+     privilege granted and recognized by the First Amendment of the Constitution of the United States.
+
+     § 160-2. Definitions.
+
+     Unless otherwise indicated by context, the following terms and phrases shall have the following meanings:
+     DECIBEL(dB) — A unit for measuring the volume of sound, equal to 20 times the logarithm to the base
+     10 of the ratio of the sound pressure of 20 micronewtons per square meter.
+     HOLIDAYS — New Year's Day, Memorial Day, Independence Day, Labor Day, Thanksgiving Day and
+     Christmas Day.
+     SOUND LEVEL — The sound-pressure level measured in decibels with a sound-level meter set to a
+     weighting expressed in dB(A).
+     SOUND-LEVEL METER — An instrument for the measurement of sound levels which conforms to Type
+     1 or Type 2 standards under ANSI Specifications S1.4-1971 or the latest approved revision thereof.
+     UNREASONABLY INTRUSIVE — Any sound which either annoys, disturbs, injures or endangers
+     the comfort, repose, health, peace or safety of a reasonable person of normal sensitivities under the
+
+     56. Editor's Note: This local law also supersedes former Ch. 160, Noise, adopted 10-3-1977 by L.L. No. 16-1977.
+
+
+     circumstances.
+
+     § 160-3. Standards for determination. [Amended 12-4-1995 by L.L. No. 11-1995]
+
+     The standard or standards to be considered in determining whether a noise is an unreasonably intrusive
+     noise which constitutes a prohibited noise shall include, but not be limited to, one or more of the following:
+
+     A.    The volume of the noise.
+
+     B.    The intensity of the noise.
+
+     C.    Whether the nature of the noise is usual or unusual.
+
+     D.    Whether the origin of the noise is natural or unnatural.
+
+     E.    The volume and intensity of the background noise, if any.
+
+     F.    The proximity of the noise to residential sleeping facilities.
+
+     G.    The nature and the zoning district of the area within which the noise emanates.
+
+     H.    The time of day or night the noise occurs.
+
+     I.    The time duration of the noise.
+
+     J.    Whether the noise is temporary.
+
+     K.    Whether the noise is continuous or impulsive.
+
+     L.    The presence of discrete tones.
+
+     § 160-4. Enumeration of prohibited noises.
+
+     The following acts, among others, are declared to be noises in violation of this chapter, but said
+     enumeration shall not be deemed to be exclusive:
+
+     A.    The sounding of any horn or signal device on any automobile, motorcycle, bus or other vehicle,
+           except as a warning signal pursuant to the provisions of the Vehicle and Traffic Law of the State of
+           New York.
+
+     B.    Playing, using, operating or permitting to be played, used or operated any radio, television,
+           phonograph, musical instrument or instruments, loudspeaker, sound amplifier or other machine or
+           device for the production or reproduction of sound so as to create an unreasonably intrusive noise.
+
+     C.    Playing, using, operating or permitting to be played, used or operated any radio, television,
+           phonograph, musical instrument or instruments, loudspeaker, sound amplifier or other machine or
+           device for the production or reproduction of sound exceeding 65 dB(A) at any time within a
+           residential district or within any other district exceeding 70 dB(A) between the hours of 10:00 p.m.
+           and 8:00 a.m. Sunday through Saturday or exceeding 65 dB(A) between the hours of 11:00 p.m.
+           Saturday and 10:00 a.m. Sunday or exceeding 65 dB(A) between the hours of 12:01 a.m. and 11:59
+           p.m. on holidays as defined in this chapter.
+
+     D.    The keeping or harboring of any animal, fowl or bird which, by causing frequent or long-continued
+           noise, shall disturb the comfort or repose of any person residing in the vicinity.
+
+
+     E.     The blowing of any whistle attached to any stationary boiler, except to give notice of the time to begin
+            work or stop work or as a warning of danger.
+
+     F.     The discharge into the open air of the exhaust of any steam engine, stationary internal-combustion
+            engine, air compressor, motorcycle engine or motor vehicle engine, except through a muffler or other
+            device which effectively prevents loud, unusual or explosive noise so as to create unreasonably
+            intrusive noise.
+
+     G.     Construction work, including but not limited to building, repairing, blasting, grading, leveling and
+            excavating, between the hours of 8:00 p.m. and 8:00 a.m. Sunday through Saturday and between the
+            hours of 8:00 p.m. Saturday and 10:00 a.m. Sunday.
+
+     H.     The operation of power lawn mowers, rakers or leaf blowers or other motor-driven lawn or garden
+            equipment between the hours of 6:00 p.m. Sunday and 8:00 a.m. Monday, between the hours of 8:00
+            p.m. and 8:00 a.m. Monday through Friday, between the hours of 8:00 p.m. Friday and 9:00 a.m.
+            Saturday, and between the hours of 6:00 p.m. Saturday and 10:00 a.m. Sunday. [Amended 9-2-2008
+            by L.L. No. 5-2008; 9-6-2011 by L.L. No. 3-2011]
+
+     I.     Notwithstanding the time constraints in Subsection H above, the operation of gas-powered leaf
+            blowers is prohibited between June 1 and August 31, 2022, as well as January 1 and March 31, 2023,
+            and every year thereafter. Between the aforementioned periods of each year, the Village Manager or
+            his designee shall determine whether the use of gas-powered leaf blowers by the general public after
+            significant storm events or other emergency circumstances shall be permitted for a period of time not
+            to exceed seven days. The provisions hereof shall not be deemed to prevent the use of gas-powered
+            leaf blowers on school district property at any time. Any violation issued under this Subsection I shall
+            be issued to the property owner or the owner of the business undertaking the gas-powered leaf-
+            blowing operations, at the discretion of the enforcement officer issuing the violation. [Added
+            1-18-2022 by L.L. No. 2-202257]
+
+            (1)    Properties in excess of 40,000 square feet in lot area shall be eligible to apply for a permit for
+                   the operation of gas-powered leaf blowers, with reasonable and appropriate conditions and/or
+                   limitations as determined by the Village Manager or his designee. The permit shall be valid for
+                   a period no less than one week and no longer than three months, and the fee shall be established
+                   by resolution of the Village Board of Trustees.
+
+     J.     Playing, using, operating or permitting to be played, used or operated any radio, phonograph, musical
+            instrument, loudspeaker, sound amplifier or other machine or device for the production or
+            reproduction of sound which is cast upon the public streets or other public places for advertising,
+            soliciting or sales purposes.
+
+     K.     The use of any drum, bell, loudspeaker or other instrument or device for the purpose of attracting
+            attention to any solicitation, performance, show or sale or display of merchandise by the creation of
+            noise, except bells sounded by licensed mobile vendors, provided that the sound thereof is not audible
+            more than 300 feet from said vehicle.
+
+     L.     The making, continuing, causing or permitting to be made, verbally or mechanically, any
+            unreasonable intrusive noise. [Added 12-4-1995 by L.L. No. 11-1995]
+
+
+     57. Editor's Note: This local law also provided for the redesignation of former Subsections I through K as Subsections J through L,
+         respectively.
+
+
+     § 160-5                                                NOISE
+
+     § 160-5. Methods of measurement.
+
+     The measurement of any sound or noise shall be made with a sound-level meter using an A-scale decibel
+     level. The measurement shall be conducted at or within ten (10) feet of the property line of the property on
+     which such noise is generated.
+
+     § 160-6. Penalties for offenses.
+
+     Any person violating any provision of this chapter shall, upon conviction, be punished as provided in
+     § 1-12 of Chapter 1, General Provisions. Each day that a violation shall continue shall constitute a separate
+     offense.
+
+     § 160-7. Exceptions.
+
+     A.    Nothing in this chapter shall be construed to prevent the production of music in connection with any
+           military or civic parade, funeral procession or religious service or the use of any bell, chimes or other
+           instrument, apparatus or device by any church or synagogue, or school licensed or chartered by the
+           State of New York, provided that such production or use does not occur between the hours of 10:00
+           p.m. and 8:00 a.m. of the following day.
+
+     B.    Sounds created by any governmental agency or railroad agency by the use of public warning devices
+           are exempted from the limitations of this chapter.
+
+     C.    Sounds created by public utilities in carrying out the operations of their franchise are exempted from
+           the limitations of this chapter.
+
+     D.    Sounds connected with any organized sporting event of any public school conducted on public school
+           property. For the purpose of this Subsection D, field days and sporting practices shall be deemed
+           organized sporting events. [Amended 9-6-2016 by L.L. No. 4-2016]
+
+     E.    Sounds connected with activities and equipment of the Croton-on-Hudson Department of Public
+           Works are exempted from the limitations of this chapter.
+
+     § 160-8. Effect of other provisions.
+
+     The provisions of this chapter shall in no case remove or render less restrictive limitations on noise
+     generated or other conditions imposed for specific properties by actions of the Croton-on-Hudson Planning
+     Board or by the actions of the Croton-on-Hudson Zoning Board of Appeals or required under other
+     applicable laws or regulations.
+
+     § 160-9. Enforcement.
+
+     The provisions of this chapter shall be enforced by the Police Department of the Village of Croton-on-
+     Hudson, Code Enforcement Officers of the Village of Croton-on-Hudson or other officials designated by
+     the Village Manager.
+
+     § 160-10. When effective.
+
+     This chapter shall take effect immediately upon filing with the Secretary of State.
+
+
+                                                 CROTON-ON-HUDSON CODE                                      § 167-3

@@ -1,0 +1,411 @@
+---
+title: "Chapter 205: Telecommunications Franchising And Licensing"
+chapter: 205
+name: "Telecommunications Franchising And Licensing"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 1
+---
+
+§ 205-1.              Legislative intent.                             § 205-9.               Procedure for consideration of
+     § 205-2.              Definitions.                                                           and action on applications.
+     § 205-3.              Granting authority.                             § 205-10.              Terms and conditions of
+     § 205-4.              Compliance with rules; permits                                         franchise.
+                           required.                                       § 205-11.              Terms and conditions of
+     § 205-5.              Submission of application.                                             revocable license.
+     § 205-6.              Responsibilities of applicants.                 § 205-12.              Severability.
+     § 205-7.              Negotiation of agreement.                       § 205-13.              Delegation.
+     § 205-8.              Factors for review of
+                           application.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson 12-18-2000 by
+     L.L. No. 5-2000.88 Amendments noted where applicable.]
+
+                                                           GENERAL REFERENCES
+
+     Telecommunications towers — See Ch. 206.                              Zoning — See Ch. 230.
+
+
+     § 205-1. Legislative intent.
+
+     The Village of Croton-on-Hudson has the authority to grant franchises and other authorizations for the
+     use and occupancy of its streets and has determined that its streets are a valuable public resource that
+     has required, and will continue to require, substantial investment by the village. The village desires to
+     structure and implement a fair and orderly process for the grant of franchises and other authorizations (and
+     renewals of such franchises and authorizations) to occupy and use its streets to provide telecommunications
+     services (as hereinafter defined) in the village, including the negotiation of terms and conditions to
+     protect the public interest consistent with applicable law. In addition, consistent with applicable law, the
+     village desires to manage its streets and obtain fair and reasonable compensation from telecommunications
+     providers on a competitively neutral and nondiscriminatory basis for the use of its streets on a
+     nondiscriminatory basis. The village also desires to minimize inconvenience and disruption to the public,
+     provide for the orderly and efficient use of its streets now and in the future and preserve adequate capacity
+     for existing and future uses of its streets; and the village intends to exercise, to the fullest extent permitted
+     by applicable law, its authority with respect to the regulation of the occupation and use of its streets in
+     connection with the provision of telecommunications services.
+
+
+     88. Editor's Note: This chapter was adopted as Ch. 310, but was renumbered to fit into the alphabetical organization of the Code. This
+         local law also provided that, to the extent permitted by law, the village may determine to apply all or certain provisions of this
+         chapter to telecommunications providers and franchises and other right-of-way authorizations existing on the effective date of this
+         chapter.
+
+
+     § 205-2. Definitions.
+
+     For purposes of this chapter, the following terms, phrases, words and their derivations shall have the
+     meanings set forth in this section, unless the context clearly indicates that another meaning is intended.
+     When not inconsistent with the context, words used in the present tense include the future, words used in
+     the plural number include the singular number and words used in the singular number include the plural
+     number.
+     AFFILIATED PERSON — Each person who falls into one or more of the following categories: each
+     person having, directly or indirectly, a controlling interest in the applicant; each person in which the
+     applicant has, directly or indirectly, a controlling interest; each officer, director, joint venturer or joint
+     venture partner, of the applicant; and each person, directly or indirectly, controlling, controlled by or under
+     common control with the applicant; provided that "affiliated person" shall in no event mean the village
+     or any creditor of the applicant solely by virtue of its status as a creditor and which is not otherwise an
+     affiliated person by reason of owning a controlling interest in, being under common ownership, common
+     management or common control with, the applicant.
+     BOARD OF TRUSTEES — The Board of Trustees of the Village of Croton-on-Hudson and its designee
+     or any successor thereto.
+     CABLE SERVICES — As defined in the Communications Act of 1934, as amended by the Cable
+     Communications Policy Act of 1984, the Cable Television Consumer Protection and Competition Act of
+     1992 and the Telecommunications Act of 1996, and as may be further amended from time to time (the
+     "Cable Act"). In the event that "cable services" is no longer defined in the Cable Act or the definition in
+     the Cable Act otherwise becomes inapplicable, "cable services" shall mean "cable services" as defined in
+     the Cable Act immediately prior to such term no longer being defined in the Cable Act or such definition
+     otherwise becoming inapplicable.
+     CHAPTER — This chapter and all modifications and amendments thereto.
+     CONTROL or CONTROLLING INTEREST — Actual working control in whatever manner exercised,
+     including, without limitation, working control through ownership, management, debt instruments or
+     negative control, as the case may be, of the applicant or the equipment in the street. A rebuttable
+     presumption of the existence of control or a controlling interest shall arise from the beneficial ownership,
+     directly or indirectly, by any person, or group of persons acting in concert, of more than 20% of any
+     person (which person or group of persons is hereinafter referred to as "controlling person"). "Control" or
+     "controlling interest" as used herein may be held simultaneously by more than one person or group of
+     persons.
+     EQUIPMENT — The poles, wires, electrical conductors, cables, conduits, subways, manholes, fixtures,
+     appliances and appurtenances that are used to provide telecommunications services.
+     FRANCHISE — An initial authorization, or renewal thereof, issued by the village in accordance with
+     the provisions of this chapter, which authorizes the occupation and use of the streets to provide
+     telecommunications services.
+     MAY — Being permissive.
+     PERSON — Any individual or any association, firm, partnership, joint venture, corporation or other legally
+     recognized entity, whether for profit or not for profit, but shall not mean the Village of Croton-on-Hudson.
+     REVOCABLE LICENSE — An initial authorization or renewal thereof, issued by the village in
+     accordance with the provisions of this chapter, which authorizes the limited occupation and use of
+     specifically identified streets, provided that a revocable license shall be issued only in the limited
+     circumstances set forth in § 205-3, Subsections B and G, of this chapter.
+
+
+     SHALL — Being mandatory, not merely directive.
+     STREETS — The surface of, as well as the spaces above and below, any and all streets, alleyways,
+     avenues, highways, boulevards, driveways, bridges, tunnels, parks, parkways, public grounds or waters,
+     and other public rights-of-way within or belonging to the village.
+     TELECOMMUNICATIONS — All transmissions, between or among points specified by the user, of
+     information of the user's choosing without change in the form or content of the information as sent and
+     received.
+     TELECOMMUNICATIONS PROVIDER — Any person who:
+
+     A.    Owns, constructs, operates or maintains equipment in the streets used to provide telecommunications
+           services, regardless of whether such telecommunications services originate or terminate in the village;
+           or
+
+     B.    Provides telecommunications services that originate or terminate in the village by means of:
+           specifically identifiable equipment in the streets, which equipment is owned by such person or made
+           available to such person under a lease or any other arrangement for a period longer than 120 days; or
+           equipment in the streets, if the use of such equipment is continuing and substantial, and the village
+           has determined that it is necessary and appropriate to impose the requirements of this chapter in order
+           to preserve the application of this chapter on a competitively neutral and nondiscriminatory basis
+           consistent with applicable law.
+     TELECOMMUNICATIONS SERVICES — The offering of telecommunications for a fee directly to the
+     public, or to such classes of users as to be effectively available directly to the public, regardless of the
+     facilities used. The term "telecommunications services" shall not include cable services.
+     TELECOMMUNICATIONS SYSTEM — The plant, equipment, real property (including interests in real
+     property), tangible and intangible personal property, buildings, offices, furniture, customer lists, cable,
+     wires, optical fibers, amplifier, antenna and all other electronic devices, equipment and facilities used to
+     provide telecommunications services.
+     VILLAGE — The Village of Croton-on-Hudson, New York.
+
+     § 205-3. Granting authority.
+
+     A.    Franchise, license or permission required. [Amended 9-15-2008 by L.L. No. 6-2008]
+
+           (1)    No person shall use or occupy the streets as a telecommunications provider, or construct,
+                  operate or maintain equipment in the streets used to provide telecommunications services,
+                  without a franchise or revocable license granted by the Village, or in the case of a person
+                  providing service under Title 27 of the New York Transportation Corporations Law, without the
+                  permission of the Village. Permissions granted after the effective date of this ordinance89 shall
+                  be in the form of a franchise of license issued in accordance with this chapter, but nothing in
+                  this Subsection A(1) is intended to revoke any existing permission.
+
+           (2)    A franchise or revocable license granted in accordance with the provisions of this chapter shall
+                  not be construed to grant any rights or authorization to provide cable services in the Village, and
+                  any person seeking to provide cable services in the Village or seeking to construct a cable
+                  system or any part of a cable system separate and apart from Title 27 authorized facilities used
+                  in the provision of telecommunications services shall first obtain a separate franchise in
+
+
+     89. Editor's Note: "This ordinance" refers to L.L. No. 6-2008.
+
+
+                  accordance with applicable law.
+
+     B.    Any person seeking to use the streets to construct, operate or maintain equipment to provide
+           telecommunications for or in connection with the internal operations of such person's business,
+           residence or employment and not for or in connection with the provision or offering of
+           telecommunications services for sale or resale to any person in the village shall first obtain a
+           revocable license in accordance with the provisions of this chapter.
+
+     C.    The Board of Trustees may grant one or more franchises and revocable licenses in accordance with
+           this chapter, provided that the Board of Trustees reserves the right to modify any provision of this
+           chapter by amendment hereof.
+
+     D.    The grant of any franchise or revocable license shall be made by adoption of a separate resolution by
+           the Board of Trustees and shall be on such terms and conditions as shall be specified in said separate
+           resolution and/or a franchise or license agreement between the village and the franchisee or licensee.
+
+     E.    Any franchise or revocable license granted shall be nonexclusive. The village specifically reserves
+           the right to grant, at any time, such additional franchises, revocable licenses or other authorizations
+           for use of the streets by any means, as the village deems appropriate.
+
+     F.    A franchise may be granted for all or any defined portion of the village.
+
+     G.    Limitations on grant of license.
+
+           (1)    A revocable license is intended to be a limited grant of authority to use and occupy specifically
+                  identified streets to provide telecommunications services and shall be granted only if:
+
+                  (a)    The use or occupation of such streets, together with all revocable licenses previously
+                         granted to such person and affiliated persons, shall not exceed 2,500 linear feet; or
+
+                  (b)    The use or occupation of such streets does not involve the offering or provision of
+                         telecommunications services to any person within the village.
+
+           (2)    In the event that an application for a revocable license would cause a telecommunications
+                  provider to exceed or fail to comply with the limits specified in Subsection G(1)(a) and/or (b)
+                  of this subsection, then such telecommunications provider must apply for a franchise in
+                  accordance with the provisions of this chapter, and the use of specifically identified streets
+                  pursuant to all previously granted revocable licenses shall thereafter be pursuant to and in
+                  accordance with any such franchise that may be granted.
+
+     § 205-4. Compliance with rules; permits required.
+
+     A.    Subject to the provisions of this chapter, the village may adopt rules, policies and requirements to
+           carry out the purposes and provisions of this chapter. Each applicant, franchisee and licensee shall
+           comply with such rules, policies and requirements.
+
+     B.    No person shall construct or install any equipment in the streets used to provide telecommunications
+           services without first obtaining such permits or other authorizations as may be required by the village.
+           No permits or other authorizations for such construction or installation shall be issued prior to the
+           granting of a franchise or a revocable license pursuant to this chapter or such other authorization as
+           may be required by applicable law.
+
+     § 205-5. Submission of application.
+
+
+     A.    Applications for franchises and revocable licenses shall be submitted to the Village Manager, with a
+           copy also to be submitted to the Village Attorney.
+
+     B.    An application shall contain the following information with respect to the proposed franchise or
+           revocable license and such other information with respect to the proposed franchise or revocable
+           license as the village may deem necessary or appropriate, consistent with applicable law:
+
+           (1)    The name, address and telephone number of the applicant and the person the village may contact
+                  concerning the application.
+
+           (2)    A description of the telecommunications services proposed to be provided, including, without
+                  limitation, a description of facilities and equipment within the village.
+
+           (3)    A description of the proposed franchise area or, in the case of a revocable license, the
+                  specifically identified streets and/or portions thereof proposed to be used.
+
+           (4)    A proposed construction schedule and sequence.
+
+           (5)    A map showing the proposed location of the applicant's telecommunications system.
+
+           (6)    Proposed financing plans for the construction and operation of the telecommunications system
+                  by which the proposed telecommunications services would be provided.
+
+           (7)    A description of the legal, financial, technical and other appropriate qualifications of the
+                  applicant to hold the franchise or revocable license.
+
+           (8)    Ownership of the applicant and identification of all affiliated persons.
+
+     § 205-6. Responsibilities of applicants.
+
+     It shall be the responsibility of each applicant for a franchise or revocable license to comply with all
+     applicable laws, ordinances, resolutions, rules, regulations and other directives of the village and any
+     federal, state or local governmental authority having jurisdiction.
+
+     § 205-7. Negotiation of agreement.
+
+     If an application is complete and otherwise complies with applicable law, ordinances, resolutions, rules,
+     regulations and other directives of the village, including the provisions of this chapter, the village shall
+     enter into negotiations with the applicant to determine whether such applicant and the village are able to
+     reach agreement on the terms of the proposed franchise or revocable license in accordance with §§ 205-10
+     and 205-11 of this chapter. The village may reject any application which is incomplete or otherwise fails to
+     comply with applicable law, ordinances, resolutions, rules, regulations and other directives of the village
+     and any federal, state or local authority having jurisdiction.
+
+     § 205-8. Factors for review of application.
+
+     A.    In making any determination hereunder as to any application for a franchise or revocable license, the
+           Board of Trustees may consider such factors as it deems appropriate and in the public interest,
+           provided that such factors are consistent with applicable law, including, without limitation:
+
+           (1)    The adequacy of the proposed compensation to be paid to the village, including the value of any
+                  facilities and telecommunications services offered by the applicant to the village.
+
+
+           (2)    The legal, financial, technical and other appropriate qualifications of the applicant.
+
+           (3)    The ability of the applicant to maintain the property of the village in good condition throughout
+                  the term of the franchise or the revocable license.
+
+           (4)    Any services or uses of the streets that may be precluded by the grant of the franchise or
+                  revocable license; and the adverse impact of the proposed franchise or revocable license on the
+                  efficient use of the streets or utilities at present and in the future.
+
+           (5)    The willingness and ability of the applicant to meet construction and physical requirements and
+                  to abide by all lawful conditions, limitations, requirements and policies with respect to the
+                  franchise or the revocable license.
+
+           (6)    The adequacy of the terms and conditions of the proposed franchise or revocable license
+                  agreement to protect the public interest, consistent with applicable law.
+
+           (7)    Any other public interest factors or considerations that the village has a lawful right to consider
+                  and that are deemed pertinent by the village for safeguarding the interests of the village and the
+                  public.
+
+     B.    Consistent with applicable law, the village may develop and implement policies and requirements to
+           ensure that the streets have sufficient capacity reasonably to accommodate existing and future uses in
+           a rational and efficient manner. In evaluating an applicant for a franchise or revocable license, the
+           village may consider an applicant's proposals for addressing capacity needs and compliance with
+           village policies and requirements.
+
+     § 205-9. Procedure for consideration of and action on applications.
+
+     A.    The Board of Trustees may make such investigations and take or authorize the taking of such other
+           steps as the Board of Trustees deems necessary or appropriate to consider and act on applications for
+           franchises and revocable licenses and to determine whether a franchise or revocable license should
+           be granted to an applicant, and may require the applicant to furnish additional information and data
+           for this purpose. In considering applications, the Board of Trustees may seek advice from village
+           officials, departments, agencies, boards, commissions or bodies, from such other advisory bodies as
+           it may establish or determine appropriate, or from the public, and may request the preparation of one
+           or more reports to be submitted to the Board of Trustees, which may include recommendations with
+           respect to such applications.
+
+     B.    Consistent with applicable law, upon completion of the steps deemed appropriate by the Board of
+           Trustees, the Board of Trustees may grant or deny the franchise or revocable license and may specify
+           the conditions under which the franchise or revocable license is granted.
+
+     § 205-10. Terms and conditions of franchise.
+
+     A.    The terms and conditions applicable to any franchise granted pursuant to this chapter shall be set forth
+           in the separate resolution granting the franchise and/or in a separate written agreement.
+
+     B.    A franchise granted pursuant to this chapter shall not become effective until said separate resolution
+           becomes effective and any separate agreement is executed by both parties. Such separate resolution
+           or written agreement, among other things, shall address the following subjects:
+
+           (1)    The term of the franchise.
+
+
+           (2)    The franchise area and the telecommunications services to be offered.
+
+           (3)    The compensation to be paid to the village, which shall include the payment of fees and/or the
+                  provision of facilities or services.
+
+           (4)    The circumstances upon which the franchise may be terminated or cancelled.
+
+           (5)    The mechanisms, such as performance bonds, security funds or letters of credit, to be put in
+                  place to ensure the performance of the franchisee's obligations under the franchise.
+
+           (6)    The village's right to inspect the facilities and records of the franchisee.
+
+           (7)    Insurance and indemnification requirements applicable to the franchisee.
+
+           (8)    The obligation of the franchisee to maintain complete and accurate books of account and
+                  records, and the village's inspection rights with respect thereto.
+
+           (9)    Provisions to ensure quality workmanship and construction methods.
+
+           (10) Provisions to ensure that the franchisee will comply with all applicable village, state and federal
+                laws, regulations, rules and policies.
+
+           (11) The obligation of the franchisee to supply an engineering site plan showing the proposed
+                location of the applicant's telecommunications system within the village, including the
+                connection to any portion of applicant's telecommunications system outside the village, any
+                manholes or overhead poles, the size, type and proposed depth of any conduit or other
+                enclosures and the relationship of the system to all existing poles, utilities, sidewalks, pavement,
+                telecommunications systems and other improvements in the streets, all of which shall be subject
+                to approval by the appropriate village departments.
+
+           (12) Provisions to place reasonable limitations upon the assignment or other transfer of the franchise.
+
+           (13) Remedies available to the village to protect the village's interest in the event of the franchisee's
+                failure to comply with terms and conditions of the franchise.
+
+           (14) Provisions to ensure that the franchisee will obtain all necessary licenses and permits from, and
+                comply with, all laws, regulations, rules and policies of any governmental body having
+                jurisdiction over the franchisee, including the Federal Communications Commission.
+
+           (15) Provisions to ensure that the franchisee will protect the property of the village and the delivery
+                of public services from damage or interruption of operations resulting from the construction,
+                operation, maintenance, repair or removal of improvements related to the franchise.
+
+           (16) Provisions designed to minimize the extent to which the public use of the streets of the village
+                are disrupted in connection with the construction of improvements relating to the franchise.
+
+           (17) Such other provisions as the village determines are necessary or appropriate in furtherance of
+                the public interest consistent with applicable law.
+
+     § 205-11. Terms and conditions of revocable license.
+
+     A.    The terms and conditions applicable to any revocable license granted pursuant to this chapter shall be
+           set forth in the separate resolution granting the revocable license and/or in a separate written
+           agreement. A revocable license granted pursuant to this chapter shall not become effective until the
+
+
+     § 205-11                                    CROTON-ON-HUDSON CODE
+
+           separate resolution granting the license becomes effective and any separate written agreement is
+           executed by both parties. Such separate resolution and/or written agreement shall address the same
+           subjects listed in § 205-10 of this chapter subject to the following limitations:
+
+           (1)    The revocable license shall be for a term not to exceed 10 years from the date that the resolution
+                  granting the revocable license becomes effective.
+
+           (2)    The revocable license shall be revocable at any time by the village for cause or for the village's
+                  purposes.
+
+           (3)    The revocable license, together with all revocable licenses previously granted to the applicant
+                  or affiliated persons, shall not authorize the occupation and use of more than 2,500 linear feet
+                  of specifically identified streets, unless the use or occupation of the streets does not involve the
+                  offering or provision of telecommunications services to any person in the village.
+
+     B.    In the event that an application for a revocable license would cause a telecommunications provider to
+           exceed or fail to comply with the limits specified in Subsection A(3) of this section, then such
+           telecommunications provider must apply for a franchise in accordance with the provisions of this
+           chapter, and the use of specifically identified streets pursuant to all previously granted revocable
+           licenses shall thereafter be pursuant to and in accordance with any such franchise that may be granted.
+
+     § 205-12. Severability.
+
+     If any section, subsection, sentence, clause, phrase or other portion of this chapter is, for any reason,
+     declared invalid, in whole or in part, by any court, agency, commission, legislative body or other authority
+     of competent jurisdiction, such portion shall be deemed a separate, distinct and independent portion.
+     Such declaration shall not affect the validity of the remaining portions hereof, which other portions shall
+     continue in full force and effect.
+
+     § 205-13. Delegation.
+
+     The Board of Trustees shall have the right to delegate and redelegate, and to revoke any such delegation or
+     redelegation, from time to time, any of its rights or obligations under this chapter to any body, organization
+     or official of the village. Any such delegation, redelegation or revocation, no matter how often made, shall
+     not be deemed an amendment to this chapter or to require the consent of any applicant for a franchise or
+     revocable license or franchisee or licensee.
+
+
+                                            TELECOMMUNICATIONS TOWERS                                             § 206-3

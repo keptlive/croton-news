@@ -23,7 +23,8 @@ python3 pipeline.py extract-minutes >> $LOG 2>&1
 python3 process_videos.py >> $LOG 2>&1
 
 # 6. Write articles + fact-check via z.ai writer+editor
-python3 write_and_check.py >> $LOG 2>&1
+# DISABLED: articles now written by WireClaw agents after enrichment (see enrich-transcripts.sh on WireClaw VPS)
+# python3 write_and_check.py >> $LOG 2>&1
 
 # 7. Polish upcoming meeting summaries
 python3 gen_summaries.py >> $LOG 2>&1

@@ -127,14 +127,14 @@ The `/status` page at croton.news/status flags when phone relay actions are need
 # SSH to VPS
 ssh croton
 
-# Restart the app
-cd /opt/croton-news
-fuser -k 3260/tcp; sleep 1
-nohup /opt/croton-news/venv/bin/python app.py > /tmp/croton-news.log 2>&1 &
+# Restart the app — ALWAYS via systemd, NEVER nohup/fuser
+# (the unit has Restart=always; a manually-started app.py races it for port 3260
+#  and causes a crash loop — this took the site down on 2026-07-13)
+systemctl restart croton-news
 
 # Check logs
+journalctl -u croton-news -n 50 --no-pager
 tail -50 /var/log/croton-pipeline.log
-tail -50 /tmp/croton-news.log
 
 # Run pipeline manually
 cd /opt/croton-news/rag

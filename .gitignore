@@ -66,3 +66,8 @@ rag/transcripts_ecode360
 rag/transcripts_sentiment/
 rag/pr_*.txt
 
+
+# backups & editor bak clutter
+backups/
+*.bak.*
+*.bak

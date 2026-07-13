@@ -1,0 +1,779 @@
+---
+title: "Chapter 227: Wetlands"
+chapter: 227
+name: "Wetlands"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 1
+---
+
+§ 227-1.              Legislative findings.                          § 227-8.               Considerations in granting
+     § 227-2.              Legislative intent.                                                   permit; mitigation plans;
+     § 227-3.              Definitions.                                                          monitoring; issuance of
+                                                                                                 permits; security.
+     § 227-4.              Water Control Commission.
+                                                                          § 227-9.               Appeals.
+     § 227-5.              Regulated activities.
+                                                                          § 227-10.              Inspection; indemnification.
+     § 227-6.              Activities permitted by right
+                           without permit.                                § 227-11.              Exemptions.
+     § 227-7.              Permits.                                       § 227-12.              Completion of work.
+                                                                          § 227-13.              Penalties for offenses;
+                                                                                                 enforcement.
+                                                                          § 227-14.              Severability.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson 7-16-2007 by
+     L.L. No. 4-2007.115 Amendments noted where applicable.]
+
+                                                              GENERAL REFERENCES
+
+     Environmental compliance — See Ch. 115.                              Steep slopes — See Ch. 195.
+
+     Environmental quality review — See Ch. 116.                          Stormwater, drainage, erosion and water pollution control — See
+                                                                          Ch. 196.
+     Excavation, filling and topsoil removal — See Ch. 120.
+                                                                          Trees — See Ch. 208.
+     Flood damage prevention — See Ch. 129.
+                                                                          Zoning — See Ch. 230.
+     Professional fees — See Ch. 178.
+
+
+     § 227-1. Legislative findings.
+
+     The Board of Trustees of the Village of Croton-on-Hudson finds that growth of population and attendant
+     residential and commercial development and increasing demands upon natural resources have the potential
+     of encroaching upon, despoiling, polluting or eliminating many of the wetlands, water bodies and
+     watercourses of the Village which, if preserved, constitute important physical, economic, social, historic,
+     archaeological, aesthetic, recreational and ecological assets to present and future residents of the Village
+     and provide important beneficial functions, including natural flood and stormwater control, groundwater
+     recharge, natural pollution treatment, erosion and sediment control, wildlife habitat creation, recreation and
+     open space enhancement and educational opportunities.
+
+     § 227-2. Legislative intent.
+
+     It is the intent of this chapter to protect the public interest, general health, safety, economic and general
+
+
+     115. Editor's Note: This local law also repealed former Ch. 227, Wetlands and Watercourses, adopted 6-20-1988 by L.L. No. 4-1988, as
+          amended.
+
+
+     welfare of the citizens of the Village by providing for the protection, preservation, proper maintenance
+     and use of its wetlands, water bodies and watercourses by preventing damage from erosion or siltation,
+     minimizing disturbance, preserving natural habitats and protecting against flood and pollution and
+     otherwise protecting the quality of such areas for their conservation, economic, aesthetic, recreational
+     and other public uses and values. Further, it is the intent of this chapter to protect the surface water
+     and groundwater resources wholly and partly within the Village from the threat of pollution, misuse or
+     mismanagement. Therefore, because all wetlands, water bodies and watercourses are presumed to be of
+     importance, it is hereby declared that the regulation of wetland and wetland buffer areas of the Village,
+     as defined in § 227-3 of this chapter and as this chapter becomes effective relative to any specific area
+     as described herein, is essential to the health, safety, economic and general welfare of the citizens of the
+     Village.
+
+     § 227-3. Definitions.
+
+     As used in this chapter, the following terms, phrases or words and their derivations shall have the meanings
+     given herein:
+     AGRICULTURE — The act of raising crops for economic gain; as further defined in 6 NYCRR 663.2(c).
+     APPLICANT — Any individual or individuals, firm, partnership, association, corporation, company,
+     organization or other legal entity of any kind, including municipal corporations, governmental agencies or
+     subdivisions thereof, filing an application pursuant to this chapter.
+     APPROVING AUTHORITY — The Planning Board, Water Control Commission, or the Village Engineer
+     as specified in § 227-7G.
+     BOARD OF TRUSTEES — The Board of Trustees of the Village of Croton-on-Hudson.
+     CLEAR-CUTTING — The cutting of more than 10 trees with a DBH of four inches or greater on a lot,
+     within any twelve-month period.
+     DEPOSIT — To fill, place, eject or dump any liquid, solid or gaseous material, or the act thereof, but not
+     including stormwater.
+     DIAMETER AT BREAST HEIGHT (DBH) — The diameter of a tree measured at a point 4 1/2 feet above
+     the ground, or at the highest point of the remaining stump if less than 4 1/2 feet, on the uphill side of the
+     tree.
+     FRESHWATER WETLANDS MAP — The final Freshwater Wetlands Map promulgated by the New
+     York State Department of Conservation as defined in 6 NYCRR 663.2(p).
+     HYDRIC SOIL — A soil that is saturated, flooded or ponded long enough during the growing season
+     to develop anaerobic conditions in the upper part, as set forth in the Federal Manual for Identifying and
+     Delineating Jurisdictional Wetlands, prepared by the federal government and as updated from time to time,
+     and as on file with the Village Clerk of the Village of Croton-on-Hudson.
+     HYDROPHYTIC VEGETATION — Plant life growing in water or on a substrate that is at least
+     periodically deficient in oxygen as a result of excessive water content as set forth in the Federal Manual for
+     Identifying and Delineating Jurisdictional Wetlands, prepared by the federal government and as updated
+     from time to time, and the Wetlands Plants of the State of New York,1988, published by the United States
+     Fish and Wildlife Service in cooperation with the National and Regional Wetlands Plant List Review
+     Panels, and as updated from time to time, and as on file with the Village Clerk of the Village of Croton-on-
+     Hudson.
+     LOT — Any parcel of land, not necessarily coincident with a lot or lots shown on a map of record, which
+     is occupied or which is to be occupied by a building and its accessory buildings, if any, or by a group of
+
+
+     buildings having any land in common and the buildings accessory thereto, if any, together with the required
+     open spaces appurtenant to such building or group of buildings.
+     MATERIAL — Substances including but not limited to soil, silt, gravel, rock, sand, clay, peat, mud,
+     debris and refuse, any organic or inorganic compound, chemical agent or matter (excluding pesticides,
+     herbicides, algaecides and agricultural or radioactive wastes to the extent that the same are exempt or
+     regulated exclusively by the state), sewage sludge or effluent or solid waste (industrial or municipal).
+     MITIGATION PLAN — A plan prepared by the applicant which shall specify mitigation measures that
+     provide for replacement wetlands and wetlands buffers that recreate as nearly as possible the original
+     wetlands and wetlands buffers in terms of type, function, geographic location and setting.
+     PERSON — Any individual or individuals, firm, partnership, association, corporation, company,
+     organization or other legal entity of any kind, including municipal corporations, governmental agencies or
+     subdivisions thereof.
+     PLANNING BOARD — The Planning Board of the Village of Croton-on-Hudson.
+     POLLUTION — The presence in the environment of human-induced conditions or contaminants in
+     quantities or characteristics which are or may be injurious to human, plant or animal life or to property.
+     REMOVE — To dig, dredge, suck, bulldoze, dragline, blast or otherwise excavate or regrade, or the act
+     thereof.
+     STATE ENVIRONMENTAL QUALITY REVIEW ACT (SEQRA) — Article 8 of the New York State
+     Environmental Conservation Law.
+     TREE — A living woody plant with an erect perennial trunk which is four inches or more in DBH.
+     VERNAL POOL — Relatively open areas of surface water formed in depressions within uplands that are
+     inundated to a minimum depth of six inches for three to four months during the growing season (usually
+     March through June) and that are devoid of fish and contain amphibians (adults, egg masses or larval
+     stages) during the growing season.
+     VILLAGE — The Village of Croton-on-Hudson, New York.
+     VILLAGE ENGINEER — The person employed as a Village Engineer of the Village of Croton-on-
+     Hudson, or his or her designee.
+     WATER CONTROL COMMISSION — The Water Control Commission of the Village of Croton-on-
+     Hudson.
+     WATER BODY — Any natural or artificial, permanent or intermittent, public or private water segment
+     such as ponds, lakes or reservoirs, that are contained within, flow through, or border on the Village
+     of Croton-on-Hudson. For purposes of this definition, "intermittent" shall mean that water stands for at
+     least three consecutive months in a twelve-month period. A water body is intermittently, seasonally or
+     permanently covered by water and contains a discernible shoreline.
+     WATERCOURSE — Any natural or artificial, permanent or intermittent, public or private water segment
+     such as rivers, streams, brooks or waterways, that is contained within, flows through, or borders on the
+     Village of Croton-on-Hudson. For purposes of this definition, "intermittent" shall mean that water flows
+     for at least three consecutive months in a twelve-month period. A drainage ditch, swale or surface feature
+     that contains water only during and immediately after a rainstorm or a snow melt shall not be considered a
+     watercourse.
+     WETLANDS —
+
+     A.    Those geographical areas of 5,000 square feet or more, with the exception of vernal pools as defined
+
+
+           in this chapter that are regulated regardless of size, inundated or saturated by surface water or
+           groundwater at a frequency and duration sufficient to support, and that under normal circumstances
+           do support, a prevalence of vegetation typically adapted for life in saturated soil conditions. Wetlands
+           generally include swamps, marshes, bogs, vernal pools, wet meadows, fens and similar areas. For
+           the purposes of this regulation, wetlands are defined as having one or more of the following
+           characteristics:
+
+           (1)    Hydrophytic vegetation.
+
+           (2)    Hydric soils.
+
+           (3)    Wetlands hydrology.
+
+     B.    Water bodies shall be encompassed under the term "wetland" as used in this chapter. For purposes of
+           identification, the minimum area requirement of 5,000 square feet for the "wetland" definition shall
+           not apply and a minimum area requirement of 2,500 square feet shall apply instead.
+
+     C.    Watercourses shall be encompassed under the term "wetland" as used in this chapter. For purposes of
+           identification, the minimum area requirement of 5,000 square feet for the "wetland" definition shall
+           not apply.
+
+     D.    "Wetland," as defined and regulated under this chapter, shall include lands and waters that meet the
+           definition provided in Section 24-0107, Subdivision 1, of the New York State Freshwater Wetlands
+           Act (Article 24 and Title 23 of Article 71 of the Environmental Conservation Law) and have an area
+           of at least 12.4 acres or, if smaller, have unusual local importance as determined by the Commissioner
+           pursuant to Section 24-0301, Subdivision 1, of the Act. The approximate boundaries of such lands
+           and waters are indicated on the Official Freshwater Wetlands Map promulgated by the Commissioner
+           pursuant to Section 24-0301, Subdivision 5, or such a map that has been amended or adjusted
+           pursuant to Section 24-0301, Subdivision 6.
+     WETLANDS BUFFER — A specified area surrounding a wetlands, which is intended to provide
+     protection to the wetlands from human activity and other encroachment associated with development. The
+     wetlands buffer shall be determined to be the area extending 120 feet horizontally from and paralleling the
+     outermost wetlands boundary or top of the bank of the watercourse.
+     WETLANDS HYDROLOGY — The sum total of wetness characteristics in areas that are inundated or
+     have saturated soils for a sufficient duration to support hydrophytic vegetation.
+
+     § 227-4. Water Control Commission.
+
+     A.    The Board of Trustees is hereby authorized and empowered to create a Water Control Commission,
+           which shall consist of five resident members, qualified by reason of training or experience in
+           engineering, in water-related science, community planning, conservation, landscape architecture,
+           wildlife management, forestry, ecology, hydrology or other related business or profession.
+
+     B.    The members and the Chairman of the Water Control Commission shall be appointed by the Mayor
+           subject to the approval of the Board of Trustees, and the Board of Trustees may authorize and budget
+           for such expenses as may be necessary and proper. Each member of the Commission shall serve for a
+           term of five years, provided that, of the members first appointed, one shall hold office for the term of
+           one year, one for the term of two years, one for the term of three years, one for the term of four years
+           and one for the term of five years. If a vacancy shall occur other than by expiration of a term, it shall
+           be filled by the Mayor, subject to the approval of the Board of Trustees, by appointment to the
+           unexpired term. The Mayor shall, subject to the approval of the Board of Trustees, designate a
+
+
+           member of the Commission to act as Chairman thereof, or, on failure so to do, the Commission shall
+           elect a Chairman from its own members.
+
+     C.    Meetings of the Commission shall be held at such times as the Commission may determine. All
+           business of the Commission shall be conducted at public meetings. Three members of the
+           Commission shall constitute a quorum for holding a hearing and making a decision on an application.
+           The Commission shall keep minutes of its proceedings, showing the vote of each member upon any
+           question or, if absent or failing to vote, indicating such fact, and shall also keep records of its official
+           actions.
+
+     D.    Every decision, recommendation or determination of the Commission shall be filed in the office of
+           the Village Engineer and shall be a public record. The Water Control Commission shall have the
+           power to adopt, amend and repeal rules and regulations consistent with this chapter governing its
+           procedure and transaction of business consistent with Article 7 of the Public Officers Law. All rules
+           and regulations and amendments or repeal thereof shall take effect immediately upon filing in the
+           office of the Village Manager, after approval by the Board of Trustees.
+
+     E.    The Village Engineer or consulting engineer shall furnish to the Water Control Commission such
+           recommendations and engineering data as the Water Control Commission shall request and require.
+           The Village Engineer or consulting engineer shall advise the Water Control Commission on all other
+           matters within the jurisdiction of the Water Control Commission under this chapter and, upon request
+           of the Water Control Commission, shall be present at the meetings and deliberations of the Water
+           Control Commission.
+
+     F.    The powers and duties of the Water Control Commission under this chapter shall be as follows:
+
+           (1)    The Water Control Commission shall review applications for and take appropriate action on
+                  projects submitted within its jurisdiction pursuant to § 227-7 of this chapter, and in accordance
+                  with the New York State Environmental Quality Review Act and other applicable laws.
+
+           (2)    The Water Control Commission shall investigate and report upon water conservation and
+                  drainage problems referred to it by the Board of Trustees, the Village Planning Board, or the
+                  Village Engineer; as directed by the Village Board of Trustees, evaluate Village of Croton-on-
+                  Hudson water planning with the planning of adjacent communities, counties and adjacent
+                  governmental authorities; and increase public knowledge and awareness of sound wetland
+                  management.
+
+     § 227-5. Regulated activities.
+
+     Except as provided in § 227-6 hereof, it shall be unlawful to conduct, directly or indirectly, any of the
+     following activities upon any wetlands or within the wetlands buffer unless a permit is obtained pursuant
+     to § 227-7 hereof:
+
+     A.    Placement or construction of any structure.
+
+     B.    Any form of draining, dredging, excavation or removal of material, either directly or indirectly.
+
+     C.    Any form of dumping, filling or depositing of material, either directly or indirectly.
+
+     D.    Installation of any service lines or cable conduits.
+
+     E.    Introduction of any form of pollution, including but not limited to the installation of a septic tank, the
+           running of a sewer outfall or the discharging of sewage treatment effluent or other liquid wastes.
+
+
+     F.    Alteration or modification of natural features and contours.
+
+     G.    Alteration or modification of natural drainage patterns.
+
+     H.    Construction of dams, docks or other water control devices, pilings or bridges, whether or not they
+           change the natural drainage characteristics.
+
+     I.    Installation of any pipes or wells.
+
+     J.    Clear cutting.
+
+     K.    Removal or cutting of any vegetation except as permitted in § 227-6C, F and G hereof.
+
+     L.    Depositing or introducing of chemicals, including herbicides, pesticides and fertilizers, except as
+           permitted in § 227-6K.
+
+     M.    The grazing and watering of one or more horses or other animals other than those directly producing
+           agricultural products.
+
+     N.    Any other activity that may impair the natural function(s) of a wetlands as described in § 227-1
+           hereof.
+
+     O.    Decorative landscaping and planting, except that decorative landscaping and planting in a wetlands
+           buffer shall not require a permit.
+
+     § 227-6. Activities permitted by right without permit.
+
+     The following activities are permitted by right within any wetlands or wetlands buffer:
+
+     A.    The depositing or removal of the natural products of the wetlands by recreational or commercial
+           fishing, shellfishing, aquiculture, hunting or trapping where otherwise legally permitted.
+
+     B.    Outdoor recreational activity that does not materially alter the natural state of the land or require
+           construction, including use of field trails for nature study, hiking, swimming, skin diving and boating,
+           where otherwise legally permitted.
+
+     C.    Normal ground maintenance, including mowing, trimming of vegetation and removal of dead or
+           diseased vegetation, around a residence except for the use of fertilizers, pesticides and herbicides in
+           wetlands.
+
+     D.    Repair of walkways and walls when the work does not involve the use of any machinery.
+
+     E.    Operation and maintenance of such dams, retaining walls, terraces, sluices, culverts or other water
+           control structures or devices as legally existed on the effective date of this chapter.
+
+     F.    Selective trimming and pruning in landscaped areas to improve the health or appearance of
+           vegetation.
+
+     G.    Public health activities pursuant to the order of the Westchester County Department of Health or New
+           York State Department of Health.
+
+     H.    Any actual and ongoing emergency activity that is immediately necessary for the protection and
+           preservation of life or property.
+
+     I.    The growing of crops that directly produce agricultural products.
+
+
+     J.    The grazing and watering of one or more horses or other animals that directly produce agricultural
+           products.
+
+     K.    Depositing herbicides, pesticides or fertilizers in a wetlands buffer in accordance with manufacturers'
+           recommendations and accepted horticultural practices.
+
+     L.    Decorative planting in a wetlands buffer.
+
+     § 227-7. Permits.
+
+     A.    Any person proposing to conduct or cause to be conducted a regulated activity specified in § 227-5
+           hereof upon any wetlands or wetlands buffer shall file an application for a permit with the approving
+           authority as hereinafter provided. Such application shall include the following information:
+
+           (1)    The name and address of the property owner and applicant, if different.
+
+           (2)    The street address and Tax Map designation of the property.
+
+           (3)    A statement of authority from the owner for any agent making application for a permit.
+
+           (4)    A statement of the proposed work and purpose thereof.
+
+           (5)    A completed environmental assessment form as required by the New York State Environmental
+                  Quality Review Act and any other forms as required by law.
+
+           (6)    A statement that the property owner and applicant will indemnify and hold the Village or its
+                  representatives harmless against any damage or injury in accordance with § 227-10 hereof.
+
+           (7)    An explanation as to why the proposed activity cannot be located on a different portion of the
+                  site or on another lot under the applicant's ownership or control.
+
+           (8)    A sketch plan to scale.
+
+           (9)    A United States Geological Survey (USGS) topographic map (1:24,000 scale) 7.5-minute
+                  quadrangle with the subject property outlined.
+
+           (10) Amount of area to be disturbed.
+
+           (11) Pre- and postdevelopment impervious surface area.
+
+           (12) A stormwater pollution prevention plan (SWPPP) consistent with the requirements of Chapter
+                196, Article I, Stormwater Management and Erosion and Sediment Control, shall be required
+                for any wetlands permit approval that qualifies as or authorizes a land development activity as
+                defined in Chapter 196, Article I. The SWPPP shall meet the performance and design criteria
+                and standards in Chapter 196, Article I. The approved wetlands permit shall be consistent with
+                the provisions of Chapter 196, Article I.
+
+     B.    Additional information may be requested by the approving authority, including any of the following:
+
+           (1)    A description of all functions currently provided by the wetlands under review.
+
+           (2)    Complete plans for the proposed site improvements, which shall be certified by an engineer,
+                  architect, land surveyor or landscape architect licensed in the State of New York, drawn to a
+                  scale no less detailed than one inch equals 50 feet and showing the following:
+
+
+                  (a)    The location of all wetlands and wetlands buffers as determined by a qualified individual
+                         no earlier than 12 months prior to the date of filing the application. The finite boundaries
+                         of a wetlands shall be determined by field investigation and flagging after appropriate field
+                         survey work by qualified individuals in a manner acceptable to the approving authority.
+                         The boundaries shall subsequently be surveyed by a licensed land surveyor unless this
+                         requirement is waived by the approving authority. The approving authority may consult
+                         and/or may require the applicant to consult with biologists, hydrologists, soil scientists,
+                         ecologists/botanists or other experts as necessary to make this determination pursuant to
+                         the definition contained in § 227-3. The survey plan shall be submitted in digital format.
+
+                  (b)    A description of the vegetative cover of the wetlands and wetlands buffer, including
+                         dominant species, as well as a survey of all trees of eight inches or more in DBH located
+                         wholly or partially in the wetlands buffer.
+
+                  (c)    A description of the soil types on site and a copy of the Soil Conservation Service (SCS)
+                         map with the subject property outlined.
+
+                  (d)    The location of the construction area or area proposed to be disturbed, and its relation to
+                         property lines, roads, buildings, and wetlands within 250 feet.
+
+                  (e)    The exact locations, details, specifications and amount of all pre- and postdevelopment
+                         proposed draining, fill, grading, dredging and vegetation removal or displacement, and the
+                         procedures to be used to undertake such work.
+
+                  (f)    The location of any wells and the depths thereof, and any sewage disposal system within
+                         50 feet of the areas to be disturbed.
+
+                  (g)    The existing and proposed contours at two-foot intervals in the proposed disturbed area
+                         and to a distance of 50 feet beyond such area; and elevations of the site and adjacent lands
+                         within 200 feet of the site at contour intervals of no greater than five feet.
+
+                  (h)    Details of any temporary or permanent drainage system proposed both for the conduct of
+                         work and after completion thereof, including locations of any point discharges, artificial
+                         inlets or other human-made conveyances that would discharge into the wetlands or
+                         wetlands buffer, and measures proposed to control erosion both during and after
+                         completion of the work.
+
+                  (i)    Where creation of a lake or pond is proposed, details of the construction of any dams,
+                         embankments, outlets or other water control devices and analysis of the wetlands
+                         hydrologic system, including seasonal water fluctuation, inflow/outflow calculations and
+                         subsurface soil, geology and groundwater conditions.
+
+                  (j)    Where creation of a detention basin is proposed, with or without excavation, details of the
+                         construction of any dams, berms, embankments, outlets or other water control devices and
+                         an analysis of the wetlands hydrologic system, including seasonal water fluctuation,
+                         inflow/outflow calculations and subsurface soil, geology, and groundwater conditions.
+
+           (3)    Copies of all applicable County, state or federal permits or permit applications that are required
+                  for such work or, if none have been submitted at the time of wetlands permit application, a list
+                  of all permits that will ultimately be required.
+
+           (4)    A list of the names to whom notice of the application was sent, as specified in § 227-7E.
+
+
+           (5)    Additional information as needed, such as the study of flood, erosion or other hazards at the site
+                  and the effect of any protective measures that might be taken to reduce such hazards; and other
+                  information deemed necessary to evaluate the proposed use in terms of the goals and standards
+                  of this chapter.
+
+     C.    An application fee in an amount set forth by resolution of the Board of Trustees shall be submitted
+           with the application.
+
+     D.    All information relating to a permit application, including but not limited to the application itself,
+           additional required materials or information, notices, record of hearings, written comments and
+           findings, shall be maintained on file in the office of the Village Engineer.
+
+     E.    For applications to the Planning Board as approving authority, the Village shall publish a notice of
+           such application in the Village's official newspaper(s). For applications to the Planning Board, the
+           Village shall also notify, in writing, all property owners of record within 200 feet of the boundary of
+           the property on which the proposed regulated activity will be located, as shown in the Village Tax
+           Assessor's office, of the filing of the wetlands permit application. For applications to the Water
+           Control Commission as approving authority, the Village shall, within 10 days after filing the
+           application, notify, in writing, all property owners of record within 200 feet of the boundary of the
+           property on which the proposed regulated activity will be located.
+
+     F.    The approving authority for all applications shall be the Water Control Commission, except as
+           follows:
+
+           (1)    The Planning Board shall be the approving authority for any application involving property that
+                  is also the subject of a pending site plan, minor site plan, subdivision or special permit
+                  application, or fill or excavation permit, in accordance with the Code of the Village of Croton-
+                  on-Hudson, and for any application that also involves the construction or establishment of a
+                  principal building or use.
+
+           (2)    The Village Engineer shall be the approving authority for any of the following activities
+                  proposed to be conducted on property not subject to regulation by the State of New York, and
+                  no public hearing shall be required:
+
+                  (a)    Removing water-deposited silt and/or other material in order to restore the preexisting land
+                         elevations, provided that the total amount removed does not exceed 15 cubic yards of
+                         material.
+
+                  (b)    Restoring land elevations that have been altered by erosion or storm damage.
+
+                  (c)    The construction, expansion or improvement of private residential or recreational
+                         facilities, as otherwise legally permitted, provided that the total amount of material
+                         deposited, removed or regraded does not exceed 15 cubic yards.
+
+                  (d)    The construction of driveways not associated with any other construction approvals where
+                         alternative means of access are proved to be impractical, provided that the amount of
+                         material to be deposited or regraded in connection with such construction does not exceed
+                         100 cubic yards.
+
+                  (e)    The use of harmless chemicals, dyes and other similar substances to maintain or study any
+                         wetland.
+
+                  (f)    Decorative landscaping and planting in wetlands when covering less than 1/10 of an acre.
+
+
+           (3)    Where the Water Control Commission or Village Engineer initiates a review of an application
+                  submitted pursuant to this chapter and determines that because of the scope, nature, location or
+                  potential environmental impact of the action which could result from approval of the wetlands
+                  permit a public hearing would be either necessary or appropriate, the application shall be
+                  immediately forwarded to the Planning Board for public hearing, whereupon the Planning
+                  Board shall become the approving authority for such application.
+
+     G.    The Planning Board, upon receipt of an application meeting the requirements of this section, shall
+           refer the application submitted to it, as the approving authority pursuant to this chapter, to the Water
+           Control Commission for review and report. The Water Control Commission shall report to the
+           Planning Board within 30 days of the referral date or within such other period as may be specified by
+           the Planning Board. The Planning Board will be guided by the Water Control Commission's report.
+           The Water Control Commission's failure to report within the specified time period may be interpreted
+           by the Planning Board as evidence of no objection to the application.
+
+     H.    An application shall not be deemed complete until and unless the applicant has complied with the
+           procedures of the State Environmental Quality Review Act.
+
+     I.    When the Planning Board is the approving authority, no sooner than 14 days and no later than 60
+           days after the receipt of a completed application, the Planning Board shall hold a public hearing on
+           any application submitted pursuant to this chapter. These time periods may be extended by mutual
+           agreement between an applicant and the Planning Board. The Planning Board shall cause notice of
+           such hearing to be published in the Village's official newspaper(s) at least seven days prior to the date
+           set for such hearing. All applications and maps and documents relating thereto shall be open for
+           public inspection al the office of the Village Engineer. [Amended 10-4-2021 by L.L. No. 12-2021]
+
+     J.    Within 45 days of the date that such application is considered complete or within 45 days of the date
+           of the close of any public hearing that may be conducted on said application, whichever period is
+           longer, the approving authority shall render a decision to approve, approve with modifications and/or
+           conditions or disapprove the issuance of a permit for the proposed activity. Nothing in this section
+           shall be construed as authorizing a default approval in the event that these periods are exceeded.
+
+     § 227-8. Considerations in granting permit; mitigation plans; monitoring; issuance of permits;
+     security.
+
+     A.    In making its determination to grant, deny or grant with modifications and/or conditions a permit
+           under this chapter, the approving authority shall consider the following:
+
+           (1)    Whether the proposed activity is consistent with the findings and intent of this chapter as set
+                  forth in §§ 227-1 and 227-2 hereof.
+
+           (2)    Whether the proposed activity will have an environmental impact and the extent of that impact.
+
+           (3)    Whether there are possible or practicable alternatives to the proposed activity.
+
+           (4)    Whether the proposed activity will have a deleterious effect on the health, safety or welfare of
+                  the residents of the Village or its neighboring communities.
+
+           (5)    Whether the proposed activity will have adequate safeguards for the protection and preservation
+                  of the environment and the wetlands, and for the natural functions of and benefits derived from
+                  such areas.
+
+           (6)    Whether the proposed activity will have adequate safeguards employing the best available
+
+
+                  technology to protect the surface water and groundwater supplies of the Village from drought,
+                  pollution, overuse and other forms of misuse.
+
+           (7)    Whether the proposed activity has been planned or designed so as to create minimal disturbance;
+                  to prevent or mitigate damage from erosion, turbidity or siltation; to preserve the natural flora
+                  and fauna and their habitat; to protect against flood and pollution of the wetlands; and to protect
+                  any other benefits of wetlands as enumerated in §§ 227-1 and 227-2 hereof; and is the best
+                  practicable alternative available for accomplishing the proposed action.
+
+           (8)    Whether there is a practicable alternative site for the proposed activity in another area of the
+                  subject property that is not a wetland.
+
+           (9)    Any additional information as contained in:
+
+                  (a)    Any report from other Village boards and agencies and/or federal, state or other local
+                         governmental agencies.
+
+                  (b)    Any additional requested information.
+
+     B.    The applicant shall have the burden of demonstrating that the proposed activity is not adverse to the
+           health, safety and welfare of the residents of the Village or its neighboring communities and that it
+           will not degrade the environment or be inconsistent with the purpose of this chapter as stated in
+           §§ 227-1 and 227-2 hereof or, in the alternative, that the applicant will otherwise suffer undue
+           hardship if a permit is not issued.
+
+     C.    The approving authority may require the preparation of a mitigation plan by the applicant pursuant to
+           § 227-8E hereof when the applicant has demonstrated that either losses or significant impacts to the
+           wetlands or wetlands buffer are necessary and unavoidable. For the purposes of requiring a mitigation
+           plan, wetlands impacts are necessary and unavoidable only if all of the following criteria are satisfied:
+
+           (1)    There is no feasible on-site alternative to the proposed activity, including reduction in density,
+                  change in use, revision of road and lot layout and related site planning considerations that could
+                  accomplish the applicant's objectives; and
+
+           (2)    There is no feasible alternative to the proposed activity on another site available to the applicant
+                  that is not a wetlands or wetlands buffer.
+
+     D.    The approving authority shall monitor or shall cause to have monitored projects in accordance with
+           the specifications set forth in the permit to determine whether the elements of the permit and/or
+           mitigation plan have been met. The Planning Board may contract with an academic institution,
+           independent research group or other qualified professionals to assist and discharge its obligations
+           hereunder at the expense of the applicant. The requirements for monitoring shall be specified in the
+           permit and/or mitigation plan and may include, but not be limited to:
+
+           (1)    The time period over which monitoring shall occur.
+
+           (2)    Field measurements to verify the size and location of the impacted wetlands area and the
+                  restored/replacement wetlands area.
+
+           (3)    The date of completion of the work or restoration/replacement.
+
+           (4)    Field verification of the vegetative, hydrologic and soils criteria as specified in the permit and/
+                  or mitigation plan.
+
+
+     E.    In the event that the approving authority so requires pursuant to § 227-8C hereof, the applicant shall
+           prepare a mitigation plan.
+
+           (1)    All mitigation measures shall balance the benefits of regaining new wetlands areas with the loss
+                  to other natural areas caused by wetlands creation. On-site mitigation shall be the preferred
+                  approach; off-site mitigation shall be permitted only in cases where an on-site alternative is not
+                  possible.
+
+           (2)    Mitigation plans developed to compensate for the loss of wetlands or wetlands buffers shall
+                  include baseline data as needed to adequately review the effectiveness of this plan. The
+                  mitigation plan shall also include a monitoring schedule for a specified period of time as agreed
+                  to by the approving authority.
+
+           (3)    Any mitigation plan prepared pursuant to this section and accepted by the approving authority
+                  shall become part of the permit for the application.
+
+     F.    Any permit issued pursuant to this chapter may be issued with conditions. Such conditions may be
+           attached as the approving authority deems necessary to ensure the preservation and protection of
+           affected wetlands and to ensure compliance with the policies and provisions of this chapter and the
+           provisions of the approving authority's rules and regulations, if any, adopted pursuant to this chapter.
+
+     G.    Every permit issued pursuant to this chapter shall be in written form and shall contain the following
+           conditions:
+
+           (1)    Work conducted under a permit shall be open to inspection during daylight hours, including
+                  weekends and holidays, by the approving authority or its designated representative or the
+                  Village Engineer.
+
+           (2)    The permit expiration date as determined by the approving authority shall be stated.
+
+           (3)    The permit holder shall notify the approving authority of the date on which the work is to begin
+                  at least five days in advance of such commencement date.
+
+           (4)    The approving authority's permit shall be prominently displayed at the project site during the
+                  undertaking of the activities authorized by the permit.
+
+     H.    The approving authority shall include in the permit application file it keeps a copy of any mitigation
+           plan prepared pursuant to § 227-8E hereof and a record of any hearing held pursuant to § 227-7J
+           hereof.
+
+     I.    The Planning Board, as the approving authority, may require prior to the commencement of work
+           authorized under any permit issued pursuant to this chapter that the applicant shall post a bond or
+           other security acceptable to the Board of Trustees in an amount and with surety and conditions
+           sufficient to secure compliance with the conditions and limitations set forth in the permit. The
+           particular amount and the conditions of the bond or other security shall be consistent with the
+           purposes of this chapter. The bond or other security shall remain in effect until the issuance of a
+           certificate of completion as described in § 227-12 hereof and until the bond or other security is
+           released by the Planning Board or a substitute bond or other security is provided. In the event that any
+           condition of any such bond or other security is breached, the Planning Board, as the approving
+           authority, may recommend that the Village institute an action in the courts upon such bond or other
+           security and prosecute the same to judgment and execution.
+
+     J.    No permit granted pursuant to this chapter shall remove an applicant's obligation to comply in all
+
+
+           respects with the applicable provisions of any other federal, state or local law or regulation, including
+           but not limited to the securing of any other required permit or approval.
+
+     K.    The approving authority after notice to the permit holder and an opportunity to be heard may revoke
+           or suspend a wetlands permit if it finds that the applicant has not complied with any or all of the terms
+           of such permit, has exceeded the authority granted in the permit or has failed to undertake the project
+           in the manner set forth in the approved application. [Amended 7-21-2008 by L.L. No. 2-2008]
+
+           (1)    Issuance of a stop-work order by the Village Engineer shall be as provided in § 86-14 of the
+                  Village Code. A stop-work order may be appealed by filing a written notice of appeal with the
+                  Planning Board not later than thirty (30) days after service of the stop-work order upon the
+                  applicant. A hearing shall be scheduled by the Planning Board within 20 days of receipt of
+                  request for a hearing. After the close of the hearing, the Planning Board may confirm, modify
+                  or cancel the stop-work order.
+
+           (2)    The approving authority shall set forth, in writing, in the permit application file it keeps its
+                  findings and reasons for revoking or suspending a permit pursuant to this section.
+
+     L.    No permit shall be valid for more than one year after approval of an application by the approving
+           authority unless otherwise specified by the approving authority. All permits shall expire upon the
+           completion of the work specified therein. The validity of any work duly completed pursuant to an
+           existing permit shall not be affected by the expiration of the permit, but such work shall not be
+           continued beyond the expiration date. Permits may be renewed by the approving authority upon
+           application submitted at least 60 days before the expiration of the permit. Standards for issuance of
+           renewals shall be the same as for the issuance of permits. Permits, including all of their conditions,
+           shall be binding on successors and assignees of the applicant.
+
+     § 227-9. Appeals.
+
+     A.    A determination by the Planning Board to grant or deny a wetlands permit may be reviewed by the
+           applicant or any other aggrieved person by the commencement of an action pursuant to the provisions
+           of Article 78 of the Civil Practice Law and Rules.
+
+     B.    In the case of an application decided by the Water Control Commission or the Village Engineer, the
+           applicant or any other party aggrieved by such determination may seek review by appealing to the
+           Planning Board, in which case the Planning Board shall become the approving authority for such
+           application. Such review shall be requested not later than 20 days after the filing of the subject
+           decision by the approving authority.
+
+     § 227-10. Inspection; indemnification.
+
+     Any site for which an application has been submitted shall be subject to inspection upon notice to the
+     property owner and applicant at any reasonable time, including weekends and holidays, by the Village
+     Engineer, the Building Inspector or by members of the Water Control Commission, the Planning Board
+     or their designated representatives. The applicant, by making application for such permit, shall be deemed
+     to have given its consent to such inspection. The applicant shall indemnify and hold the Village harmless
+     against any damage or injury that may be caused by or arise out of any entry onto the subject property
+     in connection with the processing of the application, during construction or performance of the work or
+     within one year after the completion of work.
+
+
+     § 227-11. Exemptions.
+
+     This chapter shall not apply to any work shown on construction drawings or improvement plans for
+     subdivisions, site plans, minor site plans, or special permits for which a wetlands permit has previously
+     been granted prior to the effective date of this chapter.
+
+     § 227-12. Completion of work.
+
+     A.    Within 30 days after completion of all work authorized under a permit issued in accordance with this
+           chapter, the applicant shall notify the Village Engineer of such completion. For all work undertaken
+           pursuant to permits approved by the Planning Board or Water Control Commission, the applicant
+           shall, if required, submit as-built drawings. Within 30 days of such notification and submission, the
+           Village Engineer shall inspect the work for compliance with all conditions of the permit.
+
+     B.    When all work authorized under a permit is deemed acceptable, the Village Engineer shall issue a
+           certificate of completion, which shall be accompanied by cancellation or return of any bond collected
+           for such permit.
+
+     C.    When work authorized under a permit is deemed not acceptable, the Village Engineer shall so notify
+           the applicant. The notification of noncompliance shall include a list of all conditions in violation of
+           the terms of the permit and shall specify a time limit for the correction of all items so listed.
+
+     § 227-13. Penalties for offenses; enforcement.
+
+     A.    Any person who undertakes any regulated activity within a wetlands or wetlands buffer without a
+           wetlands permit required by this chapter or who violates any condition attached to a wetlands permit
+           or who otherwise violates any provision of this chapter shall be guilty of an offense, punishable by a
+           fine of not less than $500 nor more than $1,000. For a second and each subsequent offense, the
+           violator shall be guilty of an offense punishable by a fine of not less than $1,000 nor more than $2,000
+           or a term of imprisonment of not more than 15 days, or both. Each violation of the provisions of this
+           chapter shall be a separate and distinct offense and, in the case of a continuing offense, each day's
+           continuance thereof shall be deemed a separate and distinct offense. In addition, the court may order
+           or direct a violator to restore the affected wetland or wetlands buffer to its condition prior to the
+           offense, insofar as that is possible. The court shall specify a reasonable time for the completion of
+           such restoration, which shall be effected under the supervision of the Village Engineer.
+
+     B.    In addition to the criminal penalties provided under § 227-13A, any person who undertakes any
+           regulated activity within a wetlands or wetlands buffer without a permit required by this chapter or
+           who violates any condition attached to a wetlands permit or who otherwise violates any provision of
+           this chapter shall be liable for a civil penalty not to exceed $3,000 for every such violation. Each
+           consecutive day of the violation shall be considered a separate offense. Before assessment of the civil
+           penalty, the alleged violator shall be afforded a hearing or opportunity to be heard before the Planning
+           Board upon due notice and with rights to specification of the charges and representation by counsel.
+           Such civil penalty may be recovered in an action brought by the Village in any court of competent
+           jurisdiction. Such civil penalty may be released or compromised by the Village, and any action
+           commenced to recover the same may be settled and discontinued by the Village.
+
+     C.    The Planning Board also shall have the power, following a hearing, to direct a violator to cease
+           violation of this chapter and, under the Board's supervision, to restore satisfactorily the affected
+           wetland or wetlands buffer to its condition prior to the violation, insofar as that is possible, within a
+           reasonable time. Exercising of such power may be with or without the imposition of a fine or civil
+
+
+     § 227-13                                               WETLANDS
+
+           penalty under Subsections A and B hereof.
+
+     D.    Any civil penalty or order issued by the Planning Board shall be reviewable pursuant to Article 78 of
+           the Civil Practice Law and Rules.
+
+     E.    The Village also shall have the right to seek equitable relief to restrain any violation or threatened
+           violation of any provision of this chapter and to compel the restoration of the affected wetlands or
+           wetlands buffer to its condition prior to the violation of the provisions of this chapter.
+
+     F.    The Village shall not issue a building permit, temporary certificate of occupancy or certificate of
+           occupancy for any property for which a violation of this chapter has been served, or for which an
+           administrative or judicial proceeding has been commenced under this section, until said violation or
+           proceeding is dismissed or resolved to the satisfaction of the approving authority or court, as is
+           appropriate.
+
+     G.    The Village Engineer and Code Enforcement Officer(s) are hereby authorized to issue appearance
+           tickets for violations of this chapter.
+
+     § 227-14. Severability.
+
+     If any provision of this chapter shall be held for any reason to be invalid, such determination shall not
+     invalidate any other provision hereof.
+
+
+                                                 CROTON-ON-HUDSON CODE

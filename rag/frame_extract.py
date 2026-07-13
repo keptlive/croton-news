@@ -174,6 +174,15 @@ def auto_face_crop(img, padding=0.3):
 
 def extract_frame(video_path, timestamp, output_path=None):
     """Extract a single frame from video at given timestamp (seconds)."""
+    # Check that the file has a video stream (some .mp4 files are audio-only)
+    probe = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "v:0",
+         "-show_entries", "stream=codec_type", "-of", "csv=p=0", video_path],
+        capture_output=True, text=True,
+    )
+    if not probe.stdout.strip():
+        raise ValueError(f"No video stream in {os.path.basename(video_path)} (audio-only file)")
+
     if output_path is None:
         os.makedirs(OUTPUT_DIR, exist_ok=True)
         vid_name = os.path.splitext(os.path.basename(video_path))[0]

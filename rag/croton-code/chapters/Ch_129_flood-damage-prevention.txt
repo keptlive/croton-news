@@ -1,0 +1,845 @@
+---
+title: "Chapter 129: Flood Damage Prevention"
+chapter: 129
+name: "Flood Damage Prevention"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 1
+---
+
+§ 129-1.              Findings.                                     § 129-11.             Purpose of floodplain
+     § 129-2.              Purpose.                                                            development permit; fees.
+     § 129-3.              Objectives.                                   § 129-12.             Permit application.
+     § 129-4.              Word usage and definitions.                   § 129-13.             Powers and duties of local
+     § 129-5.              Applicability.                                                      administrator.
+     § 129-6.              Basis for establishing areas of               § 129-14.             General standards.
+                           special flood hazard.                         § 129-15.             Standards for all structures.
+     § 129-7.              Interpretation and conflict with              § 129-16.             Elevation of residential
+                           other laws.                                                         structures.
+     § 129-8.              Penalties for offenses.                       § 129-17.             Nonresidential structures.
+     § 129-9.              Warning and disclaimer of                     § 129-18.             Manufactured homes and
+                           liability.                                                          recreational vehicles.
+     § 129-10.             Designation of local                          § 129-19.             Appeals Board.
+                           administrator.                                § 129-20.             Conditions for variances.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson 6-18-2007 by
+     L.L. No. 2-2007.50 Amendments noted where applicable.]
+
+                                                              GENERAL REFERENCES
+
+     Excavation, filling and topsoil removal — See Ch. 120.              Wetlands — See Ch. 227.
+
+     Stormwater, drainage, erosion and water pollution control — See     Zoning — See Ch. 230.
+     Ch. 196.
+
+
+     § 129-1. Findings.
+
+     The Board of Trustees of the Village of Croton-on-Hudson finds that the potential and/or actual damages
+     from flooding and erosion may be a problem to the residents of the Village of Croton-on-Hudson and that
+     such damages may include destruction or loss of private and public housing, damage to public facilities,
+     both publicly and privately owned, and injury to and loss of human life. In order to minimize the threat of
+     such damages and to achieve the purposes and objectives hereinafter set forth, this chapter is adopted.
+
+     § 129-2. Purpose.
+
+     It is the purpose of this chapter to promote the public health, safety and general welfare and to minimize
+     public and private losses due to flood conditions in specific areas by provisions designed to:
+
+     A.    Regulate uses which are dangerous to health, safety and property due to water or erosion hazards or
+           which result in damaging increases in erosion or in flood heights or velocities.
+
+     50. Editor's Note: This local law superseded former Ch. 129, Flood Damage Prevention, adopted 3-2-1987 by L.L. No. 3-1987, as
+         amended.
+
+
+     B.    Require that uses vulnerable to floods, including facilities which serve such uses, be protected against
+           flood damage at the time of initial construction.
+
+     C.    Control the alteration of natural floodplains, stream channels and natural protective barriers which
+           are involved in the accommodation of floodwaters.
+
+     D.    Control filling, grading, dredging and other development which may increase erosion or flood
+           damages.
+
+     E.    Regulate the construction of flood barriers which will unnaturally divert floodwaters or which may
+           increase flood hazards to other lands.
+
+     F.    Qualify for and maintain participation in the National Flood Insurance Program.
+
+     § 129-3. Objectives.
+
+     The objectives of this chapter are to:
+
+     A.    Protect human life and health.
+
+     B.    Minimize expenditure of public money for costly flood-control projects.
+
+     C.    Minimize the need for rescue and relief efforts associated with flooding and generally undertaken at
+           the expense of the general public.
+
+     D.    Minimize prolonged business interruptions.
+
+     E.    Minimize damage to public facilities and utilities, such as water and gas mains, electric, telephone
+           and sewer lines, streets and bridges located in areas of special flood hazard.
+
+     F.    Help maintain a stable tax base by providing for the sound use and development of areas of special
+           flood hazard so as to minimize future flood-blight areas.
+
+     G.    Provide that developers are notified that property is in an area of special flood hazard.
+
+     H.    Ensure that those who occupy the areas of special flood hazard assume responsibility for their actions.
+
+     § 129-4. Word usage and definitions.
+
+     A.    Unless specifically defined below, words or phrases used in this chapter shall be interpreted so as to
+           give them the meanings they have in common usage and to give this chapter its most reasonable
+           application.
+
+     B.    As used in this chapter, the following terms shall have the meanings indicated:
+           APPEAL — A request for a review of the local administrator's interpretation of any provision of this
+           chapter or a request for a variance.
+           AREA OF SHALLOW FLOODING — A designated AO, AH or VO Zone on a community's Flood
+           Insurance Rate Map (FIRM) with a one-percent or greater annual chance of flooding to an average
+           annual depth of one to three feet, where a clearly defined channel does not exist, where the path of
+           flooding is unpredictable and where velocity flow may be evident. Such flooding is characterized by
+           ponding or sheet flow.
+           AREA OF SPECIAL FLOOD HAZARD — The land in the floodplain within a community subject
+
+
+           to a one-percent or greater chance of flooding in any given year. This area may be designated as Zone
+           A, AE, AH, AO, A1-A30, A99, V, VO, VE or V1-V30. It is also commonly referred to as the "base
+           floodplain" or "one-hundred-year floodplain." For purposes of this chapter, the term “special flood
+           hazard area (SFHA)” is synonymous in meaning with the phrase “area of special flood hazard.”
+           BASE FLOOD — The flood having a one-percent chance of being equaled or exceeded in any given
+           year.
+           BASEMENT — That portion of a building having its floor subgrade (below ground level) on all
+           sides.
+           BUILDING — See "structure."
+           CELLAR — Has the same meaning as "basement."
+           CRAWL SPACE — An enclosed area beneath the lowest elevated floor, 18 inches or more in
+           height, which is used to service the underside of the lowest floor. The elevation of the floor of this
+           enclosed area, which may be of soil, gravel, concrete or other material, must be equal to or above
+           the lowest adjacent exterior grade. The enclosed crawl space shall be properly vented to allow for the
+           equalization of hydrostatic forces which would be experienced during periods of flooding.
+           DEVELOPMENT — Any man-made change to improved or unimproved real estate, including but
+           not limited to buildings or other structures, mining, dredging, filling, paving, excavation or drilling
+           operations or storage of equipment or materials.
+           ELEVATED BUILDING —
+
+           (1)    A nonbasement building:
+
+                  (a)    Built, in the case of a building in Zones A1-A30, AE, A, A99, AO, AH, B, C, X or D,
+                         to have the top of the elevated floor or, in the case of a building in Zones V1-V30, VE
+                         or V, to have the bottom of the lowest horizontal structure member of the elevated floor
+                         elevated above the ground level by means of pilings, columns (posts and piers) or shear
+                         walls parallel to the flow of the water; and
+
+                  (b)    Adequately anchored so as not to impair the structural integrity of the building during a
+                         flood of up to the magnitude of the base flood.
+
+           (2)    In the case of Zones A1-A30, AE, A, A99, AO, AH, B, C, X or D, "elevated building" also
+                  includes a building elevated by means of fill or solid foundation perimeter walls with openings
+                  sufficient to facilitate the unimpeded movement of floodwaters.
+
+           (3)    In the case of Zones V1-V30, VE or V, "elevated building" also includes a building otherwise
+                  meeting the definition of "elevated building," even though the lower area is enclosed by means
+                  of breakaway walls that meet the federal standards.
+           FEDERAL EMERGENCY MANAGEMENT AGENCY — The federal agency that administers the
+           National Flood Insurance Program.
+           FLOOD BOUNDARY AND FLOODWAY MAP (FBFM) — An official map of the community
+           published by the Federal Emergency Management Agency as part of a riverine community's Flood
+           Insurance Study. The FBFM delineates a regulatory floodway along watercourses studied in detail in
+           the Flood Insurance Study.
+           FLOOD ELEVATION STUDY — An examination, evaluation and determination of the flood
+           hazards and, if appropriate, corresponding water surface elevations or an examination, evaluation and
+
+
+           determination of flood-related erosion hazards.
+           FLOOD HAZARD BOUNDARY MAP (FHBM) — An official map of a community issued by the
+           Federal Emergency Management Agency where the boundaries of the areas of special flood hazard
+           have been designated as Zone A but no flood elevations are provided.
+           FLOOD INSURANCE RATE MAP (FIRM) — An official map of a community on which the
+           Federal Emergency Management Agency has delineated both the areas of special flood hazard and
+           the risk premium zones applicable to the community.
+           FLOOD INSURANCE STUDY — See "flood elevation study."
+           FLOOD or FLOODING —
+
+           (1)    A general and temporary condition of partial or complete inundation of normally dry land areas
+                  from:
+
+                  (a)    The overflow of inland or tidal waters.
+
+                  (b)    The unusual and rapid accumulation or runoff of surface waters from any source.
+
+           (2)    "Flood" or "flooding" also means the collapse or subsidence of land along the shore of a lake or
+                  other body of water as a result of erosion or undermining caused by waves or currents of water
+                  exceeding anticipated cyclical levels or suddenly caused by an unusually high water level in a
+                  natural body of water accompanied by a severe storm or by an unanticipated force of nature,
+                  such as a flash flood or an abnormal tidal surge, or by some similarly unusual and unforeseeable
+                  event which results in flooding as defined in Subsection (1)(a) above.
+           FLOODPLAIN or FLOOD-PRONE AREA — Any land area susceptible to being inundated by water
+           from any source. (See "flooding.")
+           FLOODPROOFING — Any combination of structural and nonstructural additions, changes or
+           adjustments to structures which reduce or eliminate flood damage to real estate or improved real
+           property, water and sanitary facilities, structures and their contents.
+           FLOODWAY — See "regulatory floodway."
+           FUNCTIONALLY DEPENDENT USE — A use which cannot perform its intended purpose unless
+           it is located or carried out in close proximity to water, such as a docking or port facility necessary
+           for the loading and unloading of cargo or passengers, shipbuilding and ship repair facilities. The term
+           does not include long-term storage, manufacturing, sales or service facilities.
+           HIGHEST ADJACENT GRADE — The highest natural elevation of the ground surface, prior to
+           construction, next to the proposed walls of a structure.
+           HISTORIC STRUCTURE — Any structure that is:
+
+           (1)    Listed individually in the National Register of Historic Places (a listing maintained by the
+                  Department of the Interior) or preliminarily determined by the Secretary of the Interior as
+                  meeting the requirements for individual listing on the National Register;
+
+           (2)    Certified or preliminarily determined by the Secretary of the Interior as contributing to the
+                  historical significance of a registered historic district or a district preliminarily determined by
+                  the Secretary to qualify as a registered historic district;
+
+           (3)    Individually listed on a state inventory of historic places in states with historic preservation
+                  programs which have been approved by the Secretary of the Interior; or
+
+
+           (4)    Individually listed on a local inventory of historic places in communities with historic
+                  preservation programs that have been certified either by an approved state program as
+                  determined by the Secretary of the Interior or directly by the Secretary of the Interior in states
+                  without approved programs.
+           LOCAL ADMINISTRATOR — The person appointed by the community to administer and
+           implement this chapter by granting or denying development permits in accordance with its provisions.
+           This person is often the Building Inspector, Code Enforcement Officer, or employee of an
+           engineering department.
+           LOWEST FLOOR — Lowest floor of the lowest enclosed area (including basement or cellar). An
+           unfinished or flood-resistant enclosure, usable solely for parking of vehicles, building access or
+           storage, in an area other than a basement area is not considered a building's "lowest floor," provided
+           that such enclosure is not built so as to render the structure in violation of the applicable nonelevation
+           design requirements of this chapter.
+           MANUFACTURED HOME — A structure, transportable in one or more sections, which is built on
+           a permanent chassis and designed to be used with or without a permanent foundation when connected
+           to the required utilities. The term does not include a recreational vehicle.
+           MANUFACTURED HOME PARK OR SUBDIVISION — A parcel (or contiguous parcels) of land
+           divided into two or more manufactured home lots for rent or sale.
+           MEAN SEA LEVEL — For purposes of the National Flood Insurance Program, the National
+           Geodetic Vertical Datum (NGVD) of 1929, the North American Vertical Datum of 1988 (NAVD 88),
+           or other datum to which base flood elevations shown on a community's Flood Insurance Rate Map
+           are referenced.
+           MOBILE HOME — See "manufactured home."
+           NEW CONSTRUCTION — Structures for which the start of construction commenced on or after the
+           effective date of a floodplain management regulation adopted by the community, and includes any
+           subsequent improvements to such structure.
+           ONE-HUNDRED-YEAR FLOOD or 100-YEAR FLOOD — See "base flood."
+           PRINCIPALLY ABOVE GROUND — At least 51% of the actual cash value of the structure,
+           excluding land value, is above ground.
+           RECREATIONAL VEHICLE — A vehicle which is:
+
+           (1)    Built on a single chassis;
+
+           (2)    Four hundred square feet or less when measured at the largest horizontal projections;
+
+           (3)    Designed to be self-propelled or permanently towable by a light-duty truck; and
+
+           (4)    Not designed primarily for use as a permanent dwelling but as temporary living quarters for
+                  recreational, camping, travel or seasonal use.
+           REGULATORY FLOODWAY — The channel of a river or other watercourse and the adjacent land
+           areas that must be reserved in order to discharge the base flood without cumulatively increasing
+           the water surface elevation more than a designated height as determined by the Federal Emergency
+           Management Agency in a Flood Insurance Study or by other agencies as provided in § 129-13B of
+           this chapter.
+           START OF CONSTRUCTION — The date of permit issuance for new construction and substantial
+
+
+           improvements to existing structures, provided that actual start of construction, repair, reconstruction,
+           rehabilitation, addition placement, or other improvement is within 180 days after the date of issuance.
+           The actual start of construction means the first placement of permanent construction of a building
+           (including a manufactured home) on a site, such as the pouring of a slab or footings, installation of
+           pilings or construction of columns.
+           STRUCTURE — A walled and roofed building, including a gas or liquid storage tank, that is
+           principally above ground, as well as a manufactured home.
+           SUBSTANTIAL DAMAGE — Damage of any origin sustained by a structure whereby the cost of
+           restoring the structure to its before-damaged condition would equal or exceed 50% of the market
+           value of the structure before the damage occurred.
+           SUBSTANTIAL IMPROVEMENT — Any reconstruction, rehabilitation, addition or other
+           improvement of a structure, the cost of which equals or exceeds 50% of the market value of the
+           structure before the start of construction of the improvement. The term includes structures which
+           have incurred substantial damage, regardless of the actual repair work performed. The term does not,
+           however, include either:
+
+           (1)    Any project for improvement of a structure to correct existing violations of state or local health,
+                  sanitary or safety code specifications which have been identified by the local code enforcement
+                  official and which are the minimum necessary to assure safe living conditions; or
+
+           (2)    Any alteration of an historic structure, provided that the alteration will not preclude the
+                  structure's continued designation as an historic structure.
+           VARIANCE — A grant of relief from the requirements of this chapter which permits construction or
+           use in a manner that would otherwise be prohibited by this chapter.
+
+     § 129-5. Applicability.
+
+     This chapter shall apply to all areas of special flood hazard within the jurisdiction of the Village of Croton-
+     on-Hudson, Westchester County.
+
+     § 129-6. Basis for establishing areas of special flood hazard.
+
+     A.    The areas of special flood hazard for the Village of Croton-on-Hudson, Community Number 360907,
+           are identified and defined on the following documents prepared by the Federal Emergency
+           Management Agency:
+
+           (1)    Flood Insurance Rate Map Panel Numbers 36119C0106F, 36119C0107F, 36119C0108F,
+                  36119C0109F, 36119C0117F, 36119C0126F, 36119C0128F, 36119C0136F, the effective date
+                  of which is September 28, 2007, and any subsequent revisions to these map panels that do not
+                  affect areas under our community's jurisdiction.
+
+           (2)    A scientific and engineering report entitled “Flood Insurance Study, Westchester County, New
+                  York, All Jurisdictions,” dated September 28, 2007.
+
+     B.    The above documents are hereby adopted and declared to be a part of this chapter. The Flood
+           Insurance Study and/or maps are on file at the Village Engineer's office in the Stanley H. Kellerhouse
+           Municipal Building.
+
+     § 129-7. Interpretation and conflict with other laws.
+
+
+     A.    This chapter includes all revisions to the National Flood Insurance Program through March 1, 2007,
+           and shall supersede all previous laws adopted for the purpose of flood damage prevention.
+
+     B.    In their interpretation and application, the provisions of this chapter shall be held to be minimum
+           requirements, adopted for the promotion of the public health, safety and welfare. Whenever the
+           requirements of this chapter are at variance with the requirements of any other lawfully adopted rules,
+           regulations or ordinances, the most restrictive or that imposing the highest standards shall govern.
+
+     § 129-8. Penalties for offenses.
+
+     No structure in an area of special flood hazard shall hereafter be constructed, located, extended, converted
+     or altered and no land shall be excavated or filled without full compliance with the terms of this chapter
+     and any other applicable regulations. Any infraction of the provisions of this chapter by failure to comply
+     with any of its requirements, including infractions of conditions and safeguards established in connection
+     with conditions of the permit, shall constitute a violation. Any person who violates this chapter or fails
+     to comply with any of its requirements shall, upon conviction thereof, be fined no more than $250 or
+     imprisoned for not more than 15 days, or both. Each day of noncompliance shall be considered a separate
+     offense. Nothing herein contained shall prevent the Village of Croton-on-Hudson from taking such other
+     lawful action as necessary to prevent or remedy an infraction. Any structure found not compliant with the
+     requirements of this chapter for which the developer and/or owner has not applied for and received an
+     approved variance under §§ 129-19 and 129-20 will be declared noncompliant and notification sent to the
+     Federal Emergency Management Agency.
+
+     § 129-9. Warning and disclaimer of liability.
+
+     The degree of flood protection required by this chapter is considered reasonable for regulatory purposes
+     and is based on scientific and engineering considerations. Larger floods can and will occur on rare
+     occasions. Flood heights may be increased by man-made or natural causes. This chapter does not imply
+     that land outside the areas of special flood hazard or uses permitted within such areas will be free from
+     flooding or flood damages. This chapter shall not create liability on the part of the Village of Croton-on-
+     Hudson, any officer or employee thereof or the Federal Emergency Management Agency for any flood
+     damages that result from reliance on this chapter or any administrative decision lawfully made thereunder.
+
+     § 129-10. Designation of local administrator.
+
+     The Village Engineer is hereby appointed local administrator to administer and implement this chapter by
+     granting or denying floodplain development permits in accordance with its provisions.
+
+     § 129-11. Purpose of floodplain development permit; fees.
+
+     A.    Purpose. A floodplain development permit is hereby established for all construction and other
+           development to be undertaken in areas of special flood hazard in this community for the purpose of
+           protecting its citizens from increased flood hazards and ensuring that new development is constructed
+           in a manner that minimizes its exposure to flooding. It shall be unlawful to undertake any
+           development in an area of special flood hazard, as shown on the Flood Insurance Rate Map
+           enumerated in § 129-6, without a valid floodplain development permit. Application for a permit shall
+           be made on forms furnished by the local administrator and may include but not be limited to plans, in
+           duplicate, drawn to scale and showing the nature, location, dimensions and elevations of the area in
+           question, existing or proposed structures, fill, storage of materials, drainage facilities and the location
+           of the foregoing.
+
+
+     B.    Fees. All applications for a floodplain development permit shall be accompanied by an application
+           fee as set from time to time by resolution of the Village Board of Trustees. In addition, the applicant
+           shall be responsible for reimbursing the Village of Croton-on-Hudson for any additional costs
+           necessary for review, inspection and approval of this project. The local administrator may require a
+           deposit of no more than $500 to cover these additional costs.
+
+     § 129-12. Permit application.
+
+     The applicant shall provide the following information as appropriate; additional information may be
+     required on the permit application form:
+
+     A.    The proposed elevation, in relation to mean sea level, of the lowest floor (including basement or
+           cellar) of any new or substantially improved structure to be located in Zones A1-A30, AE or AH or
+           Zone A if base flood elevation data is available. Upon completion of the lowest floor, the permittee
+           shall submit to the local administrator the as-built elevation, certified by a licensed professional
+           engineer or surveyor.
+
+     B.    The proposed elevation, in relation to mean sea level, to which any new or substantially improved
+           nonresidential structure will be floodproofed. Upon completion of the floodproofed portion of the
+           structure, the permittee shall submit to the local administrator the as-built floodproofed elevation,
+           certified by a professional engineer or surveyor.
+
+     C.    A certificate from a licensed professional engineer or architect that any utility floodproofing will meet
+           the criteria in § 129-15C, Utilities.
+
+     D.    A certificate from a licensed professional engineer or architect that any nonresidential floodproofed
+           structure will meet the floodproofing criteria in § 129-17, Nonresidential structures (except coastal
+           high-hazard areas).
+
+     E.    A description of the extent to which any watercourse will be altered or relocated as a result of
+           proposed development. Computations by a licensed professional engineer must be submitted that
+           demonstrate that the altered or relocated segment will provide equal or greater conveyance than the
+           original stream segment. The applicant must submit any maps, computations or other material
+           required by the Federal Emergency Management Agency (FEMA) to revise the documents
+           enumerated in § 129-6, when notified by the local administrator, and must pay any fees or other costs
+           assessed by FEMA for this purpose. The applicant must also provide assurances that the conveyance
+           capacity of the altered or relocated stream segment will be maintained.
+
+     F.    A technical analysis, by a licensed professional engineer, if required by the local administrator, which
+           shows whether proposed development to be located in an area of special flood hazard may result in
+           physical damage to any other property.
+
+     G.    In Zone A, when no base flood elevation data is available from other sources, base flood elevation
+           data shall be provided by the permit applicant for subdivision proposals and other proposed
+           developments (including proposals for manufactured home and recreational vehicle parks and
+           subdivisions) that are greater than either 50 lots or five acres.
+
+     § 129-13. Powers and duties of local administrator.
+
+     Duties of the local administrator shall include but not be limited to the following:
+
+     A.    Permit application review. The local administrator shall conduct the following permit application
+
+
+           review before issuing a floodplain development permit:
+
+           (1)    Review all applications for completeness, particularly with the requirements of § 129-12, Permit
+                  application, and for compliance with the provisions and standards of this chapter.
+
+           (2)    Review subdivision and other proposed new development, including manufactured home parks,
+                  to determine whether proposed building sites will be reasonably safe from flooding. If a
+                  proposed building site is located in an area of special flood hazard, all new construction and
+                  substantial improvements shall meet the applicable standards of §§ 129-14 through 129-18 and,
+                  in particular, § 129-14A, Subdivision proposals.
+
+           (3)    Determine whether any proposed development in an area of special flood hazard may result in
+                  physical damage to any other property (e.g., stream bank erosion and increased flood velocities).
+                  The local administrator may require the applicant to submit additional technical analyses and
+                  data necessary to complete the determination. If the proposed development may result in
+                  physical damage to any other property or fails to meet the requirements of §§ 129-14 through
+                  129-18, no permit shall be issued. The applicant may revise the application to include measures
+                  that mitigate or eliminate the adverse effects and resubmit the application.
+
+           (4)    Determine that all necessary permits have been received from those governmental agencies
+                  from which approval is required by state or federal law.
+
+     B.    Use of other flood data.
+
+           (1)    When the Federal Emergency Management Agency has designated areas of special flood hazard
+                  on the community's Flood Insurance Rate Map (FIRM) but has neither produced water surface
+                  elevation data (these areas are designated Zone A or V on the FIRM) nor identified a floodway,
+                  the local administrator shall obtain, review and reasonably utilize any base flood elevation and
+                  floodway data available from a federal, state or other source, including data developed pursuant
+                  to § 129-12G, as criteria for requiring that new construction, substantial improvements or other
+                  proposed development meet the requirements of this chapter.
+
+           (2)    When base flood elevation data is not available, the local administrator may use flood
+                  information from any other authoritative source, such as historical data, to establish flood
+                  elevations within the areas of special flood hazard, for the purposes of this chapter.
+
+     C.    Alteration of watercourses. The local administrator shall:
+
+           (1)    Notify adjacent communities and the New York State Department of Environmental
+                  Conservation prior to permitting any alteration or relocation of a watercourse and submit
+                  evidence of such notification to the Regional Director, Region II, Federal Emergency
+                  Management Agency.
+
+           (2)    Determine that the permit holder has provided for maintenance within the altered or relocated
+                  portion of said watercourse so that the flood-carrying capacity is not diminished.
+
+     D.    Construction stage. The local administrator shall:
+
+           (1)    In Zones A1-A30, AE and AH and also Zone A, if base flood elevation data is available, upon
+                  placement of the lowest floor or completion of floodproofing of a new or substantially improved
+                  structure, obtain from the permit holder a certification of the as-built elevation of the lowest
+                  floor or floodproofed elevation in relation to mean sea level. The certificate shall be prepared
+                  by or under the direct supervision of a licensed land surveyor or professional engineer and
+
+
+                  certified by the same. For manufactured homes, the permit holder shall submit the certificate
+                  of elevation upon placement of the structure on the site. A certificate of elevation must also be
+                  submitted for a recreational vehicle if it remains on a site for 180 consecutive days or longer
+                  (unless it is fully licensed and ready for highway use).
+
+           (2)    Any further work undertaken prior to submission and approval of the certification shall be at the
+                  permit holder's risk. The local administrator shall review all data submitted. Deficiencies
+                  detected shall be cause to issue a stop-work order for the project unless immediately corrected.
+
+     E.    Inspections. The local administrator and/or the developer's engineer or architect shall make periodic
+           inspections at appropriate times throughout the period of construction in order to monitor compliance
+           with permit conditions and enable said inspector to certify, if requested, that the development is in
+           compliance with the requirements of the floodplain development permit and/or any variance
+           provisions.
+
+     F.    Stop-work orders.
+
+           (1)    The local administrator shall issue or cause to be issued a stop-work order for any floodplain
+                  development found ongoing without a development permit. Disregard of a stop-work order shall
+                  subject the violator to the penalties described in § 129-8 of this chapter.
+
+           (2)    The local administrator shall issue or cause to be issued a stop-work order for any floodplain
+                  development found noncompliant with the provisions of this chapter and/or the conditions of
+                  the development permit. Disregard of a stop-work order shall subject the violator to the penalties
+                  described in § 129-8 of this chapter.
+
+     G.    Certificate of compliance.
+
+           (1)    In areas of special flood hazard, as determined by documents enumerated in § 129-6, it shall be
+                  unlawful to occupy or to permit the use or occupancy of any building or premises, or both, or
+                  part thereof hereafter created, erected, changed, converted or wholly or partly altered or
+                  enlarged in its use or structure until a certificate of compliance has been issued by the local
+                  administrator stating that the building or land conforms to the requirements of this chapter.
+
+           (2)    A certificate of compliance shall be issued by the local administrator upon satisfactory
+                  completion of all development in areas of special flood hazard.
+
+           (3)    Issuance of the certificate shall be based upon the inspections conducted as prescribed in
+                  Subsection E, Inspections, and/or any certified elevations, hydraulic data, floodproofing,
+                  anchoring requirements or encroachment analyses which may have been required as a condition
+                  of the approved permit.
+
+     H.    Information to be retained. The local administrator shall retain and make available for inspection
+           copies of the following:
+
+           (1)    Floodplain development permits and certificates of compliance.
+
+           (2)    Certificates of as-built lowest floor elevations of structures, required pursuant to Subsection
+                  D(1) and (2), and whether or not the structures contain a basement.
+
+           (3)    Floodproofing certificates required pursuant to Subsection D(1) and whether or not the
+                  structures contain a basement.
+
+           (4)    Variances issued pursuant to §§ 129-19 and 129-20.
+
+
+           (5)    Notices required under § 129-13C, Alteration of watercourses.
+
+     § 129-14. General standards.
+
+     The following standards apply to new development, including new and substantially improved structures,
+     in the areas of special flood hazard shown on the Flood Insurance Rate Map designated in § 129-6:
+
+     A.    Subdivision proposals. The following standards apply to all new subdivision proposals and other
+           proposed development in areas of special flood hazard (including proposals for manufactured home
+           and recreational vehicle parks and subdivisions):
+
+           (1)    Proposals shall be consistent with the need to minimize flood damage.
+
+           (2)    Public utilities and facilities such as sewer, gas, electrical and water systems shall be located
+                  and constructed so as to minimize flood damage.
+
+           (3)    Adequate drainage shall be provided to reduce exposure to flood damage.
+
+     B.    Encroachments.
+
+           (1)    Within Zones A1-A30 and AE, on streams without a regulatory floodway, no new construction,
+                  substantial improvements or other development (including fill) shall be permitted unless:
+
+                  (a)    The applicant demonstrates that the cumulative effect of the proposed development, when
+                         combined with all other existing and anticipated development, will not increase the water
+                         surface elevation of the base flood more than one foot at any location; or
+
+                  (b)    The Village of Croton-on-Hudson agrees to apply to the Federal Emergency Management
+                         Agency (FEMA) for a conditional FIRM revision, FEMA approval is received and the
+                         applicant provides all necessary data, analyses and mapping and reimburses the Village of
+                         Croton-on-Hudson for all fees and other costs in relation to the application. The applicant
+                         must also provide all data, analyses and mapping and reimburse the Village of Croton-on-
+                         Hudson for all costs related to the final map revision.
+
+           (2)    On streams with a regulatory floodway, as shown on the Flood Boundary and Floodway Map or
+                  the Flood Insurance Rate Map adopted in § 129-6, no new construction, substantial
+                  improvements or other development in the floodway (including fill) shall be permitted unless:
+
+                  (a)    A technical evaluation by a licensed professional engineer shows that such an
+                         encroachment shall not result in any increase in flood levels during the occurrence of the
+                         base flood; or
+
+                  (b)    The Village of Croton-on-Hudson agrees to apply to the Federal Emergency Management
+                         Agency (FEMA) for a conditional FIRM and floodway revision, FEMA approval is
+                         received and the applicant provides all necessary data, analyses and mapping and
+                         reimburses the Village of Croton-on-Hudson for all fees and other costs in relation to the
+                         application. The applicant must also provide all data, analyses and mapping and reimburse
+                         the Village of Croton-on-Hudson for all costs related to the final map revisions.
+
+     § 129-15. Standards for all structures.
+
+     A.    Anchoring. New structures and substantial improvement to structures in areas of special flood hazard
+           shall be anchored to prevent flotation, collapse or lateral movement during the base flood. This
+
+
+           requirement is in addition to applicable state and local anchoring requirements for resisting wind
+           forces.
+
+     B.    Construction materials and methods.
+
+           (1)    New construction and substantial improvements to structures shall be constructed with materials
+                  and utility equipment resistant to flood damage.
+
+           (2)    New construction and substantial improvements to structures shall be constructed using
+                  methods and practices that minimize flood damage.
+
+           (3)    Enclosed areas.
+
+                  (a)    For enclosed areas below the lowest floor of a structure within Zones A1-A30, AE or AH
+                         and also Zone A, if base flood elevation data is available, new and substantially improved
+                         structures shall have fully enclosed areas below the lowest floor that are usable solely for
+                         parking of vehicles, building access or storage in an area other than a basement and which
+                         are subject to flooding designed to automatically equalize hydrostatic flood forces on
+                         exterior walls by allowing for the entry and exit of floodwaters. Designs for meeting this
+                         requirement must either be certified by a licensed professional engineer or architect or
+                         meet or exceed the following minimum criteria:
+
+                         [1]      A minimum of two openings having a total net area of not less than one square inch
+                                  for every square foot of enclosed area subject to flooding shall be provided.
+
+                         [2]      The bottom of all such openings shall be no higher than one foot above the lowest
+                                  adjacent finished grade.
+
+                  (b)    Openings may be equipped with louvers, valves, screens or other coverings or devices,
+                         provided that they permit the automatic entry and exit of floodwaters. Enclosed areas
+                         subgrade on all sides are considered basements and are not permitted.
+
+     C.    Utilities.
+
+           (1)    New and replacement electrical equipment, heating, ventilating, air conditioning, plumbing
+                  connections, and other service equipment shall be located at or above the base flood elevation.
+                  Electrical wiring and outlets, switches, junction boxes and panels shall be elevated to or above
+                  the base flood elevation unless they conform to the appropriate provisions of the electrical part
+                  of the Building Code of New York State or the Residential Code of New York State for location
+                  of such items in wet locations.
+
+           (2)    New and replacement water supply systems shall be designed to minimize or eliminate
+                  infiltration of floodwaters into the system.
+
+           (3)    New and replacement sanitary sewage systems shall be designed to minimize or eliminate
+                  infiltration of floodwaters. Sanitary sewer and storm drainage systems for buildings that have
+                  openings below the base flood elevation shall be provided with automatic backflow valves or
+                  other automatic backflow devices that are installed in each discharge line passing through a
+                  building's exterior wall.
+
+           (4)    On-site waste disposal systems shall be located to avoid impairment to them or contamination
+                  from them during flooding.
+
+
+     § 129-16. Elevation of residential structures.
+
+     The following standards, in addition to the standards in § 129-14A, Subdivision proposals, and § 129-14B,
+     Encroachments, and § 129-15, Standards for all structures, apply to structures located in areas of special
+     flood hazard as indicated:
+
+     A.    Within Zones A1-A30, AE and AH and also Zone A, if base flood elevation data is available, new
+           construction and substantial improvements shall have the lowest floor (including basement) elevated
+           to or above the base flood level.
+
+     B.    Within Zone A, when no base flood elevation data is available, new and substantially improved
+           structures shall have the lowest floor (including basement) elevated at least three feet above the
+           highest adjacent grade.
+
+     C.    Within Zone AO, new and substantially improved structures shall have the lowest floor (including
+           basement) elevated above the highest adjacent grade at least as high as two feet above the depth
+           number specified in feet on the community's Flood Insurance Rate Map enumerated in § 129-6 (at
+           least two feet if no depth number is specified).
+
+     D.    Within Zones AH and AO, adequate drainage paths are required to guide floodwaters around and
+           away from proposed structures on slopes.
+
+     § 129-17. Nonresidential structures.
+
+     The following standards apply to new and substantially improved commercial, industrial and other
+     nonresidential structures, in addition to the requirements in § 129-14A, Subdivision proposals, and
+     § 129-14B, Encroachments, and § 129-15, Standards for all structures.
+
+     A.    Within Zones A1-A30, AE and AH and also Zone A, if base flood elevation data is available, new
+           construction and substantial improvements of any nonresidential structure, together with attendant
+           utility and sanitary facilities, shall either:
+
+           (1)    Have the lowest floor, including basement or cellar, elevated to or above two feet above the base
+                  flood elevation; or
+
+           (2)    Be floodproofed so that the structure is watertight below two feet above the base flood level
+                  with walls substantially impermeable to the passage of water. All structural components located
+                  below the base flood level must be capable of resisting hydrostatic and hydrodynamic loads and
+                  the effects of buoyancy.
+
+     B.    Within Zone AO, new construction and substantial improvements of nonresidential structures shall:
+
+           (1)    Have the lowest floor (including basement) elevated above the highest adjacent grade at least as
+                  high as two feet above the depth number specified in feet on the community's FIRM (at least
+                  two feet if no depth number is specified); or
+
+           (2)    Together with attendant utility and sanitary facilities, be completely floodproofed to that level
+                  to meet the floodproofing standard specified in Subsection A(2).
+
+     C.    If the structure is to be floodproofed, a licensed professional engineer or architect shall develop and/
+           or review structural design, specifications and plans for construction. A floodproofing certificate or
+           other certification shall be provided to the local administrator that certifies that the design and
+           methods of construction are in accordance with accepted standards of practice for meeting the
+
+
+           provisions of Subsection A(2), including the specific elevation (in relation to mean sea level) to which
+           the structure is to be floodproofed.
+
+     D.    Within Zones AH and AO, adequate drainage paths are required to guide floodwaters around and
+           away from proposed structures on slopes.
+
+     E.    Within Zone A, when no base flood elevation data is available, the lowest floor (including basement)
+           shall be elevated at least three feet above the highest adjacent grade.
+
+     § 129-18. Manufactured homes and recreational vehicles.
+
+     The following standards, in addition to the standards in § 129-14, General standards, and § 129-15,
+     Standards for all structures, apply, as indicated, in areas of special flood hazard to manufactured homes
+     and to recreational vehicles which are located in areas of special flood hazard.
+
+     A.    Recreational vehicles.
+
+           (1)    Recreational vehicles placed on sites within Zones A1-A30, AE and AH shall either:
+
+                  (a)    Be on site fewer than 180 consecutive days;
+
+                  (b)    Be fully licensed and ready for highway use; or
+
+                  (c)    Meet the requirements for manufactured homes in Subsections B, D and E.
+
+           (2)    A recreational vehicle is ready for highway use if it is on its wheels or jacking system, is
+                  attached to the site only by quick-disconnect-type utilities and security devices and has no
+                  permanently attached additions.
+
+     B.    A manufactured home that is placed or substantially improved in Zones A1-A30, AE and AH shall
+           be elevated on a permanent foundation such that the lowest floor is elevated to or above the base
+           flood elevation and is securely anchored to an adequately anchored foundation system to resist
+           flotation, collapse and lateral movement.
+
+     C.    Within Zone A, when no base flood elevation data are available, new and substantially improved
+           manufactured homes shall be elevated such that the manufactured home chassis is supported by
+           reinforced piers or other foundation elements of at least equivalent strength that are no less than 36
+           inches in height above grade and are securely anchored to an adequately anchored foundation system
+           to resist flotation, collapse or lateral movement.
+
+     D.    Within Zone AO, the floor shall be elevated above the highest adjacent grade at least as high as the
+           depth number specified on the Flood Insurance Rate Map enumerated in § 129-6 (at least two feet if
+           no depth number is specified).
+
+     § 129-19. Appeals Board.
+
+     A.    The Zoning Board of Appeals as established by the Village of Croton-on-Hudson shall hear and
+           decide appeals and requests for variances from the requirements of this chapter.
+
+     B.    The Zoning Board of Appeals shall hear and decide appeals when it is alleged that there is an error in
+           any requirement, decision or determination made by the local administrator in the enforcement or
+           administration of this chapter.
+
+     C.    Those aggrieved by the decision of the Zoning Board of Appeals may appeal such decision to the
+
+
+           Supreme Court pursuant to Article 78 of the Civil Practice Law and Rules.
+
+     D.    In passing upon such applications, the Zoning Board of Appeals, shall consider all technical
+           evaluations, all relevant factors, standards specified in other sections of this chapter and:
+
+           (1)    The danger that materials may be swept onto other lands to the injury of others.
+
+           (2)    The danger to life and property due to flooding or erosion damage.
+
+           (3)    The susceptibility of the proposed facility and its contents to flood damage and the effect of
+                  such damage on the individual owner.
+
+           (4)    The importance of the services provided by the proposed facility to the community.
+
+           (5)    The necessity to the facility of a waterfront location, where applicable.
+
+           (6)    The availability of alternative locations for the proposed use which are not subject to flooding
+                  or erosion damage.
+
+           (7)    The compatibility of the proposed use with existing and anticipated development.
+
+           (8)    The relationship of the proposed use to the Comprehensive Plan and floodplain management
+                  program of that area.
+
+           (9)    The safety of access to the property in times of flood for ordinary and emergency vehicles.
+
+           (10) The costs to local governments and the dangers associated with conducting search-and-rescue
+                operations during periods of flooding.
+
+           (11) The expected heights, velocity, duration, rate of rise and sediment transport of the floodwaters
+                and the effects of wave action, if applicable, expected at the site.
+
+           (12) The costs of providing governmental services during and after flood conditions, including
+                search-and-rescue operations and maintenance and repair of public utilities and facilities such
+                as sewer, gas, electrical and water systems and streets and bridges.
+
+     E.    Upon consideration of the factors of Subsection D and the purposes of this chapter, the Zoning Board
+           of Appeals may attach such conditions to the granting of variances as it deems necessary to further
+           the purpose of this chapter.
+
+     F.    The local administrator shall maintain the records of all appeal actions, including technical
+           information, and report any variances to the Federal Emergency Management Agency upon request.
+
+     § 129-20. Conditions for variances.
+
+     A.    Generally, variances may be issued for new construction and substantial improvements to be erected
+           on a lot of 1/2 acre or less in size contiguous to and surrounded by lots with existing structures
+           constructed below the base flood level, provided that the items in § 129-19D(1) through (12) have
+           been fully considered. As the lot size increases beyond the 1/2 acre, the technical justification
+           required for issuing the variance increases.
+
+     B.    Variances may be issued for the repair or rehabilitation of historic structures upon determination that:
+
+           (1)    The proposed repair or rehabilitation will not preclude the structure's continued designation as
+                  an historic structure.
+
+
+     § 129-20                                  FLOOD DAMAGE PREVENTION
+
+           (2)    The variance is the minimum necessary to preserve the historic character and design of the
+                  structure.
+
+     C.    Variances may be issued by a community for new construction and substantial improvements and for
+           other development necessary for the conduct of a functionally dependent use, provided that:
+
+           (1)    The criteria of Subsections A, D, E and F of this section are met.
+
+           (2)    The structure or other development is protected by methods that minimize flood damages during
+                  the base flood and create no additional threat to public safety.
+
+     D.    Variances shall not be issued within any designated floodway if any increase in flood levels during
+           the base flood discharge would result.
+
+     E.    Variances shall only be issued upon a determination that the variance is the minimum necessary,
+           considering the flood hazard, to afford relief.
+
+     F.    Variances shall only be issued upon receiving written justification of:
+
+           (1)    A showing of good and sufficient cause.
+
+           (2)    A determination that failure to grant the variance would result in exceptional hardship to the
+                  applicant.
+
+           (3)    A determination that the granting of a variance will not result in increased flood heights,
+                  additional threats to public safety or extraordinary public expense; create nuisances; cause fraud
+                  on or victimization of the public; or conflict with existing chapters or ordinances.
+
+     G.    Notification.
+
+           (1)    Any applicant to whom a variance is granted for a building with the lowest floor below the base
+                  flood elevation shall be given written notice over the signature of a community official that:
+
+                  (a)    The issuance of a variance to construct a structure below the base flood level will result in
+                         increased premium rates for flood insurance up to amounts as high as $25 for $100 of
+                         insurance coverage; and
+
+                  (b)    Such construction below the base flood level increases risks to life and property.
+
+           (2)    Such notification shall be maintained with the record of all variance actions as required in
+                  § 129-13H of this chapter.
+
+
+                                                  CROTON-ON-HUDSON CODE

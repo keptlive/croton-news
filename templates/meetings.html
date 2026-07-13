@@ -16,6 +16,46 @@
   }
 }
 </script>
+{% set today_str = now.strftime('%Y-%m-%d') %}
+{% set upcoming_meetings = [] %}
+{% for meeting in meetings %}
+  {% if meeting.date >= today_str %}
+    {% if upcoming_meetings.append(meeting) %}{% endif %}
+  {% endif %}
+{% endfor %}
+{% if upcoming_meetings %}
+<script type="application/ld+json">
+[
+  {% for meeting in upcoming_meetings %}
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "{{ meeting.headline or (meeting.committee ~ ' Meeting') }}",
+    "startDate": "{{ meeting.date }}",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "Place",
+      "name": "Croton-on-Hudson Village Hall",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Croton-on-Hudson",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      }
+    },
+    "organizer": {
+      "@type": "GovernmentOrganization",
+      "name": "Village of Croton-on-Hudson",
+      "url": "https://croton.news"
+    },
+    "description": "{{ meeting.quick_summary or (meeting.committee ~ ' meeting on ' ~ meeting.date) }}",
+    "url": "https://croton.news/meeting/{{ meeting.id }}"
+  }{% if not loop.last %},{% endif %}
+  {% endfor %}
+]
+</script>
+{% endif %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

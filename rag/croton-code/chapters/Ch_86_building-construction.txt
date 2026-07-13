@@ -1,0 +1,1279 @@
+---
+title: "Chapter 86: Building Construction"
+chapter: 86
+name: "Building Construction"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 0
+---
+
+ARTICLE I                              § 86-18.       Certificate of occupancy
+                 Building Code Administration                                   required.
+                                                                 § 86-19.       Inspections; issuance of
+     § 86-1.              Definitions.                                          certificates; temporary
+     § 86-2.              Engineering Department                                certificates.
+                          established.                           § 86-20.       Notification regarding fire or
+     § 86-3.              Appointments and                                      explosion.
+                          qualifications of Village              § 86-21.       Unsafe buildings.
+                          Engineer.                              § 86-21.1.     Operating permits.
+     § 86-4.              Assistant Village Engineers;           § 86-21.2.     Fire safety and property
+                          Acting Engineer; other                                maintenance inspections.
+                          employees.                             § 86-21.3.     Condition assessments of
+     § 86-5.              Restrictions on Department                            parking garages.
+                          employees.                             § 86-21.4.     Climatic and geographic design
+     § 86-6.              Relief from personal liability.                       criteria.
+     § 86-7.              Powers and duties of Village           § 86-21.5.     Testing of materials or
+                          Engineer.                                             construction.
+     § 86-8.              Department records and                 § 86-21.6.     Compliance with building
+                          reports; program review and                           standards required;
+                          reporting.                                            interpretation.
+     § 86-9.              Cooperation of other                   § 86-21.7.     Regulation of vacant lots.
+                          departments.                           § 86-21.8.     Violations; penalties for
+     § 86-10.             Building permits required;                            offenses.
+                          application.
+     § 86-11.             Issuance or denial of building                          ARTICLE II
+                          permits; display of permit                 Deposits on Construction of New Homes
+                          required.
+     § 86-12.             Expiration of permits.                 § 86-22.       Definitions.
+     § 86-13.             Building permit fees.                  § 86-23.       Security to be furnished by
+     § 86-14.             Revocation of permits.                                vendor.
+     § 86-15.             Construction inspections.              § 86-24.       Alternative to posting bond.
+     § 86-16.             Stop-work orders.                      § 86-25.       Disposition of security.
+     § 86-17.             Right of entry.                        § 86-26.       Failure to comply; penalties for
+                                                                                offenses; liability.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson as indicated in
+     article histories. Amendments noted where applicable.]
+
+
+                                                   ARTICLE I
+                                          Building Code Administration
+                     [Adopted 12-5-1957; amended in its entirety 4-10-2023 by L.L. No. 3-2023]
+
+     § 86-1. Definitions.
+
+     As used in this article, the following terms shall have the meanings indicated:
+     VILLAGE ENGINEER — The Village official designated to head the Engineering Department for the
+     Village of Croton-on-Hudson in accordance with § 86-2. The term "Village Engineer" shall include his
+     designee authorized to administer the provisions of this chapter.
+
+     § 86-2. Engineering Department established.
+
+     A.    There is hereby established in the Village of Croton-on-Hudson a department to be designated as the
+           "Engineering Department" for the administration and enforcement of the provisions of all laws,
+           ordinances, rules, regulations and orders applicable to the location, design, materials, construction,
+           alteration, repair, equipment, maintenance, use, occupancy, removal and demolition of buildings and
+           structures and their appurtenances located in the Village of Croton-on-Hudson.
+
+     B.    The Engineering Department shall be headed by a Village official designated as the "Village
+           Engineer."
+
+     § 86-3. Appointments and qualifications of Village Engineer.
+
+     A.    The Village Engineer shall be a person who shall be a graduate of a recognized college or university
+           with a bachelor's degree in engineering or architecture and shall have had at least five years'
+           experience as an engineer or architect, building inspector, building contractor or supervisor of
+           building construction and possess a professional engineer's or architect's license. The Village
+           Engineer shall, within the time prescribed by law, obtain such basic training, in-service training,
+           advanced in-service training, and other training as the State of New York shall require for code
+           enforcement personnel, and the Village Engineer shall obtain certification from the Department of
+           State pursuant to the Executive Law and the regulations promulgated thereunder.
+
+     B.    The Village Engineer shall be appointed by the Village Manager at a compensation to be fixed by the
+           Board of Trustees.
+
+     § 86-4. Assistant Village Engineers; Acting Engineer; other employees.
+
+     A.    Assistant Village Engineer.
+
+           (1)    The Village Manager may appoint one or more assistants to the Village Engineer, as the need
+                  may appear, to exercise, pursuant to the provisions of this Article, any or all of the duties of the
+                  Village Engineer as may be delegated to such assistants by the Village Engineer. The
+                  compensation of such assistants shall be fixed by the Board of Trustees.
+
+           (2)    Each assistant shall be a person who has had at least three years of practical experience in the
+                  design or construction of buildings or in the design, construction or installation of plumbing,
+                  heating or electrical equipment or shall have the same qualifications as are required for the
+                  office of Village Engineer. Each assistant shall, within the time prescribed by law, obtain such
+                  basic training, in-service training, advanced in-service training, and other training as the State
+                  of New York shall require for code enforcement personnel, and each inspector shall obtain
+
+
+                  certification from the Department of State pursuant to the Executive Law and the regulations
+                  promulgated thereunder.
+
+     B.    Acting Village Engineer. In the absence of the Village Engineer or in the case of his inability to act
+           for any reason, the Manager shall have the power, with the approval of the Board of Trustees, to
+           designate a person to act in his behalf and to exercise all of the powers conferred upon him by this
+           Article; provided, however, that no such designation shall be made for periods aggregating more than
+           60 days during any year, nor shall an Acting Village Engineer be designated for periods aggregating
+           more than 60 days when the office of Village Engineer is vacant, unless the person so designated
+           shall possess the qualifications prescribed by § 86-3A.
+
+     C.    Fire Inspector. The Fire Inspector for the Village of Croton-on-Hudson or his designee may exercise,
+           pursuant to the provisions of this article, any or all of the duties of the Village Engineer as may be
+           designated to such assistants by the Village Engineer.
+
+     D.    Other employees. The Village Manager may appoint such other employees as may be required from
+           time to time by the Village Engineer to carry out the functions of the Engineering Department.
+
+     § 86-5. Restrictions on Department employees.
+
+     No officer or employee of the Engineering Department shall engage in activity inconsistent with his duties
+     or with the interests of said office, nor shall be, during the term of his employment, be engaged directly or
+     indirectly in any building business, in the furnishing of labor, materials or appliances for the construction,
+     alteration or maintenance of a building or the preparation of plans or specifications thereof within the
+     Village of Croton-on-Hudson, excepting only that this provision shall not prohibit any employee from such
+     activities in connection with the construction of a building or structure for his own occupancy owned by
+     him.
+
+     § 86-6. Relief from personal liability.
+
+     No official or employee of the Engineering Department shall, while acting within the scope of his duties
+     pursuant to the provisions of this article, be personally liable for any damage that may accrue to persons or
+     property as the result of any act required or permitted in the discharge of his official duties, provided that
+     such acts are performed in good faith and without gross negligence.
+
+     § 86-7. Powers and duties of Village Engineer.
+
+     A.    Except as otherwise specifically provided by law, ordinance or regulation or except as herein
+           otherwise provided, the Village Engineer shall administer and enforce all of the provisions of laws,
+           ordinances and regulations applicable to the construction, alteration, repair, removal and demolition
+           of buildings and structures and the installation and use of materials and equipment therein and the
+           location, use, occupancy and maintenance thereof, pursuant to the provisions of the New York State
+           Uniform Fire Prevention and Building Code (the "Uniform Code") and State Energy Conservation
+           Construction Code (the "Energy Code") and all other applicable laws, ordinances and regulations.
+
+     B.    He shall receive applications and issue permits for the erection, alteration, removal and demolition of
+           buildings or structures or parts thereof and shall examine the premises for which such applications
+           have been received or such permits have been issued for the purpose of ensuring compliance with
+           laws, ordinances and regulations governing building construction, as set forth by the latest amended
+           copy of the Energy Code. He shall receive applications for sand bank and other excavations and issue
+           permits ensuring compliance with ordinances governing said type of excavations, except as may be
+
+
+           otherwise specifically provided by law, ordinance or regulation.
+
+     C.    He shall issue all appropriate notices or orders to remove illegal or unsafe conditions, to require the
+           necessary safeguards during construction and to ensure compliance during the entire course of
+           construction with the requirements of such laws, ordinances or regulations. He shall make all
+           inspections which are necessary or proper for the carrying out of his duties, except that he may accept
+           written reports of inspection from Assistant Village Engineers or other employees of the Engineering
+           Department or from generally recognized and authoritative service and inspection bureaus, provided
+           that the same are certified by a responsible official thereof.
+
+     D.    Whenever the same may be necessary or appropriate to assure compliance with the provisions of
+           applicable laws, ordinances or regulations covering building construction as set forth by the latest
+           amended copy of the Energy Code, he may require the performance of tests in the field by
+           experienced professional persons or by accredited and authoritative testing laboratories or service
+           bureaus or agencies.
+
+     E.    If deemed necessary, he may obtain such engineering assistance as he may require to ensure an
+           accurate inspection of building plans and specifications, and the cost for such services shall be borne
+           by the applicant.
+
+     F.    The Village Engineer shall review and investigate complaints which allege or assert the existence of
+           conditions or activities that fail to comply with the Uniform Code, Energy Code, this article, or any
+           other local law, ordinance or regulation adopted for administration and enforcement of the Uniform
+           Code or Energy Code. The process for responding to a complaint shall include such of the following
+           steps as the Village Engineer may deem to be appropriate:
+
+           (1)    Performing an inspection of the conditions and/or activities alleged to be in violation, and
+                  documenting the results of such inspection;
+
+           (2)    If a violation is found to exist, providing the owner of the affected property and any other person
+                  who may be responsible for the violation with notice of the violation and opportunity to abate,
+                  correct or cure the violation, or otherwise proceeding in the manner described in § 86-21.8 of
+                  this article;
+
+           (3)    If appropriate, issuing a stop-work order;
+
+           (4)    If a violation which was found to exist is abated or corrected, performing an inspection to ensure
+                  that the violation has been abated or corrected, preparing a final written report reflecting such
+                  abatement or correction, and filing such report with the complaint.
+
+     G.    Local energy conservation construction code.
+
+           (1)    Notwithstanding any provision herein to the contrary, the Village of Croton-on-Hudson hereby
+                  adopts, as its local energy conservation construction code, the State Energy Code as modified in
+                  the manner contemplated by NYStretch. Such local energy conservation construction code shall
+                  consist of the provisions currently set forth in Part 1240 and in the publications currently
+                  incorporated by reference in Part 1240; provided, however, that the 2020 ECCCNYS and
+                  ASHRAE 90.1-2016 shall be deemed to be modified as follows:
+
+                  (a)    In each case where a section, table, or appendix in the 2018 IECC is modified by
+                         NYStretch, the corresponding section, table, or appendix in the 2020 ECCCNYS shall be
+                         deemed to be modified in the same manner;
+
+
+                   (b)    In each case where a section, table, or appendix is added to the 2018 IECC by NYStretch,
+                          such section, table, or appendix shall be deemed to be added to the 2020 ECCCNYS
+                          subject to the following exception:
+
+                          [1]     Section R403.6.2, which is added to the 2018 IECC by Section 3.11 of NYStretch,
+                                  shall not be deemed to be added to the 2020 ECCCNYS;
+
+                   (c)    Each section or table in ASHRAE 90.1-2016 that is modified by NYStretch shall be
+                          deemed to be so modified; and
+
+                   (d)    Each section added to ASHRAE 90.1-2016 by NYStretch shall be deemed to be added to
+                          ASHRAE 90.1-2016.
+
+            (2)    A copy of NYStretch is annexed hereto and made part hereof. 33
+
+     § 86-8. Department records and reports; program review and reporting.
+
+     A.     The Village Engineer shall keep permanent official records of all transactions and activities of the
+            Engineering Department, including all applications received, permits and certificates issued, fees
+            charged and collected, inspections reports and notices and orders issued. Where feasible, such records
+            shall be permanently bound. Such applications, permits and certificates shall be numbered
+            consecutively. All such records shall be public records open to public inspection during business
+            hours.
+
+     B.     The Village Engineer shall annually submit to the Board of Trustees a written report and summary of
+            all business conducted by the Engineering Department, including permits and certificates issued, fees
+            collected, orders and notices promulgated, inspections and tests made and appeals or litigation
+            pending.
+
+     C.     The Village Engineer shall make a report to the Board of Trustees once each month, or more often if
+            directed by the Board of Trustees, including a statement of permits and certificates issued or refused,
+            fees paid and orders promulgated, zoning violations and action taken with respect thereto and such
+            other matters as the Board of Trustees may request.
+
+     D.     The Village Engineer shall annually submit to the Secretary of State, on behalf of the Village of
+            Croton-on-Hudson, on a form prescribed by the Secretary of State, a report of the activities of the
+            Village of Croton-on-Hudson relative to administration and enforcement of the Uniform Code.
+
+     E.     The Village Engineer shall, upon request of the New York State Department of State, provide to the
+            New York State Department of State, true and complete copies of the records and related materials
+            the Village of Croton-on-Hudson is required to maintain; true and complete copies of such portion of
+            such records and related materials as may be requested by the Department of State; and/or such
+            excerpts, summaries, tabulations, statistics, and other information and accounts of its activities in
+            connection with administration and enforcement of the Uniform Code and/or Energy Code as may be
+            requested by the Department of State.
+
+     § 86-9. Cooperation of other departments.
+
+     The Village Engineer may request and shall receive, so far as may be necessary in the discharge of his
+     duties, the assistance and cooperation of the Police and Fire Departments and of all other Village officials
+
+
+     33. Editor's Note: A copy of NYStretch is on file in the Village offices.
+
+
+     exercising any jurisdiction over the construction, use or occupancy of buildings or the installation of
+     equipment therein.
+
+     § 86-10. Building permits required; application.
+
+     A.    No person, firm or corporation shall commence any work which must conform to the Uniform Code
+           and/or the Energy Code, including, but not limited to, the erection, construction, enlargement,
+           alteration, removal, improvement, demolition, conversion or change in the nature of the occupancy
+           of any building or structure or cause the same to be done without first obtaining a separate building
+           permit from the Engineering Department for each such building or structure.
+
+     B.    No building permit shall be required for:
+
+           (1)    The performance of ordinary repairs, provided that the work does not have an impact on fire and
+                  life safety, such as:
+
+                  (a)    Any part of the structural system;
+
+                  (b)    The required means of egress; or
+
+                  (c)    The fire protection system or the removal from service of any part of the fire protection
+                         for any period of time.
+
+           (2)    The construction or installation of one-story detached structures associated with one- or two-
+                  family dwellings or multiple single-family dwellings (townhouses), which are used for tool and
+                  storage sheds, playhouses, or similar uses, provided the gross floor area does not exceed 20
+                  square feet.
+
+     C.    Application for a building permit shall be made to the Village Engineer on forms provided by the
+           Engineering Department and shall contain the following information:
+
+           (1)    A description of the land on which the proposed work is to be done, including section, block
+                  and lot numbers, if any.
+
+           (2)    A statement of the use or occupancy of all parts of the land and of the building or structure.
+
+           (3)    The valuation of the proposed work.
+
+           (4)    The full name and address of the owner and of the applicant and the names and addresses of
+                  their responsible officers if any of them are corporations.
+
+           (5)    A brief description of the nature, location, extent, and scope of the proposed work.
+
+           (6)    A duplicate set of plans and specifications set forth in Subsection E of this section.
+
+           (7)    Where applicable, a statement of special inspections to be prepared in accordance with the
+                  provisions of the Uniform Code.
+
+           (8)    Such other information and documentation as may reasonably be required by the Village
+                  Engineer to establish compliance of the proposed work with the requirements of applicable
+                  building laws, including the Uniform Code and Energy Code, ordinances and regulations.
+
+     D.    Applications shall be made by the owner or lessee or agent of either or by the architect, engineer or
+           building contractor employed in connection with the proposed work. Where such application is made
+           by a person other than the owner, it shall be accompanied by an affidavit of the owner or applicant
+
+
+           that the proposed work is authorized by the owner and that the applicant is authorized to make such
+           application.
+
+     E.    Each application for a building permit shall be accompanied by triplicate three copies of plans and
+           specifications, including, but not limited to, the following, where applicable:
+
+           (1)    Describing the location, nature, extent and scope of the proposed work and the materials to be
+                  incorporated;
+
+           (2)    Showing that the proposed work will conform to the applicable provisions of the Uniform Code
+                  and Energy Code;
+
+           (3)    Showing the location, construction, size, and character of all portions of the means of egress;
+
+           (4)    Showing a representation of the building thermal envelope;
+
+           (5)    Showing structural information, including, but not limited to, braced wall designs; the size,
+                  section and relative locations of structural members; design loads; and other pertinent structural
+                  information;
+
+           (6)    Showing the proposed structural, electrical, plumbing, mechanical, fire protection, and other
+                  service systems of the building;
+
+           (7)    A written statement indicating compliance with the Energy Code;
+
+           (8)    A site plan, drawn to scale and in accordance with an accurate boundary survey, showing the
+                  size and location of new construction and existing structures and appurtenances on the site;
+                  distances from the lot lines; the established street grades and the proposed finished grades; and,
+                  as applicable, flood hazard areas, floodways, and design flood elevations;
+
+           (9)    Evidence that the plans and specifications were prepared by a licensed and registered architect
+                  in accordance with Article 147 of the New York State Education Law or a licensed and
+                  registered professional engineer in accordance with Article 145 of the New York State
+                  Education law and practice guidelines, including, but not limited to, the design professional's
+                  seal which clearly and legibly shows both the design professional's name and license number,
+                  and is signed by the design professional whose name appears on the seal in such a manner that
+                  neither the name nor the number is obscured in any way, the design professional's registration
+                  expiration date, the design professional's firm name (if not a sole practitioner), and, if the
+                  documents are submitted by a professional engineering firm and not a sole practitioner
+                  professional engineer, the firm's certificate of authorization number; and
+
+           (10) All other information and documentation that the Village Engineer may deem necessary to
+                allow the Village Engineer to determine that the proposed work conforms to the Uniform Code,
+                Energy Code, and all other ordinances and regulations.
+
+
+           Plans and specifications which are accepted as part of the application for a building permit shall be
+           marked as accepted by the Village Engineer in writing or by stamp, or in the case of electronic media,
+           an electronic marking. One or more complete sets of approved plans and specifications and other
+           submittal documents shall be retained by the Village Engineer. Two complete sets shall be returned
+           to the applicant to be available at the work site for use by the Village Engineer. The return of a set
+           of approved plans and specifications to the applicant shall not be construed as an authorization to
+           commence work, nor as an indication that a building permit will be issued. Work shall not commence
+           until and unless a building permit is issued.
+
+     F.    All work shall be performed in accordance with the plans and specifications which were submitted
+           with and accepted as part of the application for the building permit. The building permit shall contain
+           such a directive. The permit holder shall immediately notify the Village Engineer of any change
+           occurring during the course of work. The building permit shall contain such a directive. If the Village
+           Engineer determines that such change warrants a new or amended building permit, such change shall
+           not be made until and unless a new or amended building permit reflecting such change is issued.
+
+     G.    An application for a permit for any proposed work shall be deemed to have been abandoned upon the
+           lapse of 90 days after the date of filing unless a permit has been issued before the expiration of that
+           period. The Village Engineer may grant, for reasonable cause, one or more extensions of time for
+           additional periods not exceeding 90 days each.
+
+     H.    In the case of any parcel of property for which site plan approval would be required for issuance of a
+           building permit, no person, firm or corporation shall effect any change in the nature of use of property
+           used or occupied by it or extend or change the use thereof or change the access from said parcel of
+           property to a street or streets or cause any of the same to be done or continue in effect any such change
+           of use or access effected after May 18, 1964, without first obtaining a change of use or access permit
+           from the Engineering Department. The fee shall be in an amount set by resolution of the Board of
+           Trustees, except that, where site plan approval is independently required in connection with obtaining
+           a building permit, no separate change of use or access permit shall be required or fee charged. The
+           provisions of this article, and particularly those of §§ 86-10, 86-11, 86-12, 86-14 through 86-19 and
+           86-21.3, shall, to the extent applicable, apply to a change of use or access permit as to a building
+           permit.
+
+     I.    Payment of taxes and other payments required. No permits, variances, licenses, subdivision or other
+           approvals or authorizations shall be issued, no applications therefor shall be considered, and no
+           informal preliminary review or other procedure in relation thereto shall be conducted by the Village
+           Board, the Planning Board, the Zoning Board of Appeals, the Building Inspector or any other board,
+           commission or agency of the Village, with respect to any premises within the Village, unless and until
+           all amounts due the Village on said premises in real estate taxes, special assessments and any other
+           payments, chargeable to the owner or possessor of said premises, together with all penalties and
+           interest thereon, shall have been paid in full. The Village Board reserves the right to waive any and
+           all of the above conditions as deemed necessary to fit special circumstances.
+
+     § 86-11. Issuance or denial of building permits; display of permit required.
+
+     A.    The Village Engineer shall examine or cause to be examined all applications for permits and the
+           plans, specifications and documents filed therewith to ascertain whether the proposed work is in
+           compliance with the applicable requirements of the Uniform Code, Energy Code, and all other
+           ordinances and regulations. He shall approve or disapprove the application within a reasonable time.
+
+     B.    If the application, together with plans, specifications and other documents filed therewith, describes
+
+
+           proposed work which does not conform to all of the requirements of the applicable building
+           regulations, including the Uniform Code and Energy Code, the Village Engineer shall disapprove the
+           same and shall return the plans and specifications to the applicant. Upon the request of the applicant,
+           the Village Engineer shall cause such refusal, together with the reasons therefor, to be transmitted to
+           the applicant in writing.
+
+     C.    Building permits shall be visibly displayed at the work site and shall remain visible until the
+           authorized work has been completed.
+
+     § 86-12. Expiration of permits.
+
+     A.    A building permit shall be effective to authorize the commencing of work in accordance with the
+           application, plans and specifications on which it is based for a period of six months after the date of
+           its issuance. For good cause shown, and provided that there shall have been no material change in
+           applicable laws, ordinances or regulations or in conditions immediately affecting the vicinity in which
+           the property to which the permit relates is located, the Village Engineer may allow one extension of
+           time for an additional period of three months. The three-month permit extension shall require a fee in
+           an amount determined by a fee schedule established by resolution of the Board of Trustees.
+
+     B.    All permits issued under this article shall be void and of no effect after six months from the date of
+           issue thereof (or nine months from the date of issue thereof if the permit has been extended), unless
+           the work for which the permit was issued has been actually commenced and not been abandoned
+           during that period. If any permit becomes void as herein provided, 1/2 of the fee paid for such permit,
+           not including any special fee covering examination of plans of a structure of complex design, may be
+           refunded to the person who obtained the permit, provided that no work has been commenced and an
+           application for refund is made within the six- or nine-month period, but in no case shall refunds be
+           made on fees based on a construction of less than $1,000; and provided, further, that, notwithstanding
+           any other provision hereof, all permits shall expire two years from the date of issuance unless the
+           proposed work has been completed and a certificate of occupancy has been issued or unless such
+           permit is extended by the Village Engineer in accordance with Subsection A above.
+
+     C.    The issuance of a building permit shall constitute authority to the applicant to proceed with the work
+           in accordance with the approved plans and specifications and in accordance with the applicable
+           building laws, ordinances or regulations. All work shall conform to the approved application, plans
+           and specifications, except that no building permit shall be valid insofar as it authorized the
+           performance of work or the use of materials which are not in accordance with the requirements of the
+           applicable building regulations and Village ordinances.
+
+     D.    Buildings or structures subject to the provisions of this article hereafter erected without a permit shall
+           be removed at the expense of the owner, if so ordered by the Board of Trustees.
+
+     § 86-13. Building permit fees.
+
+     A.    Upon the filing of an application for a building permit, the applicant shall pay a fee therefor in an
+           amount set by resolution of the Board of Trustees, based on the total valuation of the proposed work.
+
+     B.    The term "valuation" shall mean the reasonable value, as determined by the Village Engineer, of all
+           services, labor, materials and use of equipment, scaffolding and other appliances entering into and
+           necessary for the prosecution of the work; except that the cost of grading, landscaping and decorating
+           or other work intended only for embellishment shall not be deemed part of the cost.
+
+     C.    In the event that an application for a building permit is not approved, the applicant shall be entitled to
+
+
+           a refund of 50% of the fee paid, provided that no construction has been commenced. If construction
+           work has been started and the application is not approved, the fees paid shall not be refunded.
+
+     § 86-14. Revocation of permits.
+
+     A.    If the Village Engineer determines that a building permit was issued in error because of incorrect,
+           inaccurate or incomplete information, or that the work for which a building permit was issued violates
+           the Uniform Code or Energy Code, or any other ordinance or regulation, the Village Engineer shall
+           revoke the building permit or suspend the building permit until such time as the permit holder
+           demonstrates that all work completed and all work proposed shall be in compliance with applicable
+           provisions of the Uniform Code, Energy Code, and all other ordinances and regulations.
+
+     B.    The Village Engineer may revoke a building permit therefore issued and approved where the permit
+           holder fails or refuses to comply with a stop order issued by the Village Engineer.
+
+     § 86-15. Construction inspections.
+
+     A.    Work shall remain accessible and exposed until inspected and accepted by the Village Engineer. The
+           permit holder shall notify the Village Engineer when any element of work described in Subsection B
+           of this section is ready for inspection.
+
+     B.    The following elements of the construction process shall be inspected, where applicable.
+
+           (1)    Work site prior to the issuance of a building permit;
+
+           (2)    Inspection of soil-bearing conditions for suitable bearing and checking proposed structure for
+                  front and side yard requirements as per applicable zoning regulations;
+
+           (3)    Footing and foundation;
+
+           (4)    Preparation for concrete slab;
+
+           (5)    Framing, before inside finish is completed;
+
+           (6)    Structural, electrical, plumbing, mechanical, fire protection and other similar service systems of
+                  the building;
+
+           (7)    Fire-resistant construction;
+
+           (8)    Fire-resistant penetrations;
+
+           (9)    Solid fuel-burning heating appliances, chimneys, flues, or gas vents;
+
+           (10) Inspections required to demonstrate Energy Code compliance, including, but not limited to,
+                insulation, fenestration, air leakage, system controls, mechanical equipment size, and, where
+                required, minimum fan efficiencies, programmable thermostats, energy recovery, whole-house
+                ventilation, plumbing heat traps, and high-performance lighting and controls;
+
+           (11) Installation, connection, and assembly of factor manufactured buildings and manufactured
+                homes; and
+
+           (12) A final inspection after all work authorized by the building permit has been completed.
+
+     C.    At the discretion of the Village Engineer authorized to perform construction inspections, a remote
+
+
+           inspection may be performed in lieu of an in-person inspection when, in the opinion of the Village
+           Engineer, the remote inspection can be performed to the same level and quality as an in-person
+           inspection and the remote inspection shows to the satisfaction of the Village Engineer or by such
+           authorized inspector that the elements of the construction process conform with the applicable
+           requirements of the Uniform Code and Energy Code. Should a remote inspection not afford the
+           Village Engineer sufficient information to make a determination, an in-person inspection shall be
+           performed.
+
+     D.    After inspection, the work or a portion thereof shall be noted as satisfactory as completed, or the
+           permit holder shall be notified as to the manner in which the work fails to comply with the Uniform
+           Code, Energy Code, or any other regulation or ordinance, including a citation to the specific code
+           provision or provisions that have not been met. Work not in compliance with any applicable provision
+           of the Uniform Code, Energy Code, or any other regulation or ordinance shall remain exposed until
+           such work shall have been brought into compliance with applicable portions of the Uniform Code,
+           Energy Code, or any other regulation or ordinance, reinspected, and found satisfactory as completed.
+
+     § 86-16. Stop-work orders.
+
+     Whenever the Village Engineer has reasonable grounds to believe that work on any building or structure
+     is being prosecuted in violation of the provisions of the Uniform Code, Energy Code, and applicable
+     building laws, ordinances or regulations or not in conformity with the provisions of an application, plans or
+     specifications on the basis of which a building permit was issued or in an unsafe and dangerous manner, he
+     shall notify the owner of the property or the owner's agent or the person performing the work to suspend all
+     work, and any such persons shall forthwith stop such work and suspend all building activities until the stop
+     order has been rescinded. Such order and notice shall be in writing, shall state the conditions under which
+     the work may be resumed and may be served upon a person to whom it is directed either by delivering it
+     personally to him or by posting the same upon a conspicuous portion of the building under construction
+     and sending a copy of the same to such person by registered or certified mail at the address listed on the
+     application.
+
+     § 86-17. Right of entry.
+
+     A.    The Village Engineer, in the discharge of his duties, shall have the authority to enter any building or
+           structure or premises at any reasonable hour with the consent of the person in possession or
+           occupancy.
+
+     B.    If admission is refused or cannot by obtained from the person, in possession or occupancy, the Village
+           Engineer shall be authorized to obtain a warrant to make an inspection, provided probable cause is
+           shown.
+
+     C.    In case of an emergency, the Village Engineer may, without a warrant, enter any premises, or parts of
+           premises, to inspect the same, at any time, without the permission of the person in possession or
+           occupancy.
+
+     § 86-18. Certificate of occupancy required.
+
+     A.    No building hereafter erected shall be used or occupied in whole or in part until a certificate of
+           occupancy shall have been issued by the Village Engineer.
+
+     B.    No building hereafter enlarged, extended or altered or upon which work has been performed which
+           required the issuance of a building permit shall continue to be occupied or used for more than 30 days
+
+
+           after the completion of the alteration or work unless a certificate of occupancy shall have been issued
+           by the Village Engineer.
+
+     C.    No change shall be made in the use or type of occupancy of an existing building unless a certificate
+           of occupancy shall have been issued by the Village Engineer.
+
+     § 86-19. Inspections; issuance of certificates; temporary certificates.
+
+     A.    Inspection prior to issuance.
+
+           (1)    Before issuing a certificate of occupancy, the Village Engineer shall examine or cause to be
+                  examined all buildings, structures and sites for which an application has been filed for a building
+                  permit to construct, enlarge, alter, repair, remove, demolish or change the use or occupancy, and
+                  he may conduct such inspections as he deems appropriate from time to time during and upon
+                  completion of the work for which a building permit has been issued.
+
+           (2)    Where applicable, the following documents prepared in accordance with the provisions of the
+                  Uniform Code by such person or persons as may be designated by or otherwise acceptable to
+                  the Village Engineer, at the expense of the applicant for the certificate of occupancy, shall be
+                  provided to the Village Engineer prior to the issuance of the certificate of occupancy:
+
+                  (a)    A written statement of structural observations and/or a final report of special inspections;
+
+                  (b)    Flood hazard certifications;
+
+                  (c)    A written statement of the results of tests performed to show compliance with the Energy
+                         Code; and
+
+                  (d)    Where applicable, the affixation of the appropriate seals, insignias, and manufacturer's
+                         data plates as required for factory manufactured buildings and/or manufactured homes.
+
+           (3)    There shall be maintained in the Engineering Department a record of all such examinations and
+                  inspections, together with a record of findings of violations of the law.
+
+     B.    Issuance of certificate of occupancy.
+
+           (1)    When, after final inspection, it is found that the proposed work has been completed in
+                  accordance with the Uniform Code, Energy Code, and all other applicable buildings laws,
+                  ordinances and regulations and also in accordance with the application, plans and specifications
+                  filed in connection with the issuance of the building permit, the Village Engineer shall issue a
+                  certificate of occupancy upon the form provided by him. If it is found that the proposed work
+                  has not been properly completed, the Village Engineer shall refuse to issue a certificate of
+                  occupancy and shall order the work completed in conformity with the building permit and in
+                  conformity with the applicable building regulations as set forth by the Uniform Code and
+                  Energy Code.
+
+           (2)    The certificate of occupancy shall certify that the work has been completed and that the
+                  proposed use and occupancy is in conformity with the provisions of the applicable building
+                  laws, ordinances and regulations and contain the following information:
+
+                  (a)    The building permit number, if any;
+
+                  (b)    The date of issuance of the building permit, if any;
+
+
+                  (c)    The name (if any), address and Tax Map number of the property;
+
+                  (d)    If the certificate of occupancy is not applicable to an entire structure, a description of that
+                         portion of the structure for which the certificate of occupancy is issued;
+
+                  (e)    The use and occupancy classification of the structure;
+
+                  (f)    The type of construction of the structure;
+
+                  (g)    The occupant load of the assembly areas of the structure, if any;
+
+                  (h)    Any special conditions imposed in connection with the issuance of the building permit;
+                         and
+
+                  (i)    The signature of the Village Engineer issuing the certificate of occupancy and the date of
+                         issuance.
+
+           (3)    Any change in the nature of use of any parcel of property or extension or change in the present
+                  area of use or change in the access from the parcel of property to a street or streets for which a
+                  change of use or access permit is required under § 86-10H above or the continuance of any such
+                  change of use or access effected after May 18, 1964, shall require a new certificate of
+                  occupancy, which shall be granted only if the conditions of the foregoing Subsection A(1) and
+                  (2) are met, including the obtaining of the use or access permit in question.
+
+           (4)    A fee in the amount set by resolution of the Board of Trustees shall be paid at the time of
+                  applying for each certificate of occupancy or temporary certificate of occupancy.
+
+     C.    Temporary certificate of occupancy. Upon request, the Village Engineer may issue a temporary
+           certificate of occupancy for a building or structure or part thereof before the entire work covered by
+           the building permit shall have been completed, provided that 1) such portion or portions as have been
+           completed may be occupied safely without endangering life or the public welfare; 2) that any required
+           fire and life safety components, such as fire protection equipment and fire, smoke, carbon monoxide,
+           and heat detectors and alarms are installed and operational; and 3) that all required means of egress
+           from the structure have been provided. The Village Engineer may include in a temporary certificate
+           of occupancy such terms and conditions as he or she deems necessary or appropriate to ensure the
+           health and safety of the persons occupying and using the building or structure and/or performing
+           further construction work in the building or structure. The temporary certificate of occupancy shall
+           contain all information as prescribed in Subsection B(2) of this section. A temporary certificate of
+           occupancy shall be effective for a period of time, not to exceed six months, which shall be determined
+           by the Village Engineer and specified in the temporary certificate of occupancy. During the specified
+           period of effectiveness of the temporary certificate of occupancy, the permit holder shall undertake to
+           bring the building or structure into full compliance with all applicable provisions of the Uniform
+           Code, Energy Code, and all other applicable building laws, regulations and ordinances.
+
+     D.    If the Village Engineer determines that a certificate of occupancy or a temporary certificate of
+           occupancy was issued in error or on the basis of incorrect information, and if the relevant deficiencies
+           are not corrected to the satisfaction of the Village Engineer within such period of time as shall be
+           specified by the Village Engineer, the Village Engineer shall revoke or suspend such certificate.
+
+     § 86-20. Notification regarding fire or explosion.
+
+     The Chief of the Fire Department of the Village of Croton-on-Hudson or his designee shall promptly notify
+     the Village Engineer of any fire or explosion involving any structural damage, fuel burning appliance,
+
+
+     § 86-20                                     BUILDING CONSTRUCTION                                    § 86-21.1
+
+     chimney, or gas vent.
+
+     § 86-21. Unsafe buildings.
+
+     Unsafe buildings, structures and equipment and conditions of imminent danger in the Village of Croton-
+     on-Hudson shall be identified and addressed in accordance with the provisions of Chapter 90 of the Village
+     Code, as now in effect or as hereafter amended from time to time.
+
+     § 86-21.1. Operating permits.
+
+     A.    Operating permits shall be required for conducting any process or activity or for operating any type
+           of building, structure, or facility listed below:
+
+           (1)    Manufacturing, storing, or handling hazardous materials in quantities exceeding those listed in
+                  the applicable maximum allowable quantity tables found in Chapter 50 of the FCNYS;
+
+           (2)    Buildings, structures, facilities, processes, and/or activities that are within the scope and/or
+                  permit requirements of the chapter or section title of the FCNYS as follows:
+
+                  (a)    Chapter 22, "Combustible Dust-Producing Operations." Facilities where the operation
+                         produces combustible dust;
+
+                  (b)    Chapter 24, "Flammable Finishes." Operations utilizing flammable or combustible liquids,
+                         or the application of combustible powders regulated by Chapter 24 of the FCNYS;
+
+                  (c)    Chapter 25, "Fruit and Crop Ripening." Operating a fruit- or crop-ripening facility or
+                         conducting a fruit-ripening process using ethylene gas;
+
+                  (d)    Chapter 26, "Fumigation and Insecticidal Fogging." Conducting fumigation or insecticidal
+                         fogging operations in buildings, structures, and spaces, except for fumigation or
+                         insecticidal fogging performed by the occupant of a detached one-family dwelling;
+
+                  (e)    Chapter 31, "Tents, Temporary Special Event Structures, and Other Membrane
+                         Structures." Operating an air-supported temporary membrane structure, a temporary
+                         special event structure, or a tent where approval is required pursuant to Chapter 31 of the
+                         FCNYS;
+
+                  (f)    Chapter 32, "High-Piled Combustible Storage." High-piled combustible storage facilities
+                         with more than 500 square feet (including aisles) of high-piled storage;
+
+                  (g)    Chapter 34, "Tire Rebuilding and Tire Storage." Operating a facility that stores in excess
+                         of 2,500 cubic feet of scrap tires or tire byproducts or operating a tire rebuilding plant;
+
+                  (h)    Chapter 35, "Welding and Other Hot Work." Performing public exhibitions and
+                         demonstrations where hot work is conducted, use of hot work, welding, or cutting
+                         equipment, inside or on a structure, except an operating permit is not required where work
+                         is conducted under the authorization of a building permit or where performed by the
+                         occupant of a detached one- or two-family dwelling;
+
+                  (i)    Chapter 40, "Sugarhouse Alternative Activity Provisions." Conducting an alternative
+                         activity at a sugarhouse;
+
+                  (j)    Chapter 56, "Explosives and Fireworks." Possessing, manufacturing, storing, handling,
+                         selling, or using, explosives, fireworks, or other pyrotechnic special effects materials
+
+
+     § 86-21.1                                   CROTON-ON-HUDSON CODE                                   § 86-21.1
+
+                         except the outdoor use of sparkling devices as defined by Penal Law § 270;
+
+                  (k)    Section 307, "Open Burning, Recreational Fires and Portable Outdoor Fireplaces."
+                         Conducting open burning, not including recreational fires and portable outdoor fireplaces;
+
+                  (l)    Section 308, "Open Flames." Removing paint with a torch, or using open flames, fire, and
+                         burning in connection with assembly areas or educational occupancies; and
+
+                  (m) Section 319, "Mobile Food Preparation Vehicles." Operating a mobile food preparation
+                      vehicle.
+
+           (3)    Energy storage systems, where the system exceeds the values shown in Table 1206.1 of the
+                  FCNYS or exceeds the permitted aggregate ratings in Section R327.5 of the RCNYS;
+
+           (4)    Buildings containing one or more assembly areas;
+
+           (5)    Outdoor events where the planned attendance exceeds 1,000 persons;
+
+           (6)    Facilities that store, handle or use hazardous production materials;
+
+           (7)    Parking garages as defined in § 86-21.3 of this article;
+
+           (8)    Buildings whose use or occupancy classification may pose a substantial potential hazard to
+                  public safety, as determined by resolution adopted by the Board of Trustees of the Village of
+                  Croton-on-Hudson;
+
+           (9)    Other processes or activities or for operating any type of building, structure or facility as
+                  determined by resolution adopted by the Board of Trustees of the Village of Croton-on-Hudson.
+
+     B.    An application for an operating permit shall be in writing on a form provided by or otherwise
+           acceptable to the Village Engineer and include any fee established by the Village Board of Trustees.
+           Such application shall include such information as Village Engineer deems sufficient to permit a
+           determination by the Village Engineer that quantities, materials, and activities conform to the
+           requirements of the Uniform Code. If the Village Engineer determines that tests or reports are
+           necessary to verify conformance, such tests or reports shall be performed or provided by such person
+           or persons as may be designated by or otherwise acceptable to the Village Engineer, at the expense
+           of the applicant.
+
+     C.    Operating permits shall not be required for processes or activities, or the buildings, structures, or
+           facilities listed in Subsection A(1) through (7) of this section, provided that the use is expressly
+           authorized by a certificate of occupancy, fire safety and property maintenance inspections are
+           performed in accordance with § 86-21.2 of this article, and condition assessments are performed in
+           compliance with § 86-21.3 of this article, as applicable.
+
+     D.    The Village Engineer shall inspect the subject premises prior to the issuance of an operating permit.
+           Such inspections shall be performed either in-person or remotely. Remote inspections in lieu of in-
+           person inspections may be performed when, at the discretion of the Village Engineer, the remote
+           inspection can be performed to the same level and quality as an in-person inspection and the remote
+           inspection shows to the satisfaction of the Village Engineer that the premises conform with the
+           applicable requirements of the Uniform Code and the code enforcement program. Should a remote
+           inspection not afford the Village of Croton-on-Hudson sufficient information to make a
+           determination, an in-person inspection shall be performed. After inspection, the premises shall be
+           noted as satisfactory and the operating permit shall be issued, or the operating permit holder shall be
+
+
+     § 86-21.1                                   BUILDING CONSTRUCTION                                     § 86-21.2
+
+           notified as to the manner in which the premises fail to comply with either or both of the Uniform
+           Code and the code enforcement program, including a citation to the specific provision or provisions
+           that have not been met.
+
+     E.    In any circumstance in which more than one activity listed in Subsection A of this section is to be
+           conducted at a location, the Village Engineer may require a separate operating permit for each such
+           activity, or the Village Engineer may, in their discretion, issue a single operating permit to apply to
+           all such activities.
+
+     F.    Operating permits shall be issued for a specified period of time consistent with local conditions, but
+           in no event to exceed as follows:
+
+           (1)    One hundred eighty days for tents, special event structures, and other membrane structures;
+
+           (2)    Sixty days for alternative activities at a sugarhouse;
+
+           (3)    Three years for the activities, structures, and operations determined per Subsection A(9) of this
+                  section unless sooner designated by resolution of the Board of Trustees; and
+
+           (4)    One year for all other activities, structures, and operations identified in Subsection A of this
+                  section.
+
+           The effective period of each operating permit shall be specified in the operating permit. An operating
+           permit may be reissued or renewed upon application to the Village Engineer, payment of the
+           applicable fee, and approval of such application by the Village Engineer.
+
+     G.    If the Village Engineer determines that any activity or building for which an operating permit was
+           issued does not comply with any applicable provision of the Uniform Code, such operating permit
+           shall be revoked or suspended.
+
+     § 86-21.2. Fire safety and property maintenance inspections.
+
+     A.    Fire safety and property maintenance inspections of buildings and structures shall be performed by
+           the Village Engineer, the Fire Inspector in accordance with Chapter 125, or their designee(s) at the
+           following intervals:
+
+           (1)    At least once every 12 months for buildings which contain an assembly area;
+
+           (2)    At least once every 12 months for public and private schools and colleges, including any
+                  buildings of such schools or colleges containing classrooms, dormitories, fraternities, sororities,
+                  laboratories, physical education, dining, or recreational facilities; and
+
+           (3)    At least once every 24 months for multiple dwellings; and
+
+           (4)    At least once every 36 months for all other nonresidential occupancies.
+
+           Following the inspection, the Village Engineer, Chief, or their designee shall note the inspected
+           premises as satisfactory or the owner and operator of the premises shall be notified as to the manner
+           in which the premises fails to comply with the Uniform Code, including a citation to the specific
+           Uniform Code provision or provisions that have not been met.
+
+     B.    At the discretion of the Village Engineer, the Chief, or their designee(s) authorized to perform fire
+           safety and property maintenance inspections, a remote inspection may be performed in lieu of in-
+
+
+     § 86-21.2                                   CROTON-ON-HUDSON CODE                                     § 86-21.3
+
+           person inspections when, in the opinion of the Village Engineer, the Chief, or their designee(s), the
+           remote inspection can be performed to the same level and quality as an in-person inspection and the
+           remote inspection shows to the satisfaction of the Village Engineer, the Chief, or their designee(s) that
+           the premises conform with the applicable provisions of 19 NYCRR Part 1225 and the publications
+           incorporated therein by reference and the applicable provisions of 19 NYCRR Part 1226 and the
+           publications incorporated therein by reference. Should a remote inspection not afford the Village
+           Engineer, the Chief, or their designee(s) sufficient information to make a determination, an in-person
+           inspection shall be performed.
+
+     C.    In addition to the inspections required by Subsection A of this section, a fire safety and property
+           maintenance inspection of any building, structure, use, or occupancy, or of any dwelling unit, may
+           also be performed by the Village Engineer, the Chief, or their designee(s) to perform fire safety and
+           property maintenance inspections at any time upon:
+
+           (1)    The request of the owner of the property to be inspected or an authorized agent of such owner;
+
+           (2)    Receipt by the Village Engineer of a written statement alleging that conditions or activities
+                  failing to comply with the Uniform Code or Energy Code exist; or
+
+           (3)    Receipt by the Village Engineer of any other information, reasonably believed by the Village
+                  Engineer to be reliable, giving rise to reasonable cause to believe that conditions or activities
+                  failing to comply with the Uniform Code or Energy Code exist; provided, however, that nothing
+                  in this subsection shall be construed as permitting an inspection under any circumstances under
+                  which a court order or warrant permitting such inspection is required, unless such court order or
+                  warrant shall have been obtained.
+
+     D.    OFPC inspections.
+
+           (1)    Nothing in this section or in any other provision of this article shall supersede, limit, or impair
+                  the powers, duties and responsibilities of the New York State Office of Fire Prevention and
+                  Control ("OFPC") and the New York State Fire Administrator or other authorized entity under
+                  Executive Law § 156-e and Education Law § 807-b.
+
+           (2)    Notwithstanding any other provision of this section to the contrary, the Village Engineer may
+                  accept an inspection performed by the Office of Fire Prevention and Control or other authorized
+                  entity pursuant to §§ 807-a and 807-b of the Education Law and/or § 156-e of the Executive
+                  Law, in lieu of a fire safety and property maintenance inspection performed by the Village
+                  Engineer or by an inspector, provided that:
+
+                  (a)    The Village Engineer is satisfied that the individual performing such inspection satisfies
+                         the requirements set forth in 19 NYCRR section1203.2(e);
+
+                  (b)    The Village Engineer is satisfied that such inspection covers all elements required to be
+                         covered by a fire safety and property maintenance inspection;
+
+                  (c)    Such inspections are performed no less frequently than once a year;
+
+                  (d)    A true and complete copy of the report of each such inspection is provided to the Village
+                         Engineer; and
+
+                  (e)    Upon receipt of each such report, the Village Engineer takes the appropriate action
+                         prescribed by § 86-21.8 of this article.
+
+
+     § 86-21.3                                   BUILDING CONSTRUCTION                                   § 86-21.3
+
+     § 86-21.3. Condition assessments of parking garages.
+
+     A.    Definitions. For the purposes of this section:
+           CONDITION ASSESSMENT — An on-site inspection and evaluation of a parking garage for
+           evidence of deterioration of any structural element or building component of such parking garage,
+           evidence of the existence of any unsafe condition in such parking garage, and evidence indicating that
+           such parking garage is an unsafe structure.
+           DETERIORATION — The weakening, disintegration, corrosion, rust, or decay of any structural
+           element or building component, or any other loss of effectiveness of a structural element or building
+           component.
+           PARKING GARAGE — Any building or structure, or part thereof, in which all or any part of any
+           structural level or levels is used for parking or storage of motor vehicles, excluding:
+
+           (1)    Buildings in which the only level used for parking or storage of motor vehicles is on grade;
+
+           (2)    An attached or accessory structure providing parking exclusively for a detached one- or two-
+                  family dwelling; and
+
+           (3)    A townhouse unit with attached parking exclusively for such unit.
+           PROFESSIONAL ENGINEER — An individual who is licensed or otherwise authorized under
+           Article 145 of the Education Law to practice the profession of engineering in the State of New York
+           and who has at least three years of experience performing structural evaluations.
+           RESPONSIBLE PROFESSIONAL ENGINEER — The professional engineer who performs a
+           condition assessment, or under whose supervision a condition assessment is performed, and who seals
+           and signs the condition assessment report. The use of the term "responsible professional engineer"
+           shall not be construed as limiting the professional responsibility or liability of any professional
+           engineer, or of any other licensed professional, who participates in the preparation of a condition
+           assessment without being the responsible professional engineer for such condition assessment.
+           UNSAFE CONDITION — Includes the conditions identified as "unsafe" in §§ 304.1.1, 305.1.1, and
+           306.1.1 of the PMCNYS.
+           UNSAFE STRUCTURE — A structure that is so damaged, decayed, dilapidated, or structurally
+           unsafe, or is of such faulty construction or unstable foundation, that partial or complete collapse is
+           possible.
+
+     B.    The owner operator of each parking garage shall cause such parking garage to undergo an initial
+           condition assessment as described in Subsection C of this section, periodic condition assessments as
+           described in Subsection D of this section, and such additional condition assessments as may be
+           required under Subsection E of this section. Each condition assessment shall be conducted by or
+           under the direct supervision of a professional engineer. A written report of each condition assessment
+           shall be prepared, and provided to Village Engineer, in accordance with the requirements of
+           Subsection F of this section. Before performing a condition assessment (other than the initial
+           condition assessment) of a parking garage, the responsible professional engineer for such condition
+           assessment shall review all available previous condition assessment reports for such parking garage.
+
+     C.    Each parking garage shall undergo an initial condition assessment as follows:
+
+           (1)    Parking garages constructed in whole or in part prior to the effective date of this article shall
+                  undergo an initial condition assessment following construction and prior to a certificate of
+
+
+     § 86-21.3                                   CROTON-ON-HUDSON CODE                                      § 86-21.3
+
+                  occupancy or certificate of compliance being issued for the structure.
+
+           (2)    Any parking garage constructed prior to the effective date of the local law enacting this
+                  provision that has not undergone an initial condition assessment prior to that effective date shall
+                  undergo an initial condition assessment prior to six months after the effective date of this article.
+
+     D.    Following the initial condition assessment of a parking garage, such parking garage shall undergo
+           periodic condition assessments at intervals not to exceed three years.
+
+     E.    Additional condition assessments.
+
+           (1)    If the latest condition assessment report for a parking garage includes a recommendation by the
+                  responsible professional engineer that an additional condition assessment of such parking
+                  garage, or any portion of such parking garage, be performed before the date by which the next
+                  periodic condition assessment would be required under Subsection C of this section, the owner
+                  or operator of such parking garage shall cause such parking garage (or, if applicable, the portion
+                  of such parking garage identified by the responsible professional engineer) to undergo an
+                  additional condition assessment no later than the date recommended in such condition
+                  assessment report.
+
+           (2)    If the Village of Croton-on-Hudson becomes aware of any new or increased deterioration which,
+                  in the judgment of the Village Engineer, indicates that an additional condition assessment of the
+                  entire parking garage, or of the portion of the parking garage affected by such new or increased
+                  deterioration, should be performed before the date by which the next periodic condition
+                  assessment would be required under Subsection C of this section, the owner or operator of such
+                  parking garage shall cause such parking garage (or, if applicable, the portion of the parking
+                  garage affected by such new or increased deterioration) to undergo an additional condition
+                  assessment no later than the date determined by the Village Engineer to be appropriate.
+
+     F.    Condition assessment reports. The responsible professional engineer shall prepare, or directly
+           supervise the preparation of, a written report of each condition assessment, and shall submit such
+           condition assessment report to the Village Engineer within 30 days. Such condition assessment report
+           shall be sealed and signed by the responsible professional engineer, and shall include:
+
+           (1)    An evaluation and description of the extent of deterioration and conditions that cause
+                  deterioration that could result in an unsafe condition or unsafe structure;
+
+           (2)    An evaluation and description of the extent of deterioration and conditions that cause
+                  deterioration that, in the opinion of the responsible professional engineer, should be remedied
+                  immediately to prevent an unsafe condition or unsafe structure;
+
+           (3)    An evaluation and description of the unsafe conditions;
+
+           (4)    An evaluation and description of the problems associated with the deterioration, conditions that
+                  cause deterioration, and unsafe conditions;
+
+           (5)    An evaluation and description of the corrective options available, including the recommended
+                  time frame for remedying the deterioration, conditions that cause deterioration, and unsafe
+                  conditions;
+
+           (6)    An evaluation and description of the risks associated with not addressing the deterioration,
+                  conditions that cause deterioration, and unsafe conditions;
+
+
+     § 86-21.3                                   BUILDING CONSTRUCTION                                      § 86-21.4
+
+           (7)    The responsible professional engineer's recommendation regarding preventative maintenance;
+
+           (8)    Except in the case of the report of the initial condition assessment, the responsible professional
+                  engineer's attestation that he or she reviewed all previously prepared condition assessment
+                  reports available for such parking garage, and considered the information in the previously
+                  prepared reports while performing the current condition assessment and while preparing the
+                  current report; and
+
+           (9)    The responsible professional engineer's recommendation regarding the time within which the
+                  next condition assessment of the parking garage or portion thereof should be performed. In
+                  making the recommendation regarding the time within which the next condition assessment of
+                  the parking garage or portion thereof should be performed, the responsible professional engineer
+                  shall consider the parking garage's age, maintenance history, structural condition, construction
+                  materials, frequency and intensity of use, location, exposure to the elements, and any other
+                  factors deemed relevant by the responsible professional engineer in their professional judgment.
+
+     G.    The Village Engineer shall take such enforcement action or actions in response to the information in
+           such condition assessment report as may be necessary or appropriate to protect the public from the
+           hazards that may result from the conditions described in such report. In particular, but not by way of
+           limitation, the Village Engineer shall, by order to remedy or such other means of enforcement as the
+           Village Engineer may deem appropriate, require the owner or operator of the parking garage to repair
+           or otherwise remedy all deterioration, all conditions that cause deterioration, and all unsafe conditions
+           identified in such condition assessment report pursuant to Subsection F(2) and (3). All repairs and
+           remedies shall comply with the applicable provisions of the Uniform Code. This section shall not
+           limit or impair the right of the Village of Croton-on-Hudson to take any other enforcement action,
+           including, but not limited to, suspension or revocation of a parking garage's operating permit, as may
+           be necessary or appropriate in response to the information in a condition assessment report.
+
+     H.    The Village Engineer shall retain all condition assessment reports for the life of the parking garage.
+           Upon request by a professional engineer who has been engaged to perform a condition assessment of
+           a parking garage, and who provides the Village Engineer with a written statement attesting to the fact
+           that he or she has been so engaged, the Village Engineer shall make the previously prepared condition
+           assessment reports for such parking garage (or copies of such reports) available to such professional
+           engineer. The Village Engineer shall be permitted to require the owner or operator of the subject
+           parking garage to pay all costs and expenses associated with making such previously prepared
+           condition assessment reports (or copies thereof) available to the professional engineer.
+
+     I.    This section shall not limit or impair the right or the obligation of the Village Engineer to:
+
+           (1)    To perform such construction inspections as are required by § 86-15 of this article;
+
+           (2)    To perform such periodic fire safety and property maintenance inspections as are required by
+                  § 86-21.2 of this article; and/or
+
+           (3)    To take such enforcement action or actions as may be necessary or appropriate to respond to
+                  any condition that comes to the attention of the Village Engineer by means of its own
+                  inspections or observations, by means of a complaint, or by any other means other than a
+                  condition assessment or a report of a condition assessment.
+
+     § 86-21.4. Climatic and geographic design criteria.
+
+     A.    The Village Engineer shall determine the climatic and geographic design criteria for buildings and
+
+
+     § 86-21.4                                   CROTON-ON-HUDSON CODE                                     § 86-21.7
+
+           structures constructed within the Village of Croton-on-Hudson as required by the Uniform Code.
+           Such determinations shall be made in the manner specified in the Uniform Code using, where
+           applicable, the maps, charts, and other information provided in the Uniform Code. The criteria to be
+           so determined shall include, but shall not necessarily be limited to, the following:
+
+           (1)    Design criteria to include ground snow load; wind design loads; seismic category; potential
+                  damage from weathering, frost, and termite; winter design temperature; whether ice barrier
+                  underlayment is required; the air freezing index; and the mean annual temperature;
+
+           (2)    Heating and cooling equipment design criteria for structures within the scope of the RCNYS.
+                  The design criteria shall include the data identified in the Design Criteria Table found in Chapter
+                  3 of the RCNYS; and
+
+           (3)    Flood hazard areas, flood hazard maps, and supporting data. The flood hazard map shall include,
+                  at a minimum, special flood hazard areas as identified by the Federal Emergency Management
+                  Agency in the Flood Insurance Study for the community, as amended or revised with:
+
+                  (a)    The accompanying Flood Insurance Rate Map (FIRM);
+
+                  (b)    Flood Boundary and Floodway Map (FBFM); and
+
+                  (c)    Related supporting data along with any revisions thereto.
+
+     B.    The Village Engineer shall prepare a written record of the climatic and geographic design criteria
+           determined pursuant to Subsection A of this section, shall maintain such record within the office of
+           the Village Engineer, and shall make such record readily available to the public.
+
+     § 86-21.5. Testing of materials or construction.
+
+     Whenever there are reasonable grounds to believe that any material, construction, equipment or assembly
+     does not conform to the requirements of the applicable building laws, ordinances or regulations, the Village
+     Engineer may require the same to be subjected to tests paid for by the applicant in order to furnish proof of
+     such compliance.
+
+     § 86-21.6. Compliance with building standards required; interpretation.
+
+     No dereliction of duty or errors on the part of the Village Engineer shall legalize the erection, construction
+     or alteration of any building not in conformity with the Uniform Code, Energy Code and other applicable
+     ordinances and regulations. The building permit shall not be construed as authority to violate, cancel or
+     set aside any of the provisions of the Uniform Code, Energy Code, this article or of any other statute or
+     ordinance pertinent thereto.
+
+     § 86-21.7. Regulation of vacant lots.
+
+     When a building has been demolished and no building operation has been projected or approved or in the
+     event of substantial interruption of work on a building or structure prior to the issuance of a certificate
+     of occupancy as the result of a stop-work order, the revocation or expiration of a building permit or for
+     any other cause, the premises shall be maintained free from the accumulation of rubbish or water and all
+     other unsafe or hazardous conditions which endanger the life or health of the public. The premises shall
+     be safeguarded in the manner ordered by the Village Engineer, including, among other requirements, the
+     taking down of walls or the covering of areas between walls. If the owner of the property fails to comply
+     with the order, the Village Engineer may employ such labor and materials and other services as may be
+
+
+     § 86-21.7                                   BUILDING CONSTRUCTION                                    § 86-21.8
+
+     necessary to perform the required work. All costs and expenses so incurred by the Village shall be paid by
+     the owner or may be assessed against the land.
+
+     § 86-21.8. Violations; penalties for offenses.
+
+     A.    It shall be unlawful for any person, firm or corporation to construct, alter, repair, move, remove,
+           demolish, equip, use, occupy or maintain any building or structure or portion thereof in violation of
+           any provision of this article or to fail in any manner to comply with a notice, directive or order of the
+           Village Engineer or to construct, alter or use and occupy any building or structure or part thereof in a
+           manner not permitted by an approved building permit or certificate of occupancy.
+
+     B.    The Village Engineer is authorized to order, in writing, the remedying of any condition or activity
+           found to exist in, on or about any building, structure, or premises in violation of the Uniform Code,
+           the Energy Code, or this article. An order to remedy shall be in writing; shall be dated and signed by
+           the Village Engineer; shall specify the condition or activity that violates the Uniform Code, the
+           Energy Code, or this article; shall specify the provision or provisions of the Uniform Code, the
+           Energy Code, or this article which is/are violated by the specified condition or activity; shall direct
+           the discontinuance of the illegal action or condition; and shall include a statement substantially
+           similar to the following:
+
+           "The person or entity served with this order to remedy must completely remedy each violation
+           described in this order to remedy by _____ [specify date], which is 30 days after the date of this order
+           to remedy."
+
+           The order to remedy may include provisions ordering the person or entity served with such order
+           to remedy: 1) to begin to remedy the violations described in the order to remedy immediately, or
+           within some other specified period of time which may be less than 30 days; to continue diligently
+           to remedy such violations until each such violation is fully remedied; and, in any event, to complete
+           the remedying of all such violations within 30 days of the date of such order to remedy; and/or 2)
+           to take such other protective actions (such as vacating the building or barricading the area where the
+           violations exist) which are authorized by this article or by any other applicable statute, regulation,
+           rule, local law or ordinance, and which the Village Engineer may deem appropriate, during the period
+           while such violations are being remedied. The Village Engineer shall cause the order to remedy, or
+           a copy thereof, to be served on the owner of the affected property personally or by registered mail
+           or certified mail within five days after the date of the order to remedy. The Village Engineer shall
+           be permitted, but not required, to cause the order to remedy, or a copy thereof, to be served on any
+           builder, architect, tenant, contractor, subcontractor, construction superintendent, or their agents, or
+           any other person taking part or assisting in work being performed at the affected property personally
+           or by registered mail or certified mail within five days after the date of the order to remedy; provided,
+           however, that failure to serve any person mentioned in this sentence shall not affect the efficacy of
+           the compliance order. Unless the violation is abated within said period, the Village Engineer shall
+           suspend or revoke the permit for the building operation under which the violation was committed.
+
+     C.    If the notice of violation is not complied with as provided herein, the Village Engineer shall request
+           the Village Attorney to institute the appropriate proceedings at law or in equity to restrain, correct or
+           abate such violation and to require the removal or termination of the unlawful condition or use of the
+           building or structure.
+
+     D.    Every person who shall violate this article shall be subject to a penalty as provided in § 382 of the
+           Executive Law.
+
+
+     § 86-21.8                                   CROTON-ON-HUDSON CODE                                    § 86-21.8
+
+     E.    The imposition of the penalties herein prescribed shall not preclude the taking of any appropriate
+           action to prevent unlawful construction or to restrain, correct or abate a violation or to prevent illegal
+           occupancy of a building, structure or premises or to stop an illegal act, disorderly conduct, business
+           or use of a building, structure or premises.
+
+
+                                                          ARTICLE II
+                                             Deposits on Construction of New Homes34
+                                              [Adopted 6-14-1976 by L.L. No. 1-1976]
+
+     § 86-22. Definitions.
+
+     When used in this Article, the following terms, unless the context requires otherwise, shall have the
+     following meanings:
+     DEFAULT — Occurs where title to the home is not transferred to the vendee because of the failure of the
+     vendor to substantially perform those provisions of the agreement between the vendor and vendee, wherein
+     the vendor undertook to build or construct a home for the vendee, or where the vendor becomes insolvent.
+     DEMAND — The communication of an actual notice to the vendor of requests made therein.
+     DEPOSIT — Any moneys given as downpayment by the vendee to the vendor as required by the vendor
+     prior to the commencement of the work to be performed pursuant to an agreement between the vendor and
+     the vendee, wherein the vendor undertook to build or construct a home for the vendee.
+     HOME — A new one- or two-family dwelling intended to be used primarily as a residence.
+     MUNICIPALITY — The Village of Croton-on-Hudson.
+     VENDEE — Any individual or individuals who have contracted with a vendor for construction of a home
+     on land not owned at the time of such agreement by such individual or individuals.
+     VENDOR — Any person, firm, corporation or association engaged in the business of erecting or
+     constructing homes.
+
+     § 86-23. Security to be furnished by vendor.
+
+     When a vendor undertakes to build or construct a home for a vendee and such vendee is required to pay
+     a deposit to such vendor, the vendor shall post with the chief fiscal officer (the Village Treasurer) of the
+     municipality wherein such home is to be erected or constructed a bond in the amount of such deposit or
+     deposits. Such bond shall be posted within five business days after receipt of said deposit or deposits by
+     the vendor and shall secure the payment of said deposit to the vendee upon the vendor's default. Such bond
+     shall be in such form as required by the Superintendent of Insurance.
+
+     § 86-24. Alternative to posting bond.
+
+     In lieu of posting a bond as provided in this Article, the vendor shall place the deposit or deposits paid
+     to him by the vendee in an interest-bearing escrow account with a bank, as defined in the Banking Law,
+     within five business days after receipt of such deposit or deposits. Such deposit or deposits, together with
+     interest accumulated thereon, shall remain the property of the vendee, except as otherwise provided herein.
+
+     § 86-25. Disposition of security.
+
+     A.     Upon transfer of title of the home to the vendee, the bond posted pursuant to this Article shall be
+            released; and any funds held in escrow pursuant to the provisions of this Article, together with interest
+            accumulated thereon, shall become the property of the vendor, unless otherwise agreed between the
+            vendor and vendee.
+
+
+     34. Editor's Note: For statutory provisions, see Art. 37 of the General Business Law, § 780 et seq.
+
+
+     B.    Upon default by the vendor, the vendee may demand return of his deposit or deposits from the vendor.
+           If the vendor has placed the deposit or deposits in an escrow account pursuant to the provisions of
+           this article, he shall physically transfer the account to the vendee or pay the balance of said account
+           to the vendee within 14 business days after the day on which the demand was made. If the vendor has
+           posted a bond pursuant to the provisions of this article, the vendee may initiate action for payment
+           thereon if his deposit or deposits have not been paid to such vendee by the vendor within 14 business
+           days after the day in which said demand was made.
+
+     § 86-26. Failure to comply; penalties for offenses; liability.
+
+     A.    Failure of the vendor to comply with any of the provisions of this Article is a misappropriation of
+           funds, and action may be brought by the vendee against the vendor for the return of any moneys
+           advanced. In addition, such vendor shall be liable for criminal action pursuant to the provisions of
+           Subsection B of this section.
+
+     B.    Failure of the vendor to comply with any of the provisions of this Article shall be deemed a
+           misdemeanor.
+
+     C.    Nothing in this Article shall impair, limit or reduce the statutory, common law or contractual duties
+           or liability of any vendor in the construction of a home, nor shall these provisions apply to any local
+           law or ordinance which requires the posting of public improvement bonds.
+
+
+     § 86-26                                     BUILDING CONSTRUCTION
+
+
+                                                   CROTON-ON-HUDSON CODE                                                            § 88-5

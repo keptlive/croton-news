@@ -72,9 +72,35 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1)
 
 # Jinja filters
 app.jinja_env.filters["from_json"] = lambda s: __import__("json").loads(s) if s else None
+
+# Eastern Time offset — returns -04:00 (EDT) or -05:00 (EST) based on date
+def _tz_offset(date_str):
+    from zoneinfo import ZoneInfo
+    try:
+        parts = date_str[:10].split("-")
+        from datetime import datetime as _dt
+        dt = _dt(int(parts[0]), int(parts[1]), int(parts[2]), 19, 0, tzinfo=ZoneInfo("America/New_York"))
+        off = dt.strftime("%z")  # e.g. -0400
+        return off[:3] + ":" + off[3:]  # e.g. -04:00
+    except Exception:
+        return "-05:00"
+app.jinja_env.filters["tz_offset"] = _tz_offset
 # ── History Blueprint ─────────────────────────────────────────────
 from history_bp import history_bp
 app.register_blueprint(history_bp, url_prefix='/history')
+
+
+import re as _re
+
+def sanitize_fts5_query(query):
+    """Escape user input for safe FTS5 MATCH queries."""
+    # Remove FTS5 special characters: ( ) * : ^ "
+    cleaned = _re.sub(r'[()\*:^"]+', ' ', query)
+    # Split into words, wrap each in double-quotes to avoid FTS5 keyword issues
+    terms = cleaned.split()
+    if not terms:
+        return None
+    return ' '.join('"' + t + '"' for t in terms if t)
 
 # ── Database helpers ──────────────────────────────────────────────
 
@@ -134,7 +160,7 @@ def add_cache_headers(response):
     elif path.startswith('/api/'):
         response.cache_control.public = True
         response.cache_control.max_age = 300  # 5 min
-    elif path in ('/feed', '/sitemap.xml', '/news-sitemap.xml', '/robots.txt'):
+    elif path in ('/feed', '/sitemap.xml', '/news-sitemap.xml', '/robots.txt', '/humans.txt'):
         response.cache_control.public = True
         response.cache_control.max_age = 3600  # 1 hour
     return response
@@ -303,7 +329,7 @@ def process_footnotes_filter(text):
 @app.context_processor
 def inject_globals():
     return {
-        "now": datetime.now(),
+        "now": datetime.now(tz=__import__("zoneinfo").ZoneInfo("America/New_York")),
         "committees": COMMITTEES,
     }
 
@@ -673,17 +699,24 @@ def documents_page():
 
     results = []
     if query:
-        rows = db.execute("""
-            SELECT c.doc_id, c.committee, c.date, c.content,
-                   snippet(chunks_fts, 0, '<mark>', '</mark>', '...', 40) as snippet,
-                   m.id as meeting_id
-            FROM chunks_fts
-            JOIN chunks c ON c.id = chunks_fts.rowid
-            LEFT JOIN meetings m ON c.doc_id = m.event_id
-            WHERE chunks_fts MATCH ?
-            ORDER BY rank
-            LIMIT 30
-        """, (query,)).fetchall()
+      try:
+        safe_q = sanitize_fts5_query(query)
+        if not safe_q:
+            rows = []
+        else:
+            rows = db.execute("""
+                SELECT c.doc_id, c.committee, c.date, c.content,
+                       snippet(chunks_fts, 0, '<mark>', '</mark>', '...', 40) as snippet,
+                       m.id as meeting_id
+                FROM chunks_fts
+                JOIN chunks c ON c.id = chunks_fts.rowid
+                LEFT JOIN meetings m ON c.doc_id = m.event_id
+                WHERE chunks_fts MATCH ?
+                ORDER BY rank
+                LIMIT 30
+            """, (safe_q,)).fetchall()
+      except Exception:
+        rows = []
 
         seen = set()
         for row in rows:
@@ -778,6 +811,263 @@ def meeting_page(meeting_id):
         people=people,
         related=related,
         source_docs=source_docs,
+    )
+
+
+
+# ── Village Code Browser ──────────────────────────────────────────
+
+_villagecode_toc_cache = None
+
+def _get_villagecode_toc():
+    """Build and cache the village code table of contents."""
+    global _villagecode_toc_cache
+    if _villagecode_toc_cache:
+        return _villagecode_toc_cache
+
+    chapter_dir = os.path.join(RAG_DIR, "croton-code", "chapters")
+    if not os.path.isdir(chapter_dir):
+        return {"part1": [], "part2": []}
+
+    chapters = []
+    for fname in sorted(os.listdir(chapter_dir)):
+        m = re.match(r'Ch_(\d+)_(.+)\.txt', fname)
+        if not m:
+            # Handle DL (disposition list)
+            if fname.startswith("Ch_DL"):
+                continue
+            continue
+        num = int(m.group(1))
+        slug = m.group(2)
+        title = slug.replace('-', ' ').title()
+
+        # Read frontmatter for better title
+        fpath = os.path.join(chapter_dir, fname)
+        try:
+            with open(fpath) as f:
+                header = f.read(500)
+            tm = re.search(r'title:\s*"Ch_\d+\s+(.*?)"', header)
+            if tm:
+                title = tm.group(1)
+        except Exception:
+            pass
+
+        chapters.append({"num": num, "title": title, "slug": slug, "file": fname})
+
+    chapters.sort(key=lambda c: c["num"])
+    part1 = [c for c in chapters if c["num"] <= 61]
+    part2 = [c for c in chapters if c["num"] > 61]
+
+    _villagecode_toc_cache = {"part1": part1, "part2": part2}
+    return _villagecode_toc_cache
+
+
+def _parse_chapter(chapter_num):
+    """Parse a chapter text file into structured sections."""
+    chapter_dir = os.path.join(RAG_DIR, "croton-code", "chapters")
+    target = None
+
+    for fname in os.listdir(chapter_dir):
+        m = re.match(r'Ch_(\d+)_(.+)\.txt', fname)
+        if m and int(m.group(1)) == chapter_num:
+            target = os.path.join(chapter_dir, fname)
+            break
+
+    if not target:
+        return None
+
+    with open(target) as f:
+        text = f.read()
+
+    # Strip frontmatter
+    title = f"Chapter {chapter_num}"
+    if text.startswith('---'):
+        parts = text.split('---', 2)
+        if len(parts) >= 3:
+            fm = parts[1]
+            text = parts[2]
+            tm = re.search(r'title:\s*"Ch_\d+\s+(.*?)"', fm)
+            if tm:
+                title = tm.group(1)
+
+    # Extract history note
+    history = None
+    hm = re.search(r'\[HISTORY:.*?\]', text, re.DOTALL)
+    if hm:
+        history = hm.group(0)
+
+    # Strip the PDF table of contents at the top of each chapter.
+    # The TOC has lines like "§ 230-5.     Classes of districts.     § 230-20.1.  Purpose"
+    # (two columns of section listings). Remove everything before the first body section.
+    # The HISTORY note or GENERAL REFERENCES section marks the end of TOC.
+    toc_end = None
+    for marker in [r'\[HISTORY:', r'GENERAL REFERENCES', r'ARTICLE\s+I\b']:
+        hm = re.search(marker, text)
+        if hm:
+            if toc_end is None or hm.start() < toc_end:
+                toc_end = hm.start()
+    if toc_end and toc_end > 50:
+        text = text[toc_end:]
+
+    # Clean PDF layout artifacts
+    # Remove footnote superscript numbers (bare numbers like "41" mid-sentence)
+    text = re.sub(r'(?<=\w)(\d{1,3})(?=\s+or\b|\s+and\b|\s+the\b|\s+of\b|\s+in\b|\s+to\b|\s+a\b|\s+for\b)', '', text)
+    # Collapse runs of whitespace within lines (PDF column artifacts)
+    text = re.sub(r'(?<!\n)[ \t]{4,}(?!\n)', '  ', text)
+    # Remove page header artifacts that leaked through
+    text = re.sub(r'\n\s*§\s*\d+[\-\.]\d+\s{10,}[A-Z][A-Z\s,\-]+\s{10,}§\s*\d+[\-\.]\d+\s*\n', '\n', text)
+
+    # Check for reserved/empty chapters
+    stripped = text.strip()
+    if len(stripped) < 100 or 'reserved' in stripped.lower()[:200]:
+        return {
+            "num": chapter_num,
+            "title": title,
+            "history": history,
+            "sections": [{"section_id": None, "anchor": "preamble", "title": "", "content": stripped or "This chapter is reserved."}],
+            "reserved": True,
+        }
+
+    # Split into sections on § markers
+    sections = []
+    current = {"section_id": None, "anchor": "preamble", "title": "", "content": ""}
+
+    for line in text.strip().split('\n'):
+        sm = re.match(r'^(§\s*[\d][\d\-\.A-Za-z]*)', line)
+        if sm:
+            if current["content"].strip():
+                sections.append(current)
+
+            sid = sm.group(1).strip()
+            sid_clean = re.sub(r'^§\s*', '', sid).rstrip('.')
+            anchor = 's' + sid_clean.replace('.', '-')
+            current = {
+                "section_id": sid,
+                "anchor": anchor,
+                "title": "",
+                "content": "",  # Don't include the § line itself — it's rendered as heading
+            }
+        else:
+            current["content"] += '\n' + line
+
+    if current["content"].strip():
+        sections.append(current)
+
+    # Filter: keep only sections with real body content (>2 non-empty lines)
+    body_sections = []
+    for s in sections:
+        # Clean up the content
+        c = s["content"]
+        # Remove chapter title line and HISTORY from preamble (already in header)
+        if s["section_id"] is None:
+            c = re.sub(r'^\s*Chapter\s+\d+.*?\n', '', c)
+            c = re.sub(r'\[HISTORY:.*?\]', '', c, flags=re.DOTALL)
+        # Merge [Amended\n date\n ] into single line
+        c = re.sub(r'\[Amended\s*\n\s*(.+?)\s*\n\s*\]', r'[Amended \1]', c)
+        c = re.sub(r'\[Added\s*\n\s*(.+?)\s*\n\s*\]', r'[Added \1]', c)
+        # Remove stray cross-reference fragments (bare number + comma + chapter name)
+        c = re.sub(r'\n\d{1,3}\n,\s*\w[^\n]*\.?\n?', '\n', c)
+        # Also catch at end of content
+        c = re.sub(r'\n\d{1,3}\s*\n,\s*[A-Z][^\n]*\.?\s*$', '', c)
+        # Remove duplicate § line at start of content (already shown as heading)
+        c = re.sub(r'^\s*§\s*[\d][\d\-\.A-Za-z]*\s*\n', '', c)
+        # Collapse excessive blank lines
+        c = re.sub(r'\n{3,}', '\n\n', c)
+        c = c.strip()
+
+        # Extract section title (first non-empty line if it looks like a section name)
+        section_title = ""
+        if s["section_id"] and c:
+            lines = c.split('\n')
+            first = lines[0].strip() if lines else ""
+            # Title: short phrase ending in period, not starting with articles/prepositions,
+            # not an amendment note, not all-caps (definition term), not a sentence
+            is_title = (first
+                and len(first) < 80
+                and not first.startswith('[')
+                and not first.startswith('The ')
+                and not first.startswith('No ')
+                and not first.startswith('Any ')
+                and not first.startswith('It ')
+                and not first.startswith('A ')
+                and not first.startswith('In ')
+                and not first.isupper()  # skip ALL CAPS definition terms
+                and not re.match(r'^\d', first)  # skip lines starting with numbers
+                and (first.endswith('.') or first.endswith(';') or len(first) < 40)
+            )
+            if is_title:
+                section_title = first
+                c = '\n'.join(lines[1:]).strip()
+
+        # Wrap [Amended/Added ...] notes in styled spans
+        c = re.sub(r'\[(Amended[^\]]+)\]', r'<span class="vc-amended">[\1]</span>', c)
+        c = re.sub(r'\[(Added[^\]]+)\]', r'<span class="vc-amended">[\1]</span>', c)
+
+        s["content"] = c
+        s["title"] = section_title
+
+        content_lines = [l for l in c.split('\n') if l.strip()]
+        # Keep all named sections (even short ones). Only filter preamble fragments.
+        if s["section_id"] or len(content_lines) > 2:
+            body_sections.append(s)
+
+    # Deduplicate: chapter files have TOC (short) then body (long) for each §.
+    # Keep the longest version of each section_id.
+    seen = {}
+    for s in body_sections:
+        key = s.get("anchor", id(s))
+        if key in seen:
+            # Keep whichever has more content
+            if len(s["content"]) > len(seen[key]["content"]):
+                seen[key] = s
+        else:
+            seen[key] = s
+    # Preserve order of first appearance but use the longer content
+    deduped = []
+    added = set()
+    for s in body_sections:
+        key = s.get("anchor", id(s))
+        if key not in added:
+            deduped.append(seen[key])
+            added.add(key)
+    body_sections = deduped
+
+    return {
+        "num": chapter_num,
+        "title": title,
+        "history": history,
+        "sections": body_sections,
+        "reserved": False,
+    }
+
+
+@app.route("/villagecode")
+def villagecode_index():
+    """Village Code table of contents."""
+    toc = _get_villagecode_toc()
+    return render_template("villagecode.html",
+        toc_part1=toc["part1"],
+        toc_part2=toc["part2"],
+        chapter=None,
+        active_chapter=None,
+        sections=[],
+    )
+
+
+@app.route("/villagecode/chapter/<int:chapter_num>")
+def villagecode_chapter(chapter_num):
+    """Display a specific chapter with section anchors."""
+    toc = _get_villagecode_toc()
+    chapter = _parse_chapter(chapter_num)
+    if not chapter:
+        abort(404)
+
+    return render_template("villagecode.html",
+        toc_part1=toc["part1"],
+        toc_part2=toc["part2"],
+        chapter=chapter,
+        active_chapter=chapter_num,
+        sections=chapter["sections"],
     )
 
 
@@ -1349,14 +1639,25 @@ def serve_photo(filename):
 
     # Parse filename — supports numeric ChampDS IDs and yt-VIDEO_ID format
     import re as _re
-    m = _re.match(r'^([\w-]+)_t(\d+?)(?:_(og))?\.(jpg|png)$', filename)
+    m = _re.match(r'^([\w-]+)_t(\d+?)(?:_(og|enhanced))?\.(jpg|png)$', filename)
     if not m:
         abort(404)
 
     event_id = m.group(1)
     timestamp = int(m.group(2))
-    is_og = m.group(3) == "og"
+    suffix = m.group(3)
+    is_og = suffix == "og"
+    is_enhanced = suffix == "enhanced"
     crop = request.args.get("crop", "auto")
+
+    # For _enhanced requests, fall back to non-enhanced cached photo
+    if is_enhanced:
+        base_filename = filename.replace('_enhanced', '')
+        base_cached = os.path.join(PHOTOS_CACHE_DIR, base_filename)
+        if os.path.exists(base_cached):
+            return send_from_directory(PHOTOS_CACHE_DIR, base_filename, mimetype="image/jpeg")
+        # If no cached version either, extract from video (as non-enhanced)
+        filename = base_filename
 
     # Find video — YouTube videos stored in boe/ subdirectory
     video_dir = os.path.join(os.path.dirname(BASE_DIR), "videos")
@@ -1445,6 +1746,9 @@ def serve_photo(filename):
 
         return send_from_directory(PHOTOS_CACHE_DIR, filename, mimetype="image/jpeg")
 
+    except ValueError as e:
+        app.logger.warning(f"Photo skipped (no video stream): {e}")
+        abort(404)
     except Exception as e:
         app.logger.error(f"Photo extraction error: {e}")
         abort(500)
@@ -1540,14 +1844,20 @@ def api_search_documents():
     if not query:
         return jsonify([])
 
-    rows = db.execute("""
-        SELECT c.doc_id, c.committee, c.date,
-               snippet(chunks_fts, 0, '<mark>', '</mark>', '...', 40) as snippet
-        FROM chunks_fts
-        JOIN chunks c ON c.id = chunks_fts.rowid
-        WHERE chunks_fts MATCH ?
-        ORDER BY rank LIMIT 20
-    """, (query,)).fetchall()
+    safe_q = sanitize_fts5_query(query)
+    if not safe_q:
+        return jsonify([])
+    try:
+        rows = db.execute("""
+            SELECT c.doc_id, c.committee, c.date,
+                   snippet(chunks_fts, 0, '<mark>', '</mark>', '...', 40) as snippet
+            FROM chunks_fts
+            JOIN chunks c ON c.id = chunks_fts.rowid
+            WHERE chunks_fts MATCH ?
+            ORDER BY rank LIMIT 20
+        """, (safe_q,)).fetchall()
+    except Exception:
+        rows = []
 
     return jsonify([dict(r) for r in rows])
 
@@ -1832,14 +2142,20 @@ def rss_feed():
     rss += '  <link>https://croton.news</link>\n'
     rss += '  <description>AI-assisted civic information covering Croton-on-Hudson, NY village government from public records</description>\n'
     rss += '  <language>en-us</language>\n'
+    rss += f'  <lastBuildDate>{formatdate(localtime=True)}</lastBuildDate>\n'
     rss += '  <copyright>2026 croton.news</copyright>\n'
     rss += '  <managingEditor>editor@croton.news (Matthew Broudy)</managingEditor>\n'
     rss += '  <atom:link href="https://croton.news/feed" rel="self" type="application/rss+xml"/>\n'
     rss += '  <image><url>https://croton.news/static/favicon.svg</url><title>croton.news</title><link>https://croton.news</link></image>\n'
 
     for a in articles:
-        dt = _dt.datetime.strptime(a["date"], "%Y-%m-%d").replace(hour=19)
-        pub_date = formatdate(mktime(dt.timetuple()), localtime=True)
+        from zoneinfo import ZoneInfo
+        eastern = ZoneInfo("America/New_York")
+        dt = _dt.datetime.strptime(a["date"], "%Y-%m-%d").replace(hour=19, tzinfo=eastern)
+        pub_date = formatdate(dt.timestamp(), localtime=False, usegmt=False)
+        # formatdate with UTC timestamp; manually append offset
+        off = dt.strftime("%z")  # e.g. -0400
+        pub_date = dt.strftime("%a, %d %b %Y %H:%M:%S ") + off[:3] + off[3:]
         eid = a.get("event_id") or ""
         og_img = f"https://croton.news/photos/{eid}_t60_og.jpg" if eid else "https://croton.news/photos/placeholder_og.jpg"
         title = (a["headline"] or a["quick_summary"] or "").replace("&", "&amp;").replace("<", "&lt;")
@@ -1886,7 +2202,27 @@ def robots():
         "# https://croton.news/llms.txt\n"
         "\n"
         "# See https://llmstxt.org/\n"
-        "llms.txt: https://croton.news/llms.txt\n",
+        "llms.txt: https://croton.news/llms.txt\n"
+        "llms-full.txt: https://croton.news/llms-full.txt\n",
+        mimetype="text/plain",
+    )
+
+@app.route("/humans.txt")
+def humans_txt_file():
+    db = get_rag_db()
+    latest = db.execute("SELECT MAX(date) FROM meetings WHERE article IS NOT NULL").fetchone()[0] or "unknown"
+    return Response(
+        "/* TEAM */\n"
+        "Creator: Andy\n"
+        "Contact: andy@agentwire.email\n"
+        "Site: https://croton.news\n"
+        "Description: Local news and meeting coverage for Croton-on-Hudson, NY\n"
+        "\n"
+        "/* SITE */\n"
+        f"Last update: {latest}\n"
+        "Standards: HTML5, CSS3, JavaScript\n"
+        "Software: Flask, Nginx, Python, SQLite\n"
+        "Hosting: Self-hosted VPS\n",
         mimetype="text/plain",
     )
 
@@ -1908,6 +2244,7 @@ def llms_txt():
 
     lines = [
         "# croton.news \u2014 Croton-on-Hudson, NY Local News",
+        "> For the full version, see https://croton.news/llms-full.txt",
         "",
         "## About",
         "croton.news is an independent, AI-assisted civic information project",
@@ -2655,6 +2992,268 @@ REVIEW_ARTICLE_HTML = """
 """
 
 
+@app.route("/llms-full.txt")
+def llms_full_txt():
+    db = get_rag_db()
+    article_count = db.execute(
+        "SELECT COUNT(*) FROM meetings WHERE article IS NOT NULL"
+    ).fetchone()[0]
+    meeting_count = db.execute("SELECT COUNT(*) FROM meetings").fetchone()[0]
+    committees = [r[0] for r in db.execute(
+        "SELECT DISTINCT committee FROM meetings ORDER BY committee"
+    ).fetchall()]
+    recent = db.execute(
+        "SELECT id, committee, date, headline, quick_summary FROM meetings "
+        "WHERE article IS NOT NULL AND headline IS NOT NULL "
+        "ORDER BY date DESC LIMIT 20"
+    ).fetchall()
+    try:
+        topics = db.execute(
+            "SELECT slug, name, COUNT(DISTINCT meeting_id) as cnt "
+            "FROM topic_threads tt JOIN topic_mentions tm ON tt.id = tm.thread_id "
+            "GROUP BY tt.id ORDER BY cnt DESC LIMIT 30"
+        ).fetchall()
+    except Exception:
+        topics = []
+    try:
+        entity_count = db.execute("SELECT COUNT(*) FROM entities").fetchone()[0]
+    except Exception:
+        entity_count = 0
+
+    lines = []
+    lines.append("# croton.news \u2014 Croton-on-Hudson, NY Local News")
+    lines.append("")
+    lines.append("> Comprehensive LLM-readable documentation for croton.news")
+    lines.append("> For the shorter version, see https://croton.news/llms.txt")
+    lines.append("")
+    lines.append("## About")
+    lines.append("")
+    lines.append("croton.news is an independent, AI-assisted civic information project covering the Village of")
+    lines.append("Croton-on-Hudson, New York (population ~8,200, Westchester County, 35 miles north of Manhattan).")
+    lines.append("The site publishes news articles and meeting coverage generated from public records, official")
+    lines.append("meeting transcripts, and government documents using AI-assisted journalism workflows.")
+    lines.append("")
+    lines.append("- {} published articles generated from {} public meetings".format(article_count, meeting_count))
+    lines.append("- {} tracked entities (people, organizations, places)".format(entity_count))
+    lines.append("- {} government committees and boards covered".format(len(committees)))
+    lines.append("- Coverage period: September 2024 to present")
+    lines.append("- Updated daily as new meetings are transcribed and published")
+    lines.append("")
+    lines.append("## How It Works")
+    lines.append("")
+    lines.append("1. Public meetings are recorded and transcribed (YouTube recordings, audio files)")
+    lines.append("2. Transcripts are chunked and indexed in a RAG (Retrieval-Augmented Generation) database")
+    lines.append("3. AI generates long-form articles from transcript chunks, with citations to specific timestamps")
+    lines.append("4. Articles include quick summaries, full narrative coverage, and links to source transcripts")
+    lines.append("5. Named entities (people, organizations, places) are automatically extracted and cross-linked")
+    lines.append("6. Topics are tracked across multiple meetings to show policy threads over time")
+    lines.append("")
+    lines.append("## Site Pages")
+    lines.append("")
+    lines.append("### Main Navigation")
+    lines.append("- Homepage: https://croton.news/ \u2014 Latest articles, weather, upcoming meetings")
+    lines.append("- Meetings: https://croton.news/meetings \u2014 All covered meetings by committee and date")
+    lines.append("- Editorials: https://croton.news/editorials \u2014 AI-generated long-form investigative pieces")
+    lines.append("- Calendar: https://croton.news/calendar \u2014 Upcoming village meetings and events")
+    lines.append("- Topics: https://croton.news/topics \u2014 Policy topics tracked across meetings")
+    lines.append("- Entities: https://croton.news/entities \u2014 People, organizations, and places mentioned in coverage")
+    lines.append("- Documents: https://croton.news/documents \u2014 Meeting packets and source PDFs")
+    lines.append("- Search: https://croton.news/search \u2014 Full-text search across all articles and transcripts")
+    lines.append("- Gallery: https://croton.news/gallery \u2014 Community photo gallery")
+    lines.append("- About: https://croton.news/about \u2014 Project description and methodology")
+    lines.append("- Contact: https://croton.news/contact \u2014 Contact form")
+    lines.append("- Editorial Policy: https://croton.news/editorial-policy \u2014 Transparency and sourcing standards")
+    lines.append("")
+    lines.append("### History Archive")
+    lines.append("A curated historical section covering Croton-on-Hudson from pre-colonial times to the 20th century:")
+    lines.append("- History Home: https://croton.news/history \u2014 Overview and featured stories")
+    lines.append("- Timeline: https://croton.news/history/timeline \u2014 Interactive chronological timeline")
+    lines.append("- Historical Maps: https://croton.news/history/maps \u2014 Annotated historical maps")
+    lines.append("- Historical Documents: https://croton.news/history/documents \u2014 Primary source documents")
+    lines.append("- Stories: https://croton.news/history/stories \u2014 27 narrative essays on local history")
+    lines.append("- McDonald Interviews: https://croton.news/history/mcdonald \u2014 232 oral history transcripts")
+    lines.append("- Search: https://croton.news/history/search \u2014 Search across all historical content")
+    lines.append("")
+    lines.append("### History Stories (27 essays)")
+    stories = [
+        ("01_cannon_tellers_point", "The Cannon at Teller's Point"),
+        ("02_fifteen_year_revenge", "The Fifteen-Year Revenge"),
+        ("03_nimham_last_stand", "Nimham's Last Stand"),
+        ("04_grape_king_senasqua", "The Grape King of Senasqua"),
+        ("05_little_italy_dam", "Little Italy and the Dam"),
+        ("06_westchester_tea_party", "The Westchester Tea Party"),
+        ("07_slavery_patriots_manor", "Slavery at the Patriots' Manor"),
+        ("08_other_harmon", "The Other Harmon"),
+        ("09_five_lives_croton_point", "Five Lives of Croton Point"),
+        ("10_prohibitions_wild_croton", "Prohibition's Wild Croton"),
+        ("11_croton_poems", "Croton in Poetry"),
+        ("12_brinton_brook", "Brinton Brook Sanctuary"),
+        ("13_croton_gorge_park", "Croton Gorge Park"),
+        ("14_teatown", "Teatown Lake Reservation"),
+        ("15_oscawana", "Oscawana Island"),
+        ("16_blue_mountain", "Blue Mountain Reservation"),
+        ("17_croton_landing", "Croton Landing Park"),
+        ("18_georges_island", "George's Island Park"),
+        ("19_aqueduct_trail", "Old Croton Aqueduct Trail"),
+        ("20_original_research", "Original Research Collection"),
+        ("21_tea_captain", "The Tea Captain"),
+        ("22_pines_bridge", "The Sacrifice at Pines Bridge"),
+        ("23_mosiers_fight", "Mosier's Fight"),
+        ("24_crompond_burning", "The Burning of Crompond"),
+        ("25_bearmore", "Bearmore the Bear"),
+        ("26_tim_knapp", "Tim Knapp's Croton"),
+        ("27_cornell_dam_strike", "The Cornell Dam Strike"),
+    ]
+    for slug, title in stories:
+        lines.append("- {}: https://croton.news/history/story/{}".format(title, slug))
+    lines.append("")
+    lines.append("## Committees Covered")
+    lines.append("")
+    for c in committees:
+        if c != "Topics":
+            lines.append("- {}".format(c))
+    lines.append("")
+    lines.append("## Recent Articles")
+    lines.append("")
+    for r in recent:
+        title = r["headline"] or "{} \u2014 {}".format(r["committee"], r["date"])
+        summary = r["quick_summary"] or ""
+        lines.append("### {}".format(title))
+        lines.append("- URL: https://croton.news/article/{}".format(r["id"]))
+        lines.append("- Committee: {}".format(r["committee"]))
+        lines.append("- Date: {}".format(r["date"]))
+        if summary:
+            lines.append("- Summary: {}".format(summary))
+        lines.append("")
+    lines.append("## Topics")
+    lines.append("")
+    lines.append("Policy topics are tracked across multiple meetings to show how issues evolve over time.")
+    lines.append("")
+    if topics:
+        for t in topics:
+            lines.append("- {} ({} meetings): https://croton.news/topic/{}".format(t["name"], t["cnt"], t["slug"]))
+    lines.append("")
+    lines.append("## APIs")
+    lines.append("")
+    lines.append("### GET /api/articles")
+    lines.append("Returns recent articles as JSON array.")
+    lines.append("- Parameters:")
+    lines.append("  - limit (int, default 20): Number of articles to return")
+    lines.append("  - committee (string): Filter by committee slug (e.g., board-of-trustees)")
+    lines.append("- Response: Array of objects with id, headline, quick_summary, committee, date, article (full markdown)")
+    lines.append("- Example: GET https://croton.news/api/articles?limit=5")
+    lines.append("")
+    lines.append("### GET /api/search")
+    lines.append("Full-text search across meeting transcripts.")
+    lines.append("- Parameters:")
+    lines.append("  - q (string, required): Search query")
+    lines.append("- Response: Array of transcript chunks with content, speaker, timestamps, committee, date, doc_id")
+    lines.append("- Example: GET https://croton.news/api/search?q=water+infrastructure")
+    lines.append("")
+    lines.append("### GET /api/calendar/events")
+    lines.append("Returns upcoming village meetings and events.")
+    lines.append("- Response: Array of event objects")
+    lines.append("")
+    lines.append("### GET /api/search/documents")
+    lines.append("Search across meeting packet documents and PDFs.")
+    lines.append("- Parameters:")
+    lines.append("  - q (string, required): Search query")
+    lines.append("- Response: Array of matching document sections")
+    lines.append("")
+    lines.append("### GET /api/weather")
+    lines.append("Returns current weather for Croton-on-Hudson.")
+    lines.append("")
+    lines.append("### GET /api/health")
+    lines.append("Service health check endpoint.")
+    lines.append("- Response: JSON with status, article count, latest article date")
+    lines.append("")
+    lines.append("### GET /feed")
+    lines.append("RSS 2.0 feed of recent articles.")
+    lines.append("- Content-Type: application/rss+xml")
+    lines.append("")
+    lines.append("## Data & Feeds")
+    lines.append("")
+    lines.append("- RSS Feed: https://croton.news/feed")
+    lines.append("- Sitemap: https://croton.news/sitemap.xml")
+    lines.append("- News Sitemap: https://croton.news/news-sitemap.xml (Google News format)")
+    lines.append("- Robots: https://croton.news/robots.txt")
+    lines.append("- LLMs.txt: https://croton.news/llms.txt")
+    lines.append("- LLMs-full.txt: https://croton.news/llms-full.txt")
+    lines.append("")
+    lines.append("## Article Structure")
+    lines.append("")
+    lines.append("Each article page includes:")
+    lines.append("- Headline and quick summary (1-3 sentences)")
+    lines.append("- Full narrative article (typically 1,000-5,000 words)")
+    lines.append("- Committee name and meeting date")
+    lines.append("- Links to related articles from the same committee")
+    lines.append("- Entity mentions linked to entity profile pages")
+    lines.append("- Topic tags linked to topic thread pages")
+    lines.append("- Source transcript with timestamps (when available)")
+    lines.append("- Meeting packet documents (when available)")
+    lines.append("- NewsArticle JSON-LD structured data")
+    lines.append("")
+    lines.append("## Technical Details")
+    lines.append("")
+    lines.append("- Stack: Python/Flask, SQLite (RAG database), Jinja2 templates")
+    lines.append("- Hosting: Self-hosted on VPS behind nginx reverse proxy with SSL")
+    lines.append("- Search: SQLite FTS5 full-text search over transcript chunks")
+    lines.append("- NLP: Named entity recognition for people, organizations, and places")
+    lines.append("- AI: Article generation from transcripts using LLM pipelines")
+    lines.append("- Design: Newspaper-style layout with serif typography, warm color palette")
+    lines.append("")
+    lines.append("## FAQ")
+    lines.append("")
+    lines.append("### Is croton.news affiliated with the Village of Croton-on-Hudson?")
+    lines.append("No. croton.news is an independent project. All content is derived from publicly available records.")
+    lines.append("")
+    lines.append("### How are articles generated?")
+    lines.append("Articles are generated by AI from official meeting transcripts. Each article cites specific")
+    lines.append("timestamps and speakers from the source recording. Human editorial review ensures accuracy.")
+    lines.append("")
+    lines.append("### How often is the site updated?")
+    lines.append("New articles are published within days of public meetings being held. The site covers meetings")
+    lines.append("from the Board of Trustees, Planning Board, Zoning Board, and 20+ other committees.")
+    lines.append("")
+    lines.append("### Can I use the API?")
+    lines.append("Yes. The articles API and search API are free and open. No authentication required.")
+    lines.append("Please be respectful with request frequency.")
+    lines.append("")
+    lines.append("### What is the McDonald Interview collection?")
+    lines.append("232 oral history transcripts collected by local historian Mary McDonald, documenting")
+    lines.append("personal stories and memories of Croton-on-Hudson residents across decades.")
+    lines.append("")
+    lines.append("### What topics does the History section cover?")
+    lines.append("27 narrative essays covering the American Revolution in Croton, the Croton Dam construction,")
+    lines.append("Prohibition-era bootlegging, Native American history, local parks and landmarks,")
+    lines.append("and lesser-known episodes in the village's history.")
+    lines.append("")
+    lines.append("## Related Sites")
+    lines.append("")
+    lines.append("croton.news is part of a network of free tools and services:")
+    lines.append("- helloandy.net \u2014 Free developer tools (regex, cron, API tester, CLAUDE.md writer)")
+    lines.append("- launch.pics \u2014 AI image processing API and browser tools (250+ tools)")
+    lines.append("- everyone.food \u2014 Recipe collection, kitchen tools, and calorie API")
+    lines.append("- contextwire.dev \u2014 Search API and MCP server for AI applications")
+    lines.append("- qrmcp.dev \u2014 QR code generator with MCP integration")
+    lines.append("- mcp.vin \u2014 VIN decoder and vehicle data API")
+    lines.append("- webmcplist.com \u2014 WebMCP protocol directory")
+    lines.append("- qrcode.host \u2014 AI microsite builder with QR codes")
+    lines.append("- stockandflow.live \u2014 Systems dynamics simulator")
+    lines.append("- stockandflow.org \u2014 Systems dynamics model library (1,000+ models)")
+
+    return Response("\n".join(lines) + "\n", mimetype="text/plain")
+
+
+
+
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
+
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 3260))
     app.run(host="0.0.0.0", port=port, debug=False)
+

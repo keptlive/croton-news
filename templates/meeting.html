@@ -12,7 +12,7 @@
   "@type": "Event",
   "name": {{ (meeting.headline or (meeting.committee ~ " Meeting"))|tojson }},
   "description": {{ (meeting.quick_summary or meeting.headline or "")|tojson }},
-  "startDate": "{{ meeting.date }}T19:00:00-05:00",
+  "startDate": "{{ meeting.date }}T19:00:00{{ meeting.date|tz_offset }}",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "eventStatus": "https://schema.org/EventScheduled",
   "location": {
@@ -179,7 +179,7 @@
     <span>This article was generated from the <a href="https://go.boarddocs.com/ny/chufsd/Board.nsf/goto?open&amp;id={{ meeting.boarddocs_id }}" target="_blank" rel="noopener" style="color:#2d6a4f;font-weight:600">official meeting minutes</a>. All facts are footnoted to their source in the minutes.</span>
   </div>
   {% endif %}
-  <div class="article-body">
+  <div class="article-body" data-eid="{{ meeting.event_id }}">
     {{ meeting.article|process_photos|process_footnotes|safe }}
   </div>
   <script>
@@ -192,6 +192,41 @@
       if (t.match(/^<(figure|div|video|table|blockquote|h[1-6]|hr|aside|section)/i)) return t;
       return '<p>' + t + '</p>';
     }).join('');
+  })();
+  /* Quote citation links: {quote:SECONDS} → transcript/video icons */
+  (function() {
+    var el = document.querySelector('.article-body');
+    if (!el) return;
+    var eid = el.dataset.eid || '';
+    var html = el.innerHTML;
+    function renderQuote(qEid, ts) {
+      var mins = Math.floor(ts / 60);
+      var secs = String(ts % 60).padStart(2, '0');
+      var videoHref;
+      if (qEid.startsWith('yt-')) {
+        videoHref = 'https://www.youtube.com/watch?v=' + qEid.slice(3) + '&t=' + ts + 's';
+      } else {
+        videoHref = '/videos/' + qEid + '.mp4#t=' + ts;
+      }
+      return '<span class="quote-links" style="display:inline-flex;gap:4px;margin-left:2px;vertical-align:super;font-size:11px;line-height:0">' +
+        '<a href="/transcript/' + qEid + '#t=' + ts + '" style="text-decoration:none;opacity:0.5" title="Transcript at ' + mins + ':' + secs + '">&#128196;</a>' +
+        '<a href="' + videoHref + '" target="_blank" rel="noopener noreferrer" style="text-decoration:none;opacity:0.5" title="Watch at ' + mins + ':' + secs + '">&#9654;&#65039;</a>' +
+        '</span>';
+    }
+    html = html.replace(/\{\{quote:(yt-[\w-]+):(\d+)\}\}/g, function(m, qEid, ts) {
+      return renderQuote(qEid, parseInt(ts));
+    });
+    html = html.replace(/\{\{quote:(\d{4,}):(\d+)\}\}/g, function(m, qEid, ts) {
+      return renderQuote(qEid, parseInt(ts));
+    });
+    if (eid) {
+      html = html.replace(/\{\{quote:(\d+)\}\}/g, function(m, ts) {
+        return renderQuote(eid, parseInt(ts));
+      });
+    } else {
+      html = html.replace(/\{\{quote:\d+\}\}/g, '');
+    }
+    el.innerHTML = html;
   })();
   /* Footnote smooth scrolling */
   document.addEventListener('click', function(e) {

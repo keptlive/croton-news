@@ -1,0 +1,365 @@
+---
+title: "Chapter 114: Energy Conservation"
+chapter: 114
+name: "Energy Conservation"
+source: "Village of Croton-on-Hudson Village Code (ecode360.com/CR0035)"
+downloaded: "2026-05-15"
+sections: 0
+---
+
+ARTICLE I                                                 ARTICLE II
+          Energize NY Benefit Financing Program                      Community Choice Aggregation (Energy)
+                                                                                  Program
+     § 114-1.             Legislative findings; intent and
+                          purpose; authority.                     § 114-10.     Legislative findings; intent and
+     § 114-2.             Definitions.                                          purpose; authority.
+     § 114-3.             Establishment of Energize NY            § 114-11.     Definitions.
+                          Benefit Financing Program.              § 114-12.     Establishment of a Community
+     § 114-4.             Procedures for eligibility.                           Choice Aggregation (Energy)
+     § 114-5.             Application criteria.                                 Program.
+     § 114-6.             Opt-in, Energize NY finance             § 114-13.     Procedures for eligibility;
+                          agreement.                                            customer data sharing.
+     § 114-7.             Energy audit; renewable energy          § 114-14.     Choice of energy supplier; opt-
+                          system feasibility study.                             out notice and procedure.
+     § 114-8.             Terms and conditions of                 § 114-15.     Verification and reporting.
+                          repayment.
+     § 114-9.             Verification and report.
+
+
+     [HISTORY: Adopted by the Board of Trustees of the Village of Croton-on-Hudson as indicated in
+     article histories. Amendments noted where applicable.]
+
+
+                                                    ARTICLE I
+                                      Energize NY Benefit Financing Program
+                         [Adopted 2-19-2013 by L.L. No. 2-2013; 1-2-2018 by L.L. No. 1-2018]
+
+     § 114-1. Legislative findings; intent and purpose; authority.
+
+     A.    It is the policy of both the Village of Croton-on-Hudson and the State of New York to achieve energy
+           efficiency and renewable energy goals, reduce greenhouse gas emissions, mitigate the effect of global
+           climate change, and advance a clean energy economy. The Village finds that it can fulfill this policy
+           by providing property-assessed clean energy financing to property owners for the installation of
+           renewable energy systems and energy efficiency measures. This chapter establishes a program that
+           will allow the Energy Improvement Corporation (EIC), a local development corporation, acting on
+           behalf of the Village, pursuant to the municipal agreement to be entered into between the Village and
+           EIC pursuant to Article 5-G of the New York General Muncipal Law (the municipal agreement), to
+           make funds available to qualified property owners that will be repaid by such property owners
+           through charges on the real properties benefited by such funds, thereby fulfilling the purposes of this
+           article and fulfilling an important public purpose.
+
+     B.    The Village of Croton-on-Hudson is authorized to implement this Energize NY Benefit Financing
+           Program pursuant to the Municipal Home Rule Law and Article 5-L of the New York General
+           Municipal Law.
+
+     C.    This article shall be known and may be cited as the "Energize NY Benefit Financing Program Law of
+           the Village of Croton-on-Hudson."
+
+     § 114-2. Definitions.
+
+     For purposes of this article, and unless otherwise expressly stated or unless the context requires, the
+     following terms shall have the meanings indicated:
+     AUTHORITY — The New York State Energy Research and Development Authority, as defined by
+     Subdivision two of § 1851 of the Public Authorities Law, or its successor.
+     EIC — The Energy Improvement Corporation, a local development corporation, duly organized under
+     § 1411 of the Not-For-Profit Corporation Law, authorized hereby on behalf of the Village of Croton-on-
+     Hudson to implement the Energize NY Benefit Financing Program by providing funds to qualified property
+     owners (as defined in this article) and providing for repayment of such funds from monies collected by
+     the Village Tax Collecting Officer as a charge to be levied on the real property and collected in the same
+     manner and same form as the Village taxes.
+     ENERGY AUDIT — A formal evaluation or assessment of the energy consumption of a permanent
+     building or structural improvement to real property, conducted by a contractor certified by the Authority, or
+     certified by a certifying entity approved by the Authority, for the purpose of identifying appropriate energy
+     efficiency improvements that could be made to the property.
+     ENERGY EFFICIENCY IMPROVEMENT — Any renovation or retrofitting of a building to reduce
+     energy consumption, such as window and door replacement, lighting, caulking, weatherstripping, air
+     sealing, insulation, and heating and cooling system upgrades, and similar improvements, determined to
+     be cost effective pursuant to criteria established by the Authority, not including lighting measures or
+     household appliances that are not permanently fixed to real property.
+     QUALIFIED PROPERTY OWNER — An owner of residential or commercial real property located within
+     the boundaries of the Village of Croton-on-Hudson that is determined to be eligible to participate in the
+
+
+     Energize NY Benefit Financing Program under the procedures for eligibility set forth under this article.
+     RENEWABLE ENERGY SYSTEM — An energy-generating system for the generation of electric or
+     thermal energy, to be used primarily at such property, except when the qualified property owner is
+     a commercial entity, in which case the system may be used for other properties in addition to the
+     subject property, by means of solar thermal, solar photovoltaic, wind, geothermal, anaerobic digester
+     gas-to-electricity systems, fuel cell technologies, or other renewable energy technology approved by the
+     Authority, not including the combustion or pyrolysis of solid waste.
+     RENEWABLE ENERGY SYSTEM FEASIBILITY STUDY — A written study, conducted by a
+     contractor certified by the Authority, or certified by a certifying entity approved by the Authority, for the
+     purpose of determining the feasibility of installing a renewable energy system.
+
+     § 114-3. Establishment of Energize NY Benefit Financing Program.
+
+     A.    An Energize NY Benefit Financing Program is hereby established by the Village of Croton-on-
+           Hudson, whereby EIC, acting on its behalf pursuant to the municipal agreement, may provide funds
+           to qualified property owners in accordance with the procedures set forth under this article, to finance
+           the acquisition, construction and installation of renewable energy systems and energy efficiency
+           improvements and the verification of the installation of such systems and improvements.
+
+     B.    For funds provided to a qualified property owner which is a commercial entity, not-for-profit
+           organization, or entity other than an individual, EIC shall have the authority to impose requirements
+           on the maximum amount of funds to be provided, which may consider factors including but not
+           limited to the property value, projected savings, project cost, and existing indebtedness secured by
+           such property.
+
+     C.    For financings made to a qualified property owner who is an individual, the funds provided shall not
+           exceed the lesser of 10% percent of the appraised value of the real property where the renewable
+           energy systems and/or energy efficiency improvements will be located, or the actual cost of installing
+           the renewable energy systems and/or energy efficiency improvements, including the costs of
+           necessary equipment, materials, and labor and the cost of verification of such systems and
+           improvements.
+
+     § 114-4. Procedures for eligibility.
+
+     A.    Any property owner in the Village may submit an application to EIC on such forms as have been
+           prepared by EIC and made available to property owners on the website of EIC and at the Village
+           Clerk's offices.
+
+     B.    Every application submitted by a property owner shall be reviewed by EIC acting on behalf of the
+           Village, which shall make a positive or negative determination on such application based upon the
+           criteria for making a financing enumerated in § 114-5 of this article. EIC may also request further
+           information from the property owner where necessary to aid in its determination.
+
+     C.    If a positive determination on an application is made by EIC acting on behalf of the Village, the
+           property owner shall be deemed a qualified property owner and shall be eligible to participate in the
+           Energize NY Benefit Financing Program in accordance with the procedure set forth under § 114-6 of
+           this article; provided that in no case shall a property owner that has received funds from another
+           municipal corporation for the acquisition, construction and installation of energy efficiency
+           improvements and/or renewable energy systems be deemed a qualified property owner.
+
+
+     § 114-5. Application criteria.
+
+     Upon the submission of an application, EIC, acting on behalf of the Village, shall make a positive or
+     negative determination on such application based upon the following criteria for the making of a financing:
+
+     A.    The proposed energy efficiency improvements and/or renewable energy systems are determined to be
+           cost effective based on guidelines issued by the Authority;
+
+     B.    The property owner may not be in bankruptcy and the property may not constitute property subject to
+           any pending bankruptcy proceeding;
+
+     C.    The amount financed under the Energize NY Benefit Financing Program shall be repaid over a term
+           not to exceed the weighted average of the useful life of renewable energy systems and energy
+           efficiency improvements to be installed on the property as determined by EIC;
+
+     D.    Sufficient funds are available from EIC to provide financing to the property owner;
+
+     E.    The property owner is current in payments on any existing mortgage;
+
+     F.    The property owner is current in payments on any existing real property taxes and has been current
+           on real property taxes for the previous three years; and
+
+     G.    Such additional criteria, not inconsistent with the criteria set forth above, as the Village, or EIC acting
+           on its behalf, may set from time to time.
+
+     § 114-6. Opt-in, Energize NY finance agreement.
+
+     A.    A qualified property owner may participate in the Energize NY Benefit Financing Program through
+           the execution of an Energize NY finance agreement made by and between the qualified property
+           owner and EIC, acting on the behalf of the Village (the Energize NY Finance Agreement).
+
+     B.    Upon execution of the Energize NY finance agreement, the qualified property owner shall be eligible
+           to receive funds from EIC, acting on behalf of Village, for the acquisition, construction, and
+           installation of qualifying renewable energy systems and energy efficiency improvements, provided
+           the requirements of § 114-7 of this article have been met.
+
+     C.    The Energize NY finance agreement shall include the terms and conditions of repayment set forth
+           under § 114-8 of this article.
+
+     § 114-7. Energy audit; renewable energy system feasibility study.
+
+     A.    No funds shall be made available for energy efficiency improvements unless determined to be
+           appropriate through an energy audit as defined in § 114-2.
+
+     B.    No funds shall be made available for a renewable energy system unless determined to be feasible
+           through a renewable energy system feasibility study as defined in § 114-2.
+
+     C.    The cost of such energy audit and/or renewable energy system feasibility study shall be borne solely
+           by the property owner but may be included in the financed amount if the work is approved.
+
+     § 114-8. Terms and conditions of repayment.
+
+     The Energize NY finance agreement between the qualified property owner and EIC, acting on behalf of
+     the Village, shall set forth the terms and conditions of repayment in accordance with the following:
+
+
+     A.    The principal amount of the funds paid to the qualified property owner hereunder, together with the
+           interest thereon, shall be paid by the property owner as a charge on his or her property tax bill and
+           shall be levied and collected at the same time and in the same manner as Village property taxes,
+           provided that such charge shall be separately listed on the tax bill. The Village shall make payment
+           to EIC or its designee in the amount of all such separately listed charges within 30 days of the date
+           the payment is due to be made to Village.
+
+     B.    The term of such repayment shall be determined at the time the Energize NY finance agreement is
+           executed by the property owner and EIC, provided that in no case shall the term exceed the weighted
+           average of the useful life of the systems and improvements as determined by EIC acting on behalf of
+           the Village.
+
+     C.    The rate of interest for the charge shall be fixed by EIC, acting on behalf of the Village, at the time
+           the Energize NY finance agreement is executed by the property owner and EIC.
+
+     D.    The charge shall constitute a lien upon the real property benefited by the Energize NY Benefit
+           Financing Program as set forth in Article5-L of the General Municipal Law and shall run with the
+           land. A transferee of title to the benefited real property shall be required to pay any future
+           installments, including interest thereon.
+
+     § 114-9. Verification and report.
+
+     A.    EIC shall be responsible for verifying and reporting to the Village on the installation and performance
+           of renewable energy systems and energy efficiency improvements financed by such program.
+
+     B.    The Village shall verify and report on the installation and performance of renewable energy systems
+           and energy efficiency improvements financed by the Energize NY Benefit Financing Program in such
+           form and manner as the Authority may establish.
+
+
+                                                    ARTICLE II
+                                    Community Choice Aggregation (Energy) Program
+                                        [Adopted 7-13-2015 by L.L. No. 5-2015]
+
+     § 114-10. Legislative findings; intent and purpose; authority.
+
+     A.    It is the policy of both the Village of Croton-on-Hudson and the State of New York to reduce costs
+           and provide cost certainty for the purpose of economic development, to promote deeper penetration
+           of energy efficiency and renewable energy resources such as wind and solar, and wider deployment
+           of distributed energy resources as well as to examine the retail energy markets and increase
+           participation of and benefits for residential and small commercial customers in those markets. Among
+           the policies and models that may offer benefits in New York is community choice aggregation, which
+           allows local governments to determine the default supplier of electricity and natural gas on behalf of
+           its residential and small commercial customers.
+
+     B.    The purpose of this CCA Program is to allow participating local governments, including the Village
+           of Croton-on-Hudson, to procure energy supply service for their residential and small commercial
+           customers, who will have the opportunity to opt out of the procurement, while maintaining
+           transmission and distribution service from the existing distribution utility. This article establishes a
+           program that will allow the Village of Croton-on-Hudson to put out for bid the total amount of natural
+           gas and/or electricity being purchased by local residential and small commercial customers. bundled
+           customers will have the opportunity to have more control to lower their overall energy costs, to spur
+           clean energy innovation and investment, to improve customer choice and value, and to protect the
+           environment; thereby, fulfilling the purposes of this article and fulfilling an important public purpose.
+
+     C.    The Village of Croton-on-Hudson is authorized to implement this Community Choice Aggregation
+           (Energy) Program pursuant to Section 10(1)(ii)(a)(12) of the New York Municipal Home Rule Law;
+           and State of New York Public Service Commission Case No. 14-M-0564, Petition of Sustainable
+           Westchester for Expedited Approval for the Implementation of a Pilot Community Choice
+           Aggregation Program within the County of Westchester, Order Granting Petition in Part (issued
+           February 26, 2015) as may be amended, including subsequent orders of the Public Service
+           Commission issued in connection with or related to Case No. 14-M-0564 (collectively, the "Order").
+           Order shall also mean orders of the Public Service Commission related to State of New York Public
+           Service Commission Case No. 14-M-0224, Proceeding on Motion of the Commission to Enable
+           Community Choice Aggregation Programs (issued December 15, 2014) to the extent that orders
+           related to Case No. 14-M-0224 enable actions by the Village not otherwise permitted pursuant to
+           orders related to Case 14-M-0564; provided, however, that in the event of any conflict between orders
+           from Case No. 14-M-0564 and orders from Case No. 14-M-0224, orders from Case No. 14-M-0564
+           shall govern the CCA Program.
+
+     D.    This Chapter shall be known and may be cited as the "Community Choice Aggregation (Energy)
+           Program Law of the Village of Croton-on-Hudson."
+
+     § 114-11. Definitions.
+
+     For purposes of this article, and unless otherwise expressly stated or unless the context otherwise requires,
+     the terms in this article shall have the meanings employed in the State of New York Public Service
+     Commission's Uniform Business Practices or, if not so defined there, as indicated below:
+     BUNDLED CUSTOMERS — Residential and small commercial customers of electricity or natural gas
+     ("fuels") who are purchasing the fuels from the distribution utility.
+
+
+     COMMUNITY CHOICE AGGREGATION PROGRAM or CCA PROGRAM — A municipal energy
+     procurement program, which replaces the incumbent utility as the default supplier for all bundled
+     customers within the Village of Croton-on-Hudson.
+     DISTRIBUTION UTILITY — Owner or controller of the means of distribution of the natural gas or
+     electricity that is regulated by the Public Service Commission.
+     PUBLIC SERVICE COMMISSION — New York State Public Service Commission.
+     SMALL COMMERCIAL — Non-residential customers as permitted by the Order.
+     SUPPLIERS — Energy service companies (ESCOs) that procure electric power and natural gas for
+     bundled customers in connection with this article or, alternatively, generators of electricity and natural gas
+     or other entities who procure and resell electricity or natural gas.
+     SUSTAINABLE WESTCHESTER — A not-for-profit organization comprised of member municipalities
+     in Westchester County, New York.
+
+     § 114-12. Establishment of a Community Choice Aggregation (Energy) Program.
+
+     A.    A Community Choice Aggregation (Energy) Program is hereby established by the Village of Croton-
+           on-Hudson, whereby the Village shall work together with Sustainable Westchester to implement the
+           CCA Program to the full extent permitted by the Order, as set forth more fully herein. The Village's
+           role under the CCA Program involves the aggregating of the electric and/or natural gas supply of its
+           residents and the entering into a contract with one or more suppliers for supply and services. Under
+           the CCA Program, the operation and ownership of the utility service shall remain with the distribution
+           utility.
+
+     B.    The Village's participation in a CCA Program constitutes neither the purchase of a public utility
+           system, nor the furnishing of utility service. The Village will not take over any part of the electric or
+           gas transmission or distribution system and will not furnish any type of utility service, but will instead
+           negotiate with suppliers on behalf of participating residential and small commercial customers.
+
+     C.    In order to implement the CCA Program, the Village will adopt one or more resolutions that outline
+           the process of and conditions for participation in the CCA Program, including but not limited to
+           signing a contract for a compliant bid with one or more suppliers, all as consistent with the article and
+           the Order.
+
+     D.    The Public Service Commission supervises retail markets and participants in these markets through
+           legislative and regulatory authority and the Uniform Business Practices, which includes rules relating
+           to the eligibility of participating ESCOs, the operation by which ESCOs provide energy services, and
+           the terms on which customers may be enrolled with ESCOs.
+
+     § 114-13. Procedures for eligibility; customer data sharing.
+
+     A.    As permitted by the Order, the Village may request from the Distribution Utilities aggregated
+           customer information by fuel type and service classification on a rolling basis.
+
+     B.    Sustainable Westchester, on behalf of the Village, shall issue one or more requests for proposals to
+           suppliers to provide energy to participants and may then award a contract in accordance with the CCA
+           Program.
+
+     C.    Sustainable Westchester or the Village if the Village so chooses, will then request individual
+           customer data from the distribution utility in accordance with the CCA Program.
+
+
+     D.    Sustainable Westchester or the Village if the Village so chooses, and the selected supplier will then
+           notify bundled customers of the contract terms and their opportunity to opt out of the CCA Program.
+
+     E.    In accordance with and for purposes of the Order, Consolidated Edison Company of New York, Inc.
+           will provide to Sustainable Westchester aggregate and customer-specific data (including usage data,
+           capacity tag obligations, account numbers, and service addresses) of all bundled customers in the
+           Village not currently enrolled with an ESCO.
+
+     F.    Sustainable Westchester and the Village will protect customer information as required by law, subject
+           to the Order and the limitations of the New York State Freedom of Information Law.
+
+     § 114-14. Choice of energy supplier; opt-out notice and procedure.
+
+     A.    The Village or in conjunction with the ESCO will notify its residential and small commercial
+           customers, by letter notice, of the Village's decision to establish the CCA Program, of the contract
+           terms with an ESCO, and of the opportunity to opt out of the CCA Program.
+
+     B.    The letter notice will be sent to each customer at the address provided by the distribution utility and
+           explain the CCA Program and the material provisions of the ESCO contract, identify the methods by
+           which the customer can opt out of the CCA Program, and provide information on how the customer
+           can access additional information about the CCA Program.
+
+     C.    The opt-out period shall be twenty (20) days.
+
+     D.    CCA Program bundled customers, upon enrollment, will receive a welcome letter that will explain
+           the customers' options for canceling the enrollment if they believe they were enrolled incorrectly or
+           otherwise decide to withdraw from the CCA Program in favor of another Supplier. The welcome
+           letter also will explain that residential customers are entitled to the added protection of the mandated
+           three-day rescission period as detailed in Section 5(B)(3) of the Uniform Business Practices.
+
+     § 114-15. Verification and reporting.
+
+     A.    Sustainable Westchester shall be responsible for filing an annual report with the Public Service
+           Commission, which identifies the number of customers enrolled in the CCA Program by municipality
+           and customer class, the number of customers who returned to utility service or service with another
+           supplier during the reporting period, and the average cost of commodity supply by month for the
+           reporting period.
+
+
+     § 114-15                                      ENERGY CONSERVATION
+
+
+                                                   CROTON-ON-HUDSON CODE                                                         § 115-1
