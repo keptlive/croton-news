@@ -75,7 +75,7 @@
   <a href="/documents?q={{ c.committee }}" style="display:block;text-decoration:none">
     <div class="sidebar-box" style="transition:box-shadow 0.15s">
       <h4 style="border-bottom:none;margin-bottom:2px">{{ c.committee }}</h4>
-      <span style="font-size:13px;color:var(--ink-muted)">{{ c.c }} documents</span>
+      <span style="font-size:13px;color:var(--ink-muted)">{{ c.c }} document{{ '' if c.c == 1 else 's' }}</span>
     </div>
   </a>
   {% endfor %}

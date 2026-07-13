@@ -2527,7 +2527,7 @@ def news_sitemap():
         xml += '        <news:name>croton.news</news:name>\n'
         xml += '        <news:language>en</news:language>\n'
         xml += '      </news:publication>\n'
-        xml += f'      <news:publication_date>{a["date"]}T19:00:00-05:00</news:publication_date>\n'
+        xml += f'      <news:publication_date>{a["date"]}T19:00:00{_tz_offset(a["date"])}</news:publication_date>\n'
         xml += f'      <news:title>{a["headline"] or a["quick_summary"] or ""}</news:title>\n'
         xml += '    </news:news>\n'
         xml += '    <image:image>\n'
@@ -2618,12 +2618,21 @@ def sitemap():
 
 # -- Status Page -------------------------------------------------------
 
+# /status runs subprocess tails + external HTTP probes — cache the rendered
+# page for 60s so reloads don't hammer the worker (audit M8)
+_status_cache = {"t": 0.0, "html": None}
+
+
 @app.route("/status")
 @require_admin
 def status_page():
     import subprocess
+    import time as _time
     import urllib.request as _urllib_req
     from datetime import datetime, timedelta
+
+    if _status_cache["html"] is not None and _time.time() - _status_cache["t"] < 60:
+        return _status_cache["html"]
 
     rag = get_rag_db()
     today = datetime.now().date()
@@ -2994,11 +3003,15 @@ def status_page():
     except Exception:
         article_quality["canonical_names"] = 0
 
-    return render_template("status.html",
+    html = render_template("status.html",
         stats=stats, champds=champds, cron_jobs=cron_jobs, logs=logs,
         expected_meetings=expected_meetings, relay_actions=relay_actions,
         dep_checks=dep_checks, photo_pipeline=photo_pipeline,
         minutes_pipeline=minutes_pipeline, article_quality=article_quality)
+    import time as _time
+    _status_cache["html"] = html
+    _status_cache["t"] = _time.time()
+    return html
 
 
 
