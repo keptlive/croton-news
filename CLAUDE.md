@@ -55,19 +55,41 @@ YouTube RSS → discover BOE videos → download audio (phone relay)
     → Deepgram transcription → ingest → write article
 ```
 
-## Cron Jobs
+## Cron Jobs (all UTC; all wrapped via `rag/run_job.sh` since 2026-07-13)
 
-All run from `/opt/croton-news/rag/` using the project venv.
+Every job runs through `run_job.sh JOB_NAME [hint] -- CMD`, which records the
+run in `rag/job_runs.db`, logs to `/var/log/croton-jobs/JOB_NAME.log`, and
+emails `ALERT_EMAIL` on failure (6h cooldown per job).
 
-| Time | Script | What |
-|------|--------|------|
-| 7:00 AM | `pipeline.py process-new` | Discover + process new ChampDS meetings |
-| 7:15 AM | `boarddocs.py sync` | Sync BOE agendas/minutes from BoardDocs (via IPRoyal proxy) |
-| 7:30 AM | `poll_boe.py --write` | Poll CHUFSD YouTube for new BOE videos |
-| 8:00 AM | `story_miner.py scan --email` | Mine story ideas from recent meetings |
-| Hourly | `auto_pipeline.py` | Upcoming meeting previews, placeholders, agenda cache |
+| Time | Job name | Command | What |
+|------|----------|---------|------|
+| 5:00 | db-backup | `rag/backup_db.sh` | Backup rag/comments/tips/photos/ecode DBs (keep 7); WireClaw box pulls offsite at 5:40 |
+| 6:00 | daily-pipeline | `rag/auto_discover.sh` | Discover → agendas → minutes → transcribe → ingest → summaries |
+| 7:15 | boarddocs-sync | `boarddocs.py sync` | BOE agendas/minutes from BoardDocs (IPRoyal proxy) |
+| 7:30 | boe-poll | `poll_boe.py --write` | Poll CHUFSD YouTube for new BOE videos |
+| :05 hourly | upcoming-agendas | `auto_pipeline.py` | Upcoming previews, placeholders, `static/upcoming_agendas.json` |
+| 6h | scrapers | `run_scrapers.sh` | RSS scrapers for community news |
+| 9:00 | — | `pipeline_watch.py` | **Watchdog**: outcome checks + consolidated alert email (see below) |
+| Sun 3:00 | — | `cleanup_videos.sh` | Prune videos older than 60 days |
 
-Logs: `/var/log/croton-pipeline.log`, `/var/log/croton-boe.log`, `/var/log/croton-boarddocs.log`, `/var/log/croton-stories.log`, `/var/log/auto_pipeline.log`
+Article writing happens on the **WireClaw box** (107.173.0.190) at 8:00 via
+`/root/enrich-transcripts.sh` (WireClaw agents enrich speakers + write
+articles, then publish back). Its cron entry emails on failure too.
+
+Logs: `/var/log/croton-pipeline.log` (daily pipeline stages),
+`/var/log/croton-jobs/*.log` (per-job), `/var/log/croton-watch.log`
+(watchdog), `/var/log/croton-notify.log` (mailer fallback). Logrotate weekly.
+
+## Reliability & Alerting
+
+- `rag/notify.py SUBJECT BODY` — send an alert email (SMTP creds in `.env`,
+  recipient `ALERT_EMAIL`). `--topic X --cooldown SECONDS` dedups repeats.
+- `rag/pipeline_watch.py --dry-run` — run all health checks and print.
+  Checks: job cadence (job_runs.db), transcript/article/BOE freshness,
+  CHUFSD YouTube RSS vs DB (→ phone-relay actions), agendas staleness,
+  site up, backup age/size, disk. Emails only on problems/actions, plus a
+  Monday all-healthy digest.
+- `sqlite3 rag/job_runs.db "SELECT job, exit_code, finished_at FROM job_runs ORDER BY id DESC LIMIT 10"` — recent job history.
 
 ## Phone Relay (Residential IP)
 
@@ -247,4 +269,8 @@ systemctl status croton-news    # Check status
 journalctl -u croton-news -n 50 # View logs
 ```
 
-App runs on port 3260, nginx proxies from 443.
+App runs under **gunicorn** (1 worker × 8 threads, `MemoryMax=2G`) bound to
+**127.0.0.1:3260** (localhost only); nginx proxies from 443. API keys for the
+service live in `/opt/croton-news/secrets.env` (mode 600, loaded via
+`EnvironmentFile=`) — rotate values there, then `systemctl restart croton-news`.
+Never start `app.py` by hand: it fights the unit for the port.

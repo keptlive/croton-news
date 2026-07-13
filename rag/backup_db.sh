@@ -1,18 +1,38 @@
 #!/bin/bash
-# Daily backup of rag.db to /opt/croton-news/backups/
-BACKUP_DIR=/opt/croton-news/backups
-DB=/opt/croton-news/rag/rag.db
+# Daily backup of all croton.news databases to /opt/croton-news/backups/
+# Cron (wrapped): 0 5 * * * run_job.sh db-backup -- /opt/croton-news/rag/backup_db.sh
+# Offsite: the WireClaw box pulls this directory nightly (see its crontab).
+BASE=/opt/croton-news
+BACKUP_DIR=$BASE/backups
 mkdir -p "$BACKUP_DIR"
-
-# Use sqlite3 .backup for safe copy (handles WAL mode)
 STAMP=$(date +%Y%m%d_%H%M)
-sqlite3 "$DB" ".backup ${BACKUP_DIR}/rag-${STAMP}.db"
+FAIL=0
 
-if [ $? -eq 0 ]; then
-    echo "$(date): Backup created: rag-${STAMP}.db ($(du -h ${BACKUP_DIR}/rag-${STAMP}.db | cut -f1))"
-    # Keep only last 7 backups
-    ls -t ${BACKUP_DIR}/rag-*.db | tail -n +8 | xargs rm -f 2>/dev/null
-else
-    echo "$(date): BACKUP FAILED" >&2
-    exit 1
-fi
+# name:path pairs — sqlite3 .backup is WAL-safe
+DBS="
+rag:$BASE/rag/rag.db
+comments:$BASE/comments.db
+tips:$BASE/tips.db
+photos:$BASE/photos.db
+ecode-summaries:$BASE/ecode360/summaries.db
+"
+
+for pair in $DBS; do
+    name="${pair%%:*}"
+    path="${pair#*:}"
+    if [ ! -s "$path" ]; then
+        echo "$(date): skip $name — missing or empty ($path)"
+        continue
+    fi
+    out="$BACKUP_DIR/${name}-${STAMP}.db"
+    if sqlite3 "$path" ".backup $out"; then
+        echo "$(date): backup ok: ${name}-${STAMP}.db ($(du -h "$out" | cut -f1))"
+    else
+        echo "$(date): BACKUP FAILED: $name" >&2
+        FAIL=1
+    fi
+    # keep last 7 per database
+    ls -t "$BACKUP_DIR/${name}-"*.db 2>/dev/null | tail -n +8 | xargs rm -f 2>/dev/null
+done
+
+exit $FAIL

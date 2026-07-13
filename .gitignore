@@ -71,3 +71,7 @@ rag/pr_*.txt
 backups/
 *.bak.*
 *.bak
+
+# never commit secrets
+secrets.env
+.env
