@@ -1,32 +1,52 @@
 #!/bin/bash
 # croton.news — full daily pipeline
-# Cron: 0 6 * * * /opt/croton-news/rag/auto_discover.sh
-cd /opt/croton-news/rag
+# Cron (via run_job.sh wrapper):
+#   0 6 * * * /opt/croton-news/rag/run_job.sh daily-pipeline -- /opt/croton-news/rag/auto_discover.sh
+#
+# Uses the project venv (system python3 lacks pymupdf/deepgram/etc — that
+# mismatch silently killed PDF extraction once already). A stage failure
+# is recorded but later stages still run; overall exit is non-zero if any
+# stage failed, so run_job.sh sends an alert email.
+cd /opt/croton-news/rag || exit 1
 export $(grep -v "^#" .env | xargs) 2>/dev/null
-LOG=/tmp/croton-discover.log
+PY=/opt/croton-news/venv/bin/python
+LOG=/var/log/croton-pipeline.log
+FAIL=0
 
-echo "$(date): === DAILY PIPELINE START ===" >> $LOG
+stage() {
+    local name="$1"; shift
+    echo "$(date '+%F %T'): -- stage: $name" >> "$LOG"
+    "$@" >> "$LOG" 2>&1
+    local code=$?
+    if [ $code -ne 0 ]; then
+        echo "$(date '+%F %T'): !! stage $name FAILED (exit $code)" >> "$LOG"
+        FAIL=1
+    fi
+}
+
+echo "$(date '+%F %T'): === DAILY PIPELINE START ===" >> "$LOG"
 
 # 1. Discover new meetings
-python3 pipeline.py discover >> $LOG 2>&1
+stage discover        "$PY" pipeline.py discover
 
 # 2. Match orphan meetings to ChampDS events
-python3 pipeline.py match-orphans >> $LOG 2>&1
+stage match-orphans   "$PY" pipeline.py match-orphans
 
 # 3. Refresh agendas + check for new video
-python3 pipeline.py refresh-agendas >> $LOG 2>&1
+stage refresh-agendas "$PY" pipeline.py refresh-agendas
 
 # 4. Extract minutes from agenda approval PDFs
-python3 pipeline.py extract-minutes >> $LOG 2>&1
+stage extract-minutes "$PY" pipeline.py extract-minutes
 
 # 5. Download, transcribe, enrich, ingest new videos
-python3 process_videos.py >> $LOG 2>&1
+stage process-videos  "$PY" process_videos.py
 
 # 6. Write articles + fact-check via z.ai writer+editor
-# DISABLED: articles now written by WireClaw agents after enrichment (see enrich-transcripts.sh on WireClaw VPS)
-# python3 write_and_check.py >> $LOG 2>&1
+# DISABLED: articles now written by WireClaw agents after enrichment
+# (see enrich-transcripts.sh on WireClaw VPS, 8:00 daily)
 
 # 7. Polish upcoming meeting summaries
-python3 gen_summaries.py >> $LOG 2>&1
+stage gen-summaries   "$PY" gen_summaries.py
 
-echo "$(date): === DAILY PIPELINE COMPLETE ===" >> $LOG
+echo "$(date '+%F %T'): === DAILY PIPELINE COMPLETE (fail=$FAIL) ===" >> "$LOG"
+exit $FAIL
