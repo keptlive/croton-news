@@ -212,9 +212,15 @@ import re
 
 @app.template_filter("md_bold")
 def md_bold_filter(text):
-    """Convert **text** to <strong>text</strong>."""
+    """Convert **text** to <strong>text</strong>.
+
+    NOTE: this was a body-less stub returning None for any non-empty input,
+    which made Jinja render the literal string "None" for every Key Actions
+    bullet site-wide (audit U4, fixed 2026-07-13).
+    """
     if not text:
         return text
+    return re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
 
 
 @app.template_filter("strip_md")
@@ -1718,6 +1724,43 @@ def watch_page(event_id):
                 abort(404)
 
     return render_template("watch.html", meeting=meeting)
+
+
+# ── Media existence helpers ──────────────────────────────────────
+# Video files are pruned weekly (cleanup_videos.sh), so templates must not
+# link to /videos/<id>.mp4 unconditionally — audit U1: 16/16 sampled video
+# links were 404. These globals let templates gate media links on reality.
+
+def _media_dir(name):
+    d = os.path.join(os.path.dirname(BASE_DIR), name)
+    return d if os.path.isdir(d) else os.path.join(BASE_DIR, name)
+
+
+@app.template_global("has_video")
+def has_video(event_id):
+    return bool(event_id) and os.path.exists(
+        os.path.join(_media_dir("videos"), f"{event_id}.mp4"))
+
+
+@app.template_global("has_audio")
+def has_audio(event_id):
+    return bool(event_id) and os.path.exists(
+        os.path.join(_media_dir("audio"), f"{event_id}.mp3"))
+
+
+@app.template_global("media_video_href")
+def media_video_href(event_id, t=None):
+    """Best video URL for a meeting: YouTube for yt- ids, local mp4 if the
+    file exists (with #t= offset), else None (caller hides the link)."""
+    if not event_id:
+        return None
+    eid = str(event_id)
+    ts = int(t) if t else 0
+    if eid.startswith("yt-"):
+        return f"https://www.youtube.com/watch?v={eid[3:]}" + (f"&t={ts}s" if ts else "")
+    if has_video(eid):
+        return f"/videos/{eid}.mp4" + (f"#t={ts}" if ts else "")
+    return None
 
 
 @app.route("/videos/<path:filename>")

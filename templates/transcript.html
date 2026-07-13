@@ -55,10 +55,15 @@
       <time datetime="{{ transcript.date }}">{{ transcript.date }}</time>
       <span>&middot;</span>
       <span>Transcribed by Deepgram Nova-3</span>
+      {% set tr_vhref = media_video_href(transcript.event_id) %}
+      {% if tr_vhref %}
       <span>&middot;</span>
-      <a href="/videos/{{ transcript.event_id }}.mp4" target="_blank" rel="noopener noreferrer">Watch Video &nearr;</a>
+      <a href="{{ tr_vhref }}" target="_blank" rel="noopener noreferrer">Watch Video &nearr;</a>
+      {% endif %}
+      {% if has_audio(transcript.event_id) %}
       <span>&middot;</span>
       <a href="/audio/{{ transcript.event_id }}.mp3">Listen to Audio &nearr;</a>
+      {% endif %}
     </div>
   </div>
 
@@ -86,8 +91,13 @@
             <a href="#t={{ ts_int }}" style="font-size:11px;font-family:var(--sans);color:var(--ink-faint);text-decoration:none;min-width:45px"
                title="Link to this moment">{{ '%d:%02d'|format(ts_min, ts_sec) }}</a>
             <span style="font-size:13px;font-weight:700;color:var(--accent);letter-spacing:0.02em">{{ speaker_name }}</span>
+            {% if has_audio(transcript.event_id) %}
             <a href="/audio/{{ transcript.event_id }}.mp3#t={{ ts_int }}" style="font-size:10px;color:var(--ink-faint);text-decoration:none" title="Listen from here">&#9654;</a>
-            <a href="/videos/{{ transcript.event_id }}.mp4#t={{ ts_int }}" target="_blank" rel="noopener noreferrer" style="font-size:10px;color:var(--ink-faint);text-decoration:none" title="Watch video from here">&#127909;</a>
+            {% endif %}
+            {% set line_vhref = media_video_href(transcript.event_id, ts_int) %}
+            {% if line_vhref %}
+            <a href="{{ line_vhref }}" target="_blank" rel="noopener noreferrer" style="font-size:10px;color:var(--ink-faint);text-decoration:none" title="Watch video from here">&#127909;</a>
+            {% endif %}
           </div>
           <p style="margin:0 0 0 55px">{{ u.text|default('') }}</p>
         </div>

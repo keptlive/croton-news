@@ -171,13 +171,20 @@ fetch('/api/ask?q={{ query | urlencode }}&db={{ corpus }}')
 
   {# Audio player for meeting transcripts #}
   {% if r.corpus == 'meetings' and r.doc_type == 'transcript' and r.start_time is not none %}
+  {% set vhref = media_video_href(r.doc_id, r.start_time) %}
+  {% if has_audio(r.doc_id) or vhref %}
   <div style="margin-top:6px;display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+    {% if has_audio(r.doc_id) %}
     <audio preload="none" style="height:28px;width:100%;max-width:360px" controls>
       <source src="/audio/{{ r.doc_id }}.mp3#t={{ r.start_time|int }}" type="audio/mpeg">
     </audio>
-    <a href="/videos/{{ r.doc_id }}.mp4#t={{ r.start_time|int }}" target="_blank" rel="noopener noreferrer"
+    {% endif %}
+    {% if vhref %}
+    <a href="{{ vhref }}" target="_blank" rel="noopener noreferrer"
        style="font-size:12px;color:var(--accent);font-weight:600;white-space:nowrap;text-decoration:none">&#9654; Video</a>
+    {% endif %}
   </div>
+  {% endif %}
   {% endif %}
 
   <div style="margin-top:4px;font-size:11px;color:var(--ink-faint);font-family:var(--sans)">

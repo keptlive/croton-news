@@ -98,14 +98,21 @@
     {{ m.content[:250] }}{% if m.content|length > 250 %}&hellip;{% endif %}
   </div>
   {% if m.doc_type == 'transcript' and m.start_time is not none %}
+  {% set vhref = media_video_href(m.doc_id, m.start_time) %}
+  {% if has_audio(m.doc_id) or vhref %}
   <div style="margin-top:4px;display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+    {% if has_audio(m.doc_id) %}
     <audio preload="none" style="height:24px;width:100%;max-width:320px" controls>
       <source src="/audio/{{ m.doc_id }}.mp3#t={{ m.start_time|int }}" type="audio/mpeg">
     </audio>
-    <a href="/videos/{{ m.doc_id }}.mp4#t={{ m.start_time|int }}" target="_blank" rel="noopener noreferrer"
+    {% endif %}
+    {% if vhref %}
+    <a href="{{ vhref }}" target="_blank" rel="noopener noreferrer"
        style="font-size:11px;color:var(--accent);font-weight:600;white-space:nowrap;text-decoration:none"
        title="Open video at {{ '%d:%02d'|format(m.start_time // 60, m.start_time % 60) }}">&#9654; Video</a>
+    {% endif %}
   </div>
+  {% endif %}
   {% endif %}
 </div>
 {% endfor %}

@@ -158,7 +158,8 @@
     <div style="padding:0;border-top:1px solid var(--rule)">
       {% for line in summary.split('\n') %}
         {% set item = line.strip().lstrip('- ').strip() %}
-        {% if item %}
+        {# skip empty and literal "None"/"None." placeholder bullets (audit U4) #}
+        {% if item and item.rstrip('.').lower() not in ('none', 'null', 'n/a') %}
         <div style="padding:12px 20px;border-bottom:1px solid color-mix(in srgb, var(--rule) 50%, transparent);display:flex;gap:14px;align-items:baseline;font-family:var(--serif-body);font-size:14.5px;line-height:1.55;color:var(--ink){% if loop.last %};border-bottom:none{% endif %}">
           <span style="color:var(--accent);font-size:7px;flex-shrink:0;margin-top:7px">&#9679;</span>
           <span>{{ item|md_bold|safe }}</span>
@@ -453,8 +454,9 @@ document.addEventListener('click', function(e) {
           {% if r.has_transcript and r.event_id %}
           <a href="/transcript/{{ r.event_id }}" style="font-size:11px;font-weight:600;color:var(--accent);text-decoration:none;padding:3px 10px;border:1px solid var(--accent);border-radius:12px">Transcript</a>
           {% endif %}
-          {% if r.has_audio and r.event_id and not r.event_id.startswith("yt-") %}
-          <a href="/videos/{{ r.event_id }}.mp4" target="_blank" rel="noopener noreferrer" style="font-size:11px;font-weight:600;color:var(--accent);text-decoration:none;padding:3px 10px;border:1px solid var(--accent);border-radius:12px">&#9654; Video</a>
+          {% set rel_vhref = media_video_href(r.event_id) %}
+          {% if rel_vhref %}
+          <a href="{{ rel_vhref }}" target="_blank" rel="noopener noreferrer" style="font-size:11px;font-weight:600;color:var(--accent);text-decoration:none;padding:3px 10px;border:1px solid var(--accent);border-radius:12px">&#9654; Video</a>
           {% endif %}
           <a href="/article/{{ r.id }}" style="font-size:11px;font-weight:600;color:var(--ink-secondary);text-decoration:none;padding:3px 10px;border:1px solid var(--rule);border-radius:12px">Read &rarr;</a>
         </div>
@@ -470,7 +472,8 @@ document.addEventListener('click', function(e) {
         <div style="padding:4px 20px 14px">
           {% for line in r.complete_summary.split('\n') %}
             {% set item = line.strip().lstrip('- ').strip() %}
-            {% if item %}
+            {# skip empty and literal "None"/"None." placeholder bullets (audit U4) #}
+            {% if item and item.rstrip('.').lower() not in ('none', 'null', 'n/a') %}
             <div style="padding:5px 0;display:flex;gap:12px;align-items:baseline;font-family:var(--serif-body);font-size:13.5px;line-height:1.5;color:var(--ink-secondary)">
               <span style="color:var(--ink-faint);font-size:6px;flex-shrink:0;margin-top:6px">&#9679;</span>
               <span>{{ item|md_bold|safe }}</span>
@@ -482,7 +485,7 @@ document.addEventListener('click', function(e) {
       {% endif %}
 
       {# Audio player if available #}
-      {% if r.has_audio and r.event_id and not r.event_id.startswith("yt-") %}
+      {% if r.event_id and has_audio(r.event_id) %}
       <div style="padding:8px 20px 14px;border-top:1px solid color-mix(in srgb, var(--rule) 50%, transparent)">
         <audio preload="none" style="height:28px;width:100%;max-width:400px" controls>
           <source src="/audio/{{ r.event_id }}.mp3" type="audio/mpeg">

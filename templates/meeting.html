@@ -83,17 +83,22 @@
       {% if meeting.has_transcript and meeting.event_id %}
       <a href="/transcript/{{ meeting.event_id }}">Full Transcript</a>
       <span>&middot;</span>
-      <a href="/videos/{{ meeting.event_id }}.mp4" target="_blank" rel="noopener noreferrer">Watch Full Video &nearr;</a>
+      {% set mtg_vhref = media_video_href(meeting.event_id) %}
+      {% if mtg_vhref %}
+      <a href="{{ mtg_vhref }}" target="_blank" rel="noopener noreferrer">Watch Full Video &nearr;</a>
       <span>&middot;</span>
+      {% endif %}
+      {% if has_audio(meeting.event_id) %}
       <a href="/audio/{{ meeting.event_id }}.mp3">Listen to Audio &nearr;</a>
       <span>&middot;</span>
+      {% endif %}
       {% endif %}
       <a href="/article/{{ meeting.id }}">Read Article &rarr;</a>
     </div>
   </div>
 
   {# ═══ VIDEO PLAYER ═══ #}
-  {% if meeting.has_video and meeting.event_id %}
+  {% if meeting.has_video and meeting.event_id and has_video(meeting.event_id) %}
   <div style="margin:20px 0;background:#000;border-radius:4px;overflow:hidden">
     <video controls preload="none" style="width:100%;max-height:400px;display:block"
            poster="">
