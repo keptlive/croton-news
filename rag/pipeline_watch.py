@@ -133,8 +133,10 @@ def check_content():
 
     # 10. document-storage gaps (2026-07-13 audit: these all rotted silently)
     # 10a. past meetings with PDF attachments but no stored packet rows
+    # champds.com match: only real ChampDS PDF attachments count (Google-Docs
+    # agenda links like event 1172 are not fetchable packets)
     n = db.execute(
-        "SELECT COUNT(*) FROM meetings m WHERE m.agenda_json LIKE '%.pdf%' "
+        "SELECT COUNT(*) FROM meetings m WHERE m.agenda_json LIKE '%champds.com%.pdf%' "
         "AND m.date <= date('now') AND m.date >= date('now','-45 day') "
         "AND m.event_id NOT LIKE 'yt-%' AND m.event_id IS NOT NULL "
         "AND m.event_id NOT IN (SELECT DISTINCT event_id FROM packet_pdfs)").fetchone()[0]
