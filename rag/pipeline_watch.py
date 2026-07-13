@@ -131,6 +131,41 @@ def check_content():
         else:
             notes.append(f"latest BOE meeting: {row['d']} ({days}d ago)")
 
+    # 10. document-storage gaps (2026-07-13 audit: these all rotted silently)
+    # 10a. past meetings with PDF attachments but no stored packet rows
+    n = db.execute(
+        "SELECT COUNT(*) FROM meetings m WHERE m.agenda_json LIKE '%.pdf%' "
+        "AND m.date <= date('now') AND m.date >= date('now','-45 day') "
+        "AND m.event_id NOT LIKE 'yt-%' AND m.event_id IS NOT NULL "
+        "AND m.event_id NOT IN (SELECT DISTINCT event_id FROM packet_pdfs)").fetchone()[0]
+    if n:
+        problems.append(
+            f"{n} past meeting(s) in last 45d have agenda PDFs but no packet_pdfs rows — "
+            "run: venv/bin/python rag/rag_tool.py fetch_agenda_packet EVENT_ID")
+    else:
+        notes.append("packet PDFs: no coverage gaps (45d)")
+    # 10b. chunks missing embeddings (vector search blind spots)
+    n = db.execute(
+        "SELECT COUNT(*) FROM chunks c LEFT JOIN embeddings e ON e.chunk_id=c.id "
+        "WHERE e.chunk_id IS NULL").fetchone()[0]
+    if n > 200:
+        problems.append(
+            f"{n} chunks have no embedding (semantic search blind) — "
+            "run: venv/bin/python rag/embeddings.py")
+    else:
+        notes.append(f"embeddings: {n} chunks unembedded (ok)")
+    # 10c. recent BOE meetings with boarddocs_id but no minutes
+    n = db.execute(
+        "SELECT COUNT(*) FROM meetings WHERE boarddocs_id IS NOT NULL "
+        "AND date >= date('now','-90 day') AND date <= date('now','-14 day') "
+        "AND (minutes_text IS NULL OR minutes_text = '')").fetchone()[0]
+    if n:
+        problems.append(
+            f"{n} BOE meeting(s) (14-90d old) missing minutes — "
+            "run: venv/bin/python rag/boarddocs.py fetch-all && boarddocs.py sync")
+    else:
+        notes.append("BOE minutes: no recent gaps")
+
     # 9. yt- meetings awaiting transcripts → phone relay needed
     rows = db.execute(
         "SELECT event_id, date, committee FROM meetings WHERE event_id LIKE 'yt-%' "

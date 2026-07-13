@@ -277,7 +277,8 @@ def process_photos_filter(text):
             f'</figure>'
         )
 
-    text = re.sub(r"\{\{photo:(\w+):(\d+):([^}]*)\}\}", replace_photo, text)
+    # [\w-]+ not \w+: event ids can be yt-VIDEOID (audit doc-completeness #4)
+    text = re.sub(r"\{\{photo:([\w-]+):(\d+):([^}]*)\}\}", replace_photo, text)
     text = re.sub(r"\{\{photo_static:([^:}]+):([^}]*)\}\}", replace_static, text)
     # Also clean up any documentation/template examples left in articles
     text = re.sub(r"\{\{photo:EVENT:SECONDS:CAPTION\}\}", "", text)
