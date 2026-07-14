@@ -377,6 +377,10 @@ def process_markdown_filter(text):
     t = re.sub(
         r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
         r'<a href="\2" target="_blank" rel="noopener noreferrer">\1</a>', t)
+    # relative internal links ("Related coverage: [title](/article/17)")
+    t = re.sub(
+        r"\[([^\]]+)\]\((/[^)\s]*)\)",
+        r'<a href="\2">\1</a>', t)
     t = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", t)
     t = re.sub(r"^#{2,3}\s+(.+)$", r"<h3>\1</h3>", t, flags=re.M)
     t = re.sub(r"^[-*]{3,}\s*$", "<hr>", t, flags=re.M)
