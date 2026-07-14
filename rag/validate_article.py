@@ -59,6 +59,10 @@ NON_PERSON = {
     "Sergeant", "Officer", "Clerk", "Treasurer", "Secretary", "Liaison",
     # places/orgs/conjunctions that pair into fake person bigrams
     "Lake", "Legion", "American", "But", "And", "Not", "For", "With",
+    # heading/bullet nouns
+    "Donations", "Total", "Ruling", "Impact", "Operational", "Items",
+    "Science", "Faculty", "Members", "Seven", "Instructional",
+    "Nominated", "Recognized", "Report", "Update", "Overview", "Summary",
     # common orgs that look like person bigrams
     "Con", "Edison", "Consortium",
     # street/place suffixes
@@ -149,10 +153,25 @@ def _base_token(tok):
 
 def extract_person_names(text):
     names = set()
-    for mm in re.finditer(r"\b([A-Z][a-z]{2,})\s+([A-Z][a-zA-Z'\-]{2,})\b", text or ""):
+    text = text or ""
+    for mm in re.finditer(r"\b([A-Z][a-z]{2,})\s+([A-Z][a-zA-Z'\-]{2,})\b", text):
         first, last = mm.group(1), mm.group(2)
         if _base_token(first) in NON_PERSON or _base_token(last) in NON_PERSON:
             continue
+        # skip sentence/bullet-initial bigrams: "- Nominated Cheryl ..." and
+        # "New Science curriculum" are Title-Case artifacts, not names. A real
+        # name's surname still gets checked when it appears mid-sentence.
+        pre = text[max(0, mm.start() - 6):mm.start()]
+        if mm.start() == 0 or re.search(r"(^|[.!?:\n]|[-•*#]\s*|\d+\.\s*)\s*$", pre):
+            continue
+        # both tokens must precede a lowercase continuation or punctuation to
+        # look like prose; "Seven Faculty Members" style Title-Case runs are
+        # headings/bullets, not names
+        post = text[mm.end():mm.end() + 2]
+        if post[:1] == " " and text[mm.end() + 1:mm.end() + 2].isupper():
+            nxt = re.match(r"\s+([A-Z][a-z]+)", text[mm.end():])
+            if nxt and _base_token(nxt.group(1)) in NON_PERSON:
+                continue
         names.add(f"{first} {last}")
     return names
 
