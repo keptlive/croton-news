@@ -71,9 +71,19 @@ else
 
         # Run enricher agent via batch-agent.js (blocks until container completes)
         cd "$WIRECLAW_DIR"
+        # fresh session per transcript (see PIPELINE-PLAN.md Plan E)
+        sqlite3 "$WIRECLAW_DIR/store/messages.db" \
+          "DELETE FROM sessions WHERE group_folder = 'transcript-enricher';" 2>> $LOG
         timeout 900 node dist/batch-agent.js transcript-enricher \
           "Enrich /workspace/extra/croton-data/transcripts/${FILE}. Do all 4 passes including diarization verification. SPLIT any merged utterances where two speakers are combined. Write to /workspace/group/enriched-${ID}.json." \
           < /dev/null >> $LOG 2>&1
+
+        # Archive trace + output for observability (sessions are now ephemeral)
+        AD="/root/croton-pipeline-runs/$(date +%Y%m%d)_enrich/${ID}"
+        mkdir -p "$AD"
+        cp "$ENRICHED" "$AD/" 2>/dev/null
+        ET=$(ls -t $WIRECLAW_DIR/data/sessions/transcript-enricher/.claude/projects/*/*.jsonl 2>/dev/null | head -1)
+        [ -n "$ET" ] && gzip -c "$ET" > "$AD/trace.jsonl.gz" 2>/dev/null
 
         # Check if enriched file was created
         if [ -f "$ENRICHED" ]; then

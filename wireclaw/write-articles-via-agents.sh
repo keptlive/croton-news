@@ -18,6 +18,29 @@ WIRECLAW_DIR=/root/wireclaw-cli
 CPY=/opt/croton-news/venv/bin/python
 FAIL=0
 
+# ── Observability: per-run archive of prompts, outputs, gate reports, traces ──
+# (fresh sessions per pass mean the wireclaw session no longer accumulates
+#  history — this archive is the durable audit trail instead)
+ARCHIVE_ROOT=/root/croton-pipeline-runs
+RUN_STAMP=$(date +%Y%m%d_%H%M%S)
+mkdir -p "$ARCHIVE_ROOT"
+find "$ARCHIVE_ROOT" -mindepth 1 -maxdepth 1 -mtime +30 -exec rm -rf {} + 2>/dev/null
+
+archive_pass() {
+    local d="$ARCHIVE_ROOT/$RUN_STAMP/meeting-${MID}-pass${GATE_PASS}"
+    mkdir -p "$d"
+    printf '%s' "$WRITER_PROMPT" > "$d/writer-prompt.txt" 2>/dev/null
+    cp "$WRITER_OUTPUT" "$d/" 2>/dev/null
+    cp "$EDITOR_OUTPUT" "$d/" 2>/dev/null
+    $SSH $CROTON "cat /opt/croton-news/rag/validation/article-${MID}-report.json" < /dev/null > "$d/gate-report.json" 2>/dev/null
+    echo "writer_exit=${WRITER_EXIT:-none} editor_exit=${EDITOR_EXIT:-none} publish_exit=${PUBLISH_EXIT:-none} $(date '+%F %T')" > "$d/status.txt"
+    local g t
+    for g in croton-article-writer croton-article-editor; do
+        t=$(ls -t $WIRECLAW_DIR/data/sessions/$g/.claude/projects/*/*.jsonl 2>/dev/null | head -1)
+        [ -n "$t" ] && gzip -c "$t" > "$d/trace-$g.jsonl.gz" 2>/dev/null
+    done
+}
+
 echo "$(date): === ARTICLE WRITING START ===" >> $LOG
 
 # 1. Sync latest rag.db to WireClaw (enrichment may have updated it)
@@ -61,6 +84,11 @@ except Exception: pass" 2>/dev/null)
     for GATE_PASS in 1 2; do
         rm -f "$WRITER_OUTPUT" "$EDITOR_OUTPUT" 2>/dev/null
         cd "$WIRECLAW_DIR"
+        # per-run session isolation: the persistent editor session once
+        # re-saved its PRIOR verification in 60s without reading the new
+        # draft; the writer once reconstructed an article from session
+        # memory. Fresh session = fresh verification, every pass.
+        sqlite3 "$WIRECLAW_DIR/store/messages.db"           "DELETE FROM sessions WHERE group_folder IN ('croton-article-writer','croton-article-editor');" 2>> $LOG
 
         WRITER_PROMPT="Write an article for meeting ID ${MID} (${MCOMMITTEE}, ${MDATE}). Query the database at /workspace/extra/croton-data/rag.db for the full transcript and minutes. Cross-reference names against the entities table. Write the article and save as JSON to /workspace/group/article-${MID}.json with keys: meeting_id, headline, quick_summary, key_actions, article, article_model, validation."
         if [ -n "$GATE_FEEDBACK" ]; then
@@ -92,6 +120,7 @@ $GATE_FEEDBACK"
         if [ ! -f "$WRITER_OUTPUT" ]; then
             echo "$(date): WARNING: Writer produced no file for meeting $MID (exit: $WRITER_EXIT)" >> $LOG
             FAIL=1
+            archive_pass
             break
         fi
         echo "$(date): Writer produced article file for meeting $MID" >> $LOG
@@ -110,6 +139,7 @@ $GATE_FEEDBACK"
         else
             echo "$(date): BLOCKED: Editor produced no file for meeting $MID — refusing to publish unchecked article" >> $LOG
             FAIL=1
+            archive_pass
             break
         fi
 
@@ -129,6 +159,7 @@ $GATE_FEEDBACK"
         cat "$FINAL" | $SSH $CROTON "cat > /tmp/article-${MID}.json" 2>> $LOG
         $SSH $CROTON "$CPY /opt/croton-news/rag/publish_article.py /tmp/article-${MID}.json ${MID} wireclaw-agent-${RESULT}" < /dev/null >> $LOG 2>&1
         PUBLISH_EXIT=$?
+        archive_pass
 
         if [ $PUBLISH_EXIT -eq 0 ]; then
             echo "$(date): Successfully published article for meeting $MID (pass $GATE_PASS, editor: $RESULT)" >> $LOG
