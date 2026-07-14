@@ -66,6 +66,7 @@ NON_PERSON = {
     "Streets", "Roads", "Avenues", "Station", "Overhaul", "Sweeping",
     "Consistency", "Route", "Pond", "Professional", "Signage", "Review",
     "Preview", "Agenda", "Hearing", "Applications", "Permit", "Permits",
+    "Chargers", "Relocated", "Approves", "Landscaping", "Outdoors",
     # common orgs that look like person bigrams
     "Con", "Edison", "Consortium",
     # street/place suffixes
@@ -283,10 +284,14 @@ def validate(data, meeting_id, db):
                     # fall back to minutes/agenda support for the attributed
                     # name (minutes confirmed "Ralph Rossi"; label was just
                     # first-name-only). Multi-token labels stay strict.
-                    single_token_window = all(
+                    # ANY single-token label in the window means the true
+                    # speaker may lack a surname — then minutes support for
+                    # the attribution suffices ("Ralph" + minutes' "Ralph
+                    # Rossi"). Windows of only full names stay strict.
+                    has_single_token = any(
                         len((x["speaker"] or "").split()) == 1 for x in window)
                     auth_norm = normalize(minutes + " " + agenda + " " + packet_text)
-                    if single_token_window and surname(attrib) and re.search(
+                    if has_single_token and surname(attrib) and re.search(
                             r"\b" + re.escape(surname(attrib)) + r"\b", auth_norm):
                         pass  # authoritative support for the attribution
                     else:
