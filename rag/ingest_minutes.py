@@ -25,6 +25,43 @@ sys.path.insert(0, BASE_DIR)
 from ingest import chunk_text  # noqa: E402 — same chunking as transcripts
 
 
+def ingest_articles(db, dry=False):
+    """Chunk published articles into the RAG index.
+
+    Article chunking silently stopped ~2026-05-12 when writing moved to the
+    WireClaw publish path (61 meetings' articles invisible to search —
+    2026-07-13 audit finding 6). Idempotent: skips meetings that already
+    have doc_type='article' chunks.
+    """
+    rows = db.execute("""
+        SELECT id, event_id, committee, date, article FROM meetings
+        WHERE article IS NOT NULL AND article != '' AND event_id IS NOT NULL
+          AND event_id NOT IN (
+              SELECT DISTINCT doc_id FROM chunks WHERE doc_type = 'article')
+          AND event_id || '-transcript' NOT IN (
+              SELECT DISTINCT doc_id FROM chunks WHERE doc_type = 'article')
+    """).fetchall()
+    total = 0
+    for m in rows:
+        text = m["article"]
+        # strip shortcodes/markdown noise before chunking
+        text = re.sub(r"\{\{[^}]+\}\}", "", text)
+        text = re.sub(r"\n{3,}", "\n\n", text).strip()
+        pieces = chunk_text(text, max_chars=800, overlap=100)
+        if dry:
+            print(f"would ingest {len(pieces)} article chunks for {m['event_id']} ({m['date']})")
+            continue
+        for i, piece in enumerate(pieces):
+            db.execute("""
+                INSERT INTO chunks (doc_id, doc_type, committee, date, chunk_index,
+                                    content, speaker, char_count)
+                VALUES (?, 'article', ?, ?, ?, ?, NULL, ?)
+            """, (m["event_id"], m["committee"], m["date"], i, piece, len(piece)))
+        total += len(pieces)
+        print(f"ingested {len(pieces)} article chunks for {m['event_id']} ({m['date']} {m['committee']})")
+    return total
+
+
 def main():
     dry = "--dry-run" in sys.argv
     db = sqlite3.connect(RAG_DB)
@@ -56,6 +93,8 @@ def main():
         total += len(pieces)
         print(f"ingested {len(pieces)} minutes chunks for {doc_id} ({m['date']} {m['committee']})")
 
+    article_total = ingest_articles(db, dry=dry)
+
     if not dry:
         db.commit()
         # self-heal: WireClaw enrichment re-ingests chunks by DELETE+INSERT
@@ -66,7 +105,8 @@ def main():
         # external-content FTS: rebuild so new chunks are keyword-searchable
         db.execute("INSERT INTO chunks_fts(chunks_fts) VALUES('rebuild')")
         db.commit()
-        print(f"done: {total} new minutes chunks; {orphans} orphan embeddings purged; chunks_fts rebuilt")
+        print(f"done: {total} minutes + {article_total} article chunks; "
+              f"{orphans} orphan embeddings purged; chunks_fts rebuilt")
     db.close()
     return 0
 
