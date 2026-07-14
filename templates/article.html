@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% block title %}{{ (article.headline or article.quick_summary or article.short_summary)|trim }}{% endblock %}
-{% block meta_desc %}{{ (article.quick_summary or article.short_summary or '')|trim }}{% endblock %}
+{% block meta_desc %}{{ (article.article or article.news_article)|meta_desc(article.quick_summary or article.short_summary or '') }}{% endblock %}
 
 {% block og_meta %}
 {% set og_title = (article.headline or article.quick_summary or article.short_summary or "")|trim %}
-{% set og_desc = (article.quick_summary or article.short_summary or '')|trim %}
+{% set og_desc = (article.article or article.news_article)|meta_desc(article.quick_summary or article.short_summary or '') %}
 {% set og_url = 'https://croton.news/article/' ~ (article.id or article.doc_id) %}
 {% set eid = article.event_id or '' %}
 {% if eid %}
@@ -35,7 +35,7 @@
 {% endblock %}
 {% block head %}
 {% set og_title = (article.headline or article.quick_summary or article.short_summary or "")|trim %}
-{% set og_desc = (article.quick_summary or article.short_summary or '')|trim %}
+{% set og_desc = (article.article or article.news_article)|meta_desc(article.quick_summary or article.short_summary or '') %}
 {% set og_url = 'https://croton.news/article/' ~ (article.id or article.doc_id) %}
 {% set eid = article.event_id or '' %}
 {% if eid %}

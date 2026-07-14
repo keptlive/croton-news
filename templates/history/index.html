@@ -26,7 +26,8 @@
     {% endif %}
     <div class="feat-body">
       <h3><a href="/history/story/{{ s.slug }}">{{ s.title }}</a></h3>
-      <p>{{ s.subtitle or s.body[:120] }}{% if not s.subtitle and s.body|length > 120 %}…{% endif %}</p>
+      {# strip_md: subtitles are stored with markdown italics (*...*) that rendered literally (audit U9) #}
+      <p>{{ (s.subtitle or s.body[:120])|strip_md }}{% if not s.subtitle and s.body|length > 120 %}…{% endif %}</p>
       <a href="/history/story/{{ s.slug }}" class="feat-link">Read &rarr;</a>
     </div>
   </article>

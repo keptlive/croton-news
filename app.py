@@ -242,6 +242,27 @@ def strip_md_filter(text):
     return t[:160]
 
 
+@app.template_filter("meta_desc")
+def meta_desc_filter(article_text, fallback=""):
+    """SEO description: first real paragraph of the article body, else fallback.
+
+    quick_summary is often a raw agenda concatenation ("Consider acknowledging
+    receipt of Local Law Introductory No. 10...") that mismatches the headline
+    and truncates mid-word in search snippets (audit U10).
+    """
+    src = ""
+    for para in (article_text or "").split("\n\n"):
+        p = para.strip()
+        if not p or p.startswith(("#", "{{", "===", "|", "-", "*", ">", "!")):
+            continue
+        src = p
+        break
+    t = strip_md_filter(src or fallback or "") or ""
+    if len(t) == 160 and " " in t:  # strip_md hard-cuts at 160 — end on a word
+        t = t[:t.rfind(" ")].rstrip(",.;:") + "…"
+    return t
+
+
 @app.template_filter("process_photos")
 def process_photos_filter(text):
     """Convert {{photo:EVENT_ID:SECONDS:CAPTION}} shortcodes to <img> tags.
