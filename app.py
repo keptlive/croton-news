@@ -364,6 +364,32 @@ def process_quotes_filter(text, event_id=""):
         text = re.sub(r"\{\{quote:\d+\}\}", "", text)
     return text
 
+
+@app.template_filter("process_markdown")
+def process_markdown_filter(text):
+    """Server-side markdown for article bodies: links, bold, headings, hr,
+    and bullet lists. The client JS handled bold/headings but never links —
+    'Source documents' sections rendered as raw [Title](url) markdown."""
+    if not text:
+        return text
+    t = text
+    # links (before bold so URLs with underscores survive)
+    t = re.sub(
+        r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
+        r'<a href="\2" target="_blank" rel="noopener noreferrer">\1</a>', t)
+    t = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", t)
+    t = re.sub(r"^#{2,3}\s+(.+)$", r"<h3>\1</h3>", t, flags=re.M)
+    t = re.sub(r"^[-*]{3,}\s*$", "<hr>", t, flags=re.M)
+
+    # consecutive "- item" lines → <ul>
+    def _ul(m):
+        items = "".join(f"<li>{ln.strip()[2:].strip()}</li>"
+                        for ln in m.group(0).strip().split("\n"))
+        return f"<ul>{items}</ul>"
+    t = re.sub(r"(?:^- .+\n?)+", _ul, t, flags=re.M)
+    return t
+
+
 @app.template_filter("process_footnotes")
 def process_footnotes_filter(text):
     """Transform [N] footnote markers and Footnotes section into styled HTML.
@@ -999,182 +1025,538 @@ def _get_villagecode_toc():
     return _villagecode_toc_cache
 
 
+# The chapter text files are pdftotext extractions of the eCode360 PDFs:
+# every line carries a ~5-space left margin, section headings are indented,
+# a two-column table of contents precedes the body, and page headers /
+# footnotes are interleaved.  The parser below strips those artifacts,
+# reflows hard-wrapped paragraphs, and emits escaped HTML (no raw file
+# content ever reaches the template unescaped).
+
+from markupsafe import escape as _vc_escape
+
+CODE_CURRENT_THROUGH = "June 1, 2025"       # eCode360 snapshot consolidation date
+CODE_SNAPSHOT_DATE = "2025-06-01"
+ECODE_OFFICIAL_URL = "https://ecode360.com/CR0035"
+
+_VC_ARTICLE_RE = re.compile(r'^\s*ARTICLE\s+([IVXLC]+[A-Z]*)\s*$')
+_VC_PAGEHDR_RE = re.compile(r'^\s*§\s*\S+\s{6,}\S.*§\s*\S+\s*$')
+_VC_PAGEHDR2_RE = re.compile(r'^\s*§\s*[\dA-Za-z.\-]+\s{6,}[A-Z][A-Z\s,\-\'&]+$')
+_VC_PAGENUM_RE = re.compile(r'^\s*\d{1,4}\s*$')
+_VC_FOOTNOTE_RE = re.compile(r"^\s{0,8}\d{1,3}\.\s+Editor'?s?\s+Note", re.I)
+_VC_LIST_RE = re.compile(r'^(?:\(([0-9a-z]{1,4})\)|\[([0-9a-z]{1,4})\]|([A-Z]|[a-z]|\d{1,2}|[ivxl]{1,4})[\.\)])\s+\S')
+_VC_AMEND_NOTE_RE = re.compile(r'\[((?:Amended|Added|Repealed)[^\]]*)\]')
+
+
+def _vc_defterm_split(text):
+    """Split 'DEFINED TERM — definition…' lines; None if not a definition.
+
+    Terms are (almost) all-caps, may embed units like '(dB)', and start
+    the line.  Prose em-dashes ('the Board — not the manager —') don't
+    qualify because the head fails the uppercase-ratio test.
+    """
+    m = re.match(r'^(.{2,70}?)\s*(?:—|--)\s*(.*)$', text, re.S)
+    if not m:
+        return None
+    head = m.group(1).strip()
+    if not head or not head[0].isupper():
+        return None
+    letters = [c for c in head if c.isalpha()]
+    if not letters or sum(c.isupper() for c in letters) / len(letters) < 0.75:
+        return None
+    return head, m.group(2).strip()
+
+
+def _vc_section_heading(line, chapter_num):
+    """Match a body section heading like '§ 230-20.1. Purpose; definition.'
+
+    Requires: the § id to start with this chapter's number, a terminating
+    period after the id, and a title.  Mid-sentence cross-references that
+    happen to start a wrapped line ('§ 1-3 of this local law…') don't match.
+    """
+    # Page headers look like '§ 1-15         CROTON-ON-HUDSON CODE' — no
+    # period after the id and a wide gap; real headings are '§ 1-15. Title.'
+    m = re.match(r'^\s{0,16}§\s*(\d[\dA-Za-z.\-]*?)\.\s{1,5}([A-Z(\[].*)$', line)
+    if not m:
+        return None
+    sid = m.group(1).rstrip('.')
+    if not re.match(r'^%d(?:-|\.|$)' % chapter_num, sid):
+        return None
+    return sid, m.group(2).strip()
+
+
+def _vc_strip_footrefs(text):
+    """Remove superscript footnote numbers glued to sentence ends.
+
+    e.g. 'L.L. No. 9-1994.56 Amendments' -> footnote 56;
+         'a point 25 feet east thereof.14 ' -> footnote 14.
+    Only digits directly after a period that does NOT follow a short digit
+    run (protects section ids like 230-20.16) are stripped.
+    """
+    text = re.sub(r'(?<=[a-z\)\]]\.)\d{1,3}(?=\s|$)', '', text)
+    text = re.sub(r'(?<=\d{4}\.)\d{1,3}(?=\s+[A-Z])', '', text)
+    # 'L.L. No. 2-202257' -> footnote 57 glued to a law-number year
+    text = re.sub(r'(\d{1,2}-(?:19|20)\d{2})\d{1,3}\b', r'\1', text)
+    return text
+
+
+def _vc_indent_level(indent):
+    if indent <= 3:
+        return 0
+    if indent <= 9:
+        return 1
+    if indent <= 16:
+        return 2
+    return 3
+
+
+def _vc_render_blocks(raw_lines):
+    """Reflow a section's raw lines into paragraph/table HTML (escaped)."""
+    nonblank = [l for l in raw_lines if l.strip()]
+    if not nonblank:
+        return ""
+    base = min(len(l) - len(l.lstrip()) for l in nonblank)
+
+    blocks = []   # {'kind': 'p'|'pre', 'lines': [...], 'indent': n}
+    cur = None
+    for raw in raw_lines:
+        if not raw.strip():
+            cur = None
+            continue
+        body = raw[base:] if not raw[:base].strip() else raw.lstrip()
+        indent = len(body) - len(body.lstrip())
+        s = body.strip()
+
+        # PDF list markers are gap-aligned ('A.      Any right…') — collapse
+        # the marker gap so list items aren't mistaken for table rows.
+        if _VC_LIST_RE.match(s):
+            s = re.sub(r'^([\(\[]?[0-9A-Za-z]{1,4}[\.\)\]])\s+', r'\1 ', s)
+
+        # Table-ish: big interior gaps (columnar PDF data) or very deep indent
+        tableish = re.search(r'\S\s{4,}\S', s) is not None or indent >= 36
+        if tableish:
+            if cur is not None and cur['kind'] == 'pre':
+                cur['lines'].append(body.rstrip())
+            else:
+                cur = {'kind': 'pre', 'lines': [body.rstrip()], 'indent': 0}
+                blocks.append(cur)
+            continue
+
+        starts_new = (
+            cur is None
+            or cur['kind'] == 'pre'
+            or _VC_LIST_RE.match(s)
+            or s.startswith('[Amended') or s.startswith('[Added') or s.startswith('[Repealed')
+            or _vc_defterm_split(s)
+        )
+        if starts_new:
+            cur = {'kind': 'p', 'lines': [s], 'indent': indent}
+            blocks.append(cur)
+        else:
+            cur['lines'].append(s)
+
+    # Re-join paragraphs split by page-bottom footnotes: an orphan starting
+    # lowercase after a paragraph that ended mid-sentence is a continuation.
+    merged = []
+    for b in blocks:
+        if (merged and b['kind'] == 'p' and merged[-1]['kind'] == 'p'
+                and b['lines'][0][:1].islower()
+                and merged[-1]['lines'][-1].rstrip()[-1:] not in '.:;)]"'):
+            merged[-1]['lines'].extend(b['lines'])
+        else:
+            merged.append(b)
+    blocks = merged
+
+    out = []
+    for b in blocks:
+        if b['kind'] == 'pre':
+            out.append('<pre class="vc-tbl">%s</pre>' % _vc_escape('\n'.join(b['lines'])))
+            continue
+        text = _vc_strip_footrefs(' '.join(b['lines'])).strip()
+        if not text:
+            continue
+        lvl = _vc_indent_level(b['indent'])
+        dt = _vc_defterm_split(text)
+        if dt and len(dt[0].split()) <= 8:
+            html = '<span class="vc-def-term">%s</span> — %s' % (
+                _vc_escape(dt[0]), _vc_escape(dt[1]))
+        else:
+            html = str(_vc_escape(text))
+        html = _VC_AMEND_NOTE_RE.sub(r'<span class="vc-amended">[\1]</span>', html)
+        out.append('<p class="vc-p vc-ind%d">%s</p>' % (lvl, html))
+    return '\n'.join(out)
+
+
 def _parse_chapter(chapter_num):
-    """Parse a chapter text file into structured sections."""
+    """Parse a chapter text file into structured, HTML-safe sections."""
     chapter_dir = os.path.join(RAG_DIR, "croton-code", "chapters")
     target = None
-
     for fname in os.listdir(chapter_dir):
         m = re.match(r'Ch_(\d+)_(.+)\.txt', fname)
         if m and int(m.group(1)) == chapter_num:
             target = os.path.join(chapter_dir, fname)
             break
-
     if not target:
         return None
 
     with open(target) as f:
         text = f.read()
 
-    # Strip frontmatter
+    # Frontmatter
     title = f"Chapter {chapter_num}"
     if text.startswith('---'):
         parts = text.split('---', 2)
         if len(parts) >= 3:
-            fm = parts[1]
-            text = parts[2]
-            tm = re.search(r'title:\s*"Ch_\d+\s+(.*?)"', fm)
+            tm = re.search(r'title:\s*"(?:Ch_\d+|Chapter \d+):?\s+(.*?)"', parts[1])
             if tm:
                 title = tm.group(1)
+            text = parts[2]
 
-    # Extract history note
+    lines = text.split('\n')
+
+    # Locate HISTORY note (marks end of the two-column TOC)
     history = None
-    hm = re.search(r'\[HISTORY:.*?\]', text, re.DOTALL)
-    if hm:
-        history = hm.group(0)
+    hist_start = hist_end = None
+    for i, ln in enumerate(lines):
+        if '[HISTORY' in ln:
+            hist_start = i
+            buf = []
+            for j in range(i, min(i + 8, len(lines))):
+                buf.append(lines[j].strip())
+                if ']' in lines[j]:
+                    hist_end = j
+                    break
+            if hist_end is None:
+                hist_end = i
+            history = ' '.join(buf)
+            history = re.sub(r'^\[HISTORY:\s*', '', history).rstrip(']').strip()
+            history = _vc_strip_footrefs(re.sub(r'\s+', ' ', history))
+            break
 
-    # Strip the PDF table of contents at the top of each chapter.
-    # The TOC has lines like "§ 230-5.     Classes of districts.     § 230-20.1.  Purpose"
-    # (two columns of section listings). Remove everything before the first body section.
-    # The HISTORY note or GENERAL REFERENCES section marks the end of TOC.
-    toc_end = None
-    for marker in [r'\[HISTORY:', r'GENERAL REFERENCES', r'ARTICLE\s+I\b']:
-        hm = re.search(marker, text)
-        if hm:
-            if toc_end is None or hm.start() < toc_end:
-                toc_end = hm.start()
-    if toc_end and toc_end > 50:
-        text = text[toc_end:]
-
-    # Clean PDF layout artifacts
-    # Remove footnote superscript numbers (bare numbers like "41" mid-sentence)
-    text = re.sub(r'(?<=\w)(\d{1,3})(?=\s+or\b|\s+and\b|\s+the\b|\s+of\b|\s+in\b|\s+to\b|\s+a\b|\s+for\b)', '', text)
-    # Collapse runs of whitespace within lines (PDF column artifacts)
-    text = re.sub(r'(?<!\n)[ \t]{4,}(?!\n)', '  ', text)
-    # Remove page header artifacts that leaked through
-    text = re.sub(r'\n\s*§\s*\d+[\-\.]\d+\s{10,}[A-Z][A-Z\s,\-]+\s{10,}§\s*\d+[\-\.]\d+\s*\n', '\n', text)
-
-    # Check for reserved/empty chapters
-    stripped = text.strip()
-    if len(stripped) < 100 or 'reserved' in stripped.lower()[:200]:
+    # Reserved / empty chapters
+    body_probe = '\n'.join(lines).strip()
+    if len(body_probe) < 100 or 'reserved' in body_probe.lower()[:200]:
         return {
-            "num": chapter_num,
-            "title": title,
-            "history": history,
-            "sections": [{"section_id": None, "anchor": "preamble", "title": "", "content": stripped or "This chapter is reserved."}],
-            "reserved": True,
+            "num": chapter_num, "title": title, "history": history,
+            "general_refs": [], "sections": [], "reserved": True,
         }
 
-    # Split into sections on § markers
+    # Locate GENERAL REFERENCES block
+    genref_start = None
+    for i, ln in enumerate(lines):
+        if ln.strip() == 'GENERAL REFERENCES':
+            genref_start = i
+            break
+
+    # Body starts at the first ARTICLE heading or § section heading after
+    # the HISTORY/GENERAL REFERENCES front matter.
+    search_from = 0
+    if hist_end is not None:
+        search_from = hist_end + 1
+    if genref_start is not None:
+        search_from = max(search_from, genref_start + 1)
+    body_start = None
+    for i in range(search_from, len(lines)):
+        if _VC_ARTICLE_RE.match(lines[i]) or _vc_section_heading(lines[i], chapter_num):
+            body_start = i
+            break
+    if body_start is None:
+        body_start = search_from
+
+    # Parse GENERAL REFERENCES (two-column 'Topic — See Ch. N.' entries)
+    general_refs = []
+    if genref_start is not None:
+        entries = []
+        for ln in lines[genref_start + 1:body_start]:
+            if not ln.strip() or 'CROTON-ON-HUDSON CODE' in ln:
+                continue
+            for frag in re.split(r'\s{3,}', ln.strip()):
+                frag = frag.strip()
+                if not frag:
+                    continue
+                if '—' in frag or not entries:
+                    entries.append(frag)
+                else:
+                    entries[-1] += ' ' + frag
+        for e in entries:
+            m = re.match(r'^(.*?)\s*—\s*See\s+(.*?)\.?$', e)
+            if not m:
+                continue
+            cm = re.search(r'Ch\.\s*(\d+)', m.group(2))
+            general_refs.append({
+                "label": m.group(1).strip(),
+                "ref": m.group(2).strip(),
+                "chapter": int(cm.group(1)) if cm else None,
+            })
+
+    # Walk the body, splitting on ARTICLE and § headings
+    chapter_upper = title.upper()
+    items = []
+    cur = {"type": "section", "section_id": None, "anchor": "preamble",
+           "title": "", "amended": None, "raw": [], "footnotes": []}
+    i = body_start
+    n = len(lines)
+    while i < n:
+        ln = lines[i]
+        s = ln.strip()
+
+        # Page artifacts
+        if ('CROTON-ON-HUDSON CODE' in ln or _VC_PAGEHDR_RE.match(ln)
+                or _VC_PAGEHDR2_RE.match(ln) or _VC_PAGENUM_RE.match(ln)
+                or (s and len(s) < 60 and s == chapter_upper)):
+            i += 1
+            continue
+
+        # Footnote definitions (page-bottom Editor's Notes) — collect
+        if _VC_FOOTNOTE_RE.match(ln):
+            note = [s]
+            i += 1
+            while i < n and lines[i].strip() and not _vc_section_heading(lines[i], chapter_num):
+                note.append(lines[i].strip())
+                i += 1
+            cur["footnotes"].append(_vc_strip_footrefs(' '.join(note)))
+            continue
+
+        am = _VC_ARTICLE_RE.match(ln)
+        if am:
+            items.append(cur)
+            art_title = []
+            i += 1
+            while i < n and lines[i].strip() and not _vc_section_heading(lines[i], chapter_num):
+                art_title.append(lines[i].strip())
+                i += 1
+            label = am.group(1)
+            items.append({"type": "article", "label": label,
+                          "anchor": "article-" + label,
+                          "title": ' '.join(art_title)})
+            cur = {"type": "section", "section_id": None, "anchor": "preamble",
+                   "title": "", "amended": None, "raw": [], "footnotes": []}
+            continue
+
+        sh = _vc_section_heading(ln, chapter_num)
+        if sh:
+            items.append(cur)
+            sid, rest = sh
+            # Heading titles can wrap to a continuation line
+            if (rest and not rest.rstrip().endswith(('.', ']', ')'))
+                    and i + 1 < n and lines[i + 1].strip()
+                    and not _vc_section_heading(lines[i + 1], chapter_num)
+                    and len(lines[i + 1].strip()) < 60
+                    and not _VC_LIST_RE.match(lines[i + 1].strip())):
+                rest += ' ' + lines[i + 1].strip()
+                i += 1
+            amended = None
+            an = _VC_AMEND_NOTE_RE.search(rest)
+            if an:
+                amended = _vc_strip_footrefs(an.group(1))
+                rest = _VC_AMEND_NOTE_RE.sub('', rest).strip()
+            cur = {"type": "section", "section_id": "§ " + sid,
+                   "anchor": "s" + sid.replace('.', '-'),
+                   "title": _vc_strip_footrefs(rest).strip(),
+                   "amended": amended, "raw": [], "footnotes": []}
+            i += 1
+            continue
+
+        cur["raw"].append(ln)
+        i += 1
+    items.append(cur)
+
+    # Render + filter
     sections = []
-    current = {"section_id": None, "anchor": "preamble", "title": "", "content": ""}
-
-    for line in text.strip().split('\n'):
-        sm = re.match(r'^(§\s*[\d][\d\-\.A-Za-z]*)', line)
-        if sm:
-            if current["content"].strip():
-                sections.append(current)
-
-            sid = sm.group(1).strip()
-            sid_clean = re.sub(r'^§\s*', '', sid).rstrip('.')
-            anchor = 's' + sid_clean.replace('.', '-')
-            current = {
-                "section_id": sid,
-                "anchor": anchor,
-                "title": "",
-                "content": "",  # Don't include the § line itself — it's rendered as heading
-            }
-        else:
-            current["content"] += '\n' + line
-
-    if current["content"].strip():
-        sections.append(current)
-
-    # Filter: keep only sections with real body content (>2 non-empty lines)
-    body_sections = []
-    for s in sections:
-        # Clean up the content
-        c = s["content"]
-        # Remove chapter title line and HISTORY from preamble (already in header)
-        if s["section_id"] is None:
-            c = re.sub(r'^\s*Chapter\s+\d+.*?\n', '', c)
-            c = re.sub(r'\[HISTORY:.*?\]', '', c, flags=re.DOTALL)
-        # Merge [Amended\n date\n ] into single line
-        c = re.sub(r'\[Amended\s*\n\s*(.+?)\s*\n\s*\]', r'[Amended \1]', c)
-        c = re.sub(r'\[Added\s*\n\s*(.+?)\s*\n\s*\]', r'[Added \1]', c)
-        # Remove stray cross-reference fragments (bare number + comma + chapter name)
-        c = re.sub(r'\n\d{1,3}\n,\s*\w[^\n]*\.?\n?', '\n', c)
-        # Also catch at end of content
-        c = re.sub(r'\n\d{1,3}\s*\n,\s*[A-Z][^\n]*\.?\s*$', '', c)
-        # Remove duplicate § line at start of content (already shown as heading)
-        c = re.sub(r'^\s*§\s*[\d][\d\-\.A-Za-z]*\s*\n', '', c)
-        # Collapse excessive blank lines
-        c = re.sub(r'\n{3,}', '\n\n', c)
-        c = c.strip()
-
-        # Extract section title (first non-empty line if it looks like a section name)
-        section_title = ""
-        if s["section_id"] and c:
-            lines = c.split('\n')
-            first = lines[0].strip() if lines else ""
-            # Title: short phrase ending in period, not starting with articles/prepositions,
-            # not an amendment note, not all-caps (definition term), not a sentence
-            is_title = (first
-                and len(first) < 80
-                and not first.startswith('[')
-                and not first.startswith('The ')
-                and not first.startswith('No ')
-                and not first.startswith('Any ')
-                and not first.startswith('It ')
-                and not first.startswith('A ')
-                and not first.startswith('In ')
-                and not first.isupper()  # skip ALL CAPS definition terms
-                and not re.match(r'^\d', first)  # skip lines starting with numbers
-                and (first.endswith('.') or first.endswith(';') or len(first) < 40)
-            )
-            if is_title:
-                section_title = first
-                c = '\n'.join(lines[1:]).strip()
-
-        # Wrap [Amended/Added ...] notes in styled spans
-        c = re.sub(r'\[(Amended[^\]]+)\]', r'<span class="vc-amended">[\1]</span>', c)
-        c = re.sub(r'\[(Added[^\]]+)\]', r'<span class="vc-amended">[\1]</span>', c)
-
-        s["content"] = c
-        s["title"] = section_title
-
-        content_lines = [l for l in c.split('\n') if l.strip()]
-        # Keep all named sections (even short ones). Only filter preamble fragments.
-        if s["section_id"] or len(content_lines) > 2:
-            body_sections.append(s)
-
-    # Deduplicate: chapter files have TOC (short) then body (long) for each §.
-    # Keep the longest version of each section_id.
-    seen = {}
-    for s in body_sections:
-        key = s.get("anchor", id(s))
-        if key in seen:
-            # Keep whichever has more content
-            if len(s["content"]) > len(seen[key]["content"]):
-                seen[key] = s
-        else:
-            seen[key] = s
-    # Preserve order of first appearance but use the longer content
-    deduped = []
-    added = set()
-    for s in body_sections:
-        key = s.get("anchor", id(s))
-        if key not in added:
-            deduped.append(seen[key])
-            added.add(key)
-    body_sections = deduped
+    seen_anchors = set()
+    for it in items:
+        if it["type"] == "article":
+            sections.append(it)
+            continue
+        html = _vc_render_blocks(it["raw"])
+        if it["footnotes"]:
+            notes = ''.join('<p class="vc-p">%s</p>' % _vc_escape(fn)
+                            for fn in it["footnotes"])
+            html += '<div class="vc-footnotes">%s</div>' % notes
+        if it["section_id"] is None and len(re.sub(r'<[^>]+>', '', html).strip()) < 80:
+            continue  # drop empty preamble fragments
+        if it["anchor"] in seen_anchors:
+            it["anchor"] += "-b"   # rare duplicate ids stay linkable
+        seen_anchors.add(it["anchor"])
+        it["content_html"] = html
+        sections.append(it)
 
     return {
-        "num": chapter_num,
-        "title": title,
-        "history": history,
-        "sections": body_sections,
-        "reserved": False,
+        "num": chapter_num, "title": title, "history": history,
+        "general_refs": general_refs, "sections": sections, "reserved": False,
+    }
+
+
+# ── Recent local laws (adopted/proposed since the code snapshot) ──
+#
+# The codified chapters above are an eCode360 snapshot current through
+# CODE_CURRENT_THROUGH.  Local laws filed with the NYS Department of State
+# after that date live in rag/croton-code/local-laws-text/ (DOS filing
+# texts); introductory local laws still under consideration appear in
+# Board meeting packets (rag.db packet_pdfs).  Strictly data-driven — no
+# generated text, exact titles from the source documents.
+
+_recent_laws_cache = {"ts": 0.0, "data": None}
+_CHAMPDS_ATT_BASE = "https://play.champds.com/ATT/crotononhudsonny"
+
+
+def _vc_fmt_date(iso):
+    try:
+        return datetime.strptime(iso[:10], "%Y-%m-%d").strftime("%B %-d, %Y")
+    except Exception:
+        return iso
+
+
+def _get_recent_local_laws():
+    """Filed-but-uncodified laws + introduced (proposed) local laws."""
+    import time as _time
+    if _recent_laws_cache["data"] is not None and _time.time() - _recent_laws_cache["ts"] < 3600:
+        return _recent_laws_cache["data"]
+
+    filed = []
+    laws_dir = os.path.join(RAG_DIR, "croton-code", "local-laws-text")
+    try:
+        for fname in sorted(os.listdir(laws_dir)):
+            m = re.match(r'LL_(\d{1,2})-(\d{4})\.txt$', fname)
+            if not m:
+                continue
+            num, year = int(m.group(1)), int(m.group(2))
+            if year < 2025:
+                continue
+            try:
+                with open(os.path.join(laws_dir, fname)) as f:
+                    head = f.read(600)
+            except OSError:
+                continue
+            dm = re.search(r'^date:\s*(\d{4}-\d{2}-\d{2})', head, re.M)
+            date = dm.group(1) if dm else None
+            # Guard against OCR-garbled dates (e.g. 2006 for a 2026 law)
+            date_ok = bool(date) and date[:4] == str(year)
+            if date_ok:
+                if date <= CODE_SNAPSHOT_DATE:
+                    continue          # already consolidated in the snapshot
+            elif year <= 2025:
+                continue              # can't verify it postdates the snapshot
+            tm = re.search(r'title:\s*"Local Law [\d\-]+:\s*(.*?)\s*"?\s*$', head, re.M)
+            subject = (tm.group(1).strip() if tm else "").rstrip('"')
+            filed.append({
+                "law": f"Local Law {num}-{year}",
+                "id": f"{num}-{year}",
+                "num": num, "year": year,
+                "subject": subject,
+                "date_filed": date if date_ok else None,
+                "date_display": _vc_fmt_date(date) if date_ok else None,
+            })
+    except OSError:
+        pass
+    filed.sort(key=lambda x: (x["year"], x["num"]))
+    max_filed_year = max((x["year"] for x in filed), default=2026)
+
+    # Proposed (introductory) local laws from meeting packets
+    proposed = []
+    try:
+        rag = get_rag_db()
+        rows = rag.execute("""
+            SELECT p.nickname, p.location, p.media_file,
+                   m.id AS meeting_id, m.date, m.committee
+            FROM packet_pdfs p
+            JOIN meetings m ON m.event_id = p.event_id
+            WHERE p.nickname LIKE '%Local Law%' OR p.nickname LIKE '%LL Intro%'
+        """).fetchall()
+
+        main_re = re.compile(
+            r'^(?:intro\.?\s+local\s+law|local\s+law\s+intro(?:ductory)?\.?)\s+'
+            r'(?:no\.?\s*)?(\d{1,2})\s+of\s+(\d{4})\s*(.*?)(?:\.pdf)?$', re.I)
+        mention_re = re.compile(
+            r'(?:ll|local\s+law)\s+intro\w*\.?\s+(?:no\.?\s*)?(\d{1,2})\s+of\s+(\d{4})', re.I)
+
+        adopted_intros = set()
+        candidates = {}
+        for r in rows:
+            nick = (r["nickname"] or "").strip()
+            if 'adopt' in nick.lower():
+                for mm in mention_re.finditer(nick):
+                    adopted_intros.add((int(mm.group(1)), int(mm.group(2))))
+                continue
+            m = main_re.match(nick)
+            if not m:
+                continue
+            num, year = int(m.group(1)), int(m.group(2))
+            if year < max_filed_year:
+                continue
+            subject = re.sub(r'[_]+', ' ', m.group(3) or '').strip().strip('-— ').strip()
+            key = (year, num)
+            prev = candidates.get(key)
+            if prev is None or (r["date"] or '') > prev["date"]:
+                url = None
+                if r["location"] and r["media_file"] and not str(r["media_file"]).startswith("http"):
+                    url = f"{_CHAMPDS_ATT_BASE}/{r['location']}/{r['media_file']}"
+                candidates[key] = {
+                    "law": f"Introductory Local Law {num} of {year}",
+                    "subject": subject or (prev["subject"] if prev else ""),
+                    "date": (r["date"] or "")[:10],
+                    "date_display": _vc_fmt_date((r["date"] or "")[:10]),
+                    "committee": r["committee"] or "Village Board",
+                    "meeting_id": r["meeting_id"],
+                    "pdf_url": url,
+                    "num": num, "year": year,
+                }
+            elif not prev.get("subject") and subject:
+                prev["subject"] = subject
+
+        # Omit intros we can no longer honestly call "under consideration":
+        #  - an 'Adoption' resolution appeared in a packet (vote scheduled;
+        #    a draft resolution alone doesn't confirm the outcome), or
+        #  - the intro's last packet appearance predates the newest filed
+        #    local law (it was likely resolved; intro numbers don't map to
+        #    filed law numbers, so we can't match them up).
+        last_filed = max((x["date_filed"] for x in filed if x["date_filed"]),
+                         default=CODE_SNAPSHOT_DATE)
+        proposed = [v for k, v in sorted(candidates.items())
+                    if (v["num"], v["year"]) not in adopted_intros
+                    and v["date"] > last_filed]
+    except Exception:
+        proposed = []
+
+    data = {"filed": filed, "proposed": proposed}
+    _recent_laws_cache["data"] = data
+    _recent_laws_cache["ts"] = _time.time()
+    return data
+
+
+def _parse_local_law(law_id):
+    """Load a filed local law text (DOS filing) for display."""
+    m = re.match(r'^(\d{1,2})-(20\d{2})$', law_id)
+    if not m:
+        return None
+    path = os.path.join(RAG_DIR, "croton-code", "local-laws-text",
+                        f"LL_{int(m.group(1))}-{m.group(2)}.txt")
+    if not os.path.isfile(path):
+        return None
+    with open(path) as f:
+        text = f.read()
+    title = f"Local Law {int(m.group(1))}-{m.group(2)}"
+    subject, date = "", None
+    if text.startswith('---'):
+        parts = text.split('---', 2)
+        if len(parts) >= 3:
+            tm = re.search(r'title:\s*"(.*?)"?\s*$', parts[1], re.M)
+            if tm:
+                title = tm.group(1).strip().rstrip('"')
+            dm = re.search(r'^date:\s*(\d{4}-\d{2}-\d{2})', parts[1], re.M)
+            if dm:
+                date = dm.group(1)
+            text = parts[2]
+    if ':' in title:
+        subject = title.split(':', 1)[1].strip()
+        title = title.split(':', 1)[0].strip()
+    year = m.group(2)
+    date_ok = bool(date) and date[:4] == year
+    return {
+        "id": law_id,
+        "law": title,
+        "subject": subject,
+        "date_display": _vc_fmt_date(date) if date_ok else None,
+        "text": text.strip(),
     }
 
 
@@ -1186,8 +1568,12 @@ def villagecode_index():
         toc_part1=toc["part1"],
         toc_part2=toc["part2"],
         chapter=None,
+        law=None,
         active_chapter=None,
         sections=[],
+        recent_laws=_get_recent_local_laws(),
+        code_current_through=CODE_CURRENT_THROUGH,
+        ecode_url=ECODE_OFFICIAL_URL,
     )
 
 
@@ -1203,8 +1589,32 @@ def villagecode_chapter(chapter_num):
         toc_part1=toc["part1"],
         toc_part2=toc["part2"],
         chapter=chapter,
+        law=None,
         active_chapter=chapter_num,
         sections=chapter["sections"],
+        recent_laws=None,
+        code_current_through=CODE_CURRENT_THROUGH,
+        ecode_url=ECODE_OFFICIAL_URL,
+    )
+
+
+@app.route("/villagecode/law/<law_id>")
+def villagecode_law(law_id):
+    """Full text of a filed (adopted) local law not yet codified."""
+    law = _parse_local_law(law_id)
+    if not law:
+        abort(404)
+    toc = _get_villagecode_toc()
+    return render_template("villagecode.html",
+        toc_part1=toc["part1"],
+        toc_part2=toc["part2"],
+        chapter=None,
+        law=law,
+        active_chapter=None,
+        sections=[],
+        recent_laws=None,
+        code_current_through=CODE_CURRENT_THROUGH,
+        ecode_url=ECODE_OFFICIAL_URL,
     )
 
 
