@@ -87,6 +87,13 @@ json.dump it, or use save_output.py". Primary beneficiary is the enricher
 (59 heredoc writes, several malformed).
 
 ## Standing backlog (not from traces)
+- packet_pdfs is nickname-keyed — attachment name collisions silently drop one PDF per collision (events 1174/1175 each lost 1 of ~38); re-key on source_url
+- scraped community news (data/croton.db, 1,679 items) is write-only — surface via /api/community-news + homepage section, or retire the 6-hour scrapers job
+- write_from_minutes.py path for pre-2026 BOE meetings (ids 103, 106) — must route through the publish gate before use
+- OCR backlog: 235 scanned packet pages (rag_tool.py ocr-scanned, extend to pdf_no_text)
+- history.db: 694 chunks unembedded, 5,850 orphan embeddings, dawson_westchester_revolution_1886.txt never ingested
+- 8 dead {{photo}} refs in articles 16/31/45/66/67/69 (source videos pruned — strip tags); insert_photos.py not in daily path
+- ecode360 snapshot current through 2025-06-01 — 16 newer local laws unconsolidated; re-scrape + rebuild_code_db.py
 - Watchdog canary check (overlaps Plan A) — distinguish auth vs outage in alert emails
 - Entities staleness pass (Eva Thaddeus-class rows: role + last-seen verification)
 - One-time re-ingest of ~1,100 old garbled/vote-dropped chunks (after keyterm+vote fixes; needs a re-chunk sweep over transcripts with `ingest.py` skip-guard lifted)
