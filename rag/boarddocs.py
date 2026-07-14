@@ -353,6 +353,43 @@ def sync_to_meetings(db_path=RAG_DB):
     log(f"Synced {matched} BoardDocs IDs to meetings table")
 
 
+def sync_local_minutes(db_path=RAG_DB):
+    """Load stored minutes JSON files into meetings.minutes_text.
+
+    Network-free companion to sync: `fetch-all` (or the phone relay's
+    boarddocs-fetch) stores minutes-bd-<ID>.json in MINUTES_DIR, but nothing
+    loaded them into the DB — 105 phone-fetched files sat unused on
+    2026-07-13. Matches on meetings.boarddocs_id.
+    """
+    db = sqlite3.connect(db_path)
+    db.row_factory = sqlite3.Row
+    rows = db.execute(
+        "SELECT id, boarddocs_id FROM meetings WHERE boarddocs_id IS NOT NULL "
+        "AND (minutes_text IS NULL OR minutes_text = '')").fetchall()
+    loaded = 0
+    for row in rows:
+        json_path = os.path.join(MINUTES_DIR, f"minutes-bd-{row['boarddocs_id']}.json")
+        if not os.path.exists(json_path):
+            continue
+        try:
+            with open(json_path) as f:
+                parsed = json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            log(f"  skip {row['boarddocs_id']}: {e}")
+            continue
+        full_text = (parsed.get("full_text") or "").strip()
+        if not full_text:
+            continue
+        db.execute(
+            "UPDATE meetings SET minutes_text = ?, has_minutes = 1 WHERE id = ?",
+            (full_text, row["id"]))
+        loaded += 1
+        log(f"  loaded minutes for {row['boarddocs_id']} ({len(full_text)} chars)")
+    db.commit()
+    db.close()
+    log(f"Loaded minutes into {loaded} meeting(s) from local files")
+
+
 def fetch_and_store_minutes(meeting_id, date=""):
     """Fetch minutes for a meeting and store as JSON."""
     os.makedirs(MINUTES_DIR, exist_ok=True)
@@ -536,6 +573,10 @@ def cmd_sync():
     sync_to_meetings()
 
 
+def cmd_sync_local():
+    sync_local_minutes()
+
+
 def main():
     args = sys.argv[1:]
     if not args or args[0] == "list":
@@ -550,6 +591,8 @@ def main():
         cmd_names()
     elif args[0] == "sync":
         cmd_sync()
+    elif args[0] == "sync-local":
+        cmd_sync_local()
     else:
         print(__doc__)
 

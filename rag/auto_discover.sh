@@ -48,5 +48,11 @@ stage process-videos  "$PY" process_videos.py
 # 7. Polish upcoming meeting summaries
 stage gen-summaries   "$PY" gen_summaries.py
 
+# 8. Index: minutes → chunks, FTS rebuild, embed anything new.
+# (chunks_fts is external-content with no triggers — without this stage,
+#  freshly ingested chunks are invisible to keyword AND vector search)
+stage ingest-minutes  "$PY" ingest_minutes.py
+stage embed-new       "$PY" embeddings.py
+
 echo "$(date '+%F %T'): === DAILY PIPELINE COMPLETE (fail=$FAIL) ===" >> "$LOG"
 exit $FAIL
