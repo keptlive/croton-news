@@ -35,30 +35,31 @@ def ingest_articles(db, dry=False):
     """
     rows = db.execute("""
         SELECT id, event_id, committee, date, article FROM meetings
-        WHERE article IS NOT NULL AND article != '' AND event_id IS NOT NULL
-          AND event_id NOT IN (
+        WHERE article IS NOT NULL AND article != ''
+          AND COALESCE(event_id, 'meeting-' || id) NOT IN (
               SELECT DISTINCT doc_id FROM chunks WHERE doc_type = 'article')
-          AND event_id || '-transcript' NOT IN (
+          AND COALESCE(event_id, 'meeting-' || id) || '-transcript' NOT IN (
               SELECT DISTINCT doc_id FROM chunks WHERE doc_type = 'article')
     """).fetchall()
     total = 0
     for m in rows:
+        doc_id = m["event_id"] or f"meeting-{m['id']}"
         text = m["article"]
         # strip shortcodes/markdown noise before chunking
         text = re.sub(r"\{\{[^}]+\}\}", "", text)
         text = re.sub(r"\n{3,}", "\n\n", text).strip()
         pieces = chunk_text(text, max_chars=800, overlap=100)
         if dry:
-            print(f"would ingest {len(pieces)} article chunks for {m['event_id']} ({m['date']})")
+            print(f"would ingest {len(pieces)} article chunks for {doc_id} ({m['date']})")
             continue
         for i, piece in enumerate(pieces):
             db.execute("""
                 INSERT INTO chunks (doc_id, doc_type, committee, date, chunk_index,
                                     content, speaker, char_count)
                 VALUES (?, 'article', ?, ?, ?, ?, NULL, ?)
-            """, (m["event_id"], m["committee"], m["date"], i, piece, len(piece)))
+            """, (doc_id, m["committee"], m["date"], i, piece, len(piece)))
         total += len(pieces)
-        print(f"ingested {len(pieces)} article chunks for {m['event_id']} ({m['date']} {m['committee']})")
+        print(f"ingested {len(pieces)} article chunks for {doc_id} ({m['date']} {m['committee']})")
     return total
 
 
@@ -71,14 +72,15 @@ def main():
         SELECT id, event_id, boarddocs_id, committee, date, minutes_text
         FROM meetings
         WHERE minutes_text IS NOT NULL AND minutes_text != ''
-          AND COALESCE(event_id, boarddocs_id) IS NOT NULL
-          AND COALESCE(event_id, boarddocs_id) NOT IN (
+          AND COALESCE(event_id, boarddocs_id, 'meeting-' || id) NOT IN (
               SELECT DISTINCT doc_id FROM chunks WHERE doc_type = 'minutes')
     """).fetchall()
 
     total = 0
     for m in rows:
-        doc_id = m["event_id"] or m["boarddocs_id"]
+        # meetings with no event_id/boarddocs_id (advisory committees) were a
+        # permanent black hole — fall back to a synthetic doc id (audit gap 3)
+        doc_id = m["event_id"] or m["boarddocs_id"] or f"meeting-{m['id']}"
         text = re.sub(r"\n{3,}", "\n\n", m["minutes_text"]).strip()
         pieces = chunk_text(text, max_chars=800, overlap=100)
         if dry:

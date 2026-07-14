@@ -8,273 +8,273 @@ X-WR-TIMEZONE:America/New_York
 X-WR-CALDESC:Events from Croton Point Park
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 BEGIN:VEVENT
-UID:2ff0fba5df43@croton.news
-DTSTART;TZID=America/New_York:20260419T093000
-SUMMARY:Project FeederWatch
-LOCATION:Croton Point Park\, 1 Croton Point Avenue\, Croton-On-Hudson\, NY\, 10520\, United States
-URL:https://parksevents.westchestercountyny.gov/event/project-feederwatch/2026-04-19/
+UID:957c9bfd7ef1@croton.news
+DTSTART;TZID=America/New_York:20260714T183000
+SUMMARY:Zumba Classes
+LOCATION:Kensico Dam Plaza\, 1 Bronx River Parkway\, Valhalla\, NY\, 10595\, United States
+URL:https://parksevents.westchestercountyny.gov/event/zumba-classes/2026-07-14/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nJoin Saw Mill River Audubon for a wonderful day of viewing our local birds at the Nature Center feeders. Beginners to experts all welcome. Free to the Public.
+DESCRIPTION:Source: Croton Point Park\nGet moving this summer at Kensico Dam Plaza with free weekly Zumba classes.  Classes held on Tuesdays starting June 16 through Sept. 8 from 6:30 p.m. – 7:30 p.m. *  *Please note: No Class on July 7 an
 END:VEVENT
 BEGIN:VEVENT
-UID:612a4d09ea44@croton.news
-DTSTART;TZID=America/New_York:20260419T100000
+UID:08df58fcf7b1@croton.news
+DTSTART;TZID=America/New_York:20260715T100000
+SUMMARY:Evolution. 250 Years of Military Gear
+LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/evolution-250-years-of-military-gear/2026-07-15/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nThe Westchester County Veterans Museum offers visitors an immersive look at how military equipment, uniforms, and battlefield technology have transformed throughout American history. Spanning from the
+END:VEVENT
+BEGIN:VEVENT
+UID:262d1c907240@croton.news
+DTSTART;TZID=America/New_York:20260715T163000
+SUMMARY:Sundaes In The Park
+LOCATION:Kensico Dam Plaza\, 1 Bronx River Parkway\, Valhalla\, NY\, 10595\, United States
+URL:https://parksevents.westchestercountyny.gov/event/sundaes-in-the-park-3/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nJoin us for Sundaes in the Park at Kensico Dam Plaza, on Wednesdays in July and August! Enjoy live music & entertainment, and $5 cones, shakes & sundaes (toppings extra). Located near the children’s p
+END:VEVENT
+BEGIN:VEVENT
+UID:24c4f4ad6d74@croton.news
+DTSTART;TZID=America/New_York:20260715T183000
+SUMMARY:Yoga
+LOCATION:Kensico Dam Plaza\, 1 Bronx River Parkway\, Valhalla\, NY\, 10595\, United States
+URL:https://parksevents.westchestercountyny.gov/event/yoga-8/2026-07-15/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nThe peaceful and beautiful Kensico Dam Plaza is the place to go for free yoga classes this summer. Join us at this perfect venue to indulge in this ancient practice that encompasses physical, mental a
+END:VEVENT
+BEGIN:VEVENT
+UID:8b2b753fe3af@croton.news
+DTSTART;TZID=America/New_York:20260716T100000
 SUMMARY:Farm-to-Fable
 LOCATION:Hilltop Hanover Farm\, 1271 Hanover Street\, Yorktown Heights\, NY\, 10598\, United States
-URL:https://parksevents.westchestercountyny.gov/event/farm-to-fable-7/2026-04-19/
+URL:https://parksevents.westchestercountyny.gov/event/farm-to-fable-6/2026-07-16/
 CATEGORIES:events
 DESCRIPTION:Source: Croton Point Park\nLittle ones, ages 3-6, will explore the whimsy of the world around them through combining storytelling with hands-on activities on the farm straight from the tale! Registration for this class is requi
 END:VEVENT
 BEGIN:VEVENT
-UID:849a5565f95c@croton.news
-DTSTART;TZID=America/New_York:20260419T100000
-SUMMARY:Garden Squad
-LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
-URL:https://parksevents.westchestercountyny.gov/event/garden-squad/2026-04-19/
+UID:e28359f02ff9@croton.news
+DTSTART;TZID=America/New_York:20260716T100000
+SUMMARY:Lighthouse Open House
+LOCATION:Tarrytown Lighthouse in Sleepy Hollow\, Palmer Avenue\, Sleepy Hollow\, NY\, 10591\, United States
+URL:https://parksevents.westchestercountyny.gov/event/lighthouse-open-house/2026-07-16/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nSpend a few hours in our garden!  Work next to Lasdon’s gardeners on tasks that include watering, weeding, planting, pruning, deadheading, transplanting, tropical plant maintenance in a 60 year old gr
+DESCRIPTION:Source: Croton Point Park\nCome see the Tarrytown Lighthouse in Sleepy Hollow! Join staff at the open house for a look inside the lighthouse and to learn about what life was like for the keepers. Drop-in, self-led program. Grou
 END:VEVENT
 BEGIN:VEVENT
-UID:0c7595edd42e@croton.news
-DTSTART;TZID=America/New_York:20260419T110000
-SUMMARY:Muscoot Mansion Tour
-LOCATION:Alfred B. DelBello Muscoot Farm\, 51 NY-100\, Katonah\, NY\, 10536\, United States
-URL:https://parksevents.westchestercountyny.gov/event/muscoot-mansion-tour-5/2026-04-19/
-CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nJoin our education staff on a historical tour of the mansion. Appropriate for ages 13+. Meet promptly at 11:00 AM by the grape arbor located behind the mansion. Due to limited capacity, this tour is m
-END:VEVENT
-BEGIN:VEVENT
-UID:329bc9c378f2@croton.news
-DTSTART;TZID=America/New_York:20260419T130000
-SUMMARY:Garden Highlight Tour
-LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
-URL:https://parksevents.westchestercountyny.gov/event/garden-highlight-tour/2026-04-19/
-CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nThe sights and scents of the season flourish across the garden collections of Lasdon Public Gardens. Spend some time with Lasdon’s head gardener on a walking tour featuring highlights of the gardens a
-END:VEVENT
-BEGIN:VEVENT
-UID:0ea14ce50030@croton.news
-DTSTART;TZID=America/New_York:20260419T130000
-SUMMARY:Natural Dyes Workshop
-LOCATION:Hilltop Hanover Farm\, 1271 Hanover Street\, Yorktown Heights\, NY\, 10598\, United States
-URL:https://parksevents.westchestercountyny.gov/event/natural-dyes-workshop-2/
-CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nLearn the basics of creating natural dyes and help process wool to make a variety of beautiful colors! Pre-registration required;  register & pay
-END:VEVENT
-BEGIN:VEVENT
-UID:70ad66b7bb90@croton.news
-DTSTART;TZID=America/New_York:20260421T080000
+UID:ba868d1e9577@croton.news
+DTSTART;TZID=America/New_York:20260717T080000
 SUMMARY:Mall Walk
 LOCATION:NY
-URL:https://parksevents.westchestercountyny.gov/event/__trashed-397/2026-04-21/
+URL:https://parksevents.westchestercountyny.gov/event/mall-walk/2026-07-17/
 CATEGORIES:events
 DESCRIPTION:Source: Croton Point Park\nThe Mall Walking Club meets every Tuesdays and Fridays, from 8 a.m. to 10 a.m. at The Westchester in White Plains. It’s a great way to exercise no matter what the weather is outside. Go at your own pa
 END:VEVENT
 BEGIN:VEVENT
-UID:fe501c2965a4@croton.news
-DTSTART;TZID=America/New_York:20260421T093000
-SUMMARY:Little Explorers
-LOCATION:Alfred B. DelBello Muscoot Farm\, 51 NY-100\, Katonah\, NY\, 10536\, United States
-URL:https://parksevents.westchestercountyny.gov/event/little-explorers-6/2026-04-21/
+UID:03bf17699ddd@croton.news
+DTSTART;TZID=America/New_York:20260718T090000
+SUMMARY:Yoga in the Garden
+LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/yoga-in-the-garden/2026-07-18/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nLooking for something to do with your 3-5 year-old? Bring them to the farm for a fun morning of stories, crafts, animal and nature activities, and more! Please meet at Muscoot’s Activity Building. Pre
+DESCRIPTION:Source: Croton Point Park\nJoin expert yoga teacher Melissa Feinberg for a gentle discovery within the practice of Yoga. For beginners or advanced students, we begin with a warmup and introduction then it is onto discovering ne
 END:VEVENT
 BEGIN:VEVENT
-UID:8d309213a80c@croton.news
-DTSTART;TZID=America/New_York:20260423T100000
-SUMMARY:Farm-to-Fable
+UID:58eab950f293@croton.news
+DTSTART;TZID=America/New_York:20260718T100000
+SUMMARY:Lasdon Public Gardens Medicinal Plant &Tree Tour
+LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/lasdon-public-gardens-medicinal-plant-tree-tour-2/2026-07-18/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nUrban Naturalist Bruce Rosenberg will lead a tour to examine over twenty plants and trees that have medicinal qualities and are used to treat physical and mental conditions. All of these plants can be
+END:VEVENT
+BEGIN:VEVENT
+UID:09694b02707d@croton.news
+DTSTART;TZID=America/New_York:20260718T103000
+SUMMARY:Family Cooking Class with Fiddleheads Cooking Studio
 LOCATION:Hilltop Hanover Farm\, 1271 Hanover Street\, Yorktown Heights\, NY\, 10598\, United States
-URL:https://parksevents.westchestercountyny.gov/event/farm-to-fable-8/2026-04-23/
+URL:https://parksevents.westchestercountyny.gov/event/family-cooking-class-with-fiddleheads-cooking-studio-2/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nLittle ones, ages 3-6, will explore the whimsy of the world around them through combining storytelling with hands-on activities on the farm straight from the tale! Registration for this class is requi
+DESCRIPTION:Source: Croton Point Park\nThis cooking class is a great opportunity for the whole family. During the lesson, children ages 3-18 will learn how to cook a dish from start to finish. Younger kids will work on simpler tasks, while
 END:VEVENT
 BEGIN:VEVENT
-UID:9c47f42ddc13@croton.news
-DTSTART;TZID=America/New_York:20260423T100000
-SUMMARY:Soft Landings: Playtime for Littles at Lasdon
+UID:2c0edfb2ca09@croton.news
+DTSTART;TZID=America/New_York:20260718T110000
+SUMMARY:Military Bake and Craft
 LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
-URL:https://parksevents.westchestercountyny.gov/event/soft-landings-playtime-for-littles-at-lasdon/2026-04-23/
+URL:https://parksevents.westchestercountyny.gov/event/military-bake-and-craft/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nLet’s gather together to enjoy early growth in the gardens, record our stories in a journal, and learn about tools. We will experiment with seeds and roots, build with sticks, stems, rocks and blocks,
+DESCRIPTION:Source: Croton Point Park\nChildren will hand sew a 1970s era compass pouch, bake MRE-style Fudge Brownie Cookies, learn to use a compass they can take home and go on a special tour of the Veterans Museum. Children 6 years old 
 END:VEVENT
 BEGIN:VEVENT
-UID:a861083a053a@croton.news
-DTSTART;TZID=America/New_York:20260423T100000
-SUMMARY:Thursday Starts with Tea: Playtime for Littles at Lasdon
+UID:00eeaf4eed1e@croton.news
+DTSTART;TZID=America/New_York:20260718T110000
+SUMMARY:Retro Bake and Craft: The 1960s
 LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
-URL:https://parksevents.westchestercountyny.gov/event/thursday-starts-with-tea-playtime-for-littles-at-lasdon-2/2026-04-23/
+URL:https://parksevents.westchestercountyny.gov/event/retro-bake-and-craft-the-1960s/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nIf you like to play outdoors in winter, let’s gather together to build with sticks and stems. We will learn about habitat, winter shelters and everything the season offers. For ages 18 to 42 months, w
+DESCRIPTION:Source: Croton Point Park\nChildren will bake WW II era cookies then meet Willie the Jeep, an authentic WW II medical jeep. They will learn what it was like to be a medic and take part in fun activities such as a stretcher race
 END:VEVENT
 BEGIN:VEVENT
-UID:4f2ea3afbca2@croton.news
-DTSTART;TZID=America/New_York:20260425T090000
-SUMMARY:Health is Wealth
-LOCATION:Westchester County Center\, 198 Central Avenue\, White Plains\, 10606\, United States
-URL:https://parksevents.westchestercountyny.gov/event/health-is-wealth/
+UID:804d940407b3@croton.news
+DTSTART;TZID=America/New_York:20260718T120000
+SUMMARY:Family Fun Day - Willson's Woods Pool
+LOCATION:Willson’s Woods Park\, 8 Bradford Road\, Mount Vernon\, NY\, 10553\, United States
+URL:https://parksevents.westchestercountyny.gov/event/family-fun-day-willsons-woods-pool/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nJoin us in celebrating wellness, connection and empowering your well-being! A.C.E. in partnership with Westchester County Parks presents: Health is Wealth, the County’s first and largest Wellness Expo
+DESCRIPTION:Source: Croton Point Park\nSpend your summer at Westchester County Pools and Beaches! Come for a swim and enjoy Family Fun Day at Willson’s Woods Pool! Participation in special events is free; admission and parking rules apply.
 END:VEVENT
 BEGIN:VEVENT
-UID:a857db5f7b11@croton.news
-DTSTART;TZID=America/New_York:20260425T100000
-SUMMARY:Lasdon Public Gardens Medicinal Plant & Tree Tour
+UID:6caae006531a@croton.news
+DTSTART;TZID=America/New_York:20260718T130000
+SUMMARY:Green Squad
+LOCATION:NY
+URL:https://parksevents.westchestercountyny.gov/event/green-squad/2026-07-18/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nWork next to Lasdon’s gardeners on tasks that include removing invasive plants, trail maintenance, weeding, planting, pruning, and deadheading.  sign up to volunteer
+END:VEVENT
+BEGIN:VEVENT
+UID:239b50e7b449@croton.news
+DTSTART;TZID=America/New_York:20260719T093000
+SUMMARY:Farmers Market at Muscoot Farm
+LOCATION:Alfred B. DelBello Muscoot Farm\, 51 NY-100\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/farmers-market-at-muscoot-farm/2026-07-19/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nMuscoot’s weekly Farmers Market supports farmers and sustainable efforts in our area, featuring over 25 local vendors each week. Every Sunday until November 15. List of vendors and their products can 
+END:VEVENT
+BEGIN:VEVENT
+UID:cbc759fc26a7@croton.news
+DTSTART;TZID=America/New_York:20260719T100000
+SUMMARY:Garden Squad
 LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
-URL:https://parksevents.westchestercountyny.gov/event/lasdon-public-gardens-medicinal-plant-tree-tour/2026-04-25/2/
+URL:https://parksevents.westchestercountyny.gov/event/garden-squad-2/2026-07-19/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nUrban naturalist Bruce Rosenberg will lead a to examine over twenty plants and trees in the Arboretum that have medicinal qualities and are used to treat physical and mental conditions. All of these p
+DESCRIPTION:Source: Croton Point Park\nSpend a few hours in our garden!  Work next to Lasdon’s gardeners on tasks that include watering, weeding, planting, pruning, deadheading, transplanting, tropical plant maintenance in a 60 year old gr
 END:VEVENT
 BEGIN:VEVENT
-UID:11688e87c6b7@croton.news
-DTSTART;TZID=America/New_York:20260425T100000
-SUMMARY:The Nature of Seeds
-LOCATION:Marshlands Conservancy\, 220 Boston Post Road\, Rye\, NY\, 10580\, United States
-URL:https://parksevents.westchestercountyny.gov/event/the-nature-of-seeds/
-CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nAn acorn sprouts and becomes a great big oak tree. How does it happen? Learn about the nature of how seeds work. Plant a seed in a small paper pot and watch it sprout and grow at home.
-END:VEVENT
-BEGIN:VEVENT
-UID:2fec12582e64@croton.news
-DTSTART;TZID=America/New_York:20260425T100000
-SUMMARY:Project Feeder Watch!
-LOCATION:Lenoir Preserve\, 19 Dudley Street\, Yonkers\, NY\, 10701\, United States
-URL:https://parksevents.westchestercountyny.gov/event/project-feeder-watch-2/2026-04-25/
-CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nJoin Hudson River Audubon to observe and learn about our local birds! Beginners to experts- all welcome!
-END:VEVENT
-BEGIN:VEVENT
-UID:edc94ad74702@croton.news
-DTSTART;TZID=America/New_York:20260425T100000
+UID:6acc6dd860ed@croton.news
+DTSTART;TZID=America/New_York:20260719T100000
 SUMMARY:Guided Tour of the Tarrytown Lighthouse in Sleepy Hollow
 LOCATION:Tarrytown Lighthouse in Sleepy Hollow\, Palmer Avenue\, Sleepy Hollow\, NY\, 10591\, United States
-URL:https://parksevents.westchestercountyny.gov/event/guided-tour-of-the-tarrytown-lighthouse-in-sleepy-hollow/2026-04-25/
+URL:https://parksevents.westchestercountyny.gov/event/guided-tour-of-the-tarrytown-lighthouse-in-sleepy-hollow/2026-07-19/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nGo on a guided tour of the Tarrytown Lighthouse in Sleepy Hollow! Enjoy a 45-minute interpreter-led tour of the Tarrytown Lighthouse in Sleepy Hollow to learn about its history, significance, and what
+DESCRIPTION:Source: Croton Point Park\nGo on an interpreter-led tour of the Tarrytown Lighthouse in Sleepy Hollow!  Go on a guided tour of the Tarrytown Lighthouse in Sleepy Hollow! Enjoy a 45-minute interpreter-led tour of the Tarrytown L
 END:VEVENT
 BEGIN:VEVENT
-UID:d898056e6fa4@croton.news
-DTSTART;TZID=America/New_York:20260425T110000
-SUMMARY:Kitchen Knacks: Homemade Kitchen Cleaners
+UID:3505ddc59a27@croton.news
+DTSTART;TZID=America/New_York:20260719T110000
+SUMMARY:Muscoot Mansion Tour
+LOCATION:Alfred B. DelBello Muscoot Farm\, 51 NY-100\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/muscoot-mansion-tour-7/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nJoin our education staff on a historical tour of the mansion! Ages 13+.   Meet promptly at 11:00 AM by the grape arbor located behind the mansion.  Registration is required.  register now
+END:VEVENT
+BEGIN:VEVENT
+UID:2da2fecc07ff@croton.news
+DTSTART;TZID=America/New_York:20260719T120000
+SUMMARY:2026 WORLD CUP WATCH EXPERIENCE
+LOCATION:Kensico Dam Park\, 1 Bronx River Parkway\, Valhalla\, NY\, 10595\, United States
+URL:https://parksevents.westchestercountyny.gov/event/2026-world-cup-watch-experience/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nThe World Cup final is coming to Westchester.  Join New York State at Kensico Dam Plaza for a free, large-scale World Cup Final watch experience — featuring giant outdoor screens, live entertainment, 
+END:VEVENT
+BEGIN:VEVENT
+UID:982c5ed91c73@croton.news
+DTSTART;TZID=America/New_York:20260719T130000
+SUMMARY:Curators Tour of the Veterans Museum
+LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/curators-tour-of-the-veterans-museum-3/2026-07-19/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nJoin Curator Mark Tolf for a special tour of the exhibition Evolution: 250 Years of Military Gear. He will share inspiring stories and intriguing facts about the objects on display. Registration requi
+END:VEVENT
+BEGIN:VEVENT
+UID:a869e26025d8@croton.news
+DTSTART;TZID=America/New_York:20260719T130000
+SUMMARY:Garden Highlight Tour
+LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
+URL:https://parksevents.westchestercountyny.gov/event/garden-highlight-tour-2/2026-07-19/
+CATEGORIES:events
+DESCRIPTION:Source: Croton Point Park\nThe sights and scents of the season flourish across the garden collections of Lasdon Public Gardens. Spend some time with Lasdon’s head gardener on a walking tour featuring highlights of the gardens a
+END:VEVENT
+BEGIN:VEVENT
+UID:80f23fbf8907@croton.news
+DTSTART;TZID=America/New_York:20260719T130000
+SUMMARY:Garden Pests: Identification & Management Strategies
 LOCATION:Hilltop Hanover Farm\, 1271 Hanover Street\, Yorktown Heights\, NY\, 10598\, United States
-URL:https://parksevents.westchestercountyny.gov/event/kitchen-knacks-homemade-kitchen-cleaners/
+URL:https://parksevents.westchestercountyny.gov/event/garden-pests-identification-management-strategies/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nIn this edition of Kitchen Knacks, we will be making our own kitchen cleaners, using ingredients from the pantry! Learn about the different uses of cleaners and leave with a few recipes to make more a
+DESCRIPTION:Source: Croton Point Park\nLearn how to safely and effectively deal with common pest problems within your home garden in this beginner-friendly class. Participants will learn how to identify the most common garden pests and how
 END:VEVENT
 BEGIN:VEVENT
-UID:c52532a8274a@croton.news
-DTSTART;TZID=America/New_York:20260425T110000
-SUMMARY:Go Green Day!
-LOCATION:Lenoir Preserve\, 19 Dudley Street\, Yonkers\, NY\, 10701\, United States
-URL:https://parksevents.westchestercountyny.gov/event/go-green-day/
+UID:4ef17ec9afe1@croton.news
+DTSTART;TZID=America/New_York:20260720T183000
+SUMMARY:Mat Pilates
+LOCATION:Kensico Dam Plaza\, 1 Bronx River Parkway\, Valhalla\, NY\, 10595\, United States
+URL:https://parksevents.westchestercountyny.gov/event/mat-pilates/2026-07-20/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nCelebrate 2026 Earthday! Turn off your electronics and spend the day outside giving back to Mother Earth! Help us plant native species and learn about the many ways you can nurture our shared environm
+DESCRIPTION:Source: Croton Point Park\nKensico Dam Plaza is the perfect relaxing setting for free mat pilates. Join us for a low-impact workout where participants can improve flexibility, strength, balance, and coordination.  Bring your ow
 END:VEVENT
 BEGIN:VEVENT
-UID:50cf717e3d42@croton.news
-DTSTART;TZID=America/New_York:20260425T130000
-SUMMARY:Volunteer Work Project- Turning of the Compost and Neatening the Surroundings.
-LOCATION:Edith G. Read Wildlife Sanctuary\, 1 Playland Parkway\, Rye\, NY\, 10580\, United States
-URL:https://parksevents.westchestercountyny.gov/event/volunteer-work-project-turning-of-the-compost-and-neatening-the-surroundings/
+UID:a0c49ac7ea54@croton.news
+DTSTART;TZID=America/New_York:20260722T163000
+SUMMARY:Sundaes In The Park
+LOCATION:Kensico Dam Plaza\, 1 Bronx River Parkway\, Valhalla\, NY\, 10595\, United States
+URL:https://parksevents.westchestercountyny.gov/event/sundaes-in-the-park-7/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nWe will be turning over, adding soil and clearing surrounding debris of our compost station. Please bring work gloves. Hand tools will be provided. Great for service credit hours.
+DESCRIPTION:Source: Croton Point Park\nJoin us for Sundaes in the Park at Kensico Dam Plaza, on Wednesdays in July and August! Enjoy live music & entertainment, and $5 cones, shakes & sundaes (toppings extra). Located near the children’s p
 END:VEVENT
 BEGIN:VEVENT
-UID:01821391f867@croton.news
-DTSTART;TZID=America/New_York:20260425T140000
-SUMMARY:Merestead Wetland Walk
-LOCATION:Merestead\, 455 Byram Lake Road\, Mount Kisco\, NY\, 10549\, United States
-URL:https://parksevents.westchestercountyny.gov/event/merestead-wetland-walk/
+UID:e65e931fad96@croton.news
+DTSTART;TZID=America/New_York:20260723T190000
+SUMMARY:Robison Summer Concert Series - Xtreme Queen
+LOCATION:Kensico Dam Plaza\, 1 Bronx River Parkway\, Valhalla\, NY\, 10595\, United States
+URL:https://parksevents.westchestercountyny.gov/event/robison-summer-concert-series-xtreme-queen/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nPut on your rubber boots or hiking shoes and join for a walk along stream and wetland edge to see Merestead’s amphibians, birds, wildflowers and mosses.  Meet at the carriage house parking area on the
+DESCRIPTION:Source: Croton Point Park\nJoin us this summer for the free Robison Summer Concert Series at Kensico Dam Plaza in Valhalla. On Thursday, July 23, see Xtreme Queen.  Gates open at 6 p.m., the concert begins at 7 p.m. Admission a
 END:VEVENT
 BEGIN:VEVENT
-UID:f8ffd89e03da@croton.news
-DTSTART;TZID=America/New_York:20260426T110000
-SUMMARY:Goats on the Go!
-LOCATION:Alfred B. DelBello Muscoot Farm\, 51 NY-100\, Katonah\, NY\, 10536\, United States
-URL:https://parksevents.westchestercountyny.gov/event/goats-on-the-go-2/2026-04-26/
+UID:591a8c5fb73c@croton.news
+DTSTART;TZID=America/New_York:20260724T183000
+SUMMARY:Shadow Boxing
+LOCATION:Kensico Dam Plaza\, 1 Bronx River Parkway\, Valhalla\, NY\, 10595\, United States
+URL:https://parksevents.westchestercountyny.gov/event/shadow-boxing/2026-07-24/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nTake a pygmy goat on a walk around the farm! This hands-on experience allows children to provide important socialization, enrichment, and exercise for our animals, helping to enhance their well-being.
+DESCRIPTION:Source: Croton Point Park\nKensico Dam Plaza is the perfect setting for free shadow boxing classes. Join us for this excellent full-body workout that improves coordination and endurance.  No equipment required.
 END:VEVENT
 BEGIN:VEVENT
-UID:21bc1fe8e6a7@croton.news
-DTSTART;TZID=America/New_York:20260426T130000
-SUMMARY:Wildflower Walk
-LOCATION:Alfred B. DelBello Muscoot Farm\, 51 NY-100\, Katonah\, NY\, 10536\, United States
-URL:https://parksevents.westchestercountyny.gov/event/wildflower-walk/
+UID:436746c1a823@croton.news
+DTSTART;TZID=America/New_York:20260724T193000
+SUMMARY:Zumba Party – 80’s Theme
+LOCATION:Kensico Dam Plaza\, 1 Bronx River Parkway\, Valhalla\, NY\, 10595\, United States
+URL:https://parksevents.westchestercountyny.gov/event/zumba-party-80s-theme/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nJoin us on a hike through our trails to learn about our incredible wildflower species! From identification to ecology to traditional uses, participants will leave this tour with a newfound knowledge a
+DESCRIPTION:Source: Croton Point Park\nGet moving this summer at Kensico Dam Plaza for Zumba Party – 80’s Theme with hits from the decade!  This event will benefit the SPCA Westchester. Please bring a donation to the event. See list below:
 END:VEVENT
 BEGIN:VEVENT
-UID:8db91f3249f9@croton.news
-DTSTART;TZID=America/New_York:20260426T133000
-SUMMARY:"What's Blooming Now?"
-LOCATION:Trailside Nature Museum at Ward Pound Ridge Reservation\, Reservation Road\, Pound Ridge\, NY\, 10576\, United States
-URL:https://parksevents.westchestercountyny.gov/event/whats-blooming-now-3/
+UID:9d10b2e3610a@croton.news
+DTSTART;TZID=America/New_York:20260725T080000
+SUMMARY:Westchester County Parks x The Farm Café
+LOCATION:Kensico Dam Plaza\, 1 Bronx River Parkway\, Valhalla\, NY\, 10595\, United States
+URL:https://parksevents.westchestercountyny.gov/event/westchester-county-parks-x-the-farm-cafe/2026-07-25/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nJoin us for our “What’s Blooming Now”? series!  This month we will focus on Spring Ephemerals. Common beauty’s we are likely to see would be Dutchman’s breeches, Trout lily, Bloodroot and more.
+DESCRIPTION:Source: Croton Point Park\nPop-up Shop Alert! Visit The Farm Café Pop-up at Kensico Dam Plaza!  Visit the park for a nice walk, enjoy the playground with your family or just sit and relax while enjoying a coffee, tea, or delici
 END:VEVENT
 BEGIN:VEVENT
-UID:7a914ca5f707@croton.news
-DTSTART;TZID=America/New_York:20260429T190000
-SUMMARY:Croton Point Park: Westchester's Jewel on the Hudson
-LOCATION:Lenoir Preserve\, 19 Dudley Street\, Yonkers\, NY\, 10701\, United States
-URL:https://parksevents.westchestercountyny.gov/event/croton-point-park-westchesters-jewel-on-the-hudson/
+UID:ef719031fe7e@croton.news
+DTSTART;TZID=America/New_York:20260725T090000
+SUMMARY:Tai Chi
+LOCATION:Kensico Dam Plaza\, 1 Bronx River Parkway\, Valhalla\, NY\, 10595\, United States
+URL:https://parksevents.westchestercountyny.gov/event/tai-chi/2026-07-25/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nHudson River Audubon presents authors Scott Craven and Caroline Curvan on the history of the Park and how it went from landfill to scenic Park.
+DESCRIPTION:Source: Croton Point Park\nThe peaceful Kensico Dam Plaza is the perfect place to participate in free tai chi classes this summer. Join us for this low impact and slow exercise, designed for all fitness levels.
 END:VEVENT
 BEGIN:VEVENT
-UID:f97288c621a8@croton.news
-DTSTART;TZID=America/New_York:20260502T070000
-SUMMARY:Audubon Bird Walk
-LOCATION:Marshlands Conservancy\, 220 Boston Post Road\, Rye\, NY\, 10580\, United States
-URL:https://parksevents.westchestercountyny.gov/event/audubon-bird-walk-2/
-CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nRegistration required.register now
-END:VEVENT
-BEGIN:VEVENT
-UID:a732681d9882@croton.news
-DTSTART;TZID=America/New_York:20260502T083000
-SUMMARY:Morning Farm Chores: For Kids
-LOCATION:Alfred B. DelBello Muscoot Farm\, 51 NY-100\, Katonah\, NY\, 10536\, United States
-URL:https://parksevents.westchestercountyny.gov/event/morning-farm-chores-for-kids-7/2026-05-02/
-CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nAges 6 through 14 can become a farmer for a day and join our staff as they feed, clean and care for our animals! $25 for a child with an adult. If you have two children, please purchase two tickets (o
-END:VEVENT
-BEGIN:VEVENT
-UID:132c91ac7cbe@croton.news
-DTSTART;TZID=America/New_York:20260502T090000
-SUMMARY:Blacksmith Worskshop
-LOCATION:Alfred B. DelBello Muscoot Farm\, 51 NY-100\, Katonah\, NY\, 10536\, United States
-URL:https://parksevents.westchestercountyny.gov/event/blacksmith-worskshop-2/
-CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nRegister for this unique full-day workshop with Master Blacksmith, Bill Fitzgerald, to make your own items in our blacksmith shop. Workshop is from 9 a.m. – 2 p.m., so wear comfortable shoes and bring
-END:VEVENT
-BEGIN:VEVENT
-UID:98013abd7c8a@croton.news
-DTSTART;TZID=America/New_York:20260502T100000
+UID:5f6a1c31b4ef@croton.news
+DTSTART;TZID=America/New_York:20260725T100000
 SUMMARY:Dangerous and Toxic Outdoor and Indoor Plants
 LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
-URL:https://parksevents.westchestercountyny.gov/event/dangerous-and-toxic-outdoor-and-indoor-plants/2026-05-02/
+URL:https://parksevents.westchestercountyny.gov/event/dangerous-and-toxic-outdoor-and-indoor-plants-2/2026-07-25/
 CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nThis tour will examine some of the dangerous/toxic plants that are found in your backyard and surrounding area. Parts of these plants including leaves seeds and berries if ingested can cause individua
-END:VEVENT
-BEGIN:VEVENT
-UID:9c9eee054800@croton.news
-DTSTART;TZID=America/New_York:20260502T100000
-SUMMARY:Native Tree and Shrub Give Away
-LOCATION:Lasdon Public Gardens\, 2610 Amawalk Road\, Route 35\, Katonah\, NY\, 10536\, United States
-URL:https://parksevents.westchestercountyny.gov/event/native-tree-and-shrub-give-away/
-CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nSupport wildlife with native plants. Lasdon will be giving away a variety of native bareroot trees and shrubs for you to plant at home. Sign-up to guarantee yours. Plants can be picked up at the Welco
-END:VEVENT
-BEGIN:VEVENT
-UID:a9db86113246@croton.news
-DTSTART;TZID=America/New_York:20260502T100000
-SUMMARY:Tea with the Animals
-LOCATION:Hilltop Hanover Farm\, 1271 Hanover Street\, Yorktown Heights\, NY\, 10598\, United States
-URL:https://parksevents.westchestercountyny.gov/event/tea-with-the-animals-6/2026-05-02/
-CATEGORIES:events
-DESCRIPTION:Source: Croton Point Park\nJoin us for a mid-morning cuppa while you meet and learn about the animals on the farm! Participants will harvest and make some scrumptious treats for both us humans and the animals to enjoy together 
+DESCRIPTION:Source: Croton Point Park\nThis tour will examine some of the dangerous and toxic plants that are found in your backyard and surrounding area. Parts of these plants including leaves, seeds and berries if ingested can cause indi
 END:VEVENT
 END:VCALENDAR

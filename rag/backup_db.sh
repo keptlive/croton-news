@@ -15,6 +15,10 @@ comments:$BASE/comments.db
 tips:$BASE/tips.db
 photos:$BASE/photos.db
 ecode-summaries:$BASE/ecode360/summaries.db
+code:$BASE/rag/code.db
+history:$BASE/rag/history.db
+ecode-search:$BASE/ecode360/search.db
+scraped-news:$BASE/data/croton.db
 "
 
 for pair in $DBS; do

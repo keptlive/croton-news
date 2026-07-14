@@ -8,2198 +8,29 @@ X-WR-TIMEZONE:America/New_York
 X-WR-CALDESC:Events from Croton Free Library
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 BEGIN:VEVENT
-UID:14685a0d2a05@croton.news
-DTSTART;TZID=America/New_York:20260420T190000
-SUMMARY:Director's Cut
+UID:75f81223bcc8@croton.news
+DTSTART;TZID=America/New_York:20260714T130000
+SUMMARY:Girl Scouts Project
 LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/directors-cut-10029
+URL:https://ossining.librarycalendar.com/event/girl-scouts-project-11660
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
-UID:c1253c2180bc@croton.news
-DTSTART;TZID=America/New_York:20260420T193000
-SUMMARY:Write Club
+UID:d78d10e906ec@croton.news
+DTSTART;TZID=America/New_York:20260714T163000
+SUMMARY:Math Mini-Camp
 LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/write-club-10825
+URL:https://ossining.librarycalendar.com/event/math-mini-camp-11458
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
-UID:9a3eaf8d9374@croton.news
-DTSTART;TZID=America/New_York:20260421T103000
-SUMMARY:Babytime with Lauren
+UID:afa8425c570c@croton.news
+DTSTART;TZID=America/New_York:20260714T190000
+SUMMARY:Clases introductorias en ingles para adultos / Beginning English for Adults
 LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/babytime-lauren-8915
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:1ae95a6f54ce@croton.news
-DTSTART;TZID=America/New_York:20260421T103000
-SUMMARY:Living with Grief: Ongoing Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-10444
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:6a28fc5aef97@croton.news
-DTSTART;TZID=America/New_York:20260421T144500
-SUMMARY:LEGO Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/lego-club-10363
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:a10f20590c23@croton.news
-DTSTART;TZID=America/New_York:20260421T151500
-SUMMARY:DIY Earring Design
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/diy-earring-design-11023
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:592f806b95ca@croton.news
-DTSTART;TZID=America/New_York:20260421T190000
-SUMMARY:English Conversation Hour
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/english-conversation-hour-9860
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:8dfd86f35b73@croton.news
-DTSTART;TZID=America/New_York:20260422T100000
-SUMMARY:Croton Library Book Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-library-book-club-10229
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:73f8b17870e5@croton.news
-DTSTART;TZID=America/New_York:20260422T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9935
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:4d9a52ca6763@croton.news
-DTSTART;TZID=America/New_York:20260422T101500
-SUMMARY:Preschool Storytime with Chris
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/preschool-storytime-chris-9456
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:ea67ababd2e8@croton.news
-DTSTART;TZID=America/New_York:20260422T153000
-SUMMARY:Homework Help
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/homework-help-10535
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:f9e38314e790@croton.news
-DTSTART;TZID=America/New_York:20260423T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9987
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:e0f4d89e4728@croton.news
-DTSTART;TZID=America/New_York:20260423T103000
-SUMMARY:Music and Movement w/ Lori Cohen
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-9040
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:522bb19a3b61@croton.news
-DTSTART;TZID=America/New_York:20260423T111500
-SUMMARY:Parents & Infants Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-10981
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:7d38ed6516ea@croton.news
-DTSTART;TZID=America/New_York:20260423T123000
-SUMMARY:Mah Jongg Lessons
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-lessons-10930
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:1cb8a87d3fe7@croton.news
-DTSTART;TZID=America/New_York:20260423T150000
-SUMMARY:Young Writers' Workshop
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/young-writers-workshop-11037
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:4dcf2b4249bd@croton.news
-DTSTART;TZID=America/New_York:20260423T160000
-SUMMARY:Chess for Kids & Teens
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/chess-kids-teens-11045
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:5b472a5cc8b7@croton.news
-DTSTART;TZID=America/New_York:20260423T190000
-SUMMARY:NAMI Westchester Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/nami-westchester-support-group-9285
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:b765df6dded9@croton.news
-DTSTART;TZID=America/New_York:20260423T190000
-SUMMARY:Croton Democratic Committee
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-democratic-committee-10457
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:7c4c6e695371@croton.news
-DTSTART;TZID=America/New_York:20260424T103000
-SUMMARY:Musical Round-Up with Rose
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/musical-round-rose-10992
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:c40348c41a81@croton.news
-DTSTART;TZID=America/New_York:20260424T113000
-SUMMARY:New Parents Together
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/new-parents-together-9098
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:bf23b0824a8b@croton.news
-DTSTART;TZID=America/New_York:20260424T121500
-SUMMARY:Shut Up & Write Meetup
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/shut-write-meetup-10277
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:ffbb178a26f5@croton.news
-DTSTART;TZID=America/New_York:20260424T130000
-SUMMARY:Canasta: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/canasta-open-play-9788
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:52c4e24fb77a@croton.news
-DTSTART;TZID=America/New_York:20260425T100000
-SUMMARY:Blood Drive
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/blood-drive-9906
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:f53110ca4907@croton.news
-DTSTART;TZID=America/New_York:20260425T103000
-SUMMARY:Storytime Yoga
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/storytime-yoga-9140
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:d33905795352@croton.news
-DTSTART;TZID=America/New_York:20260426T140000
-SUMMARY:Spring Concert: Jean Garner with James Brandfonbrener
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/concert-jean-garner-10933
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:5986ab13b894@croton.news
-DTSTART;TZID=America/New_York:20260427T153000
-SUMMARY:Reading Through Pictures Book Club (K-1st grade)
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/reading-through-pictures-book-club-k-1st-grade-10871
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:397253ec8800@croton.news
-DTSTART;TZID=America/New_York:20260427T190000
-SUMMARY:Short Story Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/short-story-group-10947
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:f5fffa83f8e2@croton.news
-DTSTART;TZID=America/New_York:20260427T193000
-SUMMARY:Mother-Daughter Book Club II
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mother-daughter-book-club-ii-8681
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:ba031dea9f54@croton.news
-DTSTART;TZID=America/New_York:20260428T103000
-SUMMARY:Babytime with Lauren
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/babytime-lauren-8916
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:eff5e0c43504@croton.news
-DTSTART;TZID=America/New_York:20260428T103000
-SUMMARY:Living with Grief: Ongoing Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-10445
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:ed6d02338c76@croton.news
-DTSTART;TZID=America/New_York:20260428T144500
-SUMMARY:LEGO Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/lego-club-10364
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9648ee5db4e1@croton.news
-DTSTART;TZID=America/New_York:20260428T190000
-SUMMARY:English Conversation Hour
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/english-conversation-hour-9861
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:e99fad612c76@croton.news
-DTSTART;TZID=America/New_York:20260429T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9936
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:5aa5894a07fa@croton.news
-DTSTART;TZID=America/New_York:20260429T101500
-SUMMARY:Preschool Storytime with Chris
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/preschool-storytime-chris-9457
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:cb2222f5517e@croton.news
-DTSTART;TZID=America/New_York:20260429T153000
-SUMMARY:Homework Help
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/homework-help-10536
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:fb48859ec9d1@croton.news
-DTSTART;TZID=America/New_York:20260430T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9988
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:d80401165ba7@croton.news
-DTSTART;TZID=America/New_York:20260430T103000
-SUMMARY:Music and Movement w/ Lori Cohen
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-9041
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:4f3e18b14c1d@croton.news
-DTSTART;TZID=America/New_York:20260430T111500
-SUMMARY:Parents & Infants Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-10982
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:c04f60d90257@croton.news
-DTSTART;TZID=America/New_York:20260430T123000
-SUMMARY:Mah Jongg Lessons
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-lessons-10931
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:c6733fd375d6@croton.news
-DTSTART;TZID=America/New_York:20260430T150000
-SUMMARY:Young Writers' Workshop
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/young-writers-workshop-11038
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:f7b58a36f698@croton.news
-DTSTART;TZID=America/New_York:20260430T160000
-SUMMARY:Chess for Kids & Teens
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/chess-kids-teens-11046
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:4dd1a1ef8bd6@croton.news
-DTSTART;TZID=America/New_York:20260430T190000
-SUMMARY:Annual Meeting & Budget Overview
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/library-annual-meeting-10794
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:81b319f88501@croton.news
-DTSTART;TZID=America/New_York:20260501T103000
-SUMMARY:Musical Round-Up with Rose
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/musical-round-rose-10993
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:f0d43c9cc0f5@croton.news
-DTSTART;TZID=America/New_York:20260501T113000
-SUMMARY:New Parents Together
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/new-parents-together-9099
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:5ac589965a1d@croton.news
-DTSTART;TZID=America/New_York:20260501T121500
-SUMMARY:Shut Up & Write Meetup
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/shut-write-meetup-10278
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:4d562e7757b2@croton.news
-DTSTART;TZID=America/New_York:20260501T130000
-SUMMARY:Canasta: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/canasta-open-play-9789
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:a0b6eef5693a@croton.news
-DTSTART;TZID=America/New_York:20260502T100000
-SUMMARY:Spring Book and Bake Sale
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/spring-book-and-bake-sale-10915
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:ce7caeb81eea@croton.news
-DTSTART;TZID=America/New_York:20260502T103000
-SUMMARY:Storytime Yoga
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/storytime-yoga-9141
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:c7cda088336d@croton.news
-DTSTART;TZID=America/New_York:20260503T100000
-SUMMARY:Spring Book and Bake Sale
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/spring-book-and-bake-sale-10916
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9245655d29d5@croton.news
-DTSTART;TZID=America/New_York:20260503T150000
-SUMMARY:Girl Scouts Meeting
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/girl-scouts-meeting-9742
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:1718d11ed86c@croton.news
-DTSTART;TZID=America/New_York:20260504T190000
-SUMMARY:Short Story Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/short-story-group-10948
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:c43d9d1f0e41@croton.news
-DTSTART;TZID=America/New_York:20260505T103000
-SUMMARY:Babytime with Lauren
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/babytime-lauren-8917
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:97f759f69634@croton.news
-DTSTART;TZID=America/New_York:20260505T103000
-SUMMARY:Living with Grief: Ongoing Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-10446
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:229c2eb50976@croton.news
-DTSTART;TZID=America/New_York:20260505T144500
-SUMMARY:LEGO Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/lego-club-10365
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:b43d1be03fb4@croton.news
-DTSTART;TZID=America/New_York:20260505T190000
-SUMMARY:English Conversation Hour
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/english-conversation-hour-9862
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:61d769919d54@croton.news
-DTSTART;TZID=America/New_York:20260505T190000
-SUMMARY:Croton AHAC Meeting
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-ahac-meeting-9214
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:64548c67923d@croton.news
-DTSTART;TZID=America/New_York:20260505T190000
-SUMMARY:Croton Lions Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-lions-club-8730
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:da4311438623@croton.news
-DTSTART;TZID=America/New_York:20260506T100000
-SUMMARY:Croton Library Book Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-library-book-club-10230
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:0125268afe6b@croton.news
-DTSTART;TZID=America/New_York:20260506T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9937
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:1f1436937913@croton.news
-DTSTART;TZID=America/New_York:20260506T101500
-SUMMARY:Preschool Storytime with Chris
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/preschool-storytime-chris-9458
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:58ac96f81154@croton.news
-DTSTART;TZID=America/New_York:20260506T153000
-SUMMARY:Homework Help
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/homework-help-10537
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:d5f47615580a@croton.news
-DTSTART;TZID=America/New_York:20260507T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9989
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:2005da4a066f@croton.news
-DTSTART;TZID=America/New_York:20260507T103000
-SUMMARY:Music and Movement w/ Lori Cohen
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-9042
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:b8bf7ac89ef2@croton.news
-DTSTART;TZID=America/New_York:20260507T111500
-SUMMARY:Parents & Infants Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-10983
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:27ba2f9d9165@croton.news
-DTSTART;TZID=America/New_York:20260507T123000
-SUMMARY:Mah Jongg Lessons
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-lessons-10932
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:7c9375ac7816@croton.news
-DTSTART;TZID=America/New_York:20260507T150000
-SUMMARY:Young Writers' Workshop
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/young-writers-workshop-11039
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:b685e1b15a13@croton.news
-DTSTART;TZID=America/New_York:20260507T160000
-SUMMARY:Chess for Kids & Teens
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/chess-kids-teens-11047
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9af9ea8bccf3@croton.news
-DTSTART;TZID=America/New_York:20260507T190000
-SUMMARY:Mother-Daughter Book Club 1
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mother-daughter-book-club-1-8670
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:1b044ca63b97@croton.news
-DTSTART;TZID=America/New_York:20260507T190000
-SUMMARY:Under 300 Book Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/under-300-book-club-9874
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:ca150268880b@croton.news
-DTSTART;TZID=America/New_York:20260507T190000
-SUMMARY:Cortlandt Democratic Committee
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/cortlandt-democratic-committee-10188
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:f77b26eb2a46@croton.news
-DTSTART;TZID=America/New_York:20260507T193000
-SUMMARY:CHUFSD Board of Education Budget Meeting
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/chufsd-board-education-budget-meeting-11018
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:7187069a5bf0@croton.news
-DTSTART;TZID=America/New_York:20260508T103000
-SUMMARY:Musical Round-Up with Rose
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/musical-round-rose-10994
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:de2b39d6c422@croton.news
-DTSTART;TZID=America/New_York:20260508T113000
-SUMMARY:New Parents Together
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/new-parents-together-9100
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:365c682c11dd@croton.news
-DTSTART;TZID=America/New_York:20260508T121500
-SUMMARY:Shut Up & Write Meetup
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/shut-write-meetup-10279
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:0667a514214d@croton.news
-DTSTART;TZID=America/New_York:20260508T130000
-SUMMARY:Canasta: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/canasta-open-play-9790
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:a36c47b34bb5@croton.news
-DTSTART;TZID=America/New_York:20260509T103000
-SUMMARY:Storytime Yoga
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/storytime-yoga-9142
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9ceca64b5646@croton.news
-DTSTART;TZID=America/New_York:20260509T190000
-SUMMARY:Concert: Carlos Pavan
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/concert-carlos-pavan-10927
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:91f25f5c3e8e@croton.news
-DTSTART;TZID=America/New_York:20260511T130000
-SUMMARY:Mobile Office Hours with Dana Levenberg
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mobile-office-hours-dana-levenberg-10145
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:221781322ecd@croton.news
-DTSTART;TZID=America/New_York:20260511T183000
-SUMMARY:National MS Society Meeting
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/national-ms-society-meeting-9330
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:2801a2d79b2e@croton.news
-DTSTART;TZID=America/New_York:20260511T190000
-SUMMARY:Short Story Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/short-story-group-10949
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:f288271b0276@croton.news
-DTSTART;TZID=America/New_York:20260511T193000
-SUMMARY:Write Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/write-club-10826
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:38930c4b394b@croton.news
-DTSTART;TZID=America/New_York:20260511T193000
-SUMMARY:Library Board Meeting
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/library-board-meeting-8493
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:42956f958da8@croton.news
-DTSTART;TZID=America/New_York:20260512T103000
-SUMMARY:Babytime with Lauren
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/babytime-lauren-8918
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:a4e66b5db8aa@croton.news
-DTSTART;TZID=America/New_York:20260512T103000
-SUMMARY:Living with Grief: Ongoing Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-10447
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:96ec431c3aab@croton.news
-DTSTART;TZID=America/New_York:20260512T144500
-SUMMARY:LEGO Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/lego-club-10366
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:ce6d86a96478@croton.news
-DTSTART;TZID=America/New_York:20260512T190000
-SUMMARY:English Conversation Hour
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/english-conversation-hour-9863
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:df8da8619160@croton.news
-DTSTART;TZID=America/New_York:20260512T190000
-SUMMARY:Hudson River Toastmasters
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/hudson-river-toastmasters-8108
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:749b14df3022@croton.news
-DTSTART;TZID=America/New_York:20260513T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9938
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:7432da871c41@croton.news
-DTSTART;TZID=America/New_York:20260513T101500
-SUMMARY:Preschool Storytime with Chris
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/preschool-storytime-chris-9459
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:88d365482b16@croton.news
-DTSTART;TZID=America/New_York:20260513T110000
-SUMMARY:FIESTA! with Flor
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/fiesta-flor-8960
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:1991ffc88425@croton.news
-DTSTART;TZID=America/New_York:20260513T153000
-SUMMARY:Homework Help
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/homework-help-10538
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:fc34782f1d4a@croton.news
-DTSTART;TZID=America/New_York:20260514T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9990
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:f739f12bb534@croton.news
-DTSTART;TZID=America/New_York:20260514T103000
-SUMMARY:Music and Movement w/ Lori Cohen
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-9043
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:47a80287cd88@croton.news
-DTSTART;TZID=America/New_York:20260514T111500
-SUMMARY:Parents & Infants Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-10984
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:d708e668cc11@croton.news
-DTSTART;TZID=America/New_York:20260514T150000
-SUMMARY:Young Writers' Workshop
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/young-writers-workshop-11040
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:25a94b3dd3b8@croton.news
-DTSTART;TZID=America/New_York:20260514T160000
-SUMMARY:Chess for Kids & Teens
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/chess-kids-teens-11048
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:e06bf1c8f5fb@croton.news
-DTSTART;TZID=America/New_York:20260514T190000
-SUMMARY:Girl Scouts Leaders' Meeting
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/girl-scouts-leaders-meeting-8856
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:3c53980ce53e@croton.news
-DTSTART;TZID=America/New_York:20260514T190000
-SUMMARY:Croton Friends of History
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-friends-history-8117
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:82d497c72860@croton.news
-DTSTART;TZID=America/New_York:20260515T103000
-SUMMARY:Musical Round-Up with Rose
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/musical-round-rose-10995
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:70342b2cbf2f@croton.news
-DTSTART;TZID=America/New_York:20260515T113000
-SUMMARY:New Parents Together
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/new-parents-together-9101
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:d5d13f720670@croton.news
-DTSTART;TZID=America/New_York:20260515T121500
-SUMMARY:Shut Up & Write Meetup
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/shut-write-meetup-10280
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:255a2224b602@croton.news
-DTSTART;TZID=America/New_York:20260515T130000
-SUMMARY:Canasta: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/canasta-open-play-9791
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:1978319bfde2@croton.news
-DTSTART;TZID=America/New_York:20260516T103000
-SUMMARY:Storytime Yoga
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/storytime-yoga-9143
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:aa59b2e88101@croton.news
-DTSTART;TZID=America/New_York:20260516T180000
-SUMMARY:Concert: Nenad Bach
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/concert-nenad-bach-10928
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:bf893252d18c@croton.news
-DTSTART;TZID=America/New_York:20260517T131500
-SUMMARY:Demystifying Medicare and Healthcare Coverage for Seniors
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/demystifying-medicare-and-healthcare-coverage-seniors-10214
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:2e0521405cf6@croton.news
-DTSTART;TZID=America/New_York:20260518T153000
-SUMMARY:Reading Through Pictures Book Club (K-1st grade)
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/reading-through-pictures-book-club-k-1st-grade-10872
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:b87409896b7a@croton.news
-DTSTART;TZID=America/New_York:20260518T190000
-SUMMARY:Short Story Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/short-story-group-10950
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:409cb5a2258a@croton.news
-DTSTART;TZID=America/New_York:20260518T190000
-SUMMARY:Director's Cut
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/directors-cut-10030
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:0e41e7d2d425@croton.news
-DTSTART;TZID=America/New_York:20260518T193000
-SUMMARY:Mother-Daughter Book Club II
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mother-daughter-book-club-ii-8682
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:45bfe2c538e3@croton.news
-DTSTART;TZID=America/New_York:20260519T060000
-SUMMARY:Library and School District Vote
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/library-and-school-district-vote-11053
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9a38220b02e3@croton.news
-DTSTART;TZID=America/New_York:20260519T103000
-SUMMARY:Babytime with Lauren
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/babytime-lauren-8919
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:98d7f179a8e4@croton.news
-DTSTART;TZID=America/New_York:20260519T103000
-SUMMARY:Living with Grief: Ongoing Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-10448
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:8d9de2e66e82@croton.news
-DTSTART;TZID=America/New_York:20260519T144500
-SUMMARY:LEGO Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/lego-club-10367
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:218201a7fc2d@croton.news
-DTSTART;TZID=America/New_York:20260519T160000
-SUMMARY:Plant Swap
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/plant-swap-11079
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:071f0d772a74@croton.news
-DTSTART;TZID=America/New_York:20260519T190000
-SUMMARY:English Conversation Hour
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/english-conversation-hour-9864
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:cd24aea442ab@croton.news
-DTSTART;TZID=America/New_York:20260519T190000
-SUMMARY:CHAMP Booters Meeting
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/champ-meeting-11059
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:bd02a0d0a23c@croton.news
-DTSTART;TZID=America/New_York:20260520T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9939
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:3ba6a38e6686@croton.news
-DTSTART;TZID=America/New_York:20260520T101500
-SUMMARY:Preschool Storytime with Chris
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/preschool-storytime-chris-9460
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:7d0fea477b41@croton.news
-DTSTART;TZID=America/New_York:20260520T110000
-SUMMARY:FIESTA! with Flor
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/fiesta-flor-8961
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:ef67eeb54eb1@croton.news
-DTSTART;TZID=America/New_York:20260520T153000
-SUMMARY:Homework Help
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/homework-help-10539
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:b90fe8cf9332@croton.news
-DTSTART;TZID=America/New_York:20260521T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9991
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:8b81421093d8@croton.news
-DTSTART;TZID=America/New_York:20260521T103000
-SUMMARY:Music and Movement w/ Lori Cohen
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-9044
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:ca64c682d1c5@croton.news
-DTSTART;TZID=America/New_York:20260521T111500
-SUMMARY:Parents & Infants Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-10985
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:bf5e7ff53e00@croton.news
-DTSTART;TZID=America/New_York:20260521T123000
-SUMMARY:Mah Jongg Lessons
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-lessons-11083
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:65a2218160ba@croton.news
-DTSTART;TZID=America/New_York:20260521T150000
-SUMMARY:Young Writers' Workshop
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/young-writers-workshop-11041
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:e981c782a2bb@croton.news
-DTSTART;TZID=America/New_York:20260521T160000
-SUMMARY:Chess for Kids & Teens
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/chess-kids-teens-11049
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:398e3a6d546e@croton.news
-DTSTART;TZID=America/New_York:20260522T103000
-SUMMARY:Musical Round-Up with Rose
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/musical-round-rose-10996
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:751961c0b2ad@croton.news
-DTSTART;TZID=America/New_York:20260522T113000
-SUMMARY:New Parents Together
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/new-parents-together-9102
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:afb36ed102f8@croton.news
-DTSTART;TZID=America/New_York:20260522T121500
-SUMMARY:Shut Up & Write Meetup
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/shut-write-meetup-10281
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:13a36d90b860@croton.news
-DTSTART;TZID=America/New_York:20260522T130000
-SUMMARY:Canasta: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/canasta-open-play-9792
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:ddae1d50fa63@croton.news
-DTSTART;TZID=America/New_York:20260523T103000
-SUMMARY:Storytime Yoga
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/storytime-yoga-9144
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:42e2528d90c3@croton.news
-DTSTART;VALUE=DATE:20260525
-SUMMARY:Closed for Memorial Day
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/closed-memorial-day-10077
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:5c690c48751f@croton.news
-DTSTART;TZID=America/New_York:20260526T103000
-SUMMARY:Babytime with Lauren
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/babytime-lauren-8920
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:0b8c256281d6@croton.news
-DTSTART;TZID=America/New_York:20260526T103000
-SUMMARY:Living with Grief: Ongoing Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-10449
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:007ddb18c52c@croton.news
-DTSTART;TZID=America/New_York:20260526T144500
-SUMMARY:LEGO Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/lego-club-10368
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:6225e3b2e3f7@croton.news
-DTSTART;TZID=America/New_York:20260526T190000
-SUMMARY:English Conversation Hour
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/english-conversation-hour-9865
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:70db964a9db8@croton.news
-DTSTART;TZID=America/New_York:20260527T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9940
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:cce835769eda@croton.news
-DTSTART;TZID=America/New_York:20260527T101500
-SUMMARY:Preschool Storytime with Chris
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/preschool-storytime-chris-9461
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9f72e56a6c9e@croton.news
-DTSTART;TZID=America/New_York:20260527T110000
-SUMMARY:FIESTA! with Flor
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/fiesta-flor-8962
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:de0166ad7d39@croton.news
-DTSTART;TZID=America/New_York:20260527T153000
-SUMMARY:Homework Help
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/homework-help-10540
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:05eb46f1a0a6@croton.news
-DTSTART;TZID=America/New_York:20260528T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9992
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:e2a48cd41fa3@croton.news
-DTSTART;TZID=America/New_York:20260528T103000
-SUMMARY:Music and Movement w/ Lori Cohen
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-9045
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:b2459c52e41b@croton.news
-DTSTART;TZID=America/New_York:20260528T111500
-SUMMARY:Parents & Infants Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-10986
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:c79a79974415@croton.news
-DTSTART;TZID=America/New_York:20260528T123000
-SUMMARY:Mah Jongg Lessons
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-lessons-11084
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:af0e889c5a7f@croton.news
-DTSTART;TZID=America/New_York:20260528T150000
-SUMMARY:Young Writers' Workshop
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/young-writers-workshop-11042
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:76550bc71471@croton.news
-DTSTART;TZID=America/New_York:20260528T160000
-SUMMARY:Chess for Kids & Teens
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/chess-kids-teens-11050
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:f0955933c23f@croton.news
-DTSTART;TZID=America/New_York:20260528T190000
-SUMMARY:NAMI Westchester Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/nami-westchester-support-group-9286
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9fb64e9d881b@croton.news
-DTSTART;TZID=America/New_York:20260528T190000
-SUMMARY:Croton Democratic Committee
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-democratic-committee-10458
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:a86f4311dcd7@croton.news
-DTSTART;TZID=America/New_York:20260529T103000
-SUMMARY:Musical Round-Up with Rose
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/musical-round-rose-10997
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:5d7abb8aeac7@croton.news
-DTSTART;TZID=America/New_York:20260529T113000
-SUMMARY:New Parents Together
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/new-parents-together-9103
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:31bfed885041@croton.news
-DTSTART;TZID=America/New_York:20260529T121500
-SUMMARY:Shut Up & Write Meetup
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/shut-write-meetup-10282
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:28d6121c3923@croton.news
-DTSTART;TZID=America/New_York:20260529T130000
-SUMMARY:Canasta: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/canasta-open-play-9793
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:7a556ebd689a@croton.news
-DTSTART;TZID=America/New_York:20260530T100000
-SUMMARY:Blood Drive
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/blood-drive-9907
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9a24929e5507@croton.news
-DTSTART;TZID=America/New_York:20260530T103000
-SUMMARY:Storytime Yoga
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/storytime-yoga-9145
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:b90b326bd4de@croton.news
-DTSTART;TZID=America/New_York:20260531T140000
-SUMMARY:Riverview Jazz Concert
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/riverview-jazz-concert-10894
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9eb342a04fb0@croton.news
-DTSTART;TZID=America/New_York:20260601T190000
-SUMMARY:Mother-Daughter Book Club 1
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mother-daughter-book-club-1-8671
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:2368b3e51275@croton.news
-DTSTART;TZID=America/New_York:20260601T190000
-SUMMARY:Short Story Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/short-story-group-10951
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9706fa2fa3d0@croton.news
-DTSTART;TZID=America/New_York:20260602T103000
-SUMMARY:Babytime with Lauren
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/babytime-lauren-8921
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:fbac3b5437ec@croton.news
-DTSTART;TZID=America/New_York:20260602T103000
-SUMMARY:Living with Grief: Ongoing Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-10450
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:f7f87111b268@croton.news
-DTSTART;TZID=America/New_York:20260602T144500
-SUMMARY:LEGO Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/lego-club-10369
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:358b53a75959@croton.news
-DTSTART;TZID=America/New_York:20260602T190000
-SUMMARY:English Conversation Hour
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/english-conversation-hour-9866
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:a45888cbb60e@croton.news
-DTSTART;TZID=America/New_York:20260602T190000
-SUMMARY:Croton AHAC Meeting
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-ahac-meeting-9215
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:a668ec420efc@croton.news
-DTSTART;TZID=America/New_York:20260602T190000
-SUMMARY:Croton Lions Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-lions-club-8731
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:fe75b5877739@croton.news
-DTSTART;TZID=America/New_York:20260603T100000
-SUMMARY:Croton Library Book Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-library-book-club-10231
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:bad4ed032716@croton.news
-DTSTART;TZID=America/New_York:20260603T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9941
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:2a99816a00f0@croton.news
-DTSTART;TZID=America/New_York:20260603T101500
-SUMMARY:Preschool Storytime with Chris
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/preschool-storytime-chris-9462
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:3e3bd783d990@croton.news
-DTSTART;TZID=America/New_York:20260603T110000
-SUMMARY:FIESTA! with Flor
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/fiesta-flor-8963
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:b19ed66bca8f@croton.news
-DTSTART;TZID=America/New_York:20260603T153000
-SUMMARY:Homework Help
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/homework-help-10541
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:24b4b71cb87d@croton.news
-DTSTART;TZID=America/New_York:20260604T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9993
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:5c442df37ca8@croton.news
-DTSTART;TZID=America/New_York:20260604T103000
-SUMMARY:Music and Movement w/ Lori Cohen
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-9046
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:84f9c5255aaa@croton.news
-DTSTART;TZID=America/New_York:20260604T111500
-SUMMARY:Parents & Infants Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-10987
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:3f1c17ccd914@croton.news
-DTSTART;TZID=America/New_York:20260604T123000
-SUMMARY:Mah Jongg Lessons
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-lessons-11085
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:4b9155aa4234@croton.news
-DTSTART;TZID=America/New_York:20260604T190000
-SUMMARY:Cortlandt Democratic Committee
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/cortlandt-democratic-committee-10189
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:b2e05bd1c67f@croton.news
-DTSTART;TZID=America/New_York:20260605T103000
-SUMMARY:Musical Round-Up with Rose
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/musical-round-rose-10998
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:c347b7a66afa@croton.news
-DTSTART;TZID=America/New_York:20260605T113000
-SUMMARY:New Parents Together
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/new-parents-together-9104
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:67ac79ed0ca5@croton.news
-DTSTART;TZID=America/New_York:20260605T121500
-SUMMARY:Shut Up & Write Meetup
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/shut-write-meetup-10283
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:77b75d268c99@croton.news
-DTSTART;TZID=America/New_York:20260605T130000
-SUMMARY:Canasta: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/canasta-open-play-9794
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:acba5ba101a0@croton.news
-DTSTART;TZID=America/New_York:20260606T103000
-SUMMARY:Storytime Yoga
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/storytime-yoga-9146
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:0148d4cb923e@croton.news
-DTSTART;TZID=America/New_York:20260607T130000
-SUMMARY:Croton Summerfest
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-summerfest-11017
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:fde9e3d8752e@croton.news
-DTSTART;TZID=America/New_York:20260607T150000
-SUMMARY:Girl Scouts Meeting
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/girl-scouts-meeting-9743
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:2eac2091ac1a@croton.news
-DTSTART;TZID=America/New_York:20260608T183000
-SUMMARY:National MS Society Meeting
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/national-ms-society-meeting-9331
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:2f01d84d0060@croton.news
-DTSTART;TZID=America/New_York:20260608T190000
-SUMMARY:Short Story Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/short-story-group-10952
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:6ed2599f7a39@croton.news
-DTSTART;TZID=America/New_York:20260608T193000
-SUMMARY:Library Board Meeting
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/library-board-meeting-8494
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:8f9603f305dc@croton.news
-DTSTART;TZID=America/New_York:20260609T103000
-SUMMARY:Babytime with Lauren
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/babytime-lauren-8922
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:663dca338c97@croton.news
-DTSTART;TZID=America/New_York:20260609T103000
-SUMMARY:Living with Grief: Ongoing Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-10451
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:f538696c8a61@croton.news
-DTSTART;TZID=America/New_York:20260609T144500
-SUMMARY:LEGO Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/lego-club-10370
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:64df718eddf9@croton.news
-DTSTART;TZID=America/New_York:20260609T190000
-SUMMARY:English Conversation Hour
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/english-conversation-hour-9867
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:db2b704008f7@croton.news
-DTSTART;TZID=America/New_York:20260609T190000
-SUMMARY:Hudson River Toastmasters
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/hudson-river-toastmasters-8109
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:3904c71cc2da@croton.news
-DTSTART;TZID=America/New_York:20260610T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9942
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9427ef3b7ff8@croton.news
-DTSTART;TZID=America/New_York:20260610T101500
-SUMMARY:Preschool Storytime with Chris
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/preschool-storytime-chris-9463
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9eea9253c313@croton.news
-DTSTART;TZID=America/New_York:20260610T110000
-SUMMARY:FIESTA! with Flor
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/fiesta-flor-8964
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:247f164e0458@croton.news
-DTSTART;TZID=America/New_York:20260610T153000
-SUMMARY:Homework Help
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/homework-help-10542
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:33928304b44c@croton.news
-DTSTART;TZID=America/New_York:20260611T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9994
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:3d44ba929a30@croton.news
-DTSTART;TZID=America/New_York:20260611T103000
-SUMMARY:Music and Movement w/ Lori Cohen
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-9047
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:3b999e0481fc@croton.news
-DTSTART;TZID=America/New_York:20260611T111500
-SUMMARY:Parents & Infants Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-10988
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:82f6164e51ea@croton.news
-DTSTART;TZID=America/New_York:20260611T123000
-SUMMARY:Mah Jongg Lessons
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-lessons-11086
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:0af69b59779c@croton.news
-DTSTART;TZID=America/New_York:20260611T190000
-SUMMARY:Girl Scouts Leaders' Meeting
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/girl-scouts-leaders-meeting-8857
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:59be25f78d45@croton.news
-DTSTART;TZID=America/New_York:20260611T190000
-SUMMARY:Croton Friends of History
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-friends-history-8118
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:1d250cc3825c@croton.news
-DTSTART;TZID=America/New_York:20260612T103000
-SUMMARY:Musical Round-Up with Rose
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/musical-round-rose-10999
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:5587c9b07c87@croton.news
-DTSTART;TZID=America/New_York:20260612T113000
-SUMMARY:New Parents Together
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/new-parents-together-9105
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:2d0a875b0327@croton.news
-DTSTART;TZID=America/New_York:20260612T121500
-SUMMARY:Shut Up & Write Meetup
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/shut-write-meetup-10284
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:92f0b84ccdaa@croton.news
-DTSTART;TZID=America/New_York:20260612T130000
-SUMMARY:Canasta: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/canasta-open-play-9795
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:8c5add4b7fc8@croton.news
-DTSTART;TZID=America/New_York:20260613T103000
-SUMMARY:Storytime Yoga
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/storytime-yoga-9147
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:4af329967d4b@croton.news
-DTSTART;TZID=America/New_York:20260614T140000
-SUMMARY:Bennett Conservatory Recitals
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/bennett-conservatory-recitals-9378
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:adf024be683e@croton.news
-DTSTART;TZID=America/New_York:20260615T190000
-SUMMARY:Short Story Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/short-story-group-10953
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:aa41a209f7d9@croton.news
-DTSTART;TZID=America/New_York:20260615T193000
-SUMMARY:Write Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/write-club-10827
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:a5898f91b2bf@croton.news
-DTSTART;TZID=America/New_York:20260616T103000
-SUMMARY:Babytime with Lauren
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/babytime-lauren-8923
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:c0d6428f15bc@croton.news
-DTSTART;TZID=America/New_York:20260616T103000
-SUMMARY:Living with Grief: Ongoing Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-10452
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:317a12c781bd@croton.news
-DTSTART;TZID=America/New_York:20260616T144500
-SUMMARY:LEGO Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/lego-club-10371
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:340d77c06615@croton.news
-DTSTART;TZID=America/New_York:20260616T190000
-SUMMARY:English Conversation Hour
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/english-conversation-hour-9868
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:de370bedbb6b@croton.news
-DTSTART;TZID=America/New_York:20260617T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9943
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:1a9d5133011f@croton.news
-DTSTART;TZID=America/New_York:20260617T101500
-SUMMARY:Preschool Storytime with Chris
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/preschool-storytime-chris-9464
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9bef94f237f5@croton.news
-DTSTART;TZID=America/New_York:20260617T110000
-SUMMARY:FIESTA! with Flor
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/fiesta-flor-8965
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:178fca875694@croton.news
-DTSTART;TZID=America/New_York:20260617T153000
-SUMMARY:Homework Help
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/homework-help-10543
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:44a99ef874a6@croton.news
-DTSTART;TZID=America/New_York:20260618T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9995
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:9db022937802@croton.news
-DTSTART;TZID=America/New_York:20260618T103000
-SUMMARY:Music and Movement w/ Lori Cohen
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-9048
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:eb9d8bc56434@croton.news
-DTSTART;TZID=America/New_York:20260618T111500
-SUMMARY:Parents & Infants Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-10989
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:4e54cfc16e2c@croton.news
-DTSTART;VALUE=DATE:20260619
-SUMMARY:Closed for Juneteenth
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/closed-juneteenth-10080
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:0491a7f8b77a@croton.news
-DTSTART;TZID=America/New_York:20260620T103000
-SUMMARY:Storytime Yoga
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/storytime-yoga-9148
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:2f14aa099d9c@croton.news
-DTSTART;TZID=America/New_York:20260622T190000
-SUMMARY:Short Story Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/short-story-group-10954
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:db86571536dd@croton.news
-DTSTART;TZID=America/New_York:20260622T190000
-SUMMARY:Director's Cut
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/directors-cut-10031
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:70e3e932037b@croton.news
-DTSTART;TZID=America/New_York:20260623T103000
-SUMMARY:Living with Grief: Ongoing Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-10453
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:da624a743840@croton.news
-DTSTART;TZID=America/New_York:20260623T144500
-SUMMARY:LEGO Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/lego-club-10372
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:b513c2892069@croton.news
-DTSTART;TZID=America/New_York:20260623T190000
-SUMMARY:English Conversation Hour
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/english-conversation-hour-9869
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:0a1a55f6d8b1@croton.news
-DTSTART;TZID=America/New_York:20260624T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9944
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:4ddb2eca2603@croton.news
-DTSTART;TZID=America/New_York:20260625T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9996
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:30df5e2f5914@croton.news
-DTSTART;TZID=America/New_York:20260625T190000
-SUMMARY:NAMI Westchester Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/nami-westchester-support-group-9287
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:ce6b0fec18f7@croton.news
-DTSTART;TZID=America/New_York:20260625T190000
-SUMMARY:Croton Democratic Committee
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-democratic-committee-10459
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:cccd422a629d@croton.news
-DTSTART;TZID=America/New_York:20260626T121500
-SUMMARY:Shut Up & Write Meetup
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/shut-write-meetup-10285
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:646edb9b6851@croton.news
-DTSTART;TZID=America/New_York:20260626T130000
-SUMMARY:Canasta: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/canasta-open-play-9797
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:2977a967c1ce@croton.news
-DTSTART;TZID=America/New_York:20260627T100000
-SUMMARY:Blood Drive
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/blood-drive-9908
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:5169528b3a91@croton.news
-DTSTART;TZID=America/New_York:20260629T193000
-SUMMARY:Mother-Daughter Book Club II
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mother-daughter-book-club-ii-8683
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:846f11f624d9@croton.news
-DTSTART;TZID=America/New_York:20260630T103000
-SUMMARY:Living with Grief: Ongoing Support Group
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-10454
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:b974035b1b08@croton.news
-DTSTART;TZID=America/New_York:20260630T190000
-SUMMARY:English Conversation Hour
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/english-conversation-hour-9870
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:7ba0dd7e4c2f@croton.news
-DTSTART;TZID=America/New_York:20260701T100000
-SUMMARY:Croton Library Book Club
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-library-book-club-10232
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:4be1606a06ca@croton.news
-DTSTART;TZID=America/New_York:20260701T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9945
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:84fe8fd16ff0@croton.news
-DTSTART;TZID=America/New_York:20260702T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9997
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:750286ae60cc@croton.news
-DTSTART;TZID=America/New_York:20260702T190000
-SUMMARY:Cortlandt Democratic Committee
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/cortlandt-democratic-committee-10190
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:593049ba9974@croton.news
-DTSTART;VALUE=DATE:20260704
-SUMMARY:Closed for July 4
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/closed-july-4-2
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:8f47e006e468@croton.news
-DTSTART;TZID=America/New_York:20260706T190000
-SUMMARY:Mother-Daughter Book Club 1
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mother-daughter-book-club-1-8672
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:a4b759936063@croton.news
-DTSTART;TZID=America/New_York:20260707T190000
-SUMMARY:Croton AHAC Meeting
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-ahac-meeting-9216
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:d99f20e9fad4@croton.news
-DTSTART;TZID=America/New_York:20260708T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9946
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:83f73a8534dd@croton.news
-DTSTART;TZID=America/New_York:20260709T100000
-SUMMARY:Mah Jongg: Open Play
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9998
+URL:https://ossining.librarycalendar.com/event/clases-introductorias-en-ingles-para-adultos-beginning-english-adults-11376
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2213,11 +44,29 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:94214d75df0a@croton.news
+DTSTART;TZID=America/New_York:20260714T194500
+SUMMARY:Sunset Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/sunset-yoga-11372
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:3b4bfad51e3f@croton.news
 DTSTART;TZID=America/New_York:20260715T100000
 SUMMARY:Mah Jongg: Open Play
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9947
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4b0325acb8bb@croton.news
+DTSTART;TZID=America/New_York:20260715T110000
+SUMMARY:FIESTA! with Flor
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/fiesta-flor-11592
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2231,11 +80,191 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:7cd8de51b654@croton.news
+DTSTART;TZID=America/New_York:20260716T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-11566
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:641cb82e9877@croton.news
+DTSTART;TZID=America/New_York:20260716T190000
+SUMMARY:Clases introductorias en ingles para adultos / Beginning English for Adults
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/clases-introductorias-en-ingles-para-adultos-beginning-english-adults-11377
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:245b1dc6ec5c@croton.news
+DTSTART;TZID=America/New_York:20260717T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/musical-round-rose-11573
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:19d289303c86@croton.news
+DTSTART;TZID=America/New_York:20260717T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/new-parents-together-11580
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8c0a5d82894c@croton.news
+DTSTART;TZID=America/New_York:20260717T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/shut-write-meetup-11249
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:58ac6e3b4861@croton.news
+DTSTART;TZID=America/New_York:20260717T190000
+SUMMARY:Concert: The Music of Latin America
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/concert-cuban-brazilian-quintet-11087
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:41e6857decf2@croton.news
+DTSTART;TZID=America/New_York:20260718T083000
+SUMMARY:CSA Pickup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/csa-pickup-11148
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:bf15bca818b7@croton.news
+DTSTART;TZID=America/New_York:20260718T103000
+SUMMARY:Storytime Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/storytime-yoga-11587
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4207c947ee9f@croton.news
+DTSTART;TZID=America/New_York:20260718T130000
+SUMMARY:DIY Lanternfly Traps
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/diy-lanternfly-traps-11656
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:84a12e6bc1b2@croton.news
+DTSTART;TZID=America/New_York:20260719T143000
+SUMMARY:World Cup Watch Party
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/world-cup-watch-party-11624
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c907c95876ed@croton.news
+DTSTART;TZID=America/New_York:20260720T134500
+SUMMARY:Shakespeare Mini-Camp
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/shakespeare-mini-camp-11301
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e146876b0e92@croton.news
+DTSTART;TZID=America/New_York:20260720T163000
+SUMMARY:Croton Craft Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/croton-craft-group-11492
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:95a7aeec75af@croton.news
+DTSTART;TZID=America/New_York:20260720T190000
+SUMMARY:Pajama Storytime
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/pajama-storytime-11413
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0f00ef913916@croton.news
+DTSTART;TZID=America/New_York:20260720T193000
+SUMMARY:Mother-Daughter Book Club II
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/mother-daughter-book-club-ii-8684
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:65cc45f1d784@croton.news
+DTSTART;TZID=America/New_York:20260721T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/babytime-lauren-11548
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:dce8334ce7b5@croton.news
+DTSTART;TZID=America/New_York:20260721T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11516
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:51d1d052ea77@croton.news
+DTSTART;TZID=America/New_York:20260721T134500
+SUMMARY:Shakespeare Mini-Camp
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/shakespeare-mini-camp-11302
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:aed7b91c4318@croton.news
+DTSTART;TZID=America/New_York:20260721T190000
+SUMMARY:Clases introductorias en ingles para adultos / Beginning English for Adults
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/clases-introductorias-en-ingles-para-adultos-beginning-english-adults-11378
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:bab4f6454b4b@croton.news
+DTSTART;TZID=America/New_York:20260721T194500
+SUMMARY:Sunset Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/sunset-yoga-11373
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:3912601cf494@croton.news
 DTSTART;TZID=America/New_York:20260722T100000
 SUMMARY:Mah Jongg: Open Play
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-9948
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d76ba7bc6e50@croton.news
+DTSTART;TZID=America/New_York:20260722T134500
+SUMMARY:Shakespeare Mini-Camp
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/shakespeare-mini-camp-11303
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2249,6 +278,42 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:3df639b3aa9e@croton.news
+DTSTART;TZID=America/New_York:20260723T103000
+SUMMARY:Music and Movement w/ Lori Cohen
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-11560
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:22c80486a783@croton.news
+DTSTART;TZID=America/New_York:20260723T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-11567
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:debe4e928dd2@croton.news
+DTSTART;TZID=America/New_York:20260723T134500
+SUMMARY:Shakespeare Mini-Camp
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/shakespeare-mini-camp-11304
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c70adad82c88@croton.news
+DTSTART;TZID=America/New_York:20260723T190000
+SUMMARY:Clases introductorias en ingles para adultos / Beginning English for Adults
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/clases-introductorias-en-ingles-para-adultos-beginning-english-adults-11379
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:abc9e1327cfc@croton.news
 DTSTART;TZID=America/New_York:20260723T190000
 SUMMARY:NAMI Westchester Support Group
@@ -2258,11 +323,38 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
-UID:7752fc5ecd00@croton.news
-DTSTART;TZID=America/New_York:20260723T190000
-SUMMARY:Croton Democratic Committee
+UID:ff6abdc7462a@croton.news
+DTSTART;TZID=America/New_York:20260724T113000
+SUMMARY:New Parents Together
 LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/croton-democratic-committee-10460
+URL:https://ossining.librarycalendar.com/event/new-parents-together-11581
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:981ffbfabdc2@croton.news
+DTSTART;TZID=America/New_York:20260724T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/shut-write-meetup-11250
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:fda4607a9f36@croton.news
+DTSTART;TZID=America/New_York:20260724T134500
+SUMMARY:Shakespeare Mini-Camp
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/shakespeare-mini-camp-11305
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d3deb29292e4@croton.news
+DTSTART;TZID=America/New_York:20260725T083000
+SUMMARY:CSA Pickup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/csa-pickup-11149
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2276,11 +368,83 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
-UID:7091cee67f71@croton.news
-DTSTART;TZID=America/New_York:20260727T193000
-SUMMARY:Mother-Daughter Book Club II
+UID:8801c853ad00@croton.news
+DTSTART;TZID=America/New_York:20260725T103000
+SUMMARY:Storytime Yoga
 LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/mother-daughter-book-club-ii-8684
+URL:https://ossining.librarycalendar.com/event/storytime-yoga-11588
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f149999fb984@croton.news
+DTSTART;TZID=America/New_York:20260725T134500
+SUMMARY:Old English for Kids & Teens
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/old-english-kids-teens-11388
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ea1e6741d4f3@croton.news
+DTSTART;TZID=America/New_York:20260727T153000
+SUMMARY:Family Matinees
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/family-matinees-11355
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:71ba8546b63a@croton.news
+DTSTART;TZID=America/New_York:20260727T163000
+SUMMARY:Croton Craft Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/croton-craft-group-11493
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7251f274a5a7@croton.news
+DTSTART;TZID=America/New_York:20260727T190000
+SUMMARY:Pajama Storytime
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/pajama-storytime-11414
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0195f5afc01f@croton.news
+DTSTART;TZID=America/New_York:20260727T193000
+SUMMARY:Library Board Meeting (tentative)
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/library-board-meeting-tentative-11450
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ea9763a3116f@croton.news
+DTSTART;TZID=America/New_York:20260728T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/babytime-lauren-11549
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:141996828027@croton.news
+DTSTART;TZID=America/New_York:20260728T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11517
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e1d2edf4de49@croton.news
+DTSTART;TZID=America/New_York:20260728T190000
+SUMMARY:Clases introductorias en ingles para adultos / Beginning English for Adults
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/clases-introductorias-en-ingles-para-adultos-beginning-english-adults-11380
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2303,6 +467,114 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:488eda6327e6@croton.news
+DTSTART;TZID=America/New_York:20260730T103000
+SUMMARY:Music and Movement w/ Lori Cohen
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-11561
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:299a976d6e90@croton.news
+DTSTART;TZID=America/New_York:20260730T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-11568
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e2477bc323c9@croton.news
+DTSTART;TZID=America/New_York:20260730T173000
+SUMMARY:Best Buddies Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/best-buddies-meeting-11269
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:68a76e9f3089@croton.news
+DTSTART;TZID=America/New_York:20260730T190000
+SUMMARY:Clases introductorias en ingles para adultos / Beginning English for Adults
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/clases-introductorias-en-ingles-para-adultos-beginning-english-adults-11381
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b1bdced84191@croton.news
+DTSTART;TZID=America/New_York:20260731T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/musical-round-rose-11575
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:709436442288@croton.news
+DTSTART;TZID=America/New_York:20260731T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/new-parents-together-11582
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ac7df2f5b245@croton.news
+DTSTART;TZID=America/New_York:20260731T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/shut-write-meetup-11251
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b029df7454fe@croton.news
+DTSTART;TZID=America/New_York:20260801T083000
+SUMMARY:CSA Pickup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/csa-pickup-11150
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a29e73b82494@croton.news
+DTSTART;TZID=America/New_York:20260801T103000
+SUMMARY:Storytime Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/storytime-yoga-11589
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d2fab17dafc0@croton.news
+DTSTART;TZID=America/New_York:20260803T153000
+SUMMARY:Family Matinees
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/family-matinees-11356
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c22f9869db7a@croton.news
+DTSTART;TZID=America/New_York:20260803T163000
+SUMMARY:Croton Craft Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/croton-craft-group-11494
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b2cb800041b0@croton.news
+DTSTART;TZID=America/New_York:20260803T190000
+SUMMARY:Pajama Storytime
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/pajama-storytime-11415
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:20b95b446be7@croton.news
 DTSTART;TZID=America/New_York:20260803T190000
 SUMMARY:Mother-Daughter Book Club 1
@@ -2312,11 +584,47 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:941d5846b0b6@croton.news
+DTSTART;TZID=America/New_York:20260804T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/babytime-lauren-11553
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b0fd76c52aec@croton.news
+DTSTART;TZID=America/New_York:20260804T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11518
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9b717581e6e2@croton.news
+DTSTART;TZID=America/New_York:20260804T190000
+SUMMARY:Clases introductorias en ingles para adultos / Beginning English for Adults
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/clases-introductorias-en-ingles-para-adultos-beginning-english-adults-11382
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:c1649cffe76f@croton.news
 DTSTART;TZID=America/New_York:20260804T190000
 SUMMARY:Croton AHAC Meeting
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/croton-ahac-meeting-9217
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7afc210921dc@croton.news
+DTSTART;TZID=America/New_York:20260804T194500
+SUMMARY:Sunset Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/sunset-yoga-11375
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2339,6 +647,15 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:33b2648c2b73@croton.news
+DTSTART;TZID=America/New_York:20260805T110000
+SUMMARY:FIESTA! with Flor
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/fiesta-flor-11593
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:ccc9a188502c@croton.news
 DTSTART;TZID=America/New_York:20260806T100000
 SUMMARY:Mah Jongg: Open Play
@@ -2348,11 +665,164 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
-UID:dafc26bcb0ee@croton.news
-DTSTART;TZID=America/New_York:20260806T190000
-SUMMARY:Cortlandt Democratic Committee
+UID:abaa1c497d3b@croton.news
+DTSTART;TZID=America/New_York:20260806T103000
+SUMMARY:Music and Movement w/ Lori Cohen
 LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/cortlandt-democratic-committee-10191
+URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-11562
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:237967315252@croton.news
+DTSTART;TZID=America/New_York:20260806T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-11569
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:eb639542fab7@croton.news
+DTSTART;TZID=America/New_York:20260806T190000
+SUMMARY:Battle of the Books Practice
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/battle-books-practice-11427
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b95501a8fa23@croton.news
+DTSTART;TZID=America/New_York:20260806T190000
+SUMMARY:Under 300 Book Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/under-300-book-club-11316
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:59dbc605b68c@croton.news
+DTSTART;TZID=America/New_York:20260806T190000
+SUMMARY:Clases introductorias en ingles para adultos / Beginning English for Adults
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/clases-introductorias-en-ingles-para-adultos-beginning-english-adults-11383
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1336ac0c9baf@croton.news
+DTSTART;TZID=America/New_York:20260807T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/musical-round-rose-11610
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0860025f8034@croton.news
+DTSTART;TZID=America/New_York:20260807T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/new-parents-together-11583
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d16602491dc4@croton.news
+DTSTART;TZID=America/New_York:20260807T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/shut-write-meetup-11252
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:38568223c00e@croton.news
+DTSTART;TZID=America/New_York:20260808T083000
+SUMMARY:CSA Pickup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/csa-pickup-11151
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:70b806ed9389@croton.news
+DTSTART;TZID=America/New_York:20260808T103000
+SUMMARY:Storytime Yoga
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/storytime-yoga-11590
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:957944aa1d78@croton.news
+DTSTART;TZID=America/New_York:20260808T140000
+SUMMARY:Dia Beacon Guided Tour
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/dia-beacon-guided-tour-11620
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c9c2d0007d62@croton.news
+DTSTART;TZID=America/New_York:20260810T153000
+SUMMARY:Family Matinees
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/family-matinees-11357
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4373175de2b5@croton.news
+DTSTART;TZID=America/New_York:20260810T163000
+SUMMARY:Croton Craft Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/croton-craft-group-11495
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:cef35a6bfdd8@croton.news
+DTSTART;TZID=America/New_York:20260810T190000
+SUMMARY:Pajama Storytime
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/pajama-storytime-11416
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7eeb0281c237@croton.news
+DTSTART;TZID=America/New_York:20260811T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/babytime-lauren-11555
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:236450b43515@croton.news
+DTSTART;TZID=America/New_York:20260811T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11519
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:243bf08cb121@croton.news
+DTSTART;TZID=America/New_York:20260811T163000
+SUMMARY:Math Mini-Camp
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/math-mini-camp-11459
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d2eea4d92133@croton.news
+DTSTART;TZID=America/New_York:20260811T190000
+SUMMARY:Clases introductorias en ingles para adultos / Beginning English for Adults
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/clases-introductorias-en-ingles-para-adultos-beginning-english-adults-11384
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2375,11 +845,191 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:f8e3b9db87b5@croton.news
+DTSTART;TZID=America/New_York:20260812T110000
+SUMMARY:FIESTA! with Flor
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/fiesta-flor-11594
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:93056f28c36f@croton.news
+DTSTART;TZID=America/New_York:20260812T190000
+SUMMARY:Taconic Opera: La fille du Regiment
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/taconic-opera-la-fille-du-regiment-11481
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:73ceb4f8aec7@croton.news
 DTSTART;TZID=America/New_York:20260813T100000
 SUMMARY:Mah Jongg: Open Play
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-10003
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:103b4939d8e2@croton.news
+DTSTART;TZID=America/New_York:20260813T103000
+SUMMARY:Music and Movement w/ Lori Cohen
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-11563
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:f7623776e593@croton.news
+DTSTART;TZID=America/New_York:20260813T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-11570
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4228a1d53ef1@croton.news
+DTSTART;TZID=America/New_York:20260813T190000
+SUMMARY:Battle of the Books Practice
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/battle-books-practice-11428
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a73c0d4c48f9@croton.news
+DTSTART;TZID=America/New_York:20260813T190000
+SUMMARY:Clases introductorias en ingles para adultos / Beginning English for Adults
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/clases-introductorias-en-ingles-para-adultos-beginning-english-adults-11385
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7f1ee0cf0b7c@croton.news
+DTSTART;TZID=America/New_York:20260813T193000
+SUMMARY:Library Board Meeting (tentative)
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/library-board-meeting-tentative-11451
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5e630bdb4923@croton.news
+DTSTART;TZID=America/New_York:20260814T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/musical-round-rose-11611
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ebb8e5d7415e@croton.news
+DTSTART;TZID=America/New_York:20260814T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/new-parents-together-11584
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:88cad0b644a0@croton.news
+DTSTART;TZID=America/New_York:20260814T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/shut-write-meetup-11253
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:02830d481737@croton.news
+DTSTART;TZID=America/New_York:20260814T190000
+SUMMARY:Taconic Opera: La fille du Regiment
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/taconic-opera-la-fille-du-regiment-11482
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5bed31893097@croton.news
+DTSTART;TZID=America/New_York:20260815T083000
+SUMMARY:CSA Pickup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/csa-pickup-11152
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ecbe5880e510@croton.news
+DTSTART;TZID=America/New_York:20260816T150000
+SUMMARY:Taconic Opera: La fille du Regiment
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/taconic-opera-la-fille-du-regiment-11483
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:86d628b51e2a@croton.news
+DTSTART;TZID=America/New_York:20260817T153000
+SUMMARY:Family Matinee
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/family-matinee-11603
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:09fa160d80b6@croton.news
+DTSTART;TZID=America/New_York:20260817T163000
+SUMMARY:Croton Craft Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/croton-craft-group-11496
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:82257b33f06a@croton.news
+DTSTART;TZID=America/New_York:20260817T190000
+SUMMARY:Pajama Storytime
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/pajama-storytime-11417
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2c0c88678e79@croton.news
+DTSTART;TZID=America/New_York:20260818T103000
+SUMMARY:Babytime with Lauren
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/babytime-lauren-11557
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d1c13c23e443@croton.news
+DTSTART;TZID=America/New_York:20260818T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11520
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:92c9b5a11a6e@croton.news
+DTSTART;TZID=America/New_York:20260818T163000
+SUMMARY:Math Mini-Camp
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/math-mini-camp-11460
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:4e276e4f271c@croton.news
+DTSTART;TZID=America/New_York:20260818T190000
+SUMMARY:Clases introductorias en ingles para adultos / Beginning English for Adults
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/clases-introductorias-en-ingles-para-adultos-beginning-english-adults-11386
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2393,11 +1043,137 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:22fccf190251@croton.news
+DTSTART;TZID=America/New_York:20260819T110000
+SUMMARY:FIESTA! with Flor
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/fiesta-flor-11595
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:ba087b46fbff@croton.news
 DTSTART;TZID=America/New_York:20260820T100000
 SUMMARY:Mah Jongg: Open Play
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-10004
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:46ba7d219400@croton.news
+DTSTART;TZID=America/New_York:20260820T103000
+SUMMARY:Music and Movement w/ Lori Cohen
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/music-and-movement-w-lori-cohen-11564
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:834b4dc3991d@croton.news
+DTSTART;TZID=America/New_York:20260820T111500
+SUMMARY:Parents & Infants Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/parents-infants-support-group-11571
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8c9226358cc7@croton.news
+DTSTART;TZID=America/New_York:20260820T160000
+SUMMARY:College Essay Help - "Get Started" Workshop
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/college-essay-help-get-started-workshop-11271
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e3a6c382a534@croton.news
+DTSTART;TZID=America/New_York:20260820T190000
+SUMMARY:Clases introductorias en ingles para adultos / Beginning English for Adults
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/clases-introductorias-en-ingles-para-adultos-beginning-english-adults-11387
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:6ee033265069@croton.news
+DTSTART;TZID=America/New_York:20260821T103000
+SUMMARY:Musical Round-Up with Rose
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/musical-round-rose-11578
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a971f2f11457@croton.news
+DTSTART;TZID=America/New_York:20260821T113000
+SUMMARY:New Parents Together
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/new-parents-together-11585
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3c3da729c184@croton.news
+DTSTART;TZID=America/New_York:20260821T121500
+SUMMARY:Shut Up & Write Meetup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/shut-write-meetup-11254
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:162a94a71c0c@croton.news
+DTSTART;TZID=America/New_York:20260822T083000
+SUMMARY:CSA Pickup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/csa-pickup-11153
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b1a1f86d420e@croton.news
+DTSTART;TZID=America/New_York:20260824T153000
+SUMMARY:Family Matinee
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/family-matinee-11604
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:7494f94e9332@croton.news
+DTSTART;TZID=America/New_York:20260824T163000
+SUMMARY:Croton Craft Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/croton-craft-group-11497
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:ab13e803458c@croton.news
+DTSTART;TZID=America/New_York:20260824T170000
+SUMMARY:College Essay Help - One-on-One\, on Zoom
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/college-essay-help-one-one-zoom-11204
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e091b074be1e@croton.news
+DTSTART;TZID=America/New_York:20260825T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11521
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:c27563e392f1@croton.news
+DTSTART;TZID=America/New_York:20260825T160000
+SUMMARY:College Essay Help - One-on-One\, In Person
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/college-essay-help-one-one-person-11205
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2420,6 +1196,15 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:386d5b0cbc29@croton.news
+DTSTART;TZID=America/New_York:20260827T190000
+SUMMARY:Battle of the Books Practice
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/battle-books-practice-11430
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:34af8e6a74b4@croton.news
 DTSTART;TZID=America/New_York:20260827T190000
 SUMMARY:NAMI Westchester Support Group
@@ -2438,6 +1223,15 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:bfc3b0b6f601@croton.news
+DTSTART;TZID=America/New_York:20260829T083000
+SUMMARY:CSA Pickup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/csa-pickup-11154
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:aa3c304f9fe5@croton.news
 DTSTART;TZID=America/New_York:20260829T100000
 SUMMARY:Blood Drive
@@ -2447,11 +1241,38 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:f002f401cd82@croton.news
+DTSTART;TZID=America/New_York:20260831T153000
+SUMMARY:Family Matinee
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/family-matinee-11605
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:fee8757d3e15@croton.news
+DTSTART;TZID=America/New_York:20260831T163000
+SUMMARY:Croton Craft Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/croton-craft-group-11498
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:9e93af91efbc@croton.news
 DTSTART;TZID=America/New_York:20260831T193000
 SUMMARY:Mother-Daughter Book Club II
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/mother-daughter-book-club-ii-8685
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5d57c2c8f394@croton.news
+DTSTART;TZID=America/New_York:20260901T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11522
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2483,11 +1304,56 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:649d41918d05@croton.news
+DTSTART;TZID=America/New_York:20260903T190000
+SUMMARY:Battle of the Books Practice
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/battle-books-practice-11431
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9447e437ffff@croton.news
+DTSTART;TZID=America/New_York:20260903T190000
+SUMMARY:Under 300 Book Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/under-300-book-club-11317
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:f79a1baa59e5@croton.news
 DTSTART;TZID=America/New_York:20260903T190000
 SUMMARY:Cortlandt Democratic Committee
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/cortlandt-democratic-committee-10192
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:97e1a5bd5dea@croton.news
+DTSTART;TZID=America/New_York:20260905T083000
+SUMMARY:CSA Pickup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/csa-pickup-11155
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:8973bdfbe238@croton.news
+DTSTART;TZID=America/New_York:20260907T153000
+SUMMARY:Family Matinee
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/family-matinee-11606
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:545c65d98eaf@croton.news
+DTSTART;TZID=America/New_York:20260908T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11523
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2519,6 +1385,51 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:b9f6e90692fd@croton.news
+DTSTART;TZID=America/New_York:20260910T190000
+SUMMARY:Battle of the Books Practice
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/battle-books-practice-11432
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:3f6508a1cd34@croton.news
+DTSTART;TZID=America/New_York:20260912T083000
+SUMMARY:CSA Pickup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/csa-pickup-11156
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2995ac774887@croton.news
+DTSTART;TZID=America/New_York:20260914T153000
+SUMMARY:Family Matinee
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/family-matinee-11607
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:795134afd94c@croton.news
+DTSTART;TZID=America/New_York:20260914T193000
+SUMMARY:Library Board Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/library-board-meeting-11440
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:605c667e7e41@croton.news
+DTSTART;TZID=America/New_York:20260915T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11524
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:8e6de2670450@croton.news
 DTSTART;TZID=America/New_York:20260916T100000
 SUMMARY:Mah Jongg: Open Play
@@ -2533,6 +1444,33 @@ DTSTART;TZID=America/New_York:20260917T100000
 SUMMARY:Mah Jongg: Open Play
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-10008
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b6f4ca272839@croton.news
+DTSTART;TZID=America/New_York:20260917T190000
+SUMMARY:Battle of the Books Practice
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/battle-books-practice-11433
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1e1cae4288bf@croton.news
+DTSTART;TZID=America/New_York:20260919T083000
+SUMMARY:CSA Pickup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/csa-pickup-11157
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:fce79318363b@croton.news
+DTSTART;TZID=America/New_York:20260922T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11525
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2555,6 +1493,24 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:7f3eafa2738c@croton.news
+DTSTART;TZID=America/New_York:20260924T173000
+SUMMARY:Best Buddies Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/best-buddies-meeting-11270
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a8df86df7736@croton.news
+DTSTART;TZID=America/New_York:20260924T190000
+SUMMARY:Battle of the Books Practice
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/battle-books-practice-11434
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:e3f24ed41d28@croton.news
 DTSTART;TZID=America/New_York:20260924T190000
 SUMMARY:Croton Democratic Committee
@@ -2564,11 +1520,29 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:e44cb35e2859@croton.news
+DTSTART;TZID=America/New_York:20260926T083000
+SUMMARY:CSA Pickup
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/csa-pickup-11158
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:6e87be74071f@croton.news
 DTSTART;TZID=America/New_York:20260926T100000
 SUMMARY:Blood Drive
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/blood-drive-9911
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:226d0c6e87ed@croton.news
+DTSTART;TZID=America/New_York:20260929T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11526
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2591,11 +1565,38 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:be76f0d8e767@croton.news
+DTSTART;TZID=America/New_York:20261001T190000
+SUMMARY:Battle of the Books Practice
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/battle-books-practice-11435
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:057d37896821@croton.news
+DTSTART;TZID=America/New_York:20261001T190000
+SUMMARY:Under 300 Book Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/under-300-book-club-11318
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:6c8f1d282749@croton.news
 DTSTART;TZID=America/New_York:20261001T190000
 SUMMARY:Cortlandt Democratic Committee
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/cortlandt-democratic-committee-10193
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5c339c005335@croton.news
+DTSTART;TZID=America/New_York:20261006T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11527
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2627,11 +1628,29 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:1c9126fce065@croton.news
+DTSTART;TZID=America/New_York:20261008T190000
+SUMMARY:Battle of the Books Practice
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/battle-books-practice-11436
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:d9aa63d2b8c7@croton.news
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Closed for Columbus Day/Indigenous People's Day
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/closed-columbus-dayindigenous-peoples-day-10109
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:59a268db31f0@croton.news
+DTSTART;TZID=America/New_York:20261013T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11528
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2663,6 +1682,42 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:df301590d2ea@croton.news
+DTSTART;TZID=America/New_York:20261015T190000
+SUMMARY:Battle of the Books Practice
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/battle-books-practice-11437
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:2d3f7e86f3ce@croton.news
+DTSTART;TZID=America/New_York:20261017T103000
+SUMMARY:Babysitting 101
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/babysitting-101-11648
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:9d2f3c75b7e1@croton.news
+DTSTART;TZID=America/New_York:20261019T193000
+SUMMARY:Library Board Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/library-board-meeting-11441
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:1ebdad73270d@croton.news
+DTSTART;TZID=America/New_York:20261020T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11529
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:38ca73b1c0ab@croton.news
 DTSTART;TZID=America/New_York:20261021T100000
 SUMMARY:Mah Jongg: Open Play
@@ -2681,11 +1736,29 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:71a124479dbd@croton.news
+DTSTART;TZID=America/New_York:20261022T190000
+SUMMARY:Battle of the Books Practice
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/battle-books-practice-11438
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:881a7fcde082@croton.news
 DTSTART;TZID=America/New_York:20261022T190000
 SUMMARY:Croton Democratic Committee
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/croton-democratic-committee-10463
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:43fd793aeef4@croton.news
+DTSTART;TZID=America/New_York:20261027T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11530
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2717,6 +1790,24 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:37d427c8cae7@croton.news
+DTSTART;TZID=America/New_York:20261101T131500
+SUMMARY:Demystifying Medicare and Healthcare Coverage for Seniors
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/demystifying-medicare-and-healthcare-coverage-seniors-11228
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:27c5dae9b5c7@croton.news
+DTSTART;TZID=America/New_York:20261103T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11531
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:6c156e96b712@croton.news
 DTSTART;TZID=America/New_York:20261104T100000
 SUMMARY:Croton Library Book Club
@@ -2744,6 +1835,15 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:02d4c8156655@croton.news
+DTSTART;TZID=America/New_York:20261105T190000
+SUMMARY:Under 300 Book Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/under-300-book-club-11319
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:16cca9407ec0@croton.news
 DTSTART;TZID=America/New_York:20261105T190000
 SUMMARY:Cortlandt Democratic Committee
@@ -2758,6 +1858,15 @@ DTSTART;TZID=America/New_York:20261109T183000
 SUMMARY:National MS Society Meeting
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/national-ms-society-meeting-9333
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:88184f7c7f10@croton.news
+DTSTART;TZID=America/New_York:20261110T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11532
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2789,6 +1898,15 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:67b62a6b4c50@croton.news
+DTSTART;TZID=America/New_York:20261117T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11533
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:cc653e1826ca@croton.news
 DTSTART;TZID=America/New_York:20261118T100000
 SUMMARY:Mah Jongg: Open Play
@@ -2803,6 +1921,15 @@ DTSTART;TZID=America/New_York:20261119T100000
 SUMMARY:Mah Jongg: Open Play
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-10017
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:217bc402307c@croton.news
+DTSTART;TZID=America/New_York:20261124T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11534
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2834,6 +1961,15 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:4c485cc8490e@croton.news
+DTSTART;TZID=America/New_York:20261201T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11535
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:bb7bdbc10215@croton.news
 DTSTART;TZID=America/New_York:20261202T100000
 SUMMARY:Croton Library Book Club
@@ -2861,11 +1997,29 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:ef334cfb14ac@croton.news
+DTSTART;TZID=America/New_York:20261203T190000
+SUMMARY:Under 300 Book Club
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/under-300-book-club-11320
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:706c067e214f@croton.news
 DTSTART;TZID=America/New_York:20261203T190000
 SUMMARY:Cortlandt Democratic Committee
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/cortlandt-democratic-committee-10195
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:b0576e88b0eb@croton.news
+DTSTART;TZID=America/New_York:20261208T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11536
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2897,11 +2051,38 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:15856cd3a0d1@croton.news
+DTSTART;TZID=America/New_York:20261212T100000
+SUMMARY:Holiday Artisan Market
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/holiday-artisan-market-11500
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:2ff227bf9c74@croton.news
 DTSTART;TZID=America/New_York:20261214T183000
 SUMMARY:National MS Society Meeting
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/national-ms-society-meeting-9334
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:e1411b08139e@croton.news
+DTSTART;TZID=America/New_York:20261214T193000
+SUMMARY:Library Board Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/library-board-meeting-11442
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0edc5e826652@croton.news
+DTSTART;TZID=America/New_York:20261215T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11537
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2920,6 +2101,15 @@ DTSTART;TZID=America/New_York:20261217T100000
 SUMMARY:Mah Jongg: Open Play
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/mah-jongg-open-play-10021
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:05ad2585ed5b@croton.news
+DTSTART;TZID=America/New_York:20261222T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11538
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2960,6 +2150,15 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:dcb605c2bdfb@croton.news
+DTSTART;TZID=America/New_York:20261229T103000
+SUMMARY:Living with Grief: Ongoing Support Group
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/living-grief-ongoing-support-group-11539
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:7d9770e31b41@croton.news
 DTSTART;TZID=America/New_York:20261230T100000
 SUMMARY:Mah Jongg: Open Play
@@ -2978,11 +2177,29 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:46249677e08a@croton.news
+DTSTART;TZID=America/New_York:20270111T193000
+SUMMARY:Library Board Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/library-board-meeting-11443
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:7d179123f3c7@croton.news
 DTSTART;TZID=America/New_York:20270112T190000
 SUMMARY:Hudson River Toastmasters
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/hudson-river-toastmasters-10891
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:cede05f0a5cf@croton.news
+DTSTART;TZID=America/New_York:20270208T193000
+SUMMARY:Library Board Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/library-board-meeting-11444
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -2996,11 +2213,56 @@ CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
 BEGIN:VEVENT
+UID:3733e5cd96c5@croton.news
+DTSTART;TZID=America/New_York:20270308T193000
+SUMMARY:Library Board Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/library-board-meeting-11445
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
 UID:8bf019313766@croton.news
 DTSTART;TZID=America/New_York:20270309T190000
 SUMMARY:Hudson River Toastmasters
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/hudson-river-toastmasters-10893
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:d95f30a45d6b@croton.news
+DTSTART;TZID=America/New_York:20270412T193000
+SUMMARY:Library Board Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/library-board-meeting-11446
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:0752b571a98c@croton.news
+DTSTART;TZID=America/New_York:20270429T190000
+SUMMARY:Library Annual Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/library-annual-meeting-11452
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:343c78dc53ad@croton.news
+DTSTART;TZID=America/New_York:20270510T193000
+SUMMARY:Library Board Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/library-board-meeting-11447
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:5d52c97a170a@croton.news
+DTSTART;TZID=America/New_York:20270614T193000
+SUMMARY:Library Board Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/library-board-meeting-11448
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -3019,6 +2281,15 @@ DTSTART;VALUE=DATE:20270704
 SUMMARY:Closed for July 4
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/closed-july-4-3
+CATEGORIES:events
+DESCRIPTION:Source: Croton Free Library\n
+END:VEVENT
+BEGIN:VEVENT
+UID:a3f721ef224d@croton.news
+DTSTART;TZID=America/New_York:20270913T193000
+SUMMARY:Library Board Meeting
+LOCATION:Croton Free Library\, 171 Cleveland Dr
+URL:https://ossining.librarycalendar.com/event/library-board-meeting-11449
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT
@@ -3901,15 +3172,6 @@ DTSTART;VALUE=DATE:20531111
 SUMMARY:Closed for Veterans' Day
 LOCATION:Croton Free Library\, 171 Cleveland Dr
 URL:https://ossining.librarycalendar.com/event/closed-veterans-day-10139
-CATEGORIES:events
-DESCRIPTION:Source: Croton Free Library\n
-END:VEVENT
-BEGIN:VEVENT
-UID:cff8176e2c42@croton.news
-DTSTART;VALUE=DATE:20540619
-SUMMARY:Closed for Juneteenth
-LOCATION:Croton Free Library\, 171 Cleveland Dr
-URL:https://ossining.librarycalendar.com/event/closed-juneteenth-10108
 CATEGORIES:events
 DESCRIPTION:Source: Croton Free Library\n
 END:VEVENT

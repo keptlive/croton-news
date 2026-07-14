@@ -335,6 +335,11 @@ def sync_to_meetings(db_path=RAG_DB):
         db.execute("ALTER TABLE meetings ADD COLUMN minutes_text TEXT")
 
     meetings = fetch_meetings_list()
+    if not meetings:
+        # network/403 failure previously exited 0 ("Synced 0") — silent
+        # failure invisible to run_job/watchdog (2026-07-14 audit gap 4)
+        log("ERROR: BoardDocs meetings list fetch failed (proxy + direct) — sync aborted")
+        sys.exit(1)
     matched = 0
     for m in meetings:
         if not m["date"]:

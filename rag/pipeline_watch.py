@@ -246,6 +246,68 @@ def check_boe_pending():
         notes.append("BOE YouTube: no unprocessed meeting videos")
 
 
+def check_calendar():
+    """static/events.json freshness — an 86-day staleness went unnoticed
+    because nothing watched it (2026-07-14 audit)."""
+    p = os.path.join(BASE, "static", "events.json")
+    try:
+        age_d = (time.time() - os.path.getmtime(p)) / 86400
+        if age_d > 8:
+            problems.append(
+                f"events.json (calendar) is {age_d:.0f} days stale — "
+                "run: bash scrapers/update-calendar.sh")
+        else:
+            notes.append(f"calendar events.json: {age_d:.1f}d old")
+    except OSError:
+        problems.append("static/events.json missing")
+
+
+def check_packet_completeness():
+    """Agenda PDF refs vs stored packet rows — cap-skips leave no zero-row
+    trace, so the old existence check missed 77 missing PDFs."""
+    db = sqlite3.connect(f"file:{RAG_DB}?mode=ro", uri=True)
+    db.row_factory = sqlite3.Row
+    gaps = []
+    for m in db.execute(
+            "SELECT id, event_id, agenda_json FROM meetings "
+            "WHERE agenda_json LIKE '%champds.com%.pdf%' "
+            "AND date >= date('now','-45 day')").fetchall():
+        import re as _re
+        refs = len(set(_re.findall(r"champds\.com[^\"]+\.pdf", m["agenda_json"] or "")))
+        rows = db.execute("SELECT COUNT(*) FROM packet_pdfs WHERE event_id=?",
+                          (str(m["event_id"]),)).fetchone()[0]
+        if refs > rows:
+            gaps.append(f"event {m['event_id']}: {rows}/{refs} PDFs")
+    db.close()
+    if gaps:
+        problems.append(
+            "packet PDFs incomplete: " + "; ".join(gaps[:5]) +
+            " — run: venv/bin/python rag/rag_tool.py fetch_agenda_packet EVENT --max-pdfs 60 --force")
+    else:
+        notes.append("packet PDFs: complete vs agenda refs (45d)")
+
+
+def check_photo_refs():
+    """{{photo:}} refs in recent articles must resolve to files on disk."""
+    db = sqlite3.connect(f"file:{RAG_DB}?mode=ro", uri=True)
+    import re as _re
+    photos_dir = os.path.join(BASE, "photos")
+    dead = []
+    for (mid, art) in db.execute(
+            "SELECT id, article FROM meetings WHERE article IS NOT NULL "
+            "AND date >= date('now','-30 day')").fetchall():
+        for em, ts in _re.findall(r"\{\{photo:([\w\-]+):(\d+)", art or ""):
+            base_name = f"{em}_t{ts}"
+            if not (os.path.exists(os.path.join(photos_dir, base_name + ".jpg"))
+                    or os.path.exists(os.path.join(photos_dir, base_name + "_enhanced.jpg"))):
+                dead.append(f"#{mid}:{base_name}")
+    db.close()
+    if dead:
+        problems.append("dead {{photo}} refs in recent articles: " + ", ".join(dead[:6]))
+    else:
+        notes.append("photo refs: all resolve (30d)")
+
+
 def check_agendas():
     try:
         age_h = (time.time() - os.path.getmtime(AGENDAS_JSON)) / 3600
@@ -306,6 +368,7 @@ def check_disk():
 def main():
     dry = "--dry-run" in sys.argv
     for fn in (check_jobs, check_content, check_boe_pending, check_agendas,
+               check_calendar, check_packet_completeness, check_photo_refs,
                check_site, check_backups, check_disk, check_article_quality):
         try:
             fn()

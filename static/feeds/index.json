@@ -1,48 +1,30 @@
 {
-  "generated_at": "2026-04-19T03:04:29.256327",
-  "total_events": 1145,
+  "generated_at": "2026-07-14T16:26:59.214637",
+  "total_events": 925,
   "feeds": [
     {
       "id": "all",
       "name": "All Events",
       "description": "Everything happening in and around Croton-on-Hudson",
       "path": "/feeds/all.ics",
-      "count": 1145,
+      "count": 925,
       "type": "master"
-    },
-    {
-      "id": "cat-business",
-      "name": "Business & Chamber",
-      "description": "Business & Chamber in and around Croton-on-Hudson",
-      "path": "/feeds/category/business.ics",
-      "count": 28,
-      "type": "category",
-      "category": "business"
     },
     {
       "id": "cat-events",
       "name": "Community Events",
       "description": "Community Events in and around Croton-on-Hudson",
       "path": "/feeds/category/events.ics",
-      "count": 1039,
+      "count": 921,
       "type": "category",
       "category": "events"
-    },
-    {
-      "id": "cat-government",
-      "name": "Government & Meetings",
-      "description": "Government & Meetings in and around Croton-on-Hudson",
-      "path": "/feeds/category/government.ics",
-      "count": 20,
-      "type": "category",
-      "category": "government"
     },
     {
       "id": "cat-schools",
       "name": "Schools & Education",
       "description": "Schools & Education in and around Croton-on-Hudson",
       "path": "/feeds/category/schools.ics",
-      "count": 58,
+      "count": 4,
       "type": "category",
       "category": "schools"
     },
@@ -60,79 +42,34 @@
       "name": "Field Library (Peekskill)",
       "description": "Events from Field Library (Peekskill)",
       "path": "/feeds/source/field_library.ics",
-      "count": 28,
+      "count": 30,
       "type": "source",
       "source_key": "field_library"
-    },
-    {
-      "id": "src-historic_hv",
-      "name": "Historic Hudson Valley",
-      "description": "Events from Historic Hudson Valley",
-      "path": "/feeds/source/historic_hv.ics",
-      "count": 8,
-      "type": "source",
-      "source_key": "historic_hv"
-    },
-    {
-      "id": "src-hvgateway",
-      "name": "Hudson Valley Gateway Chamber",
-      "description": "Events from Hudson Valley Gateway Chamber",
-      "path": "/feeds/source/hvgateway.ics",
-      "count": 28,
-      "type": "source",
-      "source_key": "hvgateway"
-    },
-    {
-      "id": "src-hvshakespeare",
-      "name": "Hudson Valley Shakespeare Festival",
-      "description": "Events from Hudson Valley Shakespeare Festival",
-      "path": "/feeds/source/hvshakespeare.ics",
-      "count": 1,
-      "type": "source",
-      "source_key": "hvshakespeare"
     },
     {
       "id": "src-library",
       "name": "Croton Free Library",
       "description": "Events from Croton Free Library",
       "path": "/feeds/source/library.ics",
-      "count": 453,
+      "count": 371,
       "type": "source",
       "source_key": "library"
-    },
-    {
-      "id": "src-ossining_events",
-      "name": "Village of Ossining Events",
-      "description": "Events from Village of Ossining Events",
-      "path": "/feeds/source/ossining_events.ics",
-      "count": 2,
-      "type": "source",
-      "source_key": "ossining_events"
     },
     {
       "id": "src-ossining_library",
       "name": "Ossining Public Library",
       "description": "Events from Ossining Public Library",
       "path": "/feeds/source/ossining_library.ics",
-      "count": 478,
+      "count": 480,
       "type": "source",
       "source_key": "ossining_library"
-    },
-    {
-      "id": "src-paramount",
-      "name": "Paramount Hudson Valley",
-      "description": "Events from Paramount Hudson Valley",
-      "path": "/feeds/source/paramount.ics",
-      "count": 14,
-      "type": "source",
-      "source_key": "paramount"
     },
     {
       "id": "src-schools",
       "name": "Croton-Harmon Schools",
       "description": "Events from Croton-Harmon Schools",
       "path": "/feeds/source/schools.ics",
-      "count": 58,
+      "count": 4,
       "type": "source",
       "source_key": "schools"
     },
@@ -141,35 +78,26 @@
       "name": "Teatown Lake Reservation",
       "description": "Events from Teatown Lake Reservation",
       "path": "/feeds/source/teatown.ics",
-      "count": 25,
+      "count": 10,
       "type": "source",
       "source_key": "teatown"
-    },
-    {
-      "id": "src-village",
-      "name": "Village of Croton-on-Hudson",
-      "description": "Events from Village of Croton-on-Hudson",
-      "path": "/feeds/source/village.ics",
-      "count": 20,
-      "type": "source",
-      "source_key": "village"
     }
   ],
   "categories": [
     {
       "id": "events",
       "label": "Community Events",
-      "count": 1039
+      "count": 921
     },
     {
       "id": "schools",
       "label": "Schools & Education",
-      "count": 58
+      "count": 4
     },
     {
       "id": "government",
       "label": "Government & Meetings",
-      "count": 20
+      "count": 0
     },
     {
       "id": "safety",
@@ -179,7 +107,7 @@
     {
       "id": "business",
       "label": "Business & Chamber",
-      "count": 28
+      "count": 0
     }
   ],
   "sources": [
@@ -192,68 +120,32 @@
     {
       "id": "field_library",
       "name": "Field Library (Peekskill)",
-      "count": 28,
-      "category": "events"
-    },
-    {
-      "id": "historic_hv",
-      "name": "Historic Hudson Valley",
-      "count": 8,
-      "category": "events"
-    },
-    {
-      "id": "hvgateway",
-      "name": "Hudson Valley Gateway Chamber",
-      "count": 28,
-      "category": "business"
-    },
-    {
-      "id": "hvshakespeare",
-      "name": "Hudson Valley Shakespeare Festival",
-      "count": 1,
+      "count": 30,
       "category": "events"
     },
     {
       "id": "library",
       "name": "Croton Free Library",
-      "count": 453,
-      "category": "events"
-    },
-    {
-      "id": "ossining_events",
-      "name": "Village of Ossining Events",
-      "count": 2,
+      "count": 371,
       "category": "events"
     },
     {
       "id": "ossining_library",
       "name": "Ossining Public Library",
-      "count": 478,
-      "category": "events"
-    },
-    {
-      "id": "paramount",
-      "name": "Paramount Hudson Valley",
-      "count": 14,
+      "count": 480,
       "category": "events"
     },
     {
       "id": "schools",
       "name": "Croton-Harmon Schools",
-      "count": 58,
+      "count": 4,
       "category": "schools"
     },
     {
       "id": "teatown",
       "name": "Teatown Lake Reservation",
-      "count": 25,
+      "count": 10,
       "category": "events"
-    },
-    {
-      "id": "village",
-      "name": "Village of Croton-on-Hudson",
-      "count": 20,
-      "category": "government"
     }
   ],
   "subscribe_instructions": {
