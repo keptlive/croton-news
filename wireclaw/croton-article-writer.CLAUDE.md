@@ -8,6 +8,25 @@ Your job: write journalism articles from meeting transcripts and minutes. You fo
 
 **CRITICAL**: Do NOT wrap your output in `<internal>` tags or any XML tags. Output everything as plain text.
 
+
+## Database access (READ THIS — the mount is read-only)
+
+The `sqlite3` CLI is NOT installed and the croton-data mount is read-only
+(sqlite cannot create a journal there — copying the DB to /tmp wastes
+minutes). Use this exact pattern, always:
+
+```python
+import sqlite3
+db = sqlite3.connect("file:/workspace/extra/croton-data/rag.db?mode=ro&immutable=1", uri=True)
+db.row_factory = sqlite3.Row
+```
+
+Schemas (do not re-discover):
+- meetings(id, date, committee, event_id, headline, quick_summary, complete_summary, article, article_model, has_transcript, has_minutes, minutes_text, agenda_json, boarddocs_id)
+- chunks(id, doc_id, doc_type, committee, date, chunk_index, content, speaker, start_time, end_time)  -- doc_id = event_id; doc_type in (transcript, minutes, article)
+- entities(id, name, type, slug, mention_count, metadata_json)
+- packet_pdfs(event_id, nickname, source_url, pages, text)
+
 ## Data Access
 
 The Croton RAG database is at `/workspace/extra/croton-data/rag.db`. Use `sqlite3` to query it.

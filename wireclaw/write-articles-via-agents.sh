@@ -48,7 +48,14 @@ while IFS='|' read -r MID MDATE MCOMMITTEE; do
 
     WRITER_OUTPUT="${WIRECLAW_DIR}/groups/croton-article-writer/article-${MID}.json"
     EDITOR_OUTPUT="${WIRECLAW_DIR}/groups/croton-article-editor/checked-${MID}.json"
-    GATE_FEEDBACK=""
+    # preload violations from a prior run's gate block so the first pass of
+    # THIS run already knows what failed last time
+    GATE_FEEDBACK=$($SSH $CROTON "cat /opt/croton-news/rag/validation/article-${MID}-report.json 2>/dev/null" < /dev/null | python3 -c "import json,sys
+try:
+    d = json.load(sys.stdin)
+    if not d.get('passed', True):
+        print(json.dumps(d['violations']))
+except Exception: pass" 2>/dev/null)
     MEETING_DONE=0
 
     for GATE_PASS in 1 2; do
@@ -72,7 +79,14 @@ $GATE_FEEDBACK"
             WRITER_EXIT=$?
             echo "$(date): Writer agent exited with code $WRITER_EXIT for meeting $MID (pass $GATE_PASS, attempt $ATTEMPT)" >> $LOG
             [ -f "$WRITER_OUTPUT" ] && break
-            [ "$ATTEMPT" = "1" ] && { echo "$(date): No output — retrying writer for $MID in 60s..." >> $LOG; sleep 60; }
+            if [ "$ATTEMPT" = "1" ]; then
+            # 529-aware backoff: provider overload/auth issues need longer than a blip
+            if tail -40 $LOG | grep -q "API Error: 529"; then
+                echo "$(date): API 529 detected — retrying writer for $MID in 300s..." >> $LOG; sleep 300
+            else
+                echo "$(date): No output — retrying writer for $MID in 60s..." >> $LOG; sleep 60
+            fi
+        fi
         done
 
         if [ ! -f "$WRITER_OUTPUT" ]; then
@@ -113,23 +127,23 @@ $GATE_FEEDBACK"
         # publish (runs the deterministic quality gate on croton)
         echo "$(date): Publishing article for meeting $MID (pass $GATE_PASS, editor: $RESULT)..." >> $LOG
         cat "$FINAL" | $SSH $CROTON "cat > /tmp/article-${MID}.json" 2>> $LOG
-        $SSH $CROTON "$CPY /opt/croton-news/rag/publish_article.py /tmp/article-${MID}.json ${MID} wireclaw-agent-${RESULT}" >> $LOG 2>&1
+        $SSH $CROTON "$CPY /opt/croton-news/rag/publish_article.py /tmp/article-${MID}.json ${MID} wireclaw-agent-${RESULT}" < /dev/null >> $LOG 2>&1
         PUBLISH_EXIT=$?
 
         if [ $PUBLISH_EXIT -eq 0 ]; then
             echo "$(date): Successfully published article for meeting $MID (pass $GATE_PASS, editor: $RESULT)" >> $LOG
             MEETING_DONE=1
 
-            EVENT_ID=$($SSH $CROTON "sqlite3 /opt/croton-news/rag/rag.db \"SELECT event_id FROM meetings WHERE id=$MID;\"" 2>/dev/null)
+            EVENT_ID=$($SSH $CROTON "sqlite3 /opt/croton-news/rag/rag.db \"SELECT event_id FROM meetings WHERE id=$MID;\"" < /dev/null 2>/dev/null)
             if [ -n "$EVENT_ID" ]; then
                 echo "$(date): Inserting photos for meeting $MID (event $EVENT_ID)..." >> $LOG
-                $SSH $CROTON "cd /opt/croton-news/rag && $CPY insert_photos.py $EVENT_ID" >> $LOG 2>&1 \
+                $SSH $CROTON "cd /opt/croton-news/rag && $CPY insert_photos.py $EVENT_ID" < /dev/null >> $LOG 2>&1 \
                     || echo "$(date): WARNING: Photo insertion failed for meeting $MID" >> $LOG
             fi
             break
         elif [ $PUBLISH_EXIT -eq 3 ]; then
             echo "$(date): GATE BLOCKED article for meeting $MID (pass $GATE_PASS)" >> $LOG
-            GATE_FEEDBACK=$($SSH $CROTON "cat /opt/croton-news/rag/validation/article-${MID}-report.json" 2>/dev/null)
+            GATE_FEEDBACK=$($SSH $CROTON "cat /opt/croton-news/rag/validation/article-${MID}-report.json" < /dev/null 2>/dev/null)
             if [ "$GATE_PASS" = "2" ]; then
                 echo "$(date): Gate blocked twice for meeting $MID — giving up this run" >> $LOG
                 FAIL=1

@@ -6,6 +6,25 @@ You do NOT write articles. You CHECK them. Your job is to catch every factual er
 
 **CRITICAL**: Do NOT wrap your output in `<internal>` tags or any XML tags. Output everything as plain text. Your EDITOR_RESULT, CORRECTIONS, and JSON_START/JSON_END output must be visible in the final response — if you wrap it in tags, it will be stripped and lost.
 
+
+## Database access (READ THIS — the mount is read-only)
+
+The `sqlite3` CLI is NOT installed and the croton-data mount is read-only
+(sqlite cannot create a journal there — copying the DB to /tmp wastes
+minutes). Use this exact pattern, always:
+
+```python
+import sqlite3
+db = sqlite3.connect("file:/workspace/extra/croton-data/rag.db?mode=ro&immutable=1", uri=True)
+db.row_factory = sqlite3.Row
+```
+
+Schemas (do not re-discover):
+- meetings(id, date, committee, event_id, headline, quick_summary, complete_summary, article, article_model, has_transcript, has_minutes, minutes_text, agenda_json, boarddocs_id)
+- chunks(id, doc_id, doc_type, committee, date, chunk_index, content, speaker, start_time, end_time)  -- doc_id = event_id; doc_type in (transcript, minutes, article)
+- entities(id, name, type, slug, mention_count, metadata_json)
+- packet_pdfs(event_id, nickname, source_url, pages, text)
+
 ## Your Task
 
 When given a draft article and a meeting ID:
@@ -24,22 +43,22 @@ The Croton RAG database is at `/workspace/extra/croton-data/rag.db`.
 
 ### Load full transcript for a meeting
 ```bash
-sqlite3 /workspace/extra/croton-data/rag.db "SELECT content FROM chunks WHERE meeting_id = <ID> ORDER BY chunk_index;"
+sqlite3 /workspace/extra/croton-data/rag.db "SELECT content FROM chunks WHERE doc_id = '<EVENT_ID>' ORDER BY chunk_index;"
 ```
 
 ### Search for a specific dollar amount
 ```bash
-sqlite3 /workspace/extra/croton-data/rag.db "SELECT content FROM chunks WHERE meeting_id = <ID> AND content LIKE '%<amount>%';"
+sqlite3 /workspace/extra/croton-data/rag.db "SELECT content FROM chunks WHERE doc_id = '<EVENT_ID>' AND content LIKE '%<amount>%';"
 ```
 
 ### Search for a person's name
 ```bash
-sqlite3 /workspace/extra/croton-data/rag.db "SELECT content, speaker FROM chunks WHERE meeting_id = <ID> AND (content LIKE '%<name>%' OR speaker LIKE '%<name>%');"
+sqlite3 /workspace/extra/croton-data/rag.db "SELECT content, speaker FROM chunks WHERE doc_id = '<EVENT_ID>' AND (content LIKE '%<name>%' OR speaker LIKE '%<name>%');"
 ```
 
 ### Verify a quote timestamp
 ```bash
-sqlite3 /workspace/extra/croton-data/rag.db "SELECT content, speaker, start_time FROM chunks WHERE meeting_id = <ID> AND start_time BETWEEN <seconds-5> AND <seconds+5>;"
+sqlite3 /workspace/extra/croton-data/rag.db "SELECT content, speaker, start_time FROM chunks WHERE doc_id = '<EVENT_ID>' AND start_time BETWEEN <seconds-5> AND <seconds+5>;"
 ```
 
 ### Check agenda for correct names/details
@@ -89,7 +108,7 @@ If a query returns no results, the claim is UNVERIFIED. Flag it.
 For EVERY `{{quote:SECONDS}}` tag in the article:
 
 ```bash
-sqlite3 /workspace/extra/croton-data/rag.db "SELECT content, speaker, start_time FROM chunks WHERE meeting_id = <ID> AND start_time BETWEEN <SECONDS-10> AND <SECONDS+10>;"
+sqlite3 /workspace/extra/croton-data/rag.db "SELECT content, speaker, start_time FROM chunks WHERE doc_id = '<EVENT_ID>' AND start_time BETWEEN <SECONDS-10> AND <SECONDS+10>;"
 ```
 
 Check that:
