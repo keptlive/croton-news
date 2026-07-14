@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}{% if chapter %}Chapter {{ chapter.num }}: {{ chapter.title }} — Village Code{% else %}Village Code — Croton-on-Hudson{% endif %}{% endblock %}
-{% block meta_desc %}{% if chapter %}{{ chapter.title }} — Chapter {{ chapter.num }} of the Village of Croton-on-Hudson municipal code{% else %}Browse the complete Village of Croton-on-Hudson municipal code — 80 chapters covering zoning, building, traffic, parks, and more{% endif %}{% endblock %}
+{% block title %}{% if chapter %}Chapter {{ chapter.num }}: {{ chapter.title }} — Village Code{% elif law %}{{ law.law }} — Village Code{% else %}Village Code — Croton-on-Hudson{% endif %}{% endblock %}
+{% block meta_desc %}{% if chapter %}{{ chapter.title }} — Chapter {{ chapter.num }} of the Village of Croton-on-Hudson municipal code{% elif law %}{{ law.law }} of the Village of Croton-on-Hudson{% else %}Browse the complete Village of Croton-on-Hudson municipal code — 80 chapters covering zoning, building, traffic, parks, and more{% endif %}{% endblock %}
 
 {% block head %}
 <style>
@@ -230,7 +230,178 @@
   font-size: 15.5px;
   line-height: 1.75;
   color: var(--ink);
+}
+.vc-p { margin: 0 0 10px; }
+.vc-ind1 { margin-left: 26px; }
+.vc-ind2 { margin-left: 52px; }
+.vc-ind3 { margin-left: 78px; }
+.vc-tbl {
+  font-family: var(--sans);
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-secondary);
+  background: var(--paper-warm);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 10px 14px;
+  margin: 10px 0 14px;
+  overflow-x: auto;
+}
+.vc-footnotes {
+  margin-top: 14px;
+  padding: 8px 12px;
+  border-left: 3px solid var(--rule);
+  background: color-mix(in srgb, var(--paper-warm) 55%, var(--paper));
+}
+.vc-footnotes .vc-p {
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--ink-muted);
+  margin: 0 0 4px;
+}
+.vc-article-head {
+  font-family: var(--sans);
+  text-align: center;
+  margin: 40px 0 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
+  scroll-margin-top: 64px;
+}
+.vc-article-head .vc-art-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+.vc-article-head h2 {
+  font-family: var(--serif-display);
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 2px 0 0;
+}
+.vc-genrefs {
+  margin: 0 0 26px;
+  padding: 12px 16px;
+  background: var(--paper-warm);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+}
+.vc-genrefs h3 {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin: 0 0 6px;
+}
+.vc-genrefs ul {
+  list-style: none;
+  margin: 0; padding: 0;
+  columns: 2;
+  column-gap: 24px;
+}
+.vc-genrefs li {
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--ink-secondary);
+  padding: 1px 0;
+  break-inside: avoid;
+}
+.vc-genrefs a { color: var(--accent); text-decoration: none; }
+.vc-genrefs a:hover { text-decoration: underline; }
+@media (max-width: 640px) { .vc-genrefs ul { columns: 1; } }
+
+/* ── Currency notice ── */
+.vc-notice {
+  display: block;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--ink-secondary);
+  background: var(--gold-highlight);
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, var(--rule));
+  border-left: 3px solid var(--accent);
+  border-radius: 4px;
+  padding: 10px 14px;
+  margin: 0 0 22px;
+}
+.vc-notice a { color: var(--accent); font-weight: 600; }
+
+/* ── Recent local laws ── */
+.vc-laws { margin: 34px 0 8px; scroll-margin-top: 64px; }
+.vc-laws h2 {
+  font-family: var(--serif-display);
+  font-size: 21px;
+  font-weight: 900;
+  color: var(--ink);
+  margin: 0 0 6px;
+}
+.vc-laws .vc-laws-intro {
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--ink-secondary);
+  line-height: 1.55;
+  margin: 0 0 14px;
+}
+.vc-law-item {
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  background: var(--paper-card);
+}
+.vc-law-badge {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-bottom: 6px;
+}
+.vc-law-badge.adopted { background: var(--accent); color: #fff; }
+.vc-law-badge.proposed { background: var(--paper-warm); color: var(--ink-secondary); border: 1px solid var(--rule); }
+.vc-law-name {
+  font-family: var(--serif-body);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.vc-law-subject {
+  font-family: var(--serif-body);
+  font-size: 13.5px;
+  color: var(--ink-secondary);
+  margin: 2px 0 4px;
+  line-height: 1.45;
+}
+.vc-law-meta {
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--ink-muted);
+}
+.vc-law-meta a { color: var(--accent); text-decoration: none; }
+.vc-law-meta a:hover { text-decoration: underline; }
+.vc-laws-caveat {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  color: var(--ink-muted);
+  font-style: italic;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* ── Local law full text ── */
+.vc-law-text {
+  font-family: var(--serif-body);
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--ink);
   white-space: pre-wrap;
+  overflow-wrap: break-word;
 }
 .vc-section-title {
   font-family: var(--serif-body);
@@ -249,16 +420,14 @@
 }
 .vc-def-term {
   font-family: var(--sans);
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 700;
   letter-spacing: 0.03em;
   color: var(--ink);
-  margin-top: 16px;
-  margin-bottom: 2px;
-  padding: 3px 8px;
+  padding: 1px 6px;
   background: color-mix(in srgb, var(--paper-warm) 60%, var(--paper));
   border-left: 3px solid var(--accent);
-  display: block;
+  display: inline-block;
 }
 .vc-breadcrumb {
   font-family: var(--sans);
@@ -526,18 +695,71 @@
         {% if chapter.history %}<p class="vc-history">{{ chapter.history }}</p>{% endif %}
       </div>
 
+      <div class="vc-notice">
+        Code text current through <strong>{{ code_current_through }}</strong>.
+        Local laws adopted since then are not yet reflected on this page &mdash;
+        see <a href="/villagecode#recent-laws">recent local laws</a> or the official
+        <a href="{{ ecode_url }}" target="_blank" rel="noopener noreferrer">eCode360&nbsp;&nearr;</a>.
+      </div>
+
+      {% if chapter.general_refs %}
+      <div class="vc-genrefs">
+        <h3>General References</h3>
+        <ul>
+          {% for r in chapter.general_refs %}
+          <li>{{ r.label }} &mdash;
+            {% if r.chapter %}<a href="/villagecode/chapter/{{ r.chapter }}">{{ r.ref }}</a>{% else %}{{ r.ref }}{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
       {% if chapter.reserved %}
       <div class="vc-reserved">This chapter is reserved.</div>
       {% else %}
         {% for s in chapter.sections %}
+        {% if s.type == 'article' %}
+        <div id="{{ s.anchor }}" class="vc-article-head">
+          <div class="vc-art-label">Article {{ s.label }}</div>
+          {% if s.title %}<h2>{{ s.title }}</h2>{% endif %}
+        </div>
+        {% else %}
         <section id="{{ s.anchor }}" class="vc-section">
           {% if s.section_id %}
           <h2 class="vc-section-id"><a href="#{{ s.anchor }}">{{ s.section_id }}{% if s.title %} {{ s.title }}{% endif %}</a></h2>
+          {% if s.amended %}<span class="vc-amended">[{{ s.amended }}]</span>{% endif %}
           {% endif %}
-          <div class="vc-section-body">{{ s.content|safe }}</div>
+          <div class="vc-section-body">{{ s.content_html|safe }}</div>
         </section>
+        {% endif %}
         {% endfor %}
       {% endif %}
+
+      <a href="#" class="vc-back-top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false">&uarr; Back to top</a>
+
+    {% elif law %}
+      <nav class="vc-breadcrumb">
+        <a href="/villagecode">Village Code</a> &rsaquo;
+        <a href="/villagecode#recent-laws">Recent local laws</a> &rsaquo; {{ law.law }}
+      </nav>
+      <div class="vc-ch-head">
+        <div class="vc-ch-label">{{ law.law }} <span class="vc-law-badge adopted" style="vertical-align:2px;margin-left:8px">Adopted &mdash; not yet codified</span></div>
+        {% if law.subject %}<h1 style="font-size:22px">{{ law.subject }}</h1>{% endif %}
+        <p class="vc-history">
+          {% if law.date_display %}Filed with the NYS Department of State on {{ law.date_display }}.{% else %}Filing date not legible in the source document.{% endif %}
+          Text below is the Department of State local law filing, including the standard filing form.
+        </p>
+      </div>
+
+      <div class="vc-notice">
+        This law has been adopted but is <strong>not yet consolidated</strong> into the
+        chapter text on this site (current through {{ code_current_through }}).
+        For the official code, see
+        <a href="{{ ecode_url }}" target="_blank" rel="noopener noreferrer">eCode360&nbsp;&nearr;</a>.
+      </div>
+
+      <div class="vc-law-text">{{ law.text }}</div>
 
       <a href="#" class="vc-back-top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false">&uarr; Back to top</a>
 
@@ -545,7 +767,15 @@
       <!-- INDEX -->
       <div class="vc-hero">
         <h1>Village of Croton-on-Hudson</h1>
-        <div class="vc-sub">Municipal Code &mdash; 80 chapters</div>
+        <div class="vc-sub">Municipal Code &mdash; {{ (toc_part1|length) + (toc_part2|length) }} chapters</div>
+      </div>
+
+      <div class="vc-notice">
+        Chapter text is current through <strong>{{ code_current_through }}</strong>.
+        Local laws adopted since then have not yet been consolidated into these chapters &mdash;
+        they are listed under <a href="#recent-laws">recent local laws</a> below.
+        The authoritative version is the official
+        <a href="{{ ecode_url }}" target="_blank" rel="noopener noreferrer">eCode360&nbsp;&nearr;</a>.
       </div>
 
       <h3 class="vc-part-title" style="padding-left:0">Part I &mdash; Administrative Legislation</h3>
@@ -567,6 +797,53 @@
         </a>
         {% endfor %}
       </div>
+
+      {% if recent_laws and (recent_laws.filed or recent_laws.proposed) %}
+      <div id="recent-laws" class="vc-laws">
+        <h2>Recent local laws &mdash; not yet codified</h2>
+        <p class="vc-laws-intro">
+          Under NY Municipal Home Rule Law &sect;27, a local law is adopted by
+          Board of Trustees vote and takes effect only upon filing with the NYS
+          Department of State; consolidation into the published code text happens
+          later. The laws below postdate this site's code snapshot
+          ({{ code_current_through }}) and are drawn directly from state filings
+          and Village meeting documents.
+        </p>
+
+        {% for l in recent_laws.filed %}
+        <div class="vc-law-item">
+          <span class="vc-law-badge adopted">Adopted &mdash; not yet codified</span>
+          <div class="vc-law-name">{{ l.law }}</div>
+          {% if l.subject %}<div class="vc-law-subject">{{ l.subject }}</div>{% endif %}
+          <div class="vc-law-meta">
+            {% if l.date_display %}Filed with the NYS Department of State on {{ l.date_display }}.{% else %}Filing date not legible in the source document.{% endif %}
+            <a href="/villagecode/law/{{ l.id }}">Read the filed text</a>
+          </div>
+        </div>
+        {% endfor %}
+
+        {% if recent_laws.proposed %}
+        <h3 class="vc-part-title" style="padding-left:0;margin-top:20px">Proposed &mdash; under consideration</h3>
+        {% for l in recent_laws.proposed %}
+        <div class="vc-law-item">
+          <span class="vc-law-badge proposed">Proposed</span>
+          <div class="vc-law-name">{{ l.law }}{% if l.subject %} ({{ l.subject }}){% endif %}</div>
+          <div class="vc-law-meta">
+            Introduced &mdash; under consideration. Last appeared in materials for the
+            {{ l.committee }} meeting of {{ l.date_display }}.
+            {% if l.pdf_url %}<a href="{{ l.pdf_url }}" target="_blank" rel="noopener noreferrer">Draft text (PDF)&nbsp;&nearr;</a> &middot;{% endif %}
+            <a href="/meeting/{{ l.meeting_id }}">Meeting page</a>
+          </div>
+        </div>
+        {% endfor %}
+        <p class="vc-laws-caveat">
+          Status reflects the meeting documents this site has ingested; a proposal
+          may have advanced since its last appearance. No proposal is listed as
+          adopted unless the adoption is confirmed by a filed local law.
+        </p>
+        {% endif %}
+      </div>
+      {% endif %}
     {% endif %}
   </main>
 </div>
@@ -659,6 +936,7 @@
   function esc(t) { var d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
 
   function fmtAnswer(text) {
+    text = esc(text);  /* escape model output before any HTML formatting */
     text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     /* Convert § references to clickable links */
     text = text.replace(/§\s*([\d]+[\-\.]\d+[\w\.]*)/g, function(m, sid) {
@@ -706,13 +984,6 @@
         var el = document.getElementById(lid);
         if (el) el.innerHTML = '<p><em>Error. Please try again.</em></p>';
       });
-  });
-  /* ── Style definition terms (ALL CAPS lines) ── */
-  document.querySelectorAll('.vc-section-body').forEach(function(el) {
-    el.innerHTML = el.innerHTML.replace(
-      /^([A-Z][A-Z\s\-\/,]{2,})$/gm,
-      '<span class="vc-def-term">$1</span>'
-    );
   });
 })();
 </script>
