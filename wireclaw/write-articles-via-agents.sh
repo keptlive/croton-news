@@ -25,8 +25,12 @@ echo "$(date): Syncing latest rag.db..." >> $LOG
 $SSH $CROTON "cat /opt/croton-news/rag/rag.db" > /root/croton-bot/data/rag.db 2>> $LOG
 chmod 644 /root/croton-bot/data/rag.db
 
-# 2. Find meetings that need articles
-NEEDS_ARTICLES=$($SSH $CROTON "sqlite3 /opt/croton-news/rag/rag.db \"SELECT id, date, committee FROM meetings WHERE has_transcript = 1 AND (article IS NULL OR article = '') AND date > '2026-01-01' ORDER BY date DESC LIMIT 5;\"" 2>/dev/null)
+# 2. Find meetings that need articles — transcript-based OR minutes-based
+# (minutes-only meetings like BOE sessions without processed video were
+# invisible to the old has_transcript=1 filter; the writer prompt already
+# supports minutes-based sourcing, and substantial minutes >2000 chars are
+# article-worthy)
+NEEDS_ARTICLES=$($SSH $CROTON "sqlite3 /opt/croton-news/rag/rag.db \"SELECT id, date, committee FROM meetings WHERE (has_transcript = 1 OR length(COALESCE(minutes_text,'')) > 2000) AND (article IS NULL OR article = '') AND date > '2026-01-01' AND date <= date('now') ORDER BY date DESC LIMIT 5;\"" 2>/dev/null)
 
 if [ -z "$NEEDS_ARTICLES" ]; then
     echo "$(date): No meetings need articles" >> $LOG
