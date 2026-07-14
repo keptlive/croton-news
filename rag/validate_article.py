@@ -63,6 +63,9 @@ NON_PERSON = {
     "Donations", "Total", "Ruling", "Impact", "Operational", "Items",
     "Science", "Faculty", "Members", "Seven", "Instructional",
     "Nominated", "Recognized", "Report", "Update", "Overview", "Summary",
+    "Streets", "Roads", "Avenues", "Station", "Overhaul", "Sweeping",
+    "Consistency", "Route", "Pond", "Professional", "Signage", "Review",
+    "Preview", "Agenda", "Hearing", "Applications", "Permit", "Permits",
     # common orgs that look like person bigrams
     "Con", "Edison", "Consortium",
     # street/place suffixes
@@ -294,6 +297,10 @@ def validate(data, meeting_id, db):
         # full-name match required: a surname-only fallback would wave
         # through wrong first names ("Brendan Walker" for Stephen Walker)
         if n in source_norm or n in known_norm:
+            continue
+        # agendas often list names surname-first ("Shoenholt, Lisa")
+        rev = " ".join(reversed(n.split()))
+        if rev in source_norm or rev in known_norm:
             continue
         violations.append({
             "type": "name-provenance",
