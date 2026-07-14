@@ -87,6 +87,9 @@ json.dump it, or use save_output.py". Primary beneficiary is the enricher
 (59 heredoc writes, several malformed).
 
 ## Standing backlog (not from traces)
+- Wire `validate_speakers.py --event <id>` (report + notify.py email) into enrich-transcripts.sh right after the re-ingest step — deferred 2026-07-14 because the loop was running (never edit a running bash script); edit the repo wireclaw/ copy, deploy by atomic mv when idle. Watchdog daily sweep already covers detection.
+- validate_speakers sweep found label-only names on 2025 meetings (Toone/Nachtaler/Braddick/Gallelli/Skrelja, meetings 10/11/14/22/27/28/48/51/82) — no article impact (checked); most stem from exec-session-only minutes or minutes that omit staff. Triage when minutes coverage improves; the gate's name-attendance rule blocks these names from future articles regardless. NOTE meeting 48/51: Nachtaler labeled speaking Oct 2025, pre-oath — labels likely wrong but no article impact.
+- Meeting 37 (event 1105) minutes OCR is corrupted ("ayor Pugh", Slippen's attendance line missing though the 4-0 vote implies she was present) — re-fetch from BoardDocs; the transcript label is probably RIGHT and the minutes wrong.
 - Fabrication-echo ban (writer may not source doc_type='article' chunks) is REVISABLE once all published articles are gate-verified — see CLAUDE.md § Publish Gate for the condition
 - packet_pdfs is nickname-keyed — attachment name collisions silently drop one PDF per collision (events 1174/1175 each lost 1 of ~38); re-key on source_url
 - scraped community news (data/croton.db, 1,679 items) is write-only — surface via /api/community-news + homepage section, or retire the 6-hour scrapers job
