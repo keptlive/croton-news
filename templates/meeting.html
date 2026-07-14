@@ -185,7 +185,7 @@
   </div>
   {% endif %}
   <div class="article-body" data-eid="{{ meeting.event_id }}">
-    {{ meeting.article|process_photos|process_footnotes|safe }}
+    {{ meeting.article|process_photos|process_quotes(meeting.event_id)|process_markdown|process_footnotes|safe }}
   </div>
   <script>
   /* Paragraph wrapping for meeting article body */
