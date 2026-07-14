@@ -1,14 +1,20 @@
 #!/bin/bash
-# Write articles via WireClaw agents (writer + editor)
+# Write articles via WireClaw agents (writer + editor + publish gate)
 # Uses batch-agent.js for reliable blocking execution.
 # Called from enrich-transcripts.sh after enrichment completes.
+#
+# Per meeting: up to 2 GATE PASSES. Each pass = writer (2 attempts, 529s are
+# transient) → editor (fact-check) → publish. publish_article.py runs the
+# deterministic quality gate and exits 3 on violations — the violation
+# report is fed back into the writer prompt and the whole pass retries
+# immediately. Second gate block → FAIL (email via cron wrapper), meeting
+# stays queued for the next run.
 
 LOG=/tmp/enrich-transcripts.log
 CROTON="root@192.210.135.200"
 SSH="ssh -i /root/.ssh/andy_vps_key -o StrictHostKeyChecking=no"
 WIRECLAW_DIR=/root/wireclaw-cli
-# venv python on croton — system python3 lacks project deps (this exact
-# mismatch silently killed PDF extraction and publish_article before)
+# venv python on croton — system python3 lacks project deps
 CPY=/opt/croton-news/venv/bin/python
 FAIL=0
 
@@ -31,103 +37,109 @@ fi
 echo "$(date): Meetings needing articles:" >> $LOG
 echo "$NEEDS_ARTICLES" >> $LOG
 
-# 3. For each meeting, run writer → editor → publish
-# Use here-string (not pipe) to avoid stdin consumption by child processes
+# 3. For each meeting: gate-pass loop of (writer → editor → publish)
 while IFS='|' read -r MID MDATE MCOMMITTEE; do
     [ -z "$MID" ] && continue
     echo "$(date): Writing article for meeting $MID ($MCOMMITTEE, $MDATE)..." >> $LOG
 
-    # Writer agent — blocks until container completes
     WRITER_OUTPUT="${WIRECLAW_DIR}/groups/croton-article-writer/article-${MID}.json"
-    rm -f "$WRITER_OUTPUT" 2>/dev/null
+    EDITOR_OUTPUT="${WIRECLAW_DIR}/groups/croton-article-editor/checked-${MID}.json"
+    GATE_FEEDBACK=""
+    MEETING_DONE=0
 
-    cd "$WIRECLAW_DIR"
-    WRITER_PROMPT="Write an article for meeting ID ${MID} (${MCOMMITTEE}, ${MDATE}). Query the database at /workspace/extra/croton-data/rag.db for the full transcript and minutes. Cross-reference names against the entities table. Write the article and save as JSON to /workspace/group/article-${MID}.json with keys: meeting_id, headline, quick_summary, key_actions, article, article_model, validation."
-    # up to 2 attempts — model-API 529s are transient, and batch-agent exits 0
-    # even when the API call failed (the output file is the only proof of work)
-    for ATTEMPT in 1 2; do
-        echo "$(date): Starting writer agent for meeting $MID (attempt $ATTEMPT)..." >> $LOG
-        timeout 900 node dist/batch-agent.js croton-article-writer "$WRITER_PROMPT" \
+    for GATE_PASS in 1 2; do
+        rm -f "$WRITER_OUTPUT" "$EDITOR_OUTPUT" 2>/dev/null
+        cd "$WIRECLAW_DIR"
+
+        WRITER_PROMPT="Write an article for meeting ID ${MID} (${MCOMMITTEE}, ${MDATE}). Query the database at /workspace/extra/croton-data/rag.db for the full transcript and minutes. Cross-reference names against the entities table. Write the article and save as JSON to /workspace/group/article-${MID}.json with keys: meeting_id, headline, quick_summary, key_actions, article, article_model, validation."
+        if [ -n "$GATE_FEEDBACK" ]; then
+            WRITER_PROMPT="$WRITER_PROMPT
+
+IMPORTANT — your previous draft was BLOCKED by the automated publish gate for the violations below. Fix every one: quote attributions must match the transcript speaker at the timestamp, quoted text must be verbatim, and every name and dollar figure must appear in a source document. If a fact cannot be sourced, remove it.
+$GATE_FEEDBACK"
+        fi
+
+        # writer: up to 2 attempts (model-API 529s are transient; batch-agent
+        # exits 0 even on API failure — the output file is the proof of work)
+        for ATTEMPT in 1 2; do
+            echo "$(date): Starting writer agent for meeting $MID (pass $GATE_PASS, attempt $ATTEMPT)..." >> $LOG
+            timeout 900 node dist/batch-agent.js croton-article-writer "$WRITER_PROMPT" \
+              < /dev/null >> $LOG 2>&1
+            WRITER_EXIT=$?
+            echo "$(date): Writer agent exited with code $WRITER_EXIT for meeting $MID (pass $GATE_PASS, attempt $ATTEMPT)" >> $LOG
+            [ -f "$WRITER_OUTPUT" ] && break
+            [ "$ATTEMPT" = "1" ] && { echo "$(date): No output — retrying writer for $MID in 60s..." >> $LOG; sleep 60; }
+        done
+
+        if [ ! -f "$WRITER_OUTPUT" ]; then
+            echo "$(date): WARNING: Writer produced no file for meeting $MID (exit: $WRITER_EXIT)" >> $LOG
+            FAIL=1
+            break
+        fi
+        echo "$(date): Writer produced article file for meeting $MID" >> $LOG
+
+        # editor/fact-checker (1800s: 900s once timed out mid-verification)
+        echo "$(date): Starting editor agent for meeting $MID..." >> $LOG
+        timeout 1800 node dist/batch-agent.js croton-article-editor \
+          "Fact-check the article at /workspace/extra/writer-output/article-${MID}.json for meeting ID ${MID} (${MCOMMITTEE}, ${MDATE}). Load the source transcript from /workspace/extra/croton-data/rag.db. Check the entities table for correct names/titles. Save your result to /workspace/group/checked-${MID}.json with keys: meeting_id, headline, article, editor_result (PASS/CORRECTED/REJECT), corrections." \
           < /dev/null >> $LOG 2>&1
-        WRITER_EXIT=$?
-        echo "$(date): Writer agent exited with code $WRITER_EXIT for meeting $MID (attempt $ATTEMPT)" >> $LOG
-        [ -f "$WRITER_OUTPUT" ] && break
-        [ "$ATTEMPT" = "1" ] && { echo "$(date): No output — retrying writer for $MID in 60s..." >> $LOG; sleep 60; }
+        EDITOR_EXIT=$?
+        echo "$(date): Editor agent exited with code $EDITOR_EXIT for meeting $MID" >> $LOG
+
+        if [ -f "$EDITOR_OUTPUT" ]; then
+            FINAL="$EDITOR_OUTPUT"
+            RESULT=$(python3 -c "import json; d=json.load(open('${EDITOR_OUTPUT}'), strict=False); print(d.get('editor_result','CHECKED'))" 2>/dev/null || echo "CHECKED")
+        else
+            echo "$(date): BLOCKED: Editor produced no file for meeting $MID — refusing to publish unchecked article" >> $LOG
+            FAIL=1
+            break
+        fi
+
+        if [ "$RESULT" = "REJECT" ]; then
+            echo "$(date): BLOCKED: Editor REJECTED article for meeting $MID — not publishing" >> $LOG
+            break
+        fi
+
+        if ! python3 -c "import json; d=json.load(open('${FINAL}'), strict=False); assert d.get('headline'), 'no headline'; assert d.get('article'), 'no article'" 2>> $LOG; then
+            echo "$(date): WARNING: Invalid JSON in $FINAL for meeting $MID — skipping" >> $LOG
+            FAIL=1
+            break
+        fi
+
+        # publish (runs the deterministic quality gate on croton)
+        echo "$(date): Publishing article for meeting $MID (pass $GATE_PASS, editor: $RESULT)..." >> $LOG
+        cat "$FINAL" | $SSH $CROTON "cat > /tmp/article-${MID}.json" 2>> $LOG
+        $SSH $CROTON "$CPY /opt/croton-news/rag/publish_article.py /tmp/article-${MID}.json ${MID} wireclaw-agent-${RESULT}" >> $LOG 2>&1
+        PUBLISH_EXIT=$?
+
+        if [ $PUBLISH_EXIT -eq 0 ]; then
+            echo "$(date): Successfully published article for meeting $MID (pass $GATE_PASS, editor: $RESULT)" >> $LOG
+            MEETING_DONE=1
+
+            EVENT_ID=$($SSH $CROTON "sqlite3 /opt/croton-news/rag/rag.db \"SELECT event_id FROM meetings WHERE id=$MID;\"" 2>/dev/null)
+            if [ -n "$EVENT_ID" ]; then
+                echo "$(date): Inserting photos for meeting $MID (event $EVENT_ID)..." >> $LOG
+                $SSH $CROTON "cd /opt/croton-news/rag && $CPY insert_photos.py $EVENT_ID" >> $LOG 2>&1 \
+                    || echo "$(date): WARNING: Photo insertion failed for meeting $MID" >> $LOG
+            fi
+            break
+        elif [ $PUBLISH_EXIT -eq 3 ]; then
+            echo "$(date): GATE BLOCKED article for meeting $MID (pass $GATE_PASS)" >> $LOG
+            GATE_FEEDBACK=$($SSH $CROTON "cat /opt/croton-news/rag/validation/article-${MID}-report.json" 2>/dev/null)
+            if [ "$GATE_PASS" = "2" ]; then
+                echo "$(date): Gate blocked twice for meeting $MID — giving up this run" >> $LOG
+                FAIL=1
+            else
+                echo "$(date): Retrying immediately with violation feedback..." >> $LOG
+            fi
+        else
+            echo "$(date): WARNING: Publish failed for meeting $MID (exit: $PUBLISH_EXIT)" >> $LOG
+            FAIL=1
+            break
+        fi
     done
 
-    # Check for output file
-    if [ ! -f "$WRITER_OUTPUT" ]; then
-        echo "$(date): WARNING: Writer produced no file for meeting $MID (exit: $WRITER_EXIT)" >> $LOG
-        FAIL=1
-        continue
-    fi
-
-    echo "$(date): Writer produced article file for meeting $MID" >> $LOG
-
-    # Editor/fact-checker agent — blocks until container completes
-    EDITOR_OUTPUT="${WIRECLAW_DIR}/groups/croton-article-editor/checked-${MID}.json"
-    rm -f "$EDITOR_OUTPUT" 2>/dev/null
-
-    echo "$(date): Starting editor agent for meeting $MID..." >> $LOG
-    # 1800s: the old 900s cap timed out mid-verification on a 10K-char article
-    # (meeting 153, 2026-07-14) and blocked publication
-    timeout 1800 node dist/batch-agent.js croton-article-editor \
-      "Fact-check the article at /workspace/extra/writer-output/article-${MID}.json for meeting ID ${MID} (${MCOMMITTEE}, ${MDATE}). Load the source transcript from /workspace/extra/croton-data/rag.db. Check the entities table for correct names/titles. Save your result to /workspace/group/checked-${MID}.json with keys: meeting_id, headline, article, editor_result (PASS/CORRECTED/REJECT), corrections." \
-      < /dev/null >> $LOG 2>&1
-
-    EDITOR_EXIT=$?
-    echo "$(date): Editor agent exited with code $EDITOR_EXIT for meeting $MID" >> $LOG
-
-    # Determine which output to publish
-    if [ -f "$EDITOR_OUTPUT" ]; then
-        echo "$(date): Editor produced checked output for meeting $MID" >> $LOG
-        FINAL="$EDITOR_OUTPUT"
-        RESULT=$(python3 -c "import json; d=json.load(open('${EDITOR_OUTPUT}')); print(d.get('editor_result','CHECKED'))" 2>/dev/null || echo "CHECKED")
-    else
-        echo "$(date): BLOCKED: Editor produced no file for meeting $MID — refusing to publish unchecked article" >> $LOG
-        FAIL=1
-        continue
-    fi
-
-    # Block REJECT results
-    if [ "$RESULT" = "REJECT" ]; then
-        echo "$(date): BLOCKED: Editor REJECTED article for meeting $MID — not publishing" >> $LOG
-        continue
-    fi
-
-    # Validate JSON before publishing
-    if ! python3 -c "import json; d=json.load(open('${FINAL}')); assert d.get('headline'), 'no headline'; assert d.get('article'), 'no article'" 2>> $LOG; then
-        echo "$(date): WARNING: Invalid JSON in $FINAL for meeting $MID — skipping" >> $LOG
-        FAIL=1
-        continue
-    fi
-
-    # 4. Publish to croton VPS
-    echo "$(date): Publishing article for meeting $MID (editor: $RESULT)..." >> $LOG
-    # Use a heredoc-based publish script to avoid quoting hell
-    cat "$FINAL" | $SSH $CROTON "cat > /tmp/article-${MID}.json" 2>> $LOG
-    $SSH $CROTON "$CPY /opt/croton-news/rag/publish_article.py /tmp/article-${MID}.json ${MID} wireclaw-agent-${RESULT}" >> $LOG 2>&1
-
-    PUBLISH_EXIT=$?
-    if [ $PUBLISH_EXIT -eq 0 ]; then
-        echo "$(date): Successfully published article for meeting $MID (editor: $RESULT)" >> $LOG
-
-        # Insert photos from video frames
-        EVENT_ID=$($SSH $CROTON "sqlite3 /opt/croton-news/rag/rag.db \"SELECT event_id FROM meetings WHERE id=$MID;\"" 2>/dev/null)
-        if [ -n "$EVENT_ID" ]; then
-            echo "$(date): Inserting photos for meeting $MID (event $EVENT_ID)..." >> $LOG
-            $SSH $CROTON "cd /opt/croton-news/rag && $CPY insert_photos.py $EVENT_ID" >> $LOG 2>&1
-            PHOTO_EXIT=$?
-            if [ $PHOTO_EXIT -eq 0 ]; then
-                echo "$(date): Photos inserted for meeting $MID" >> $LOG
-            else
-                echo "$(date): WARNING: Photo insertion failed for meeting $MID (exit: $PHOTO_EXIT)" >> $LOG
-            fi
-        fi
-    else
-        echo "$(date): WARNING: Publish failed for meeting $MID (exit: $PUBLISH_EXIT)" >> $LOG
-        FAIL=1
-    fi
+    [ "$MEETING_DONE" = "1" ] || echo "$(date): Meeting $MID NOT published this run" >> $LOG
 
 done <<< "$NEEDS_ARTICLES"
 

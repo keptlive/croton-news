@@ -105,11 +105,14 @@ meeting_date = row[1] if row else data.get('date','')
 # scope to transcript chunks only — an unscoped DELETE was wiping the
 # minutes and article chunks for the doc on every re-enrichment
 db.execute('DELETE FROM chunks WHERE doc_id = ? AND doc_type = ?', (event_id, 'transcript'))
+import re as _re
+# never drop vote responses — mover/seconder attribution was being lost
+_vote_re = _re.compile(r'(aye|nay|second|so moved|opposed|all in favor|abstain|motion carries)', _re.I)
 idx = 0
 for u in data.get('utterances', []):
     text = u.get('text','').strip()
-    if len(text) < 30:
-        continue  # Skip tiny chunks
+    if len(text) < 30 and not _vote_re.search(text):
+        continue  # Skip tiny chunks (but keep votes)
     db.execute('INSERT INTO chunks (doc_id, doc_type, chunk_index, content, speaker, committee, date, start_time, end_time, char_count) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
         (event_id, 'transcript', idx, text, u.get('speaker','Unknown'), committee, meeting_date, u.get('start',0), u.get('end',0), len(text)))
     idx += 1
@@ -121,9 +124,9 @@ print(f'Re-ingested {idx} chunks for {event_id} (committee: {committee})')
             echo "$(date): WARNING: $FILE enrichment failed (no output file)" >> $LOG
         fi
 
-        # Stamp attempt count on the croton master copy (survives the next
-        # run's sync) so non-converging transcripts stop re-enriching daily
-        $SSH $CROTON "python3 -c \"
+        # Stamp attempt count only when the agent produced output — API-outage
+        # failures (529s) must not consume the 3-attempt budget
+        [ -f "$ENRICHED" ] && $SSH $CROTON "python3 -c \"
 import json
 p = '/opt/croton-news/rag/transcripts/${FILE}'
 d = json.load(open(p))
