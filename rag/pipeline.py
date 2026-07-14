@@ -908,28 +908,13 @@ def transcribe_video(event_id):
     # Build keyterm list from entities DB for proper noun recognition
     import sqlite3 as _sql
     _rag_path = os.path.join(os.path.dirname(__file__), "rag.db")
-    # Curated terms FIRST — the old code appended these after 279 entity
-    # names sorted alphabetically then sliced [:100], so nothing past "G"
-    # (Luntz, Slippen, Nachtaler...) nor any curated term was ever sent.
-    _keyterms = [
-        "Croton-on-Hudson", "Croton-Harmon", "Croton Point", "CHUFSD",
-        "Senasqua", "Gouveia", "Harckham", "Luposello", "Pracademic",
-        "Cortlandt", "Truesdale", "Scenic Drive", "Van Wyck",
-        "Pierre Van Cortlandt", "PVC", "Ossining", "Harmon",
-    ]
+    # Shared keyterm builder (curated + minutes-harvested + entities) —
+    # single source of truth in retranscribe.py
     try:
-        _edb = _sql.connect(_rag_path)
-        # most-mentioned real people first; 2+ words filters junk first names
-        _rows = _edb.execute(
-            "SELECT name FROM entities WHERE type='person' AND name LIKE '% %' "
-            "AND mention_count >= 2 ORDER BY mention_count DESC"
-        ).fetchall()
-        for r in _rows:
-            if r[0] not in _keyterms:
-                _keyterms.append(r[0])
-        _edb.close()
+        from retranscribe import build_keyterms as _bk
+        _keyterms = _bk()
     except Exception:
-        pass
+        _keyterms = ["Croton-on-Hudson", "Croton-Harmon", "Cortlandt"]
 
     # Known Deepgram mishearings → corrections (applied server-side before output)
     _replacements = [

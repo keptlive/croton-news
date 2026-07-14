@@ -1550,7 +1550,8 @@ def entities_index():
     show_all = request.args.get("all") == "1"
     min_mentions = 1 if show_all else 3
     entities = db.execute("""
-        SELECT name, type, slug, mention_count, metadata_json FROM entities
+        SELECT name, type, slug, mention_count, metadata_json,
+               COALESCE(verified, 0) as verified FROM entities
         WHERE type != 'meeting' AND mention_count >= ?
         ORDER BY mention_count DESC
     """, (min_mentions,)).fetchall()
@@ -2261,6 +2262,66 @@ def api_toggle_tag(photo_id):
 
     tag = db.execute("SELECT color FROM tags WHERE id = ?", (tag_id,)).fetchone()
     return jsonify({"ok": True, "color": tag["color"] if tag else "#6b7280"})
+
+
+@app.route("/api/entity-suggest", methods=["POST"])
+def api_entity_suggest():
+    """Reader-suggested spelling correction for an unverified entity.
+
+    Suggestions are queued (tips.db) and emailed to the editor for manual
+    review — never applied automatically (we can't afford published errors,
+    and that includes crowd-sourced ones)."""
+    if request.form.get("website"):  # honeypot
+        return render_template_string(
+            "<p>Thanks!</p><a href='javascript:history.back()'>Back</a>")
+    slug = (request.form.get("slug") or "").strip()[:120]
+    suggested = (request.form.get("suggested") or "").strip()[:120]
+    note = (request.form.get("note") or "").strip()[:300]
+    if not slug or not suggested or len(suggested) < 2:
+        abort(400)
+
+    db = get_rag_db()
+    entity = db.execute("SELECT name FROM entities WHERE slug = ?", (slug,)).fetchone()
+    if not entity:
+        abort(404)
+
+    import sqlite3 as _sql
+    ip = request.remote_addr or ""
+    tdb = _sql.connect(os.path.join(BASE_DIR, "tips.db"))
+    tdb.execute("""CREATE TABLE IF NOT EXISTS entity_suggestions (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        created_at TEXT DEFAULT (datetime('now')),
+        slug TEXT, current_name TEXT, suggested TEXT, note TEXT, ip TEXT,
+        status TEXT DEFAULT 'new')""")
+    recent = tdb.execute(
+        "SELECT COUNT(*) FROM entity_suggestions WHERE ip = ? "
+        "AND created_at > datetime('now','-1 hour')", (ip,)).fetchone()[0]
+    if recent >= 5:
+        tdb.close()
+        abort(429)
+    tdb.execute(
+        "INSERT INTO entity_suggestions (slug, current_name, suggested, note, ip) "
+        "VALUES (?,?,?,?,?)", (slug, entity["name"], suggested, note, ip))
+    tdb.commit()
+    tdb.close()
+
+    try:
+        send_email(
+            os.environ.get("ALERT_EMAIL", "bpmatt@gmail.com"),
+            f"[croton.news] spelling suggestion: {entity['name']} → {suggested}",
+            f"Entity: {entity['name']} (/entity/{slug})\n"
+            f"Suggested spelling: {suggested}\n"
+            f"Reader note: {note or '(none)'}\n\n"
+            f"Review and apply manually: UPDATE entities SET name='...', "
+            f"verified=1 WHERE slug='{slug}'; (plus chunks/speaker cleanup if needed)")
+    except Exception:
+        pass
+
+    return render_template_string(
+        "<!doctype html><meta charset='utf-8'><body style='font-family:sans-serif;"
+        "max-width:480px;margin:80px auto;text-align:center'>"
+        "<h2>Thank you!</h2><p>Your spelling suggestion was sent to the editor "
+        "for verification.</p><a href='/entity/{{ s }}'>&larr; Back</a></body>", s=slug)
 
 
 @app.route("/api/comments", methods=["POST"])

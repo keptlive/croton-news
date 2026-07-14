@@ -37,8 +37,24 @@
 
 {% block content %}
 <div class="section-head" style="margin-bottom:8px">
-  <h1 class="section-title">{{ entity.name }}</h1>
+  <h1 class="section-title">{{ entity.name }}{% if entity.type == 'person' and not entity.verified %} <span style="font-size:0.5em;color:var(--ink-muted);font-weight:400;vertical-align:middle" title="This spelling comes from automated transcription and has not been verified against official records">(sp?)</span>{% endif %}</h1>
 </div>
+
+{% if entity.type == 'person' and not entity.verified %}
+<div style="background:var(--paper-warm);border:1px solid var(--rule);border-radius:8px;padding:12px 16px;margin-bottom:16px;font-size:13px;font-family:var(--sans);color:var(--ink-secondary)">
+  This name comes from automated meeting transcription and we could not verify its spelling
+  against official minutes or agendas. Know the correct spelling?
+  <form method="POST" action="/api/entity-suggest" style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
+    <input type="hidden" name="slug" value="{{ entity.slug }}">
+    <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;height:0;width:0;opacity:0">
+    <input type="text" name="suggested" required maxlength="120" placeholder="Correct spelling"
+           style="flex:1;min-width:180px;padding:7px 10px;border:1px solid var(--rule);border-radius:6px;font-size:13px;background:var(--paper)">
+    <input type="text" name="note" maxlength="300" placeholder="How do you know? (optional)"
+           style="flex:2;min-width:220px;padding:7px 10px;border:1px solid var(--rule);border-radius:6px;font-size:13px;background:var(--paper)">
+    <button type="submit" style="padding:7px 16px;border:1px solid var(--accent);background:var(--accent);color:#fff;border-radius:6px;font-size:13px;cursor:pointer">Suggest correction</button>
+  </form>
+</div>
+{% endif %}
 
 <div style="display:flex;gap:12px;align-items:center;margin-bottom:24px;flex-wrap:wrap">
   <span class="story-badge" style="background:{% if entity.type == 'person' %}var(--accent){% elif entity.type == 'location' %}var(--green-nature){% elif entity.type == 'organization' %}var(--blue-civic){% else %}var(--ink-muted){% endif %}">{{ entity.type|capitalize }}</span>

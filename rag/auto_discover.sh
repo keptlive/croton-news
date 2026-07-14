@@ -53,6 +53,9 @@ stage gen-summaries   "$PY" gen_summaries.py
 #  freshly ingested chunks are invisible to keyword AND vector search)
 stage ingest-minutes  "$PY" ingest_minutes.py
 stage embed-new       "$PY" embeddings.py
+# entity spellings re-verified against minutes/agendas/packets daily;
+# unverified people show "(sp?)" + a reader-correction form on the site
+stage verify-entities "$PY" verify_entities.py
 
 echo "$(date '+%F %T'): === DAILY PIPELINE COMPLETE (fail=$FAIL) ===" >> "$LOG"
 exit $FAIL

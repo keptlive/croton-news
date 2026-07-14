@@ -60,7 +60,7 @@
   <a href="/entity/{{ e.slug }}" style="display:inline-block;padding:5px 12px;background:var(--paper-card);border:1px solid var(--rule);border-radius:2px;font-size:13px;color:var(--ink-secondary);text-decoration:none;transition:all 0.15s"
      onmouseover="this.style.borderColor='var(--accent)';this.style.color='var(--accent)'"
      onmouseout="this.style.borderColor='var(--rule)';this.style.color='var(--ink-secondary)'"
-     {% if e.metadata and e.metadata.role %}title="{{ e.metadata.role }}"{% endif %}>{{ e.name }}{% if e.metadata and e.metadata.role %} <span style="font-size:10px;color:var(--ink-faint);font-style:italic">{{ e.metadata.role }}</span>{% endif %}{% if e.mention_count > 3 %} <span style="font-size:10px;color:var(--ink-faint)">({{ e.mention_count }})</span>{% endif %}</a>
+     {% if e.metadata and e.metadata.role %}title="{{ e.metadata.role }}"{% endif %}>{{ e.name }}{% if e.type == 'person' and not e.verified %} <span style="font-size:10px;color:var(--ink-muted)" title="spelling unverified — from automated transcription">(sp?)</span>{% endif %}{% if e.metadata and e.metadata.role %} <span style="font-size:10px;color:var(--ink-faint);font-style:italic">{{ e.metadata.role }}</span>{% endif %}{% if e.mention_count > 3 %} <span style="font-size:10px;color:var(--ink-faint)">({{ e.mention_count }})</span>{% endif %}</a>
   {% endfor %}
 </div>
 {% endfor %}

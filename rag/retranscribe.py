@@ -47,7 +47,28 @@ def build_keyterms():
         "Pierre Van Cortlandt", "PVC", "Ossining", "Harmon",
     ]
     try:
-        db = sqlite3.connect(RAG_DB)
+        import re as _re
+        from collections import Counter
+        db = sqlite3.connect(f"file:{RAG_DB}?mode=ro", uri=True)
+        # 1) names from official MINUTES (authoritative spellings — the
+        # entities table is built from garbled transcripts, so names Deepgram
+        # never heard right, e.g. Wetherbee/Pfrang, are missing there)
+        _stop = {"Board", "Village", "School", "District", "Meeting", "Motion",
+                 "Chairman", "Chairperson", "Trustee", "Mayor", "Public",
+                 "Regular", "Special", "Work", "Session", "New", "York",
+                 "Absent", "Present", "Action", "Roll", "Call", "The"}
+        counts = Counter()
+        for (mt,) in db.execute(
+                "SELECT minutes_text FROM meetings WHERE minutes_text IS NOT NULL "
+                "AND date >= date('now','-180 day')"):
+            for m in _re.finditer(r"\b([A-Z][a-z]{2,})\s+([A-Z][a-z]{2,})\b", mt or ""):
+                if m.group(1) in _stop or m.group(2) in _stop:
+                    continue
+                counts[f"{m.group(1)} {m.group(2)}"] += 1
+        for name, c in counts.most_common(60):
+            if c >= 2 and name not in keyterms:
+                keyterms.append(name)
+        # 2) then entities by mention count
         rows = db.execute(
             "SELECT name FROM entities WHERE type='person' AND name LIKE '% %' "
             "AND mention_count >= 2 ORDER BY mention_count DESC"
