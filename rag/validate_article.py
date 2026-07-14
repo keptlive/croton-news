@@ -167,14 +167,13 @@ def extract_person_names(text):
         pre = text[max(0, mm.start() - 6):mm.start()]
         if mm.start() == 0 or re.search(r"(^|[.!?:\n]|[-•*#]\s*|\d+\.\s*)\s*$", pre):
             continue
-        # both tokens must precede a lowercase continuation or punctuation to
-        # look like prose; "Seven Faculty Members" style Title-Case runs are
-        # headings/bullets, not names
-        post = text[mm.end():mm.end() + 2]
-        if post[:1] == " " and text[mm.end() + 1:mm.end() + 2].isupper():
-            nxt = re.match(r"\s+([A-Z][a-z]+)", text[mm.end():])
-            if nxt and _base_token(nxt.group(1)) in NON_PERSON:
-                continue
+        # skip bigrams inside Title-Case runs of 3+ words ("Cameras Will
+        # Bring", "Any Bird, Pigeons Count" — quoted headlines/headings, not
+        # names). A real flagged name is followed by lowercase prose
+        # ("Brendan Walker recommended...") and still fires.
+        nxt = re.match(r"[,:;\s]+([A-Z][a-z]+)", text[mm.end():])
+        if nxt:
+            continue
         names.add(f"{first} {last}")
     return names
 
