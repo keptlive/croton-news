@@ -127,6 +127,25 @@ YouTube auto-captions are unreliable for proper nouns, abbreviations, and speake
 3. If captions and minutes disagree, **the minutes win**.
 4. For school-district meetings, verify people and roles against Board of Education minutes, not village government rosters.
 
+### Step 5c: MANDATORY attribution self-check (before saving)
+
+For EVERY quote you attributed to a named person, verify it mechanically —
+do not trust your memory of who said it. Run one query per quote:
+
+```python
+# for each {{quote:T}} attributed to NAME:
+row = db.execute("SELECT speaker, content FROM chunks WHERE doc_id=? AND doc_type='transcript' "
+                 "AND start_time <= ? AND end_time >= ? LIMIT 1", (event_id, T, T)).fetchone()
+# row["speaker"] surname MUST match your attributed NAME; if it doesn't,
+# fix the attribution or de-attribute. Multiple trustees often speak within
+# seconds of each other — proximity is not attribution.
+```
+
+The publish gate runs this exact check and will BLOCK the article on any
+mismatch (a draft was blocked for attributing trustee Slippen's remark to
+the mayor — the transcript label was right there). Thirty seconds of
+queries beats a 25-minute rejected pass.
+
 ### Step 6: Save output
 
 Write the file with Python `json.dump(data, f, ensure_ascii=False, indent=2)` — never by hand-formatting the JSON — so newlines inside strings are properly escaped. Downstream validation uses strict JSON parsing and will reject files with raw line breaks inside string values.
