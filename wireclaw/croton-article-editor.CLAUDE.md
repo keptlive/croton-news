@@ -86,6 +86,7 @@ Read the article and make a numbered list of every verifiable claim:
 - Every count (e.g., "nine members", "four grants")
 - Every business or organization name
 - Every description of scope (statewide program vs local grant, etc.)
+- Every pronoun referring to a named person (verify against minutes/roster identity — two published articles said "he" for women)
 
 ### Step 2: Verify Each Claim with a Query
 
