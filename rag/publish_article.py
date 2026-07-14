@@ -72,17 +72,20 @@ def publish(json_path, meeting_id, article_model, force=False):
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 
+    # Always overwrite summaries — keeping the old ones when the new JSON
+    # omits them let a retracted article's fabricated summary ("Filamina
+    # Vogel", "$106.7M") survive its own replacement (2026-07-14).
     db.execute("""UPDATE meetings SET
         headline = ?,
-        quick_summary = CASE WHEN ? != '' THEN ? ELSE quick_summary END,
-        complete_summary = CASE WHEN ? != '' THEN ? ELSE complete_summary END,
+        quick_summary = NULLIF(?, ''),
+        complete_summary = NULLIF(?, ''),
         article = ?,
         article_model = ?,
         article_generated_at = ?
         WHERE id = ?""",
         (headline,
-         quick_summary, quick_summary,
-         key_actions, key_actions,
+         quick_summary,
+         key_actions,
          article, article_model, now, meeting_id))
     db.commit()
     db.close()
