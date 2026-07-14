@@ -53,7 +53,7 @@ chmod 644 /root/croton-bot/data/rag.db
 # invisible to the old has_transcript=1 filter; the writer prompt already
 # supports minutes-based sourcing, and substantial minutes >2000 chars are
 # article-worthy)
-NEEDS_ARTICLES=$($SSH $CROTON "sqlite3 /opt/croton-news/rag/rag.db \"SELECT id, date, committee FROM meetings WHERE (has_transcript = 1 OR length(COALESCE(minutes_text,'')) > 2000) AND (article IS NULL OR article = '') AND date > '2026-01-01' AND date <= date('now') ORDER BY date DESC LIMIT 5;\"" 2>/dev/null)
+NEEDS_ARTICLES=$($SSH $CROTON "sqlite3 /opt/croton-news/rag/rag.db \"SELECT id, date, committee FROM meetings WHERE (has_transcript = 1 OR length(COALESCE(minutes_text,'')) > 2000) AND ((article IS NULL OR article = '') OR COALESCE(needs_rewrite,0) = 1) AND date > '2026-01-01' AND date <= date('now') ORDER BY date DESC LIMIT 5;\"" 2>/dev/null)
 
 if [ -z "$NEEDS_ARTICLES" ]; then
     echo "$(date): No meetings need articles" >> $LOG

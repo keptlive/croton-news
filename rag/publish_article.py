@@ -81,7 +81,8 @@ def publish(json_path, meeting_id, article_model, force=False):
         complete_summary = NULLIF(?, ''),
         article = ?,
         article_model = ?,
-        article_generated_at = ?
+        article_generated_at = ?,
+        needs_rewrite = 0
         WHERE id = ?""",
         (headline,
          quick_summary,
