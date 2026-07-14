@@ -366,11 +366,22 @@ def transcribe_with_deepgram(video_id, video_info=None):
 
     # Upload to Deepgram — full analysis
     print(f"  Transcribing with Deepgram Nova 3 (full analysis)...")
-    params = "&".join([
+    param_list = [
         "model=nova-3", "diarize=true", "utterances=true", "smart_format=true",
-        "language=en", "sentiment=true", "topics=true", "detect_language=true",
+        "language=en", "sentiment=true", "topics=true",
         "paragraphs=true", "summarize=v2",
-    ])
+    ]
+    # keyterm/replacement boosting (proper nouns were uncorrected on this path)
+    try:
+        import urllib.parse as _up
+        from retranscribe import build_keyterms, build_replacements
+        for _kt in build_keyterms():
+            param_list.append(f"keyterm={_up.quote(_kt)}")
+        for _wrong, _correct in build_replacements():
+            param_list.append(f"replace={_up.quote(_wrong)}:{_up.quote(_correct)}")
+    except Exception as _e:
+        print(f"  keyterm build failed ({_e}) — transcribing without boosting")
+    params = "&".join(param_list)
     url = f"{DEEPGRAM_URL}?{params}"
 
     with open(audio_path, "rb") as f:

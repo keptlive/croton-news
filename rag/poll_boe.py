@@ -20,6 +20,7 @@ import re
 import sqlite3
 import subprocess
 import sys
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
@@ -155,11 +156,23 @@ def transcribe_audio(video_id, audio_path):
         return None
 
     log(f"  Transcribing with Deepgram Nova 3...")
-    params = "&".join([
+    param_list = [
         "model=nova-3", "diarize=true", "utterances=true", "smart_format=true",
         "language=en", "sentiment=true", "topics=true",
         "paragraphs=true", "summarize=v2",
-    ])
+    ]
+    # same keyterm/replacement boosting as the main pipeline (proper nouns
+    # were previously uncorrected on the BOE path)
+    try:
+        from retranscribe import build_keyterms, build_replacements
+        for kt in build_keyterms():
+            param_list.append(f"keyterm={urllib.parse.quote(kt)}")
+        for wrong, correct in build_replacements():
+            param_list.append(
+                f"replace={urllib.parse.quote(wrong)}:{urllib.parse.quote(correct)}")
+    except Exception as e:
+        log(f"  keyterm build failed ({e}) — transcribing without boosting")
+    params = "&".join(param_list)
     url = f"{DEEPGRAM_URL}?{params}"
 
     with open(audio_path, "rb") as f:
@@ -400,18 +413,25 @@ def process_video(db, video_id, write_article=False):
         date = parse_meeting_date(title)
         log(f"  {title} ({date})")
 
-        # Try 1: youtube-transcript-api (auto-captions, no download needed)
-        result = fetch_youtube_captions(video_id)
-
-        # Try 2: Download audio + Deepgram transcription (if captions unavailable)
-        audio_path = None
-        if not result:
-            log(f"  Falling back to audio download + Deepgram...")
-            audio_path = download_youtube_audio(video_id)
-            if not audio_path:
-                log(f"  Audio download failed — skipping")
-                return False
+        # Try 1: audio + Deepgram (diarized, keyterm-corrected). Captions have
+        # NO speaker identity and heavy garbling — the 2026-07-14 audit found
+        # caption-based articles fabricating names/figures ("Brendan Walker",
+        # $106.7M) that diarized transcripts don't produce. Audio route works
+        # via WireClaw VPS yt-dlp with cookies.
+        audio_path = download_youtube_audio(video_id)
+        result = None
+        if audio_path:
             result = transcribe_audio(video_id, audio_path)
+        else:
+            log(f"  Audio download failed — trying captions...")
+
+        # Try 2 (last resort): youtube-transcript-api auto-captions
+        if not result:
+            log(f"  Falling back to auto-captions (no diarization)...")
+            result = fetch_youtube_captions(video_id)
+        if not result:
+            log(f"  No audio and no captions — skipping")
+            return False
 
         if not result or not result["utterances"]:
             log(f"  No transcript available")

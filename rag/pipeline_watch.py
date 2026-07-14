@@ -181,6 +181,38 @@ def check_content():
     db.close()
 
 
+def check_article_quality():
+    """Run the publish-gate validator over recently published articles.
+
+    The gate blocks new publishes, but this catches anything that slipped
+    in via --force, manual edits, or pre-gate publishes."""
+    db = sqlite3.connect(f"file:{RAG_DB}?mode=ro", uri=True)
+    db.row_factory = sqlite3.Row
+    recent = db.execute(
+        "SELECT id FROM meetings WHERE article IS NOT NULL AND article != '' "
+        "AND date >= date('now','-14 day')").fetchall()
+    db.close()
+    bad = []
+    for r in recent:
+        try:
+            out = subprocess.run(
+                [os.path.join(BASE, "venv", "bin", "python"),
+                 os.path.join(BASE, "rag", "validate_article.py"),
+                 "--published", str(r["id"])],
+                capture_output=True, text=True, timeout=120)
+            if out.returncode == 2:
+                n = out.stdout.count("[")
+                bad.append(f"#{r['id']} ({n} violation(s))")
+        except Exception:
+            pass
+    if bad:
+        problems.append(
+            "published article(s) failing the quality gate: " + ", ".join(bad)
+            + " — reports in rag/validation/")
+    else:
+        notes.append(f"article quality gate: {len(recent)} recent article(s) clean")
+
+
 def check_boe_pending():
     """New BOE videos on CHUFSD YouTube that aren't in the DB yet.
 
@@ -274,7 +306,7 @@ def check_disk():
 def main():
     dry = "--dry-run" in sys.argv
     for fn in (check_jobs, check_content, check_boe_pending, check_agendas,
-               check_site, check_backups, check_disk):
+               check_site, check_backups, check_disk, check_article_quality):
         try:
             fn()
         except Exception as e:  # noqa: BLE001 — one broken check must not kill the watcher

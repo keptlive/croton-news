@@ -80,6 +80,27 @@ Logs: `/var/log/croton-pipeline.log` (daily pipeline stages),
 `/var/log/croton-jobs/*.log` (per-job), `/var/log/croton-watch.log`
 (watchdog), `/var/log/croton-notify.log` (mailer fallback). Logrotate weekly.
 
+## Publish Gate (article quality)
+
+Every article publish runs through a deterministic validator before touching
+the DB — `rag/validate_article.py`, called inside `rag/publish_article.py`:
+
+- quote attribution must match the transcript speaker at the `{{quote:T}}` timestamp
+- quoted strings (≥6 words) must appear verbatim in the transcript
+- person names must have provenance in transcript/minutes/agenda/packets/entities
+- dollar figures must appear in a source document (1% rounding tolerance)
+- caption transcripts (all "Unknown Speaker"): named attributions need minutes support
+
+On violation: publish exits 3, nothing is published, and the report is saved
+to `rag/validation/article-<id>-report.json` for the writer's retry.
+`--force` bypasses (manual use only). Check a published article by hand:
+`venv/bin/python rag/validate_article.py --published <meeting_id>`.
+The daily watchdog also validates all articles from the last 14 days.
+
+Born from a 2026-07-14 cross-committee fact-check that found published
+articles naming the wrong dissenter on a 4-1 vote, quoting a person who
+wasn't at the meeting, and citing a fabricated $106.7M budget figure.
+
 ## Reliability & Alerting
 
 - `rag/notify.py SUBJECT BODY` — send an alert email (SMTP creds in `.env`,
@@ -97,8 +118,8 @@ YouTube and some services block VPS IPs. These scripts run from the phone (Termu
 
 | Script | Purpose |
 |--------|---------|
-| `~/bin/boe-fetch` | Fetch YouTube auto-captions for BOE meetings via `youtube-transcript-api` |
-| `~/bin/boarddocs-fetch` | Fetch BoardDocs agendas/minutes (alternative to VPS proxy route) |
+| `~/bin/boe-fetch` | Fetch YouTube auto-captions for BOE meetings — **last resort only**: captions have no speaker identity and heavy garbling. Prefer the audio route (poll_boe.py downloads via WireClaw yt-dlp → Deepgram diarized), which is now tried first automatically. |
+| `~/bin/boarddocs-fetch` | Fetch BoardDocs agendas/minutes (alternative to VPS proxy route). After fetching, run `boarddocs.py sync-local` on the VPS to load minutes into the DB (the 7:15 cron does this automatically). |
 
 The `/status` page at croton.news/status flags when phone relay actions are needed.
 
