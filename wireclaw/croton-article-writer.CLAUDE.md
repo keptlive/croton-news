@@ -127,6 +127,15 @@ YouTube auto-captions are unreliable for proper nouns, abbreviations, and speake
 3. If captions and minutes disagree, **the minutes win**.
 4. For school-district meetings, verify people and roles against Board of Education minutes, not village government rosters.
 
+### Step 5a2: NEVER source from prior articles
+
+Chunks with doc_type='article' are PRIOR AI OUTPUT — including old articles
+that contained fabricated quotes. Quoting them recycles those fabrications
+(this happened: a rewrite resurrected the exact gap-filled quotes the
+original was retracted for). Your ONLY quotable sources are doc_type
+'transcript' and 'minutes' chunks, minutes_text, agenda_json, and
+packet_pdfs. Always filter: `WHERE doc_type IN ('transcript','minutes')`.
+
 ### Step 5c: MANDATORY attribution self-check (before saving)
 
 For EVERY quote you attributed to a named person, verify it mechanically —
