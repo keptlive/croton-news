@@ -279,11 +279,22 @@ def validate(data, meeting_id, db):
                 window = [x for x in neighbors(chunks, c) if named(x["speaker"])]
                 if window and not any(
                         surname(attrib) == surname(x["speaker"]) for x in window):
-                    speakers_here = ", ".join(sorted({x["speaker"] for x in window}))
-                    violations.append({
-                        "type": "quote-attribution",
-                        "detail": f"quote at t={ts} attributed to '{attrib}' but transcript "
-                                  f"speaker(s) there: {speakers_here}"})
+                    # single-token speaker labels ("Ralph") carry no surname —
+                    # fall back to minutes/agenda support for the attributed
+                    # name (minutes confirmed "Ralph Rossi"; label was just
+                    # first-name-only). Multi-token labels stay strict.
+                    single_token_window = all(
+                        len((x["speaker"] or "").split()) == 1 for x in window)
+                    auth_norm = normalize(minutes + " " + agenda + " " + packet_text)
+                    if single_token_window and surname(attrib) and re.search(
+                            r"\b" + re.escape(surname(attrib)) + r"\b", auth_norm):
+                        pass  # authoritative support for the attribution
+                    else:
+                        speakers_here = ", ".join(sorted({x["speaker"] for x in window}))
+                        violations.append({
+                            "type": "quote-attribution",
+                            "detail": f"quote at t={ts} attributed to '{attrib}' but transcript "
+                                      f"speaker(s) there: {speakers_here}"})
 
     # ── 5: person-name provenance ───────────────────────────────
     # headline excluded: Title-Case headline words pair into fake bigrams
