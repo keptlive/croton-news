@@ -75,3 +75,7 @@ backups/
 # never commit secrets
 secrets.env
 .env
+
+# runtime artifacts
+rag/validation/
+rag/.alerts/

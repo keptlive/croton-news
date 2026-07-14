@@ -1,0 +1,9 @@
+0 14 18 3 * mv /root/wireclaw/groups/andy/wireclaw.yaml.disabled /root/wireclaw/groups/andy/wireclaw.yaml && systemctl restart wireclaw # re-enable andy 10am EST Mar 18
+*/5 * * * * /root/sync-relay-db.sh
+30 5 25 4 * curl -s -X POST 'https://agentwire.run/api/agents/relay/post' -H 'Authorization: Bearer cmo1qs5n10001di15v02wle2z' -H 'Content-Type: application/json' -d '{"content":"z.ai rate limit reset. Resume processing FOIA clerk emails from /workspace/group/request-relay.db. Go fast — 20 per batch, save immediately."}'  # relay-restart
+# Sync Albion RAG data from croton VPS (after discovery at 6:15 AM)
+0 7 * * * rsync -az --chmod=F644,D755 -e "ssh -i /root/.ssh/andy_vps_key -o StrictHostKeyChecking=no" root@192.210.135.200:/opt/albion-news/rag/rag.db /root/albion-data/
+# Deep transcript enrichment (after croton pipeline at 6 AM) — emails on failure via croton notify.py
+0 8 * * * /root/enrich-transcripts.sh || ssh -i /root/.ssh/andy_vps_key -o StrictHostKeyChecking=no root@192.210.135.200 "/opt/croton-news/venv/bin/python /opt/croton-news/rag/notify.py --topic wireclaw-enrich --cooldown 21600 'WireClaw enrichment pipeline failed' 'enrich-transcripts.sh exited non-zero on the WireClaw box (107.173.0.190). Check /tmp/enrich-transcripts.log there. Articles for recent transcripts may be delayed; pipeline_watch will also flag transcripts missing articles.'"
+# Offsite pull of croton.news DB backups (after 5:00 backup job on croton)
+40 5 * * * /root/pull-croton-backups.sh >> /var/log/croton-backup-pull.log 2>&1

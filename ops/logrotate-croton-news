@@ -1,0 +1,7 @@
+/var/log/croton-*.log /var/log/croton-jobs/*.log {
+    weekly
+    rotate 8
+    compress
+    missingok
+    notifempty
+}

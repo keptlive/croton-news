@@ -1,0 +1,23 @@
+
+
+
+
+# albion.news - discover + process new minutes (daily 6:15 AM)
+15 6 * * * /opt/albion-news/rag/auto_discover.sh
+
+# cranberry.news - discover + process new meetings (daily 6:30 AM)
+30 6 * * * /opt/cranberry-news/rag/auto_discover.sh
+
+
+# clayny.news - discover + process new minutes (daily 6:45 AM)
+45 6 * * * /opt/clay-news/rag/auto_discover.sh
+
+# ── croton.news pipeline (all wrapped via run_job.sh → job_runs.db + failure emails) ──
+0 3 * * 0 /opt/croton-news/cleanup_videos.sh
+0 5 * * * /opt/croton-news/rag/run_job.sh db-backup -- /opt/croton-news/rag/backup_db.sh
+0 6 * * * /opt/croton-news/rag/run_job.sh daily-pipeline -- /opt/croton-news/rag/auto_discover.sh
+15 7 * * * /opt/croton-news/rag/run_job.sh boarddocs-sync "cd /opt/croton-news/rag && ../venv/bin/python boarddocs.py sync" -- bash -c "/opt/croton-news/venv/bin/python /opt/croton-news/rag/boarddocs.py sync; /opt/croton-news/venv/bin/python /opt/croton-news/rag/boarddocs.py sync-local"
+30 7 * * * /opt/croton-news/rag/run_job.sh boe-poll "cd /opt/croton-news/rag && ../venv/bin/python poll_boe.py --write" -- /opt/croton-news/venv/bin/python /opt/croton-news/rag/poll_boe.py --write
+5 * * * * /opt/croton-news/rag/run_job.sh upcoming-agendas -- /opt/croton-news/venv/bin/python /opt/croton-news/rag/auto_pipeline.py
+0 */6 * * * /opt/croton-news/rag/run_job.sh scrapers -- /opt/croton-news/run_scrapers.sh
+0 9 * * * /opt/croton-news/venv/bin/python /opt/croton-news/rag/pipeline_watch.py >> /var/log/croton-watch.log 2>&1

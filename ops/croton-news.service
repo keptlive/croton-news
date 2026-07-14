@@ -1,0 +1,18 @@
+[Unit]
+Description=Croton News (gunicorn)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/croton-news
+# Secrets live in secrets.env (mode 600) — rotate values there, then systemctl restart
+EnvironmentFile=/opt/croton-news/secrets.env  # (600, NOT in git)
+ExecStart=/opt/croton-news/venv/bin/gunicorn -w 1 --threads 8     -b 127.0.0.1:3260 --timeout 90 --graceful-timeout 30     --error-logfile - app:app
+Restart=always
+RestartSec=5
+# box has 3.3G total; embeddings cache makes the app RSS-heavy
+MemoryHigh=1600M
+MemoryMax=2G
+
+[Install]
+WantedBy=multi-user.target
