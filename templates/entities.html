@@ -43,7 +43,13 @@
 </div>
 
 <p style="color:var(--ink-secondary);margin-bottom:24px;font-family:var(--serif-body);font-size:15px">
-  {{ entity_count }} entities extracted from {{ meeting_count }} meetings — everyone who spoke, every place mentioned, every topic discussed.
+  {% if show_all %}
+  All {{ entity_count }} entities extracted from {{ meeting_count }} meetings — everyone who spoke, every place mentioned, every topic discussed.
+  <a href="/entities" style="color:var(--accent)">Show frequently mentioned only</a>
+  {% else %}
+  {{ entity_count }} frequently mentioned entities (3+ mentions) from {{ meeting_count }} meetings.
+  <a href="/entities?all=1" style="color:var(--accent)">Show all {{ total_entities }} entities</a>
+  {% endif %}
 </p>
 
 {% for type_name, type_entities in grouped.items() %}

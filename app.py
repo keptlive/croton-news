@@ -781,14 +781,23 @@ def meetings_index():
             ORDER BY date DESC
         """).fetchall()
 
+    # split recurring committees from one-off events (forums, webinars) so
+    # the filter sidebar reads as a committee list, not a grab-bag (audit U8)
     committee_counts = {}
+    one_off_counts = {}
     for row in rag.execute("SELECT committee, COUNT(*) as c FROM meetings GROUP BY committee ORDER BY c DESC"):
-        committee_counts[row["committee"]] = row["c"]
+        name, c = row["committee"], row["c"]
+        if name in COMMITTEES or c >= 2:
+            committee_counts[name] = c
+        else:
+            one_off_counts[name] = c
 
     return render_template("meetings.html",
         meetings=mtgs,
         committee_filter=committee_filter,
+        active_committee=SLUG_TO_COMMITTEE.get(committee_filter, committee_filter),
         committee_counts=committee_counts,
+        one_off_counts=one_off_counts,
     )
 
 
@@ -1515,11 +1524,17 @@ def editorial_policy_page():
 @app.route("/entities")
 def entities_index():
     db = get_rag_db()
+    # default view: entities mentioned 3+ times (136 of 1,015) — the full
+    # list was a 548KB page of one-mention noise (audit U7). ?all=1 shows all.
+    show_all = request.args.get("all") == "1"
+    min_mentions = 1 if show_all else 3
     entities = db.execute("""
         SELECT name, type, slug, mention_count, metadata_json FROM entities
-        WHERE type != 'meeting'
+        WHERE type != 'meeting' AND mention_count >= ?
         ORDER BY mention_count DESC
-    """).fetchall()
+    """, (min_mentions,)).fetchall()
+    total_entities = db.execute(
+        "SELECT COUNT(*) FROM entities WHERE type != 'meeting'").fetchone()[0]
 
     grouped = {}
     for e in entities:
@@ -1546,6 +1561,8 @@ def entities_index():
         grouped=grouped,
         entity_count=entity_count,
         meeting_count=meeting_count,
+        show_all=show_all,
+        total_entities=total_entities,
     )
 
 
@@ -2066,6 +2083,8 @@ def gallery():
     category = request.args.get("category", "")
     sort = request.args.get("sort", "quality")
     search = request.args.get("search", "").strip()
+    page = max(request.args.get("page", 1, type=int) or 1, 1)
+    PER_PAGE = 120  # unpaginated page was 4.8MB HTML / 1,179 imgs (audit U7)
 
     # Sort mapping
     order_map = {
@@ -2088,6 +2107,12 @@ def gallery():
 
     where_sql = " AND ".join(where)
 
+    filtered_total = db.execute(
+        f"SELECT COUNT(*) FROM photos p WHERE {where_sql}", params
+    ).fetchone()[0]
+    total_pages = max((filtered_total + PER_PAGE - 1) // PER_PAGE, 1)
+    page = min(page, total_pages)
+
     photos = db.execute(f"""
         SELECT p.*, GROUP_CONCAT(pt.tag_id) as tag_ids
         FROM photos p
@@ -2095,7 +2120,8 @@ def gallery():
         WHERE {where_sql}
         GROUP BY p.id
         ORDER BY p.section, {order}
-    """, params).fetchall()
+        LIMIT ? OFFSET ?
+    """, params + [PER_PAGE, (page - 1) * PER_PAGE]).fetchall()
 
     # Get all tags
     all_tags = db.execute("SELECT * FROM tags ORDER BY name").fetchall()
@@ -2156,6 +2182,9 @@ def gallery():
         featured_count=featured_count,
         tagged_count=tagged_count,
         photo_data_json=json.dumps(photo_data),
+        page=page,
+        total_pages=total_pages,
+        filtered_total=filtered_total,
     )
 
 

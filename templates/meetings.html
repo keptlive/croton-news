@@ -212,13 +212,28 @@
     </div>
     {% for name, count in committee_counts.items() %}
     <div class="sb-row">
-      <a href="/meetings?committee={{ committees.get(name, {}).get('slug', '') }}"
-         style="{% if committee_filter == name %}font-weight:700;color:var(--accent){% endif %}">
+      {# fall back to the full name when no slug exists — an empty ?committee= was a broken filter (audit U8) #}
+      <a href="/meetings?committee={{ committees.get(name, {}).get('slug') or name|urlencode }}"
+         style="{% if active_committee == name %}font-weight:700;color:var(--accent){% endif %}">
         {{ committees.get(name, {}).get('icon', '') }} {{ name }}
       </a>
       <span class="sb-count">{{ count }}</span>
     </div>
     {% endfor %}
+    {% if one_off_counts %}
+    <div class="sb-row" style="margin-top:10px;border-top:1px solid var(--rule);padding-top:8px">
+      <span style="font-size:11px;font-weight:700;color:var(--ink-muted);letter-spacing:0.05em">ONE-OFF EVENTS</span>
+    </div>
+    {% for name, count in one_off_counts.items() %}
+    <div class="sb-row">
+      <a href="/meetings?committee={{ name|urlencode }}"
+         style="font-size:12.5px;{% if active_committee == name %}font-weight:700;color:var(--accent){% endif %}">
+        {{ name }}
+      </a>
+      <span class="sb-count">{{ count }}</span>
+    </div>
+    {% endfor %}
+    {% endif %}
   </div>
 </aside>
 

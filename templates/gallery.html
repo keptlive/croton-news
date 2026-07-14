@@ -326,6 +326,19 @@
 </p>
 {% endif %}
 
+{% if total_pages > 1 %}
+<nav style="display:flex;justify-content:center;align-items:center;gap:16px;margin:36px 0;font-family:var(--sans);font-size:14px" aria-label="Gallery pages">
+  {% set qs = '&category=' ~ (category|urlencode) ~ '&sort=' ~ (sort|urlencode) ~ ('&search=' ~ (search|urlencode) if search else '') %}
+  {% if page > 1 %}
+  <a href="?page={{ page - 1 }}{{ qs }}" style="padding:8px 16px;border:1px solid var(--rule);border-radius:var(--radius);text-decoration:none;color:var(--ink)">&larr; Previous</a>
+  {% endif %}
+  <span style="color:var(--ink-muted)">Page {{ page }} of {{ total_pages }} &middot; {{ filtered_total }} photos</span>
+  {% if page < total_pages %}
+  <a href="?page={{ page + 1 }}{{ qs }}" style="padding:8px 16px;border:1px solid var(--rule);border-radius:var(--radius);text-decoration:none;color:var(--ink)">Next &rarr;</a>
+  {% endif %}
+</nav>
+{% endif %}
+
 <!-- Lightbox -->
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
   <span class="lightbox-close" onclick="closeLightbox()">&times;</span>

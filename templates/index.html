@@ -117,7 +117,10 @@
         <span class="coming-up-date">{{ months.get(parts[1], parts[1]) }} {{ parts[2]|int }}</span>
         <span class="coming-up-committee" style="background:{{ committees.get(m.committee, {}).get('color', '#8b2500') }}">{{ m.committee }}</span>
       </div>
-      <div class="coming-up-title">{{ m.headline or m.committee }}</div>
+      {# only show a title when it adds info — repeating the committee badge as the title read as a bug (audit U9) #}
+      {% if m.headline and m.headline != m.committee %}
+      <div class="coming-up-title">{{ m.headline }}</div>
+      {% endif %}
       {% if m.quick_summary %}
       <div class="coming-up-summary">{{ m.quick_summary[:120] }}{% if m.quick_summary|length > 120 %}...{% endif %}</div>
       {% endif %}
