@@ -176,6 +176,39 @@ def extract_person_names(text):
     return names
 
 
+def _is_subset_sum(target, values, max_size=6, node_budget=200000):
+    """True if target equals the sum of 2..max_size distinct source values.
+
+    Bounded DFS over all candidate values (an earlier top-N-by-size cap
+    dropped small components like the $2,000 in a $43,000 donations total).
+    """
+    vals = sorted({round(v, 2) for v in values if 0 < v <= target + 0.01},
+                  reverse=True)
+    n = len(vals)
+    budget = [node_budget]
+
+    def dfs(i, remaining, depth):
+        if budget[0] <= 0:
+            return False
+        budget[0] -= 1
+        if abs(remaining) < 0.01:
+            return depth >= 2
+        if depth == max_size or i >= n:
+            return False
+        # prune: even the largest remaining values can't cover the gap
+        if vals[i] * (max_size - depth) < remaining - 0.01:
+            return False
+        for j in range(i, n):
+            v = vals[j]
+            if v > remaining + 0.01:
+                continue
+            if dfs(j + 1, remaining - v, depth + 1):
+                return True
+        return False
+
+    return dfs(0, float(target), 0)
+
+
 def validate(data, meeting_id, db):
     violations = []
     article = data.get("article") or ""
@@ -304,6 +337,11 @@ def validate(data, meeting_id, db):
             continue
         # rounding tolerance: "about $702,000" vs source $702,461 (≤1%)
         if value and any(sv and abs(value - sv) / max(sv, 1) <= 0.01 for sv in src_values):
+            continue
+        # verified-sum tolerance: totals of source figures are legitimate
+        # journalism ("accepted $43,000 in donations" = 25k+10k+6k+2k). Only
+        # exact subset sums count — still deterministic.
+        if value and _is_subset_sum(value, src_values):
             continue
         violations.append({
             "type": "dollar-provenance",
