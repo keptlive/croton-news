@@ -1,26 +1,5 @@
 {
   "meeting_id": 137,
-  "passed": false,
-  "violations": [
-    {
-      "type": "quote-attribution",
-      "detail": "quote at t=382 attributed to 'Rossi' but transcript speaker(s) there: Geoffrey Haynes, Ralph"
-    },
-    {
-      "type": "quote-verbatim",
-      "detail": "quoted text not found verbatim in transcript: \"A small Jersey barrier of sort at the end right before the fence, planted in front of it w...\" — quote exactly or paraphrase without quotation marks"
-    },
-    {
-      "type": "quote-verbatim",
-      "detail": "quoted text not found verbatim in transcript: \"a really, really nice upgrade to that property....\" — quote exactly or paraphrase without quotation marks"
-    },
-    {
-      "type": "quote-attribution",
-      "detail": "quote at t=1729 attributed to 'Cortez' but transcript speaker(s) there: Geoffrey Haynes, Robert Sherwood"
-    },
-    {
-      "type": "name-provenance",
-      "detail": "person name 'Glass Andrew' appears in no source (transcript/minutes/agenda/packets/entities)"
-    }
-  ]
+  "passed": true,
+  "violations": []
 }

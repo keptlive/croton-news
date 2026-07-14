@@ -307,14 +307,37 @@ def validate(data, meeting_id, db):
     name_zone = " ".join([article, quick, complete])
     check_zone = " ".join([headline, article, quick, complete])
     known_norm = normalize(" ".join(entity_names) + " " + " ".join(all_named_speakers))
+    # This meeting's own record — spoken content, its minutes, agenda, packets.
+    # Names supported only OUTSIDE it (speaker labels, entities, committee-wide
+    # minutes) get extra scrutiny below.
+    own_record_norm = normalize(" ".join([transcript_text, minutes, agenda, packet_text]))
+    label_norms = {normalize(s) for s in all_named_speakers}
     for name in sorted(extract_person_names(name_zone)):
         n = normalize(name)
-        # full-name match required: a surname-only fallback would wave
-        # through wrong first names ("Brendan Walker" for Stephen Walker)
-        if n in source_norm or n in known_norm:
-            continue
         # agendas often list names surname-first ("Shoenholt, Lisa")
         rev = " ".join(reversed(n.split()))
+        # full-name match required: a surname-only fallback would wave
+        # through wrong first names ("Brendan Walker" for Stephen Walker)
+        if n in own_record_norm or rev in own_record_norm:
+            continue
+        if n in label_norms or rev in label_norms:
+            # The name exists ONLY as an enricher speaker label — an assertion
+            # about who was in the room, not evidence. When this meeting has
+            # minutes, the label must be corroborated by them. Real failure:
+            # the Village Attorney changed 2026-06-24; a stale roster labeled
+            # the new attorney's voice "Joshua Subin" and the name (absent
+            # from audio AND minutes) reached a published article.
+            if minutes:
+                violations.append({
+                    "type": "name-attendance",
+                    "detail": f"'{name}' appears only as a transcript speaker label and "
+                              "is not corroborated by this meeting's minutes — likely a "
+                              "misidentified voice; use the person's role or generic "
+                              "attribution instead"})
+                continue
+            continue  # no minutes yet — label accepted, watchdog re-checks later
+        if n in source_norm or n in known_norm:
+            continue
         if rev in source_norm or rev in known_norm:
             continue
         violations.append({

@@ -1,10 +1,5 @@
 {
   "meeting_id": 143,
-  "passed": false,
-  "violations": [
-    {
-      "type": "quote-verbatim",
-      "detail": "quoted text not found verbatim in transcript: \"I feel like this felt like the horse is out of the barn,...\" — quote exactly or paraphrase without quotation marks"
-    }
-  ]
+  "passed": true,
+  "violations": []
 }

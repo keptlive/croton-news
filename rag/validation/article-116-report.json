@@ -1,30 +1,5 @@
 {
   "meeting_id": 116,
-  "passed": false,
-  "violations": [
-    {
-      "type": "name-provenance",
-      "detail": "person name 'Amanda Frioli' appears in no source (transcript/minutes/agenda/packets/entities)"
-    },
-    {
-      "type": "name-provenance",
-      "detail": "person name 'Butler Rowland' appears in no source (transcript/minutes/agenda/packets/entities)"
-    },
-    {
-      "type": "name-provenance",
-      "detail": "person name 'Chan Zuckerberg' appears in no source (transcript/minutes/agenda/packets/entities)"
-    },
-    {
-      "type": "name-provenance",
-      "detail": "person name 'Filamina Vogel' appears in no source (transcript/minutes/agenda/packets/entities)"
-    },
-    {
-      "type": "name-provenance",
-      "detail": "person name 'Jesse Landeau' appears in no source (transcript/minutes/agenda/packets/entities)"
-    },
-    {
-      "type": "dollar-provenance",
-      "detail": "figure '$106.7 million' appears in no source document"
-    }
-  ]
+  "passed": true,
+  "violations": []
 }

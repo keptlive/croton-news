@@ -4,27 +4,19 @@
   "violations": [
     {
       "type": "quote-verbatim",
-      "detail": "quoted text not found verbatim in transcript: \"Last week, there was a change in the wording of the traffic violations bureau versus parki...\" — quote exactly or paraphrase without quotation marks"
+      "detail": "quoted text not found verbatim in transcript: \"This does not mean that we are definitely going to vote to do this,...\" — quote exactly or paraphrase without quotation marks"
     },
     {
       "type": "quote-verbatim",
-      "detail": "quoted text not found verbatim in transcript: \"This does not mean that we are definitely going to vote to do this....\" — quote exactly or paraphrase without quotation marks"
-    },
-    {
-      "type": "quote-verbatim",
-      "detail": "quoted text not found verbatim in transcript: \"I would just ask for us to consider, like, a comprehensive camera strategy approach,...\" — quote exactly or paraphrase without quotation marks"
+      "detail": "quoted text not found verbatim in transcript: \"If we can help, you know, you attract great talent to support you and the village on a app...\" — quote exactly or paraphrase without quotation marks"
     },
     {
       "type": "quote-attribution",
-      "detail": "quote at t=344 attributed to 'Brian Pugh' but transcript speaker(s) there: Nora Nicholson, Stacey Nachtaler"
+      "detail": "quote at t=703 attributed to 'Nicholson' but transcript speaker(s) there: Brian Pugh, Len Simon, Maria Slippen, Stacey Nachtaler"
     },
     {
       "type": "quote-verbatim",
-      "detail": "quoted text not found verbatim in transcript: \"Not only will Prakademic Partners help us with the recruiting, they're also gonna help us ...\" — quote exactly or paraphrase without quotation marks"
-    },
-    {
-      "type": "name-provenance",
-      "detail": "person name 'Both Nicholson' appears in no source (transcript/minutes/agenda/packets/entities)"
+      "detail": "quoted text not found verbatim in transcript: \"I think that $15,000 is a lot of money, especially for what the salary of this position is...\" — quote exactly or paraphrase without quotation marks"
     },
     {
       "type": "name-provenance",

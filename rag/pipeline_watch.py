@@ -213,6 +213,36 @@ def check_article_quality():
         notes.append(f"article quality gate: {len(recent)} recent article(s) clean")
 
 
+def check_speaker_labels():
+    """Deterministic speaker-label vs minutes-attendance sweep.
+
+    Enrichment usually runs before a meeting's minutes exist, so a stale
+    roster can label a voice with someone who wasn't in the room (the
+    Village Attorney changed 2026-06-24; 'Joshua Subin' reached a published
+    article). Once minutes arrive, this re-checks every label against them
+    so mismatches surface within a day instead of never."""
+    try:
+        out = subprocess.run(
+            [os.path.join(BASE, "venv", "bin", "python"),
+             os.path.join(BASE, "rag", "validate_speakers.py"),
+             "--recent", "45"],
+            capture_output=True, text=True, timeout=300)
+        data = json.loads(out.stdout)
+        v = data.get("violations", [])
+        if v:
+            names = sorted({f"#{x['meeting_id']}:{x['speaker']}" for x in v})
+            problems.append(
+                f"{len(v)} transcript speaker label(s) not corroborated by meeting "
+                "records (misidentified voices reach articles as wrong names): "
+                + ", ".join(names[:12])
+                + (" …" if len(names) > 12 else "")
+                + " — triage: relabel per minutes or re-enrich, see rag/validate_speakers.py")
+        else:
+            notes.append(f"speaker labels: {data.get('checked', 0)} recent transcript(s) clean")
+    except Exception as e:
+        problems.append(f"speaker-label sweep failed to run: {e}")
+
+
 def check_boe_pending():
     """New BOE videos on CHUFSD YouTube that aren't in the DB yet.
 
@@ -386,7 +416,8 @@ def main():
     dry = "--dry-run" in sys.argv
     for fn in (check_jobs, check_content, check_boe_pending, check_agendas,
                check_calendar, check_packet_completeness, check_photo_refs,
-               check_site, check_backups, check_disk, check_article_quality):
+               check_site, check_backups, check_disk, check_article_quality,
+               check_speaker_labels):
         try:
             fn()
         except Exception as e:  # noqa: BLE001 — one broken check must not kill the watcher

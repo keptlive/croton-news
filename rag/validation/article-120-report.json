@@ -4,18 +4,6 @@
   "violations": [
     {
       "type": "name-provenance",
-      "detail": "person name 'But Bartzik's' appears in no source (transcript/minutes/agenda/packets/entities)"
-    },
-    {
-      "type": "name-provenance",
-      "detail": "person name 'Chair Rob' appears in no source (transcript/minutes/agenda/packets/entities)"
-    },
-    {
-      "type": "name-provenance",
-      "detail": "person name 'Chair Robert' appears in no source (transcript/minutes/agenda/packets/entities)"
-    },
-    {
-      "type": "name-provenance",
       "detail": "person name 'Richard Bartzik' appears in no source (transcript/minutes/agenda/packets/entities)"
     }
   ]

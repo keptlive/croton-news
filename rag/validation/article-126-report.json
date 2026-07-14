@@ -1,10 +1,5 @@
 {
   "meeting_id": 126,
-  "passed": false,
-  "violations": [
-    {
-      "type": "name-provenance",
-      "detail": "person name 'Vicente Fernandez' appears in no source (transcript/minutes/agenda/packets/entities)"
-    }
-  ]
+  "passed": true,
+  "violations": []
 }

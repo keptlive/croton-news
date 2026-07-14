@@ -171,7 +171,8 @@ Use these exact name spellings. Cross-reference against source transcript.
 | Paula DiSanto | Village Clerk |
 | John Nikitopoulos | Police Chief |
 | Frank Balbi | Superintendent of Public Works |
-| Joshua Subin | Village Attorney (McCarthyFingar) |
+| Lori Lee Dickson | Village Attorney (SINCE June 24, 2026) |
+| Joshua Subin | FORMER Village Attorney (through June 23, 2026 — do NOT call him the Village Attorney for meetings after that date) |
 | Genette Toone | Village Treasurer |
 | Rachel Sibrizzi | Deputy Village Treasurer |
 | Ron Wegner | Assistant Village Engineer |

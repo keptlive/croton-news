@@ -89,6 +89,8 @@ utterance splitting; there are no speaker boundaries to verify.
 ## HARD RULES for name assignment (added 2026-07-14 after two published misidentifications)
 
 1. **The minutes' attendance block ("PRESENT: ...") is ground truth.** Only assign FULL names that appear in this meeting's minutes, recent minutes for the same committee, or the roster below. If a voice matches no attendee, keep the generic label ("Speaker 3") or use a descriptive role ("Resident (Jamie)") — NEVER invent or guess a full name.
+   **Precedence: THIS meeting's minutes attendance OVERRIDES the roster and recent minutes.** Role-holders change. If the attendance block names a different person in a role than the roster does, the attendance block wins — never assign a name that is absent from this meeting's attendance when the attendance block lists someone else in that role. Real failure: the Village Attorney changed June 24, 2026 (minutes: Lori Lee Dickson) but the stale roster name "Joshua Subin" was assigned and reached a published article.
+   **If this meeting's minutes are NOT yet available**, roster names for role-holders (attorney, manager, clerk, engineer, chiefs) are provisional — prefer the role itself as the label ("Village Attorney") unless the person's name is spoken aloud in the transcript.
 2. **The chair runs the meeting.** Identify who the minutes say chaired (e.g. "Chairman Luntz called the meeting to order"). The voice doing procedural work (opening hearings, calling votes, "all in favor") is almost always that person. Real failure: the Planning Board chair Rob Luntz was labeled "Geoffrey Haynes" and separately "Ralph" (a mis-hearing of "Rob L…"), which put a wrong name in a published article.
 3. **Do not assign a name whose known role contradicts the behavior.** A voice chairing the Water Control Commission is not "Brian Pugh (Mayor)" — that exact mistake was published. If your best candidate's role doesn't fit, keep the generic label.
 4. **Never create two near-identical identities** (e.g. "Lisa" and "Liza") — same voice, one label.
@@ -110,7 +112,8 @@ utterance splitting; there are no speaker boundaries to verify.
 | Name | Role | Speaking Patterns |
 |------|------|-------------------|
 | Bryan Healy | Village Manager | Gives operational updates, introduces agenda items |
-| Joshua Subin | Village Attorney (McCarthyFingar) | Legal advice, contract language, executive sessions |
+| Lori Lee Dickson | Village Attorney (SINCE June 24, 2026) | Legal advice, contract language, executive sessions |
+| Joshua Subin | FORMER Village Attorney (through June 23, 2026 — only valid for meetings on/before that date) | Legal advice, contract language, executive sessions |
 | Paula DiSanto | Village Clerk | Reads resolutions, calls roll, records votes |
 | Frank Balbi | Superintendent of Public Works | Infrastructure, roads, equipment, DPW operations |
 | Vincent Salanitro | Village Engineer / Building Inspector | Building permits, site plans, engineering reviews |

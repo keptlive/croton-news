@@ -12,19 +12,7 @@
     },
     {
       "type": "quote-verbatim",
-      "detail": "quoted text not found verbatim in transcript: \"honestly looked like a photoshopped fake car, but it was real....\" — quote exactly or paraphrase without quotation marks"
-    },
-    {
-      "type": "quote-attribution",
-      "detail": "quote at t=319 attributed to 'Nikitopoulos' but transcript speaker(s) there: Brian Pugh, Nicholas DiMarco"
-    },
-    {
-      "type": "quote-verbatim",
       "detail": "quoted text not found verbatim in transcript: \"Hopefully, this will be the end of our issues,...\" — quote exactly or paraphrase without quotation marks"
-    },
-    {
-      "type": "name-provenance",
-      "detail": "person name 'Detective DiTomasso' appears in no source (transcript/minutes/agenda/packets/entities)"
     }
   ]
 }

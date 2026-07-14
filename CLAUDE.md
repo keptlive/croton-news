@@ -88,6 +88,12 @@ the DB — `rag/validate_article.py`, called inside `rag/publish_article.py`:
 - quote attribution must match the transcript speaker at the `{{quote:T}}` timestamp
 - quoted strings (≥6 words) must appear verbatim in the transcript
 - person names must have provenance in transcript/minutes/agenda/packets/entities
+- names that exist ONLY as enricher speaker labels must be corroborated by
+  this meeting's minutes when minutes exist (`name-attendance`) — a label is
+  an enricher assertion, not evidence. Incident: the Village Attorney changed
+  2026-06-24 (Subin → Lori Lee Dickson); a stale roster labeled the new
+  attorney's voice "Joshua Subin" and the name, absent from both audio and
+  minutes, reached a published article.
 - dollar figures must appear in a source document (1% rounding tolerance)
 - caption transcripts (all "Unknown Speaker"): named attributions need minutes support
 
@@ -112,6 +118,20 @@ text — check `article_model LIKE 'wireclaw-agent-%'` coverage), this ban
 can be relaxed to allow prior articles as context-not-quotable background.
 When queueing an article for rewrite (`article=NULL`), also delete its
 `doc_type='article'` chunks so the echo is physically impossible.
+
+**Speaker-label integrity** — `rag/validate_speakers.py`: deterministic
+check that every personal-name speaker label in a transcript is provable
+from the meeting record (minutes when present; else agenda / spoken content /
+120-day committee minutes / verified entities). `--meeting N`, `--event E`,
+`--recent DAYS`, `--fix` (relabels violators to "Unknown Speaker" in chunks
+AND the transcript JSON; FTS rebuilt — the FTS table indexes `speaker`).
+The daily watchdog sweeps the last 45 days (`check_speaker_labels`).
+Roster note: officials change — the enricher/writer/editor prompt rosters
+carry date ranges (Dickson since 2026-06-24, Subin through 2026-06-23) and
+the enricher rule is that THIS meeting's minutes attendance OVERRIDES the
+roster. Deepgram keyterms also harvest the attendance blocks of the 8 most
+recent minutes unconditionally so brand-new officials are recognizable
+(frequency ranking alone buried Dickson under months of Subin).
 
 ## Reliability & Alerting
 

@@ -57,6 +57,23 @@ def build_keyterms():
                  "Chairman", "Chairperson", "Trustee", "Mayor", "Public",
                  "Regular", "Special", "Work", "Session", "New", "York",
                  "Absent", "Present", "Action", "Roll", "Call", "The"}
+        # 1a) names from the ATTENDANCE blocks of the 8 most recent minutes,
+        # added unconditionally — these are the CURRENT officials. Frequency
+        # ranking alone buried a brand-new Village Attorney (Lori Lee Dickson,
+        # 2 mentions) under months of the departed one (2026-07-14).
+        for (mt,) in db.execute(
+                "SELECT minutes_text FROM meetings WHERE minutes_text IS NOT NULL "
+                "ORDER BY date DESC LIMIT 8"):
+            head = (mt or "")[:1500]
+            for m in _re.finditer(r"\b([A-Z][a-z]{2,})\s+([A-Z][a-z]{2,})(?:\s+([A-Z][a-z]{2,}))?\b", head):
+                if m.group(1) in _stop or m.group(2) in _stop:
+                    continue
+                parts = [m.group(1), m.group(2)]
+                if m.group(3) and m.group(3) not in _stop:
+                    parts.append(m.group(3))
+                name = " ".join(parts)
+                if name not in keyterms:
+                    keyterms.append(name)
         counts = Counter()
         for (mt,) in db.execute(
                 "SELECT minutes_text FROM meetings WHERE minutes_text IS NOT NULL "
