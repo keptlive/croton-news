@@ -1,14 +1,44 @@
 #!/usr/bin/env python3
 """Publish a WireClaw-generated article to the meetings database.
 
-Usage: python3 publish_article.py <json_path> <meeting_id> <article_model>
+Usage: python3 publish_article.py <json_path> <meeting_id> <article_model> [--force]
+
+Runs the deterministic publish gate (validate_article.py) first — quote
+attribution/verbatim checks, name and dollar-figure provenance. On
+violations: nothing is published, the report is saved to
+rag/validation/article-<id>-report.json, and exit code is 3 so the caller
+can retry the writer with the report as feedback. --force bypasses the
+gate (manual use only).
 """
-import json, sqlite3, sys
+import json, os, sqlite3, sys
 from datetime import datetime, timezone
 
-def publish(json_path, meeting_id, article_model):
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, BASE_DIR)
+
+
+def publish(json_path, meeting_id, article_model, force=False):
     with open(json_path) as f:
-        d = json.load(f)
+        d = json.loads(f.read(), strict=False)
+
+    # ── publish gate ──────────────────────────────────────────────
+    if not force:
+        from validate_article import validate, REPORT_DIR
+        vdb = sqlite3.connect(f"file:{os.path.join(BASE_DIR, 'rag.db')}?mode=ro", uri=True)
+        vdb.row_factory = sqlite3.Row
+        violations = validate(d, meeting_id, vdb)
+        vdb.close()
+        os.makedirs(REPORT_DIR, exist_ok=True)
+        report_path = os.path.join(REPORT_DIR, f"article-{meeting_id}-report.json")
+        with open(report_path, "w") as rf:
+            json.dump({"meeting_id": meeting_id, "passed": not violations,
+                       "violations": violations}, rf, indent=2, ensure_ascii=False)
+        if violations:
+            print(f"GATE BLOCKED: {len(violations)} violation(s) — not publishing. "
+                  f"Report: {report_path}", file=sys.stderr)
+            for v in violations:
+                print(f"  [{v['type']}] {v['detail']}", file=sys.stderr)
+            sys.exit(3)
 
     headline = d.get("headline", "").strip()
     article = d.get("article", "").strip()
@@ -60,7 +90,9 @@ def publish(json_path, meeting_id, article_model):
     print(f"Published: {headline[:60]} (model: {article_model})")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 4:
-        print(f"Usage: {sys.argv[0]} <json_path> <meeting_id> <article_model>", file=sys.stderr)
+    args = [a for a in sys.argv[1:] if a != "--force"]
+    force = "--force" in sys.argv
+    if len(args) != 3:
+        print(f"Usage: {sys.argv[0]} <json_path> <meeting_id> <article_model> [--force]", file=sys.stderr)
         sys.exit(1)
-    publish(sys.argv[1], int(sys.argv[2]), sys.argv[3])
+    publish(args[0], int(args[1]), args[2], force=force)

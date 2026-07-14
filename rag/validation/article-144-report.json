@@ -1,0 +1,42 @@
+{
+  "meeting_id": 144,
+  "passed": false,
+  "violations": [
+    {
+      "type": "quote-verbatim",
+      "detail": "quoted text not found verbatim in transcript: \"I think it's helpful to have that January 1 date rather than, say, doing it 90 days from w...\" — quote exactly or paraphrase without quotation marks"
+    },
+    {
+      "type": "quote-verbatim",
+      "detail": "quoted text not found verbatim in transcript: \"No intent to punish anybody above and beyond. No intent to forgive anybody above and beyon...\" — quote exactly or paraphrase without quotation marks"
+    },
+    {
+      "type": "quote-verbatim",
+      "detail": "quoted text not found verbatim in transcript: \"We got a tremendous amount of feedback on this topic from people all across the village, w...\" — quote exactly or paraphrase without quotation marks"
+    },
+    {
+      "type": "quote-verbatim",
+      "detail": "quoted text not found verbatim in transcript: \"I think this is a great way to get the ball rolling. We may have to make some adjustments ...\" — quote exactly or paraphrase without quotation marks"
+    },
+    {
+      "type": "quote-verbatim",
+      "detail": "quoted text not found verbatim in transcript: \"People go to retire, they try to claim, oh, I was a camp counselor for two years and they ...\" — quote exactly or paraphrase without quotation marks"
+    },
+    {
+      "type": "quote-verbatim",
+      "detail": "quoted text not found verbatim in transcript: \"Anything that we can do to strengthen our approach, and not pay for it, is a pretty good d...\" — quote exactly or paraphrase without quotation marks"
+    },
+    {
+      "type": "quote-verbatim",
+      "detail": "quoted text not found verbatim in transcript: \"We've got a bunch of big issues going on in our village with entities that really don't ha...\" — quote exactly or paraphrase without quotation marks"
+    },
+    {
+      "type": "name-provenance",
+      "detail": "person name 'Dickinson Municipal' appears in no source (transcript/minutes/agenda/packets/entities)"
+    },
+    {
+      "type": "name-provenance",
+      "detail": "person name 'Millie Verastugui' appears in no source (transcript/minutes/agenda/packets/entities)"
+    }
+  ]
+}

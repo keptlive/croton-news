@@ -24,10 +24,14 @@ chmod 644 /root/croton-bot/data/rag.db
 
 # 2. Find transcripts needing deep enrichment (generic 'Speaker N' or
 #    'Unknown Speaker' — the latter is what YouTube-caption BOE transcripts
-#    have, and they were previously never picked up at all)
+#    have, and they were previously never picked up at all).
+#    Newest meetings first, capped per run: widening the filter exposed a
+#    30-transcript backlog that would delay article writing by hours.
+ENRICH_BATCH_MAX=${ENRICH_BATCH_MAX:-6}
 NEEDS_WORK=$(python3 -c "
-import json, glob
-for f in sorted(glob.glob('${DATA}/transcripts/transcript-*.json')):
+import json, glob, os
+cands = []
+for f in glob.glob('${DATA}/transcripts/transcript-*.json'):
     try:
         d = json.load(open(f))
         utts = d.get('utterances', [])
@@ -38,15 +42,16 @@ for f in sorted(glob.glob('${DATA}/transcripts/transcript-*.json')):
             attempts = int(d.get('wireclaw_enrich_attempts', 0) or 0)
             if d.get('wireclaw_enriched'):
                 attempts = max(attempts, 1)
-            # Skip if nearly clean, or if we've tried 3+ times without
-            # converging (e.g. 1160 kept 76 unmappable voices and would
-            # otherwise re-enrich every day forever)
+            # Skip if nearly clean, or after 3 non-converging attempts
+            # (e.g. 1160 kept 76 unmappable voices — do not retry forever)
             if d.get('wireclaw_enriched') and generic <= 2:
                 continue
             if attempts >= 3:
                 continue
-            import os; print(os.path.basename(f))
+            cands.append((d.get('date') or '', os.path.basename(f)))
     except: pass
+for _, name in sorted(cands, reverse=True)[:${ENRICH_BATCH_MAX}]:
+    print(name)
 " 2>/dev/null)
 
 if [ -z "$NEEDS_WORK" ]; then

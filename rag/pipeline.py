@@ -908,23 +908,28 @@ def transcribe_video(event_id):
     # Build keyterm list from entities DB for proper noun recognition
     import sqlite3 as _sql
     _rag_path = os.path.join(os.path.dirname(__file__), "rag.db")
-    _keyterms = []
+    # Curated terms FIRST — the old code appended these after 279 entity
+    # names sorted alphabetically then sliced [:100], so nothing past "G"
+    # (Luntz, Slippen, Nachtaler...) nor any curated term was ever sent.
+    _keyterms = [
+        "Croton-on-Hudson", "Croton-Harmon", "Croton Point", "CHUFSD",
+        "Senasqua", "Gouveia", "Harckham", "Luposello", "Pracademic",
+        "Cortlandt", "Truesdale", "Scenic Drive", "Van Wyck",
+        "Pierre Van Cortlandt", "PVC", "Ossining", "Harmon",
+    ]
     try:
         _edb = _sql.connect(_rag_path)
+        # most-mentioned real people first; 2+ words filters junk first names
         _rows = _edb.execute(
-            "SELECT DISTINCT name FROM entities WHERE type='person' ORDER BY name"
+            "SELECT name FROM entities WHERE type='person' AND name LIKE '% %' "
+            "AND mention_count >= 2 ORDER BY mention_count DESC"
         ).fetchall()
-        _keyterms = [r[0] for r in _rows if len(r[0]) > 3]
+        for r in _rows:
+            if r[0] not in _keyterms:
+                _keyterms.append(r[0])
         _edb.close()
     except Exception:
         pass
-
-    # Add Croton-specific terms
-    _keyterms += [
-        "Croton-on-Hudson", "Croton-Harmon", "Croton Point",
-        "Senasqua", "Gouvea", "Harckham", "Luposello",
-        "Cortlandt", "Truesdale", "Scenic Drive",
-    ]
 
     # Known Deepgram mishearings → corrections (applied server-side before output)
     _replacements = [
@@ -934,12 +939,14 @@ def transcribe_video(event_id):
         ("Sabrizi", "Sibrizzi"), ("Jeanette Choon", "Genette Toone"),
         ("Cronin Point", "Croton Point"), ("Quotum Point", "Croton Point"),
         ("Sonosqua", "Senasqua"), ("Prakademic", "Pracademic"),
+        ("Slippin", "Slippen"), ("Groton", "Croton"),
+        ("Cortland", "Cortlandt"),
     ]
 
     base_params = [
-        "model=nova-3", "diarize_model=latest",
+        "model=nova-3", "diarize=true", "diarize_model=latest",
         "utterances=true", "smart_format=true",
-        "language=en", "sentiment=true", "topics=true", "detect_language=true",
+        "language=en", "sentiment=true", "topics=true",
         "paragraphs=true", "summarize=v2",
     ]
     # Add keyterms (up to 100 to stay within URL limits)

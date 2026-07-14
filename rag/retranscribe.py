@@ -33,25 +33,31 @@ def load_env():
                     os.environ.setdefault(key.strip(), val.strip())
 
 def build_keyterms():
-    """Build keyterm list from entities DB."""
-    keyterms = []
+    """Build keyterm list: curated terms first, then people by mention count.
+
+    Old version sorted 279 entity names alphabetically and sliced [:100]
+    with curated terms appended last — nothing past "G" (Luntz, Slippen,
+    Nachtaler) nor any curated term was ever actually sent to Deepgram.
+    """
+    keyterms = [
+        "Croton-on-Hudson", "Croton-Harmon", "Croton Point", "CHUFSD",
+        "Senasqua", "Gouveia", "Harckham", "Luposello", "Pracademic",
+        "Cortlandt", "Truesdale", "Scenic Drive", "Croton Point Avenue",
+        "Municipal Place", "South Riverside", "Quaker Bridge", "Van Wyck",
+        "Pierre Van Cortlandt", "PVC", "Ossining", "Harmon",
+    ]
     try:
         db = sqlite3.connect(RAG_DB)
         rows = db.execute(
-            "SELECT DISTINCT name FROM entities WHERE type='person' ORDER BY name"
+            "SELECT name FROM entities WHERE type='person' AND name LIKE '% %' "
+            "AND mention_count >= 2 ORDER BY mention_count DESC"
         ).fetchall()
-        keyterms = [r[0] for r in rows if len(r[0]) > 3]
+        for r in rows:
+            if r[0] not in keyterms:
+                keyterms.append(r[0])
         db.close()
     except Exception as e:
         print(f"  Warning: Could not load entities: {e}")
-
-    # Add Croton-specific terms
-    keyterms += [
-        "Croton-on-Hudson", "Croton-Harmon", "Croton Point",
-        "Senasqua", "Gouvea", "Harckham", "Luposello",
-        "Cortlandt", "Truesdale", "Scenic Drive", "Croton Point Avenue",
-        "Municipal Place", "South Riverside", "Quaker Bridge",
-    ]
     return keyterms[:100]  # URL length limit
 
 def build_replacements():
@@ -65,6 +71,7 @@ def build_replacements():
         ("Sonosqua", "Senasqua"), ("Prakademic", "Pracademic"),
         ("Cena Drive", "Scenic Drive"),
         ("Croton Harmon", "Croton-Harmon"),
+        ("Slippin", "Slippen"), ("Groton", "Croton"),
     ]
 
 def transcribe(video_path, event_id, api_key, keyterms, replacements):
@@ -134,6 +141,10 @@ def parse_deepgram(dg_result, event_id, meeting_info):
         "event_id": event_id,
         "title": meeting_info.get("committee", ""),
         "date": meeting_info.get("date", ""),
+        # required by enrich_transcript.py's gate — its absence made the
+        # proper-noun fix pass silently skip every retranscribed file
+        # ("Slippin" x38 in chunks despite NAME_FIXES having the fix)
+        "platform": "deepgram-nova-3",
         "utterances": utterances,
         "speaker_map": {},
         "full_text": full_text,

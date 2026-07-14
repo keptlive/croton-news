@@ -646,8 +646,12 @@ def enrich_transcript(path):
     with open(path) as f:
         data = json.load(f)
 
-    if data.get("platform") != "deepgram-nova-3":
-        print(f"  Skip {os.path.basename(path)} — not a Deepgram transcript")
+    # Only skip caption-based transcripts. The old exact-match gate
+    # (platform != "deepgram-nova-3") silently skipped every retranscribed
+    # file because retranscribe.py never wrote a platform key — the
+    # proper-noun fix pass ("Slippin"→"Slippen" etc.) never ran on them.
+    if data.get("platform") == "youtube" or not data.get("utterances"):
+        print(f"  Skip {os.path.basename(path)} — caption-based or no utterances")
         return False
 
     if data.get("enriched"):

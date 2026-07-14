@@ -169,10 +169,16 @@ def ingest_transcripts(db):
             continue
 
         chunk_count = 0
+        # vote-critical short utterances ("So moved." / "Second." / "Aye.")
+        # must survive the length filter — mover/seconder attribution was
+        # being dropped from RAG entirely (2026-07-14 transcription audit)
+        _vote_re = re.compile(
+            r"\b(aye|nay|second(ed)?|so moved|opposed?|all in favor|abstain(ed)?|motion carries)\b",
+            re.I)
         for i, turn in enumerate(turns):
             text = turn["text"].strip()
-            if not text or len(text) < 30:
-                continue  # Skip trivial utterances
+            if not text or (len(text) < 30 and not _vote_re.search(text)):
+                continue  # Skip trivial utterances (but never vote responses)
 
             # Resolve speaker name from speaker_map
             speaker = turn["speaker"]
