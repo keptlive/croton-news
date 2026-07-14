@@ -141,6 +141,14 @@ For any dollar amount that refers to a funding program:
 - Determine: Is this the total program size, or the amount available to Croton?
 - If the article conflates a statewide/federal program amount with what Croton could receive, this is an ERROR
 
+
+## Pronouns (added 2026-07-14 after two published "he" errors for women)
+
+Verify every pronoun against the person's identity in the minutes/roster
+(e.g. Dr. LAURA Dubak = she; Filomena DiMarco = she). If you cannot verify
+gender from an authoritative source, DO NOT use a pronoun — repeat the
+surname instead ("Dubak said"). Never infer gender from a role or voice.
+
 ## Officials Roster
 
 Use these exact name spellings. Cross-reference against source transcript.

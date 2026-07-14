@@ -147,6 +147,14 @@ Save the article as a JSON file to `/workspace/group/article-<meeting_id>.json`:
 
 Use the Write tool to save the file. Also output the full JSON in your response.
 
+
+## Pronouns (added 2026-07-14 after two published "he" errors for women)
+
+Verify every pronoun against the person's identity in the minutes/roster
+(e.g. Dr. LAURA Dubak = she; Filomena DiMarco = she). If you cannot verify
+gender from an authoritative source, DO NOT use a pronoun — repeat the
+surname instead ("Dubak said"). Never infer gender from a role or voice.
+
 ## Officials Roster
 
 ### Board of Trustees
