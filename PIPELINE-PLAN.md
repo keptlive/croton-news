@@ -87,6 +87,7 @@ json.dump it, or use save_output.py". Primary beneficiary is the enricher
 (59 heredoc writes, several malformed).
 
 ## Standing backlog (not from traces)
+- Fabrication-echo ban (writer may not source doc_type='article' chunks) is REVISABLE once all published articles are gate-verified — see CLAUDE.md § Publish Gate for the condition
 - packet_pdfs is nickname-keyed — attachment name collisions silently drop one PDF per collision (events 1174/1175 each lost 1 of ~38); re-key on source_url
 - scraped community news (data/croton.db, 1,679 items) is write-only — surface via /api/community-news + homepage section, or retire the 6-hour scrapers job
 - write_from_minutes.py path for pre-2026 BOE meetings (ids 103, 106) — must route through the publish gate before use

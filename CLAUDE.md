@@ -101,6 +101,18 @@ Born from a 2026-07-14 cross-committee fact-check that found published
 articles naming the wrong dissenter on a 4-1 vote, quoting a person who
 wasn't at the meeting, and citing a fabricated $106.7M budget figure.
 
+**Prior-article chunks are NOT source material.** `doc_type='article'`
+chunks exist for site search only; the writer/editor are prompted to source
+exclusively from `transcript`/`minutes` chunks, minutes_text, agenda_json,
+and packet_pdfs. Reason: article chunks are prior AI output, and a rewrite
+once resurrected the exact fabricated quotes its predecessor was retracted
+for ("fabrication echo"). REVISABLE: once every published article predates
+no further than the gate era (all article chunks derive from gate-verified
+text — check `article_model LIKE 'wireclaw-agent-%'` coverage), this ban
+can be relaxed to allow prior articles as context-not-quotable background.
+When queueing an article for rewrite (`article=NULL`), also delete its
+`doc_type='article'` chunks so the echo is physically impossible.
+
 ## Reliability & Alerting
 
 - `rag/notify.py SUBJECT BODY` — send an alert email (SMTP creds in `.env`,
