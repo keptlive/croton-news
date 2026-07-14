@@ -114,6 +114,14 @@ NAME_FIXES = {
     "Stefan Walker": "Stephen Walker",
     "McTaylor": "Meccariello",  # BoT Trustee
     "Slippin": "Slippen",       # BoT Trustee Maria Slippen
+    # kept in sync with the Deepgram replace list (retranscribe.py) — these
+    # were server-side-only, so old transcripts never got them (2026-07-14)
+    "Balby": "Balbi",           # DPW Superintendent Frank Balbi
+    "Thalby": "Balbi",
+    "Nach Taylor": "Nachtaler",
+    "Nachteller": "Nachtaler",
+    "Sabrizi": "Sibrizzi",
+    "Groton": "Croton",
     "T Town": "Teatown",        # Teatown area/road
     "t town": "Teatown",
 }
