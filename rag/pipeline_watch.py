@@ -272,8 +272,23 @@ def check_packet_completeness():
             "SELECT id, event_id, agenda_json FROM meetings "
             "WHERE agenda_json LIKE '%champds.com%.pdf%' "
             "AND date >= date('now','-45 day')").fetchall():
-        import re as _re
-        refs = len(set(_re.findall(r"champds\.com[^\"]+\.pdf", m["agenda_json"] or "")))
+        # count only ATTACHMENT urls (what the fetcher processes) — bare .pdf
+        # links inside description HTML are not fetchable packets
+        try:
+            agenda = json.loads(m["agenda_json"])
+        except Exception:
+            continue
+        urls = set()
+
+        def walk(items):
+            for it in items or []:
+                for att in it.get("attachments", []) or []:
+                    u = att.get("url") or ""
+                    if "champds.com" in u and u.lower().endswith(".pdf"):
+                        urls.add(u)
+                walk(it.get("children"))
+        walk(agenda)
+        refs = len(urls)
         rows = db.execute("SELECT COUNT(*) FROM packet_pdfs WHERE event_id=?",
                           (str(m["event_id"]),)).fetchone()[0]
         if refs > rows:
